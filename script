@@ -33,8 +33,8 @@
 #
 ##########################################################################
 # Portable Firefox OS X
-# Revision: 4.1.3
-# Modified by Erik T Ashfolk <atErik at Out Look dot com>
+# Revision: 4.1.4
+# Modified by Erik T Ashfolk <atErik at Out Look dot com> aka "atErik"
 #             ______ <______ at ________ dot ___>
 # to use Pashua dialog (instead of CocoaDialog) & new Platypus, etc
 # for 64bit macOSX (Catalina,...) compatibility.
@@ -77,15 +77,33 @@ userPrefBase="$HOME/$userPref/$appID/Profiles"
 userCacheBase="$HOME/Library/Caches"
 userCache="$userCacheBase/$appID"
 
-PA_userBase="$1/Contents/Resources"
+
+# PA_userBase="$1/Contents/Resources"
 # export PA_userBase
+# ========================================================
+# Code-lines contributed in StackOverflow.com by "Dave Dopson", is Modified by atErik
+# https://stackoverflow.com/questions/59895/
+# ========================================================
+SrcDir="${BASH_SOURCE[0]}";
+DirP="";
+# Resolve $SrcDir until the file is no longer a symlink
+while [ -h "$SrcDir" ] ; do
+	DirP="$( cd -P "$( dirname "$SrcDir" )" >/dev/null 2>&1 && pwd )"
+	SrcDir="$(readlink "$SrcDir")"
+	# if $SrcDir was a relative symlink, we need to resolve it relative to the path where the symlink file was located
+	[[ $SrcDir != /* ]] && SrcDir="$DirP/$SrcDir"
+done
+DirP="$( cd -P "$( dirname "$SrcDir" )" >/dev/null 2>&1 && pwd )"
+PA_userBase="$DirP"
+unset SrcDir DirP
+
 PA_userPref="$PA_userBase/profile"
 copy_pref="$PA_userBase/CopyPref_Done"
 
 CD="$PA_userBase/CocoaDialog.app/Contents/MacOS/CocoaDialog"
 # export CD
 # Added/Modified by atErik, to use Pashua (instead of CocoaDialog)
-PD="$PA_userBase/Pashua.app/Contents/MacOS/Pashua";
+PD="$PA_userBase/Pashua.app/Contents/MacOS/Pashua"
 # export PD
 
 appICON="$PA_userBase/appIcon.icns"
@@ -189,161 +207,161 @@ pashua_run() {
 # $4 optional "tooltip_img|tooltip_text|tooltip_okButton|tooltip_cancelButton", or specify "-" to show no-tooltip
 # ========================================================
 
-function CDokMsg {    # Modified by atErik : local, "--yes-cancel"/$3, tV/$4/tooltip
-    local tV=""
-    local conf="
-        # Set window title
-        *.title = $1
-        # show an image
-        imgOk.type = image
-        imgOk.x = 50
-        imgOk.y = 50
-        imgOk.maxwidth = 64
-        imgOk.path = $appICON
-        # Introductory text
-        txtOk.type = text
-        txtOk.default = $2
-        txtOk.height = 180
-        txtOk.width = 310
-        txtOk.x = 50
-        txtOk.y = 120
-        # Show an “Ok” general-button at default position
-        okB.type = button
-        okB.label = Ok
-        "
-    # we will not specify okB.x or okB.y in above,
-    # so that macOSX can place this general-button at-default position, left-bottom corner
-
-    if [ ! -z $3 ] ; then
-        if [ "$3" == "--yes-cancel" ] ; then
-            conf="$conf
-                # Add a “Cancel” button with default-label & show in default-positon
-                okCB.type = cancelbutton
-                "
-        fi;
-    fi;
-    if [ ! -z $4 ] ; then
-        if [ "$4 " != " " ] ; then
-            if [ "${4%%|*}" != "-" ] ; then
-                # tooltip msg for image
-                conf="$conf
-                    imgOk.tooltip = ${4%%|*}
-                    "
-            fi;
-            tV=${4#*|}
-            if [ "${tV%%|*}" != "-" ] ; then
-                # tooltip msg for text
-                conf="$conf
-                    txtOk.tooltip = ${tV%%|*}
-                    "
-            fi;
-            tV=${tV#*|}
-            if [ "${tV%%|*}" != "-" ] ; then
-                # tooltip msg for a button showing “Ok”
-                conf="$conf
-                    okB.tooltip = ${tV%%|*}
-                    "
-            fi;
-            if [ ! -z $3 ] ; then
-                if [ "$3" == "--yes-cancel" ] ; then
-                    tV=${tV#*|}
-                    if [ "${tV%%|*}" != "-" ] ; then
-                        # tooltip msg for a button showing “Cancel”/etc
-                        conf="$conf
-                            okCB.tooltip = ${tV%%|*}
-                            "
-                    fi;
-                fi;
-            fi;
-        fi;
-    fi;
-    beep
-    pashua_run "$conf" "$PA_userBase"
-    # beep
-    # "$CD" ok-msgbox  --icon-file "$appICON" \
-    # --text "$1" --informative-text "$2" "$3"
+function CDokMsg {	# Modified by atErik : local, "--yes-cancel"/$3, tV/$4/tooltip
+	local tV=""
+	local conf="
+		# Set window title
+		*.title = $1
+		# show an image
+		imgOk.type = image
+		imgOk.x = 50
+		imgOk.y = 50
+		imgOk.maxwidth = 64
+		imgOk.path = $appICON
+		# Introductory text
+		txtOk.type = text
+		txtOk.default = $2
+		txtOk.height = 180
+		txtOk.width = 310
+		txtOk.x = 50
+		txtOk.y = 120
+		# Show an “Ok” general-button at default position
+		okB.type = button
+		okB.label = Ok
+		"
+	# we will not specify okB.x or okB.y in above,
+	# so that macOSX can place this general-button at-default position, left-bottom corner
+	
+	if [ ! -z $3 ] ; then
+		if [ "$3" == "--yes-cancel" ] ; then
+			conf="$conf
+				# Add a “Cancel” button with default-label & show in default-positon
+				okCB.type = cancelbutton
+				"
+		fi;
+	fi;
+	if [ ! -z $4 ] ; then
+		if [ "$4 " != " " ] ; then
+			if [ "${4%%|*}" != "-" ] ; then
+				# tooltip msg for image
+				conf="$conf
+					imgOk.tooltip = ${4%%|*}
+					"
+			fi;
+			tV=${4#*|}
+			if [ "${tV%%|*}" != "-" ] ; then
+				# tooltip msg for text
+				conf="$conf
+					txtOk.tooltip = ${tV%%|*}
+					"
+			fi;
+			tV=${tV#*|}
+			if [ "${tV%%|*}" != "-" ] ; then
+				# tooltip msg for a button showing “Ok”
+				conf="$conf
+					okB.tooltip = ${tV%%|*}
+					"
+			fi;
+			if [ ! -z $3 ] ; then
+				if [ "$3" == "--yes-cancel" ] ; then
+					tV=${tV#*|}
+					if [ "${tV%%|*}" != "-" ] ; then
+						# tooltip msg for a button showing “Cancel”/etc
+						conf="$conf
+							okCB.tooltip = ${tV%%|*}
+							"
+					fi;
+				fi;
+			fi;
+		fi;
+	fi;
+	beep
+	pashua_run "$conf" "$PA_userBase"
+	# beep
+	# "$CD" ok-msgbox  --icon-file "$appICON" \
+	# --text "$1" --informative-text "$2" "$3"
 }
 
 function CDokMsgC {   # Modified by atErik : local, "--yes-cancel"/$3, tV/$4/tooltip
-    local tV=""
-    local conf="
-        # Set window title
-        *.title = $1
-        # show an image
-        imgOkC.type = image
-        imgOkC.x = 50
-        imgOkC.y = 50
-        imgOkC.maxwidth = 64
-        imgOkC.path = $cautionICON
-        # Introductory text
-        txtOkC.type = text
-        txtOkC.default = $2
-        txtOkC.height = 180
-        txtOkC.width = 310
-        txtOkC.x = 50
-        txtOkC.y = 120
-        # Show an “Ok” general-button at default position
-        bOkC.type = button
-        bOkC.label = Ok
-        "
-    # we will not specify okb.x or okb.y in above,
-    # so that macOSX can place this general-button at-default position, left-bottom corner
-
-    if [ ! -z $3 ] ; then
-        if [ "$3" == "--yes-cancel" ] ; then
-            conf="$conf
-                # Add a “Cancel” button with default-label & show in default-positon
-                cbOkC.type = cancelbutton
-                "
-        fi;
-    fi;
-    if [ ! -z $4 ] ; then
-        if [ "$4 " != " " ] ; then
-            if [ "${4%%|*}" != "-" ] ; then
-                # tooltip msg for image
-                conf="$conf
-                    imgOkC.tooltip = ${4%%|*}
-                    "
-            fi;
-            tV=${4#*|}
-            if [ "${tV%%|*}" != "-" ] ; then
-                # tooltip msg for text
-                conf="$conf
-                    txtOkC.tooltip = ${tV%%|*}
-                    "
-            fi;
-            tV=${tV#*|}
-            if [ "${tV%%|*}" != "-" ] ; then
-                # tooltip msg for a button showing “Ok”
-                conf="$conf
-                    bOkC.tooltip = ${tV%%|*}
-                    "
-            fi;
-            if [ ! -z $3 ] ; then
-                if [ "$3" == "--yes-cancel" ] ; then
-                    tV=${tV#*|}
-                    if [ "${tV%%|*}" != "-" ] ; then
-                        # tooltip msg for a button showing “Cancel”/etc
-                        conf="$conf
-                            cbOkC.tooltip = ${tV%%|*}
-                            "
-                    fi;
-                fi;
-            fi;
-        fi;
-    fi;
-    beep
-    pashua_run "$conf" "$PA_userBase"
-    # beep
-    # "$CD" ok-msgbox  --icon-file "$cautionICON" \
-    # --text "$1" --informative-text "$2" "$3"
+	local tV=""
+	local conf="
+		# Set window title
+		*.title = $1
+		# show an image
+		imgOkC.type = image
+		imgOkC.x = 50
+		imgOkC.y = 50
+		imgOkC.maxwidth = 64
+		imgOkC.path = $cautionICON
+		# Introductory text
+		txtOkC.type = text
+		txtOkC.default = $2
+		txtOkC.height = 180
+		txtOkC.width = 310
+		txtOkC.x = 50
+		txtOkC.y = 120
+		# Show an “Ok” general-button at default position
+		bOkC.type = button
+		bOkC.label = Ok
+		"
+	# we will not specify okb.x or okb.y in above,
+	# so that macOSX can place this general-button at-default position, left-bottom corner
+	
+	if [ ! -z $3 ] ; then
+		if [ "$3" == "--yes-cancel" ] ; then
+			conf="$conf
+				# Add a “Cancel” button with default-label & show in default-positon
+				cbOkC.type = cancelbutton
+				"
+		fi;
+	fi;
+	if [ ! -z $4 ] ; then
+		if [ "$4 " != " " ] ; then
+			if [ "${4%%|*}" != "-" ] ; then
+				# tooltip msg for image
+				conf="$conf
+					imgOkC.tooltip = ${4%%|*}
+					"
+			fi;
+			tV=${4#*|}
+			if [ "${tV%%|*}" != "-" ] ; then
+				# tooltip msg for text
+				conf="$conf
+					txtOkC.tooltip = ${tV%%|*}
+					"
+			fi;
+			tV=${tV#*|}
+			if [ "${tV%%|*}" != "-" ] ; then
+				# tooltip msg for a button showing “Ok”
+				conf="$conf
+					bOkC.tooltip = ${tV%%|*}
+					"
+			fi;
+			if [ ! -z $3 ] ; then
+				if [ "$3" == "--yes-cancel" ] ; then
+					tV=${tV#*|}
+					if [ "${tV%%|*}" != "-" ] ; then
+						# tooltip msg for a button showing “Cancel”/etc
+						conf="$conf
+							cbOkC.tooltip = ${tV%%|*}
+							"
+					fi;
+				fi;
+			fi;
+		fi;
+	fi;
+	beep
+	pashua_run "$conf" "$PA_userBase"
+	# beep
+	# "$CD" ok-msgbox  --icon-file "$cautionICON" \
+	# --text "$1" --informative-text "$2" "$3"
 }
 
 function beep {
-    /usr/bin/osascript << EOT
-    tell application "Finder"
-    beep
-    end tell
+	/usr/bin/osascript << EOT
+	tell application "Finder"
+	beep
+	end tell
 EOT
 }
 
@@ -363,161 +381,161 @@ EOT
 # ========================================================
 
 function PDbubble {   # Written by atErik, to use Pashua (instead of CocoaDialog)
-    # NOTES: The GUI elements are displayed in the order in which they appear in the config string.
-    #  The only exception to this rule are buttons: the default button is always in the lower right
-    #  corner of the window, the cancel button (if defined) is located left to the default button
-    #  and any other buttons will appear in the lower left corner, from left to right, in the order
-    #  they were defined.
-    local tV=""
-    local conf="
-        # Set window title
-        *.title = $1    
-        # show an image
-        imgBbl.type = image
-        imgBbl.x = 50
-        imgBbl.y = 50
-        imgBbl.maxwidth = 64
-        imgBbl.path = $3
-        # Introductory text
-        txtBbl.type = text
-        txtBbl.default = $2
-        "
-    if [ ! -z $4 ] ; then
-        # $4 is either "-" or "integer-NUMBER"
-        if [ "$4" != "-" ] ; then
-            conf="$conf
-                # add a auto close timeout in seconds, for this shown dialog/bubble/msg box
-                *.autoclosetime = $4
-                "
-        else
-            if [ "$4" == "-" ] ; then
-                conf="$conf
-                    # Show an “Ok” general-button at default-position
-                    BokBbl.type = button
-                    BokBbl.label = Ok
-                    "
-                # we will not specify okb.x or okb.y in above,
-                # so that macOSX can place this general-button at-default position, left-bottom corner
-            fi;
-        fi;
-    fi;
-    if [ ! -z $5 ] ; then
-        if [ "$5 " != " " ] ; then
-            # "tooltip_image|tooltip_text|tooltip_okButton"  or "-"  or "-|-|-"
-            if [ "$5" != "-" ] && [ "$5" != "-|-|-" ] ; then
-                if [ "${5%%|*}" != "-" ] ; then
-                    # tooltip msg for image
-                    conf="$conf
-                        imgBbl.tooltip = ${5%%|*}
-                        "
-                fi;
-                tV=${5#*|}
-                if [ "${tV%%|*}" != "-" ] ; then
-                    # tooltip msg for text
-                    conf="$conf
-                        txtBbl.tooltip = ${tV%%|*}
-                        "
-                fi;
-                if [ "$4" == "-" ] ; then
-                    tV=${tV#*|}
-                    if [ "${tV%%|*}" != "-" ] ; then
-                        # tooltip msg for a button showing “Ok”
-                        conf="$conf
-                            BokBbl.tooltip = ${tV%%|*}
-                            "
-                    fi;
-                fi;
-            fi;
-        fi;
-    fi;
-    tV=""
-    if [ ! -z $6 ] ; then
-        # "bm1|bm1_x_position|bm1_y_position|text_height|text_width||text_x_position|text_y_position"
-        if [ "${6:3:1}" == "|" ] ; then
-            tV="${6:4}"
-            conf="$conf
-                # bmN dialog msg box's vertical x position
-                *.x = ${tV%%|*}
-                "
-            tV=${tV#*|}
-            conf="$conf
-                # bmN dialog msg box's horizontal y position
-                *.y = ${tV%%|*}
-                "
-            tV=${tV#*|}
-            conf="$conf
-                # height of text box/area inside bmN msgbox
-                txtBbl.height = ${tV%%|*}
-                "
-            tV=${tV#*|}
-            conf="$conf
-                # width of text box/area inside bmN msgbox
-                txtBbl.width = ${tV%%|*}
-                "
-            tV=${tV#*|}
-            conf="$conf
-                # vertical x position of text box/area inside bmN msgbox
-                txtBbl.x = ${tV%%|*}
-                "
-            tV=${tV#*|}
-            conf="$conf
-                # horizontal y position of text box/area inside bmN msgbox
-                txtBbl.y = ${tV%%|*}
-                "
-        else
-            conf="$conf
-                # vertical & horizontal position of text box inside bubble/dialog msg box
-                txtBbl.x = 50
-                txtBbl.y = 120
-                # height & width of text box inside bubble/dialog msg box
-                txtBbl.height = 100
-                txtBbl.width = 310
-                "
-            case "${6:0:3}" in
-                ('bm1')  # adding a fixed/specific vertical & horizontal position, to show the “bm1” bubble/dialog msg box
-                    conf="$conf
-                        # vertical & horizontal position of “bm1” bubble/dialog msg box
-                        *.x = 50
-                        *.y = 400
-                        "
-                ;;
-                ('bm2')  # adding a fixed/specific vertical & horizontal position, to show the “bm2” bubble/dialog msg box
-                    conf="$conf
-                        # vertical & horizontal position of “bm2” bubble/dialog msg box
-                        *.x = 200
-                        *.y = 400
-                        "
-                ;;
-                ('bm3')  # adding a fixed/specific vertical & horizontal position, to show the “bm3” bubble/dialog msg box
-                    conf="$conf
-                        # vertical & horizontal position of “bm3” bubble/dialog msg box
-                        *.x = 350
-                        *.y = 400
-                        "
-                ;;
-                ('bm4')  # adding a fixed/specific vertical & horizontal position, to show the “bm4” bubble/dialog msg box
-                    conf="$conf
-                        # vertical & horizontal position of “bm4” bubble/dialog msg box
-                        *.x = 500
-                        *.y = 400
-                        "
-                ;;
-            esac;
-        fi;
-    else
-        conf="$conf
-            # vertical & horizontal position of text box inside bubble/dialog msg box
-            txtBbl.x = 50
-            txtBbl.y = 120
-            # height & width of text box inside bubble/dialog msg box
-            txtBbl.height = 100
-            txtBbl.width = 310
-            "
-        # We are not adding *.x & *.y in above,
-        # so that MacOS can show this bubble/dialog msg box in its default position
-    fi;
-    beep
-    pashua_run "$conf" "$PA_userBase"
+	# NOTES: The GUI elements are displayed in the order in which they appear in the config string.
+	#  The only exception to this rule are buttons: the default button is always in the lower right
+	#  corner of the window, the cancel button (if defined) is located left to the default button
+	#  and any other buttons will appear in the lower left corner, from left to right, in the order
+	#  they were defined.
+	local tV=""
+	local conf="
+		# Set window title
+		*.title = $1	
+		# show an image
+		imgBbl.type = image
+		imgBbl.x = 50
+		imgBbl.y = 50
+		imgBbl.maxwidth = 64
+		imgBbl.path = $3
+		# Introductory text
+		txtBbl.type = text
+		txtBbl.default = $2
+		"
+	if [ ! -z $4 ] ; then
+		# $4 is either "-" or "integer-NUMBER"
+		if [ "$4" != "-" ] ; then
+			conf="$conf
+				# add a auto close timeout in seconds, for this shown dialog/bubble/msg box
+				*.autoclosetime = $4
+				"
+		else
+			if [ "$4" == "-" ] ; then
+				conf="$conf
+					# Show an “Ok” general-button at default-position
+					BokBbl.type = button
+					BokBbl.label = Ok
+					"
+				# we will not specify okb.x or okb.y in above,
+				# so that macOSX can place this general-button at-default position, left-bottom corner
+			fi;
+		fi;
+	fi;
+	if [ ! -z $5 ] ; then
+		if [ "$5 " != " " ] ; then
+			# "tooltip_image|tooltip_text|tooltip_okButton"  or "-"  or "-|-|-"
+			if [ "$5" != "-" ] && [ "$5" != "-|-|-" ] ; then
+				if [ "${5%%|*}" != "-" ] ; then
+					# tooltip msg for image
+					conf="$conf
+						imgBbl.tooltip = ${5%%|*}
+						"
+				fi;
+				tV=${5#*|}
+				if [ "${tV%%|*}" != "-" ] ; then
+					# tooltip msg for text
+					conf="$conf
+						txtBbl.tooltip = ${tV%%|*}
+						"
+				fi;
+				if [ "$4" == "-" ] ; then
+					tV=${tV#*|}
+					if [ "${tV%%|*}" != "-" ] ; then
+						# tooltip msg for a button showing “Ok”
+						conf="$conf
+							BokBbl.tooltip = ${tV%%|*}
+							"
+					fi;
+				fi;
+			fi;
+		fi;
+	fi;
+	tV=""
+	if [ ! -z $6 ] ; then
+		# "bm1|bm1_x_position|bm1_y_position|text_height|text_width||text_x_position|text_y_position"
+		if [ "${6:3:1}" == "|" ] ; then
+			tV="${6:4}"
+			conf="$conf
+				# bmN dialog msg box's vertical x position
+				*.x = ${tV%%|*}
+				"
+			tV=${tV#*|}
+			conf="$conf
+				# bmN dialog msg box's horizontal y position
+				*.y = ${tV%%|*}
+				"
+			tV=${tV#*|}
+			conf="$conf
+				# height of text box/area inside bmN msgbox
+				txtBbl.height = ${tV%%|*}
+				"
+			tV=${tV#*|}
+			conf="$conf
+				# width of text box/area inside bmN msgbox
+				txtBbl.width = ${tV%%|*}
+				"
+			tV=${tV#*|}
+			conf="$conf
+				# vertical x position of text box/area inside bmN msgbox
+				txtBbl.x = ${tV%%|*}
+				"
+			tV=${tV#*|}
+			conf="$conf
+				# horizontal y position of text box/area inside bmN msgbox
+				txtBbl.y = ${tV%%|*}
+				"
+		else
+    		conf="$conf
+				# vertical & horizontal position of text box inside bubble/dialog msg box
+				txtBbl.x = 50
+				txtBbl.y = 120
+				# height & width of text box inside bubble/dialog msg box
+				txtBbl.height = 100
+				txtBbl.width = 310
+				"
+			case "${6:0:3}" in
+				('bm1')  # adding a fixed/specific vertical & horizontal position, to show the “bm1” bubble/dialog msg box
+					conf="$conf
+						# vertical & horizontal position of “bm1” bubble/dialog msg box
+						*.x = 50
+						*.y = 400
+						"
+				;;
+				('bm2')  # adding a fixed/specific vertical & horizontal position, to show the “bm2” bubble/dialog msg box
+					conf="$conf
+						# vertical & horizontal position of “bm2” bubble/dialog msg box
+						*.x = 200
+						*.y = 400
+						"
+				;;
+				('bm3')  # adding a fixed/specific vertical & horizontal position, to show the “bm3” bubble/dialog msg box
+					conf="$conf
+						# vertical & horizontal position of “bm3” bubble/dialog msg box
+						*.x = 350
+						*.y = 400
+						"
+				;;
+				('bm4')  # adding a fixed/specific vertical & horizontal position, to show the “bm4” bubble/dialog msg box
+					conf="$conf
+						# vertical & horizontal position of “bm4” bubble/dialog msg box
+						*.x = 500
+						*.y = 400
+						"
+				;;
+			esac;
+		fi;
+	else
+		conf="$conf
+			# vertical & horizontal position of text box inside bubble/dialog msg box
+			txtBbl.x = 50
+			txtBbl.y = 120
+			# height & width of text box inside bubble/dialog msg box
+			txtBbl.height = 100
+			txtBbl.width = 310
+			"
+		# We are not adding *.x & *.y in above,
+		# so that MacOS can show this bubble/dialog msg box in its default position
+	fi;
+	beep
+	pashua_run "$conf" "$PA_userBase"
 }
 
 # ========================================================
@@ -532,97 +550,100 @@ function PDbubble {   # Written by atErik, to use Pashua (instead of CocoaDialog
 # ========================================================
 
 function PDfileOrDirSelect {   # Written by atErik, to use Pashua (instead of CocoaDialog)
-    local tV=""
-    local conf="
-        # Set window title
-        *.title = $1
-        # show an image
-        imgSlct.type = image
-        imgSlct.x = 50
-        imgSlct.y = 50
-        imgSlct.maxwidth = 64
-        imgSlct.path = $appICON
-        # Introductory text
-        txtSlct.type = text
-        txtSlct.default = $2
-        txtSlct.height = 100
-        txtSlct.width = 310
-        txtSlct.x = 50
-        txtSlct.y = 120
-        # Add a filesystem browser (openFileOrDirBrowser)
-        SlctFB.type = openbrowser
-        SlctFB.label = $2
-        # SlctFB.label = Example filesystem browser (textfield + open panel)
-        SlctFB.width=380
-        SlctFB.height=350
-        SlctFB.default = $3
-        SlctFB.x = 180
-        SlctFB.y = 50
-        # Add a “Cancel” button with default-label & show at default-positon
-        SlctCB.type = cancelbutton
-        # Show an “Ok” general-button at default-position
-        SlctOkB.type = button
-        SlctOkB.label = Ok
-        "
-    # we will not specify SlctOkB.x or SlctOkB.y in above,
-    # so that macOSX can place this general-button at-default position, left-bottom corner
-
-    if [ ! -z $4 ] ; then
-        # setting by-default mode to select "directory":
-        if [ "$4" != "directory" ] ; then
-            conf="$conf
-                # user-specified fileTypes selection is allowed
-                SlctFB.filetype = $4
-                "
-        else
-            conf="$conf
-                # only-directory selection is allowed
-                SlctFB.filetype = directory
-                "
-        fi;
-    else
-
-    fi;
-    if [ ! -z $5 ] ; then
-        if [ "$5 " != " " ] ; then
-            if [ "${5%%|*}" != "-" ] ; then
-                # tooltip msg for img
-                conf="$conf
-                    imgSlct.tooltip = ${5%%|*}
-                    "
-            fi;
-            tV=${5#*|}
-            if [ "${tV%%|*}" != "-" ] ; then
-                # tooltip msg for text
-                conf="$conf
-                    txtSlct.tooltip = ${tV%%|*}
-                    "
-            fi;
-            tV=${tV#*|}
-            if [ "${tV%%|*}" != "-" ] ; then
-                # tooltip msg for openFileOrDirBrowser
-                conf="$conf
-                    SlctFB.tooltip = ${tV%%|*}
-                    "
-            fi;
-            tV=${tV#*|}
-            if [ "${tV%%|*}" != "-" ] ; then
-                # tooltip msg for a button showing “Ok”
-                conf="$conf
-                    SlctOkB.tooltip = ${tV%%|*}
-                    "
-            fi;
-            tV=${tV#*|}
-            if [ "${tV%%|*}" != "-" ] ; then
-                # tooltip msg for a button showing “Cancel”/etc
-                conf="$conf
-                    SlctCB.tooltip = ${tV%%|*}
-                    "
-            fi;
-        fi;
-    fi;
-    beep
-    pashua_run "$conf" "$PA_userBase"
+	local tV=""
+	local conf="
+		# Set window title
+		*.title = $1
+		# show an image
+		imgSlct.type = image
+		imgSlct.x = 50
+		imgSlct.y = 50
+		imgSlct.maxwidth = 64
+		imgSlct.path = $appICON
+		# Introductory text
+		txtSlct.type = text
+		txtSlct.default = $2
+		txtSlct.height = 100
+		txtSlct.width = 310
+		txtSlct.x = 50
+		txtSlct.y = 120
+		# Add a filesystem browser (openFileOrDirBrowser)
+		SlctFB.type = openbrowser
+		SlctFB.label = $2
+		# SlctFB.label = Example filesystem browser (textfield + open panel)
+		SlctFB.width=380
+		SlctFB.height=350
+		SlctFB.default = $3
+		SlctFB.x = 180
+		SlctFB.y = 50
+		# Add a “Cancel” button with default-label & show at default-positon
+		SlctCB.type = cancelbutton
+		# Show an “Ok” general-button at default-position
+		SlctOkB.type = button
+		SlctOkB.label = Ok
+		"
+	# we will not specify SlctOkB.x or SlctOkB.y in above,
+	# so that macOSX can place this general-button at-default position, left-bottom corner
+	
+	# Setting by-default mode, to select "directory"-only:
+	if [ ! -z $4 ] ; then
+		if [ "$4" != "directory" ] ; then
+			conf="$conf
+				# user-specified fileTypes selection is allowed
+				SlctFB.filetype = $4
+				"
+		else
+			conf="$conf
+				# only-directory selection is allowed
+				SlctFB.filetype = directory
+				"
+		fi;
+	else
+		conf="$conf
+			# only-directory selection is allowed
+			SlctFB.filetype = directory
+			"
+	fi;
+	if [ ! -z $5 ] ; then
+		if [ "$5 " != " " ] ; then
+			if [ "${5%%|*}" != "-" ] ; then
+				# tooltip msg for img
+				conf="$conf
+					imgSlct.tooltip = ${5%%|*}
+					"
+			fi;
+			tV=${5#*|}
+			if [ "${tV%%|*}" != "-" ] ; then
+				# tooltip msg for text
+				conf="$conf
+					txtSlct.tooltip = ${tV%%|*}
+					"
+			fi;
+			tV=${tV#*|}
+			if [ "${tV%%|*}" != "-" ] ; then
+				# tooltip msg for openFileOrDirBrowser
+				conf="$conf
+					SlctFB.tooltip = ${tV%%|*}
+					"
+			fi;
+			tV=${tV#*|}
+			if [ "${tV%%|*}" != "-" ] ; then
+				# tooltip msg for a button showing “Ok”
+				conf="$conf
+					SlctOkB.tooltip = ${tV%%|*}
+					"
+			fi;
+			tV=${tV#*|}
+			if [ "${tV%%|*}" != "-" ] ; then
+				# tooltip msg for a button showing “Cancel”/etc
+				conf="$conf
+					SlctCB.tooltip = ${tV%%|*}
+					"
+			fi;
+		fi;
+	fi;
+	beep
+	pashua_run "$conf" "$PA_userBase"
 }
 
 # ========================================================
@@ -636,81 +657,81 @@ function PDfileOrDirSelect {   # Written by atErik, to use Pashua (instead of Co
 # ========================================================
 
 function PDmultiButtons {   # Written by atErik, to use Pashua (instead of CocoaDialog)
-    local tV=""
-    local conf="
-        # Set window title
-        *.title = $1
-        # show an image
-        imgMB.type = image
-        imgMB.x = 50
-        imgMB.y = 50
-        imgMB.maxwidth = 64
-        imgMB.tooltip = This is an element of type “image”
-        imgMB.path = $appICON
-        # Introductory text
-        txtMB.type = text
-        txtMB.default = $2
-        txtMB.height = 180
-        txtMB.width = 310
-        txtMB.x = 50
-        txtMB.y = 120
-        txtMB.tooltip = This is an element of type “text”
-        "
-    if [ ! -z $4 ] ; then
-        if [ "${4:0:8}" == "button1_" ] ; then
-            tV="${4:8}";      # get all text after the 1st-underscore symbol
-            tV=${tV//_/ };    # change all "underscore" into "space" character/symbol
-            conf="$conf
-                # add a button with user-specified text
-                gb1MB.type = button
-                gb1MB.label = $tV
-                gb1MB.x = 260
-                gb1MB.y = 50
-                "
-        fi
-    fi;
-    if [ ! -z $5 ] ; then
-        if [ "${5:0:8}" == "button2_" ] ; then
-            tV="${5:8}"
-            tV=${tV//_/ }
-            conf="$conf
-                # add another button with user-specified text
-                gb2MB.type = button
-                gb2MB.label = $tV
-                gb2MB.x = 260
-                gb2MB.y = 140
-                "
-        fi
-    fi;
-    if [ ! -z $6 ] ; then
-        if [ "${6:0:8}" == "button3_" ] ; then
-            tV="${6:8}"
-            tV=${tV//_/ }
-            # "Configuration error: Element “gb3” lacks a type attribute. In other words: you have to add a line like the following one: gb3.type = textfield"
-            conf="$conf
-                # add another button with user-specified text
-                gb3MB.type = button
-                gb3MB.label = $tV
-                gb3MB.x = 260
-                gb3MB.y = 240
-                "
-        fi
-    fi;
-    if [ ! -z $7 ] ; then
-        if [ "${7:0:8}" == "button4_" ] ; then
-            tV="${7:8}"
-            tV=${tV//_/ }
-            conf="$conf
-                # add another button with user-specified text, in another row, under the previous 3-buttons
-                gb4MB.type = button
-                gb4MB.label = $tV
-                gb4MB.x = 300
-                gb4MB.y = 50
-                "
-        fi
-    fi;
-    beep
-    pashua_run "$conf" "$PA_userBase"
+	local tV=""
+	local conf="
+		# Set window title
+		*.title = $1
+		# show an image
+		imgMB.type = image
+		imgMB.x = 50
+		imgMB.y = 50
+		imgMB.maxwidth = 64
+		imgMB.tooltip = This is an element of type “image”
+		imgMB.path = $appICON
+		# Introductory text
+		txtMB.type = text
+		txtMB.default = $2
+		txtMB.height = 180
+		txtMB.width = 310
+		txtMB.x = 50
+		txtMB.y = 120
+		txtMB.tooltip = This is an element of type “text”
+		"
+	if [ ! -z $4 ] ; then
+		if [ "${4:0:8}" == "button1_" ] ; then
+			tV="${4:8}";      # get all text after the 1st-underscore symbol
+			tV=${tV//_/ };    # change all "underscore" into "space" character/symbol
+			conf="$conf
+				# add a button with user-specified text
+				gb1MB.type = button
+				gb1MB.label = $tV
+				gb1MB.x = 260
+				gb1MB.y = 50
+				"
+		fi
+	fi;
+	if [ ! -z $5 ] ; then
+		if [ "${5:0:8}" == "button2_" ] ; then
+			tV="${5:8}"
+			tV=${tV//_/ }
+			conf="$conf
+				# add another button with user-specified text
+				gb2MB.type = button
+				gb2MB.label = $tV
+				gb2MB.x = 260
+				gb2MB.y = 140
+				"
+		fi
+	fi;
+	if [ ! -z $6 ] ; then
+		if [ "${6:0:8}" == "button3_" ] ; then
+			tV="${6:8}"
+			tV=${tV//_/ }
+			# "Configuration error: Element “gb3” lacks a type attribute. In other words: you have to add a line like the following one: gb3.type = textfield"
+			conf="$conf
+				# add another button with user-specified text
+				gb3MB.type = button
+				gb3MB.label = $tV
+				gb3MB.x = 260
+				gb3MB.y = 240
+				"
+		fi
+	fi;
+	if [ ! -z $7 ] ; then
+		if [ "${7:0:8}" == "button4_" ] ; then
+			tV="${7:8}"
+			tV=${tV//_/ }
+			conf="$conf
+				# add another button with user-specified text, in another row, under the previous 3-buttons
+				gb4MB.type = button
+				gb4MB.label = $tV
+				gb4MB.x = 300
+				gb4MB.y = 50
+				"
+		fi
+	fi;
+	beep
+	pashua_run "$conf" "$PA_userBase"
 }
 
 # ========================================================
@@ -728,110 +749,110 @@ function PDmultiButtons {   # Written by atErik, to use Pashua (instead of Cocoa
 # ========================================================
 
 function PDprogressBarDirsFilesCpOrMv {
-    local tV="" Src="" Dest="" oped="copied" tymP=""
-    local cp=1 tymPsd=0 p1=0 p1n=0 p1d=0 p2=0 p2n=0 p2d=0 p3=0 p3n=0 p3d=0
-    local L1="" L2="" L3="" L4="" L5="" L6="" L7="" L8="" L9=""
-    local conf=""
-    # local CpOrMv=""
-    if [ ! -z $1 ] ; then
-        tV=${1%%|*}
-        if [ "$tV" == "Move" ]; then
-        #    CpOrMv="mv"
-            cp=0
-        #elif [ "$tV" == "Copy" ]; then
-        #    CpOrMv="cp -R"
-        fi
-        conf="
-            # Set window title
-            *.title = ${1#*|}
-            "
-    fi
-    if [ ! -z $2 ] ; then
-        Src=$2
-    fi
-    if [ ! -z $3 ] ; then
-        Dest=$3
-    fi
-    if [ ! -z $4 ] ; then
-        # Getting Elapsed Time:
-        tymPsd=${4%%|*}
-        # Getting Refresh Time:
-        # adding Auto-Closing TIMEOUT in seconds for this dialog/progress/bar/info msg box
-        conf="$conf
-            # auto close this dialog box after this second(s)
-            *.autoclosetime = ${4#*|}
-            "
-    fi
-    if [ ! -z $7 ] ; then
-        # 1ST "ProgressBarNUMBER|nominator|denominator" for FILES
-        # "progressBarNUMBER|CopiedNumberOrAmount|TotalNumberOrAmount"
-        tV="${7#*|}"
-        p1n=${tV%%|*}
-        tV=${tV#*|}
-        p1d=${tV%%|*}
-        # Calculating the PERCENT-NUMBER for What % amount of FILES are so far Copied:
-        # p1=$((200*$p1n/$p1d % 2 + 100*$p1n/$p1d))
-        p1=$(( ($p1n*1000/$p1d+5)/10 ))
-    fi;
-    if [ ! -z $8 ] ; then
-        # 2ND "ProgressBarNUMBER|nominator|denominator" for DIRECTORIES
-        # "progressBarNUMBER|CopiedNumberOrAmount|TotalNumberOrAmount"
-        tV="${8#*|}"
-        p2n=${tV%%|*}
-        tV=${tV#*|}
-        p2d=${tV%%|*}
-        # Calculating the PERCENT-NUMBER for What % amount of DIRECTORIES/FOLDERS are so far Copied:
-        # p2=$((200*$p2n/$p2d % 2 + 100*$p2n/$p2d))
-        p2=$(( ($p2n*1000/$p2d+5)/10 ))
-    fi;
-    if [ ! -z $9 ] ; then
-        # 3RD "ProgressBarNUMBER|nominator|denominator" for SIZE
-        # "progressBarNUMBER|CopiedNumberOrAmount|TotalNumberOrAmount"
-        tV="${9#*|}"
-        p3n=${tV%%|*}
-        tV=${tV#*|}
-        p3d=${tV%%|*}
-        # Calculating the PERCENT-NUMBER for What % amount of DATA-SIZE/MegaBYTES are so far Copied:
-        # p3=$((200*$p3n/$p3d % 2 + 100*$p3n/$p3d))
-        # p3=$(( ($p3n*1000/$p3d+5)/10 ))
-        # We will add PERCENTAGE for FILES & DIRS SIZE, later
-        # p3=0
-    fi;
-    # PERCENT-AMOUNT CAN BE CONVERTED INTO A TEXT-BASED PROGRESS BAR SHOWN ON GUI DIALOG BOX EASILY,
-    # we will improve it later, now lets focus on core/important functions, stability, security of other codes
-
-    if [ "$cp" -eq 0 ] ; then
-        oped="moved"
-    fi;
-    if [ "$tymPsd" -gt 60 ] ; then
-        tymP="$(( $tymPsd / 60 )) minute(s) & $(( $tymPsd % 60 )) second(s)"
-    else
-        tymP="$tymPsd second(s)"
-    fi;
-    # Later, PERCENT % will be shown as a  [******  ]  based ProgressBar on this Pashua GUI dialog box
-    L1="${1}ing...[return]"
-    L2="From: \"$Src\"[return]"
-    L3="To: \"$Dest\"[return]"
-    L4="Total $p1d files & $p2d directories ( $pfCTS )[return]"
-    L5="So far $oped: ${p1}% : $p1n file(s)[return]"
-    L6="So far $oped: ${p2}% : $p2n directory(s)[return]"
-    L7="So far $oped: Total Size calculation for Files & Dirs is now off[return]"
-    L8="Time Elapsed/Passed since $1 started: $tymP[return]"
-    L9="Info will be updated after ${4#*|}-seconds, so PLEASE WAIT..."
-    # Adding text box(es) to show all info:
-    conf="
-        # Introductory text
-        txt1Prgrs.type = text
-        txt1Prgrs.height = 180
-        txt1Prgrs.width = 500
-        txt1Prgrs.x = 35
-        txt1Prgrs.y = 200
-        txt1Prgrs.default = ${L1}${L2}${L3}${L4}${L5}${L6}${L7}${L8}${L9}
-        "
-        # txt2Prgrs.type = text
-        # txt3Prgrs.type = text
-        # txt4Prgrs.type = text
-    pashua_run "$conf" "$PA_userBase"
+	local tV="" Src="" Dest="" oped="copied" tymP=""
+	local cp=1 tymPsd=0 p1=0 p1n=0 p1d=0 p2=0 p2n=0 p2d=0 p3=0 p3n=0 p3d=0
+	local L1="" L2="" L3="" L4="" L5="" L6="" L7="" L8="" L9=""
+	local conf=""
+	# local CpOrMv=""
+	if [ ! -z $1 ] ; then
+		tV=${1%%|*}
+		if [ "$tV" == "Move" ]; then
+		#	CpOrMv="mv"
+			cp=0
+		#elif [ "$tV" == "Copy" ]; then
+		#	CpOrMv="cp -R"
+		fi
+		conf="
+			# Set window title
+			*.title = ${1#*|}
+			"
+	fi
+	if [ ! -z $2 ] ; then
+		Src=$2
+	fi
+	if [ ! -z $3 ] ; then
+		Dest=$3
+	fi
+	if [ ! -z $4 ] ; then
+		# Getting Elapsed Time:
+		tymPsd=${4%%|*}
+		# Getting Refresh Time:
+		# adding Auto-Closing TIMEOUT in seconds for this dialog/progress/bar/info msg box
+		conf="$conf
+			# auto close this dialog box after this second(s)
+			*.autoclosetime = ${4#*|}
+			"
+	fi
+	if [ ! -z $7 ] ; then
+		# 1ST "ProgressBarNUMBER|nominator|denominator" for FILES
+		# "progressBarNUMBER|CopiedNumberOrAmount|TotalNumberOrAmount"
+		tV="${7#*|}"
+		p1n=${tV%%|*}
+		tV=${tV#*|}
+		p1d=${tV%%|*}
+		# Calculating the PERCENT-NUMBER for What % amount of FILES are so far Copied:
+		# p1=$((200*$p1n/$p1d % 2 + 100*$p1n/$p1d))
+		p1=$(( ($p1n*1000/$p1d+5)/10 ))
+	fi;
+	if [ ! -z $8 ] ; then
+		# 2ND "ProgressBarNUMBER|nominator|denominator" for DIRECTORIES
+		# "progressBarNUMBER|CopiedNumberOrAmount|TotalNumberOrAmount"
+		tV="${8#*|}"
+		p2n=${tV%%|*}
+		tV=${tV#*|}
+		p2d=${tV%%|*}
+		# Calculating the PERCENT-NUMBER for What % amount of DIRECTORIES/FOLDERS are so far Copied:
+		# p2=$((200*$p2n/$p2d % 2 + 100*$p2n/$p2d))
+		p2=$(( ($p2n*1000/$p2d+5)/10 ))
+	fi;
+	if [ ! -z $9 ] ; then
+		# 3RD "ProgressBarNUMBER|nominator|denominator" for SIZE
+		# "progressBarNUMBER|CopiedNumberOrAmount|TotalNumberOrAmount"
+		tV="${9#*|}"
+		p3n=${tV%%|*}
+		tV=${tV#*|}
+		p3d=${tV%%|*}
+		# Calculating the PERCENT-NUMBER for What % amount of DATA-SIZE/MegaBYTES are so far Copied:
+		# p3=$((200*$p3n/$p3d % 2 + 100*$p3n/$p3d))
+		# p3=$(( ($p3n*1000/$p3d+5)/10 ))
+		# We will add PERCENTAGE for FILES & DIRS SIZE, later
+		# p3=0
+	fi;
+	# PERCENT-AMOUNT CAN BE CONVERTED INTO A TEXT-BASED PROGRESS BAR SHOWN ON GUI DIALOG BOX EASILY,
+	# we will improve it later, now lets focus on core/important functions, stability, security of other codes
+	
+	if [ "$cp" -eq 0 ] ; then
+		oped="moved"
+	fi;
+	if [ "$tymPsd" -gt 60 ] ; then
+		tymP="$(( $tymPsd / 60 )) minute(s) & $(( $tymPsd % 60 )) second(s)"
+	else
+		tymP="$tymPsd second(s)"
+	fi;
+	# Later, PERCENT % will be shown as a  [******  ]  based ProgressBar on this Pashua GUI dialog box
+	L1="${1}ing...[return]"
+	L2="From: \"$Src\"[return]"
+	L3="To: \"$Dest\"[return]"
+	L4="Total $p1d files & $p2d directories ( $pfCTS )[return]"
+	L5="So far $oped: ${p1}% : $p1n file(s)[return]"
+	L6="So far $oped: ${p2}% : $p2n directory(s)[return]"
+	L7="So far $oped: Total Size calculation for Files & Dirs is now off[return]"
+	L8="Time Elapsed/Passed since $1 started: $tymP[return]"
+	L9="Info will be updated after ${4#*|}-seconds, so PLEASE WAIT..."
+	# Adding text box(es) to show all info:
+	conf="
+		# Introductory text
+		txt1Prgrs.type = text
+		txt1Prgrs.height = 180
+		txt1Prgrs.width = 500
+		txt1Prgrs.x = 35
+		txt1Prgrs.y = 200
+		txt1Prgrs.default = ${L1}${L2}${L3}${L4}${L5}${L6}${L7}${L8}${L9}
+		"
+		# txt2Prgrs.type = text
+		# txt3Prgrs.type = text
+		# txt4Prgrs.type = text
+	pashua_run "$conf" "$PA_userBase"
 }
 
 # ========================================================
@@ -844,29 +865,31 @@ local message1="One or more *BSD commands* to run Portable $appID were not found
 this machine. You must install the BSD Subsystem package that is in the \
 following folder on disk 1 of your Mac OS X installation DVD:\n/Welcome to Mac \
 OS X/Optional Installs.\n\nNow quit."
-local button=` /usr/bin/osascript << EOT
-    tell application "Finder"
-    beep
-    display dialog "$message1" buttons {"Quit"} \
-        with icon caution default button "Quit"
-    set result to button returned of result
-    end tell
-EOT`
-if test "$button" == "Quit"; then                # Quit application
-    exit 112
+local button="` /usr/bin/osascript << EOT
+	tell application "Finder"
+	beep
+	display dialog "$message1" buttons {"Quit"} \
+		with icon caution default button "Quit"
+	set result to button returned of result
+	end tell
+EOT `"
+if test "$button" == "Quit"; then				# Quit application
+	exit 112
 fi
 }
 
-function bsd_command_check {    # written by Patrick Luby    # Modified by atErik : adding 'local', wait df du cut tail find wc
-local commands="awk cp defaults diskutil echo grep ln mkfifo mkdir mv plutil ps rm sed sleep touch wait df du cut tail find wc"
+function bsd_command_check {    # written by Patrick Luby	# Modified by atErik : adding 'local',
+# Modified to add : wait df du cut tail find wc dirname readlink
+local commands="awk cp defaults diskutil echo grep ln mkfifo mkdir mv plutil ps rm sed sleep touch wait df du cut tail find wc dirname readlink"
 for i in $commands ; do
-    if [ ! -x "/usr/bin/$i" -a ! -x "/bin/$i" -a ! -x "/usr/sbin/$i" -a ! -x "/sbin/$i" ] ; then
-        # Return 96 + 16 if a command is not found
-        command_check_msg;
-        exit 112;
-    fi
+	if [ ! -x "/usr/bin/$i" -a ! -x "/bin/$i" -a ! -x "/usr/sbin/$i" -a ! -x "/sbin/$i" ] ; then
+		# Return 96 + 16 if a command is not found
+		command_check_msg;
+		exit 112;
+	fi
 done
 }
+
 
 # ========================================================
 # osx_version_check
@@ -876,29 +899,29 @@ done
 function version_check_msg {   # Modified by atErik : adding 'local'
 local message1="You are running OS X version $version.\n\
 Portable $appID can only be opened on Mac OS X 10.4 or higher."
-local button=`/usr/bin/osascript << EOT
-    tell application "Finder"
-    beep
-    display dialog "$message1" buttons {"Quit"} \
-        with icon caution default button "Quit"
-    set result to button returned of result
-    end tell
-EOT`
-if test "$button" == "Quit"; then                # Quit application
-    exit 113
+local button="` /usr/bin/osascript << EOT
+	tell application "Finder"
+	beep
+	display dialog "$message1" buttons {"Quit"} \
+		with icon caution default button "Quit"
+	set result to button returned of result
+	end tell
+EOT `"
+if test "$button" == "Quit"; then				# Quit application
+	exit 113
 fi
 
 }
 
-function osx_version_check {     # written by Patrick Luby    # Modified by atErik : adding 'local'
+function osx_version_check {	 # written by Patrick Luby	# Modified by atErik : adding 'local'
 local version="";
 if [ -x "/usr/bin/sw_vers" ] ; then
-    # Return 96 + 17 if it is a bad version
-    version=`/usr/bin/sw_vers | grep '^ProductVersion:' | awk '{ print $2 }'`
-    case "$version" in
-        10.[0123]) version_check_msg ; exit 113;;
-        10.[0123].*) version_check_msg ; exit 113;;
-    esac
+	# Return 96 + 17 if it is a bad version
+	version=`/usr/bin/sw_vers | grep '^ProductVersion:' | awk '{ print $2 }'`
+	case "$version" in
+		10.[0123]) version_check_msg ; exit 113;;
+		10.[0123].*) version_check_msg ; exit 113;;
+	esac
 fi
 }
 
@@ -908,15 +931,15 @@ fi
 # ========================================================
 
 function quitApp {   # Modified by atErik : adding 'local'
-    local rv=0;
-    if ps cx | grep '[0-9] '"$appBin"'$' > /dev/null; then
-        rv=` CDokMsg "$appID is already running on this system" \
-         "Only one copy can be run at a time. \
+	local rv=0;
+	if ps cx | grep '[0-9] '"$appBin"'$' > /dev/null; then
+		rv=` CDokMsg "$appID is already running on this system" \
+		 "Only one copy can be run at a time. \
 Quit runnig $appID and reopen Portable $appID." "--no-cancel" `
-        if [ "$rv" == "1" ] ; then                # Quit application
-            exit 0
-        fi
-    fi
+		if [ "$rv" == "1" ] ; then				# Quit application
+			exit 0
+		fi
+	fi
 }
 
 # ========================================================
@@ -925,19 +948,19 @@ Quit runnig $appID and reopen Portable $appID." "--no-cancel" `
 # ========================================================
 
 function check_p_asf {   # Modified by atErik : adding 'local'
-    # "Read Only" string in till OsX 10.5
-    local readonly5=`diskutil info "$PA_userBase" | grep "Read Only" | awk '{ print $3 }'`
-    # "Read-Only Volume:" string on OsX 10.6
-    local readonly6=`diskutil info "$PA_userBase" | grep "Read-Only Volume" | awk '{ print $3 }'`
-    if [ "$readonly5" = Yes ] || [ "$readonly6" = Yes ]; then
-        CDokMsgC "Portable $appID is on a locked volume" "Portable $appID can't \
+	# "Read Only" string in till OsX 10.5
+	local readonly5=`diskutil info "$PA_userBase" | grep "Read Only" | awk '{ print $3 }'`
+	# "Read-Only Volume:" string on OsX 10.6
+	local readonly6=`diskutil info "$PA_userBase" | grep "Read-Only Volume" | awk '{ print $3 }'`
+	if [ "$readonly5" = Yes ] || [ "$readonly6" = Yes ]; then
+		CDokMsgC "Portable $appID is on a locked volume" "Portable $appID can't \
 be opened on a locked volume. Now quit." "--no-cancel" > /dev/null
-        exit 0
-    else
-        if [ ! -d "$PA_userPref" ] ; then
-            mkdir -p "$PA_userPref"
-        fi
-    fi
+		exit 0
+	else
+		if [ ! -d "$PA_userPref" ] ; then
+			mkdir -p "$PA_userPref"
+		fi
+	fi
 }
 
 # ========================================================
@@ -946,278 +969,279 @@ be opened on a locked volume. Now quit." "--no-cancel" > /dev/null
 # ========================================================
 
 function select_profile {    # Modified by atErik : adding 'local', "chosen", PDfileOrDirSelect
-    local rv=0;
-    rvpf=` PDfileOrDirSelect "Select local $appID Profile folder" \
-        "Look for a folder named \"********.default\" or similar." \
-        "$userPrefBase"  "directory" `
-    # rvpf=` "$CD" fileselect --title "Select local $appID Profile folder" \
-    #     --text "Look for a folder named \"********.default\" or similar." \
-    #     --select-only-directories --with-directory "$userPrefBase" `
-    if [ -f "$rvpf/prefs.js" ] ; then
-        profilepath="$rvpf"
-        export profilepath
-    else
-        rv=` CDokMsgC "$appID Profile folder not selected" \
-            "Sorry you have not chosen/selected $appID Profile folder. You have selected: \"$rvpf\". Try again?" `
-        if [ "$rv" == "1" ] ; then
-            select_profile
-        elif [ "$rv" == "2" ] ; then
-            rv=` CDokMsg "Portable $appID now quit" \
-                "You have not chosen/selected $appID Profile folder, now Portable $appID quit." \
-                "--no-cancel" `
-            if [ "$rv" == "1" ] ; then                # Quit application
-                exit 0
-            fi
-        fi
-    fi
+	local rv=0;
+	rvpf=` PDfileOrDirSelect "Select local $appID Profile folder" \
+		"Look for a folder named \"********.default\" or similar." \
+		"$userPrefBase"  "directory" `
+	# rvpf=` "$CD" fileselect --title "Select local $appID Profile folder" \
+	# 	--text "Look for a folder named \"********.default\" or similar." \
+	# 	--select-only-directories --with-directory "$userPrefBase" `
+	if [ -f "$rvpf/prefs.js" ] ; then
+		profilepath="$rvpf"
+		export profilepath
+	else
+		rv=` CDokMsgC "$appID Profile folder not selected" \
+			"Sorry you have not chosen/selected $appID Profile folder. You have selected: \"$rvpf\". Try again?" `
+		if [ "$rv" == "1" ] ; then
+			select_profile
+		elif [ "$rv" == "2" ] ; then
+			rv=` CDokMsg "Portable $appID now quit" \
+				"You have not chosen/selected $appID Profile folder, now Portable $appID quit." \
+				"--no-cancel" `
+			if [ "$rv" == "1" ] ; then				# Quit application
+				exit 0
+			fi
+		fi
+	fi
 }
 
-function runCopyPref {    # written by Kevin Hendricks     # Modified by atErik : converting codes for Pashua-dialog based PDprogressBar
-    local pfTD=0 ;  # Portable Firefox Total Dirs (Number of total Directories)
-    local pfTF=0 ;  # Total Files (Number of total Files)
-    local pfTS=0 ;  # "Dir+File Size Not-Counted" ;  # Total Size of all Dirs & Files
-    local pfCTD=0 ;  # Total Number of Copied Dirs
-    local pfCTF=0 ;  # Ttl_Num of Copied Files
-    local pfCTS=$pfTS ;  # Total SIZE(MegaBytes/...) Copied Dirs & Files
-    local pfCTP=0 ;  # Number of seconds/Time Passed
-    # local pfCTDp=0 ;  # Percent % of Copied Dirs
-    # local pfCTFp=0 ;  # % of Copied Files
-    # local pfCTSp=0 ;  # % of Copied Dirs+Files SIZE
-    local UniqNumbr=5 ;  # an Unique Number (interger number), except "1" & except What Other OsxPortableFirefox Using
-    local FIFO_pOsxFt="/tmp/pOsxFt${UniqNumbr}" ;  # temp purpose fifo file-name . It needs to have an UNIQUE-NUMBER in filename
-    local FIFO_pOsxFps="/tmp/pOsxFps${UniqNumbr}" ;  # contains fifo file-name for Source-profile folder-name
-    local FIFO_pOsxFpd="/tmp/pOsxFpd${UniqNumbr}" ;  # ... Destination-profile folder-name
-    local i=0 s=0
-    rm -f "/tmp/pOsxFt1" ;  # a temp fifo to pass the UniqNumber number to sub-process
-    mkfifo "/tmp/pOsxFt1"
-    rm -f "$FIFO_pOsxFt" ;  # remove previous fifo file (if it wasn't removed earlier)
-    mkfifo "$FIFO_pOsxFt" ;  # create a (temp) fifo file, as its persistent/accessible across different processes
-    rm -f "$FIFO_pOsxFps"
-    mkfifo "$FIFO_pOsxFps"
-    rm -f "$FIFO_pOsxFpd"
-    mkfifo "$FIFO_pOsxFpd"
-    # Getting directory-location of profile from "profilepath" ENV Variable:
-    rvpf="$profilepath"
-    # Getting TOTAL-NUMBER of files & sub-dirs count, in SOURCE-PROFILE folder/directory, before copy-process:
-    pfTD=`find "$rvpf/" -type d -print | wc -c`
-    pfTF=`find "$rvpf/" -type f -print | wc -c`
-    # For now, avoiding finding total size of all files+dirs, as it takes longer time:
-    # pfTS=0
-    PDprogressBarDirsFilesCpOrMv  "Copy|Copying $appID Profile"  "$rvpf"  "$PA_userPref" \
-        "${pfCTP}|$s"  "-"  "-"  "p1|$pfCTF|$pfTF"  "p2|$pfCTD|$pfTD"
-    # "$CD" progressbar --indeterminate --title "Copying $appID Profile" \
-    #     --text "Copying \"$rvpf\". Please wait..." < /tmp/hpipe &
-    # FD = File Descriptor
-    # exec 3<> /tmp/hpipe
-    exec 3<> "$FIFO_pOsxFt"
-    exec 4<> "$FIFO_pOsxFps"
-    exec 5<> "$FIFO_pOsxFpd"
-    exec 6<> "/tmp/pOsxFt1"
-    # echo -n . >&3
-    echo -n "$rvpf" >&4
-    echo -n "$PA_userPref" >&5
-    echo -n "$UniqNumbr" >&6
-    # SECONDS=0 ; sleep 5 ; echo $SECONDS ; # output will be "5" after 5-seconds-of-sleep
-    SECONDS=0
-    # Below section inside { ... } will be run under a different sub-process in background (to copy files)
-    # below section can be another script-file too, & then it can be run/initiated/started by this function
-    {
-        # This is a sub-process section code, (it is to be run/executed in the background)
-        # Obtaining data from fifo pipe(s):
-        exec 6<> "/tmp/pOsxFt1"
-        UniqN="$(< "/tmp/pOsxFt1")"
-        wait
-        # exec 6>&-
-        # wait
-        exec >"/tmp/pOsxFt1"
-        # Deleting the fifo pipe(s):
-        rm -f "/tmp/pOsxFt1"
-        exec 4<> "/tmp/pOsxFps${UniqN}"
-        srcProfile="$(< "/tmp/pOsxFps${UniqN}")"
-        wait
-        # exec 4>&-
-        # wait
-        exec >"/tmp/pOsxFps${UniqN}"
-        rm -f "/tmp/pOsxFps${UniqN}"
-        exec 5<> "/tmp/pOsxFpd${UniqN}"
-        destProfile="$(< "/tmp/pOsxFpd${UniqN}")"
-        wait
-        # exec 5>&-
-        # wait
-        exec >"/tmp/pOsxFpd${UniqN}"
-        rm -f "/tmp/pOsxFpd${UniqN}"
-        # Below fifo/pipe we will use to transfer data back to the function which created this sub-process:
-        exec 3<> "/tmp/pOsxFt${UniqN}"
-        # Add your commands/work below, for which a progressive bar/info-msg box will be shown+updated:
-        # At-end of your commands/work, write "pfC_done" or "pfC_fail" word/data into fifo/pipe
-        # BEGIN all of your commands/work here:
-            # cp -R "$rvpf/" "$PA_userPref"
-            # cp -R "$srcProfile/" "$destProfile" && { echo -n "pfC_done" >&3 ; } || { echo -n "pfC_fail" >&3 ; };
-            cp -R "$srcProfile/" "$destProfile" && {
-                echo -n "pfC_done" > "/tmp/pOsxFt${UniqN}" ;
-            } || {
-                echo -n "pfC_fail" > "/tmp/pOsxFt${UniqN}" ;
-            };
-        # END of your commands.
-        # deleting the fifo, which we were using to send "done"/"fail" msg
-        wait
-        exec >"/tmp/pOsxFt${UniqN}"
-        rm -f "/tmp/pOsxFt${UniqN}"
-    } &
-    # ... Back to the Function which initiated/ran the above sub-process (in background) to Copy files.
-    # when fifo/pipe still exists then delete each, except one fifo that we will monitor:
-    sleep 1
-    if [ -p "/tmp/pOsxFt1" ] ; then
-        exec 6>&-
-        wait
-        # sleep 1
-        exec >"/tmp/pOsxFt1"
-        rm -f "/tmp/pOsxFt1"
-    fi;
-    if [ -p "$FIFO_pOsxFps" ] ; then
-        exec 4>&-
-        wait
-        # sleep 1
-        exec >"$FIFO_pOsxFps"
-        rm -f "$FIFO_pOsxFps"
-    fi;
-    if [ -p "$FIFO_pOsxFpd" ] ; then
-        exec 5>&-
-        wait
-        # sleep 1
-        exec >"$FIFO_pOsxFpd"
-        rm -f "$FIFO_pOsxFpd"
-    fi;
-    # Repeatedly check if background operation completed or not:
-    while [ "$(< "$FIFO_pOsxFt")" != "pfC_done" ] || [ "$(< "$FIFO_pOsxFt")" != "pfC_fail" ] ; do
-        i=$(( $i+1 ))
-        # setting different update times for the PDprogressBar dialog
-        case "$i" in
-            (1) s=2; ;;
-            (2|3|4) s=3; ;;
-            (5) s=4; ;;
-            (*) s=5; ;;
-        esac
-        sleep $s
-        # Finding-out the number of files & dirs so-far copied into DESTINATION profile folder/directory:
-        pfCTD=`find "$PA_userPref/" -type d -print | wc -c`
-        pfCTF=`find "$PA_userPref/" -type f -print | wc -c`
-        # pfCTS="Dir+File Size Not-Counted"
-        pfCTP=$SECONDS
-        # Finding PERCENT of files & dirs which are copied
-        # pfCTFp=$((200*$pfCTF/$pfTF % 2 + 100*$pfCTF/$pfTF))
-        # pfCTFp=$(( ($pfCTF*1000/$pfTF+5)/10 ))
-        # pfCTDp=$((200*$pfCTD/$pfTD % 2 + 100*$pfCTD/$pfTD))
-        # pfCTFp=$(( ($pfCTD*1000/$pfTD+5)/10 ))
-        # pfCTSp=0
-        # Show updated info on PDprogressBar dialog box:
-        PDprogressBarDirsFilesCpOrMv  "Copy|Copying $appID Profile"  "$rvpf"  "$PA_userPref" \
-            "${pfCTP}|$s"  "-"  "-"  "p1|$pfCTF|$pfTF"  "p2|$pfCTD|$pfTD"
-        if [ ! -p "$FIFO_pOsxFt" ] ; then
-            break
-        fi;
-    # done < "$FIFO_pOsxFt"
-    done
-    # We will erase the last fifo with Unique number, which we were using to receive "done"/"fail" msg:
-    if [ -p "$FIFO_pOsxFt" ] ; then
-        exec 3>&-
-        # wait
-        rm -f "$FIFO_pOsxFt"
-    fi
+function runCopyPref {	# written by Kevin Hendricks     # Modified by atErik : converting codes for Pashua-dialog based PDprogressBar
+	local pfTD=0 ;  # Portable Firefox Total Dirs (Number of total Directories)
+	local pfTF=0 ;  # Total Files (Number of total Files)
+	local pfTS=0 ;  # "Dir+File Size Not-Counted" ;  # Total Size of all Dirs & Files
+	local pfCTD=0 ;  # Total Number of Copied Dirs
+	local pfCTF=0 ;  # Ttl_Num of Copied Files
+	local pfCTS=$pfTS ;  # Total SIZE(MegaBytes/...) Copied Dirs & Files
+	local pfCTP=0 ;  # Number of seconds/Time Passed
+	# local pfCTDp=0 ;  # Percent % of Copied Dirs
+	# local pfCTFp=0 ;  # % of Copied Files
+	# local pfCTSp=0 ;  # % of Copied Dirs+Files SIZE
+	local UniqNumbr=5 ;  # an Unique Number (interger number), except "1" & except What Other OsxPortableFirefox Using
+	local FIFO_pOsxFt="/tmp/pOsxFt${UniqNumbr}" ;  # temp purpose fifo file-name . It needs to have an UNIQUE-NUMBER in filename
+	local FIFO_pOsxFps="/tmp/pOsxFps${UniqNumbr}" ;  # contains fifo file-name for Source-profile folder-name
+	local FIFO_pOsxFpd="/tmp/pOsxFpd${UniqNumbr}" ;  # ... Destination-profile folder-name
+	local i=0 s=0
+	rm -f "/tmp/pOsxFt1" ;  # a temp fifo to pass the UniqNumber number to sub-process
+	mkfifo "/tmp/pOsxFt1"
+	rm -f "$FIFO_pOsxFt" ;  # remove previous fifo file (if it wasn't removed earlier)
+	mkfifo "$FIFO_pOsxFt" ;  # create a (temp) fifo file, as its persistent/accessible across different processes
+	rm -f "$FIFO_pOsxFps"
+	mkfifo "$FIFO_pOsxFps"
+	rm -f "$FIFO_pOsxFpd"
+	mkfifo "$FIFO_pOsxFpd"
+	# Getting directory-location of profile from "profilepath" ENV Variable:
+	rvpf="$profilepath"
+	# Getting TOTAL-NUMBER of files & sub-dirs count, in SOURCE-PROFILE folder/directory, before copy-process:
+	pfTD=`find "$rvpf/" -type d -print | wc -c`
+	pfTF=`find "$rvpf/" -type f -print | wc -c`
+	# For now, avoiding finding total size of all files+dirs, as it takes longer time:
+	# pfTS=0
+	PDprogressBarDirsFilesCpOrMv  "Copy|Copying $appID Profile"  "$rvpf"  "$PA_userPref" \
+		"${pfCTP}|$s"  "-"  "-"  "p1|$pfCTF|$pfTF"  "p2|$pfCTD|$pfTD"
+	# "$CD" progressbar --indeterminate --title "Copying $appID Profile" \
+	# 	--text "Copying \"$rvpf\". Please wait..." < /tmp/hpipe &
+	# FD = File Descriptor
+	# exec 3<> /tmp/hpipe
+	exec 3<> "$FIFO_pOsxFt"
+	exec 4<> "$FIFO_pOsxFps"
+	exec 5<> "$FIFO_pOsxFpd"
+	exec 6<> "/tmp/pOsxFt1"
+	# echo -n . >&3
+	echo -n "$rvpf" >&4
+	echo -n "$PA_userPref" >&5
+	echo -n "$UniqNumbr" >&6
+	# SECONDS=0 ; sleep 5 ; echo $SECONDS ; # output will be "5" after 5-seconds-of-sleep
+	SECONDS=0
+	# Below section inside { ... } will be run under a different sub-process in background (to copy files)
+	# below section can be another script-file too, & then it can be run/initiated/started by this function
+	{
+		# This is a sub-process section code, (it is to be run/executed in the background)
+		# Obtaining data from fifo pipe(s):
+		exec 6<> "/tmp/pOsxFt1"
+		UniqN="$(< "/tmp/pOsxFt1")"
+		wait
+		# exec 6>&-
+		# wait
+		exec >"/tmp/pOsxFt1"
+		# Deleting the fifo pipe(s):
+		rm -f "/tmp/pOsxFt1"
+		exec 4<> "/tmp/pOsxFps${UniqN}"
+		srcProfile="$(< "/tmp/pOsxFps${UniqN}")"
+		wait
+		# exec 4>&-
+		# wait
+		exec >"/tmp/pOsxFps${UniqN}"
+		rm -f "/tmp/pOsxFps${UniqN}"
+		exec 5<> "/tmp/pOsxFpd${UniqN}"
+		destProfile="$(< "/tmp/pOsxFpd${UniqN}")"
+		wait
+		# exec 5>&-
+		# wait
+		exec >"/tmp/pOsxFpd${UniqN}"
+		rm -f "/tmp/pOsxFpd${UniqN}"
+		# Below fifo/pipe we will use to transfer data back to the function which created this sub-process:
+		exec 3<> "/tmp/pOsxFt${UniqN}"
+		# Add your commands/work below, for which a progressive bar/info-msg box will be shown+updated:
+		# At-end of your commands/work, write "pfC_done" or "pfC_fail" word/data into fifo/pipe
+		# BEGIN all of your commands/work here:
+			# cp -R "$rvpf/" "$PA_userPref"
+			# cp -R "$srcProfile/" "$destProfile" && { echo -n "pfC_done" >&3 ; } || { echo -n "pfC_fail" >&3 ; };
+			cp -R "$srcProfile/" "$destProfile" && {
+				echo -n "pfC_done" > "/tmp/pOsxFt${UniqN}" ;
+			} || {
+				echo -n "pfC_fail" > "/tmp/pOsxFt${UniqN}" ;
+			};
+		# END of your commands.
+		# deleting the fifo, which we were using to send "done"/"fail" msg
+		wait
+		exec >"/tmp/pOsxFt${UniqN}"
+		rm -f "/tmp/pOsxFt${UniqN}"
+		unset UniqN srcProfile destProfile
+	} &
+	# ... Back to the Function which initiated/ran the above sub-process (in background) to Copy files.
+	# when fifo/pipe still exists then delete each, except one fifo that we will monitor:
+	sleep 1
+	if [ -p "/tmp/pOsxFt1" ] ; then
+		exec 6>&-
+		wait
+		# sleep 1
+		exec >"/tmp/pOsxFt1"
+		rm -f "/tmp/pOsxFt1"
+	fi;
+	if [ -p "$FIFO_pOsxFps" ] ; then
+		exec 4>&-
+		wait
+		# sleep 1
+		exec >"$FIFO_pOsxFps"
+		rm -f "$FIFO_pOsxFps"
+	fi;
+	if [ -p "$FIFO_pOsxFpd" ] ; then
+		exec 5>&-
+		wait
+		# sleep 1
+		exec >"$FIFO_pOsxFpd"
+		rm -f "$FIFO_pOsxFpd"
+	fi;
+	# Repeatedly check if background Copy/Move operation completed or not:
+	while [ "$(< "$FIFO_pOsxFt")" != "pfC_done" ] || [ "$(< "$FIFO_pOsxFt")" != "pfC_fail" ] ; do
+		i=$(( $i+1 ))
+		# setting different update times for the PDprogressBar dialog
+		case "$i" in
+			(1) s=2; ;;
+			(2|3|4) s=3; ;;
+			(5) s=4; ;;
+			(*) s=5; ;;
+		esac
+		sleep $s
+		# Finding-out the number of files & dirs so-far copied into DESTINATION profile folder/directory:
+		pfCTD=`find "$PA_userPref/" -type d -print | wc -c`
+		pfCTF=`find "$PA_userPref/" -type f -print | wc -c`
+		# pfCTS="Dir+File Size Not-Counted"
+		pfCTP=$SECONDS
+		# Finding PERCENT of files & dirs which are copied
+		# pfCTFp=$((200*$pfCTF/$pfTF % 2 + 100*$pfCTF/$pfTF))
+		# pfCTFp=$(( ($pfCTF*1000/$pfTF+5)/10 ))
+		# pfCTDp=$((200*$pfCTD/$pfTD % 2 + 100*$pfCTD/$pfTD))
+		# pfCTFp=$(( ($pfCTD*1000/$pfTD+5)/10 ))
+		# pfCTSp=0
+		# Show updated info on PDprogressBar dialog box:
+		PDprogressBarDirsFilesCpOrMv  "Copy|Copying $appID Profile"  "$rvpf"  "$PA_userPref" \
+			"${pfCTP}|$s"  "-"  "-"  "p1|$pfCTF|$pfTF"  "p2|$pfCTD|$pfTD"
+		if [ ! -p "$FIFO_pOsxFt" ] ; then
+			break
+		fi;
+	# done < "$FIFO_pOsxFt"
+	done
+	# We will erase the last fifo with Unique number, which we were using to receive "done"/"fail" msg:
+	if [ -p "$FIFO_pOsxFt" ] ; then
+		exec 3>&-
+		# wait
+		rm -f "$FIFO_pOsxFt"
+	fi
 }
 
 function check_asf {
-    if [ -d "$PA_userPref" ] ; then
-        # delete PA_userPref if it still exist
-        rm -Rf "$PA_userPref"
-    else
-        mkdir -p "$PA_userPref"
-    fi
+	if [ -d "$PA_userPref" ] ; then
+		# delete PA_userPref if it still exist
+		rm -Rf "$PA_userPref"
+	else
+		mkdir -p "$PA_userPref"
+	fi
 }
 
 # copy Preferences Folder
 function copy_pf {    # Modified by atErik : adding 'local', PDbubble
-    local userPrefSize=`du -hc "$userPrefBase" | cut -f1 | tail -1`
-    local freeSize=`df -H "$PA_userBase" | tail -1 | awk '{print $4}'`
-    local bUserPrefSize=`du -c "$userPrefBase" | cut -f1 | tail -1`
-    local bFreeSize=`df "$PA_userBase" | tail -1 | awk '{print $4}'`
-    local rv=0;
-    if [ $bUserPrefSize -lt $bFreeSize ] ; then
-        # Getting directory-location of profile from "profilepath" ENV Variable:
-        rvpf="$profilepath"
-        rv=` CDokMsg "Copy $appID Profile" \
-            "Your $appID Profile folder \"$rvpf\" is $userPrefSize. \
+	local userPrefSize=`du -hc "$userPrefBase" | cut -f1 | tail -1`
+	local freeSize=`df -H "$PA_userBase" | tail -1 | awk '{print $4}'`
+	local bUserPrefSize=`du -c "$userPrefBase" | cut -f1 | tail -1`
+	local bFreeSize=`df "$PA_userBase" | tail -1 | awk '{print $4}'`
+	local rv=0;
+	if [ $bUserPrefSize -lt $bFreeSize ] ; then
+		# Getting directory-location of profile from "profilepath" ENV Variable:
+		rvpf="$profilepath"
+		rv=` CDokMsg "Copy $appID Profile" \
+			"Your $appID Profile folder \"$rvpf\" is $userPrefSize. \
 You have $freeSize available. Copy to Portable $appID?" `
-        if [ "$rv" == "1" ] ; then
-            if check_asf ; runCopyPref ; then
-                touch -f "$copy_pref"
-                PDbubble "$appID Profile copied" \
-                    "Local $appID Profile copied to Portable $appID with success." \
-                    "$appICON"  "20"
-                # "$CD" bubble --title "$appID Profile copied" --text "Local \
-                #     $appID Profile copied to Portable $appID with success." \
-                #     --icon-file "$appICON"
-            else
-                PDbubble "$appID Profile copy error" \
-                "An error occurred copying $appID Profile to Portable $appID." \
-                "$cautionICON"  "-"
-                # "$CD" bubble --title "$appID Profile copy error" \
-                # --text "An error occurred copying $appID Profile to Portable $appID." \
-                # --icon-file "$cautionICON" --no-timeout
-            fi
-        fi
-    else
-        CDokMsgC "No space to copy $appID Profile" \
-            "Your $appID Profile folder is $userPrefSize. \
+		if [ "$rv" == "1" ] ; then
+			if check_asf ; runCopyPref ; then
+				touch -f "$copy_pref"
+				PDbubble "$appID Profile copied" \
+					"Local $appID Profile copied to Portable $appID with success." \
+					"$appICON"  "20"
+				# "$CD" bubble --title "$appID Profile copied" --text "Local \
+				# 	$appID Profile copied to Portable $appID with success." \
+				# 	--icon-file "$appICON"
+			else
+				PDbubble "$appID Profile copy error" \
+				"An error occurred copying $appID Profile to Portable $appID." \
+				"$cautionICON"  "-"
+				# "$CD" bubble --title "$appID Profile copy error" \
+				# --text "An error occurred copying $appID Profile to Portable $appID." \
+				# --icon-file "$cautionICON" --no-timeout
+			fi
+		fi
+	else
+		CDokMsgC "No space to copy $appID Profile" \
+			"Your $appID Profile folder is $userPrefSize. \
 You have $freeSize available. There is not enough space. Portable $appID will \
 open without copy existing $appID Profile."  "--no-cancel" > /dev/null
-    fi
+	fi
 }
 
 function copy_local_pref {  # Modified by atErik : adding 'local'
-    local text=""
-    local informativeText=""
-    local rv=0
-    if [ ! -f "$copy_pref" ] && [ -d "$userPrefBase" ] ; then
-    beep
-    text="Copy local Profile"
-    informativeText="Copy the existing $appID Profile \
+	local text=""
+	local informativeText=""
+	local rv=0
+	if [ ! -f "$copy_pref" ] && [ -d "$userPrefBase" ] ; then
+	beep
+	text="Copy local Profile"
+	informativeText="Copy the existing $appID Profile \
 on this system to Portable $appID?"
-    rv=` PDmultiButtons  "$text"  "$informativeText"  "$appICON" \
-        "button1_Copy"  "button2_Don't_Copy"  "button3_Never" `
-    # rv=` "$CD" msgbox --no-newline --icon-file "$appICON" \
-    #     --text "$text" --informative-text "$informativeText" \
-    #     --button1 "Copy" --button2 "Don't Copy" --button3 "Never" `
-        if [ "$rv" == "1" ] ; then
-            select_profile
-            copy_pf
-        elif [ "$rv" == "3" ] ; then
-            touch -f "$copy_pref" 
-        fi
-    fi
+	rv=` PDmultiButtons  "$text"  "$informativeText"  "$appICON" \
+		"button1_Copy"  "button2_Don't_Copy"  "button3_Never" `
+	# rv=` "$CD" msgbox --no-newline --icon-file "$appICON" \
+	# 	--text "$text" --informative-text "$informativeText" \
+	# 	--button1 "Copy" --button2 "Don't Copy" --button3 "Never" `
+		if [ "$rv" == "1" ] ; then
+			select_profile
+			copy_pf
+		elif [ "$rv" == "3" ] ; then
+			touch -f "$copy_pref" 
+		fi
+	fi
 }
 
 # ========================================================
-# bkup/recover cache        bu=bkup=backup
+# bkup/recover cache		bu=bkup=backup
 # BackUp existing cache
 # ========================================================
 
 function bkup_cache {
-    if [ -d "$userCache" ] ; then
-        mv "$userCache" "$userCache.pabu"
-    fi
+	if [ -d "$userCache" ] ; then
+		mv "$userCache" "$userCache.pabu"
+	fi
 }
 
 function recover_cache {
-    if [ -d "$userCache.pabu" ] ; then
-        mv "$userCache.pabu" "$userCache"
-    fi
+	if [ -d "$userCache.pabu" ] ; then
+		mv "$userCache.pabu" "$userCache"
+	fi
 }
 
 function remove_p_cache {
-    if [ -d "$userCache" ] ; then
-        rm -rf "$userCache"
-    fi
+	if [ -d "$userCache" ] ; then
+		rm -rf "$userCache"
+	fi
 }
 
 # ========================================================
@@ -1226,51 +1250,62 @@ function remove_p_cache {
 # ========================================================
 
 function run_app {
-    "$PA_userBase/$appID.app/Contents/MacOS/$appBin" -profile "$PA_userPref"
+	"$PA_userBase/$appID.app/Contents/MacOS/$appBin" -profile "$PA_userPref"
 }
 
 # ========================================================
 # open_p_app
 # Run Portable Application script
 # ========================================================
-
+	
 function set_p_app {
-    bkup_cache            # Backup exixting Cache folder
+	bkup_cache			# Backup exixting Cache folder
 }
 
 function close_p_app {
-    remove_p_cache        # Remove portable cache
-    recover_cache        # Restore existing cache
+	remove_p_cache		# Remove portable cache
+	recover_cache		# Restore existing cache
 }
-
+	
 function open_p_app {    # Modified by atErik : PDbubble
-    if set_p_app ; then
-        PDbubble "Portable $appID setup ok" \
-            "Portable $appID open with success."  "$appICON"  "-" &
-        # "$CD" bubble --title "Portable $appID setup ok" \
-        #     --text "Portable $appID open with success." --icon-file "$appICON" &
-    else
-        CDokMsgC "Portable $appID setup error" \
-            "An error occour while opening portable preferences. Now quit." "--no-cancel" > /dev/null
-        close_p_app
-    exit 0
-    fi
-    run_app                 # Run application from external drive
-    if close_p_app ; then
-        PDbubble "Portable $appID quit" \
-            "Portable $appID quit with success."  "$appICON" &
-        # "$CD" bubble --title "Portable $appID quit" \
-        #     --text "Portable $appID quit with success." --icon-file "$appICON" &
-    else
-        CDokMsgC "Portable $appID quit error" \
-            "Portable $appID can't restore local cache." "--no-cancel" > /dev/null
-    fi
+	if set_p_app ; then
+		PDbubble "Portable $appID setup ok" \
+			"Portable $appID open with success."  "$appICON"  "-" &
+		# "$CD" bubble --title "Portable $appID setup ok" \
+		# 	--text "Portable $appID open with success." --icon-file "$appICON" &
+	else
+		CDokMsgC "Portable $appID setup error" \
+			"An error occour while opening portable preferences. Now quit." "--no-cancel" > /dev/null
+		close_p_app
+	exit 0
+	fi
+	run_app 				# Run application from external drive
+	if close_p_app ; then
+		PDbubble "Portable $appID quit" \
+			"Portable $appID quit with success."  "$appICON" &
+		# "$CD" bubble --title "Portable $appID quit" \
+		# 	--text "Portable $appID quit with success." --icon-file "$appICON" &
+	else
+		CDokMsgC "Portable $appID quit error" \
+			"Portable $appID can't restore local cache." "--no-cancel" > /dev/null
+	fi
 }
-
+# END of Function(s),Variable(s) Declarations/Settings
+ 
+# BEGIN of this SCRIPT main-script-function : beginning to use above functions & variables:
 bsd_command_check
 osx_version_check
 check_p_asf
 quitApp
 copy_local_pref
 open_p_app
+# Removing data occupied (by Variables & Functions, etc) in memory, before exit:
+unset appID appBin userPref userPrefBase userCacheBase userCache PA_userBase PA_userPref
+unset copy_pref CD PD appICON cautionICON
+unset profilepath rvpf pashuapath oldIFS
+unset -f CDokMsg CDokMsgC beep PDbubble PDfileOrDirSelect PDmultiButtons PDprogressBarDirsFilesCpOrMv
+unset -f command_check_msg bsd_command_check version_check_msg osx_version_check quitApp check_p_asf
+unset -f select_profile runCopyPref copy_pf copy_local_pref bkup_cache recover_cache remove_p_cache
+unset -f run_app set_p_app close_p_app open_p_app
+unset -f locate_pashua pashua_run
 exit 0
