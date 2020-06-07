@@ -9,7 +9,7 @@ Codes From This New-'script' Can Also Be Modified/Applied/Used With Any Other<br
 "OSX Portable Apps".
 <br/>
 
-<center><table border="0" width="90%" cellspacing="0px" align="center" style="border-collapse:collapse!important; border-spacing:0px!important; width:90%!important; broder:0px; border-width:0px!important; border-style:none!important;"><tr><td style="border-left:0px!important; border-top:0px!important; border-bottom:0px!important; border-top-style:none!important; border-bottom-style:none!important; border-left-style:none!important;">&#160;</td><td>FF = Firefox . A web-browser from Mozilla Foundation.<br/>
+<center><table border="0" width="90%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:90%!important; broder:0px; border-width:0px!important; border-style:none!important;"><tr><td border="0" class="border border-0" style="border-left:0px!important; border-top:0px!important; border-bottom:0px!important; border-top-style:none!important; border-bottom-style:none!important; border-left-style:none!important;">&#160;</td><td border="0" class="border border-0">FF = Firefox . A web-browser from Mozilla Foundation.<br/>
 PA = Portable Apps . Ususally run from an External/Portable drives/storage.<br/>
 OS = Operating System . A collection/set of vast numbers+types of programs, to assist interactions between User and computer hardwares & softwares.<br/>
 OSX = macOS X . An OS from Apple, Inc.<br/>
@@ -206,7 +206,7 @@ Thanks in advance.<br/>
 
 
 <b>EXTRA-NOTES:</b><br/>
-<center><table border="0" width="100%" cellspacing="0px" align="center" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; broder:0px; border-width:0px!important; border-style:none!important;"><tr><td>To create "MyProjects" folder in my mac hard drive, i had to do these: Edit:
+<center><table border="0" width="100%" cellspacing="0px" align="center" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; broder:0px!important; border-width:0px!important; border-style:none!important;"><tr><td>To create "MyProjects" folder in mac hard drive (not under your user-name), you may edit <code>synthetic.conf</code>:
 <pre style="padding:0px!important; margin:0px!important"><code style="padding:0px!important; margin:0px!important">┌───────────────────────<br/>
 │sudo nano /etc/synthetic.conf<br/>
 └───────────────────────</code></pre>
@@ -215,28 +215,28 @@ and then add below 2-lines of settings:
 │MyProjects	System/Volumes/Data/MyProjects<br/>
 │Development	System/Volumes/Data/Development<br/>
 └───────────────────────</code></pre>
-then Press Ctrl+X , Enter . Note: press "tab"-button after typing "MyProjects"/"Development". More on [Nano](https://www.nano-editor.org/dist/latest/cheatsheet.html)<br/>
+then Press <code>Ctrl+X</code> & press <code>Enter</code>. Note: press <code>tab</code>-button after typing "MyProjects"/"Development". More on <a href="https://www.nano-editor.org/dist/latest/cheatsheet.html" target="_blank">Nano</a><br/>
 and Execute below Terminal/shell command⒮ to create those 2-folders:
 <pre style="padding:0px!important; margin:0px!important"><code style="padding:0px!important; margin:0px!important">┌───────────────────────<br/>
 │sudo mkdir -p /System/Volumes/Data/MyProjects<br/>
 │sudo mkdir -p /System/Volumes/Data/Development<br/>
 └───────────────────────</code></pre>
-and then you must Reboot.
+... and then you must Reboot.
 </td></tr>
-<tr><td>To see all files in Finder (inlcuding Hidden/System), i executed below 2-commands:
+<tr><td>To see all files in <code>Finder</code> (inlcuding Hidden/System), i executed below 2-commands:
 <pre style="padding:0px!important; margin:0px!important"><code style="padding:0px!important; margin:0px!important">┌───────────────────────<br/>
 │defaults write com.apple.finder AppleShowAllFiles TRUE<br/>
 │killall Finder<br/>
 └───────────────────────</code></pre>
-or, in "Finder", press these 3-buttons together at-same-time: [⇧Shift]&#8239;+&#8239;[⌘Command]&#8239;+&#8239;[&#8239;<sup>&gt;</sup><sub>.</sub>&#8239;]
+or, in <code>Finder</code>, press these 3-buttons together at-same-time: [⇧Shift]&#8239;+&#8239;[⌘Command]&#8239;+&#8239;[&#8239;<sup>&gt;</sup><sub>.</sub>&#8239;]
 </td></tr>
-<tr><td>List Of Few Useful Characters/Symbols, & How To Use/Show Them:
-<table border="0" width="100%" cellspacing="0px" align="center" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; broder:0px; border-width:0px!important; border-style:none!important;"><tr><td>Low-Density Dotted Grph Char ░ 176 &#124; Medium-Density Dotted ▒ 177 &#124; High-Density Dotted ▓ 178 &#124;<br/>
+<tr><td>List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them:
+<table border="0" width="100%" cellspacing="0px" align="center" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; broder:0px!important; border-width:0px!important; border-style:none!important;"><tr><td>Low-Density Dotted Grph Char ░ 176 &#124; Medium-Density Dotted ▒ 177 &#124; High-Density Dotted ▓ 178 &#124;<br/>
 Block █ 219 &#124; Bottom Half-Block ▄ 220 &#124; Top Half-Block ▀ 223 </td></tr>
 <tr><td>Char = Character &#124; Grph = Graphic </td></tr>
 <tr><td>Middot · ⌥Opt+⇧Shift+9 (macOS) Alt+250 or Alt+0183 (WinOS) &#124; Bullet • ⌥Opt+8 (macOS) Alt+249 (WinOS)<br/>
-<tr><td>Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; &#124; (Vertical/Stright/Double) Quotation-Mark &quot; &amp;quot; &#124;<br/>
-Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; &#124; Acute-Accent ´ &#124; Full-Width Quotation-Mark ＂ &#124;<br/>
+<tr><td>Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; &#124; (Vertical/Stright/Double) Quotation-Mark &quot; &amp;#34; &amp;quot; &#124;<br/>
+Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; &#124; Acute-Accent ´ &amp;#180; &#124; Full-Width Quotation-Mark ＂ &#124;<br/>
 Full-Width Apostrophe ＇ </td></tr>
 <tr><td>(Curved/Curly) Double Quotation-Mark “ (&ldquo;) ” (&rdquo;) &amp;ldquo; &amp;rdquo; ⌥Opt+[ ⌥Opt+⇧Shift+] (macOS) Alt+0147 Alt+0148 (WinOS) &#124;<br/>
 Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; </td></tr>
@@ -265,9 +265,9 @@ Plus-Minus ± ⌥Opt+⇧Shift+= (macOS) Alt+241 (WinOS) &#124; Infinity ∞ ⌥O
 </table>
 </td></tr>
 <tr><td>In macOSX, Calculate & Compare hash/checksum/digest code (it is a very unique identity code) of a file/bundle:<br/>
-In macOSX shell `Terminal` window type command (`shasum`) & press `space` key, then<br/>
-drag the `.dmg` file from `Finder`(file browser) window & drop it into `Terminal` window:<br/>
-The `shasum` tool by-default calculates the "SHA1" hash-code, & `openssl` usage also shown:<br/>
+In macOSX shell <code>Terminal</code> window type command (<code>shasum</code>) & press <code>space</code> key, then<br/>
+drag the <code>.dmg</code> file from <code>Finder</code>(file browser) window & drop it into <code>Terminal</code> window:<br/>
+The <code>shasum</code> tool by-default calculates the "SHA1" hash-code, & <code>openssl</code> usage also shown:<br/>
 ０┌──────────────────────────────<br/>
 １￨MacNm:~ UsrNm$ <b>shasum</b> /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ２￨50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
@@ -276,7 +276,7 @@ The `shasum` tool by-default calculates the "SHA1" hash-code, & `openssl` usage 
 ５￨MacNm:~ UsrNm$ <b>openssl sha1</b> /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ６￨SHA1(/Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= 50ff626452dfadb9cbb6a2a5e2ddf60848adf256<br/>
 ７└──────────────────────────────<br/>
-i.e: to calculate "SHA256" hash-code, use `-a 256` option in `shasum`, & `openssl` usage also shown:<br/>
+i.e: to calculate "SHA256" hash-code, use <code>-a 256</code> option in <code>shasum</code>, & <code>openssl</code> usage also shown:<br/>
 ０┌──────────────────────────────<br/>
 １￨MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ２￨e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
