@@ -145,8 +145,24 @@ Copy/Paste those 2-folders into below destination pre-build folder:<br/>
 
 
 <b>BUILD/WRAP/GENERATE WITH PLATYPUS:</b><br/>
-Build the final "PortableAppName.app" bundle:<br/>
-To build new "`Portable Firefox.app`",<br/>
+Test the 'script' file, before using it to build OSX PortableApp:<br/>
+Tips: a good practice would-be, After getting this `'script'` (inside the shown/recommended folder<br/>
+that is shown few paragraphs above), 1st Rename it to `"script.sh"`,<br/>
+Open `"script.sh"` with your choice of code editing/developing editor/build software,<br/>
+Improve/Modify, Save, then<br/>
+Use below commands to test if bash code syntaxes are right or where the fault(s) is/are:
+<pre style="padding:0px!important; margin:0px!important"><code style="padding:0px!important; margin:0px!important">┌────────────────────────────────────────────
+│MacName:~ MyUserName$ sh -n /System/Volumes/Data/MyProjects/PortableFirefox/script.sh<br/>
+│MacName:~ MyUserName$ echo $?<br/>
+│MacName:~ MyUserName$ 0<br/>
+└────────────────────────────────────────────</code></pre>
+When there is no syntax-error (that is when the output is "0"),<br/>
+then copy the `"script.sh"` in same folder,<br/>
+& Rename the `"script.sh copy"` into `'script'`,<br/>
+then follow next/below stage/procedures.<br/>
+
+Build the final `"PortableAppName.app"` bundle:<br/>
+To build new `"Portable Firefox.app"`,<br/>
 choose these below files, directories, bundles inside Platypus GUI interface:<br/>
 &#160; directory : English.lproj<br/>
 &#160; directory : profile<br/>
@@ -157,27 +173,33 @@ choose these below files, directories, bundles inside Platypus GUI interface:<br
 &#160; sh-script-file : pashua.sh<br/>
 &#160; sh-script-file : script<br/>
 
-Then i'm currently using these type of settings in Platypus GUI interface:<br/>
+Then you may use these type of settings in Platypus GUI interface:<br/>
 &#160;&#160; Script Type : Shell : /bin/sh<br/>
 &#160;&#160; Script Path : `/System/Volumes/Data/MyProjects/PortableFirefox/script`<br/>
 &#160;&#160; Interface : Text Window<br/>
 &#160;&#160; Unselected options : Run with root privileges , Run in background , Accept dropped items<br/>
 &#160;&#160; Selected/Check-Marked options : Remain running after execution<br/>
 &#160;&#160; Fill in other boxes: app name, identifier, author, etc
-Then tap/click/select/press "`Create App`" button.<br/>
-It will create/generate a new "`Portable Firefox.app`", that is<br/>
+Then tap/click/select/press the "`Create App`" button.<br/>
+It will create/generate a new `"Portable Firefox.app"`, that is<br/>
 compatible with 64-only macOSX(Catalina/...)<br/>
+<br/>
+Run/execute/TEST it.<br/>
 <br/>
 
 
 <b>ERRORs/PROBLEMs:</b><br/>
-Write down what error(s) you're getting, let us know in FreeSMUG forum:<br/>
+Write down what error(s) you're getting, try to research & solve as much possible,<br/>
+then let us know in FreeSMUG forum about your unsolved errors & share your code changes:<br/>
 &#160;&#160; http://www.FreeSMUG.org/forum/t-13404441/<br/>
-
+If no errors, then please share your final working code in FreeSMUG & also in GitHub, Thank-you.<br/>
+<br/>
 
 <b>HELP TO BUILD:</b><br/>
-Please help+contribute+collaborate+improve+rectify codes<br/>
-to build this 'script' (a bash shell code).<br/>
+Please help+contribute+collaborate+improve+rectify current codes to build this<br/>
+bash-shell 'script' (so-that, this 'script' can be run/used by Platypus<br/>
+to run macOSX apps (i.e: `"Firefox.app"`) on (64-bit) macOSX from portable/external<br/>
+drive/storage⒮).<br/>
 Thanks in advance.<br/>
 <br/>
 <br/>
@@ -194,7 +216,7 @@ and then add below 2-lines of settings:
 │Development	System/Volumes/Data/Development<br/>
 └───────────────────────</code></pre>
 then Press Ctrl+X , Enter . Note: press "tab"-button after typing "MyProjects"/"Development"<br/>
-and Execute below Terminal/shell command(s) to create those 2-folders:
+and Execute below Terminal/shell command⒮ to create those 2-folders:
 <pre style="padding:0px!important; margin:0px!important"><code style="padding:0px!important; margin:0px!important">┌───────────────────────<br/>
 │sudo mkdir -p /System/Volumes/Data/MyProjects<br/>
 │sudo mkdir -p /System/Volumes/Data/Development<br/>
