@@ -184,18 +184,61 @@ Thanks in advance.<br/>
 
 
 <b>EXTRA-NOTES:</b><br/>
-<center><table border="0" width="100%" cellspacing="0px" align="center" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; broder:0px; border-width:0px!important; border-style:none!important;"><tr><td style="border-left:0px!important; border-top:0px!important; border-bottom:0px!important; border-top-style:none!important; border-bottom-style:none!important; border-left-style:none!important;">&#160;</td><td>List Of Few Useful Characters/Symbols, & How To Use/Show Them:<br/>
-Low-Density Dotted Grph Char ░ 176 &#124; Medium-Density Dotted ▒ 177 &#124; High-Density Dotted ▓ 178 &#124; Block █ 219 &#124; Bottom Half-Block ▄ 220 &#124; Top Half-Block ▀ 223 <br/>
-Char = Character &#124; Grph = Graphic<br/>
-Middot · ⌥Opt+⇧Shift+9 (macOS) Alt+250 or Alt+0183 (WinOS) &#124; Bullet • ⌥Opt+8 (macOS) Alt+249 (WinOS)<br/>
-Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &#124; (Vertical/Stright/Double) Quotation-Mark &quot; &amp;quot; &#124; Grave-Accent (aka Backtick/Tick) \` (&#96;) &amp;grave; &amp;#96; &#124; Acute-Accent ´ &#124; Full-Width Quotation-Mark ＂ &#124; Full-Width Apostrophe ＇<br/> 
-(Curved/Curly) Double Quotation-Mark “ (&ldquo;) ” (&rdquo;) &amp;ldquo; &amp;rdquo; ⌥Opt+[ ⌥Opt+⇧Shift+] (macOS) Alt+0147 Alt+0148 (WinOS) &#124; Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; <br/>
-(Curved/Curly) Single-Quotation-Mark	\‘ (&lsquo;) \’ (&rsquo;) &amp;lsquo; &amp;rsquo; ⌥Opt+] ⌥Opt+⇧Shift+] (macOS) Alt+0145 Alt+0146 (WinOS) &#124; Single High-Reversed-9 Quotation-Mark ‛ &amp;#8219;<br/>
-(Single)-Vertical-Line &#124; &amp;#124; &#124; (Single)-Broken-Bar ¦ &amp;#166; &amp;brvbar; AltGr+&#96; AltGr+6 AltGr+⇧Shift+Right\ (WinOS)<br/>
-Ampersand (aka And) & &amp;amp; &amp;#38; &#124; Less-Than &lt; &amp;lt; &amp;#60; &#124; Greater-Than &gt; &amp;#62; &amp;gt; &#124; Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; ⌥Opt+Space (macOS) Alt+0160 Alt+255 (WinOS) &#124; Narrow No-Break Space "&#8239;" &amp;#8239; &#124; Space " " &amp;#32; <br/>
-Registered-Trademark: ® ⌥Opt+r (macOS) Alt+0174 (WinOS) &#124; Copyright: © ⌥Opt+g (macOS) Alt+0169 (WinOS) &#124; Trademark: ™ ⌥Opt+⇧Shift+2 (macOS) Alt+0153 (WinOS)<br/>
-Euro: € ⌥Opt+2 (macOS) Alt 0128 (WinOS) &#124; Cent: ¢ ⌥Opt+4 (macOS) Alt+155 (WinOS) &#124; Yen: ¥ ⌥Opt+y (macOS) Alt+157 (WinOS) &#124; £ ⌥Opt+3 (macOS) Alt+156 (WinOS)<br/>
-Apple symbol  ⌥Opt+⇧Shift+k (macOS) &#124; Congruence Relation Symbol ≡ 240 &#124; <br/>
-Not-Equal-To ≠ ⌥Opt+= (macOS) &#124; Almost-Equal-To ≈ ⌥Opt+x (macOS) &#124; Division ÷ ⌥Opt+? ⌥Opt+/ (macOS) Alt+0247 (WinOS) &#124; Plus-Minus ± ⌥Opt+⇧Shift+= (macOS) Alt+241 (WinOS) &#124; Infinity ∞ ⌥Opt+5 (macOS) 
-</td></tr></table></center><br/>
-<br/>
+<center><table border="0" width="100%" cellspacing="0px" align="center" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; broder:0px; border-width:0px!important; border-style:none!important;"><tr><td>To create "MyProjects" folder in my mac hard drive, i had to do these: Edit:
+<pre><code>┌───────────────────────<br/>
+│sudo nano /etc/synthetic.conf<br/>
+└───────────────────────</code></pre>
+and then add below 2-lines of settings:
+<pre><code>┌───────────────────────<br/>
+│MyProjects	System/Volumes/Data/MyProjects<br/>
+│Development	System/Volumes/Data/Development<br/>
+└───────────────────────</code></pre>
+then Press Ctrl+X , Enter . Note: press "tab"-button after typing "MyProjects"/"Development"<br/>
+and Execute below Terminal/shell command(s) to create those 2-folders:
+<pre><code>┌───────────────────────<br/>
+│sudo mkdir -p /System/Volumes/Data/MyProjects<br/>
+│sudo mkdir -p /System/Volumes/Data/Development<br/>
+└───────────────────────</code></pre>
+and then you must Reboot.
+</td></tr>
+<tr><td>To see all files in Finder (inlcuding Hidden/System), i executed below 2-commands:
+<pre><code>┌───────────────────────<br/>
+│defaults write com.apple.finder AppleShowAllFiles TRUE<br/>
+│killall Finder<br/>
+└───────────────────────</code></pre>
+or, in "Finder", press these 3-buttons together at-same-time: [⇧Shift]&#8239;+&#8239;[⌘Command]&#8239;+&#8239;[&#8239;<sup>&gt;</sup><sub>.</sub>&#8239;]
+</td></tr>
+<tr><td>List Of Few Useful Characters/Symbols, & How To Use/Show Them:
+<table border="0" width="100%" cellspacing="0px" align="center" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; broder:0px; border-width:0px!important; border-style:none!important;"><tr><td>Low-Density Dotted Grph Char ░ 176 &#124; Medium-Density Dotted ▒ 177 &#124; High-Density Dotted ▓ 178 &#124;<br/>
+Block █ 219 &#124; Bottom Half-Block ▄ 220 &#124; Top Half-Block ▀ 223 </td></tr>
+<tr><td>Char = Character &#124; Grph = Graphic </td></tr>
+<tr><td>Middot · ⌥Opt+⇧Shift+9 (macOS) Alt+250 or Alt+0183 (WinOS) &#124; Bullet • ⌥Opt+8 (macOS) Alt+249 (WinOS)<br/>
+<tr><td>Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; &#124; (Vertical/Stright/Double) Quotation-Mark &quot; &amp;quot; &#124;<br/>
+Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; &#124; Acute-Accent ´ &#124; Full-Width Quotation-Mark ＂ &#124;<br/>
+Full-Width Apostrophe ＇ </td></tr>
+<tr><td>(Curved/Curly) Double Quotation-Mark “ (&ldquo;) ” (&rdquo;) &amp;ldquo; &amp;rdquo; ⌥Opt+[ ⌥Opt+⇧Shift+] (macOS) Alt+0147 Alt+0148 (WinOS) &#124;<br/>
+Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; </td></tr>
+<tr><td>(Curved/Curly) Single-Quotation-Mark	\‘ (&lsquo;) \’ (&rsquo;) &amp;lsquo; &amp;rsquo; ⌥Opt+] ⌥Opt+⇧Shift+] (macOS) Alt+0145 Alt+0146 (WinOS) &#124;<br/>
+Single High-Reversed-9 Quotation-Mark ‛ &amp;#8219; </td></tr>
+<tr><td>(Single)-Vertical-Line (aka Pipe Char) &#124; &amp;#124; &amp;verbar; &amp;vert; &#124;<br/>
+(Single)-Broken-Bar ¦ &amp;#166; &amp;brvbar; AltGr+&#96; AltGr+6 AltGr+⇧Shift+Right\ (WinOS) </td></tr>
+<tr><td>Ampersand (aka And) & &amp;amp; &amp;#38; &#124; Less-Than &lt; &amp;lt; &amp;#60; &#124; Greater-Than &gt; &amp;#62; &amp;gt; &#124;<br/>
+Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; ⌥Opt+Space (macOS) Alt+0160 Alt+255 (WinOS) &#124; Narrow No-Break Space "&#8239;" &amp;#8239; &#124; Space " " &amp;#32; &#124;<br/>
+Percent % &amp;#37; &#124; Asterisk * &amp;#42; &amp;ast; &#124; Exclamation ! &amp;#33; &amp;excl; &#124; Number (aka Hash, Pound-Sign) # &amp;#35; &amp;num; &#124;<br/>
+Plus + &amp;#43; &amp;plus; &#124; Comma , &amp;#44; &amp;comma; &#124; Period (full stop) . &amp;#46; &amp;period; &#124; Solidus (Forward-Slash) / &amp;#47; &amp;sol; &#124;<br/>
+Colon : &amp;#58; &amp;colon; &#124; Exclamation ! &amp;#33; &amp;excl; &#124; SemiColon ; &amp;#59; &amp;semi; &#124; Equals = &amp;#61; &amp;equals; &#124;<br/>
+Question ? &amp;#63; &amp;quest; &#124; Commercial-At @ &amp;#64; &amp;commat; &#124; Square-Bracket &#91; &#93; &amp;#91; &amp;#93; &amp;lsqb; &amp;rsqb; &#124;<br/>
+Reverse-Solidus (Back-Slash) &#92; &amp;#92; &amp;bsol; &#124; Circumflex-Accent (Hat) (Caret) &#94; &amp;#94; &amp;Hat; &#124; Low-Line (aka LowBar, UnderBar, UnderScore) &#95; &amp;#95; &amp;lowbar; </td></tr>
+<tr><td>Registered-Trademark: ® ⌥Opt+r (macOS) Alt+0174 (WinOS) &#124; Copyright: © ⌥Opt+g (macOS) Alt+0169 (WinOS) &#124;<br/>
+Trademark: ™ ⌥Opt+⇧Shift+2 (macOS) Alt+0153 (WinOS) &#124; Copyleft © (ɔ) </td></tr>
+<tr><td>Euro: € ⌥Opt+2 (macOS) Alt 0128 (WinOS) &#124; Cent: ¢ ⌥Opt+4 (macOS) Alt+155 (WinOS) &#124; Yen: ¥ ⌥Opt+y (macOS) Alt+157 (WinOS) &#124;<br/>
+Pound (Currency-Sign) £ ⌥Opt+3 (macOS) Alt+156 (WinOS) &#124; Dollar $ &amp;#33; &amp;dollar; </td></tr>
+<tr><td>Apple symbol  ⌥Opt+⇧Shift+k (macOS) &#124; Squared-Plus ⊞ used by Wikipedia as WindowsOS Flag/Logo Key symbol 229E,<br/>
+Others uses ❖ “Black Diamond Minus White X” symbol as Windows Logo Key 0x2756 &amp;#10070; &#124;<br/>
+Penguin 🐧 U+1F427 &amp;#128039; &#124;<br/>
+Congruence Relation Symbol ≡ 240 &#124; http://liberties.wikidot.com/symbols1 </td></tr>
+<tr><td>Not-Equal-To ≠ ⌥Opt+= (macOS) &#124; Almost-Equal-To ≈ ⌥Opt+x (macOS) &#124; Division ÷ ⌥Opt+? ⌥Opt+/ (macOS) Alt+0247 (WinOS) &#124;<br/>
+Plus-Minus ± ⌥Opt+⇧Shift+= (macOS) Alt+241 (WinOS) &#124; Infinity ∞ ⌥Opt+5 (macOS) </td></tr>
+</table>
+</td></tr>
+</table></center><br/>
