@@ -75,7 +75,7 @@ But (old) CocoaDialog is not 64bit-only macOSX compatible yet afaik.<br/>
 &#160;&#160; Website: https://CocoaDialog.com/<br/>
 
 So Apps/DMG bundled with old CocoaDialog cannot run on 64bit-only macOSX (Catalina/...)<br/>
-And apps built/wrapped with older Platypus also cannot run in 64bit-only macOSX,<br/>
+And app⒮ built/wrapped with older Platypus also cannot run in 64bit-only macOSX,<br/>
 as old Platypus was not fully 64bit compatible.<br/>
 
 So we must change existing dialog (a program to assist interaction<br/>
@@ -106,7 +106,7 @@ So obtain NEW Platypus (at the time of writing this README.md, it is/was v5.3),<
 from here: https://Sveinbjorn.org/platypus<br/>
 and install in your (64bit-only macOSX(Catalina/...) based) mac computer.<br/>
 Or get Platypus v4.9, as that is the last 32bit supported ( & working) Platypus,<br/>
-to build/wrap macOS apps in 64bit+32bit suppported macOSX (Mojave & earlier).<br/>
+to build/wrap macOS app⒮ in 64bit+32bit suppported macOSX (Mojave & earlier).<br/>
 
 Obtain Pashua dialog from here : https://www.BlueM.net/en/projects/pashua/<br/>
 Open dmg installer, Copy "Pashua.app", "Pashua.sh" into below folder:<br/>
@@ -189,7 +189,7 @@ Run/execute/TEST it.<br/>
 
 
 <b>ERRORs/PROBLEMs:</b><br/>
-Write down what error(s) you're getting, try to research & solve as much possible,<br/>
+Write down what error(s) you're getting, try to research & try to solve as much possible,<br/>
 then let us know in FreeSMUG forum about your unsolved errors & share your code changes:<br/>
 &#160;&#160; http://www.FreeSMUG.org/forum/t-13404441/<br/>
 If no errors, then please share your final working code in FreeSMUG & also in GitHub, Thank-you.<br/>
@@ -215,7 +215,7 @@ and then add below 2-lines of settings:
 │MyProjects	System/Volumes/Data/MyProjects<br/>
 │Development	System/Volumes/Data/Development<br/>
 └───────────────────────</code></pre>
-then Press Ctrl+X , Enter . Note: press "tab"-button after typing "MyProjects"/"Development"<br/>
+then Press Ctrl+X , Enter . Note: press "tab"-button after typing "MyProjects"/"Development". More on [Nano](https://www.nano-editor.org/dist/latest/cheatsheet.html)<br/>
 and Execute below Terminal/shell command⒮ to create those 2-folders:
 <pre style="padding:0px!important; margin:0px!important"><code style="padding:0px!important; margin:0px!important">┌───────────────────────<br/>
 │sudo mkdir -p /System/Volumes/Data/MyProjects<br/>
@@ -258,9 +258,30 @@ Pound (Currency-Sign) £ ⌥Opt+3 (macOS) Alt+156 (WinOS) &#124; Dollar $ &amp;#
 <tr><td>Apple symbol  ⌥Opt+⇧Shift+k (macOS) &#124; Squared-Plus ⊞ used by Wikipedia as WindowsOS Flag/Logo Key symbol 229E,<br/>
 Others uses ❖ “Black Diamond Minus White X” symbol as Windows Logo Key 0x2756 &amp;#10070; &#124;<br/>
 Penguin 🐧 U+1F427 &amp;#128039; &#124;<br/>
-Congruence Relation Symbol ≡ 240 &#124; http://liberties.wikidot.com/symbols1 </td></tr>
+Congruence Relation Symbol ≡ 240 &#124; </td></tr>
 <tr><td>Not-Equal-To ≠ ⌥Opt+= (macOS) &#124; Almost-Equal-To ≈ ⌥Opt+x (macOS) &#124; Division ÷ ⌥Opt+? ⌥Opt+/ (macOS) Alt+0247 (WinOS) &#124;<br/>
 Plus-Minus ± ⌥Opt+⇧Shift+= (macOS) Alt+241 (WinOS) &#124; Infinity ∞ ⌥Opt+5 (macOS) </td></tr>
+<tr><td>http://liberties.wikidot.com/symbols1 </td></tr>
 </table>
+</td></tr>
+<tr><td>In macOSX, Calculate & Compare hash/checksum/digest code (it is a very unique identity code) of a file/bundle:<br/>
+In macOSX shell `Terminal` window type command (`shasum`) & press `space` key, then<br/>
+drag the `.dmg` file from `Finder`(file browser) window & drop it into `Terminal` window:<br/>
+The `shasum` tool by-default calculates the "SHA1" hash-code, & `openssl` usage also shown:<br/>
+０┌──────────────────────────────<br/>
+１￨MacNm:~ UsrNm$ <b>shasum</b> /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+２￨50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+３￨MacNm:~ UsrNm$ <b>shasum -a 1</b> /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+４￨50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+５￨MacNm:~ UsrNm$ <b>openssl sha1</b> /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+６￨SHA1(/Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= 50ff626452dfadb9cbb6a2a5e2ddf60848adf256<br/>
+７└──────────────────────────────<br/>
+i.e: to calculate "SHA256" hash-code, use `-a 256` option in `shasum`, & `openssl` usage also shown:<br/>
+０┌──────────────────────────────<br/>
+１￨MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+２￨e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+３￨MacNm:~ UsrNm$ <b>openssl sha256</b> /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+４￨SHA256(/Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57<br/>
+５└──────────────────────────────<br/>
 </td></tr>
 </table></center><br/>
