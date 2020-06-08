@@ -9,12 +9,12 @@ Codes From This New-'script' Can Also Be Modified/Applied/Used With Any Other<br
 "OSX Portable Apps".
 <br/>
 
-* **◦** FF = Firefox . A web-browser from Mozilla Foundation.<br/>
-**◦** PA = Portable Apps . Ususally run from an External/Portable drives/storage.<br/>
-**◦** OS = Operating System . A collection/set of vast numbers+types of programs, to assist interactions between computer User and computer hardwares & softwares and computer networks.<br/>
-**◦** OSX =  = macOS X . An OS developed by Apple, Inc . ClosedSource OS.<br/>
-**◦** Win = ❖ = Windows OS . An OS developed by Microsoft corp . ClosedSource OS.<br/>
-**◦** Lnx = 🐧&#xFE0E; = Linux OS . Most distros should be called GNU-Linux OS. Various distros developed by various groups & individuals . OpenSource OS.
+<p><dl><dd><b>◦</b> FF = Firefox . A web-browser from Mozilla Foundation.<br/>
+<b>◦</b> PA = Portable Apps . Ususally run from an External/Portable drives/storage.<br/>
+<b>◦</b> OS = Operating System . A collection/set of vast numbers+types of programs, to assist interactions between computer User and computer hardwares & softwares and computer networks.<br/>
+<b>◦</b> OSX =  = macOS X . An OS developed by Apple, Inc . ClosedSource OS.<br/>
+<b>◦</b> Win = ❖ = Windows OS . An OS developed by Microsoft corp . ClosedSource OS.<br/>
+<b>◦</b> Lnx = 🐧&#xFE0E; = Linux OS . Most distros should be called GNU-Linux OS. Various distros developed by various groups & individuals . OpenSource OS.</dd></dl></p>
 
 
 <b>OLD SCRIPT:</b><br/>
@@ -146,25 +146,24 @@ Copy/Paste those 2-folders into below destination pre-build folder:<br/>
 <br/>
 
 
-<b>BUILD/WRAP/GENERATE WITH PLATYPUS:</b><br/>
-Test the 'script' file, before using it to build OSX PortableApp:<br/>
+<b>BUILD/WRAP/GENERATE WITH PLATYPUS:</b>
+
+<p>Test the 'script' file, before using it to build OSX PortableApp:<br/>
 Tips: a good practice from beginning would-be, After getting this `'script'`<br/>
 (inside the shown/recommended folder that is shown few paragraphs above), 1st Rename<br/>
 it to `"script.sh"`, then Open `"script.sh"` with your choice of code editing/developing<br/>
 editor/build software,<br/>
 Improve/Modify, Save, then<br/>
-Use below commands to test if bash code syntaxes are right or where the fault(s) is/are:<br/>
-* ０┌──────────────────────────<br/>
+Use below commands to test if bash code syntaxes are right or where the fault(s) is/are:<dl><dd>０┌──────────────────────────<br/>
 １￨MacNm:~ UsrNm$ <b>sh -n</b> /System/Volumes/Data/MyProjects/PortableFirefox/script&#46;sh<br/>
 ２￨MacNm:~ UsrNm$ echo &#36;?<!-- . written as #46 , $ as #36 --><br/>
 ３￨0<br/>
 ４￨MacNm:~ UsrNm$<br/>
-５└──────────────────────────
-
-When there is no syntax-error, (in other words, When the output is "0"),<br/>
+５└──────────────────────────</dd>
+<dd>When there is no syntax-error, (in other words, When the output is "0"),<br/>
 then copy the `"script.sh"` in same folder,<br/>
 & Rename the `"script.sh copy"` into `'script'`,<br/>
-then follow next/below stage/procedures.<br/>
+then follow next/below stage/procedures.</dd></dl></p>
 
 Build the final `"PortableAppName.app"` bundle:<br/>
 To build new `"Portable Firefox.app"`,<br/>
