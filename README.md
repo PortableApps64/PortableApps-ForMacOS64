@@ -9,13 +9,13 @@ Codes From This New-'script' Can Also Be Modified/Applied/Used With Any Other<br
 "OSX Portable Apps".
 <br/>
 
-<center><table border="0" width="90%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:90%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=0 class="border border-0" style="border:0px none!important; border-left:none!important; border-right:none!important; border-top:none!important; border-bottom:none!important;">&#160;</td><td border=0 class="border border-0" style="border:0px none!important; border-left:none!important; border-right:none!important; border-top:none!important; border-bottom:none!important;">FF = Firefox . A web-browser from Mozilla Foundation.<br/>
-PA = Portable Apps . Ususally run from an External/Portable drives/storage.<br/>
-OS = Operating System . A collection/set of vast numbers+types of programs, to assist interactions between User and computer hardwares & softwares.<br/>
-OSX =  macOS X . An OS from Apple, Inc.<br/>
-Win = ❖ Windows OS . An OS from Microsoft corp.<br/>
-Linux = 🐧&#xFE0E; Linux OS. Most distros should be called GNU-Linux OS. OpenSource OS. Various distros developed by various groups.
-</td></tr></table></center><br/>
+* abbr (abbreviations):
+  * **◦** FF = Firefox . A web-browser from Mozilla Foundation.<br/>
+**◦** PA = Portable Apps . Ususally run from an External/Portable drives/storage.<br/>
+**◦** OS = Operating System . A collection/set of vast numbers+types of programs, to assist interactions between computer User and computer hardwares & softwares and computer networks.<br/>
+**◦** OSX =  = macOS X . An OS developed by Apple, Inc . ClosedSource OS.<br/>
+**◦** Win = ❖ = Windows OS . An OS developed by Microsoft corp . ClosedSource OS.<br/>
+**◦** Lnx = 🐧&#xFE0E; = Linux OS . Most distros should be called GNU-Linux OS. Various distros developed by various groups & individuals . OpenSource OS.
 
 
 <b>OLD SCRIPT:</b><br/>
@@ -239,16 +239,17 @@ or, in <code>Finder</code>, press these 3-buttons together at-same-time: [⇧Shi
 </td></tr>
 </table></center>
 <center><table border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1>List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them:
-<table border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Low-Density Dotted Grph Char ░ 176 • Medium-Density Dotted ▒ 177 • High-Density Dotted ▓ 178<br/>
-• Block █ 219 • Bottom Half-Block ▄ 220 • Top Half-Block ▀ 223 </td></tr>
+<table border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Low-Density Dotted Grph Char ░ &amp;#9617; 176 • Medium-Density Dotted ▒ &amp;#9618; 177 • High-Density Dotted ▓ &amp;#9619; 178<br/>
+• Block █ &amp;#9608; &amp;block; 219 • Bottom Half-Block ▄ &amp;#9604; &amp;lhblk; 220 • Top Half-Block ▀ &amp;#9600; &amp;uhblk; 223 </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Box Drawings ( • Light-Horizontal ─ &amp;#9472;  • Light-Vertical │ &amp;#9474; • Light-Down&Right ┌ &amp;#9484; • ┐ &amp;#9488; • └ &amp;#9492; • ┘ &amp;#9496; )</td></tr>
 <tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Char = Character • Grph = Graphic </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Middot · ⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 &amp;#183; • Bullet • ⌥Opt+8 ❖Alt+249 &amp;#8226; <br/>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Middot · &amp;#183; ⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 • Bullet • &amp;#8226; ⌥Opt+8 ❖Alt+249 <br/>
 <tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; • (Vertical/Stright/Double) Quotation-Mark &quot; &amp;#34; &amp;quot;<br/>
 • Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; • Acute-Accent ´ &amp;#180; • Full-Width Quotation-Mark ＂<br/>
 • Full-Width Apostrophe ＇ </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• (Curved/Curly) Double Quotation-Mark “ (&ldquo;) ” (&rdquo;) &amp;ldquo; &amp;rdquo; ⌥Opt+[ ⌥Opt+⇧Shift+] ❖Alt+0147 / ❖Alt+0148 &amp;#8220; &amp;#8221; <br/>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• (Curved/Curly) Double Quotation-Mark “ (&ldquo;) ” (&rdquo;) &amp;#8220; &amp;#8221; &amp;ldquo; &amp;rdquo; ⌥Opt+[ ⌥Opt+⇧Shift+] ❖Alt+0147 / ❖Alt+0148 <br/>
 • Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• (Curved/Curly) Single-Quotation-Mark	\‘ (&lsquo;) \’ (&rsquo;) &amp;lsquo; &amp;rsquo; ⌥Opt+] ⌥Opt+⇧Shift+] ❖Alt+0145 ❖Alt+0146 &amp;#8216; &amp;#8217; <br/>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• (Curved/Curly) Single-Quotation-Mark	\‘ (&lsquo;) \’ (&rsquo;) &amp;#8216; &amp;#8217; &amp;lsquo; &amp;rsquo; ⌥Opt+] ⌥Opt+⇧Shift+] ❖Alt+0145 ❖Alt+0146 <br/>
 • Single High-Reversed-9 Quotation-Mark ‛ &amp;#8219; </td></tr>
 <tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• (Single)-Vertical-Line (aka Pipe Char) • &amp;#124; &amp;verbar; &amp;vert;<br/>
 • (Single)-Broken-Bar ¦ &amp;#166; &amp;brvbar; ❖AltGr+&#96; ❖AltGr+6 AltGr+⇧Shift+Right\ </td></tr>
@@ -259,21 +260,22 @@ or, in <code>Finder</code>, press these 3-buttons together at-same-time: [⇧Shi
 • Colon : &amp;#58; &amp;colon; • SemiColon ; &amp;#59; &amp;semi; • Equals = &amp;#61; &amp;equals;<br/>
 • Question ? &amp;#63; &amp;quest; • Commercial-At @ &amp;#64; &amp;commat; • Square-Bracket &#91; &#93; &amp;#91; &amp;#93; &amp;lsqb; &amp;rsqb;<br/>
 • Reverse-Solidus (Back-Slash) &#92; &amp;#92; &amp;bsol; • Circumflex-Accent (Hat) (Caret) &#94; &amp;#94; &amp;Hat; • Low-Line (aka LowBar, UnderBar, UnderScore) &#95; &amp;#95; &amp;lowbar; </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Registered-Trademark: ® ⌥Opt+r ❖Alt+0174 • Copyright: © ⌥Opt+g ❖Alt+0169<br/>
-• Trademark: ™ ⌥Opt+⇧Shift+2 ❖Alt+0153 • Copyleft © (ɔ) </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Euro: € ⌥Opt+2 ❖Alt+0128 • Cent: ¢ ⌥Opt+4 ❖Alt+155 • Yen: ¥ ⌥Opt+y ❖Alt+157<br/>
-• Pound (Currency-Sign) £ ⌥Opt+3 ❖Alt+156 • Dollar $ &amp;#36; &amp;dollar; </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Apple symbol  (Textual) U+F8FF &amp;#63743; ⌥Opt+⇧Shift+k (macOS) • Red Apple 🍎 U+E345 &amp;#58181; &amp;#xe345; 🍎&#xFE0E; • Green Apple 🍏 U+1F34F &amp;#127823; &amp;#x1f34f; 🍏&#xFE0E;<br/>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Registered-Trademark: ® &amp;#174; ⌥Opt+r ❖Alt+0174 • Copyright: © &amp;#169; ⌥Opt+g ❖Alt+0169<br/>
+• Trademark: ™ &amp;#8482; ⌥Opt+⇧Shift+2 ❖Alt+0153 • Copyleft © (ɔ) </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Euro: € &amp;#8364; ⌥Opt+2 ❖Alt+0128 • Cent: ¢ &amp;#162; ⌥Opt+4 ❖Alt+155 • Yen: ¥ &amp;#165; ⌥Opt+y ❖Alt+157<br/>
+• Pound (Currency-Sign) £ &amp;#163; ⌥Opt+3 ❖Alt+156 • Dollar $ &amp;#36; &amp;dollar; </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Apple symbol  (Textual) U+F8FF &amp;#63743; ⌥Opt+⇧Shift+k (macOS) • Red Apple 🍎 U+E345 &amp;#58181; &amp;#xe345; 🍎&#xFE0E;(Textual) • Green Apple 🍏 U+1F34F &amp;#127823; &amp;#x1f34f; 🍏&#xFE0E;(Textual)<br/>
 • Squared-Plus ⊞ U+229E &amp;#8862; used by Wikipedia as WindowsOS Logo/Flag Key symbol , ⊞ Win+B ⊞ Win <br/>
-Others use “Black Diamond Minus White X” ❖ as Windows Logo Key U+2756 &amp;#10070;<br/>
-• Penguin 🐧 (emoji) U+1F427 &amp;#128039; 🐧&#xFE0E; (Textual) , often used to indicate GNU-Linux-OS</td></tr>
+• “Black Diamond Minus White X” ❖ used by others+me as Windows Logo Key (aka Winddows Flag Key) U+2756 &amp;#10070;<br/>
+• Penguin 🐧 (emoji) U+1F427 &amp;#128039; 🐧&#xFE0E;(Textual) , often used to indicate GNU-Linux-OS</td></tr>
 <tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Congruence Relation Symbol ≡ 240 • </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Not-Equal-To ≠ ⌥Opt+= • Almost-Equal-To ≈ ⌥Opt+x • Division ÷ ⌥Opt+? ⌥Opt+/ ❖Alt+0247 &amp;#247;<br/>
-• Plus-Minus ± ⌥Opt+⇧Shift+= ❖Alt+241 &amp;#177; • Infinity ∞ ⌥Opt+5 </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• White Frowning Face ☹/&#65039; &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; • Worried Face 😟 0x1F61F &amp;#128543;<br/>
-• White Smiling Face ☺ 0x263A &amp;#9786; • Slightly Smiling Face 🙂 0x1F642 &amp;#128578;<br/>
-• Black Smiling Face ☻ 0x263B &amp;#9787;<br/>
-• Ballot Box ☐ &amp;#9744; U+2610 • Ballot Box with Check ☑ &amp;#9745; U+2611 • Ballot Box with X ☒ &amp;#9746; U+2612 </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Not-Equal-To ≠ &amp;#8800; &amp;ne; ⌥Opt&#46;= • Almost-Equal-To ≈ &amp;#8776; &amp;asymp; &amp;ap; &amp;approx; ⌥Opt+x<br/>
+• Division ÷ &amp;#247; ⌥Opt+? ⌥Opt+/ ❖Alt+0247<br/>
+• Plus-Minus ± &amp;#177; ⌥Opt+⇧Shift+= ❖Alt+241 • Infinity ∞ &amp;#8734; &amp;infin; ⌥Opt+5 </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• White Frowning Face ☹&#xFE0E;/&#65039; &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; • Worried Face 😟 0x1F61F &amp;#128543;<br/>
+• White Smiling Face ☺&#xFE0E; 0x263A &amp;#9786; • Slightly Smiling Face 🙂 0x1F642 &amp;#128578;<br/>
+• Black Smiling Face ☻&#xFE0E; 0x263B &amp;#9787;</td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Ballot Box ☐ &amp;#9744; U+2610 • Ballot Box with Check ☑ &amp;#9745; U+2611 ☑&#xFE0E;(Textual) • Ballot Box with X ☒ &amp;#9746; U+2612 ☒&#xFE0E;(Textual)</td></tr>
 <tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">To display an Emoji/Emoticon as a Textual glyph (if available/renderable), Use this<br/>
 after the emoji : &amp;#xFE0E; (or apply CSS, i.e: <code>span&#46;gray { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>)<br/>
 (More on <a href="https://en.wikipedia.org/wiki/Variant_form_(Unicode)#Variation_Selectors_block">VS15</a>)</td></tr>
