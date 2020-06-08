@@ -22,13 +22,13 @@ Various distros developed by various groups & individuals . OpenSource OS.</dd><
 <b>OLD SCRIPT:</b><br/>
 Original & Last 'script' v4.1 is here: http://www.FreeSMUG.org/portableapps:code:firefox<br/>
 ( You can also check 1st commit of this 'script' file in Github to view the v4.1 code )<br/>
-The 'script' v4.1 was written by Carlo Gandolfi, and, Paolo Portaluri, Copyright 2010,<br/>
-Released under GPL v3.<br/>
+The 'script' v4.1 was written by Carlo Gandolfi and Paolo Portaluri and others,
+Copyright 2010 by Carlo Gandolfi, and, Paolo Portaluri<br/>, Released under GPL v3.<br/>
 Project's SF page: https://SourceForge.net/projects/osxportableapps/<br/>
 Portable Firefox OSX is here:<br/>
-&#160;https://SourceForge.net/projects/osxportableapps/files/Portable%20Firefox%20OS%20X/<br/>
+&#160; https://SourceForge.net/projects/osxportableapps/files/Portable%20Firefox%20OS%20X/<br/>
 The 'script' v4.1 is now distributed via a ZIP file located here:<br/>
-&#160;https://prdownloads.SourceForge.net/osxportableapps/PortableFirefoxScript_r4.1.txt.zip?download<br/>
+&#160; https://prdownloads.SourceForge.net/osxportableapps/PortableFirefoxScript_r4.1.txt.zip?download<br/>
 Last "Portable Firefox OSX" app: "PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg", 28.2 MBytes,<br/>
 &#160;&#160; sha1: 50ff626452dfadb9cbb6a2a5e2ddf60848adf256,<br/>
 &#160;&#160; md5: fa6691336e22a2d83e5629533b830300.<br/>
