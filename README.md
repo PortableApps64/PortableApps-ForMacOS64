@@ -9,11 +9,14 @@ Codes From This New-'script' Can Also Be Modified/Applied/Used With Any Other<br
 "OSX Portable Apps".
 <br/>
 
-<center><table border="0" width="90%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:90%!important; broder:0px; border-width:0px!important; border-style:none!important;"><tr><td border="0" class="border border-0" style="border-left:0px!important; border-top:0px!important; border-bottom:0px!important; border-top-style:none!important; border-bottom-style:none!important; border-left-style:none!important;">&#160;</td><td border="0" class="border border-0">FF = Firefox . A web-browser from Mozilla Foundation.<br/>
+<center><table border="0" width="90%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:90%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=0 class="border border-0" style="border:0px none!important; border-left:none!important; border-right:none!important; border-top:none!important; border-bottom:none!important;">&#160;</td><td border=0 class="border border-0" style="border:0px none!important; border-left:none!important; border-right:none!important; border-top:none!important; border-bottom:none!important;">FF = Firefox . A web-browser from Mozilla Foundation.<br/>
 PA = Portable Apps . Ususally run from an External/Portable drives/storage.<br/>
 OS = Operating System . A collection/set of vast numbers+types of programs, to assist interactions between User and computer hardwares & softwares.<br/>
-OSX = macOS X . An OS from Apple, Inc.<br/>
-Win = Windows OS . An OS from Microsoft corp.</td></tr></table></center><br/>
+OSX =  macOS X . An OS from Apple, Inc.<br/>
+Win = ❖ Windows OS . An OS from Microsoft corp.<br/>
+Linux = 🐧&#xFE0E; Linux OS. Most distros should be called GNU-Linux OS. OpenSource OS. Various distros developed by various groups.
+</td></tr></table></center><br/>
+
 
 <b>OLD SCRIPT:</b><br/>
 Original & Last 'script' v4.1 is here: http://www.FreeSMUG.org/portableapps:code:firefox<br/>
@@ -45,10 +48,10 @@ New 'script' v4.1.x Are released under below Licenses + Restrictions + Permissio
 New 'script' v4.1.x are: Copyright 2020 by Erik T Ashfolk - &lt;atErik＠OutLꝏk·ⓒⓞⓜ&gt;(＠=@,ꝏ=oo,·=.,ⓒ=c,ⓞ=o,ⓜ=m)<br/>
 
 This 'script' v4.1/v4.1.x file is usually used from such (i.e) location, in macOSX:<br/>
-&#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/script"<br/>
+&#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/Resources/script"<br/><!-- . written as #46 -->
 
 This 'script' v4.1/v4.1.x is (i.e) used by the below binary "Portable Firefox" executable file:<br/>
-&#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox.app/Contents/MacOS/Portable Firefox"<br/>
+&#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/MacOS/Portable Firefox"<br/><!-- . written as #46 -->
 
 The binary "Portable Firefox" is created by Platypus,<br/>
 Platypus also creates the "Portable Firefox.app" bundle.<br/>
@@ -146,16 +149,18 @@ Copy/Paste those 2-folders into below destination pre-build folder:<br/>
 
 <b>BUILD/WRAP/GENERATE WITH PLATYPUS:</b><br/>
 Test the 'script' file, before using it to build OSX PortableApp:<br/>
-Tips: a good practice would-be, After getting this `'script'` (inside the shown/recommended folder<br/>
-that is shown few paragraphs above), 1st Rename it to `"script.sh"`,<br/>
-Open `"script.sh"` with your choice of code editing/developing editor/build software,<br/>
+Tips: a good practice from beginning would-be, After getting this `'script'`<br/>
+(inside the shown/recommended folder that is shown few paragraphs above), 1st Rename<br/>
+it to `"script.sh"`, then Open `"script.sh"` with your choice of code editing/developing<br/>
+editor/build software,<br/>
 Improve/Modify, Save, then<br/>
-Use below commands to test if bash code syntaxes are right or where the fault(s) is/are:
-<pre style="padding:0px!important; margin:0px!important"><code style="padding:0px!important; margin:0px!important">┌────────────────────────────────────────────
-│MacName:~ MyUserName$ sh -n /System/Volumes/Data/MyProjects/PortableFirefox/script.sh<br/>
-│MacName:~ MyUserName$ echo $?<br/>
-│MacName:~ MyUserName$ 0<br/>
-└────────────────────────────────────────────</code></pre>
+Use below commands to test if bash code syntaxes are right or where the fault(s) is/are:<br/>
+&#160;&#160;０┌──────────────────────────<br/>
+&#160;&#160;１￨MacNm:~ UsrNm$ <b>sh -n</b> /System/Volumes/Data/MyProjects/PortableFirefox/script&#46;sh<br/>
+&#160;&#160;２￨MacNm:~ UsrNm$ echo &#36;?<br/><!-- . written as #46 , $ as #36 -->
+&#160;&#160;３￨0<br/>
+&#160;&#160;４￨MacNm:~ UsrNm$<br/>
+&#160;&#160;５└──────────────────────────<br/>
 When there is no syntax-error (that is when the output is "0"),<br/>
 then copy the `"script.sh"` in same folder,<br/>
 & Rename the `"script.sh copy"` into `'script'`,<br/>
@@ -205,83 +210,103 @@ Thanks in advance.<br/>
 <br/>
 
 
-<b>EXTRA-NOTES:</b><br/>
-<center><table border="0" width="100%" cellspacing="0px" align="center" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; broder:0px!important; border-width:0px!important; border-style:none!important;"><tr><td>To create "MyProjects" folder in mac hard drive (not under your user-name), you may edit <code>synthetic.conf</code>:
-<pre style="padding:0px!important; margin:0px!important"><code style="padding:0px!important; margin:0px!important">┌───────────────────────<br/>
-│sudo nano /etc/synthetic.conf<br/>
-└───────────────────────</code></pre>
-and then add below 2-lines of settings:
-<pre style="padding:0px!important; margin:0px!important"><code style="padding:0px!important; margin:0px!important">┌───────────────────────<br/>
-│MyProjects	System/Volumes/Data/MyProjects<br/>
-│Development	System/Volumes/Data/Development<br/>
-└───────────────────────</code></pre>
+## EXTRA-NOTES:
+<center><table border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1>To create "MyProjects" folder in mac hard drive (not under your user-name), you may edit <code>synthetic.conf</code>:<br/>
+&#160;&#160;０┌──────────────────────────<br/>
+&#160;&#160;１￨sudo nano /etc/synthetic.conf<br/>
+&#160;&#160;２└──────────────────────────<br/>
+and then add below 2-lines of settings:<br/>
+&#160;&#160;０┌──────────────────────────<br/>
+&#160;&#160;１￨MyProjects	System/Volumes/Data/MyProjects<br/>
+&#160;&#160;２￨Development	System/Volumes/Data/Development<br/>
+&#160;&#160;３└──────────────────────────<br/>
 then Press <code>Ctrl+X</code> & press <code>Enter</code>. Note: press <code>tab</code>-button after typing "MyProjects"/"Development". More on <a href="https://www.nano-editor.org/dist/latest/cheatsheet.html" target="_blank">Nano</a><br/>
-and Execute below Terminal/shell command⒮ to create those 2-folders:
-<pre style="padding:0px!important; margin:0px!important"><code style="padding:0px!important; margin:0px!important">┌───────────────────────<br/>
-│sudo mkdir -p /System/Volumes/Data/MyProjects<br/>
-│sudo mkdir -p /System/Volumes/Data/Development<br/>
-└───────────────────────</code></pre>
-... and then you must Reboot.
+and Execute below Terminal/shell command⒮ to create those 2-folders:<br/>
+&#160;&#160;０┌──────────────────────────<br/>
+&#160;&#160;１￨sudo mkdir -p /System/Volumes/Data/MyProjects<br/>
+&#160;&#160;２￨sudo mkdir -p /System/Volumes/Data/Development<br/>
+&#160;&#160;３└──────────────────────────<br/>
+... and then you must Reboot.<br/>
+<br/>
 </td></tr>
-<tr><td>To see all files in <code>Finder</code> (inlcuding Hidden/System), i executed below 2-commands:
-<pre style="padding:0px!important; margin:0px!important"><code style="padding:0px!important; margin:0px!important">┌───────────────────────<br/>
-│defaults write com.apple.finder AppleShowAllFiles TRUE<br/>
-│killall Finder<br/>
-└───────────────────────</code></pre>
-or, in <code>Finder</code>, press these 3-buttons together at-same-time: [⇧Shift]&#8239;+&#8239;[⌘Command]&#8239;+&#8239;[&#8239;<sup>&gt;</sup><sub>.</sub>&#8239;]
+<tr><td border=1>To see all files in <code>Finder</code> (inlcuding Hidden/System), i executed below 2-commands:<br/>
+&#160;&#160;０┌──────────────────────────<br/>
+&#160;&#160;１￨defaults write com.apple.finder AppleShowAllFiles TRUE<br/>
+&#160;&#160;２￨killall Finder<br/>
+&#160;&#160;３└──────────────────────────<br/>
+or, in <code>Finder</code>, press these 3-buttons together at-same-time: [⇧Shift]&#43;[⌘Command]&#43;[&#8239;<sup>&gt;</sup><sub>.</sub>&#8239;]<br/><!-- + written as #43 , nnbsp is #8239 -->
+<br/>
 </td></tr>
-<tr><td>List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them:
-<table border="0" width="100%" cellspacing="0px" align="center" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; broder:0px!important; border-width:0px!important; border-style:none!important;"><tr><td>Low-Density Dotted Grph Char ░ 176 &#124; Medium-Density Dotted ▒ 177 &#124; High-Density Dotted ▓ 178 &#124;<br/>
-Block █ 219 &#124; Bottom Half-Block ▄ 220 &#124; Top Half-Block ▀ 223 </td></tr>
-<tr><td>Char = Character &#124; Grph = Graphic </td></tr>
-<tr><td>Middot · ⌥Opt+⇧Shift+9 (macOS) Alt+250 or Alt+0183 (WinOS) &#124; Bullet • ⌥Opt+8 (macOS) Alt+249 (WinOS)<br/>
-<tr><td>Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; &#124; (Vertical/Stright/Double) Quotation-Mark &quot; &amp;#34; &amp;quot; &#124;<br/>
-Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; &#124; Acute-Accent ´ &amp;#180; &#124; Full-Width Quotation-Mark ＂ &#124;<br/>
-Full-Width Apostrophe ＇ </td></tr>
-<tr><td>(Curved/Curly) Double Quotation-Mark “ (&ldquo;) ” (&rdquo;) &amp;ldquo; &amp;rdquo; ⌥Opt+[ ⌥Opt+⇧Shift+] (macOS) Alt+0147 Alt+0148 (WinOS) &#124;<br/>
-Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; </td></tr>
-<tr><td>(Curved/Curly) Single-Quotation-Mark	\‘ (&lsquo;) \’ (&rsquo;) &amp;lsquo; &amp;rsquo; ⌥Opt+] ⌥Opt+⇧Shift+] (macOS) Alt+0145 Alt+0146 (WinOS) &#124;<br/>
-Single High-Reversed-9 Quotation-Mark ‛ &amp;#8219; </td></tr>
-<tr><td>(Single)-Vertical-Line (aka Pipe Char) &#124; &amp;#124; &amp;verbar; &amp;vert; &#124;<br/>
-(Single)-Broken-Bar ¦ &amp;#166; &amp;brvbar; AltGr+&#96; AltGr+6 AltGr+⇧Shift+Right\ (WinOS) </td></tr>
-<tr><td>Ampersand (aka And) & &amp;amp; &amp;#38; &#124; Less-Than &lt; &amp;lt; &amp;#60; &#124; Greater-Than &gt; &amp;#62; &amp;gt; &#124;<br/>
-Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; ⌥Opt+Space (macOS) Alt+0160 Alt+255 (WinOS) &#124; Narrow No-Break Space "&#8239;" &amp;#8239; &#124; Space " " &amp;#32; &#124;<br/>
-Percent % &amp;#37; &#124; Asterisk * &amp;#42; &amp;ast; &#124; Exclamation ! &amp;#33; &amp;excl; &#124; Number (aka Hash, Pound-Sign) # &amp;#35; &amp;num; &#124;<br/>
-Plus + &amp;#43; &amp;plus; &#124; Comma , &amp;#44; &amp;comma; &#124; Period (full stop) . &amp;#46; &amp;period; &#124; Solidus (Forward-Slash) / &amp;#47; &amp;sol; &#124;<br/>
-Colon : &amp;#58; &amp;colon; &#124; Exclamation ! &amp;#33; &amp;excl; &#124; SemiColon ; &amp;#59; &amp;semi; &#124; Equals = &amp;#61; &amp;equals; &#124;<br/>
-Question ? &amp;#63; &amp;quest; &#124; Commercial-At @ &amp;#64; &amp;commat; &#124; Square-Bracket &#91; &#93; &amp;#91; &amp;#93; &amp;lsqb; &amp;rsqb; &#124;<br/>
-Reverse-Solidus (Back-Slash) &#92; &amp;#92; &amp;bsol; &#124; Circumflex-Accent (Hat) (Caret) &#94; &amp;#94; &amp;Hat; &#124; Low-Line (aka LowBar, UnderBar, UnderScore) &#95; &amp;#95; &amp;lowbar; </td></tr>
-<tr><td>Registered-Trademark: ® ⌥Opt+r (macOS) Alt+0174 (WinOS) &#124; Copyright: © ⌥Opt+g (macOS) Alt+0169 (WinOS) &#124;<br/>
-Trademark: ™ ⌥Opt+⇧Shift+2 (macOS) Alt+0153 (WinOS) &#124; Copyleft © (ɔ) </td></tr>
-<tr><td>Euro: € ⌥Opt+2 (macOS) Alt 0128 (WinOS) &#124; Cent: ¢ ⌥Opt+4 (macOS) Alt+155 (WinOS) &#124; Yen: ¥ ⌥Opt+y (macOS) Alt+157 (WinOS) &#124;<br/>
-Pound (Currency-Sign) £ ⌥Opt+3 (macOS) Alt+156 (WinOS) &#124; Dollar $ &amp;#33; &amp;dollar; </td></tr>
-<tr><td>Apple symbol  ⌥Opt+⇧Shift+k (macOS) &#124; Squared-Plus ⊞ used by Wikipedia as WindowsOS Flag/Logo Key symbol 229E,<br/>
-Others uses ❖ “Black Diamond Minus White X” symbol as Windows Logo Key 0x2756 &amp;#10070; &#124;<br/>
-Penguin 🐧 U+1F427 &amp;#128039; &#124;<br/>
-Congruence Relation Symbol ≡ 240 &#124; </td></tr>
-<tr><td>Not-Equal-To ≠ ⌥Opt+= (macOS) &#124; Almost-Equal-To ≈ ⌥Opt+x (macOS) &#124; Division ÷ ⌥Opt+? ⌥Opt+/ (macOS) Alt+0247 (WinOS) &#124;<br/>
-Plus-Minus ± ⌥Opt+⇧Shift+= (macOS) Alt+241 (WinOS) &#124; Infinity ∞ ⌥Opt+5 (macOS) </td></tr>
-<tr><td>http://liberties.wikidot.com/symbols1 </td></tr>
+</table></center>
+<center><table border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1>List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them:
+<table border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Low-Density Dotted Grph Char ░ 176 &#124; Medium-Density Dotted ▒ 177 &#124; High-Density Dotted ▓ 178<br/>
+&#124; Block █ 219 &#124; Bottom Half-Block ▄ 220 &#124; Top Half-Block ▀ 223 </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Char = Character &#124; Grph = Graphic </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Middot · ⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 &amp;#183; &#124; Bullet • ⌥Opt+8 ❖Alt+249 &amp;#8226; <br/>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; &#124; (Vertical/Stright/Double) Quotation-Mark &quot; &amp;#34; &amp;quot;<br/>
+&#124; Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; &#124; Acute-Accent ´ &amp;#180; &#124; Full-Width Quotation-Mark ＂<br/>
+&#124; Full-Width Apostrophe ＇ </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; (Curved/Curly) Double Quotation-Mark “ (&ldquo;) ” (&rdquo;) &amp;ldquo; &amp;rdquo; ⌥Opt+[ ⌥Opt+⇧Shift+] ❖Alt+0147 / ❖Alt+0148 &amp;#8220; &amp;#8221; <br/>
+&#124; Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; (Curved/Curly) Single-Quotation-Mark	\‘ (&lsquo;) \’ (&rsquo;) &amp;lsquo; &amp;rsquo; ⌥Opt+] ⌥Opt+⇧Shift+] ❖Alt+0145 ❖Alt+0146 &amp;#8216; &amp;#8217; <br/>
+&#124; Single High-Reversed-9 Quotation-Mark ‛ &amp;#8219; </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; (Single)-Vertical-Line (aka Pipe Char) &#124; &amp;#124; &amp;verbar; &amp;vert;<br/>
+&#124; (Single)-Broken-Bar ¦ &amp;#166; &amp;brvbar; ❖AltGr+&#96; ❖AltGr+6 AltGr+⇧Shift+Right\ </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Ampersand (aka And) & &amp;amp; &amp;#38; &#124; Less-Than &lt; &amp;lt; &amp;#60; &#124; Greater-Than &gt; &amp;#62; &amp;gt;<br/>
+&#124; Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; ⌥Opt+Space ❖Alt+0160 ❖Alt+255 &#124; Narrow No-Break Space "&#8239;" &amp;#8239; &#124; Space " " &amp;#32;<br/>
+&#124; Percent % &amp;#37; &#124; Asterisk * &amp;#42; &amp;ast; &#124; Exclamation ! &amp;#33; &amp;excl; &#124; Number (aka Hash, Pound-Sign) # &amp;#35; &amp;num;<br/>
+&#124; Plus + &amp;#43; &amp;plus; &#124; Comma , &amp;#44; &amp;comma; &#124; Period (aka dot, full stop) . &amp;#46; &amp;period; &#124; Solidus (Forward-Slash) / &amp;#47; &amp;sol;<br/>
+&#124; Colon : &amp;#58; &amp;colon; &#124; SemiColon ; &amp;#59; &amp;semi; &#124; Equals = &amp;#61; &amp;equals;<br/>
+&#124; Question ? &amp;#63; &amp;quest; &#124; Commercial-At @ &amp;#64; &amp;commat; &#124; Square-Bracket &#91; &#93; &amp;#91; &amp;#93; &amp;lsqb; &amp;rsqb;<br/>
+&#124; Reverse-Solidus (Back-Slash) &#92; &amp;#92; &amp;bsol; &#124; Circumflex-Accent (Hat) (Caret) &#94; &amp;#94; &amp;Hat; &#124; Low-Line (aka LowBar, UnderBar, UnderScore) &#95; &amp;#95; &amp;lowbar; </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Registered-Trademark: ® ⌥Opt+r ❖Alt+0174 &#124; Copyright: © ⌥Opt+g ❖Alt+0169<br/>
+&#124; Trademark: ™ ⌥Opt+⇧Shift+2 ❖Alt+0153 &#124; Copyleft © (ɔ) </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Euro: € ⌥Opt+2 ❖Alt+0128 &#124; Cent: ¢ ⌥Opt+4 ❖Alt+155 &#124; Yen: ¥ ⌥Opt+y ❖Alt+157<br/>
+&#124; Pound (Currency-Sign) £ ⌥Opt+3 ❖Alt+156 &#124; Dollar $ &amp;#36; &amp;dollar; </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Apple symbol  (Textual) U+F8FF &amp;#63743; ⌥Opt+⇧Shift+k (macOS) &#124; Red Apple 🍎 U+E345 &amp;#58181; &amp;#xe345; 🍎&#xFE0E; &#124; Green Apple 🍏 U+1F34F &amp;#127823; &amp;#x1f34f; 🍏&#xFE0E;<br/>
+&#124; Squared-Plus ⊞ U+229E &amp;#8862; used by Wikipedia as WindowsOS Logo/Flag Key symbol , ⊞ Win+B ⊞ Win <br/>
+Others use “Black Diamond Minus White X” ❖ as Windows Logo Key U+2756 &amp;#10070;<br/>
+&#124; Penguin 🐧 (emoji) U+1F427 &amp;#128039; 🐧&#xFE0E; (Textual) , often used to indicate GNU-Linux-OS</td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Congruence Relation Symbol ≡ 240 &#124; </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Not-Equal-To ≠ ⌥Opt+= &#124; Almost-Equal-To ≈ ⌥Opt+x &#124; Division ÷ ⌥Opt+? ⌥Opt+/ ❖Alt+0247 &amp;#247;<br/>
+&#124; Plus-Minus ± ⌥Opt+⇧Shift+= ❖Alt+241 &amp;#177; &#124; Infinity ∞ ⌥Opt+5 </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; White Frowning Face ☹/&#65039; &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; &#124; Worried Face 😟 0x1F61F &amp;#128543;<br/>
+&#124; White Smiling Face ☺ 0x263A &amp;#9786; &#124; Slightly Smiling Face 🙂 0x1F642 &amp;#128578;<br/>
+&#124; Black Smiling Face ☻ 0x263B &amp;#9787;<br/>
+&#124; Ballot Box ☐ &amp;#9744; U+2610 &#124; Ballot Box with Check ☑ &amp;#9745; U+2611 &#124; Ballot Box with X ☒ &amp;#9746; U+2612 </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">To display an Emoji/Emoticon as a Textual glyph (if available/renderable), Use this<br/>
+after the emoji : &amp;#xFE0E; (or apply CSS, i.e: <code>span&#46;gray { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>)<br/>
+&#124; (More on <a href="https://en.wikipedia.org/wiki/Variant_form_(Unicode)#Variation_Selectors_block">VS15</a>)</td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">http://liberties.wikidot.com/symbols1<br/>http://liberties.wikidot.com/ligatures1<br/><br/></td></tr>
 </table>
 </td></tr>
-<tr><td>In macOSX, Calculate & Compare hash/checksum/digest code (it is a very unique identity code) of a file/bundle:<br/>
-In macOSX shell <code>Terminal</code> window type command (<code>shasum</code>) & press <code>space</code> key, then<br/>
-drag the <code>.dmg</code> file from <code>Finder</code>(file browser) window & drop it into <code>Terminal</code> window:<br/>
+</table></center>
+<center><table
+border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1>In macOSX, Calculate & Compare hash/checksum/digest code (it is a very unique identity code) of a file/bundle:<br/>
+In macOSX in shell ("<code>Terminal</code>" utility) window, type command (<code>shasum</code>) & press <code>space</code> key,<br/>
+then drag the <code>.dmg</code> file from <code>Finder</code>(file browser) window & drop it into <code>Terminal</code> window:<br/>
 The <code>shasum</code> tool by-default calculates the "SHA1" hash-code, & <code>openssl</code> usage also shown:<br/>
-０┌──────────────────────────────<br/>
-１￨MacNm:~ UsrNm$ <b>shasum</b> /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
-２￨50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
-３￨MacNm:~ UsrNm$ <b>shasum -a 1</b> /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
-４￨50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
-５￨MacNm:~ UsrNm$ <b>openssl sha1</b> /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
-６￨SHA1(/Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= 50ff626452dfadb9cbb6a2a5e2ddf60848adf256<br/>
-７└──────────────────────────────<br/>
-i.e: to calculate "SHA256" hash-code, use <code>-a 256</code> option in <code>shasum</code>, & <code>openssl</code> usage also shown:<br/>
-０┌──────────────────────────────<br/>
-１￨MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
-２￨e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
-３￨MacNm:~ UsrNm$ <b>openssl sha256</b> /Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
-４￨SHA256(/Users/UsrNm/Downloads/FirefoxPortable/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57<br/>
-５└──────────────────────────────<br/>
+&#160;&#160;０┌──────────────────────────<br/>
+&#160;&#160;１￨MacNm:~ UsrNm$ <b>shasum</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+&#160;&#160;２￨50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+&#160;&#160;３￨MacNm:~ UsrNm$ <b>shasum -a 1</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+&#160;&#160;４￨50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+&#160;&#160;５￨MacNm:~ UsrNm$ <b>openssl sha1</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+&#160;&#160;６￨SHA1(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= 50ff626452dfadb9cbb6a2a5e2ddf60848adf256<br/>
+&#160;&#160;７└──────────────────────────<br/>
+To calculate "SHA256" hash-code, use <code>-a 256</code> option in <code>shasum</code>, & <code>openssl</code> usage also shown:<br/>
+&#160;&#160;０┌──────────────────────────<br/>
+&#160;&#160;１￨MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+&#160;&#160;２￨e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+&#160;&#160;３￨MacNm:~ UsrNm$ <b>openssl sha256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+&#160;&#160;４￨SHA256(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57<br/>
+&#160;&#160;５└──────────────────────────<br/>
+To calculate "MD5" hash-code, use <code>md5</code> option in <code>openssl</code>:<br/>
+&#160;&#160;０┌──────────────────────────<br/>
+&#160;&#160;１￨MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+&#160;&#160;２￨e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+&#160;&#160;３￨MacNm:~ UsrNm$ <b>openssl md5</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+&#160;&#160;４￨MD5(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= fa6691336e22a2d83e5629533b830300<br/>
+&#160;&#160;５└──────────────────────────<br/>
 </td></tr>
 </table></center><br/>
