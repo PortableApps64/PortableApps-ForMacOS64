@@ -213,24 +213,25 @@ Thanks in advance.<br/>
 
 ## EXTRA-NOTES:
 
-<center><table border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1>To create "MyProjects" folder in mac hard drive (not under your user-name), you may edit <code>synthetic.conf</code><b>:</b><dl><dd>０┌──────────────────────────<br/>
+<center><table border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1 width="100%" style="width:100%!important; border-width:1px!important;">To create "MyProjects" folder in mac hard drive (not under your user-name), you may edit <code>synthetic.conf</code><b>:</b><dl><dd>０┌──────────────────────────<br/>
 １￨sudo nano /etc/synthetic.conf<br/>
-２└──────────────────────────</dd></dl><br/>
+２└──────────────────────────</dd></dl>
 and then add below 2-lines of settings<b>:</b><dl><dd>０┌──────────────────────────<br/>
-１￨MyProjects	System/Volumes/Data/MyProjects<br/>
-２￨Development	System/Volumes/Data/Development<br/>
+１￨MyProjects&#9;&#9;System/Volumes/Data/MyProjects<br/>
+２￨Development&#9;&#9;System/Volumes/Data/Development<br/>
 ３└──────────────────────────</dd>
-<dd>then Press <code>Ctrl+X</code> & press <code>Enter</code>. Note: press <code>tab</code>-button after typing "MyProjects"/"Development". More on <a href="https://www.nano-editor.org/dist/latest/cheatsheet.html" target="_blank">Nano</a></dd></dl><br/>
+<dd>then Press <code>Ctrl+X</code> (to Exit), and Nano prompts/asks you to press "Y" (to Save) or "N" (to Discard) changes, so press "Y" (to Save), then Nano shows target/destination filename <code>/etc/synthetic.conf</code> (and allows you to change name), So press <code>Enter</code> to select it & Save+Exit.<br/>
+Note<b>:</b> you must press <code>tab</code>-button after typing "MyProjects"/"Development". More on <a href="https://www.nano-editor.org/dist/latest/cheatsheet.html" target="_blank">Nano</a></dd></dl>
 and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b><dl><dd>０┌──────────────────────────<br/>
 １￨sudo mkdir -p /System/Volumes/Data/MyProjects<br/>
 ２￨sudo mkdir -p /System/Volumes/Data/Development<br/>
-３└──────────────────────────</dd></dl><br/>
+３└──────────────────────────</dd></dl>
 ... and then you must Reboot.<br/>
 <br/>
 </td></tr>
 </table></center>
 
-<center><table border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1>To see all files in <code>Finder</code> (inlcuding Hidden/System), i executed below 2-commands<b>:</b><dl><dd>０┌──────────────────────────<br/>
+<center><table border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1 width="100%" style="width:100%!important; border-width:1px!important;">To see all files in <code>Finder</code> (inlcuding Hidden/System), i executed below 2-commands<b>:</b><dl><dd>０┌──────────────────────────<br/>
 １￨defaults write com.apple.finder AppleShowAllFiles TRUE<br/>
 ２￨killall Finder<br/>
 ３└──────────────────────────</dd>
