@@ -1,4 +1,4 @@
-<b>PORTABLE FIREFOX OSX script</b><br/>
+# PORTABLE FIREFOX OSX script
 <br/>
 
 A 'script' To Run "Firefox.app" As an OSX PortableApps, From Inside the<br/>
@@ -239,44 +239,44 @@ or, in <code>Finder</code>, press these 3-buttons together at-same-time: [⇧Shi
 </td></tr>
 </table></center>
 <center><table border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1>List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them:
-<table border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Low-Density Dotted Grph Char ░ 176 &#124; Medium-Density Dotted ▒ 177 &#124; High-Density Dotted ▓ 178<br/>
-&#124; Block █ 219 &#124; Bottom Half-Block ▄ 220 &#124; Top Half-Block ▀ 223 </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Char = Character &#124; Grph = Graphic </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Middot · ⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 &amp;#183; &#124; Bullet • ⌥Opt+8 ❖Alt+249 &amp;#8226; <br/>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; &#124; (Vertical/Stright/Double) Quotation-Mark &quot; &amp;#34; &amp;quot;<br/>
-&#124; Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; &#124; Acute-Accent ´ &amp;#180; &#124; Full-Width Quotation-Mark ＂<br/>
-&#124; Full-Width Apostrophe ＇ </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; (Curved/Curly) Double Quotation-Mark “ (&ldquo;) ” (&rdquo;) &amp;ldquo; &amp;rdquo; ⌥Opt+[ ⌥Opt+⇧Shift+] ❖Alt+0147 / ❖Alt+0148 &amp;#8220; &amp;#8221; <br/>
-&#124; Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; (Curved/Curly) Single-Quotation-Mark	\‘ (&lsquo;) \’ (&rsquo;) &amp;lsquo; &amp;rsquo; ⌥Opt+] ⌥Opt+⇧Shift+] ❖Alt+0145 ❖Alt+0146 &amp;#8216; &amp;#8217; <br/>
-&#124; Single High-Reversed-9 Quotation-Mark ‛ &amp;#8219; </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; (Single)-Vertical-Line (aka Pipe Char) &#124; &amp;#124; &amp;verbar; &amp;vert;<br/>
-&#124; (Single)-Broken-Bar ¦ &amp;#166; &amp;brvbar; ❖AltGr+&#96; ❖AltGr+6 AltGr+⇧Shift+Right\ </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Ampersand (aka And) & &amp;amp; &amp;#38; &#124; Less-Than &lt; &amp;lt; &amp;#60; &#124; Greater-Than &gt; &amp;#62; &amp;gt;<br/>
-&#124; Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; ⌥Opt+Space ❖Alt+0160 ❖Alt+255 &#124; Narrow No-Break Space "&#8239;" &amp;#8239; &#124; Space " " &amp;#32;<br/>
-&#124; Percent % &amp;#37; &#124; Asterisk * &amp;#42; &amp;ast; &#124; Exclamation ! &amp;#33; &amp;excl; &#124; Number (aka Hash, Pound-Sign) # &amp;#35; &amp;num;<br/>
-&#124; Plus + &amp;#43; &amp;plus; &#124; Comma , &amp;#44; &amp;comma; &#124; Period (aka dot, full stop) . &amp;#46; &amp;period; &#124; Solidus (Forward-Slash) / &amp;#47; &amp;sol;<br/>
-&#124; Colon : &amp;#58; &amp;colon; &#124; SemiColon ; &amp;#59; &amp;semi; &#124; Equals = &amp;#61; &amp;equals;<br/>
-&#124; Question ? &amp;#63; &amp;quest; &#124; Commercial-At @ &amp;#64; &amp;commat; &#124; Square-Bracket &#91; &#93; &amp;#91; &amp;#93; &amp;lsqb; &amp;rsqb;<br/>
-&#124; Reverse-Solidus (Back-Slash) &#92; &amp;#92; &amp;bsol; &#124; Circumflex-Accent (Hat) (Caret) &#94; &amp;#94; &amp;Hat; &#124; Low-Line (aka LowBar, UnderBar, UnderScore) &#95; &amp;#95; &amp;lowbar; </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Registered-Trademark: ® ⌥Opt+r ❖Alt+0174 &#124; Copyright: © ⌥Opt+g ❖Alt+0169<br/>
-&#124; Trademark: ™ ⌥Opt+⇧Shift+2 ❖Alt+0153 &#124; Copyleft © (ɔ) </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Euro: € ⌥Opt+2 ❖Alt+0128 &#124; Cent: ¢ ⌥Opt+4 ❖Alt+155 &#124; Yen: ¥ ⌥Opt+y ❖Alt+157<br/>
-&#124; Pound (Currency-Sign) £ ⌥Opt+3 ❖Alt+156 &#124; Dollar $ &amp;#36; &amp;dollar; </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Apple symbol  (Textual) U+F8FF &amp;#63743; ⌥Opt+⇧Shift+k (macOS) &#124; Red Apple 🍎 U+E345 &amp;#58181; &amp;#xe345; 🍎&#xFE0E; &#124; Green Apple 🍏 U+1F34F &amp;#127823; &amp;#x1f34f; 🍏&#xFE0E;<br/>
-&#124; Squared-Plus ⊞ U+229E &amp;#8862; used by Wikipedia as WindowsOS Logo/Flag Key symbol , ⊞ Win+B ⊞ Win <br/>
+<table border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Low-Density Dotted Grph Char ░ 176 • Medium-Density Dotted ▒ 177 • High-Density Dotted ▓ 178<br/>
+• Block █ 219 • Bottom Half-Block ▄ 220 • Top Half-Block ▀ 223 </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Char = Character • Grph = Graphic </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Middot · ⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 &amp;#183; • Bullet • ⌥Opt+8 ❖Alt+249 &amp;#8226; <br/>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; • (Vertical/Stright/Double) Quotation-Mark &quot; &amp;#34; &amp;quot;<br/>
+• Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; • Acute-Accent ´ &amp;#180; • Full-Width Quotation-Mark ＂<br/>
+• Full-Width Apostrophe ＇ </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• (Curved/Curly) Double Quotation-Mark “ (&ldquo;) ” (&rdquo;) &amp;ldquo; &amp;rdquo; ⌥Opt+[ ⌥Opt+⇧Shift+] ❖Alt+0147 / ❖Alt+0148 &amp;#8220; &amp;#8221; <br/>
+• Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• (Curved/Curly) Single-Quotation-Mark	\‘ (&lsquo;) \’ (&rsquo;) &amp;lsquo; &amp;rsquo; ⌥Opt+] ⌥Opt+⇧Shift+] ❖Alt+0145 ❖Alt+0146 &amp;#8216; &amp;#8217; <br/>
+• Single High-Reversed-9 Quotation-Mark ‛ &amp;#8219; </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• (Single)-Vertical-Line (aka Pipe Char) • &amp;#124; &amp;verbar; &amp;vert;<br/>
+• (Single)-Broken-Bar ¦ &amp;#166; &amp;brvbar; ❖AltGr+&#96; ❖AltGr+6 AltGr+⇧Shift+Right\ </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Ampersand (aka And) & &amp;amp; &amp;#38; • Less-Than &lt; &amp;lt; &amp;#60; • Greater-Than &gt; &amp;#62; &amp;gt;<br/>
+• Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; ⌥Opt+Space ❖Alt+0160 ❖Alt+255 • Narrow No-Break Space "&#8239;" &amp;#8239; • Space " " &amp;#32;<br/>
+• Percent % &amp;#37; • Asterisk * &amp;#42; &amp;ast; • Exclamation ! &amp;#33; &amp;excl; • Number (aka Hash, Pound-Sign) # &amp;#35; &amp;num;<br/>
+• Plus + &amp;#43; &amp;plus; • Comma , &amp;#44; &amp;comma; • Period (aka dot, full stop) . &amp;#46; &amp;period; • Solidus (Forward-Slash) / &amp;#47; &amp;sol;<br/>
+• Colon : &amp;#58; &amp;colon; • SemiColon ; &amp;#59; &amp;semi; • Equals = &amp;#61; &amp;equals;<br/>
+• Question ? &amp;#63; &amp;quest; • Commercial-At @ &amp;#64; &amp;commat; • Square-Bracket &#91; &#93; &amp;#91; &amp;#93; &amp;lsqb; &amp;rsqb;<br/>
+• Reverse-Solidus (Back-Slash) &#92; &amp;#92; &amp;bsol; • Circumflex-Accent (Hat) (Caret) &#94; &amp;#94; &amp;Hat; • Low-Line (aka LowBar, UnderBar, UnderScore) &#95; &amp;#95; &amp;lowbar; </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Registered-Trademark: ® ⌥Opt+r ❖Alt+0174 • Copyright: © ⌥Opt+g ❖Alt+0169<br/>
+• Trademark: ™ ⌥Opt+⇧Shift+2 ❖Alt+0153 • Copyleft © (ɔ) </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Euro: € ⌥Opt+2 ❖Alt+0128 • Cent: ¢ ⌥Opt+4 ❖Alt+155 • Yen: ¥ ⌥Opt+y ❖Alt+157<br/>
+• Pound (Currency-Sign) £ ⌥Opt+3 ❖Alt+156 • Dollar $ &amp;#36; &amp;dollar; </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Apple symbol  (Textual) U+F8FF &amp;#63743; ⌥Opt+⇧Shift+k (macOS) • Red Apple 🍎 U+E345 &amp;#58181; &amp;#xe345; 🍎&#xFE0E; • Green Apple 🍏 U+1F34F &amp;#127823; &amp;#x1f34f; 🍏&#xFE0E;<br/>
+• Squared-Plus ⊞ U+229E &amp;#8862; used by Wikipedia as WindowsOS Logo/Flag Key symbol , ⊞ Win+B ⊞ Win <br/>
 Others use “Black Diamond Minus White X” ❖ as Windows Logo Key U+2756 &amp;#10070;<br/>
-&#124; Penguin 🐧 (emoji) U+1F427 &amp;#128039; 🐧&#xFE0E; (Textual) , often used to indicate GNU-Linux-OS</td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Congruence Relation Symbol ≡ 240 &#124; </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; Not-Equal-To ≠ ⌥Opt+= &#124; Almost-Equal-To ≈ ⌥Opt+x &#124; Division ÷ ⌥Opt+? ⌥Opt+/ ❖Alt+0247 &amp;#247;<br/>
-&#124; Plus-Minus ± ⌥Opt+⇧Shift+= ❖Alt+241 &amp;#177; &#124; Infinity ∞ ⌥Opt+5 </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">&#124; White Frowning Face ☹/&#65039; &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; &#124; Worried Face 😟 0x1F61F &amp;#128543;<br/>
-&#124; White Smiling Face ☺ 0x263A &amp;#9786; &#124; Slightly Smiling Face 🙂 0x1F642 &amp;#128578;<br/>
-&#124; Black Smiling Face ☻ 0x263B &amp;#9787;<br/>
-&#124; Ballot Box ☐ &amp;#9744; U+2610 &#124; Ballot Box with Check ☑ &amp;#9745; U+2611 &#124; Ballot Box with X ☒ &amp;#9746; U+2612 </td></tr>
+• Penguin 🐧 (emoji) U+1F427 &amp;#128039; 🐧&#xFE0E; (Textual) , often used to indicate GNU-Linux-OS</td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Congruence Relation Symbol ≡ 240 • </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Not-Equal-To ≠ ⌥Opt+= • Almost-Equal-To ≈ ⌥Opt+x • Division ÷ ⌥Opt+? ⌥Opt+/ ❖Alt+0247 &amp;#247;<br/>
+• Plus-Minus ± ⌥Opt+⇧Shift+= ❖Alt+241 &amp;#177; • Infinity ∞ ⌥Opt+5 </td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• White Frowning Face ☹/&#65039; &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; • Worried Face 😟 0x1F61F &amp;#128543;<br/>
+• White Smiling Face ☺ 0x263A &amp;#9786; • Slightly Smiling Face 🙂 0x1F642 &amp;#128578;<br/>
+• Black Smiling Face ☻ 0x263B &amp;#9787;<br/>
+• Ballot Box ☐ &amp;#9744; U+2610 • Ballot Box with Check ☑ &amp;#9745; U+2611 • Ballot Box with X ☒ &amp;#9746; U+2612 </td></tr>
 <tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">To display an Emoji/Emoticon as a Textual glyph (if available/renderable), Use this<br/>
 after the emoji : &amp;#xFE0E; (or apply CSS, i.e: <code>span&#46;gray { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>)<br/>
-&#124; (More on <a href="https://en.wikipedia.org/wiki/Variant_form_(Unicode)#Variation_Selectors_block">VS15</a>)</td></tr>
+(More on <a href="https://en.wikipedia.org/wiki/Variant_form_(Unicode)#Variation_Selectors_block">VS15</a>)</td></tr>
 <tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">http://liberties.wikidot.com/symbols1<br/>http://liberties.wikidot.com/ligatures1<br/><br/></td></tr>
 </table>
 </td></tr>
@@ -303,10 +303,8 @@ To calculate "SHA256" hash-code, use <code>-a 256</code> option in <code>shasum<
 &#160;&#160;５└──────────────────────────<br/>
 To calculate "MD5" hash-code, use <code>md5</code> option in <code>openssl</code>:<br/>
 &#160;&#160;０┌──────────────────────────<br/>
-&#160;&#160;１￨MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
-&#160;&#160;２￨e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
-&#160;&#160;３￨MacNm:~ UsrNm$ <b>openssl md5</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
-&#160;&#160;４￨MD5(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= fa6691336e22a2d83e5629533b830300<br/>
-&#160;&#160;５└──────────────────────────<br/>
+&#160;&#160;１￨MacNm:~ UsrNm$ <b>openssl md5</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+&#160;&#160;２￨MD5(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= fa6691336e22a2d83e5629533b830300<br/>
+&#160;&#160;３└──────────────────────────<br/>
 </td></tr>
 </table></center><br/>
