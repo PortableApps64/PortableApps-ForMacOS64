@@ -213,19 +213,20 @@ Thanks in advance.<br/>
 
 ## EXTRA-NOTES:
 
-<center><table border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1><dl><dd>To create "MyProjects" folder in mac hard drive (not under your user-name), you may edit <code>synthetic.conf</code><b>:</b><dl><dd>０┌──────────────────────────<br/>
+<center><table border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1>To create "MyProjects" folder in mac hard drive (not under your user-name), you may edit <code>synthetic.conf</code><b>:</b><dl><dd>０┌──────────────────────────<br/>
 １￨sudo nano /etc/synthetic.conf<br/>
-２└──────────────────────────</dd></dl>
+２└──────────────────────────</dd></dl><br/>
 and then add below 2-lines of settings<b>:</b><dl><dd>０┌──────────────────────────<br/>
 １￨MyProjects	System/Volumes/Data/MyProjects<br/>
 ２￨Development	System/Volumes/Data/Development<br/>
 ３└──────────────────────────</dd>
-<dd>then Press <code>Ctrl+X</code> & press <code>Enter</code>. Note: press <code>tab</code>-button after typing "MyProjects"/"Development". More on <a href="https://www.nano-editor.org/dist/latest/cheatsheet.html" target="_blank">Nano</a></dd></dl>
+<dd>then Press <code>Ctrl+X</code> & press <code>Enter</code>. Note: press <code>tab</code>-button after typing "MyProjects"/"Development". More on <a href="https://www.nano-editor.org/dist/latest/cheatsheet.html" target="_blank">Nano</a></dd></dl><br/>
 and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b><dl><dd>０┌──────────────────────────<br/>
 １￨sudo mkdir -p /System/Volumes/Data/MyProjects<br/>
 ２￨sudo mkdir -p /System/Volumes/Data/Development<br/>
-３└──────────────────────────</dd></dl>
-... and then you must Reboot.</dd></dl><br/>
+３└──────────────────────────</dd></dl><br/>
+... and then you must Reboot.<br/>
+<br/>
 </td></tr>
 </table></center>
 
@@ -284,7 +285,7 @@ after the emoji : &amp;#xFE0E; (or apply CSS, i.e: <code>span&#46;gray { -webkit
 </table></center>
 
 <center><table
-border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1 width="100%" style="width:100%!important; border-width:1px!important;"><dl><dd>In macOSX, Calculate & Compare hash/checksum/digest code (it is a very unique identity code) of a file/bundle<b>:</b><br/>
+border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1 width="100%" style="width:100%!important; border-width:1px!important;">In macOSX, Calculate & Compare hash/checksum/digest code (it is a very unique identity code) of a file/bundle<b>:</b><br/>
 In macOSX in shell ("<code>Terminal</code>" utility) window, type command (<code>shasum</code>) & press <code>space</code> key,<br/>
 then drag the <code>.dmg</code> file from <code>Finder</code>(file browser) window & drop it into <code>Terminal</code> window<b>:</b><br/>
 The <code>shasum</code> tool by-default calculates the "SHA1" hash-code, & <code>openssl</code> usage also shown<b>:</b><dl><dd>０┌──────────────────────────<br/>
@@ -294,18 +295,17 @@ The <code>shasum</code> tool by-default calculates the "SHA1" hash-code, & <code
 ４￨50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ５￨MacNm:~ UsrNm$ <b>openssl sha1</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ６￨SHA1(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= 50ff626452dfadb9cbb6a2a5e2ddf60848adf256<br/>
-７└──────────────────────────</dd></dl></dd>
-<dd>To calculate "SHA256" hash-code, use <code>-a 256</code> option in <code>shasum</code>, & <code>openssl</code> usage also shown<b>:</b><dl><dd>０┌──────────────────────────<br/>
+７└──────────────────────────</dd></dl><br/>
+To calculate "SHA256" hash-code, use <code>-a 256</code> option in <code>shasum</code>, & <code>openssl</code> usage also shown<b>:</b><dl><dd>０┌──────────────────────────<br/>
 １￨MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ２￨e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ３￨MacNm:~ UsrNm$ <b>openssl sha256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ４￨SHA256(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57<br/>
-５└──────────────────────────</dd></dl></dd>
-<dd>To calculate "MD5" hash-code, use <code>md5</code> option in <code>openssl</code><b>:</b><dl><dd>０┌──────────────────────────<br/>
+５└──────────────────────────</dd></dl><br/>
+To calculate "MD5" hash-code, use <code>md5</code> option in <code>openssl</code><b>:</b><dl><dd>０┌──────────────────────────<br/>
 １￨MacNm:~ UsrNm$ <b>openssl md5</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ２￨MD5(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= fa6691336e22a2d83e5629533b830300<br/>
-３└──────────────────────────</dd></dl></dd></dl><br/>
-<br/>
+３└──────────────────────────</dd></dl><br/>
 </td></tr>
 </table></center><br/>
 <br/>
