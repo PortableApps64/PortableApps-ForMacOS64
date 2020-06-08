@@ -11,10 +11,12 @@ Codes From This New-'script' Can Also Be Modified/Applied/Used With Any Other<br
 
 <p><dl><dd><b>◦</b> FF = Firefox . A web-browser from Mozilla Foundation.<br/>
 <b>◦</b> PA = Portable Apps . Ususally run from an External/Portable drives/storage.<br/>
-<b>◦</b> OS = Operating System . A collection/set of vast numbers+types of programs, to assist interactions between computer User and computer hardwares & softwares and computer networks.<br/>
+<b>◦</b> OS = Operating System . A collection/set of vast numbers+types of programs,
+to assist interactions between computer User and computer hardwares & softwares and computer networks.<br/>
 <b>◦</b> OSX =  = macOS X . An OS developed by Apple, Inc . ClosedSource OS.<br/>
 <b>◦</b> Win = ❖ = Windows OS . An OS developed by Microsoft corp . ClosedSource OS.<br/>
-<b>◦</b> Lnx = 🐧&#xFE0E; = Linux OS . Most distros should be called GNU-Linux OS. Various distros developed by various groups & individuals . OpenSource OS.</dd></dl></p>
+<b>◦</b> Lnx = 🐧&#xFE0E; = Linux OS . Most distros should be called GNU-Linux OS. 
+Various distros developed by various groups & individuals . OpenSource OS.</dd></dl></p>
 
 
 <b>OLD SCRIPT:</b><br/>
@@ -24,9 +26,9 @@ The 'script' v4.1 was written by Carlo Gandolfi, and, Paolo Portaluri, Copyright
 Released under GPL v3.<br/>
 Project's SF page: https://SourceForge.net/projects/osxportableapps/<br/>
 Portable Firefox OSX is here:<br/>
-https://SourceForge.net/projects/osxportableapps/files/Portable%20Firefox%20OS%20X/<br/>
+&#160;https://SourceForge.net/projects/osxportableapps/files/Portable%20Firefox%20OS%20X/<br/>
 The 'script' v4.1 is now distributed via a ZIP file located here:<br/>
-https://prdownloads.SourceForge.net/osxportableapps/PortableFirefoxScript_r4.1.txt.zip?download<br/>
+&#160;https://prdownloads.SourceForge.net/osxportableapps/PortableFirefoxScript_r4.1.txt.zip?download<br/>
 Last "Portable Firefox OSX" app: "PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg", 28.2 MBytes,<br/>
 &#160;&#160; sha1: 50ff626452dfadb9cbb6a2a5e2ddf60848adf256,<br/>
 &#160;&#160; md5: fa6691336e22a2d83e5629533b830300.<br/>
@@ -41,7 +43,7 @@ The '<b>script</b>' is a bash shell script file, Executable file.<br/>
 
 
 <b>NEW SCRIPT:</b>🆕<br/>
-New 'script' v4.1.x Are released under below Licenses + Restrictions + Permissions<b>:</b><br/>
+New 'script' v4.1.x Are released under below <b>Licenses</b> + <b>Restrictions</b> + <b>Permissions:</b><br/>
 &#160;&#160; - GNU General Public License Version 3  (GPL v3)<br/>
 &#160;&#160; - Do Not Use This To Kill/Harm (or Steal from) (Any) Human/Community/Earth/etc<br/>
 New 'script' v4.1.x are: Copyright 2020 by Erik T Ashfolk - &lt;atErik＠OutLꝏk·ⓒⓞⓜ&gt;(＠=@,ꝏ=oo,·=.,ⓒ=c,ⓞ=o,ⓜ=m)<br/>
@@ -60,7 +62,7 @@ Platypus also creates the "Portable Firefox.app" bundle.<br/>
 <b>PLATYPUS:</b><br/>
 The "Portable Firefox.app" is packaged using the Platypus script wrapper (aka app builder)<br/>
 from http://sveinbjorn.sytes.net/platypus<br/>
-&#160;&#160; New website:  https://Sveinbjorn.org/platypus<br/>
+&#160;&#160; New website: https://Sveinbjorn.org/platypus<br/>
 &#160;&#160; GitHub: https://GitHub.com/sveinbjornt/Platypus<br/>
 Platypus seems to be able to generate 64bit-only app bundles,<br/>
 but it does not (digitally) sign or provide option to sign the generated app bundle,<br/>
@@ -115,8 +117,8 @@ Open dmg installer, Copy "Pashua.app", "Pashua.sh" into below folder<b>:</b><br/
 &#160;&#160; `"/System/Volumes/Data/MyProjects/PortableFirefox/"`<br/>
 &#160;&#160; ( or here: `"/Users/MyUserName/MyProjects/PortableFirefox/"` )<br/>
 
-Get last Gecko-based old "`Firefox*.dmg`" (which has old "`Firefox.app`" inside it) from below URLs,<br/>
-or Get last Quantum/Servo-based new "`Firefox*.dmg`" from https://www.Mozilla.org/<br/>
+Get last Gecko-based old "`Firefox-*.dmg`" (which has old "`Firefox.app`" inside it) from below URLs,<br/>
+or Get last Quantum/Servo-based new "`Firefox-*.dmg`" from https://www.Mozilla.org/<br/>
 & extract/get/copy the "`Firefox.app`", & place/paste it into below folder<b>:</b><br/>
 &#160;&#160; `"/System/Volumes/Data/MyProjects/PortableFirefox/"`<br/>
 &#160;&#160; ( or here: `"/Users/MyUserName/MyProjects/PortableFirefox/"` )<br/>
@@ -179,13 +181,13 @@ choose these below files, directories, bundles inside Platypus GUI interface<b>:
 
 <p>Then you may use these type of settings in Platypus GUI interface<b>:</b><dl>
 <dd><b>◦</b> Script Type : Shell : /bin/sh<br/>
-<b>◦</b> Script Path : `/System/Volumes/Data/MyProjects/PortableFirefox/script`<br/>
+<b>◦</b> Script Path : <code>/System/Volumes/Data/MyProjects/PortableFirefox/script</code><br/>
 <b>◦</b> Interface : Text Window<br/>
 <b>◦</b> Unselected options : Run with root privileges , Run in background , Accept dropped items<br/>
 <b>◦</b> Selected/Check-Marked options : Remain running after execution<br/>
 <b>◦</b> Fill in other boxes: app name, identifier, author, etc</dd>
-<dd>Then tap/click/select/press the "`Create App`" button.<br/>
-It will create/generate a new `"Portable Firefox.app"`, that is<br/>
+<dd>Then tap/click/select/press the <code>"Create App"</code> button.<br/>
+It will create/generate a new <code>"Portable Firefox.app"</code>, that is<br/>
 compatible with 64-only macOSX(Catalina/...)<br/>
 <br/>
 Run/execute/TEST it.</dd></dl></p>
