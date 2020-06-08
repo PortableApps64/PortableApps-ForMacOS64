@@ -154,13 +154,14 @@ it to `"script.sh"`, then Open `"script.sh"` with your choice of code editing/de
 editor/build software,<br/>
 Improve/Modify, Save, then<br/>
 Use below commands to test if bash code syntaxes are right or where the fault(s) is/are:<br/>
-&#160;&#160;０┌──────────────────────────<br/>
-&#160;&#160;１￨MacNm:~ UsrNm$ <b>sh -n</b> /System/Volumes/Data/MyProjects/PortableFirefox/script&#46;sh<br/>
-&#160;&#160;２￨MacNm:~ UsrNm$ echo &#36;?<br/><!-- . written as #46 , $ as #36 -->
-&#160;&#160;３￨0<br/>
-&#160;&#160;４￨MacNm:~ UsrNm$<br/>
-&#160;&#160;５└──────────────────────────<br/>
-When there is no syntax-error (that is when the output is "0"),<br/>
+* ０┌──────────────────────────<br/>
+１￨MacNm:~ UsrNm$ <b>sh -n</b> /System/Volumes/Data/MyProjects/PortableFirefox/script&#46;sh<br/>
+２￨MacNm:~ UsrNm$ echo &#36;?<!-- . written as #46 , $ as #36 --><br/>
+３￨0<br/>
+４￨MacNm:~ UsrNm$<br/>
+５└──────────────────────────
+
+When there is no syntax-error, (in other words, When the output is "0"),<br/>
 then copy the `"script.sh"` in same folder,<br/>
 & Rename the `"script.sh copy"` into `'script'`,<br/>
 then follow next/below stage/procedures.<br/>
