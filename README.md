@@ -217,8 +217,8 @@ Thanks in advance.<br/>
 １￨sudo nano /etc/synthetic.conf<br/>
 ２└──────────────────────────</dd></dl>
 and then add below 2-lines of settings<b>:</b><dl><dd>０┌──────────────────────────<br/>
-１￨MyProjects&#9;&#9;System/Volumes/Data/MyProjects<br/>
-２￨Development&#9;&#9;System/Volumes/Data/Development<br/>
+１￨MyProjects&#9;	System/Volumes/Data/MyProjects<br/>
+２￨Development&#9;	System/Volumes/Data/Development<br/>
 ３└──────────────────────────</dd>
 <dd>then Press <code>Ctrl+X</code> (to Exit), and Nano prompts/asks you to press "Y" (to Save) or "N" (to Discard) changes, so press "Y" (to Save), then Nano shows target/destination filename <code>/etc/synthetic.conf</code> (and allows you to change name), So press <code>Enter</code> to select it & Save+Exit.<br/>
 Note<b>:</b> you must press <code>tab</code>-button after typing "MyProjects"/"Development". More on <a href="https://www.nano-editor.org/dist/latest/cheatsheet.html" target="_blank">Nano</a></dd></dl>
@@ -235,14 +235,16 @@ and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b><dl
 １￨defaults write com.apple.finder AppleShowAllFiles TRUE<br/>
 ２￨killall Finder<br/>
 ３└──────────────────────────</dd>
-<dd>or, in <code>Finder</code>, press these 3-buttons together at-same-time: [⇧Shift]&#43;[⌘Command]&#43;[&#8239;<sup>&gt;</sup><sub>.</sub>&#8239;]<br/><!-- + written as #43 , nnbsp is #8239 --></dd></dl><br/>
+<dd>or, in <code>Finder</code>, press these 3-buttons together at-same-time: [⇧Shift]&#43;[⌘Command]&#43;[&#8239;<sup>&gt;</sup><sub>.</sub>&#8239;]<br/><!-- + written as #43 , nnbsp is #8239 --></dd></dl>
+<br/>
 </td></tr>
 </table></center>
 
 <center><table border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1 width="100%" style="width:100%!important; border-width:1px!important;">List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b>
 <table border="0" width="100%" cellspacing="0px" align="center" class="border border-0" style="border-collapse:collapse!important; border-spacing:0px!important; width:100%!important; border-width:0px!important; border:none!important; border-style:none!important;"><tr><td border=1 width="100%" class="border border-left-0 border-right-0" style="width:100%!important; border-width:1px!important; border-left:none!important; border-right:none!important;">• Low-Density Dotted Grph Char ░ &amp;#9617; 176 • Medium-Density Dotted ▒ &amp;#9618; 177 • High-Density Dotted ▓ &amp;#9619; 178<br/>
 • Block █ &amp;#9608; &amp;block; 219 • Bottom Half-Block ▄ &amp;#9604; &amp;lhblk; 220 • Top Half-Block ▀ &amp;#9600; &amp;uhblk; 223 </td></tr>
-<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Box Drawings ( • Light-Horizontal ─ &amp;#9472;  • Light-Vertical │ &amp;#9474; • Light-Down&Right ┌ &amp;#9484; • ┐ &amp;#9488; • └ &amp;#9492; • ┘ &amp;#9496; )</td></tr>
+<tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Box Drawings ( • Light-Horizontal ─ &amp;#9472;  • Light-Vertical │ &amp;#9474;<br/>
+• Light-Down&Right ┌ &amp;#9484; • ┐ &amp;#9488; • └ &amp;#9492; • ┘ &amp;#9496; )</td></tr>
 <tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Char = Character • Grph = Graphic </td></tr>
 <tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Middot · &amp;#183; ⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 • Bullet • &amp;#8226; ⌥Opt+8 ❖Alt+249 <br/>
 <tr><td border=1 class="border border-left-0 border-right-0" style="border-width:1px!important; border-left:none!important; border-right:none!important;">• Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; • (Vertical/Stright/Double) Quotation-Mark &quot; &amp;#34; &amp;quot;<br/>
@@ -296,17 +298,18 @@ The <code>shasum</code> tool by-default calculates the "SHA1" hash-code, & <code
 ４￨50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ５￨MacNm:~ UsrNm$ <b>openssl sha1</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ６￨SHA1(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= 50ff626452dfadb9cbb6a2a5e2ddf60848adf256<br/>
-７└──────────────────────────</dd></dl><br/>
+７└──────────────────────────</dd></dl>
 To calculate "SHA256" hash-code, use <code>-a 256</code> option in <code>shasum</code>, & <code>openssl</code> usage also shown<b>:</b><dl><dd>０┌──────────────────────────<br/>
 １￨MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ２￨e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ３￨MacNm:~ UsrNm$ <b>openssl sha256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ４￨SHA256(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57<br/>
-５└──────────────────────────</dd></dl><br/>
+５└──────────────────────────</dd></dl>
 To calculate "MD5" hash-code, use <code>md5</code> option in <code>openssl</code><b>:</b><dl><dd>０┌──────────────────────────<br/>
 １￨MacNm:~ UsrNm$ <b>openssl md5</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ２￨MD5(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= fa6691336e22a2d83e5629533b830300<br/>
-３└──────────────────────────</dd></dl><br/>
+３└──────────────────────────</dd></dl>
+<br/>
 </td></tr>
 </table></center><br/>
 <br/>
