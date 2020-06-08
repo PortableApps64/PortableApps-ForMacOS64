@@ -9,8 +9,7 @@ Codes From This New-'script' Can Also Be Modified/Applied/Used With Any Other<br
 "OSX Portable Apps".
 <br/>
 
-* abbr (abbreviations):
-  * **◦** FF = Firefox . A web-browser from Mozilla Foundation.<br/>
+* **◦** FF = Firefox . A web-browser from Mozilla Foundation.<br/>
 **◦** PA = Portable Apps . Ususally run from an External/Portable drives/storage.<br/>
 **◦** OS = Operating System . A collection/set of vast numbers+types of programs, to assist interactions between computer User and computer hardwares & softwares and computer networks.<br/>
 **◦** OSX =  = macOS X . An OS developed by Apple, Inc . ClosedSource OS.<br/>
