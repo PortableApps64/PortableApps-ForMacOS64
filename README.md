@@ -149,9 +149,9 @@ Copy/Paste those 2-folders into below destination pre-build folder:<br/>
 <b>BUILD/WRAP/GENERATE WITH PLATYPUS:</b>
 
 <p>Test the 'script' file, before using it to build OSX PortableApp:<br/>
-Tips: a good practice from beginning would-be, After getting this `'script'`<br/>
+Tips: a good practice from beginning would-be, After getting this <code>'script'</code><br/>
 (inside the shown/recommended folder that is shown few paragraphs above), 1st Rename<br/>
-it to `"script.sh"`, then Open `"script.sh"` with your choice of code editing/developing<br/>
+it to <code>"script.sh"</code>, then Open <code>"script.sh"</code> with your choice of code editing/developing<br/>
 editor/build software,<br/>
 Improve/Modify, Save, then<br/>
 Use below commands to test if bash code syntaxes are right or where the fault(s) is/are:<dl><dd>０┌──────────────────────────<br/>
@@ -161,8 +161,8 @@ Use below commands to test if bash code syntaxes are right or where the fault(s)
 ４￨MacNm:~ UsrNm$<br/>
 ５└──────────────────────────</dd>
 <dd>When there is no syntax-error, (in other words, When the output is "0"),<br/>
-then copy the `"script.sh"` in same folder,<br/>
-& Rename the `"script.sh copy"` into `'script'`,<br/>
+then copy the <code>"script.sh"</code> in same folder,<br/>
+& Rename the <code>"script.sh copy"</code> into <code>'script'</code>,<br/>
 then follow next/below stage/procedures.</dd></dl></p>
 
 Build the final `"PortableAppName.app"` bundle:<br/>
