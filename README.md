@@ -134,38 +134,29 @@ Or get Platypus v4.9, as that is the last 32bit supported ( & working) Platypus,
 to build/wrap macOS app⒮ in 64bit+32bit suppported macOSX (Mojave & earlier).<br/>
 
 Obtain Pashua dialog from here : https://www.BlueM.net/en/projects/pashua/<br/>
-Open dmg installer, Copy "Pashua.app", "Pashua.sh" into below folder<b>:</b><dl>
- <dd> <code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
- ( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )
- </dd>
-</dl>
+Open dmg installer, Copy "Pashua.app", "Pashua.sh" into below folder<b>:</b><br/>
+&#160;&#160; <code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
+&#160;&#160; ( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )
 
 Get last Gecko-based old "`Firefox-*.dmg`" (which has old "`Firefox.app`" inside it) from below URLs,<br/>
 or Get last Quantum/Servo-based new "`Firefox-*.dmg`" from https://www.Mozilla.org/<br/>
-& extract/get/copy the "`Firefox.app`", & place/paste it into below folder<b>:</b><dl>
- <dd>
- <code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
- ( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )
- </dd><dd>
- The last security-updated gecko-based non-ESR old Firefox<b>:</b><dl>
+& extract/get/copy the "`Firefox.app`", & place/paste it into below folder<b>:</b><br/>
+&#160;&#160; <code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
+&#160;&#160; ( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )
+ <dl><dd>The last security-updated gecko-based non-ESR old Firefox<b>:</b><dl>
   <dd>
   FF v56.0.2 dmg file's sha1: 79a0013664134ced2307c8e1ffa5d36f6256e8f,<br/>
   md5: a5608df45832df3ff302a7ccbe7ec3f6, 54.5 MBytes,<br/>
   https://ftp.Mozilla.org/pub/firefox/releases/56.0.2/
-  </dd>
- </dl>
- </dd><dd>
- The last gecko-based old Firefox-ESR<b>:</b><dl>
+  </dd><dl>
+ </dd><dd>The last gecko-based old Firefox-ESR<b>:</b><dl>
   <dd>
   FF v52.9.0 ESR dmg file's sha1: d879f5423d79393f2384e0f97a5581f9d89d7977,<br/>
   md5: 34e8280bb9b33ca202ba22cf9daf25e4, 82.8 MBytes,<br/>
   https://ftp.Mozilla.org/pub/firefox/releases/52.9.0esr/
-  </dd>
- </dl>
- </dd><dd>
- Note: ESR = Extended Support Release.
- </dd>
-</dl>
+  </dd></dl>
+ </dd><dd>Note: ESR = Extended Support Release.
+ </dd></dl>
 <br/>
 
 Extract/Obtain 2-folders "`English.lproj`" & "`profile`" from<br/>
@@ -208,19 +199,20 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
  then follow next/below stage/procedures.
 </dd></dl>
 
-Build the final `"PortableAppName.app"` bundle<b>:</b><br/>
-To build new `"Portable Firefox.app"`,<br/>
-choose these below files, directories, bundles inside Platypus GUI interface<b>:</b>
-<dl><dd>
- <b>◦</b> directory : English.lproj<br/>
- <b>◦</b> directory : profile<br/>
- <b>◦</b> bundle : Firefox.app<br/>
- <b>◦</b> bundle : Pashua.app<br/>
- <b>◦</b> icon-file : P_Firefox_Caution.icns<br/>
- <b>◦</b> icon-file : appIcon.icns<br/>
- <b>◦</b> sh-script-file : pashua.sh<br/>
- <b>◦</b> sh-script-file : script
-</dd></dl>
+Build the final `"PortableAppName.app"` bundle<b>:</b><dl>
+ <dd>To build new `"Portable Firefox.app"`,<br/>
+ choose these below files, directories, bundles inside Platypus GUI interface<b>:</b><dl>
+  <dd>
+  <b>◦</b> directory : English.lproj<br/>
+  <b>◦</b> directory : profile<br/>
+  <b>◦</b> bundle : Firefox.app<br/>
+  <b>◦</b> bundle : Pashua.app<br/>
+  <b>◦</b> icon-file : P_Firefox_Caution.icns<br/>
+  <b>◦</b> icon-file : appIcon.icns<br/>
+  <b>◦</b> sh-script-file : pashua.sh<br/>
+  <b>◦</b> sh-script-file : script
+  </dd></dl>
+ </dd></dl>
 
 Then you may use, these type of settings in Platypus GUI interface<b>:</b>
 <dl><dd>
