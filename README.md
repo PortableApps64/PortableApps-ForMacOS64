@@ -1,4 +1,10 @@
-<style type="text/css"> 
+<style type="text/css"> /* <br/>
+if you can see this <style>..</style> block shown on this README.md,<br/>
+then GitHub has disabled usage of this <style> HTML tag command,<br/>
+it(<style>) helps Developers/Users to define & use CSS. So<br/>
+contact GitHub-Support & Request to unblock/enable this essential feature,<br/>
+at-least with limited/restricted abilities.<br/>
+*/ 
 .atErik_Sq{ float:left; position:relative; width:30%; padding-bottom:30%; margin:1.66%; overflow:hidden; } .atErik_SqCt{ position:absolute; height:80%; width:90%; padding:10% 5%; } .atErik_SqCtVTb{ display:table; height:100%; width:100%; } .atErik_SqCtVTbCl{ display:table-cell; vertical-align:middle; height:100%; width:100%; } .atErik_brd0{ border-collapse:collapse; border-spacing:0px; width:100%; border-width:0px; border-style:none; border:none; margin:0px; padding:0px;} .atErik_ClBrd1{ border-width:1px; width:100%; margin:0px; padding:0px; } .atErik_ClBrd1TopWoS{ border-width:1px; border-width-top:1px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; } .atErik_ClBrd1MdlOrBtmWoS{ border-width:1px; border-width-top:0px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; }
 </style>
 
@@ -24,21 +30,23 @@ Codes From This New-'script' Can Also Be Modified/Applied/Used With Any Other<br
 
 
 <b>OLD SCRIPT:</b><br/>
-Original & Last 'script' v4.1 is here: http://www.FreeSMUG.org/portableapps:code:firefox<br/>
+<div> Original & Last 'script' v4.1 is here<b>:</b> http://www.FreeSMUG.org/portableapps:code:firefox<br/>
 ( You can also check 1st commit of this 'script' file in Github to view the v4.1 code )<br/>
-The 'script' v4.1 was written by Carlo Gandolfi and Paolo Portaluri and others,
-Copyright 2010 by Carlo Gandolfi, and, Paolo Portaluri<br/>, Released under GPL v3.<br/>
+The 'script' v4.1 was written by Carlo Gandolfi and Paolo Portaluri and others,<br/>
+Copyright 2010 by Carlo Gandolfi, and, Paolo Portaluri, Released under GPL v3.<br/>
 Project's SF page: https://SourceForge.net/projects/osxportableapps/<br/>
-Portable Firefox OSX is here:<br/>
+Project Website: http://www.FreeSMUG.org/<br/>
+Portable Firefox OSX is here<b>:</b><br/>
 &#160; https://SourceForge.net/projects/osxportableapps/files/Portable%20Firefox%20OS%20X/<br/>
-The 'script' v4.1 is now distributed via a ZIP file located here:<br/>
+The 'script' v4.1 is now distributed via a ZIP file located here<b>:</b><br/>
 &#160; https://prdownloads.SourceForge.net/osxportableapps/PortableFirefoxScript_r4.1.txt.zip?download<br/>
-Last "Portable Firefox OSX" app: "PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg", 28.2 MBytes,<br/>
-&#160;&#160; sha1: 50ff626452dfadb9cbb6a2a5e2ddf60848adf256,<br/>
-&#160;&#160; md5: fa6691336e22a2d83e5629533b830300.<br/>
-&#160;&#160; https://SourceForge.net/projects/osxportableapps/files/Portable%20Firefox%20OS%20X/4.0.1%20r4.1/<br/>
-Website: http://www.FreeSMUG.org/<br/>
-<br/>
+Last "Portable Firefox OSX" app<b>:</b> "PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg", 28.2 MBytes,
+<dl><dd>
+ sha1: 50ff626452dfadb9cbb6a2a5e2ddf60848adf256,<br/>
+ md5: fa6691336e22a2d83e5629533b830300.<br/>
+ https://SourceForge.net/projects/osxportableapps/files/Portable%20Firefox%20OS%20X/4.0.1%20r4.1/
+</dd></dl>
+</div><br/>
 
 
 <b>WHAT TYPE OF 'script' FILE:</b><br/>
@@ -62,9 +70,9 @@ This 'script' v4.1/v4.1.x is (i.e) used by the below binary "Portable Firefox" e
 <div> The binary "Portable Firefox" is created by Platypus,<br/>
 Platypus also creates the <code>"Portable Firefox.app"</code> bundle.
 <dl><dd>
- A developer/user can either place/compress that <code>Portable-*.app</code> bundle inside a <code>.dmg</code> file to share it with users for downloading, from developer's website.
+ A developer/user can either place/compress that <code>Portable-*.app</code> bundle inside a <code>.dmg</code> file to share it with users for downloading, from developer/user's website.
 </dd><dd>
- Or, a developer/user can build the <code>Portable-*.app</code> with an older & unmodified (Firefox) app, and share that file & an accompanying instruction file with Users on How-To update to use latest (Firefox) app.
+ Or, a developer/user can build the <code>Portable-*.app</code> with an (older) unmodified (Firefox) app, and share with Users that file & an accompanying instruction file on How-To update to use latest (Firefox) app.
 </dd></dl>
 </div><br/>
 
@@ -378,5 +386,12 @@ To calculate "MD5" hash-code, use <code>md5</code> option in <code>openssl</code
 </dd></dl>
 <br/>
 </td></tr>
-</table><br/>
+</table>
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="atErik_brd0">
+<tr><td border="1" width="100%" class="atErik_ClBrd1"> Sign (aka: "codesign", aka: add digital-signature) a macOSX binary app, without being in the Mac Developer Program:<br/>
+&#160;&#160; https://stackoverflow.com/questions/27474751/ </td></tr>
+<tr><td border="1" width="100%" class="atErik_ClBrd1"> &#160; </td></tr>
+</table>
+
 <br/>
