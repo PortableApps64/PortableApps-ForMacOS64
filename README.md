@@ -1,4 +1,6 @@
-<style type="text/css"> .atErik_Sq{ float:left; position:relative; width:30%; padding-bottom:30%; margin:1.66%; overflow:hidden; } .atErik_SqCt{ position:absolute; height:80%; width:90%; padding:10% 5%; } .atErik_SqCtVTb{ display:table; height:100%; width:100%; } .atErik_SqCtVTbCl{ display:table-cell; vertical-align:middle; height:100%; width:100%; } .atErik_brd0{ border-collapse:collapse; border-spacing:0px; width:100%; border-width:0px; border-style:none; border:none; margin:0px; padding:0px;} .atErik_ClBrd1{ border-width:1px; width:100%; margin:0px; padding:0px; } .atErik_ClBrd1TopWoS{ border-width:1px; border-width-top:1px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; } .atErik_ClBrd1MdlOrBtmWoS{ border-width:1px; border-width-top:0px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; }</style>
+<style 
+  type="text/css"> .atErik_Sq{ float:left; position:relative; width:30%; padding-bottom:30%; margin:1.66%; overflow:hidden; } .atErik_SqCt{ position:absolute; height:80%; width:90%; padding:10% 5%; } .atErik_SqCtVTb{ display:table; height:100%; width:100%; } .atErik_SqCtVTbCl{ display:table-cell; vertical-align:middle; height:100%; width:100%; } .atErik_brd0{ border-collapse:collapse; border-spacing:0px; width:100%; border-width:0px; border-style:none; border:none; margin:0px; padding:0px;} .atErik_ClBrd1{ border-width:1px; width:100%; margin:0px; padding:0px; } .atErik_ClBrd1TopWoS{ border-width:1px; border-width-top:1px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; } .atErik_ClBrd1MdlOrBtmWoS{ border-width:1px; border-width-top:0px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; }
+</style>
 
 # PORTABLE FIREFOX OSX script
 <br/>
@@ -11,7 +13,7 @@ Codes From This New-'script' Can Also Be Modified/Applied/Used With Any Other<br
 "OSX Portable Apps".
 <br/>
 
-<p><dl><dd>
+<dl><dd>
 <b>◦</b> FF = Firefox . A web-browser from Mozilla Foundation.<br/>
 <b>◦</b> PA = Portable Apps . Ususally run from an External/Portable drives/storage.<br/>
 <b>◦</b> OS = Operating System . A collection/set of vast numbers+types of programs,
@@ -19,7 +21,7 @@ to assist interactions between computer User and computer hardwares & softwares 
 <b>◦</b> OSX =  = macOS X . An OS developed by Apple, Inc . ClosedSource OS.<br/>
 <b>◦</b> Win = ❖ = Windows OS . An OS developed by Microsoft corp . ClosedSource OS.<br/>
 <b>◦</b> Lnx = 🐧&#xFE0E; = Linux OS . Most distros should be called GNU-Linux OS. 
-Various distros developed by various groups & individuals . OpenSource OS.</dd></dl></p>
+Various distros developed by various groups & individuals . OpenSource OS.</dd></dl>
 
 
 <b>OLD SCRIPT:</b><br/>
@@ -153,13 +155,14 @@ Copy/Paste those 2-folders into below destination pre-build folder<b>:</b><br/>
 
 <b>BUILD/WRAP/GENERATE WITH PLATYPUS:</b>
 
-<p>Test the 'script' file, before using it to build OSX PortableApp<b>:</b><br/>
+Test the 'script' file, before using it to build OSX PortableApp<b>:</b><br/>
 Tips<b>:</b> a good practice from beginning would-be, After getting this <code>'script'</code><br/>
 (inside the shown/recommended folder that is shown few paragraphs above), 1st Rename<br/>
 it to <code>"script.sh"</code>, then Open <code>"script.sh"</code> with your choice of code editing/developing<br/>
 editor/build software,<br/>
 Improve/Modify, Save, then<br/>
-Use below commands to test if bash code syntaxes are right or where the fault(s) is/are<b>:</b><dl><dd>
+Use below commands to test if bash code syntaxes are right or where the fault(s) is/are<b>:</b>
+<dl><dd>
 ０┌──────────────────────────<br/>
 １￨MacNm:~ UsrNm$ <b>sh -n</b> /System/Volumes/Data/MyProjects/PortableFirefox/script&#46;sh<br/>
 ２￨MacNm:~ UsrNm$ echo &#36;?<!-- . written as #46 , $ as #36 --><br/>
@@ -169,11 +172,13 @@ Use below commands to test if bash code syntaxes are right or where the fault(s)
 <dd>When there is no syntax-error, (in other words, When the output is "0"),<br/>
 then copy the <code>"script.sh"</code> in same folder,<br/>
 & Rename the <code>"script.sh copy"</code> into <code>'script'</code>,<br/>
-then follow next/below stage/procedures.</dd></dl></p>
+then follow next/below stage/procedures.
+</dd></dl>
 
 Build the final `"PortableAppName.app"` bundle<b>:</b><br/>
 To build new `"Portable Firefox.app"`,<br/>
-choose these below files, directories, bundles inside Platypus GUI interface<b>:</b><dl><dd>
+choose these below files, directories, bundles inside Platypus GUI interface<b>:</b>
+<dl><dd>
 <b>◦</b> directory : English.lproj<br/>
 <b>◦</b> directory : profile<br/>
 <b>◦</b> bundle : Firefox.app<br/>
@@ -183,7 +188,8 @@ choose these below files, directories, bundles inside Platypus GUI interface<b>:
 <b>◦</b> sh-script-file : pashua.sh<br/>
 <b>◦</b> sh-script-file : script</dd></dl>
 
-<p>Then you may use these type of settings in Platypus GUI interface<b>:</b><dl><dd>
+Then you may use these type of settings in Platypus GUI interface<b>:</b>
+<dl><dd>
 <b>◦</b> Script Type : Shell : /bin/sh<br/>
 <b>◦</b> Script Path : <code>/System/Volumes/Data/MyProjects/PortableFirefox/script</code><br/>
 <b>◦</b> Interface : Text Window<br/>
@@ -194,7 +200,8 @@ choose these below files, directories, bundles inside Platypus GUI interface<b>:
 It will create/generate a new <code>"Portable Firefox.app"</code>, that is<br/>
 compatible with 64-only macOSX(Catalina/...)<br/>
 <br/>
-Run/execute/TEST it.</dd></dl></p>
+Run/execute/TEST it.
+</dd></dl>
 
 <br/>
 
@@ -217,18 +224,21 @@ Thanks in advance.<br/>
 
 ## EXTRA-NOTES:
 
-<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="atErik_brd0"><tr><td border="1" width="100%" class="atErik_ClBrd1"> To create "MyProjects" folder in mac hard drive (not under your user-name), you may edit <code>synthetic.conf</code><b>:</b><dl><dd>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="atErik_brd0"><tr><td border="1" width="100%" class="atErik_ClBrd1"> To create "MyProjects" folder in mac hard drive (not under your user-name), you may edit <code>synthetic.conf</code><b>:</b>
+<dl><dd>
 ０┌──────────────────────────<br/>
 １￨sudo nano /etc/synthetic.conf<br/>
 ２└──────────────────────────</dd></dl>
-and then add below 2-lines of settings<b>:</b><dl><dd>
+and then add below 2-lines of settings<b>:</b>
+<dl><dd>
 ０┌──────────────────────────<br/>
 １￨MyProjects&#9;	System/Volumes/Data/MyProjects<br/>
 ２￨Development&#9;	System/Volumes/Data/Development<br/>
 ３└──────────────────────────</dd>
 <dd>then Press <code>Ctrl+X</code> (to Exit), and Nano prompts/asks you to press "Y" (to Save) or "N" (to Discard) changes, so press "Y" (to Save), then Nano shows target/destination filename <code>/etc/synthetic.conf</code> (and allows you to change name), So press <code>Enter</code> to select it & Save+Exit.<br/>
 Note<b>:</b> you must press <code>tab</code>-button after typing "MyProjects"/"Development". More on <a href="https://www.nano-editor.org/dist/latest/cheatsheet.html" target="_blank">Nano</a></dd></dl>
-and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b><dl><dd>
+and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
+<dl><dd>
 ０┌──────────────────────────<br/>
 １￨sudo mkdir -p /System/Volumes/Data/MyProjects<br/>
 ２￨sudo mkdir -p /System/Volumes/Data/Development<br/>
@@ -238,7 +248,8 @@ and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b><dl
 </td></tr>
 </table>
 
-<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="atErik_brd0"><tr><td border="1" width="100%" class="atErik_ClBrd1"> To see all files in <code>Finder</code> (inlcuding Hidden/System), i executed below 2-commands<b>:</b><dl><dd>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="atErik_brd0"><tr><td border="1" width="100%" class="atErik_ClBrd1"> To see all files in <code>Finder</code> (inlcuding Hidden/System), i executed below 2-commands<b>:</b>
+<dl><dd>
 ０┌──────────────────────────<br/>
 １￨defaults write com.apple.finder AppleShowAllFiles TRUE<br/>
 ２￨killall Finder<br/>
@@ -288,7 +299,9 @@ after the emoji : &amp;#xFE0E; (or apply CSS, i.e: <code>span&#46;gray { -webkit
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="atErik_brd0"><tr><td border="1" width="100%" class="atErik_ClBrd1"> In macOSX, Calculate & Compare hash/checksum/digest code (it is a very unique identity code) of a file/bundle<b>:</b><br/>
 In macOSX in shell ("<code>Terminal</code>" utility) window, type command (<code>shasum</code>) & press <code>space</code> key,<br/>
 then drag the <code>.dmg</code> file from <code>Finder</code>(file browser) window & drop it into <code>Terminal</code> window<b>:</b><br/>
-The <code>shasum</code> tool by-default calculates the "SHA1" hash-code, & <code>openssl</code> usage also shown<b>:</b><dl><dd>０┌──────────────────────────<br/>
+The <code>shasum</code> tool by-default calculates the "SHA1" hash-code, & <code>openssl</code> usage also shown<b>:</b>
+<dl><dd>
+０┌──────────────────────────<br/>
 １￨MacNm:~ UsrNm$ <b>shasum</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ２￨50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ３￨MacNm:~ UsrNm$ <b>shasum -a 1</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
@@ -296,13 +309,17 @@ The <code>shasum</code> tool by-default calculates the "SHA1" hash-code, & <code
 ５￨MacNm:~ UsrNm$ <b>openssl sha1</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ６￨SHA1(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= 50ff626452dfadb9cbb6a2a5e2ddf60848adf256<br/>
 ７└──────────────────────────</dd></dl>
-To calculate "SHA256" hash-code, use <code>-a 256</code> option in <code>shasum</code>, & <code>openssl</code> usage also shown<b>:</b><dl><dd>０┌──────────────────────────<br/>
+To calculate "SHA256" hash-code, use <code>-a 256</code> option in <code>shasum</code>, & <code>openssl</code> usage also shown<b>:</b>
+<dl><dd>
+０┌──────────────────────────<br/>
 １￨MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ２￨e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ３￨MacNm:~ UsrNm$ <b>openssl sha256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ４￨SHA256(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57<br/>
 ５└──────────────────────────</dd></dl>
-To calculate "MD5" hash-code, use <code>md5</code> option in <code>openssl</code><b>:</b><dl><dd>０┌──────────────────────────<br/>
+To calculate "MD5" hash-code, use <code>md5</code> option in <code>openssl</code><b>:</b>
+<dl><dd>
+０┌──────────────────────────<br/>
 １￨MacNm:~ UsrNm$ <b>openssl md5</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
 ２￨MD5(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= fa6691336e22a2d83e5629533b830300<br/>
 ３└──────────────────────────</dd></dl>
