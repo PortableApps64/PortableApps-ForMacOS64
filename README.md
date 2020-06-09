@@ -104,13 +104,12 @@ So we must change existing dialog program (a program to assist interaction betwe
 
 
 <b>PASHUA:</b><br/>
-
-Pashua dialog seems to be a good choice for now for this (as a 'dialog'/interaction assistor), check<b>:</b><dl>
- <dd>
+<div> Pashua dialog seems to be a good choice for now (as a 'dialog'/interaction assistor), Check here<b>:</b>
+<dl><dd>
  Website: https://www.BlueM.net/en/projects/pashua/<br/>
  Github: https://GitHub.com/BlueM/Pashua
- </dd>
-</dl>
+</dd></dl>
+</div><br/>
 
 
 ## PRE-BUILD:
