@@ -5,13 +5,13 @@
 # PORTABLE FIREFOX OSX script
 <br/>
 
-A 'script' To Run "Firefox.app" As an OSX PortableApps, From Inside the<br/>
-"Portable AppName.app" bundle in MacOSX.  So We Are ( Working-On & Developing & )<br/>
+A 'script' To Run "Firefox&#46;app" As an OSX PortableApps, From Inside the<br/>
+"Portable AppName&#46;app" bundle in MacOSX.  So We Are ( Working-On & Developing & )<br/>
 Modifying & Updating This 'script' To Include/Use 64bit Pashua dialog, 64bit Platypus,<br/>
 etc To Execute/Run it On Both 64bit-Only macOSX & Also On 64bit+32bit macOSX.<br/>
 Codes From This New-'script' Can Also Be Modified/Applied/Used With Any Other<br/>
 "OSX Portable Apps".
-<br/>
+<br/><!-- "." is #46; -->
 
 <dl><dd>
  <b>◦</b> FF = Firefox . A web-browser from Mozilla Foundation.<br/>
@@ -33,7 +33,7 @@ Portable Firefox OSX is here:<br/>
 &#160; https://SourceForge.net/projects/osxportableapps/files/Portable%20Firefox%20OS%20X/<br/>
 The 'script' v4.1 is now distributed via a ZIP file located here:<br/>
 &#160; https://prdownloads.SourceForge.net/osxportableapps/PortableFirefoxScript_r4.1.txt.zip?download<br/>
-Last "Portable Firefox OSX" app: "PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg", 28.2 MBytes,<br/>
+Last "Portable Firefox OSX" app: "PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg", 28.2 MBytes,<br/>
 &#160;&#160; sha1: 50ff626452dfadb9cbb6a2a5e2ddf60848adf256,<br/>
 &#160;&#160; md5: fa6691336e22a2d83e5629533b830300.<br/>
 &#160;&#160; https://SourceForge.net/projects/osxportableapps/files/Portable%20Firefox%20OS%20X/4.0.1%20r4.1/<br/>
@@ -51,7 +51,7 @@ The '<b>script</b>' is a bash shell script file, Executable file.<br/>
 New 'script' v4.1.x Are released under below <b>Licenses</b> + <b>Restrictions</b> + <b>Permissions:</b><br/>
 &#160;&#160; - GNU General Public License Version 3  (GPL v3)<br/>
 &#160;&#160; - Do Not Use This To Kill/Harm (or Steal from) (Any) Human/Community/Earth/etc<br/>
-New 'script' v4.1.x are: Copyright 2020 by Erik T Ashfolk - &lt;atErik＠OutLꝏk·ⓒⓞⓜ&gt;(＠=@,ꝏ=oo,·=.,ⓒ=c,ⓞ=o,ⓜ=m)<br/>
+New 'script' v4.1.x are: Copyright 2020 by Erik T Ashfolk - &lt;atErik＠OutLꝏk·ⓒⓞⓜ&gt;(＠=@,ꝏ=oo,·=&#46;,ⓒ=c,ⓞ=o,ⓜ=m)<br/>
 
 This 'script' v4.1/v4.1.x file is usually used from such (i.e) location, in macOSX<b>:</b><br/>
 &#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/Resources/script"<br/><!-- . written as #46 -->
@@ -59,21 +59,20 @@ This 'script' v4.1/v4.1.x file is usually used from such (i.e) location, in macO
 This 'script' v4.1/v4.1.x is (i.e) used by the below binary "Portable Firefox" executable file<b>:</b><br/>
 &#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/MacOS/Portable Firefox"<br/><!-- . written as #46 -->
 
-The binary "Portable Firefox" is created by Platypus,<br/>
-Platypus also creates the `"Portable Firefox.app"` bundle.<dl>
- <dd>
+<div> The binary "Portable Firefox" is created by Platypus,<br/>
+Platypus also creates the <code>"Portable Firefox.app"</code> bundle.
+<dl><dd>
  A developer/user can either place/compress that <code>Portable-*.app</code> bundle inside a <code>.dmg</code> file to share it with users for downloading, from developer's website.
- </dd><dd>
+</dd><dd>
  Or, a developer/user can build the <code>Portable-*.app</code> with an older & unmodified (Firefox) app, and share that file & an accompanying instruction file with Users on How-To update to use latest (Firefox) app.
- </dd>
-</dl>
-<br/>
+</dd></dl>
+</div><br/>
 
 
 <b>PLATYPUS:</b><br/>
 
-<div>The "Portable Firefox.app" is packaged using the Platypus script wrapper (aka app builder) from http://sveinbjorn.sytes.net/platypus
-<dl><dd>
+<div>The "Portable Firefox&#46;app" is packaged using the Platypus script wrapper (aka app builder) from http://sveinbjorn.sytes.net/platypus
+<dl><dd><!-- . written as #46 -->
  New website: https://Sveinbjorn.org/platypus<br/>
  GitHub: https://GitHub.com/sveinbjornt/Platypus<br/>
  <br/>
@@ -87,8 +86,8 @@ Platypus also creates the `"Portable Firefox.app"` bundle.<dl>
 
 <b>COCOA-DIALOG:</b><br/>
 
-<div>The OSX PortableApps used CocoaDialog (.app bundle) inside "PortableFirefoxOSX" v4.0.1 (the last/old release).
-<dl><dd>
+<div>The OSX PortableApps used CocoaDialog (&#46;app bundle) inside "PortableFirefoxOSX" v4.0.1 (the last/old release).
+<dl><dd><!-- . written as #46 -->
  But (old) CocoaDialog is NOT compatible with 64bit-only-macOSX yet, afaik.<br/>
  <br/>
  Website: https://CocoaDialog.com/<br/>
@@ -131,27 +130,27 @@ So we must change existing dialog program (a program to assist interaction betwe
 <div> To build with Platypus, we will have to choose (various needed files, directories & bundles, etc from above location), inside the Platypus GUI interface/settings,<br/>
 then Platypus will place/copy them, inside below folder location, inside the <code>.app</code> bundle<b>:</b>
 <dl><dd>
- <code>"/System/Volumes/Data/MyProjects/PortableFirefox/Portable Firefox OSX&#46;app/Contents/Resources/"</code>
+ <code>"/System/Volumes/Data/MyProjects/PortableFirefox/Portable Firefox OSX.app/Contents/Resources/"</code>
 </dd></dl>
 </div><br/>
 
-So obtain NEW Platypus (at the time of writing this README.md, it is/was v5.3),<br/>
+So obtain NEW Platypus (at the time of writing this README&#46;md, it is/was v5.3),<br/>
 &#160;&#160; from here: https://Sveinbjorn.org/platypus<br/>
 and install in your (64bit-only macOSX(Catalina & later) based) mac computer.<br/>
 Or get Platypus v4.9, as that is the last 32bit supported ( & working) Platypus,<br/>
 to build/wrap macOS app⒮ in 64bit+32bit suppported macOSX (Mojave & earlier).<br/>
 
 <div>Obtain Pashua dialog from here : https://www.BlueM.net/en/projects/pashua/<br/>
-Open dmg installer, Copy "Pashua.app", "Pashua.sh" into below folder<b>:</b>
-<dl><dd>
+Open dmg installer, Copy "Pashua&#46;app", "Pashua&#46;sh" into below folder<b>:</b>
+<dl><dd><!-- "." is #46; -->
  <code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
  ( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )
 </dd></dl>
 </div><br/>
 
-<div>Get last Gecko-based old "`Firefox-*.dmg`" (which has old "`Firefox.app`" inside it) from below URLs,<br/>
-or Get last Quantum/Servo-based new "`Firefox-*.dmg`" from https://www.Mozilla.org/<br/>
-& extract/get/copy the "`Firefox.app`", & place/paste it into below folder<b>:</b>
+<div>Get last Gecko-based old <code>"Firefox-*.dmg"</code> (which has old <code>"Firefox.app"</code> inside it) from below URLs,<br/>
+or Get last Quantum/Servo-based new <code>"Firefox-*.dmg"</code> from https://www.Mozilla.org/<br/>
+& extract/get/copy the <code>"Firefox.app"</code>, & place/paste it into below folder<b>:</b>
 <dl><dd>
  <code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
  ( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )
@@ -173,11 +172,11 @@ or Get last Quantum/Servo-based new "`Firefox-*.dmg`" from https://www.Mozilla.o
 </dd></dl>
 <br/>
 
-Extract/Obtain 2-folders "`English.lproj`" & "`profile`" from<br/>
-old Portable Firefox OSX "`PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg`" file<br/>
+Extract/Obtain 2-folders `"English.lproj"` & `"profile"` from<br/><!-- "." is #46; -->
+old Portable Firefox OSX `"PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg"` file<br/>
 (and you can find download link⒮ shown few-paragraphs above),<br/>
 and then you would need to get/extract the `"Portable Firefox.app"` bundle from<br/>
-inside that "`PortableFirefox_4.0.1_*.dmg`" file.<br/>
+inside that `"PortableFirefox_4.0.1_*.dmg"` file.<br/>
 Those 2-folders are located inside the "Resources" folder shown below<b>:</b><br/>
 &#160;&#160; `Portable Firefox.app/Contents/Resources/`<br/>
 &#160;&#160; (Right-Click/Secondary-Click/Tap-with-2-Fingers-&-Hold on the `Portable-*.app` & select `"Show Package Contents"` option)<br/>
@@ -202,7 +201,7 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
 <dl><dd>
  ０┌──────────────────────────<br/>
  １￨MacNm:~ UsrNm$ <b>sh -n</b> /System/Volumes/Data/MyProjects/PortableFirefox/script&#46;sh<br/>
- ２￨MacNm:~ UsrNm$ echo &#36;?<!-- . written as #46 , $ as #36 --><br/>
+ ２￨MacNm:~ UsrNm$ echo &#36;?<!-- "." written as #46 , $ as #36 --><br/>
  ３￨0<br/>
  ４￨MacNm:~ UsrNm$<br/>
  ５└──────────────────────────<br/><br/>
@@ -217,14 +216,14 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
 <dl><dd>
  To build new <code>"Portable Firefox.app"</code>,<br/>
  choose these below files, directories, bundles inside Platypus GUI interface<b>:</b>
-<dl><dd>
-  <b>◦</b> directory : English.lproj<br/>
+<dl><dd><!-- "." is #46; -->
+  <b>◦</b> directory : English&#46;lproj<br/>
   <b>◦</b> directory : profile<br/>
-  <b>◦</b> bundle : Firefox.app<br/>
-  <b>◦</b> bundle : Pashua.app<br/>
-  <b>◦</b> icon-file : P_Firefox_Caution.icns<br/>
-  <b>◦</b> icon-file : appIcon.icns<br/>
-  <b>◦</b> sh-script-file : pashua.sh<br/>
+  <b>◦</b> bundle : Firefox&#46;app<br/>
+  <b>◦</b> bundle : Pashua&#46;app<br/>
+  <b>◦</b> icon-file : P_Firefox_Caution&#46;icns<br/>
+  <b>◦</b> icon-file : appIcon&#46;icns<br/>
+  <b>◦</b> sh-script-file : pashua&#46;sh<br/>
   <b>◦</b> sh-script-file : script
 </dd></dl>
 </dd></dl>
@@ -241,7 +240,7 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
 </dd></dl>
 </div><br/>
 
-Then tap/click/select/press the <code>"Create App"</code> button.<br/>
+Then tap/click/select/press the <code>"Create App"</code> button.<br/><!-- "." is #46; -->
 It will create/generate a new <code>"Portable Firefox.app"</code>, that is<br/>
 compatible with 64-only macOSX(Catalina/...)<br/>
 
@@ -270,9 +269,9 @@ Thanks in advance.<br/>
 ## EXTRA-NOTES:
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="atErik_brd0"><tr><td border="1" width="100%" class="atErik_ClBrd1"> To create "MyProjects" folder in mac hard drive (not under your user-name), you may edit <code>synthetic.conf</code><b>:</b>
-<dl><dd>
+<dl><dd><!-- "." is #46; -->
  ０┌──────────────────────────<br/>
- １￨sudo nano /etc/synthetic.conf<br/>
+ １￨sudo nano /etc/synthetic&#46;conf<br/>
  ２└──────────────────────────
 </dd></dl>
 and then add below 2-lines of settings<b>:</b>
@@ -284,7 +283,7 @@ and then add below 2-lines of settings<b>:</b>
 </dd><dd>
  then Press <code>Ctrl+X</code> (to Exit), and Nano prompts/asks you to press "Y" (to Save) or "N" (to Discard) changes, so press "Y" (to Save), then Nano shows target/destination filename <code>/etc/synthetic.conf</code> (and allows you to change name), So press <code>Enter</code> to select it & Save+Exit.<br/>
  Note<b>:</b> you must press <code>tab</code>-button after typing "MyProjects"/"Development". More on <a href="https://www.nano-editor.org/dist/latest/cheatsheet.html" target="_blank">Nano</a>
-</dd></dl>
+</dd></dl><!-- "." is #46; -->
 and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
 <dl><dd>
  ０┌──────────────────────────<br/>
@@ -298,9 +297,9 @@ and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
 </table>
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="atErik_brd0"><tr><td border="1" width="100%" class="atErik_ClBrd1"> To see all files in <code>Finder</code> (inlcuding Hidden/System), i executed below 2-commands<b>:</b>
-<dl><dd>
+<dl><dd><!-- "." is #46; -->
  ０┌──────────────────────────<br/>
- １￨defaults write com.apple.finder AppleShowAllFiles TRUE<br/>
+ １￨defaults write com&#46;apple&#46;finder AppleShowAllFiles TRUE<br/>
  ２￨killall Finder<br/>
  ３└──────────────────────────
 </dd><dd>
@@ -340,7 +339,7 @@ and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
 <tr><td border="1" class="atErik_ClBrd1MdlOrBtmWoS"> <div class="atErik_Sq"><div class="atErik_SqCt"><div class="atErik_SqCtVTb"><div clas="atErik_SqCtVTbCl">• White Frowning Face ☹&#xFE0E;/&#65039; &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; </div></div></div></div> <div class="atErik_Sq"><div class="atErik_SqCt"><div class="atErik_SqCtVTb"><div clas="atErik_SqCtVTbCl">• Worried Face 😟 0x1F61F &amp;#128543; </div></div></div></div> <div class="atErik_Sq"><div class="atErik_SqCt"><div class="atErik_SqCtVTb"><div clas="atErik_SqCtVTbCl">• White Smiling Face ☺&#xFE0E; 0x263A &amp;#9786; </div></div></div></div> <div class="atErik_Sq"><div class="atErik_SqCt"><div class="atErik_SqCtVTb"><div clas="atErik_SqCtVTbCl">• Slightly Smiling Face 🙂 0x1F642 &amp;#128578; </div></div></div></div> <div class="atErik_Sq"><div class="atErik_SqCt"><div class="atErik_SqCtVTb"><div clas="atErik_SqCtVTbCl">• Black Smiling Face ☻&#xFE0E; 0x263B &amp;#9787; </div></div></div></div> </td></tr>
 <tr><td border="1" class="atErik_ClBrd1MdlOrBtmWoS"> <div class="atErik_Sq"><div class="atErik_SqCt"><div class="atErik_SqCtVTb"><div clas="atErik_SqCtVTbCl">• Ballot Box ☐ &amp;#9744; U+2610 </div></div></div></div> <div class="atErik_Sq"><div class="atErik_SqCt"><div class="atErik_SqCtVTb"><div clas="atErik_SqCtVTbCl">• Ballot Box with Check ☑ &amp;#9745; U+2611 ☑&#xFE0E;(Textual) </div></div></div></div> <div class="atErik_Sq"><div class="atErik_SqCt"><div class="atErik_SqCtVTb"><div clas="atErik_SqCtVTbCl"><div class="atErik_Sq"><div class="atErik_SqCt"><div class="atErik_SqCtVTb"><div clas="atErik_SqCtVTbCl"><div class="atErik_Sq"><div class="atErik_SqCt"><div class="atErik_SqCtVTb"><div clas="atErik_SqCtVTbCl">• Ballot Box with X ☒ &amp;#9746; U+2612 ☒&#xFE0E;(Textual) </div></div></div></div> </td></tr>
 <tr><td border="1" class="atErik_ClBrd1MdlOrBtmWoS"> To display an Emoji/Emoticon as a Textual glyph (if available/renderable), Use this<br/>
-after the emoji : &amp;#xFE0E; (or apply CSS, i.e: <code>span&#46;gray { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>)<br/>
+after the emoji : &amp;#xFE0E; (or apply CSS, i.e: <code>span.gray { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>)<br/>
 (More on <a href="https://en.wikipedia.org/wiki/Variant_form_(Unicode)#Variation_Selectors_block">VS15</a>)</td></tr>
 <tr><td border="1" class="atErik_ClBrd1MdlOrBtmWoS"> http://liberties.wikidot.com/symbols1<br/>http://liberties.wikidot.com/ligatures1<br/><br/></td></tr>
 </table>
@@ -351,30 +350,30 @@ after the emoji : &amp;#xFE0E; (or apply CSS, i.e: <code>span&#46;gray { -webkit
 In macOSX in shell ("<code>Terminal</code>" utility) window, type command (<code>shasum</code>) & press <code>space</code> key,<br/>
 then drag the <code>.dmg</code> file from <code>Finder</code>(file browser) window & drop it into <code>Terminal</code> window<b>:</b><br/>
 The <code>shasum</code> tool by-default calculates the "SHA1" hash-code, & <code>openssl</code> usage also shown<b>:</b>
-<dl><dd>
+<dl><dd><!-- "." is #46; -->
  ０┌──────────────────────────<br/>
- １￨MacNm:~ UsrNm$ <b>shasum</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
- ２￨50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
- ３￨MacNm:~ UsrNm$ <b>shasum -a 1</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
- ４￨50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
- ５￨MacNm:~ UsrNm$ <b>openssl sha1</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
+ １￨MacNm:~ UsrNm$ <b>shasum</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
+ ２￨50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
+ ３￨MacNm:~ UsrNm$ <b>shasum -a 1</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
+ ４￨50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
+ ５￨MacNm:~ UsrNm$ <b>openssl sha1</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
  ６￨SHA1(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= 50ff626452dfadb9cbb6a2a5e2ddf60848adf256<br/>
  ７└──────────────────────────
 </dd></dl>
 To calculate "SHA256" hash-code, use <code>-a 256</code> option in <code>shasum</code>, & <code>openssl</code> usage also shown<b>:</b>
-<dl><dd>
+<dl><dd><!-- "." is #46; -->
  ０┌──────────────────────────<br/>
- １￨MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
- ２￨e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
- ３￨MacNm:~ UsrNm$ <b>openssl sha256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
- ４￨SHA256(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57<br/>
+ １￨MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
+ ２￨e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
+ ３￨MacNm:~ UsrNm$ <b>openssl sha256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
+ ４￨SHA256(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg)= e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57<br/>
  ５└──────────────────────────
 </dd></dl>
 To calculate "MD5" hash-code, use <code>md5</code> option in <code>openssl</code><b>:</b>
-<dl><dd>
+<dl><dd><!-- "." is #46; -->
  ０┌──────────────────────────<br/>
- １￨MacNm:~ UsrNm$ <b>openssl md5</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg<br/>
- ２￨MD5(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= fa6691336e22a2d83e5629533b830300<br/>
+ １￨MacNm:~ UsrNm$ <b>openssl md5</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
+ ２￨MD5(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg)= fa6691336e22a2d83e5629533b830300<br/>
  ３└──────────────────────────
 </dd></dl>
 <br/>
