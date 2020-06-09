@@ -1,8 +1,8 @@
 <style type="text/css"> /* <br/>
 if you can see this <style>..</style> block shown on this README.md,<br/>
-then GitHub has disabled usage of this <style> HTML tag command,<br/>
-it(<style>) helps Developers/Users to define & use CSS. So<br/>
-contact GitHub-Support & Request to unblock/enable this essential feature,<br/>
+then GitHub has disabled usage of this <style> HTML tag command.<br/>
+We need this, as it(<style>) helps Developers/Users to define & use CSS.<br/>
+So contact GitHub-Support & Request to unblock/enable this essential feature,<br/>
 at-least with limited/restricted abilities.<br/>
 */ 
 .atErik_Sq{ float:left; position:relative; width:30%; padding-bottom:30%; margin:1.66%; overflow:hidden; } .atErik_SqCt{ position:absolute; height:80%; width:90%; padding:10% 5%; } .atErik_SqCtVTb{ display:table; height:100%; width:100%; } .atErik_SqCtVTbCl{ display:table-cell; vertical-align:middle; height:100%; width:100%; } .atErik_brd0{ border-collapse:collapse; border-spacing:0px; width:100%; border-width:0px; border-style:none; border:none; margin:0px; padding:0px;} .atErik_ClBrd1{ border-width:1px; width:100%; margin:0px; padding:0px; } .atErik_ClBrd1TopWoS{ border-width:1px; border-width-top:1px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; } .atErik_ClBrd1MdlOrBtmWoS{ border-width:1px; border-width-top:0px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; }
