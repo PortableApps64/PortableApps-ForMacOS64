@@ -72,8 +72,8 @@ Platypus also creates the `"Portable Firefox.app"` bundle.<dl>
 
 <b>PLATYPUS:</b><br/>
 
-The "Portable Firefox.app" is packaged using the Platypus script wrapper (aka app builder) from http://sveinbjorn.sytes.net/platypus<dl>
- <dd>
+<div>The "Portable Firefox.app" is packaged using the Platypus script wrapper (aka app builder) from http://sveinbjorn.sytes.net/platypus
+<dl><dd>
  New website: https://Sveinbjorn.org/platypus<br/>
  GitHub: https://GitHub.com/sveinbjornt/Platypus<br/>
  <br/>
@@ -81,15 +81,14 @@ The "Portable Firefox.app" is packaged using the Platypus script wrapper (aka ap
  but it does not (digitally) sign or provide option to sign the generated app bundle,<br/>
  so it seems only Admin level privileged user can use+run Platypus generated apps,<br/>
  in 64bit-only macOSX(Catalina & after...) and also in 64bit+32bit supported macOSX(Mojave & earlier...)
- </dd>
-</dl>
-<br/>
+</dd></dl>
+</div><br/>
 
 
 <b>COCOA-DIALOG:</b><br/>
 
-The OSX PortableApps used CocoaDialog (.app bundle) inside "PortableFirefoxOSX" v4.0.1 (the last/old release).<dl>
- <dd>
+<div>The OSX PortableApps used CocoaDialog (.app bundle) inside "PortableFirefoxOSX" v4.0.1 (the last/old release).
+<dl><dd>
  But (old) CocoaDialog is NOT compatible with 64bit-only-macOSX yet, afaik.<br/>
  <br/>
  Website: https://CocoaDialog.com/<br/>
@@ -97,8 +96,8 @@ The OSX PortableApps used CocoaDialog (.app bundle) inside "PortableFirefoxOSX" 
  So Apps/DMG which includes old CocoaDialog cannot run on 64bit-only macOSX (Catalina & later...)<br/>
  and app⒮ built/wrapped with older Platypus also cannot run in 64bit-only macOSX,<br/>
  as old Platypus was not fully 64bit compatible.
- </dd>
-</dl>
+</dd></dl>
+</div>
 So we must change existing dialog program (a program to assist interaction between user & script) functions in 'script', into something else.<br/>
 <br/>
 
@@ -115,16 +114,26 @@ So we must change existing dialog program (a program to assist interaction betwe
 ## PRE-BUILD:
 <b>BRING TOGETHER BUILD-RELATED ITEMS/OBJECTS,ETC (PREPARATION):</b>
 
-Suppose, We are working-on/building this project from below example folder<b>:</b><br/>
-&#160;&#160; `"/System/Volumes/Data/MyProjects/PortableFirefox/"`<br/>
-&#160;&#160; ( alternatively you may/can also create a developement folder "PortableFirefox" here<b>:</b><br/>
-&#160;&#160;&#160; `"/Users/MyUserName/MyProjects/PortableFirefox/"` )<br/>
-When Platypus generates the `"Portable Firefox OSX.app"` bundle, it places the bundle here<b>:</b><br/>
-&#160;&#160; `"/System/Volumes/Data/MyProjects/PortableFirefox/Portable Firefox OSX.app"`<br/>
-To build with Platypus, we will have to choose (various needed files, directories<br/>
-& bundles, etc from above location), inside the Platypus GUI interface/settings,<br/>
-then Platypus will place/copy them, inside below folder location, inside the `.app` bundle<b>:</b><br/>
-&#160;&#160; `"/System/Volumes/Data/MyProjects/PortableFirefox/Portable Firefox OSX.app/Contents/Resources/"`<br/>
+<div> Suppose, We are working-on/building this project from below example folder<b>:</b>
+<dl><dd>
+ <code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
+ ( alternatively you may/can also create a developement folder "PortableFirefox" here<b>:</b>
+<dl><dd>
+  <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )
+</dd></dl>
+</dd></dl>
+</div>
+<div> When Platypus generates the <code>"Portable Firefox OSX.app"</code> bundle, it places the bundle here<b>:</b>
+<dl><dd>
+ <code>"/System/Volumes/Data/MyProjects/PortableFirefox/Portable Firefox OSX.app"</code>
+</dd></dl>
+</div>
+<div> To build with Platypus, we will have to choose (various needed files, directories & bundles, etc from above location), inside the Platypus GUI interface/settings,<br/>
+then Platypus will place/copy them, inside below folder location, inside the <code>.app</code> bundle<b>:</b>
+<dl><dd>
+ <code>"/System/Volumes/Data/MyProjects/PortableFirefox/Portable Firefox OSX&#46;app/Contents/Resources/"</code>
+</dd></dl>
+</div><br/>
 
 So obtain NEW Platypus (at the time of writing this README.md, it is/was v5.3),<br/>
 &#160;&#160; from here: https://Sveinbjorn.org/platypus<br/>
@@ -183,7 +192,7 @@ Copy/Paste those 2-folders into below (destination) build/project folder<b>:</b>
 ## BUILD:
 <b>BUILD/WRAP/GENERATE WITH PLATYPUS:</b>
 
-Test the 'script' file, before using it to build OSX PortableApp<b>:</b><br/>
+<div> Test the 'script' file, before using it to build OSX PortableApp<b>:</b><br/>
 Tips<b>:</b> a good practice from beginning would-be, After getting this <code>'script'</code><br/>
 (inside the shown/recommended folder that is shown few paragraphs above), 1st Rename<br/>
 it to <code>"script.sh"</code>, then Open <code>"script.sh"</code> with your choice of code editing/developing<br/>
@@ -196,18 +205,19 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
  ２￨MacNm:~ UsrNm$ echo &#36;?<!-- . written as #46 , $ as #36 --><br/>
  ３￨0<br/>
  ４￨MacNm:~ UsrNm$<br/>
- ５└──────────────────────────
-</dd><dd>
+ ５└──────────────────────────<br/><br/>
  When there is no syntax-error, (in other words, When the output is "0"), then<br/>
  copy the <code>"script.sh"</code> in same folder,<br/>
  & Rename the <code>"script.sh Copy"</code> into <code>"script"</code>,<br/>
  then follow next/below stage/procedures.
 </dd></dl>
+</div><br/>
 
-Build the final `"PortableAppName.app"` bundle<b>:</b><dl>
- <dd>To build new `"Portable Firefox.app"`,<br/>
- choose these below files, directories, bundles inside Platypus GUI interface<b>:</b><dl>
-  <dd>
+<div>Build the final <code>"PortableAppName.app"</code> bundle<b>:</b>
+<dl><dd>
+ To build new <code>"Portable Firefox.app"</code>,<br/>
+ choose these below files, directories, bundles inside Platypus GUI interface<b>:</b>
+<dl><dd>
   <b>◦</b> directory : English.lproj<br/>
   <b>◦</b> directory : profile<br/>
   <b>◦</b> bundle : Firefox.app<br/>
@@ -216,10 +226,11 @@ Build the final `"PortableAppName.app"` bundle<b>:</b><dl>
   <b>◦</b> icon-file : appIcon.icns<br/>
   <b>◦</b> sh-script-file : pashua.sh<br/>
   <b>◦</b> sh-script-file : script
-  </dd></dl>
- </dd></dl>
+</dd></dl>
+</dd></dl>
+</div><br/>
 
-Then you may use, these type of settings in Platypus GUI interface<b>:</b>
+<div> Then you may use, these type of settings in Platypus GUI interface<b>:</b>
 <dl><dd>
  <b>◦</b> Script Type : Shell : /bin/sh<br/>
  <b>◦</b> Script Path : <code>/System/Volumes/Data/MyProjects/PortableFirefox/script</code><br/>
@@ -228,6 +239,7 @@ Then you may use, these type of settings in Platypus GUI interface<b>:</b>
  <b>◦</b> Selected/Check-Marked options : Remain running after execution<br/>
  <b>◦</b> Fill in other boxes: app name, identifier, author, etc
 </dd></dl>
+</div><br/>
 
 Then tap/click/select/press the <code>"Create App"</code> button.<br/>
 It will create/generate a new <code>"Portable Firefox.app"</code>, that is<br/>
