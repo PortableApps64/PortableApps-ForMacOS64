@@ -6,24 +6,24 @@
  &#160; at-least with limited/restricted abilities: element+text coloring, positioning,<br/>
  &#160; width,etc.<br/>
  &#160; Few txt/inl/blk/etc element’s style(look/appearance/etc) overriding CSS rules<br/>
- &#160; begins after this 2nd-&#42;/ */
-/* Sq */
+ &#160; BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 .UatErik50{ float:left; position:relative; width:30%; padding-bottom:30%; margin:1.66%; overflow:hidden; }
-/* SqCt */
+/* <br/> Content inside SqrBox:<br/> */
 .UatErik51{ position:absolute; height:80%; width:90%; padding:10% 5%; }
-/* SqCtVTb */
+/* <br/> Table For Vertical Allignment:<br/> */
 .UatErik52{ display:table; height:100%; width:100%; }
-/* SqCtVTbCl */
+/* <br/> Cell in Vert Tbl:<br/> */
 .UatErik53{ display:table-cell; vertical-align:middle; height:100%; width:100%; }
-/* Brd0 */
+/* <br/> No-Border:<br/> */
 .UatErik70{ border-collapse:collapse; border-spacing:0px; width:100%; border-width:0px; border-style:none; border:none; margin:0px; padding:0px;}
-/* ClBrd1 */
+/* <br/> Border-1:<br/> */
 .UatErik81{ border-width:1px; width:100%; margin:0px; padding:0px; }
-/* ClBrd1TopWoS */
+/* <br/> Top & Bottom Border Without Sides:<br/> */
 .UatErik82{ border-width:1px; border-width-top:1px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; }
-/* ClBrd1MdlOrBtmWoS */
-.UatErik83{ border-width:1px; border-width-top:0px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; }
+/* <br/> Only Bottom Border:<br/> */
+.UatErik83{ border-width:1px; border-width-top:0px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; } /* <br/> END of CSS STYLEs */
 </style>
+
 # PORTABLE FIREFOX OSX script
 <br/>
 
