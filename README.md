@@ -352,7 +352,7 @@ and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
 <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Light-Vert&Left ┤ &amp;#9508; </div></div></div></div>
 <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Light-Down&Horizontal ┬ &amp;#9516; </div></div></div></div>
 <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Light-Up&Horizontal ┴ &amp;#9524; </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Light-Vert.&Horiz. ┼ &amp;#9532; </div></div></div></div>
+<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Light-Vert.&Horiz. ┼ &amp;#9532; </div></div></div></div> </td></tr>
 <tr><td border="1" class="UatErik83"> • Char = Character • Grph = Graphic • Emj ~= Emoji ~= Emoticons • Txt = Textual Glyph • U = Unicode • h = H = x = hex = HexaDecimal • A = ASCII </td></tr>
 <tr><td border="1" class="UatErik83"> 
 <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• 📁 1F4C1, File Folder. Closed </div></div></div></div>
@@ -367,8 +367,7 @@ and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
 <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Right-Pointing Magnifying Glass 🔎 U+1F50E </div></div></div></div>
 <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Computer (Laptop) 💻 U+1F4BB </div></div></div></div>
 <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Monitor/Screen 🖳 </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Computer (Desktop) 🖥 U+1F5A5 </div></div></div></div>
-</td></tr>
+<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Computer (Desktop) 🖥 U+1F5A5 </div></div></div></div> </td></tr>
 <tr><td border="1" class="UatErik83"> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Middot · &amp;#183; ⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Bullet • &amp;#8226; ⌥Opt+8 ❖Alt+249 </td></tr>
 <tr><td border="1" class="UatErik83"> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• (Vertical/Stright/Double) Quotation-Mark &quot; &amp;#34; &amp;quot; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Acute-Accent ´ &amp;#180; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Full-Width Quotation-Mark ＂ </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Full-Width Apostrophe ＇ </div></div></div></div> </td></tr>
 <tr><td border="1" class="UatErik83"> 
