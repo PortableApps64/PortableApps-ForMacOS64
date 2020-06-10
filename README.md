@@ -44,7 +44,6 @@ Codes From This New-‘script’ Can Also Be Modified/Applied/Used With Any Othe
  <b>◦</b> Lnx = 🐧&#xFE0E; = Linux OS . Most distros should be called 🐐&#xFE0E;GNU-🐧&#xFE0E;Linux OS. Various distros developed by various groups & individuals . OpenSource OS.
 </dd></dl>
 
-
 <b>OLD SCRIPT:</b><br/>
 <div> Original & Last ‘script’ v4.1 is here<b>:</b> http://www.FreeSMUG.org/portableapps:code:firefox<br/>
 ( You can also check 1st commit of this ‘script’ file in Github to view the v4.1 code )<br/>
@@ -333,10 +332,10 @@ and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
 </td></tr>
 </table>
 
-<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td border="1" width="100%" class="UatErik81">List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><br/>
-We will use some of them in dialog messages from this ‘script’.
-<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70"><tr><td border="1" width="100%" border="1" class="UatErik81"> 
+List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><br/>
+( We will use some of these in our dialog messages from this ‘script’ )
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td border="1" width="100%" class="UatErik82"> 
 <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Low-Density Dotted Grph Char ░ &amp;#9617; 176 </div></div></div></div>
 <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Medium-Density Dotted ▒ &amp;#9618; 177 </div></div></div></div>
