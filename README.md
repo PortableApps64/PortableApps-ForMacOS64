@@ -228,12 +228,12 @@ editor/build software,<br/>
 Improve/Modify, Save, then<br/>
 Use below commands to test if bash code syntaxes are right or where the fault⒮ is/are<b>:</b>
 <dl><dd>
- ０┌──────────────────────────<br/>
- １￨MacNm:~ UsrNm$ <b>sh -n</b> /System/Volumes/Data/MyProjects/PortableFirefox/script&#46;sh<br/>
- ２￨MacNm:~ UsrNm$ echo &#36;?<!-- “.” written as &#46; , $ as &#36; --><br/>
- ３￨0<br/>
- ４￨MacNm:~ UsrNm$<br/>
- ５└──────────────────────────<br/><br/>
+ <tt>０┌─────────────────</tt><br/>
+ <tt>１│</tt>MacNm:~ UsrNm$ <b>sh -n</b> /System/Volumes/Data/MyProjects/PortableFirefox/script&#46;sh<br/>
+ <tt>２│</tt>MacNm:~ UsrNm$ echo &#36;?<!-- “.” written as &#46; , $ as &#36; --><br/>
+ <tt>３│</tt>0<br/>
+ <tt>４│</tt>MacNm:~ UsrNm$<br/>
+ <tt>５└─────────────────</tt><br/><br/>
  When there is no syntax-error, (in other words, When the output is “0”), then<br/>
  copy the <code>"script.sh"</code> in same folder,<br/>
  & Rename the <code>"script.sh Copy"</code> into <code>"script"</code>,<br/>
@@ -299,26 +299,26 @@ Thanks in advance.<br/>
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70"><tr><td border="1" width="100%" class="UatErik81"> To create "MyProjects" folder in mac hard drive (not under your user-name), you may edit <code>synthetic.conf</code><b>:</b>
 <dl><dd><!-- “.” is &#46; -->
- ０┌──────────────────────────<br/>
- １￨sudo nano /etc/synthetic&#46;conf<br/>
- ２└──────────────────────────
+ <tt>０┌─────────────────</tt><br/>
+ <tt>１│</tt>sudo nano /etc/synthetic&#46;conf<br/>
+ <tt>２└─────────────────</tt>
 </dd></dl>
 and then add below 2-lines of settings<b>:</b>
 <dl><dd>
- ０┌──────────────────────────<br/>
- １￨MyProjects&#9;	System/Volumes/Data/MyProjects<br/>
- ２￨Development&#9;	System/Volumes/Data/Development<br/>
- ３└──────────────────────────
+ <tt>０┌─────────────────</tt><br/>
+ <tt>１│</tt>MyProjects&#9;	System/Volumes/Data/MyProjects<br/>
+ <tt>２│</tt>Development&#9;	System/Volumes/Data/Development<br/>
+ <tt>３└─────────────────</tt>
 </dd><dd>
  then Press <code>Ctrl+X</code> (to Exit), and Nano prompts/asks you to press “Y” (to Save) or “N” (to Discard) changes, so press “Y” (to Save), then Nano shows target/destination filename <code>/etc/synthetic.conf</code> (and allows you to change name), So press <code>Enter</code> to select it & Save+Exit.<br/>
  Note<b>:</b> you must press <code>tab</code>-button after typing "MyProjects"/"Development". More on <a href="https://www.nano-editor.org/dist/latest/cheatsheet.html" target="_blank">Nano</a>
 </dd></dl><!-- “.” is &#46; -->
 and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
 <dl><dd>
- ０┌──────────────────────────<br/>
- １￨sudo mkdir -p /System/Volumes/Data/MyProjects<br/>
- ２￨sudo mkdir -p /System/Volumes/Data/Development<br/>
- ３└──────────────────────────
+ <tt>０┌─────────────────</tt><br/>
+ <tt>１│</tt>sudo mkdir -p /System/Volumes/Data/MyProjects<br/>
+ <tt>２│</tt>sudo mkdir -p /System/Volumes/Data/Development<br/>
+ <tt>３└─────────────────</tt>
 </dd></dl>
 ... and then you must Reboot.<br/>
 <br/>
@@ -327,10 +327,10 @@ and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70"><tr><td border="1" width="100%" class="UatErik81"> To see all files in <code>Finder</code> (inlcuding Hidden/System), i executed below 2-commands<b>:</b>
 <dl><dd><!-- “.” is &#46; -->
- ０┌──────────────────────────<br/>
- １￨defaults write com&#46;apple&#46;finder AppleShowAllFiles TRUE<br/>
- ２￨killall Finder<br/>
- ３└──────────────────────────
+ <tt>０┌─────────────────</tt><br/>
+ <tt>１│</tt>defaults write com&#46;apple&#46;finder AppleShowAllFiles TRUE<br/>
+ <tt>２│</tt>killall Finder<br/>
+ <tt>３└─────────────────</tt>
 </dd><dd>
  or, in <code>Finder</code>, press these 3-buttons together at-same-time: [⇧Shift]&#43;[⌘Command]&#43;[&#8239;<sup>&gt;</sup><sub>.</sub>&#8239;]<br/><!-- + written as &#43; , nnbsp is &#8239; -->
 </dd></dl>
@@ -410,30 +410,30 @@ In macOSX in shell (“<code>Terminal</code>” utility) window, type command (<
 then drag the <code>.dmg</code> file from <code>Finder</code>(file browser) window & drop it into <code>Terminal</code> window<b>:</b><br/>
 The <code>shasum</code> tool by-default calculates the “SHA1” hash-code, & <code>openssl</code> usage also shown<b>:</b>
 <dl><dd><!-- “.” is &#46; -->
- ０┌──────────────────────────<br/>
- １￨MacNm:~ UsrNm$ <b>shasum</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- ２￨50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- ３￨MacNm:~ UsrNm$ <b>shasum -a 1</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- ４￨50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- ５￨MacNm:~ UsrNm$ <b>openssl sha1</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- ６￨SHA1(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= 50ff626452dfadb9cbb6a2a5e2ddf60848adf256<br/>
- ７└──────────────────────────
+ <tt>０┌─────────────────</tt><br/>
+ <tt>１│</tt>MacNm:~ UsrNm$ <b>shasum</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
+ <tt>２│</tt>50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
+ <tt>３│</tt>MacNm:~ UsrNm$ <b>shasum -a 1</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
+ <tt>４│</tt>50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
+ <tt>５│</tt>MacNm:~ UsrNm$ <b>openssl sha1</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
+ <tt>６│</tt>SHA1(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= 50ff626452dfadb9cbb6a2a5e2ddf60848adf256<br/>
+ <tt>７└─────────────────</tt>
 </dd></dl>
 To calculate “SHA256” hash-code, use <code>-a 256</code> option in <code>shasum</code>, & <code>openssl</code> usage also shown<b>:</b>
 <dl><dd><!-- “.” is &#46; -->
- ０┌──────────────────────────<br/>
- １￨MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- ２￨e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- ３￨MacNm:~ UsrNm$ <b>openssl sha256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- ４￨SHA256(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg)= e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57<br/>
- ５└──────────────────────────
+ <tt>０┌─────────────────</tt><br/>
+ <tt>１│</tt>MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
+ <tt>２│</tt>e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
+ <tt>３│</tt>MacNm:~ UsrNm$ <b>openssl sha256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
+ <tt>４│</tt>SHA256(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg)= e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57<br/>
+ <tt>５└─────────────────</tt>
 </dd></dl>
 To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</code><b>:</b>
 <dl><dd><!-- “.” is &#46; -->
- ０┌──────────────────────────<br/>
- １￨MacNm:~ UsrNm$ <b>openssl md5</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- ２￨MD5(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg)= fa6691336e22a2d83e5629533b830300<br/>
- ３└──────────────────────────
+ <tt>０┌─────────────────</tt><br/>
+ <tt>１│</tt>MacNm:~ UsrNm$ <b>openssl md5</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
+ <tt>２│</tt>MD5(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg)= fa6691336e22a2d83e5629533b830300<br/>
+ <tt>３└─────────────────</tt>
 </dd></dl>
 </td></tr>
 </table>
