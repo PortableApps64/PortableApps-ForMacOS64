@@ -12,7 +12,7 @@
  &#160; Element+Text Coloring, Positioning, Width/Margin/Padding/Height/etc Controlling, etc,etc.<br/>
  &#160; For This README&#46;md Page, Few Txt/Inl/Blk/etc Element’s Style(Look/Appearance/etc)<br/>
  &#160; OverRiding CSS Rules Are Defined Below:<br/>
- &#160; BEGIN CSS RULES:<br/> Square Boxes:<br/> */
+BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 .UatErik50{ float:left; position:relative; width:30%; padding-bottom:30%; margin:1.66%; overflow:hidden; }
 /* <br/> Content inside SqrBox:<br/> */
 .UatErik51{ position:absolute; height:80%; width:90%; padding:10% 5%; }
