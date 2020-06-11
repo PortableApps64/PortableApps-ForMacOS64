@@ -31,23 +31,23 @@
 </style>
 
 # PORTABLE FIREFOX OSX script
-<br/>
+<br/><!-- “.” is &#46; -->
 
 A ‘script’ To Run "Firefox&#46;app" As an OSX PortableApps, From Inside the<br/>
-"Portable AppName&#46;app" bundle in MacOSX.  So We Are ( Working-On & Developing & )<br/>
+"Portable AppName&#46;app" bundle in MacOSX.  So We Are ( Working-on & Developing & )<br/>
 Modifying & Updating This ‘script’ To Include/Use 64bit Pashua dialog, 64bit Platypus,<br/>
-etc To Execute/Run it On Both 64bit-Only macOSX & Also On 64bit+32bit macOSX.<br/>
-Codes From This New-‘script’ Can Also Be Modified/Applied/Used With Any Other<br/>
-“OSX Portable Apps”.
-<br/><!-- “.” is #46; -->
+etc To Execute/Run/Use it On Both 64bit-Only (Current) macOSX and Also On 64bit+32bit<br/>
+(older) macOSX. New-‘script’ Can Also Be Modified/Adapted To Use With Any Other<br/>
+“Portable OSX Apps”.
+<br/>
 
 <dl><dd>
- <b>◦</b> FF = Firefox . A web-browser from Mozilla Foundation.<br/>
- <b>◦</b> PA = Portable Apps . Ususally run from an External/Portable drives/storage.<br/>
- <b>◦</b> OS = Operating System . A collection/set of vast numbers+types of programs, to assist interactions between computer User and computer hardwares & softwares and computer networks.<br/>
- <b>◦</b> OSX =  = macOS X = macOSX . An OS developed by Apple, Inc . ClosedSource OS.<br/>
- <b>◦</b> Win = ❖ = Windows OS . An OS developed by Microsoft corp . ClosedSource OS.<br/>
- <b>◦</b> Lnx = 🐧&#xFE0E; = Linux OS . Most distros should be called 🐐&#xFE0E;GNU-🐧&#xFE0E;Linux OS. Various distros developed by various groups & individuals . OpenSource OS.
+ • FF = Firefox . A web-browser from Mozilla Foundation.<br/>
+ • PA = Portable Apps . Ususally run from an External/Portable drives/storage.<br/>
+ • OS = Operating System . A collection/set of vast numbers+types of programs, to assist interactions between computer User and computer hardwares & softwares and computer networks.<br/>
+ • OSX =  = macOS X = macOSX . An OS developed by Apple, Inc . ClosedSource OS.<br/>
+ • Win = ❖ = Windows OS . An OS developed by Microsoft corp . ClosedSource OS.<br/>
+ • Lnx = 🐧&#xFE0E; = Linux OS . Most distros should be called 🐐&#xFE0E;GNU-🐧&#xFE0E;Linux OS. Various distros developed by various groups & individuals . OpenSource OS.
 </dd></dl>
 
 <b>OLD SCRIPT:</b><br/>
@@ -83,10 +83,10 @@ New ‘script’ v4.1.x Are released under below <b>Licenses</b> + <b>Restrictio
 New ‘script’ v4.1.x are: Copyright 2020 by Erik T Ashfolk - &lt;atErik＠OutLꝏk·ⓒⓞⓜ&gt;(＠=@,ꝏ=oo,·=&#46;,ⓒ=c,ⓞ=o,ⓜ=m)<br/>
 
 This ‘script’ v4.1/v4.1.x file is usually used from such (i.e) location, in macOSX<b>:</b><br/>
-&#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/Resources/script"<br/><!-- . written as #46 -->
+&#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/Resources/script"<br/><!-- “.” is &#46; -->
 
 This ‘script’ v4.1/v4.1.x is (i.e) used by the below binary “Portable Firefox” executable file<b>:</b><br/>
-&#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/MacOS/Portable Firefox"<br/><!-- . written as #46 -->
+&#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/MacOS/Portable Firefox"<br/><!-- “.” is &#46; -->
 
 <div> The binary “Portable Firefox” is created by Platypus,<br/>
 Platypus also creates the <code>“Portable Firefox.app”</code> bundle.
@@ -101,7 +101,7 @@ Platypus also creates the <code>“Portable Firefox.app”</code> bundle.
 <b>PLATYPUS:</b><br/>
 
 <div>The "Portable Firefox&#46;app" is packaged using the Platypus script wrapper (aka app builder) from http://sveinbjorn.sytes.net/platypus
-<dl><dd><!-- . written as #46 -->
+<dl><dd><!-- “.” is &#46; -->
  New website: https://Sveinbjorn.org/platypus<br/>
  GitHub: https://GitHub.com/sveinbjornt/Platypus<br/>
  <br/>
@@ -116,7 +116,7 @@ Platypus also creates the <code>“Portable Firefox.app”</code> bundle.
 <b>COCOA-DIALOG:</b><br/>
 
 <div>The OSX PortableApps used CocoaDialog (&#46;app bundle) inside “PortableFirefoxOSX” v4.0.1 (the last/old release).
-<dl><dd><!-- . written as #46 -->
+<dl><dd><!-- “.” is &#46; -->
  But (old) CocoaDialog is NOT compatible with 64bit-only-macOSX yet, afaik.<br/>
  <br/>
  Website: https://CocoaDialog.com/<br/>
@@ -171,7 +171,7 @@ to build/wrap macOS app⒮ in 64bit+32bit suppported macOSX (Mojave & earlier).<
 
 <div>Obtain Pashua dialog from here : https://www.BlueM.net/en/projects/pashua/<br/>
 Open dmg installer, Copy "Pashua&#46;app", "Pashua&#46;sh" into below folder<b>:</b>
-<dl><dd><!-- “.” is #46; -->
+<dl><dd><!-- “.” is &#46; -->
  <code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
  ( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )
 </dd></dl>
@@ -201,7 +201,7 @@ or Get last Quantum/Servo-based new <code>"Firefox-*.dmg"</code> from https://ww
 </dd></dl>
 <br/>
 
-Extract/Obtain 2-folders `"English.lproj"` & `"profile"` from<br/><!-- “.” is #46; -->
+Extract/Obtain 2-folders `"English.lproj"` & `"profile"` from<br/><!-- “.” is &#46; -->
 old Portable Firefox OSX `"PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg"` file<br/>
 (and you can find download link⒮ shown few-paragraphs above),<br/>
 and then you would need to get/extract the `“Portable Firefox.app”` bundle from<br/>
@@ -230,7 +230,7 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
 <dl><dd>
  ０┌──────────────────────────<br/>
  １￨MacNm:~ UsrNm$ <b>sh -n</b> /System/Volumes/Data/MyProjects/PortableFirefox/script&#46;sh<br/>
- ２￨MacNm:~ UsrNm$ echo &#36;?<!-- “.” written as #46 , $ as #36 --><br/>
+ ２￨MacNm:~ UsrNm$ echo &#36;?<!-- “.” written as &#46; , $ as &#36; --><br/>
  ３￨0<br/>
  ４￨MacNm:~ UsrNm$<br/>
  ５└──────────────────────────<br/><br/>
@@ -245,7 +245,7 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
 <dl><dd>
  To build new <code>“Portable Firefox.app”</code>,<br/>
  choose these below files, directories, bundles inside Platypus GUI interface<b>:</b>
-<dl><dd><!-- “.” is #46; -->
+<dl><dd><!-- “.” is &#46; -->
   <b>◦</b> directory : English&#46;lproj<br/>
   <b>◦</b> directory : profile<br/>
   <b>◦</b> bundle : Firefox&#46;app<br/>
@@ -269,7 +269,7 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
 </dd></dl>
 </div><br/>
 
-Then tap/click/select/press the <code>“Create App”</code> button.<br/><!-- “.” is #46; -->
+Then tap/click/select/press the <code>“Create App”</code> button.<br/><!-- “.” is &#46; -->
 It will create/generate a new <code>“Portable Firefox.app”</code>, that is<br/>
 compatible with 64-only macOSX(Catalina/...)<br/>
 
@@ -298,7 +298,7 @@ Thanks in advance.<br/>
 ## EXTRA-NOTES:
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70"><tr><td border="1" width="100%" class="UatErik81"> To create "MyProjects" folder in mac hard drive (not under your user-name), you may edit <code>synthetic.conf</code><b>:</b>
-<dl><dd><!-- “.” is #46; -->
+<dl><dd><!-- “.” is &#46; -->
  ０┌──────────────────────────<br/>
  １￨sudo nano /etc/synthetic&#46;conf<br/>
  ２└──────────────────────────
@@ -312,7 +312,7 @@ and then add below 2-lines of settings<b>:</b>
 </dd><dd>
  then Press <code>Ctrl+X</code> (to Exit), and Nano prompts/asks you to press “Y” (to Save) or “N” (to Discard) changes, so press “Y” (to Save), then Nano shows target/destination filename <code>/etc/synthetic.conf</code> (and allows you to change name), So press <code>Enter</code> to select it & Save+Exit.<br/>
  Note<b>:</b> you must press <code>tab</code>-button after typing "MyProjects"/"Development". More on <a href="https://www.nano-editor.org/dist/latest/cheatsheet.html" target="_blank">Nano</a>
-</dd></dl><!-- “.” is #46; -->
+</dd></dl><!-- “.” is &#46; -->
 and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
 <dl><dd>
  ０┌──────────────────────────<br/>
@@ -326,15 +326,14 @@ and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
 </table>
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70"><tr><td border="1" width="100%" class="UatErik81"> To see all files in <code>Finder</code> (inlcuding Hidden/System), i executed below 2-commands<b>:</b>
-<dl><dd><!-- “.” is #46; -->
+<dl><dd><!-- “.” is &#46; -->
  ０┌──────────────────────────<br/>
  １￨defaults write com&#46;apple&#46;finder AppleShowAllFiles TRUE<br/>
  ２￨killall Finder<br/>
  ３└──────────────────────────
 </dd><dd>
- or, in <code>Finder</code>, press these 3-buttons together at-same-time: [⇧Shift]&#43;[⌘Command]&#43;[&#8239;<sup>&gt;</sup><sub>.</sub>&#8239;]<br/><!-- + written as #43 , nnbsp is #8239 -->
+ or, in <code>Finder</code>, press these 3-buttons together at-same-time: [⇧Shift]&#43;[⌘Command]&#43;[&#8239;<sup>&gt;</sup><sub>.</sub>&#8239;]<br/><!-- + written as &#43; , nnbsp is &#8239; -->
 </dd></dl>
-<br/>
 </td></tr>
 </table>
 
@@ -410,7 +409,7 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
 In macOSX in shell (“<code>Terminal</code>” utility) window, type command (<code>shasum</code>) & press <code>space</code> key,<br/>
 then drag the <code>.dmg</code> file from <code>Finder</code>(file browser) window & drop it into <code>Terminal</code> window<b>:</b><br/>
 The <code>shasum</code> tool by-default calculates the “SHA1” hash-code, & <code>openssl</code> usage also shown<b>:</b>
-<dl><dd><!-- “.” is #46; -->
+<dl><dd><!-- “.” is &#46; -->
  ０┌──────────────────────────<br/>
  １￨MacNm:~ UsrNm$ <b>shasum</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
  ２￨50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
@@ -421,7 +420,7 @@ The <code>shasum</code> tool by-default calculates the “SHA1” hash-code, & <
  ７└──────────────────────────
 </dd></dl>
 To calculate “SHA256” hash-code, use <code>-a 256</code> option in <code>shasum</code>, & <code>openssl</code> usage also shown<b>:</b>
-<dl><dd><!-- “.” is #46; -->
+<dl><dd><!-- “.” is &#46; -->
  ０┌──────────────────────────<br/>
  １￨MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
  ２￨e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
@@ -430,13 +429,12 @@ To calculate “SHA256” hash-code, use <code>-a 256</code> option in <code>sha
  ５└──────────────────────────
 </dd></dl>
 To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</code><b>:</b>
-<dl><dd><!-- “.” is #46; -->
+<dl><dd><!-- “.” is &#46; -->
  ０┌──────────────────────────<br/>
  １￨MacNm:~ UsrNm$ <b>openssl md5</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
  ２￨MD5(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg)= fa6691336e22a2d83e5629533b830300<br/>
  ３└──────────────────────────
 </dd></dl>
-<br/>
 </td></tr>
 </table>
 
