@@ -80,7 +80,7 @@ The ‘<b>script</b>’ is a bash shell script file, Executable file.<br/>
 New ‘script’ v4.1.x (v4.1.4) Are released under below <b>Licenses</b> + <b>Restrictions</b> + <b>Permissions:</b><br/>
 &#160;&#160; - GNU General Public License Version 3  (GPL v3)<br/>
 &#160;&#160; - Do Not Use This To Kill/Harm (or Steal from) (Any) Human/Community/Earth/etc<br/>
-New ‘script’ v4.1.x are: Copyright 2020 by Erik T Ashfolk - &lt;atErik＠OutLꝏk·ⓒⓞⓜ&gt;(＠=@,ꝏ=oo,·=&#46;,ⓒ=c,ⓞ=o,ⓜ=m)<br/>
+New ‘script’ v4.1.x are: Copyright 2020 by Erik T Ashfolk - &lt;atErik＠OutLထk·ⓒⓞⓜ&gt;(＠=@,ထ=oo,·=&#46;,ⓒ=c,ⓞ=o,ⓜ=m)<br/>
 
 This ‘script’ v4.1/v4.1.x file is usually used from such (i.e) location, in macOSX<b>:</b><br/>
 &#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/Resources/script"<br/><!-- “.” is &#46; -->
