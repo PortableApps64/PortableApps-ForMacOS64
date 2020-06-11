@@ -241,7 +241,7 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
 </dd></dl>
 </div><br/>
 
-<div>Build the final <code>“PortableAppName.app”</code> bundle<b>:</b>
+<div>Build the final <code>“PortableAppName.app”</code> bundle, by using Platypus<b>:</b>
 <dl><dd>
  To build new <code>“Portable Firefox.app”</code>,<br/>
  choose these below files, directories, bundles inside Platypus GUI interface<b>:</b>
