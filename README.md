@@ -7,7 +7,7 @@
  &#160; To Present Distinct-Contents Distinctly+Accurately.<br/>
  &#160; GitHub Already <a href="https://github.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization_filter.rb">Applying</a> Filtering/Restrictions On HTML Commands, So Contact<br/>
  &#160; GitHub-Support & Request Them To Unblock+Enable Essential Function(s), Tell<br/>
- &#160; GitHub-Support To Apply Filtering Also For CSS/JS Commands Inside "&lt;STYLE> & "&lt;SCRIPT>" Commands,<br/>
+ &#160; GitHub-Support To Apply Filtering Also For CSS/JS Commands Inside "&lt;STYLE>" & "&lt;SCRIPT>" Commands,<br/>
  &#160; To AtLeast Allow CSS & JS With Limited/Restricted Functionalities/Abilities, like:<br/>
  &#160; Element+Text Coloring, Positioning, Width/Margin/Padding/Height/etc Controlling, etc,etc.<br/>
  &#160; For This README&#46;md Page, Few Txt/Inl/Blk/etc Element’s Style(Look/Appearance/etc)<br/>
@@ -45,7 +45,7 @@ etc To Execute/Run/Use it On Both 64bit-Only (Current) macOSX and Also On 64bit+
  • FF = Firefox . A web-browser from Mozilla Foundation. Since v57 its using <a href="https://en.wikipedia.org/wiki/Quantum%5F%28Mozilla%29#Quantum">Quantum</a>/Servo engines, before v57 it used <a href="https://en.wikipedia.org/wiki/Gecko%5F%28software%29">Gecko</a>.<br/>
  • PA = Portable Apps . Ususally run from an External/Portable drives/storage.<br/>
  • OS = Operating System . A collection/set of vast numbers+types of programs, to assist interactions between computer User and computer hardwares & softwares and computer networks.<br/>
- • OSX = 🍎︎&#xFE0E; = macOS X = macOSX . An OS developed by Apple, Inc. ClosedSource OS.<br/>
+ • OSX = 🍎︎ = macOS X = macOSX . An OS developed by Apple, Inc. ClosedSource OS.<br/>
  • Win = ❖ = Windows OS . An OS developed by Microsoft corp. ClosedSource OS.<br/>
  • Lnx = 🐐&#xFE0E;GNU-🐧&#xFE0E;Linux OS, though most users shorten/call/know it as "Linux OS". Various distros developed by various groups & individuals. OpenSource OS.
 </dd></dl>
@@ -357,44 +357,44 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td width="32%">• 📁 1F4C1, File Folder. Closed </td><td width="32%">• 📂 1F4C2, Open File Folder </td><td>• 📃 1F4C3, Page with curl. Rolled Paper </td></tr>
 <tr><td>• 📄＜1F4C4, Page facing Up. Page/Paper/Files </td><td>• 📤 1F4E4, Outbox Tray. For Send Out. Copy </td><td>• 📥 1F4E5, Inbox Tray. For Receiving. Paste </td></tr>
-<tr><td>• Warning Sign ⚠&#xFE0E; (Txt) U+26A0 Alert. Notification </td><td>• Warning Sign ⚠️ (Emj). Alert. Notification </td><td>• Left-Pointing Magnifying Glass 🔍 U+1F50D </td></tr>
+<tr><td>• Warning Sign ⚠&#xFE0E; (Txt) U+26A0 </td><td>• Warning Sign ⚠️ (Emj) </td><td>• Left-Pointing Magnifying Glass 🔍 U+1F50D </td></tr>
 <tr><td>• Right-Pointing Magnifying Glass 🔎 U+1F50E </td><td>• Computer (Laptop) 💻 U+1F4BB </td><td>• Monitor/Screen 🖳 </td></tr>
 <tr><td>• Computer (Desktop) 🖥 U+1F5A5 </td><td> &#160; </td><td> &#160; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="32%">• Middot · &amp;#183; 🍎︎&#xFE0E;⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 </td><td width="32%">• Bullet • &amp;#8226; 🍎︎&#xFE0E;⌥Opt+8 ❖Alt+249 </td><td> &#160; </td></tr>
+<tr><td width="32%">• Middot · &amp;#183; 🍎︎⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 </td><td width="32%">• Bullet • &amp;#8226; 🍎︎⌥Opt+8 ❖Alt+249 </td><td> &#160; </td></tr>
 <tr><td>• Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; </td><td>• (Vertical/Straight/Double) Quotation-Mark &quot; &amp;#34; &amp;quot; </td><td>• Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; </td></tr>
 <tr><td>• Acute-Accent ´ &amp;#180; </td><td>• Full-Width Quotation-Mark ＂ </td><td>• Full-Width Apostrophe ＇ </td></tr>
-<tr><td>• (Curved/Curly) Left Double Quotation-Mark: “ (&ldquo;) (&amp;#8220;) &amp;ldquo; 🍎︎&#xFE0E;⌥Opt+[ ❖Alt+0147 </td><td>• (Curved/Curly) Right Double Quotation-Mark: ” (&rdquo;) (&amp;#8221;) &amp;rdquo; 🍎︎&#xFE0E;⌥Opt+⇧Shift+] ❖Alt+0148 </td><td>• Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; </td></tr>
-<tr><td>• (Curved/Curly) Left Single-Quotation-Mark ‘ (&lsquo;) &amp;#8216; &amp;lsquo; 🍎︎&#xFE0E;⌥Opt+] ❖Alt+0145 </td><td>• (Curved/Curly) Right Single-Quotation-Mark ’ (&rsquo;) &amp;#8217; &amp;rsquo; 🍎︎&#xFE0E;⌥Opt+⇧Shift+] ❖Alt+0146 </td><td>• Single High-Reversed-9 Quotation-Mark ‛ &amp;#8219; </td></tr>
+<tr><td>• (Curved/Curly) Left Double Quotation-Mark: “ (&ldquo;) (&amp;#8220;) &amp;ldquo; 🍎︎⌥Opt+[ ❖Alt+0147 </td><td>• (Curved/Curly) Right Double Quotation-Mark: ” (&rdquo;) (&amp;#8221;) &amp;rdquo; 🍎︎⌥Opt+⇧Shift+] ❖Alt+0148 </td><td>• Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; </td></tr>
+<tr><td>• (Curved/Curly) Left Single-Quotation-Mark ‘ (&lsquo;) &amp;#8216; &amp;lsquo; 🍎︎⌥Opt+] ❖Alt+0145 </td><td>• (Curved/Curly) Right Single-Quotation-Mark ’ (&rsquo;) &amp;#8217; &amp;rsquo; 🍎︎⌥Opt+⇧Shift+] ❖Alt+0146 </td><td>• Single High-Reversed-9 Quotation-Mark ‛ &amp;#8219; </td></tr>
 <tr><td>• (Single)-Vertical-Line (aka Pipe Char) • &amp;#124; &amp;verbar; &amp;vert; </td><td>• (Single)-Broken-Bar ¦ &amp;#166; &amp;brvbar; ❖AltGr+&#96; ❖AltGr+6 ❖AltGr+⇧Shift+Right\ </td><td> &#160; </td></tr>
 <tr><td>• Ampersand (aka And) & &amp;#38; &amp;amp; </td><td>• Less-Than &lt; &amp;#60; &amp;lt; </td><td>• Greater-Than &gt; &amp;#62; &amp;gt; </td></tr>
-<tr><td>• Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; 🍎︎&#xFE0E;⌥Opt+Space ❖Alt+0160 ❖Alt+255 </td><td>• Narrow No-Break Space "&#8239;" &amp;#8239; </td><td>• Space " " &amp;#32; </td></tr>
+<tr><td>• Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; 🍎︎⌥Opt+Space ❖Alt+0160 ❖Alt+255 </td><td>• Narrow No-Break Space "&#8239;" &amp;#8239; </td><td>• Space " " &amp;#32; </td></tr>
 <tr><td>• Percent % &amp;#37; </td><td>• Asterisk * &amp;#42; &amp;ast; </td><td>• Exclamation ! &amp;#33; &amp;excl; </td></tr>
 <tr><td>• Number (aka Hash, Pound-Sign) # &amp;#35; &amp;num; </td><td>• Plus + &amp;#43; &amp;plus; </td><td>• Comma , &amp;#44; &amp;comma; </td></tr>
 <tr><td>• Period (aka dot, full stop) . &amp;#46; &amp;period; </td><td>• Solidus (Forward-Slash) / &amp;#47; &amp;sol; </td><td>• Colon : &amp;#58; &amp;colon; </td></tr>
 <tr><td>• SemiColon ; &amp;#59; &amp;semi; </td><td>• Equals = &amp;#61; &amp;equals; </td><td>• Question ? &amp;#63; &amp;quest; </td></tr>
 <tr><td>• Commercial-At @ &amp;#64; &amp;commat; </td><td>• Square-Bracket &#91; &#93; &amp;#91; &amp;#93; &amp;lsqb; &amp;rsqb; </td><td>• Reverse-Solidus (Back-Slash) &#92; &amp;#92; &amp;bsol; </td></tr>
-<tr><td>• Circumflex-Accent (Hat) (Caret) &#94; &amp;#94; &amp;Hat; </td><td>• Low-Line (aka LowBar, UnderBar, UnderScore) &#95; &amp;#95; &amp;lowbar; </td><td> &#160; </td></tr>
-<tr><td>• Registered-Trademark: ® &amp;#174; 🍎︎&#xFE0E;⌥Opt+r ❖Alt+0174 </td><td>• Copyright: © &amp;#169; 🍎︎&#xFE0E;⌥Opt+g ❖Alt+0169 </td><td>• Trademark: ™ &amp;#8482; 🍎︎&#xFE0E;⌥Opt+⇧Shift+2 ❖Alt+0153 </td></tr>
+<tr><td>• Circumflex-Accent (Hat) (Caret) &#94; &amp;#94; &amp;Hat; </td><td>• Low-Line (aka LowBar, UnderBar, UnderScore) &#95; &amp;#95; &amp;lowbar; </td><td> Full-Width Asterisk ＊ U+FF0A </td></tr>
+<tr><td>• Registered-Trademark: ® &amp;#174; 🍎︎⌥Opt+r ❖Alt+0174 </td><td>• Copyright: © &amp;#169; 🍎︎⌥Opt+g ❖Alt+0169 </td><td>• Trademark: ™ &amp;#8482; 🍎︎⌥Opt+⇧Shift+2 ❖Alt+0153 </td></tr>
 <tr><td>• Copyleft © (ɔ) </td><td> &#160; </td><td> &#160; </td></tr>
-<tr><td>• Euro: € &amp;#8364; 🍎︎&#xFE0E;⌥Opt+2 ❖Alt+0128 </td><td>• Cent: ¢ &amp;#162; 🍎︎&#xFE0E;⌥Opt+4 ❖Alt+155 </td><td>• Yen: ¥ &amp;#165; 🍎︎&#xFE0E;⌥Opt+y ❖Alt+157 </td></tr>
-<tr><td>• Pound (Currency-Sign) £ &amp;#163; 🍎︎&#xFE0E;⌥Opt+3 ❖Alt+156 </td><td>• Dollar $ &amp;#36; &amp;dollar; </td><td> &#160; </td></tr>
+<tr><td>• Euro: € &amp;#8364; 🍎︎⌥Opt+2 ❖Alt+0128 </td><td>• Cent: ¢ &amp;#162; 🍎︎⌥Opt+4 ❖Alt+155 </td><td>• Yen: ¥ &amp;#165; 🍎︎⌥Opt+y ❖Alt+157 </td></tr>
+<tr><td>• Pound (Currency-Sign) £ &amp;#163; 🍎︎⌥Opt+3 ❖Alt+156 </td><td>• Dollar $ &amp;#36; &amp;dollar; </td><td> &#160; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="32%">• Apple symbol  &amp;#63743; U+F8FF 🍎︎&#xFE0E;⌥Opt+⇧Shift+k (macOS) </td><td width="32%">• Red Apple 🍎 U+E345 &amp;#58181; &amp;#xe345; 🍎&#xFE0E;(txt) </td><td>• Green Apple 🍏 U+1F34F &amp;#127823; &amp;#x1f34f; 🍏&#xFE0E;(txt) </td></tr>
+<tr><td width="32%">• Apple symbol  &amp;#63743; U+F8FF 🍎︎⌥Opt+⇧Shift+k (macOS) </td><td width="32%">• Red Apple 🍎 U+E345 &amp;#58181; &amp;#xe345; 🍎&#xFE0E;(txt) </td><td>• Green Apple 🍏 U+1F34F &amp;#127823; &amp;#x1f34f; 🍏&#xFE0E;(txt) </td></tr>
 <tr><td>• “Squared-Plus” ⊞ U+229E &amp;#8862; used by Wikipedia as Windows Logo/Flag Key symbol, ❖Win+B ❖Win </td><td>• “Black Diamond Minus White X” ❖ U+2756 &amp;#10070; used by others+me as Windows Logo/Flag Key symbol </td><td>• Goat 🐐 (emj) &amp;#128016; U+1F410 🐐&#xFE0E;(txt) often used to indicate GNU software, GNU/GPL-License, GNU-Hurd OS, GNU-BSD OS, etc, As 🐐it looks like wildebeest </td></tr>
-<tr><td>• Penguin 🐧 (emj) &amp;#128039; U+1F427 🐧&#xFE0E;(txt) often used to indicate GNU-Linux-OS, As 🐧it looks like Tux </td><td> &#160; </td><td> &#160; </td></tr>
+<tr><td>• Penguin 🐧(emj) &amp;#128039; U+1F427 🐧&#xFE0E;(txt) often used to indicate GNU-Linux-OS, As 🐧&#xFE0E;it looks like Tux </td><td> &#160; </td><td> &#160; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td width="32%">• Congruence Relation Symbol ≡ &amp;#8801; &amp;equiv; A 240 U+2261 </td><td width="32%">• Vertical Ellipsis ⋮ U+22EE vellip </td><td>• Menu/App key ▤ </td></tr>
 <tr><td>• Identical To ≡ </td><td>• Strictly Identical To ≣ </td><td>• Greek Capital Letter Xi Ξ </td></tr>
-<tr><td>• Not-Equal-To ≠ &amp;#8800; &amp;ne; 🍎︎&#xFE0E;⌥Opt&#46;= </td><td>• Almost-Equal-To ≈ &amp;#8776; &amp;asymp; &amp;ap; &amp;approx; 🍎︎&#xFE0E;⌥Opt+x </td><td>• Division ÷ &amp;#247; 🍎︎&#xFE0E;⌥Opt+? 🍎︎&#xFE0E;⌥Opt+/ ❖Alt+0247 </td></tr>
-<tr><td>• Plus-Minus ± &amp;#177; 🍎︎&#xFE0E;⌥Opt+⇧Shift+= ❖Alt+241 </td><td>• Infinity ∞ &amp;#8734; &amp;infin; 🍎︎&#xFE0E;⌥Opt+5 </td><td> &#160; </td></tr>
+<tr><td>• Not-Equal-To ≠ &amp;#8800; &amp;ne; 🍎︎⌥Opt&#46;= </td><td>• Almost-Equal-To ≈ &amp;#8776; &amp;asymp; &amp;ap; &amp;approx; 🍎︎⌥Opt+x </td><td>• Division ÷ &amp;#247; 🍎︎⌥Opt+? 🍎︎⌥Opt+/ ❖Alt+0247 </td></tr>
+<tr><td>• Plus-Minus ± &amp;#177; 🍎︎⌥Opt+⇧Shift+= ❖Alt+241 </td><td>• Infinity ∞ &amp;#8734; &amp;infin; 🍎︎⌥Opt+5 </td><td> &#160; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="32%">• White Frowning Face ☹&#xFE0E;/&#65039; &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; </td><td width="32%">• Worried Face 😟 0x1F61F &amp;#128543; </td><td>• White Smiling Face ☺&#xFE0E; 0x263A &amp;#9786; </td></tr>
-<tr><td>• Slightly Smiling Face 🙂 0x1F642 &amp;#128578; </td><td>• Black Smiling Face ☻&#xFE0E; 0x263B &amp;#9787; </td><td> &#160; </td></tr>
+<tr><td width="32%">• White Frowning Face ☹ &#65039; &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; ☹&#xFE0E;(txt) </td><td width="32%">• Worried Face 😟(emj) &amp;#128543; 0x1F61F 😟&#xFE0E;(txt) </td><td>• White Smiling Face ☺ &amp;#9786; 0x263A ☺&#xFE0E;(txt) </td></tr>
+<tr><td>• Slightly Smiling Face 🙂(emj) &amp;#128578; 0x1F642 🙂&#xFE0E;(txt) </td><td>• Black Smiling Face ☻ &amp;#9787; 0x263B ☻&#xFE0E;(txt) </td><td> &#160; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td width="32%">• Ballot Box ☐ &amp;#9744; U+2610 </td><td width="32%">• Ballot Box with Check ☑ &amp;#9745; U+2611 ☑&#xFE0E;(txt) </td><td>• Ballot Box with X ☒ &amp;#9746; U+2612 ☒&#xFE0E;(txt) </td></tr>
