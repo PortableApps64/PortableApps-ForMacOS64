@@ -1,12 +1,17 @@
 <style type="text/css"> /*<br/>
- &#160; if you can see this &lt;style>..&lt;/style> block shown on this README&#46;md,<br/>
- &#160; then GitHub has disabled usage of this &lt;style> HTML tag command <a href="https://github.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization_filter.rb">here</a>.<br/>
- &#160; We need it, As it(&lt;style>) helps Developers/Users to define CSS to present distinct-contents<br/>
- &#160; distinctly+ accurately.<br/>
- &#160; So contact GitHub-Support & Request to unblock/enable essential feature(s),<br/>
- &#160; at-least with limited/restricted abilities: Element+text coloring, positioning,<br/>
- &#160; width,etc,etc.<br/>
- &#160; Few txt/inl/blk/etc element’s style(look/appearance/etc) overriding CSS rules<br/>
+ &#160; If You Can See This &lt;style>..&lt;/style> Block Shown On This README&#46;md,<br/>
+ &#160; Then GitHub Has Disabled Usage Of This CSS-&lt;style> HTML Tag Command <a href="https://github.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization_filter.rb">here</a>.<br/>
+ &#160; It Appaers That, To Support "GitHub-Pages"-Hosting/DEAL$/..., GitHub...Has Disabled<br/>
+ &#160; CSS, JS, etc Here, & Directing Users To Use "GitHub-Pages" For CSS/JS/etc.<br/>
+ &#160; But We Need It Here, As it(&lt;style>) Helps Developers/Users To Define Simple CSS<br/>
+ &#160; To Present Distinct-Contents Distinctly+Accurately.<br/>
+ &#160; GitHub Already <a href="https://github.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization_filter.rb">Applying</a> Filtering/Restrictions On HTML Commands, So Contact<br/>
+ &#160; GitHub-Support & Request Them To Unblock+Enable Essential Function(s), Tell<br/>
+ &#160; GitHub-Support To Apply Filtering Also For CSS/JS Commands Inside "&lt;STYLE> & "&lt;SCRIPT>" Commands,<br/>
+ &#160; To AtLeast Allow CSS & JS With Limited/Restricted Functionalities/Abilities, like:<br/>
+ &#160; Element+Text Coloring, Positioning, Width/Margin/Padding/Height/etc Controlling, etc,etc.<br/>
+ &#160; For This README&#46;md Page, Few Txt/Inl/Blk/etc Element’s Style(Look/Appearance/etc)<br/>
+ &#160; OverRiding CSS Rules Are Defined Below:<br/>
  &#160; BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 .UatErik50{ float:left; position:relative; width:30%; padding-bottom:30%; margin:1.66%; overflow:hidden; }
 /* <br/> Content inside SqrBox:<br/> */
@@ -22,7 +27,7 @@
 /* <br/> Top & Bottom Border Without Sides:<br/> */
 .UatErik82{ border-width:1px; border-width-top:1px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; }
 /* <br/> Only Bottom Border:<br/> */
-.UatErik83{ border-width:1px; border-width-top:0px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; } /* <br/> END of CSS STYLEs */
+.UatErik83{ border-width:1px; border-width-top:0px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; } /* <br/> END of CSS STYLEs: */
 </style>
 
 # PORTABLE FIREFOX OSX script
