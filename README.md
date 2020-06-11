@@ -80,7 +80,7 @@ The ‘<b>script</b>’ is a bash shell script file, Executable file.<br/>
 New ‘<a href="https://github.com/atErik/Portable-Firefox-OSX-script/blob/master/script">script</a>’ v4.1.x (v4.1.4) Are released under below <b>Licenses</b> + <b>Restrictions</b> + <b>Permissions:</b><br/>
 &#160;&#160; - GNU General Public License Version 3  (GPL v3)<br/>
 &#160;&#160; - Do Not Use This To Kill/Harm (or Steal from) (Any) Human/Community/Earth/etc<br/>
-New ‘script’ v4.1.x are: Copyright 2020 by Erik T Ashfolk - &lt;atErik＠OutLထk·ⓒⓞⓜ&gt;(＠=@,ထ=oo,·=&#46;,ⓒ=c,ⓞ=o,ⓜ=m)<br/>
+Copyright © 2020 by Erik T Ashfolk - &lt;atErik＠Öṳṯ&#319;öōķ·ċȯṁ&gt;(＠=@,Ö=O,ṳ=u,ṯ=t,&#319;=L,ö=o,ō=o,ķ=k,·=&#46;,ċ=c,ȯ=o,ṁ=m)<br/>
 
 
 This ‘script’ v4.1/v4.1.x file is usually used from such (i.e) location, in macOSX<b>:</b><br/>
