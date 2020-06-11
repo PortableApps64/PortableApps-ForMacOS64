@@ -1,10 +1,11 @@
 <style type="text/css"> /*<br/>
  &#160; if you can see this &lt;style>..&lt;/style> block shown on this README&#46;md,<br/>
- &#160; then GitHub has disabled usage of this &lt;style> HTML tag command.<br/>
- &#160; We need this, as it(&lt;style>) helps Developers/Users to define & use CSS.<br/>
- &#160; So contact GitHub-Support & Request to unblock/enable this essential feature,<br/>
- &#160; at-least with limited/restricted abilities: element+text coloring, positioning,<br/>
- &#160; width,etc.<br/>
+ &#160; then GitHub has disabled usage of this &lt;style> HTML tag command <a href="https://github.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization_filter.rb">here</a>.<br/>
+ &#160; We need it, As it(&lt;style>) helps Developers/Users to define CSS to present distinct-contents<br/>
+ &#160; distinctly+ accurately.<br/>
+ &#160; So contact GitHub-Support & Request to unblock/enable essential feature(s),<br/>
+ &#160; at-least with limited/restricted abilities: Element+text coloring, positioning,<br/>
+ &#160; width,etc,etc.<br/>
  &#160; Few txt/inl/blk/etc element’s style(look/appearance/etc) overriding CSS rules<br/>
  &#160; BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 .UatErik50{ float:left; position:relative; width:30%; padding-bottom:30%; margin:1.66%; overflow:hidden; }
@@ -332,82 +333,72 @@ and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
 </td></tr>
 </table>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70"><tr><td border="1" width="100%" border="1" class="UatErik81"> 
 List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><br/>
 ( We will use some of these in our dialog messages from this ‘script’ )
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td border="1" width="100%" class="UatErik82"> 
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Low-Density Dotted Grph Char ░ &amp;#9617; 176 </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Medium-Density Dotted ▒ &amp;#9618; 177 </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• High-Density Dotted ▓ &amp;#9619; 178 </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Block █ &amp;#9608; &amp;block; 219 </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Bottom Half-Block ▄ &amp;#9604; &amp;lhblk; 220 </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Top Half-Block ▀ &amp;#9600; &amp;uhblk; 223 </div></div></div></div> </td></tr>
-<tr><td border="1" class="UatErik83"> Box-Drawings: 
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Light-Horizontal ─ &amp;#9472; </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Light-Vertical │ &amp;#9474; </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Light-Down&Right ┌ &amp;#9484; </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Light-Down&Left ┐ &amp;#9488; </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Light-Up&Right └ &amp;#9492; </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Light-Up&Left ┘ &amp;#9496; </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Light-Vert&Right ├ &amp;#9500; </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Light-Vert&Left ┤ &amp;#9508; </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Light-Down&Horizontal ┬ &amp;#9516; </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Light-Up&Horizontal ┴ &amp;#9524; </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Light-Vert.&Horiz. ┼ &amp;#9532; </div></div></div></div> </td></tr>
-<tr><td border="1" class="UatErik83"> • Char = Character • Grph = Graphic • Emj ~= Emoji ~= Emoticons • Txt = Textual Glyph • U = Unicode • h = H = x = hex = HexaDecimal • A = ASCII </td></tr>
-<tr><td border="1" class="UatErik83"> 
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• 📁 1F4C1, File Folder. Closed </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• 📂 1F4C2, Open File Folder </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• 📃 1F4C3, Page with curl. Rolled Paper </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• 📄＜1F4C4, Page facing Up. Page/Paper/Files </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• 📤 1F4E4, Outbox Tray. For Send Out. Copy </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• 📥 1F4E5, Inbox Tray. For Receiving. Paste </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Warning Sign ⚠&#xFE0E; (Txt) U+26A0 Alert. Notification </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Warning Sign ⚠️ (Emj). Alert. Notification </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Left-Pointing Magnifying Glass 🔍 U+1F50D </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Right-Pointing Magnifying Glass 🔎 U+1F50E </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Computer (Laptop) 💻 U+1F4BB </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Monitor/Screen 🖳 </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Computer (Desktop) 🖥 U+1F5A5 </div></div></div></div> </td></tr>
-<tr><td border="1" class="UatErik83"> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Middot · &amp;#183; ⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Bullet • &amp;#8226; ⌥Opt+8 ❖Alt+249 </td></tr>
-<tr><td border="1" class="UatErik83"> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• (Vertical/Straight/Double) Quotation-Mark &quot; &amp;#34; &amp;quot; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Acute-Accent ´ &amp;#180; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Full-Width Quotation-Mark ＂ </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Full-Width Apostrophe ＇ </div></div></div></div> </td></tr>
-<tr><td border="1" class="UatErik83"> 
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• (Curved/Curly) Left Double Quotation-Mark: “ (&ldquo;) (&amp;#8220;) &amp;ldquo; ⌥Opt+[ ❖Alt+0147 </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• (Curved/Curly) Right Double Quotation-Mark: ” (&rdquo;) (&amp;#8221;) &amp;rdquo; ⌥Opt+⇧Shift+] ❖Alt+0148 </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; </div></div></div></div> </td></tr>
-<tr><td border="1" class="UatErik83"> 
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• (Curved/Curly) Left Single-Quotation-Mark ‘ (&lsquo;) &amp;#8216; &amp;lsquo; ⌥Opt+] ❖Alt+0145 </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• (Curved/Curly) Right Single-Quotation-Mark ’ (&rsquo;) &amp;#8217; &amp;rsquo; ⌥Opt+⇧Shift+] ❖Alt+0146 </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Single High-Reversed-9 Quotation-Mark ‛ &amp;#8219; </div></div></div></div> </td></tr>
-<tr><td border="1" class="UatErik83"> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• (Single)-Vertical-Line (aka Pipe Char) • &amp;#124; &amp;verbar; &amp;vert; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• (Single)-Broken-Bar ¦ &amp;#166; &amp;brvbar; ❖AltGr+&#96; ❖AltGr+6 ❖AltGr+⇧Shift+Right\ </div></div></div></div> </td></tr>
-<tr><td border="1" class="UatErik83"> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Ampersand (aka And) & &amp;#38; &amp;amp; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Less-Than &lt; &amp;#60; &amp;lt; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Greater-Than &gt; &amp;#62; &amp;gt; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; ⌥Opt+Space ❖Alt+0160 ❖Alt+255 </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Narrow No-Break Space "&#8239;" &amp;#8239; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Space " " &amp;#32; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Percent % &amp;#37; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Asterisk * &amp;#42; &amp;ast; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Exclamation ! &amp;#33; &amp;excl; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Number (aka Hash, Pound-Sign) # &amp;#35; &amp;num; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Plus + &amp;#43; &amp;plus; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Comma , &amp;#44; &amp;comma; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Period (aka dot, full stop) . &amp;#46; &amp;period; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Solidus (Forward-Slash) / &amp;#47; &amp;sol; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Colon : &amp;#58; &amp;colon; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• SemiColon ; &amp;#59; &amp;semi; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Equals = &amp;#61; &amp;equals; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Question ? &amp;#63; &amp;quest; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Commercial-At @ &amp;#64; &amp;commat; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Square-Bracket &#91; &#93; &amp;#91; &amp;#93; &amp;lsqb; &amp;rsqb; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Reverse-Solidus (Back-Slash) &#92; &amp;#92; &amp;bsol; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Circumflex-Accent (Hat) (Caret) &#94; &amp;#94; &amp;Hat; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Low-Line (aka LowBar, UnderBar, UnderScore) &#95; &amp;#95; &amp;lowbar; </div></div></div></div> </td></tr>
-<tr><td border="1" class="UatErik83"> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Registered-Trademark: ® &amp;#174; ⌥Opt+r ❖Alt+0174 </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Copyright: © &amp;#169; ⌥Opt+g ❖Alt+0169 </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Trademark: ™ &amp;#8482; ⌥Opt+⇧Shift+2 ❖Alt+0153 </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Copyleft © (ɔ) </div></div></div></div> </td></tr>
-<tr><td border="1" class="UatErik83"> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Euro: € &amp;#8364; ⌥Opt+2 ❖Alt+0128 </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Cent: ¢ &amp;#162; ⌥Opt+4 ❖Alt+155 </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Yen: ¥ &amp;#165; ⌥Opt+y ❖Alt+157 </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Pound (Currency-Sign) £ &amp;#163; ⌥Opt+3 ❖Alt+156 </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Dollar $ &amp;#36; &amp;dollar; </div></div></div></div> </td></tr>
-<tr><td border="1" class="UatErik83"> 
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Apple symbol  (txt) U+F8FF &amp;#63743; ⌥Opt+⇧Shift+k (macOS) </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Red Apple 🍎 U+E345 &amp;#58181; &amp;#xe345; 🍎&#xFE0E;(txt) </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Green Apple 🍏 U+1F34F &amp;#127823; &amp;#x1f34f; 🍏&#xFE0E;(txt) </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• “Squared-Plus” ⊞ U+229E &amp;#8862; used by Wikipedia as Windows Logo/Flag Key symbol , ⊞ Win+B ⊞ Win </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• “Black Diamond Minus White X” ❖ U+2756 &amp;#10070; used by others+me as Windows Logo/Flag Key symbol </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Goat 🐐 (emj) &amp;#128016; U+1F410 🐐&#xFE0E;(txt) often used to indicate GNU software, GNU/GPL-License, GNU-Hurd OS, GNU-BSD OS, etc, As 🐐it looks like wildebeest </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Penguin 🐧 (emj) &amp;#128039; U+1F427 🐧&#xFE0E;(txt) often used to indicate GNU-Linux-OS, As 🐧it looks like Tux </div></div></div></div> </td></tr>
-<tr><td border="1" class="UatErik83"> 
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Congruence Relation Symbol ≡ &amp;#8801; &amp;equiv; A 240 U+2261 </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Vertical Ellipsis ⋮ U+22EE vellip </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Menu/App key ▤ </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Identical To ≡ </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Strictly Identical To ≣ </div></div></div></div>
-<div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Greek Capital Letter Xi Ξ </div></div></div></div> </td></tr>
-<tr><td border="1" class="UatErik83"> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Not-Equal-To ≠ &amp;#8800; &amp;ne; ⌥Opt&#46;= </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Almost-Equal-To ≈ &amp;#8776; &amp;asymp; &amp;ap; &amp;approx; ⌥Opt+x </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Division ÷ &amp;#247; ⌥Opt+? ⌥Opt+/ ❖Alt+0247 </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Plus-Minus ± &amp;#177; ⌥Opt+⇧Shift+= ❖Alt+241 </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Infinity ∞ &amp;#8734; &amp;infin; ⌥Opt+5 </div></div></div></div> </td></tr>
-<tr><td border="1" class="UatErik83"> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• White Frowning Face ☹&#xFE0E;/&#65039; &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Worried Face 😟 0x1F61F &amp;#128543; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• White Smiling Face ☺&#xFE0E; 0x263A &amp;#9786; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Slightly Smiling Face 🙂 0x1F642 &amp;#128578; </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Black Smiling Face ☻&#xFE0E; 0x263B &amp;#9787; </div></div></div></div> </td></tr>
-<tr><td border="1" class="UatErik83"> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Ballot Box ☐ &amp;#9744; U+2610 </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Ballot Box with Check ☑ &amp;#9745; U+2611 ☑&#xFE0E;(txt) </div></div></div></div> <div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53"><div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53"><div class="UatErik50"><div class="UatErik51"><div class="UatErik52"><div class="UatErik53">• Ballot Box with X ☒ &amp;#9746; U+2612 ☒&#xFE0E;(txt) </div></div></div></div> </td></tr>
-<tr><td border="1" class="UatErik83"> To display an Emoji/Emoticon(emj) as a Textual(txt) glyph (if available/renderable), Use this<br/>
-after the emoji : &amp;#xFE0E; (or apply CSS, i.e: <code>span.gray { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>)<br/>
-(More on <a href="https://en.wikipedia.org/wiki/Variant_form_(Unicode)#Variation_Selectors_block">VS15</a>)</td></tr>
-<tr><td border="1" class="UatErik83"> http://liberties.wikidot.com/symbols1<br/>http://liberties.wikidot.com/ligatures1<br/><br/></td></tr>
+<tr><td width="100%"> • Char = Character • Grph = Graphic • Emj ~= Emoji ~= Emoticons • Txt = Textual Glyph • U = Unicode • h = H = x = hex = HexaDecimal • A = ASCII </td></tr>
 </table>
-</td></tr>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<tr><td width="32%">• Low-Density Dotted Grph Char ░ &amp;#9617; 176 </td><td width="32%">• Medium-Density Dotted ▒ &amp;#9618; 177 </td><td>• High-Density Dotted ▓ &amp;#9619; 178 </td></tr>
+<tr><td>• Block █ &amp;#9608; &amp;block; 219 </td><td>• Bottom Half-Block ▄ &amp;#9604; &amp;lhblk; 220 </td><td>• Top Half-Block ▀ &amp;#9600; &amp;uhblk; 223 </td></tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<tr><td width="32%"> Box-Drawings: </td><td width="32%"> &#160; </td><td> &#160; </td></tr>
+<tr><td>• Light-Horizontal ─ &amp;#9472; </td><td>• Light-Vertical │ &amp;#9474; </td><td>• Light-Down&Right ┌ &amp;#9484; </td></tr>
+<tr><td>• Light-Down&Left ┐ &amp;#9488; </td><td>• Light-Up&Right └ &amp;#9492; </td><td>• Light-Up&Left ┘ &amp;#9496; </td></tr>
+<tr><td>• Light-Vert&Right ├ &amp;#9500; </td><td>• Light-Vert&Left ┤ &amp;#9508; </td><td>• Light-Down&Horizontal ┬ &amp;#9516; </td></tr>
+<tr><td>• Light-Up&Horizontal ┴ &amp;#9524; </td><td>• Light-Vert.&Horiz. ┼ &amp;#9532; </td><td> &#160; </td></tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<tr><td width="32%">• 📁 1F4C1, File Folder. Closed </td><td width="32%">• 📂 1F4C2, Open File Folder </td><td>• 📃 1F4C3, Page with curl. Rolled Paper </td></tr>
+<tr><td>• 📄＜1F4C4, Page facing Up. Page/Paper/Files </td><td>• 📤 1F4E4, Outbox Tray. For Send Out. Copy </td><td>• 📥 1F4E5, Inbox Tray. For Receiving. Paste </td></tr>
+<tr><td>• Warning Sign ⚠&#xFE0E; (Txt) U+26A0 Alert. Notification </td><td>• Warning Sign ⚠️ (Emj). Alert. Notification </td><td>• Left-Pointing Magnifying Glass 🔍 U+1F50D </td></tr>
+<tr><td>• Right-Pointing Magnifying Glass 🔎 U+1F50E </td><td>• Computer (Laptop) 💻 U+1F4BB </td><td>• Monitor/Screen 🖳 </td></tr>
+<tr><td>• Computer (Desktop) 🖥 U+1F5A5 </td><td> &#160; </td><td> &#160; </td></tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<tr><td width="32%">• Middot · &amp;#183; ⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 </td><td width="32%">• Bullet • &amp;#8226; ⌥Opt+8 ❖Alt+249 </td><td> &#160; </td></tr>
+<tr><td>• Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; </td><td>• (Vertical/Straight/Double) Quotation-Mark &quot; &amp;#34; &amp;quot; </td><td>• Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; </td></tr>
+<tr><td>• Acute-Accent ´ &amp;#180; </td><td>• Full-Width Quotation-Mark ＂ </td><td>• Full-Width Apostrophe ＇ </td></tr>
+<tr><td>• (Curved/Curly) Left Double Quotation-Mark: “ (&ldquo;) (&amp;#8220;) &amp;ldquo; ⌥Opt+[ ❖Alt+0147 </td><td>• (Curved/Curly) Right Double Quotation-Mark: ” (&rdquo;) (&amp;#8221;) &amp;rdquo; ⌥Opt+⇧Shift+] ❖Alt+0148 </td><td>• Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; </td></tr>
+<tr><td>• (Curved/Curly) Left Single-Quotation-Mark ‘ (&lsquo;) &amp;#8216; &amp;lsquo; ⌥Opt+] ❖Alt+0145 </td><td>• (Curved/Curly) Right Single-Quotation-Mark ’ (&rsquo;) &amp;#8217; &amp;rsquo; ⌥Opt+⇧Shift+] ❖Alt+0146 </td><td>• Single High-Reversed-9 Quotation-Mark ‛ &amp;#8219; </td></tr>
+<tr><td>• (Single)-Vertical-Line (aka Pipe Char) • &amp;#124; &amp;verbar; &amp;vert; </td><td>• (Single)-Broken-Bar ¦ &amp;#166; &amp;brvbar; ❖AltGr+&#96; ❖AltGr+6 ❖AltGr+⇧Shift+Right\ </td><td> &#160; </td></tr>
+<tr><td>• Ampersand (aka And) & &amp;#38; &amp;amp; </td><td>• Less-Than &lt; &amp;#60; &amp;lt; </td><td>• Greater-Than &gt; &amp;#62; &amp;gt; </td></tr>
+<tr><td>• Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; ⌥Opt+Space ❖Alt+0160 ❖Alt+255 </td><td>• Narrow No-Break Space "&#8239;" &amp;#8239; </td><td>• Space " " &amp;#32; </td></tr>
+<tr><td>• Percent % &amp;#37; </td><td>• Asterisk * &amp;#42; &amp;ast; </td><td>• Exclamation ! &amp;#33; &amp;excl; </td></tr>
+<tr><td>• Number (aka Hash, Pound-Sign) # &amp;#35; &amp;num; </td><td>• Plus + &amp;#43; &amp;plus; </td><td>• Comma , &amp;#44; &amp;comma; </td></tr>
+<tr><td>• Period (aka dot, full stop) . &amp;#46; &amp;period; </td><td>• Solidus (Forward-Slash) / &amp;#47; &amp;sol; </td><td>• Colon : &amp;#58; &amp;colon; </td></tr>
+<tr><td>• SemiColon ; &amp;#59; &amp;semi; </td><td>• Equals = &amp;#61; &amp;equals; </td><td>• Question ? &amp;#63; &amp;quest; </td></tr>
+<tr><td>• Commercial-At @ &amp;#64; &amp;commat; </td><td>• Square-Bracket &#91; &#93; &amp;#91; &amp;#93; &amp;lsqb; &amp;rsqb; </td><td>• Reverse-Solidus (Back-Slash) &#92; &amp;#92; &amp;bsol; </td></tr>
+<tr><td>• Circumflex-Accent (Hat) (Caret) &#94; &amp;#94; &amp;Hat; </td><td>• Low-Line (aka LowBar, UnderBar, UnderScore) &#95; &amp;#95; &amp;lowbar; </td><td> &#160; </td></tr>
+<tr><td>• Registered-Trademark: ® &amp;#174; ⌥Opt+r ❖Alt+0174 </td><td>• Copyright: © &amp;#169; ⌥Opt+g ❖Alt+0169 </td><td>• Trademark: ™ &amp;#8482; ⌥Opt+⇧Shift+2 ❖Alt+0153 </td></tr>
+<tr><td>• Copyleft © (ɔ) </td><td> &#160; </td><td> &#160; </td></tr>
+<tr><td>• Euro: € &amp;#8364; ⌥Opt+2 ❖Alt+0128 </td><td>• Cent: ¢ &amp;#162; ⌥Opt+4 ❖Alt+155 </td><td>• Yen: ¥ &amp;#165; ⌥Opt+y ❖Alt+157 </td></tr>
+<tr><td>• Pound (Currency-Sign) £ &amp;#163; ⌥Opt+3 ❖Alt+156 </td><td>• Dollar $ &amp;#36; &amp;dollar; </td><td> &#160; </td></tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<tr><td width="32%">• Apple symbol  (txt) U+F8FF &amp;#63743; ⌥Opt+⇧Shift+k (macOS) </td><td width="32%">• Red Apple 🍎 U+E345 &amp;#58181; &amp;#xe345; 🍎&#xFE0E;(txt) </td><td>• Green Apple 🍏 U+1F34F &amp;#127823; &amp;#x1f34f; 🍏&#xFE0E;(txt) </td></tr>
+<tr><td>• “Squared-Plus” ⊞ U+229E &amp;#8862; used by Wikipedia as Windows Logo/Flag Key symbol, ❖Win+B ❖Win </td><td>• “Black Diamond Minus White X” ❖ U+2756 &amp;#10070; used by others+me as Windows Logo/Flag Key symbol </td><td>• Goat 🐐 (emj) &amp;#128016; U+1F410 🐐&#xFE0E;(txt) often used to indicate GNU software, GNU/GPL-License, GNU-Hurd OS, GNU-BSD OS, etc, As 🐐it looks like wildebeest </td></tr>
+<tr><td>• Penguin 🐧 (emj) &amp;#128039; U+1F427 🐧&#xFE0E;(txt) often used to indicate GNU-Linux-OS, As 🐧it looks like Tux </td><td> &#160; </td><td> &#160; </td></tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<tr><td width="32%">• Congruence Relation Symbol ≡ &amp;#8801; &amp;equiv; A 240 U+2261 </td><td width="32%">• Vertical Ellipsis ⋮ U+22EE vellip </td><td>• Menu/App key ▤ </td></tr>
+<tr><td>• Identical To ≡ </td><td>• Strictly Identical To ≣ </td><td>• Greek Capital Letter Xi Ξ </td></tr>
+<tr><td>• Not-Equal-To ≠ &amp;#8800; &amp;ne; ⌥Opt&#46;= </td><td>• Almost-Equal-To ≈ &amp;#8776; &amp;asymp; &amp;ap; &amp;approx; ⌥Opt+x </td><td>• Division ÷ &amp;#247; ⌥Opt+? ⌥Opt+/ ❖Alt+0247 </td></tr>
+<tr><td>• Plus-Minus ± &amp;#177; ⌥Opt+⇧Shift+= ❖Alt+241 </td><td>• Infinity ∞ &amp;#8734; &amp;infin; ⌥Opt+5 </td><td> &#160; </td></tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<tr><td width="32%">• White Frowning Face ☹&#xFE0E;/&#65039; &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; </td><td width="32%">• Worried Face 😟 0x1F61F &amp;#128543; </td><td>• White Smiling Face ☺&#xFE0E; 0x263A &amp;#9786; </td></tr>
+<tr><td>• Slightly Smiling Face 🙂 0x1F642 &amp;#128578; </td><td>• Black Smiling Face ☻&#xFE0E; 0x263B &amp;#9787; </td><td> &#160; </td></tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<tr><td width="32%">• Ballot Box ☐ &amp;#9744; U+2610 </td><td width="32%">• Ballot Box with Check ☑ &amp;#9745; U+2611 ☑&#xFE0E;(txt) </td><td>• Ballot Box with X ☒ &amp;#9746; U+2612 ☒&#xFE0E;(txt) </td></tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<tr><td width="100%"> To display an Emoji/Emoticon(emj) as a Textual(txt) glyph (if available/renderable), Use this after the emoji : &amp;#xFE0E;<br/>
+(or apply CSS, i.e: <code>span.gray { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>)<br/>
+(More on <a href="https://en.wikipedia.org/wiki/Variant_form_(Unicode)#Variation_Selectors_block">VS15</a>) </td></tr>
+<tr><td> http://liberties.wikidot.com/symbols1<br/>http://liberties.wikidot.com/ligatures1 </td></tr>
 </table>
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70"><tr><td border="1" width="100%" class="UatErik81"> In macOSX, Calculate & Compare hash/checksum/digest code (it is a very unique identity code) of a file/bundle<b>:</b><br/>
