@@ -80,8 +80,7 @@ The ‘<b>script</b>’ is a bash shell script file, Executable file.<br/>
 New ‘<a href="https://github.com/atErik/Portable-Firefox-OSX-script/blob/master/script">script</a>’ v4.1.x (v4.1.4) Are released under below <b>Licenses</b> + <b>Restrictions</b> + <b>Permissions:</b><br/>
 &#160;&#160; - GNU General Public License Version 3  (GPL v3)<br/>
 &#160;&#160; - Do Not Use This To Kill/Harm (or Steal from) (Any) Human/Community/Earth/etc<br/>
-Copyright © 2020 by Erik T Ashfolk - &lt;atErik＠Öṳṯ&#319;öōķ·ċȯṁ&gt;(＠=@,Ö=O,ṳ=u,ṯ=t,&#319;=L,ö=o,ō=o,ķ=k,·=&#46;,ċ=c,ȯ=o,ṁ=m)<br/>
-
+Copyright © 2020 by Erik T Ashfolk - &lt;atErik᪤Ö&#965;ť&#319;ö&#333;ķ·ċ&#333;ጠ&gt;(＠᪤ᵃᵗ=@,Ö=O,&#965;=u,ť=t,&#319;=L,ö=o,&#333;=o,ķ=k,·=&#46;,ċ=c,ጠ=m)<br/>
 
 This ‘script’ v4.1/v4.1.x file is usually used from such (i.e) location, in macOSX<b>:</b><br/>
 &#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/Resources/script"<br/><!-- “.” is &#46; -->
@@ -383,8 +382,8 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td width="32%">• Apple symbol  &amp;#63743; U+F8FF 🍎⌥Opt+⇧Shift+k (macOS) </td><td width="32%">• Red Apple 🍎 U+E345 &amp;#58181; &amp;#xe345; 🍎&#xFE0E;(txt) </td><td>• Green Apple 🍏 U+1F34F &amp;#127823; &amp;#x1f34f; 🍏&#xFE0E;(txt) </td></tr>
-<tr><td>• “Squared-Plus” ⊞ U+229E &amp;#8862; used by Wikipedia as Windows Logo/Flag Key symbol, ❖Win+B ❖Win </td><td>• “Black Diamond Minus White X” ❖ U+2756 &amp;#10070; used by others+me as Windows Logo/Flag Key symbol </td><td>• Goat 🐐 (emj) &amp;#128016; U+1F410 🐐&#xFE0E;(txt) often used to indicate GNU software, GNU/GPL-License, GNU-Hurd OS, GNU-BSD OS, etc, As 🐐it looks like wildebeest </td></tr>
-<tr><td>• Penguin 🐧(emj) &amp;#128039; U+1F427 🐧&#xFE0E;(txt) often used to indicate GNU-Linux-OS, As 🐧&#xFE0E;it looks like Tux </td><td> &#160; </td><td> &#160; </td></tr>
+<tr><td>• “Squared-Plus” ⊞ U+229E &amp;#8862; used by Wikipedia as Windows Logo/Flag Key symbol, ❖Win+B ❖Win </td><td>• “Black Diamond Minus White X” ❖ U+2756 &amp;#10070; used by others+me as Windows Logo/Flag Key symbol </td><td> Vai Syllable Nu ꖸ U+A5B8 </td></tr>
+<tr><td>• Goat 🐐 (emj) &amp;#128016; U+1F410 🐐&#xFE0E;(txt) often used to indicate GNU software, GNU/GPL-License, GNU-Hurd OS, GNU-BSD OS, etc, As 🐐it looks like wildebeest </td><td>• Penguin 🐧(emj) &amp;#128039; U+1F427 🐧&#xFE0E;(txt) often used to indicate GNU-Linux-OS, As 🐧&#xFE0E;it looks like Tux </td><td> &#160; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td width="32%">• Congruence Relation Symbol ≡ &amp;#8801; &amp;equiv; A 240 U+2261 </td><td width="32%">• Vertical Ellipsis ⋮ U+22EE vellip </td><td>• Menu/App key ▤ </td></tr>
