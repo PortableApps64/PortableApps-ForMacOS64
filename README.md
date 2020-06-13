@@ -1,11 +1,11 @@
 <style type="text/css"> /*<br/>
  &#160; If You Can See This &lt;style>..&lt;/style> Block Shown On This README&#46;md,<br/>
- &#160; Then GitHub Has Disabled Usage Of This CSS-&lt;style> HTML Tag Command <a href="https://github.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization_filter.rb">here</a>.<br/>
+ &#160; Then GitHub Has Disabled Usage Of This CSS-&lt;style> HTML Tag Command <a href="https://github.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization%5Ffilter%2Erb">here</a>.<br/>
  &#160; It Appaers That, To Support "GitHub-Pages"-Hosting/DEAL$/..., GitHub...Has Disabled<br/>
  &#160; CSS, JS, etc Here, & Directing Users To Use "GitHub-Pages" For CSS/JS/etc.<br/>
  &#160; But We Need It Here, As it(&lt;style>) Helps Developers/Users To Define Simple CSS<br/>
  &#160; To Present Distinct-Contents Distinctly+Accurately.<br/>
- &#160; GitHub Already <a href="https://github.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization_filter.rb">Applying</a> Filtering/Restrictions On HTML Commands, So Contact<br/>
+ &#160; GitHub Already <a href="https://github.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization%5Ffilter%2Erb">Applying</a> Filtering/Restrictions On HTML Commands, So Contact<br/>
  &#160; GitHub-Support & Request Them To Unblock+Enable Essential Function(s), Tell<br/>
  &#160; GitHub-Support To Apply Filtering Also For CSS/JS Commands Inside "&lt;STYLE>" & "&lt;SCRIPT>" Commands,<br/>
  &#160; To AtLeast Allow CSS & JS With Limited/Restricted Functionalities/Abilities, like:<br/>
@@ -50,8 +50,8 @@ etc To Execute/Run/Use it On Both 64bit-Only (Current) macOSX and Also On 64bit+
  • Lnx = 🐐&#xFE0E;GNU-🐧&#xFE0E;Linux OS, though most users shorten/call/know it as "Linux OS". Various distros developed by various groups & individuals. OpenSource OS.
 </dd></dl>
 
-<b>OLD SCRIPT:</b><br/>
-<div> Original & Last ‘script’ v4.1 is here<b>:</b> http://www.FreeSMUG.org/portableapps:code:firefox<br/>
+<b>OLD SCRIPT:</b><br/><!-- %2E is "." , %3A is ":" , %20 is " "(space), %5F is "_" -->
+<div> Original & Last ‘script’ v4.1 is here<b>:</b> http://www.FreeSMUG.org/portableapps%3Acode%3Afirefox<br/>
 ( You can also check 1st commit of this ‘script’ file in Github to view the v4.1 code )<br/>
 The ‘script’ v4.1 was written by Carlo Gandolfi and Paolo Portaluri and others,<br/>
 Copyright 2010 by Carlo Gandolfi, and, Paolo Portaluri, Released under GPL v3.<br/>
@@ -60,12 +60,12 @@ Project Website: http://www.FreeSMUG.org/<br/>
 Portable Firefox OSX is here<b>:</b><br/>
 &#160; https://SourceForge.net/projects/osxportableapps/files/Portable%20Firefox%20OS%20X/<br/>
 The ‘script’ v4.1 is now distributed via a ZIP file located here<b>:</b><br/>
-&#160; https://prdownloads.SourceForge.net/osxportableapps/PortableFirefoxScript_r4.1.txt.zip?download<br/>
+&#160; https://prdownloads.SourceForge.net/osxportableapps/PortableFirefoxScript%5Fr4%2E1%2Etxt%2Ezip?download<br/>
 Last “Portable Firefox OSX” app<b>:</b> "PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg", 28.2 MBytes,
 <dl><dd>
  sha1: 50ff626452dfadb9cbb6a2a5e2ddf60848adf256,<br/>
  md5: fa6691336e22a2d83e5629533b830300.<br/>
- https://SourceForge.net/projects/osxportableapps/files/Portable%20Firefox%20OS%20X/4.0.1%20r4.1/
+ https://SourceForge.net/projects/osxportableapps/files/Portable%20Firefox%20OS%20X/4%2E0%2E1%20r4%2E1/
 </dd></dl>
 </div><br/>
 
@@ -80,7 +80,8 @@ The ‘<b>script</b>’ is a bash shell script file, Executable file.<br/>
 New ‘<a href="https://github.com/atErik/Portable-Firefox-OSX-script/blob/master/script">script</a>’ v4.1.x (v4.1.4) Are released under below <b>Licenses</b> + <b>Restrictions</b> + <b>Permissions:</b><br/>
 &#160;&#160; - GNU General Public License Version 3  (GPL v3)<br/>
 &#160;&#160; - Do Not Use This To Kill/Harm (or Steal from) (Any) Human/Community/Earth/etc<br/>
-Copyright © 2020 by Erik T Ashfolk - &lt;atErik᪤Ö&#965;ť&#319;ö&#333;ķ·ċ&#333;ጠ&gt;(＠᪤ᵃᵗ=@,Ö=O,&#965;=u,ť=t,&#319;=L,ö=o,&#333;=o,ķ=k,·=&#46;,ċ=c,ጠ=m)<br/>
+Copyright © 2020 by Erik T Ashfolk - &lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m&gt;(＠=@,Ö=O,&#965;=u,ť=t,&#319;Ĺ=L,ö=o,&#333;=o,ķ=k,·=&#46;,ċ=c)<br/>
+( test ＠ ＠ ᪤ ﹫ ᪤-1AA4 ªᵃᵄᵅᵗꒈʈᴬᵀ ᴬᵀᵗ  ꂔ ꌷꂮ )
 
 This ‘script’ v4.1/v4.1.x file is usually used from such (i.e) location, in macOSX<b>:</b><br/>
 &#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/Resources/script"<br/><!-- “.” is &#46; -->
@@ -189,14 +190,14 @@ or Get last Quantum/Servo-based new <code>"Firefox-*.dmg"</code> from https://ww
   <dd>
   FF v56.0.2 dmg file’s sha1: 79a0013664134ced2307c8e1ffa5d36f6256e8f,<br/>
   md5: a5608df45832df3ff302a7ccbe7ec3f6, 54.5 MBytes,<br/>
-  https://ftp.Mozilla.org/pub/firefox/releases/56.0.2/
+  https://ftp.Mozilla.org/pub/firefox/releases/56%2E0%2E2/
   </dd><dl>
 </dd><dd>The last gecko-based old Firefox-ESR<b>:</b><dl>
   <dd>
   FF v52.9.0 ESR dmg file’s sha1: d879f5423d79393f2384e0f97a5581f9d89d7977,<br/>
   md5: 34e8280bb9b33ca202ba22cf9daf25e4, 82.8 MBytes,<br/>
-  https://ftp.Mozilla.org/pub/firefox/releases/52.9.0esr/
-  </dd></dl>
+  https://ftp.Mozilla.org/pub/firefox/releases/52%2E9%2E0esr/
+  </dd></dl><!-- %2E is . -->
 </dd><dd>Note: ESR = Extended Support Release.
 </dd></dl>
 <br/>
@@ -361,11 +362,12 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
 <tr><td>• Computer (Desktop) 🖥 U+1F5A5 </td><td> &#160; </td><td> &#160; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="32%">• Middot · &amp;#183; 🍎⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 </td><td width="32%">• Bullet • &amp;#8226; 🍎⌥Opt+8 ❖Alt+249 </td><td> &#160; </td></tr>
+<tr><td width="32%">• Middot “·” &amp;#183; 🍎⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 </td><td width="32%">• Bullet “•” &amp;#8226; 🍎⌥Opt+8 ❖Alt+249 </td><td> &#160; </td></tr>
 <tr><td>• Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; </td><td>• (Vertical/Straight/Double) Quotation-Mark &quot; &amp;#34; &amp;quot; </td><td>• Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; </td></tr>
 <tr><td>• Acute-Accent ´ &amp;#180; </td><td>• Full-Width Quotation-Mark ＂ </td><td>• Full-Width Apostrophe ＇ </td></tr>
 <tr><td>• (Curved/Curly) Left Double Quotation-Mark: “ (&ldquo;) (&amp;#8220;) &amp;ldquo; 🍎⌥Opt+[ ❖Alt+0147 </td><td>• (Curved/Curly) Right Double Quotation-Mark: ” (&rdquo;) (&amp;#8221;) &amp;rdquo; 🍎⌥Opt+⇧Shift+] ❖Alt+0148 </td><td>• Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; </td></tr>
 <tr><td>• (Curved/Curly) Left Single-Quotation-Mark ‘ (&lsquo;) &amp;#8216; &amp;lsquo; 🍎⌥Opt+] ❖Alt+0145 </td><td>• (Curved/Curly) Right Single-Quotation-Mark ’ (&rsquo;) &amp;#8217; &amp;rsquo; 🍎⌥Opt+⇧Shift+] ❖Alt+0146 </td><td>• Single High-Reversed-9 Quotation-Mark ‛ &amp;#8219; </td></tr>
+<tr><td colspan="3">• (CJK) Reversed Double Prime Quation Mark 〝 U+301D • (CJK) Double Prime Quotation Mark 〞U+301E </td></tr>
 <tr><td>• (Single)-Vertical-Line (aka Pipe Char) • &amp;#124; &amp;verbar; &amp;vert; </td><td>• (Single)-Broken-Bar ¦ &amp;#166; &amp;brvbar; ❖AltGr+&#96; ❖AltGr+6 ❖AltGr+⇧Shift+Right\ </td><td> &#160; </td></tr>
 <tr><td>• Ampersand (aka And) & &amp;#38; &amp;amp; </td><td>• Less-Than &lt; &amp;#60; &amp;lt; </td><td>• Greater-Than &gt; &amp;#62; &amp;gt; </td></tr>
 <tr><td>• Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; 🍎⌥Opt+Space ❖Alt+0160 ❖Alt+255 </td><td>• Narrow No-Break Space "&#8239;" &amp;#8239; </td><td>• Space " " &amp;#32; </td></tr>
@@ -375,15 +377,31 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
 <tr><td>• SemiColon ; &amp;#59; &amp;semi; </td><td>• Equals = &amp;#61; &amp;equals; </td><td>• Question ? &amp;#63; &amp;quest; </td></tr>
 <tr><td>• Commercial-At @ &amp;#64; &amp;commat; </td><td>• Square-Bracket &#91; &#93; &amp;#91; &amp;#93; &amp;lsqb; &amp;rsqb; </td><td>• Reverse-Solidus (Back-Slash) &#92; &amp;#92; &amp;bsol; </td></tr>
 <tr><td>• Circumflex-Accent (Hat) (Caret) &#94; &amp;#94; &amp;Hat; </td><td>• Low-Line (aka LowBar, UnderBar, UnderScore) &#95; &amp;#95; &amp;lowbar; </td><td> Full-Width Asterisk ＊ U+FF0A </td></tr>
-<tr><td>• Registered-Trademark: ® &amp;#174; 🍎⌥Opt+r ❖Alt+0174 </td><td>• Copyright: © &amp;#169; 🍎⌥Opt+g ❖Alt+0169 </td><td>• Trademark: ™ &amp;#8482; 🍎⌥Opt+⇧Shift+2 ❖Alt+0153 </td></tr>
+<tr><td>• Registered-Trademark: ®(base) ®️&#xFE0F;(emj) ®&#xFE0E;(txt) &amp;#174; U+00AE 🍎⌥Opt+r ❖Alt+0174 </td><td>• Copyright: ©(base) ©️&#xFE0F;(emj) ©&#xFE0E;(txt) &amp;#169; U+00A9 🍎⌥Opt+g ❖Alt+0169 </td><td>• Trademark: ™ &amp;#8482; 🍎⌥Opt+⇧Shift+2 ❖Alt+0153 </td></tr>
 <tr><td>• Copyleft © (ɔ) </td><td> &#160; </td><td> &#160; </td></tr>
 <tr><td>• Euro: € &amp;#8364; 🍎⌥Opt+2 ❖Alt+0128 </td><td>• Cent: ¢ &amp;#162; 🍎⌥Opt+4 ❖Alt+155 </td><td>• Yen: ¥ &amp;#165; 🍎⌥Opt+y ❖Alt+157 </td></tr>
 <tr><td>• Pound (Currency-Sign) £ &amp;#163; 🍎⌥Opt+3 ❖Alt+156 </td><td>• Dollar $ &amp;#36; &amp;dollar; </td><td> &#160; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="32%">• Apple symbol  &amp;#63743; U+F8FF 🍎⌥Opt+⇧Shift+k (macOS) </td><td width="32%">• Red Apple 🍎 U+E345 &amp;#58181; &amp;#xe345; 🍎&#xFE0E;(txt) </td><td>• Green Apple 🍏 U+1F34F &amp;#127823; &amp;#x1f34f; 🍏&#xFE0E;(txt) </td></tr>
-<tr><td>• “Squared-Plus” ⊞ U+229E &amp;#8862; used by Wikipedia as Windows Logo/Flag Key symbol, ❖Win+B ❖Win </td><td>• “Black Diamond Minus White X” ❖ U+2756 &amp;#10070; used by others+me as Windows Logo/Flag Key symbol </td><td> Vai Syllable Nu ꖸ U+A5B8 </td></tr>
-<tr><td>• Goat 🐐 (emj) &amp;#128016; U+1F410 🐐&#xFE0E;(txt) often used to indicate GNU software, GNU/GPL-License, GNU-Hurd OS, GNU-BSD OS, etc, As 🐐it looks like wildebeest </td><td>• Penguin 🐧(emj) &amp;#128039; U+1F427 🐧&#xFE0E;(txt) often used to indicate GNU-Linux-OS, As 🐧&#xFE0E;it looks like Tux </td><td> &#160; </td></tr>
+<tr><td width="32%">• Apple symbol “” &amp;#63743; U+F8FF 🍎⌥Opt+⇧Shift+k (macOS) </td><td width="32%">• Red Apple “🍎”(emj) &amp;#58181; U+E345 &amp;#xe345; 🍎&#xFE0E;(txt) </td><td>• Green Apple “🍏” &amp;#127823; U+1F34F &amp;#x1f34f; 🍏&#xFE0E;(txt) </td></tr>
+<tr><td colspan="3"> These also looks like an Apple: • Ag (Ol-Chiki) “ᱜ” U+1C5C (Apple/Mango) ᱜ&#847;◌́ ᱜ&#847;◌̀ • Ha (Limbu) “ᤜ” U+191C (ᤜ + 	ᤨ U1928 = “ᤜᤨ”) ᤜ&#847;◌́ ᤜ&#847;◌̀
+ • Low-Ca (Tai-Tham) “ᨩ” U+1A29 ᨩ&#847;◌́ ᨩ&#847;◌̀ ᨩ&#847;◌̴ • High-Ca (Tai-Tham) “ᨧ” U+1A27 ᨧ&#847;◌́ ᨧ&#847;◌̀ ᨧ&#847;◌̀
+ • Mem-Qoph (Pahlavi) “𐭬” (R-to-L) U+10B6C • Om (WarangCiti) “𑣿” U+118FF • Latin O with Acute “Ó” U+00D3 • o with grave “ò” U+00F2
+ • o with acute “ó” U+00F3 • Small Omicron with Tonos/AcuteAccent (Greek) “ό” U+03CC (Apple/Orange) • Ban (Georgian) “ბ” U+10D1 & “Ბ” U+1C91 (Apple/Orange)
+ • AntiClockwise Clock-Circle Arrow “⥀”(base) “⥀&#xFE0E;”(txt) (Apple) • Tu (Linear-B Syllable B069) “𐀶” U+10036 (Apple/Peach)
+ • Ra (Telugu) “ర” U+0C30 (Apple/Orange) • Da (Telugu) “ద” (apple) U+0C26 • Ba (Mayanmar/Burmese) “ဗ” U+1017 (an Apple in sideway) ဗ&#847;◌̴
+ • Yesieung (Hangul Jamo) “ㆁ” U+3181 • Dha (Kannada) “ಧ” U+ (Upside-down Apple falling from a tree-branch) </td></tr>
+<tr><td colspan="2">• “Squared-Plus” “⊞” &amp;#8862; U+229E used by Wikipedia as Windows Logo/Flag Key symbol, ❖Win+B ❖Win </td><td>• Kangxi “⽥” U+2F65 </td></tr>
+<tr><td colspan="2">• “Black Diamond Minus White X” “❖” &amp;#10070; U+2756 used by others+me as Windows Logo/Flag Key symbol </td><td>• CJKUI “㗊” U+35CA </td></tr>
+<tr><td colspan="2">• Ro (Halfwidth Katakana) “ﾛ” U+FF9B (its like “White Vertical Rectangle” “▯” U+25AF) </td><td>• Nu (Vai) “ꖸ” U+A5B8 </td></tr>
+<tr><td colspan="3"> These also looks like Windows (or a Window): • CJKUI “田” U+7530 • CJKUI “毌” U+6BCC • “畋” U+754B = 田X = WindowsX = Windows10
+ • Esh (Old Italic) “𐌎” U+1030E • CJKUI “回” U+56DE • Squared-Square “⧈” U+29C8 • He (Old Itlaic) “𐌇” U+10307 • Squared Minus “⊟” U+229F
+ • Clear-Screen symbol “⎚” U+239A • White Square with Vertical Bisecting Line “◫” U+25EB
+ • CJK = Chinese Japanese Korean, CJKUI = CJK Unified Ideograph
+ • Lagab (Cuneiform) “𒆸” U+121B8 • Lagab-Lagab “𒇔” U+121D4 </td></tr>
+<tr><td colspan="2">• Goat “🐐”(emj) &amp;#128016; U+1F410 🐐&#xFE0E;(txt) often used to indicate GNU software, GNU/GPL-License, GNU-Hurd OS, GNU-BSD OS, etc, As 🐐it looks like wildebeest </td><td> &#160; </td></tr>
+<tr><td colspan="3">• Egypt Hiero. Goat/kid 𓃙 U+130D9 • Ibex 𓃵 U+130F5 • Hartebeest 𓄃 U+13103 • Oryx 𓃲 U+130F2 </td></tr>
+<tr><td colspan="2">• Penguin “🐧”(emj) &amp;#128039; U+1F427 🐧&#xFE0E;(txt) often used to indicate GNU-Linux-OS, As 🐧&#xFE0E;it looks like Tux </td><td> &#160; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td width="32%">• Congruence Relation Symbol ≡ &amp;#8801; &amp;equiv; A 240 U+2261 </td><td width="32%">• Vertical Ellipsis ⋮ U+22EE vellip </td><td>• Menu/App key ▤ </td></tr>
@@ -399,9 +417,14 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
 <tr><td width="32%">• Ballot Box ☐ &amp;#9744; U+2610 </td><td width="32%">• Ballot Box with Check ☑ &amp;#9745; U+2611 ☑&#xFE0E;(txt) </td><td>• Ballot Box with X ☒ &amp;#9746; U+2612 ☒&#xFE0E;(txt) </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="100%"> To display an Emoji/Emoticon(emj) as a Textual(txt) glyph (if available/renderable), Use this after the emoji : &amp;#xFE0E;<br/>
-(or apply CSS, i.e: <code>span.gray { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>)<br/>
-(More on <a href="https://en.wikipedia.org/wiki/Variant_form_(Unicode)#Variation_Selectors_block">VS15</a>) </td></tr>
+<!-- %2E = ".", %3A = ":", %20 = " "(space), %5F = "_", %28 = "(", %29 = ")", %2D = "-", %7E = "~", %2C = ",", %27 = ', %22 = " -->
+<tr><td width="100%"> To display an Emoji/Emoticon(emj) as a Textual(txt) glyph (if available/renderable), Use this <a href="https://en.wikipedia.org/wiki/Variant%5Fform%5F%28Unicode%29#Variation%5FSelectors%5Fblock">VS15</a> character<br/>
+after the emoji : &amp;#xFE0E; or &amp;#65038; (or apply CSS, i.e: <code>span.gray { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>).<br/>
+When an <a href="https://en.wikipedia.org/wiki/Miscellaneous%5FSymbols%5Fand%5FPictographs#Emoji%5Fmodifiers">Emoji-Modifier</a> character (i.e: “Emoji Modifier FitzPatrick Type-6” character &amp;#x1F3FF;<br/>
+or &amp;#127999; U+1F3FF) is placed after an Emoji (not all Emojis, but some symbols & pictographs are supported),<br/>
+then Emoji will appear with dark/gray color/skin-tone, but many (font/glypgh/emoji)-Rendering-engine/system<br/>
+still does not support this for all!<br/>
+<a href="https://en.wikipedia.org/wiki/Combining_diacritics">Join</a> <a href="https://en.wikipedia.org/wiki/Combining_Diacritical_Marks">diacritical mark</a> with an Unicode-char by placing a <a href="https://en.wikipedia.org/wiki/Combining_grapheme_joiner">CGJ</a>(Combining Grapheme Joiner U+034F or &amp;#847;) in-between U-char & diacritics.</td></tr>
 <tr><td> http://liberties.wikidot.com/symbols1<br/>http://liberties.wikidot.com/ligatures1 </td></tr>
 </table>
 
