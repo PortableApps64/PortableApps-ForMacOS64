@@ -1,5 +1,6 @@
 <style type="text/css"> /*<br/>
- &#160; If You Can See This &lt;style>..&lt;/style> Block Shown On This README&#46;md,<br/>
+ &#160; Scroll-down to see main content of README.md, or Press/Tap on "View all of README.md".<br/>
+ &#160; If You Can See This &lt;style>..&lt;/style>-Block Shown On This README&#46;md,<br/>
  &#160; Then GitHub Has Disabled Usage Of This CSS-&lt;style> HTML Tag Command <a href="https://github.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization%5Ffilter%2Erb">here</a>.<br/>
  &#160; It Appaers That, To Support "GitHub-Pages"-Hosting/DEAL$/..., GitHub...Has Disabled<br/>
  &#160; CSS, JS, etc Here, & Directing Users To Use "GitHub-Pages" For CSS/JS/etc.<br/>
@@ -48,6 +49,7 @@ etc To Execute/Run/Use it On Both 64bit-Only (Current) macOSX and Also On 64bit+
  • OSX = 🍎 = macOS X = macOSX . An OS developed by Apple, Inc. ClosedSource OS.<br/>
  • Win = ❖ = Windows OS . An OS developed by Microsoft corp. ClosedSource OS.<br/>
  • Lnx = 🐐&#xFE0E;GNU-🐧&#xFE0E;Linux OS, though most users shorten/call/know it as "Linux OS". Various distros developed by various groups & individuals. OpenSource OS.
+ • Andro = 🐐&#xFE0E;GNU-🐧&#xFE0E;Linux OS, though most users shorten/call/know it as "Linux OS". Various distros developed by various groups & individuals. OpenSource OS.
 </dd></dl>
 
 <b>OLD SCRIPT:</b><br/><!-- %2E is "." , %3A is ":" , %20 is " "(space), %5F is "_" -->
@@ -81,7 +83,7 @@ New ‘<a href="https://github.com/atErik/Portable-Firefox-OSX-script/blob/maste
 &#160;&#160; - GNU General Public License Version 3  (GPL v3)<br/>
 &#160;&#160; - Do Not Use This To Kill/Harm (or Steal from) (Any) Human/Community/Earth/etc<br/>
 Copyright © 2020 by Erik T Ashfolk - &lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m&gt;(＠=@,Ö=O,&#965;=u,ť=t,&#319;Ĺ=L,ö=o,&#333;=o,ķ=k,·=&#46;,ċ=c)<br/>
-( test ＠ ＠ ᪤ ﹫ ᪤-1AA4 ªᵃᵄᵅᵗꒈʈᴬᵀ ᴬᵀᵗ  ꂔ ꌷꂮ )
+( a test-line: ＠ , ＠ , ᪤ , ﹫ , ᪤-1AA4 , ª,ᵃ,ᵄ,ᵅ,ᵗ,ꒈ,ʈ,ᴬ,ᵀ, ,ᴬ,ᵀ,ᵗ,  ,ꂔ,ꌷ,ꂮ, )
 
 This ‘script’ v4.1/v4.1.x file is usually used from such (i.e) location, in macOSX<b>:</b><br/>
 &#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/Resources/script"<br/><!-- “.” is &#46; -->
@@ -341,28 +343,32 @@ and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
 List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><br/>
 ( We will use some of these in our dialog messages from this ‘script’ )
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="100%"> • Char = Character • Grph = Graphic • Emj ~= Emoji ~= Emoticons • Txt = Textual Glyph • U = Unicode • h = H = x = hex = HexaDecimal • A = ASCII </td></tr>
+<tr><td width="100%"> • Char = Character/Symbol/Glyph • Grph = Graphic • Emj ~= Emoji ~= Emoticons • Txt = Textual Glyph • U = Unicode • h = H = x = hex = HexaDecimal • A = ASCII </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="32%">• Low-Density Dotted Grph Char ░ &amp;#9617; 176 </td><td width="32%">• Medium-Density Dotted ▒ &amp;#9618; 177 </td><td>• High-Density Dotted ▓ &amp;#9619; 178 </td></tr>
+<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td>• Low-Density Dotted Grph Char ░ &amp;#9617; 176 </td><td>• Medium-Density Dotted ▒ &amp;#9618; 177 </td><td>• High-Density Dotted ▓ &amp;#9619; 178 </td></tr>
 <tr><td>• Block █ &amp;#9608; &amp;block; 219 </td><td>• Bottom Half-Block ▄ &amp;#9604; &amp;lhblk; 220 </td><td>• Top Half-Block ▀ &amp;#9600; &amp;uhblk; 223 </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="32%"> Box-Drawings: </td><td width="32%"> &#160; </td><td> &#160; </td></tr>
+<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td> Box-Drawings: </td><td> &#160; </td><td> &#160; </td></tr>
 <tr><td>• Light-Horizontal ─ &amp;#9472; </td><td>• Light-Vertical │ &amp;#9474; </td><td>• Light-Down&Right ┌ &amp;#9484; </td></tr>
 <tr><td>• Light-Down&Left ┐ &amp;#9488; </td><td>• Light-Up&Right └ &amp;#9492; </td><td>• Light-Up&Left ┘ &amp;#9496; </td></tr>
 <tr><td>• Light-Vert&Right ├ &amp;#9500; </td><td>• Light-Vert&Left ┤ &amp;#9508; </td><td>• Light-Down&Horizontal ┬ &amp;#9516; </td></tr>
 <tr><td>• Light-Up&Horizontal ┴ &amp;#9524; </td><td>• Light-Vert.&Horiz. ┼ &amp;#9532; </td><td> &#160; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="32%">• 📁 1F4C1, File Folder. Closed </td><td width="32%">• 📂 1F4C2, Open File Folder </td><td>• 📃 1F4C3, Page with curl. Rolled Paper </td></tr>
+<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td>• 📁 1F4C1, File Folder. Closed </td><td>• 📂 1F4C2, Open File Folder </td><td>• 📃 1F4C3, Page with curl. Rolled Paper </td></tr>
 <tr><td>• 📄＜1F4C4, Page facing Up. Page/Paper/Files </td><td>• 📤 1F4E4, Outbox Tray. For Send Out. Copy </td><td>• 📥 1F4E5, Inbox Tray. For Receiving. Paste </td></tr>
 <tr><td>• Warning Sign ⚠&#xFE0E; (Txt) U+26A0 </td><td>• Warning Sign ⚠️ (Emj) </td><td>• Left-Pointing Magnifying Glass 🔍 U+1F50D </td></tr>
 <tr><td>• Right-Pointing Magnifying Glass 🔎 U+1F50E </td><td>• Computer (Laptop) 💻 U+1F4BB </td><td>• Monitor/Screen 🖳 </td></tr>
 <tr><td>• Computer (Desktop) 🖥 U+1F5A5 </td><td> &#160; </td><td> &#160; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="32%">• Middot “·” &amp;#183; 🍎⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 </td><td width="32%">• Bullet “•” &amp;#8226; 🍎⌥Opt+8 ❖Alt+249 </td><td> &#160; </td></tr>
+<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td>• Middot “·” &amp;#183; 🍎⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 </td><td>• Bullet “•” &amp;#8226; 🍎⌥Opt+8 ❖Alt+249 </td><td> &#160; </td></tr>
 <tr><td>• Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; </td><td>• (Vertical/Straight/Double) Quotation-Mark &quot; &amp;#34; &amp;quot; </td><td>• Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; </td></tr>
 <tr><td>• Acute-Accent ´ &amp;#180; </td><td>• Full-Width Quotation-Mark ＂ </td><td>• Full-Width Apostrophe ＇ </td></tr>
 <tr><td>• (Curved/Curly) Left Double Quotation-Mark: “ (&ldquo;) (&amp;#8220;) &amp;ldquo; 🍎⌥Opt+[ ❖Alt+0147 </td><td>• (Curved/Curly) Right Double Quotation-Mark: ” (&rdquo;) (&amp;#8221;) &amp;rdquo; 🍎⌥Opt+⇧Shift+] ❖Alt+0148 </td><td>• Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; </td></tr>
@@ -383,14 +389,22 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
 <tr><td>• Pound (Currency-Sign) £ &amp;#163; 🍎⌥Opt+3 ❖Alt+156 </td><td>• Dollar $ &amp;#36; &amp;dollar; </td><td> &#160; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="32%">• Apple symbol “” &amp;#63743; U+F8FF 🍎⌥Opt+⇧Shift+k (macOS) </td><td width="32%">• Red Apple “🍎”(emj) &amp;#58181; U+E345 &amp;#xe345; 🍎&#xFE0E;(txt) </td><td>• Green Apple “🍏” &amp;#127823; U+1F34F &amp;#x1f34f; 🍏&#xFE0E;(txt) </td></tr>
-<tr><td colspan="3"> These also looks like an Apple: • Ag (Ol-Chiki) “ᱜ” U+1C5C (Apple/Mango) ᱜ&#847;◌́ ᱜ&#847;◌̀ • Ha (Limbu) “ᤜ” U+191C (ᤜ + 	ᤨ U1928 = “ᤜᤨ”) ᤜ&#847;◌́ ᤜ&#847;◌̀
- • Low-Ca (Tai-Tham) “ᨩ” U+1A29 ᨩ&#847;◌́ ᨩ&#847;◌̀ ᨩ&#847;◌̴ • High-Ca (Tai-Tham) “ᨧ” U+1A27 ᨧ&#847;◌́ ᨧ&#847;◌̀ ᨧ&#847;◌̀
+<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td>• Apple symbol “” &amp;#63743; U+F8FF 🍎⌥Opt+⇧Shift+k (macOS) </td><td>• Red Apple “🍎”(emj) &amp;#58181; U+E345 &amp;#xe345; 🍎&#xFE0E;(txt) </td><td>• Green Apple “🍏” &amp;#127823; U+1F34F &amp;#x1f34f; 🍏&#xFE0E;(txt) </td></tr>
+<tr><td colspan="3"> These char(s) also look like an Apple, & displayed with Unicode Combining Diacritics: • Ag (Ol-Chiki) “ᱜ” U+1C5C (Apple/Mango) ᱜ&#x300; , ᱜ&#x301; , ᱜ&#x340; , ᱜ&#x341; , ᱜ&#x30C; , ᱜ&#x307;&#x341;
+ • Ha (Limbu) “ᤜ” U+191C , ᤜ+&#x192A;&#x1928;=“ᤜᤨ” , ᤜ+&#x1927;=“ᤜᤧ” , ᤜ+&#x200C;&#x192A;=ᤜᤪ , ᤜ&#x300; , ᤜ&#x301; , ᤜ&#x30C; , ᤜ&#x32D; , ᤜ&#x340; , ᤜ&#x341; , ᤜ&#x30D; , ᤜ&#x316; , ᤜ&#x317; ᤜ&#x31C; , ᤜ&#x345; , ᤜ&#x351; , ᤜ&#x357; 
+ • Low-Ca (Tai-Tham) “ᨩ” U+1A29 ᨩ&#x334; , ᨩ&#x340; , ᨩ&#x341; 
+ • High-Ca (Tai-Tham) “ᨧ” U+1A27 ᨧ&#x334; ᨧ&#x340; ᨧ&#x341; 
  • Mem-Qoph (Pahlavi) “𐭬” (R-to-L) U+10B6C • Om (WarangCiti) “𑣿” U+118FF • Latin O with Acute “Ó” U+00D3 • o with grave “ò” U+00F2
  • o with acute “ó” U+00F3 • Small Omicron with Tonos/AcuteAccent (Greek) “ό” U+03CC (Apple/Orange) • Ban (Georgian) “ბ” U+10D1 & “Ბ” U+1C91 (Apple/Orange)
- • AntiClockwise Clock-Circle Arrow “⥀”(base) “⥀&#xFE0E;”(txt) (Apple) • Tu (Linear-B Syllable B069) “𐀶” U+10036 (Apple/Peach)
- • Ra (Telugu) “ర” U+0C30 (Apple/Orange) • Da (Telugu) “ద” (apple) U+0C26 • Ba (Mayanmar/Burmese) “ဗ” U+1017 (an Apple in sideway) ဗ&#847;◌̴
- • Yesieung (Hangul Jamo) “ㆁ” U+3181 • Dha (Kannada) “ಧ” U+ (Upside-down Apple falling from a tree-branch) </td></tr>
+ • AntiClockwise Clock-Circle Arrow “⥀”(base) “⥀&#xFE0E;”(txt) (Apple) • Tu (Linear-B B069) “𐀶” U+10036 (Apple/Peach)
+ • Ra (Telugu) “ర” U+0C30 (Apple/Orange) • Da (Telugu) “ద” (apple) U+0C26 ద&#x316; , ద&#x317; , ద&#x31C; , ద&#x328; , ద&#x329; , ద&#x339; , ద&#x345; , ద&#x1AB9; , ద&#x1ABA; 
+ • Ba (Mayanmar/Burmese) “ဗ” U+1017 (an Apple in sideway) ဗ&#x334; , ဗ&#x316; , ဗ&#x317; , ဗ&#x31C; , ဗ&#x328; , ဗ&#x329; , ဗ&#x32D; , ဗ&#x339; , ဗ&#x345; , ဗ&#x1AB9; , ဗ&#x1ABA; 
+ • Yesieung (Hangul Jamo) “ㆁ” U+3181 • Dha (Kannada) “ಧ” U+ (Upside-down Apple falling from a tree-branch)
+ • Tha (Tai-Tham) “ᨵ” U+1A35 ᨵ&#x316; , ᨵ&#x317; , ᨵ&#x31C; , ᨵ&#x328; , ᨵ&#x329; , ᨵ&#x32D; , ᨵ&#x334; , ᨵ&#x339; , ᨵ&#x1AB9; , ᨵ&#x1ABA; </td></tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
 <tr><td colspan="2">• “Squared-Plus” “⊞” &amp;#8862; U+229E used by Wikipedia as Windows Logo/Flag Key symbol, ❖Win+B ❖Win </td><td>• Kangxi “⽥” U+2F65 </td></tr>
 <tr><td colspan="2">• “Black Diamond Minus White X” “❖” &amp;#10070; U+2756 used by others+me as Windows Logo/Flag Key symbol </td><td>• CJKUI “㗊” U+35CA </td></tr>
 <tr><td colspan="2">• Ro (Halfwidth Katakana) “ﾛ” U+FF9B (its like “White Vertical Rectangle” “▯” U+25AF) </td><td>• Nu (Vai) “ꖸ” U+A5B8 </td></tr>
@@ -399,32 +413,48 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
  • Clear-Screen symbol “⎚” U+239A • White Square with Vertical Bisecting Line “◫” U+25EB
  • CJK = Chinese Japanese Korean, CJKUI = CJK Unified Ideograph
  • Lagab (Cuneiform) “𒆸” U+121B8 • Lagab-Lagab “𒇔” U+121D4 </td></tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
 <tr><td colspan="2">• Goat “🐐”(emj) &amp;#128016; U+1F410 🐐&#xFE0E;(txt) often used to indicate GNU software, GNU/GPL-License, GNU-Hurd OS, GNU-BSD OS, etc, As 🐐it looks like wildebeest </td><td> &#160; </td></tr>
 <tr><td colspan="3">• Egypt Hiero. Goat/kid 𓃙 U+130D9 • Ibex 𓃵 U+130F5 • Hartebeest 𓄃 U+13103 • Oryx 𓃲 U+130F2 </td></tr>
 <tr><td colspan="2">• Penguin “🐧”(emj) &amp;#128039; U+1F427 🐧&#xFE0E;(txt) often used to indicate GNU-Linux-OS, As 🐧&#xFE0E;it looks like Tux </td><td> &#160; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="32%">• Congruence Relation Symbol ≡ &amp;#8801; &amp;equiv; A 240 U+2261 </td><td width="32%">• Vertical Ellipsis ⋮ U+22EE vellip </td><td>• Menu/App key ▤ </td></tr>
+<tr><td width="100%">•  ◌̀ 300 •  ◌́ 301 •  ◌̃ 303 •  ◌̆ 306 •  ◌̇ 307 •  ◌̌ 30C •  ◌̍ 30D •  ◌̖ 316 •  ◌̗ 317 •  ◌̜ 31C •  ◌̨ 328 •  ◌̩ 329 •  ◌̭ 32D •  ◌̴ 334 •  ◌̹ 339 •  ◌̀ 340 •  ◌́ 341 •  ◌ͅ 345 •  ◌͑ 351 •  ◌͗ 357 •  ◌ͨ 368 •  ◌᪹ 1AB9 •  ◌᪺ 1ABA •  ◌᷎ 1DCE •  ◌᷃ 1DC3 •  ◌᷎ 1DCE •  ◌ᷗ 1DD7 •  ◌ᷛ 1DDB •  ◌ᷞ 1DDE </td></tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td>• Congruence Relation Symbol ≡ &amp;#8801; &amp;equiv; A 240 U+2261 </td><td>• Vertical Ellipsis ⋮ U+22EE vellip </td><td>• Menu/App key ▤ </td></tr>
 <tr><td>• Identical To ≡ </td><td>• Strictly Identical To ≣ </td><td>• Greek Capital Letter Xi Ξ </td></tr>
 <tr><td>• Not-Equal-To ≠ &amp;#8800; &amp;ne; 🍎⌥Opt&#46;= </td><td>• Almost-Equal-To ≈ &amp;#8776; &amp;asymp; &amp;ap; &amp;approx; 🍎⌥Opt+x </td><td>• Division ÷ &amp;#247; 🍎⌥Opt+? 🍎⌥Opt+/ ❖Alt+0247 </td></tr>
 <tr><td>• Plus-Minus ± &amp;#177; 🍎⌥Opt+⇧Shift+= ❖Alt+241 </td><td>• Infinity ∞ &amp;#8734; &amp;infin; 🍎⌥Opt+5 </td><td> &#160; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="32%">• White Frowning Face ☹ &#65039; &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; ☹&#xFE0E;(txt) </td><td width="32%">• Worried Face 😟(emj) &amp;#128543; 0x1F61F 😟&#xFE0E;(txt) </td><td>• White Smiling Face ☺ &amp;#9786; 0x263A ☺&#xFE0E;(txt) </td></tr>
+<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td>• White Frowning Face ☹ &#65039; &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; ☹&#xFE0E;(txt) </td><td>• Worried Face 😟(emj) &amp;#128543; 0x1F61F 😟&#xFE0E;(txt) </td><td>• White Smiling Face ☺ &amp;#9786; 0x263A ☺&#xFE0E;(txt) </td></tr>
 <tr><td>• Slightly Smiling Face 🙂(emj) &amp;#128578; 0x1F642 🙂&#xFE0E;(txt) </td><td>• Black Smiling Face ☻ &amp;#9787; 0x263B ☻&#xFE0E;(txt) </td><td> &#160; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="32%">• Ballot Box ☐ &amp;#9744; U+2610 </td><td width="32%">• Ballot Box with Check ☑ &amp;#9745; U+2611 ☑&#xFE0E;(txt) </td><td>• Ballot Box with X ☒ &amp;#9746; U+2612 ☒&#xFE0E;(txt) </td></tr>
+<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td>• Ballot Box ☐ &amp;#9744; U+2610 </td><td>• Ballot Box with Check ☑ &amp;#9745; U+2611 ☑&#xFE0E;(txt) </td><td>• Ballot Box with X ☒ &amp;#9746; U+2612 ☒&#xFE0E;(txt) </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <!-- %2E = ".", %3A = ":", %20 = " "(space), %5F = "_", %28 = "(", %29 = ")", %2D = "-", %7E = "~", %2C = ",", %27 = ', %22 = " -->
-<tr><td width="100%"> To display an Emoji/Emoticon(emj) as a Textual(txt) glyph (if available/renderable), Use this <a href="https://en.wikipedia.org/wiki/Variant%5Fform%5F%28Unicode%29#Variation%5FSelectors%5Fblock">VS15</a> character<br/>
-after the emoji : &amp;#xFE0E; or &amp;#65038; (or apply CSS, i.e: <code>span.gray { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>).<br/>
-When an <a href="https://en.wikipedia.org/wiki/Miscellaneous%5FSymbols%5Fand%5FPictographs#Emoji%5Fmodifiers">Emoji-Modifier</a> character (i.e: “Emoji Modifier FitzPatrick Type-6” character &amp;#x1F3FF;<br/>
-or &amp;#127999; U+1F3FF) is placed after an Emoji (not all Emojis, but some symbols & pictographs are supported),<br/>
-then Emoji will appear with dark/gray color/skin-tone, but many (font/glypgh/emoji)-Rendering-engine/system<br/>
-still does not support this for all!<br/>
-<a href="https://en.wikipedia.org/wiki/Combining_diacritics">Join</a> <a href="https://en.wikipedia.org/wiki/Combining_Diacritical_Marks">diacritical mark</a> with an Unicode-char by placing a <a href="https://en.wikipedia.org/wiki/Combining_grapheme_joiner">CGJ</a>(Combining Grapheme Joiner U+034F or &amp;#847;) in-between U-char & diacritics.</td></tr>
+<tr><td width="100%">• To display an Emoji/Emoticon(emj) as a Textual(txt) glyph (if available/renderable), Use a <a href="https://en.wikipedia.org/wiki/Variant%5Fform%5F%28Unicode%29#Variation%5FSelectors%5Fblock">VS15</a>-char(&amp;#xFE0E; or &amp;#65038;) after the Emoji, (or apply CSS, i.e: <code>span.gray { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>).<br/>
+• When an <a href="https://en.wikipedia.org/wiki/Miscellaneous%5FSymbols%5Fand%5FPictographs#Emoji%5Fmodifiers">Emoji-Modifier</a> character (i.e: “Emoji Modifier FitzPatrick Type-6” character &amp;#x1F3FF; 
+or &amp;#127999; U+1F3FF) is placed after an Emoji (not all Emojis, but usually Emojis with 
+(human)-body/body-parts are supported),  then that Emoji will appear with dark/gray color/skin-tone, 
+but many (font/glypgh/emoji)-Rendering-engine/system still does not support this "Human Diversity" for all Emojis!<br/>
+• If you want to <a href="https://en.wikipedia.org/wiki/Combining_diacritics">Join</a> a <a href="https://en.wikipedia.org/wiki/Combining_Diacritical_Marks">diacritical-mark</a> with an Unicode-char(U-char), 
+then place diacritic(s)-char(s) after the base/primary U-char in sequence, in such case Text/Font Rendering Engine 
+will/may join them as a sequence of single-char to display, so your Search/Find(Ctrl+F) option/button may or 
+may-not work to find it, But if you want to join AND also want to make sure to be able to search/find those 
+char(s) separately, then place the <a href="https://en.wikipedia.org/wiki/Combining_grapheme_joiner">CGJ</a>-char(U+034F or &amp;#847; or &amp;#x34F;) in-between them. 
+Text/Font Rendering Engine in your system may-not work/support/uptodate as expected/instructed/requested 
+by Unicode consortium/group.<br/>
+• If you want to display a character & a diacrtic-mark separately & close to each other, but without joined-by the Font/Text rendering engine/system, then place a <a href="https://en.wikipedia.org/wiki/Zero-width_non-joiner">ZWNJ</a> char(U+200C &amp;#8204; or &amp;zwnj; or &amp;#x200C;) in between them.
+</td></tr>
 <tr><td> http://liberties.wikidot.com/symbols1<br/>http://liberties.wikidot.com/ligatures1 </td></tr>
 </table>
 
