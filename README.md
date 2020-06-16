@@ -399,17 +399,17 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td>• Apple symbol “” &amp;#63743; U+F8FF 🍎⌥Opt+⇧Shift+k (macOS) </td><td>• Red Apple “🍎”(emj) &amp;#58181; U+E345 &amp;#xe345; 🍎&#xFE0E;(txt) </td><td>• Green Apple “🍏” &amp;#127823; U+1F34F &amp;#x1f34f; 🍏&#xFE0E;(txt) </td></tr>
-<tr><td colspan="3"> These char(s) also look like an Apple, & displayed with Unicode Combining Diacritics: • Ag (Ol-Chiki) “ᱜ” U+1C5C (Apple/Mango) ᱜ&#x300; , ᱜ&#x301; , ᱜ&#x340; , ᱜ&#x341; , ᱜ&#x30C; , ᱜ&#x307;&#x341;
- • Ha (Limbu) “ᤜ” U+191C , ᤜ+&#x1928;=“ᤜᤨ” , ᤜ+&#x1927;=“ᤜᤧ” , ᤜ+&#x200C;&#x192A;=ᤜᤪ , ᤜ&#x300; , ᤜ&#x301; , ᤜ&#x30C; , ᤜ&#x32D; , ᤜ&#x340; , ᤜ&#x341; , ᤜ&#x30D; , ᤜ&#x316; , ᤜ&#x317; ᤜ&#x31C; , ᤜ&#x345; , ᤜ&#x351; , ᤜ&#x357; 
+<tr><td colspan="3"> These char(s) also look like an Apple, & displayed with Unicode Combining Diacritics: • Ag (Ol-Chiki) “ᱜ” U+1C5C (Apple/Mango) &#8203;&#x300;ᱜ , ᱜ&#x300; , ᱜ&#x301; , ᱜ&#x340; , ᱜ&#x341; , ᱜ&#x30C; , ᱜ&#x307;&#x341;
+ • Ha (Limbu) “ᤜ” U+191C , ᤜ+&#x1928;=“ᤜᤨ” , ᤜ+&#x1927;=“ᤜᤧ” , ᤜ+&#x200C;&#x192A;=ᤜᤪ , ᤜ&#x351; , ᤜ&#x357; , ᤜ&#x340; , ᤜ&#x341; , ᤜ&#x30D; , ᤜ&#x300; , ᤜ&#x301; , ᤜ&#x316; , ᤜ&#x317; , ᤜ&#x30C; , ᤜ&#x32D; , ᤜ&#x31C; , ᤜ&#x345; 
  • Low-Ca (Tai-Tham) “ᨩ” U+1A29 ᨩ&#x334; , &#8203;&#x334;ᨩ , ᨩ&#x340; , ᨩ&#x341; 
- • High-Ca (Tai-Tham) “ᨧ” U+1A27 ᨧ&#x334; , &#8203;&#x334;ᨧ , ᨧ&#x340; , ᨧ&#x341; 
+ • High-Ca (Tai-Tham) “ᨧ” U+1A27 &#8203;&#x334;ᨧ , ᨧ&#x334; , ᨧ&#x340; , ᨧ&#x341; 
  • Mem-Qoph (Pahlavi) “𐭬” (R-to-L) U+10B6C • Om (WarangCiti) “𑣿” U+118FF • Latin O with Acute “Ó” U+00D3 • o with grave “ò” U+00F2
  • o with acute “ó” U+00F3 • Small Omicron with Tonos/AcuteAccent (Greek) “ό” U+03CC (Apple/Orange) • Ban (Georgian) “ბ” U+10D1 & “Ბ” U+1C91 (Apple/Orange)
  • AntiClockwise Clock-Circle Arrow “⥀”(base) “⥀&#xFE0E;”(txt) (Apple) • Tu (Linear-B B069) “𐀶” U+10036 (Apple/Peach)
  • Ra (Telugu) “ర” U+0C30 (Apple/Orange) • Da (Telugu) “ద” (apple) U+0C26 ద&#x316; , ద&#x317; , ద&#x31C; , ద&#x328; , ద&#x329; , ద&#x339; , ద&#x345; , ద&#x1AB9; , ద&#x1ABA; 
- • Ba (Mayanmar/Burmese) “ဗ” U+1017 (an Apple in sideway) ဗ&#x334; , &#8203;&#x334;ဗ , ဗ&#x316; , ဗ&#x317; , ဗ&#x31C; , ဗ&#x328; , ဗ&#x329; , ဗ&#x32D; , ဗ&#x339; , ဗ&#x345; , ဗ&#x1AB9; , ဗ&#x1ABA; 
+ • Ba (Mayanmar/Burmese) “ဗ” U+1017 (an Apple in sideway) &#8203;&#x334;ဗ , ဗ&#x334; , ဗ&#x316; , ဗ&#x317; , ဗ&#x31C; , ဗ&#x328; , ဗ&#x329; , ဗ&#x32D; , ဗ&#x339; , ဗ&#x345; , ဗ&#x1AB9; , ဗ&#x1ABA; 
  • Yesieung (Hangul Jamo) “ㆁ” U+3181 • Dha (Kannada) “ಧ” U+ (Upside-down Apple falling from a tree-branch)
- • Tha (Tai-Tham) “ᨵ” U+1A35 ᨵ&#x316; , ᨵ&#x317; , ᨵ&#x31C; , ᨵ&#x328; , ᨵ&#x329; , ᨵ&#x32D; , ᨵ&#x334; , &#8203;&#x334;ᨵ , ᨵ&#x339; , ᨵ&#x1AB9; , ᨵ&#x1ABA; </td></tr>
+ • Tha (Tai-Tham) “ᨵ” U+1A35 ᨵ&#x316; , ᨵ&#x317; , ᨵ&#x334; , &#8203;&#x334;ᨵ , ᨵ&#x31C; , ᨵ&#x328; , ᨵ&#x329; , ᨵ&#x32D; , ᨵ&#x339; , ᨵ&#x1AB9; , ᨵ&#x1ABA; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td width="34%">⬐1of2</td><td width="33%">&#160;</td><td>⬐2of2</td></tr>
