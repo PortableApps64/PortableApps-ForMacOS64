@@ -43,13 +43,17 @@ etc To Execute/Run/Use it On Both 64bit-Only (Current) macOSX and Also On 64bit+
 <br/>
 
 <dl><dd>
+ Acronyms and abbreviations<b>:</b><br/>
  • FF = Firefox . A web-browser from Mozilla Foundation. Since v57 its using <a href="https://en.wikipedia.org/wiki/Quantum%5F%28Mozilla%29#Quantum">Quantum</a>/Servo engines, before v57 it used <a href="https://en.wikipedia.org/wiki/Gecko%5F%28software%29">Gecko</a>.<br/>
  • PA = Portable Apps . Ususally run from an External/Portable drives/storage.<br/>
- • OS = Operating System . A collection/set of vast numbers+types of programs, to assist interactions between computer User and computer hardwares & softwares and computer networks.<br/>
- • OSX = 🍎 = macOS X = macOSX . An OS developed by Apple, Inc. ClosedSource OS.<br/>
- • Win = ❖ = Windows OS . An OS developed by Microsoft corp. ClosedSource OS.<br/>
- • Lnx = 🐐&#xFE0E;GNU-🐧&#xFE0E;Linux OS, though most users shorten/call/know it as "Linux OS". Various distros developed by various groups & individuals. OpenSource OS.
- • Andro = 🐐&#xFE0E;GNU-🐧&#xFE0E;Linux OS, though most users shorten/call/know it as "Linux OS". Various distros developed by various groups & individuals. OpenSource OS.
+ • OS = Operating System . A collection/set of vast numbers+types of programs, to assist interactions between computer User and computer hardwares & softwares and computer networks. Many OS did-not & does-not have GUI.<br/>
+ • Unx = Unix = Research-Unix = &#42;nix. Originally developed (in 1969) by Ken Thompson & Dennis Ritchie & others at-then AT&T Bell Labs.<br/>
+ • BSD = BSD-Unix = Berkeley Software Distribution . Initially BSD was based on Unix v5, & it was developed by Bill Joy & Ozalp Babaoglu & Keith Bostic & others from CSRG(Computer Systems Research Group). Uses Monolithic kernel.<br/>
+ • OSX = 🍎 = MacOS = macOS = macOSX . An OS developed by Apple Inc. ClosedSource GUI OS. Initially based on Apple Lisa OS & (Unix based) Xenix, etc, then it was changed into Unix...BSD(386BSD, 4.4BSD-Lite2, FreeBSD, NextSTEP, etc)...Darwin based OS. Initially kernel was Monolithic (for 68k) & nanokernel (for PowerPC), then changed into Hybrid(XNU) Kernel (OSFMK+).<br/>
+ • Win = ❖ = Windows OS = WinOS . WinOS developed by Microsoft corp. ClosedSource GUI OS. Windows 9X & earlier WinOS used Monolithic kernel & was based on “Interface Manager”, WinCE-family & WinNT-family of WinOS used Hybrid(NT) Kernel. Initial WinOS used MS-DOS as core/boot, initial MS-DOS was based on CP/M-OS, 86-DOS, etc.<br/>
+ • Lnx = 🐐&#xFE0E;GNU-🐧&#xFE0E;Linux = GNU/Linux = GNU/Lnx, though most users shorten/call/know it as or “Linux OS” or “Linux”. OpenSource (Unix-like) OS, with OpenSource Kernel. GNU-OS used/uses (Unix based) GNU tools/utilities developed by Richard Stallman, uses GNU-Kernel (aka GNU/Hurd-Kernel). Linux-kernel (aka “Linux”, kLnx, “Freax”) was developed by Linus Torvald based on MINIX-OS, to replace MINIX-OS. MINIX was/is based on Unix (v7) tools/utilies & microkernel, & began to use GNU tools/utilies after GNU was released). Various groups & individuals now develop/release various distros/OSes based on GNU/Linux or GNU/Hurd (aka GNU/Mach) or GNU/BSD etc etc. All of these were/are primarily a derivative of Unix.<br/>
+ • AOS = 🤖 = Andr = Android OS . An OS developed by Google LLC (under Alphabet Inc), with members of OHA consortium, & open-source dev(s)+individual(s). Mostly OpenSource (GUI) OS (except these ClosedSource components: “Google Play”, “Google Play Services”, etc, etc, etc). Andr uses (BSD based) Bionic C-Lib, uses ToyBox (based on older BusyBox) unix-utilities, mksh, etc. Andr uses modified Linux-kernel.<br/>
+ • iOS = iPhone OS = 🍎📱 = Developed by Apple Inc. ClosedSource GUI OS. Based on Unix - BSD - Darwin. Hybrid(XNU) Kernel.
 </dd></dl>
 
 <b>OLD SCRIPT:</b><br/><!-- %2E is "." , %3A is ":" , %20 is " "(space), %5F is "_" -->
@@ -82,8 +86,7 @@ The ‘<b>script</b>’ is a bash shell script file, Executable file.<br/>
 New ‘<a href="https://github.com/atErik/Portable-Firefox-OSX-script/blob/master/script">script</a>’ v4.1.x (v4.1.4) Are released under below <b>Licenses</b> + <b>Restrictions</b> + <b>Permissions:</b><br/>
 &#160;&#160; - GNU General Public License Version 3  (GPL v3)<br/>
 &#160;&#160; - Do Not Use This To Kill/Harm (or Steal from) (Any) Human/Community/Earth/etc<br/>
-Copyright © 2020 by Erik T Ashfolk - &lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m&gt;(＠=@,Ö=O,&#965;=u,ť=t,&#319;Ĺ=L,ö=o,&#333;=o,ķ=k,·=&#46;,ċ=c)<br/>
-( a test-line: ＠ , ＠ , ᪤ , ﹫ , ᪤-1AA4 , ª,ᵃ,ᵄ,ᵅ,ᵗ,ꒈ,ʈ,ᴬ,ᵀ, ,ᴬ,ᵀ,ᵗ,  ,ꂔ,ꌷ,ꂮ, )
+Copyright © 2020 by Erik T Ashfolk - &lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m&gt;(＠=@,Ö=O,&#965;=u,ť=t,&#319;Ĺ=L,ö=o,&#333;=o,ķ=k,·=&#46;,ċ=c)
 
 This ‘script’ v4.1/v4.1.x file is usually used from such (i.e) location, in macOSX<b>:</b><br/>
 &#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/Resources/script"<br/><!-- “.” is &#46; -->
@@ -346,28 +349,31 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
 <tr><td width="100%"> • Char = Character/Symbol/Glyph • Grph = Graphic • Emj ~= Emoji ~= Emoticons • Txt = Textual Glyph • U = Unicode • h = H = x = hex = HexaDecimal • A = ASCII </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
 <tr><td>• Low-Density Dotted Grph Char ░ &amp;#9617; 176 </td><td>• Medium-Density Dotted ▒ &amp;#9618; 177 </td><td>• High-Density Dotted ▓ &amp;#9619; 178 </td></tr>
 <tr><td>• Block █ &amp;#9608; &amp;block; 219 </td><td>• Bottom Half-Block ▄ &amp;#9604; &amp;lhblk; 220 </td><td>• Top Half-Block ▀ &amp;#9600; &amp;uhblk; 223 </td></tr>
+<tr><td align="center">⬑1of3</td><td align="center">⬑2of3</td><td align="center">⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
 <tr><td> Box-Drawings: </td><td> &#160; </td><td> &#160; </td></tr>
 <tr><td>• Light-Horizontal ─ &amp;#9472; </td><td>• Light-Vertical │ &amp;#9474; </td><td>• Light-Down&Right ┌ &amp;#9484; </td></tr>
 <tr><td>• Light-Down&Left ┐ &amp;#9488; </td><td>• Light-Up&Right └ &amp;#9492; </td><td>• Light-Up&Left ┘ &amp;#9496; </td></tr>
 <tr><td>• Light-Vert&Right ├ &amp;#9500; </td><td>• Light-Vert&Left ┤ &amp;#9508; </td><td>• Light-Down&Horizontal ┬ &amp;#9516; </td></tr>
 <tr><td>• Light-Up&Horizontal ┴ &amp;#9524; </td><td>• Light-Vert.&Horiz. ┼ &amp;#9532; </td><td> &#160; </td></tr>
+<tr><td align="center">⬑1of3</td><td align="center">⬑2of3</td><td align="center">⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
 <tr><td>• 📁 1F4C1, File Folder. Closed </td><td>• 📂 1F4C2, Open File Folder </td><td>• 📃 1F4C3, Page with curl. Rolled Paper </td></tr>
 <tr><td>• 📄＜1F4C4, Page facing Up. Page/Paper/Files </td><td>• 📤 1F4E4, Outbox Tray. For Send Out. Copy </td><td>• 📥 1F4E5, Inbox Tray. For Receiving. Paste </td></tr>
 <tr><td>• Warning Sign ⚠&#xFE0E; (Txt) U+26A0 </td><td>• Warning Sign ⚠️ (Emj) </td><td>• Left-Pointing Magnifying Glass 🔍 U+1F50D </td></tr>
 <tr><td>• Right-Pointing Magnifying Glass 🔎 U+1F50E </td><td>• Computer (Laptop) 💻 U+1F4BB </td><td>• Monitor/Screen 🖳 </td></tr>
 <tr><td>• Computer (Desktop) 🖥 U+1F5A5 </td><td> &#160; </td><td> &#160; </td></tr>
+<tr><td align="center">⬑1of3</td><td align="center">⬑2of3</td><td align="center">⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
 <tr><td>• Middot “·” &amp;#183; 🍎⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 </td><td>• Bullet “•” &amp;#8226; 🍎⌥Opt+8 ❖Alt+249 </td><td> &#160; </td></tr>
 <tr><td>• Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; </td><td>• (Vertical/Straight/Double) Quotation-Mark &quot; &amp;#34; &amp;quot; </td><td>• Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; </td></tr>
 <tr><td>• Acute-Accent ´ &amp;#180; </td><td>• Full-Width Quotation-Mark ＂ </td><td>• Full-Width Apostrophe ＇ </td></tr>
@@ -387,9 +393,10 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
 <tr><td>• Copyleft © (ɔ) </td><td> &#160; </td><td> &#160; </td></tr>
 <tr><td>• Euro: € &amp;#8364; 🍎⌥Opt+2 ❖Alt+0128 </td><td>• Cent: ¢ &amp;#162; 🍎⌥Opt+4 ❖Alt+155 </td><td>• Yen: ¥ &amp;#165; 🍎⌥Opt+y ❖Alt+157 </td></tr>
 <tr><td>• Pound (Currency-Sign) £ &amp;#163; 🍎⌥Opt+3 ❖Alt+156 </td><td>• Dollar $ &amp;#36; &amp;dollar; </td><td> &#160; </td></tr>
+<tr><td align="center">⬑1of3</td><td align="center">⬑2of3</td><td align="center">⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
 <tr><td>• Apple symbol “” &amp;#63743; U+F8FF 🍎⌥Opt+⇧Shift+k (macOS) </td><td>• Red Apple “🍎”(emj) &amp;#58181; U+E345 &amp;#xe345; 🍎&#xFE0E;(txt) </td><td>• Green Apple “🍏” &amp;#127823; U+1F34F &amp;#x1f34f; 🍏&#xFE0E;(txt) </td></tr>
 <tr><td colspan="3"> These char(s) also look like an Apple, & displayed with Unicode Combining Diacritics: • Ag (Ol-Chiki) “ᱜ” U+1C5C (Apple/Mango) ᱜ&#x300; , ᱜ&#x301; , ᱜ&#x340; , ᱜ&#x341; , ᱜ&#x30C; , ᱜ&#x307;&#x341;
  • Ha (Limbu) “ᤜ” U+191C , ᤜ+&#x192A;&#x1928;=“ᤜᤨ” , ᤜ+&#x1927;=“ᤜᤧ” , ᤜ+&#x200C;&#x192A;=ᤜᤪ , ᤜ&#x300; , ᤜ&#x301; , ᤜ&#x30C; , ᤜ&#x32D; , ᤜ&#x340; , ᤜ&#x341; , ᤜ&#x30D; , ᤜ&#x316; , ᤜ&#x317; ᤜ&#x31C; , ᤜ&#x345; , ᤜ&#x351; , ᤜ&#x357; 
@@ -404,40 +411,43 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
  • Tha (Tai-Tham) “ᨵ” U+1A35 ᨵ&#x316; , ᨵ&#x317; , ᨵ&#x31C; , ᨵ&#x328; , ᨵ&#x329; , ᨵ&#x32D; , ᨵ&#x334; , ᨵ&#x339; , ᨵ&#x1AB9; , ᨵ&#x1ABA; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td width="34%" align="center">⬐1of2</td><td width="33%">&#160;</td><td align="center">⬐2of2</td></tr>
 <tr><td colspan="2">• “Squared-Plus” “⊞” &amp;#8862; U+229E used by Wikipedia as Windows Logo/Flag Key symbol, ❖Win+B ❖Win </td><td>• Kangxi “⽥” U+2F65 </td></tr>
 <tr><td colspan="2">• “Black Diamond Minus White X” “❖” &amp;#10070; U+2756 used by others+me as Windows Logo/Flag Key symbol </td><td>• CJKUI “㗊” U+35CA </td></tr>
 <tr><td colspan="2">• Ro (Halfwidth Katakana) “ﾛ” U+FF9B (its like “White Vertical Rectangle” “▯” U+25AF) </td><td>• Nu (Vai) “ꖸ” U+A5B8 </td></tr>
-<tr><td colspan="3"> These also looks like Windows (or a Window): • CJKUI “田” U+7530 • CJKUI “毌” U+6BCC • “畋” U+754B = 田X = WindowsX = Windows10
+<tr><td colspan="3"> These also look like a Windows or Windows: • CJKUI “田” U+7530 • CJKUI “毌” U+6BCC • “畋” U+754B = 田X = WindowsX = Windows10
  • Esh (Old Italic) “𐌎” U+1030E • CJKUI “回” U+56DE • Squared-Square “⧈” U+29C8 • He (Old Itlaic) “𐌇” U+10307 • Squared Minus “⊟” U+229F
  • Clear-Screen symbol “⎚” U+239A • White Square with Vertical Bisecting Line “◫” U+25EB
  • CJK = Chinese Japanese Korean, CJKUI = CJK Unified Ideograph
  • Lagab (Cuneiform) “𒆸” U+121B8 • Lagab-Lagab “𒇔” U+121D4 </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
 <tr><td colspan="2">• Goat “🐐”(emj) &amp;#128016; U+1F410 🐐&#xFE0E;(txt) often used to indicate GNU software, GNU/GPL-License, GNU-Hurd OS, GNU-BSD OS, etc, As 🐐it looks like wildebeest </td><td> &#160; </td></tr>
 <tr><td colspan="3">• Egypt Hiero. Goat/kid 𓃙 U+130D9 • Ibex 𓃵 U+130F5 • Hartebeest 𓄃 U+13103 • Oryx 𓃲 U+130F2 </td></tr>
 <tr><td colspan="2">• Penguin “🐧”(emj) &amp;#128039; U+1F427 🐧&#xFE0E;(txt) often used to indicate GNU-Linux-OS, As 🐧&#xFE0E;it looks like Tux </td><td> &#160; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="100%">•  ◌̀ 300 •  ◌́ 301 •  ◌̃ 303 •  ◌̆ 306 •  ◌̇ 307 •  ◌̌ 30C •  ◌̍ 30D •  ◌̖ 316 •  ◌̗ 317 •  ◌̜ 31C •  ◌̨ 328 •  ◌̩ 329 •  ◌̭ 32D •  ◌̴ 334 •  ◌̹ 339 •  ◌̀ 340 •  ◌́ 341 •  ◌ͅ 345 •  ◌͑ 351 •  ◌͗ 357 •  ◌ͨ 368 •  ◌᪹ 1AB9 •  ◌᪺ 1ABA •  ◌᷎ 1DCE •  ◌᷃ 1DC3 •  ◌᷎ 1DCE •  ◌ᷗ 1DD7 •  ◌ᷛ 1DDB •  ◌ᷞ 1DDE </td></tr>
+<tr><td width="100%"> Diacritics: • <code>◌̀</code> 300 • <code>◌́</code> 301 • <code>◌̃</code> 303 • <code>◌̆</code> 306 • <code>◌̇</code> 307 • <code>◌̌</code> 30C • <code>◌̍</code> 30D • <code>◌̖</code> 316 • <code>◌̗</code> 317 • <code>◌̜</code> 31C • <code>◌̨</code> 328 • <code>◌̩</code> 329 • <code>◌̭</code> 32D • <code>◌̴</code> 334 • <code>◌̹</code> 339 • <code>◌̀</code> 340 • <code>◌́</code> 341 • <code>◌ͅ</code> 345 • <code>◌͑</code> 351 • <code>◌͗</code> 357 • <code>◌ͨ</code> 368 • <code>◌᪹</code> 1AB9 • <code>◌᪺</code> 1ABA • <code>◌᷎</code> 1DCE • <code>◌᷃</code> 1DC3 • <code>◌᷎</code> 1DCE • <code>◌ᷗ</code> 1DD7 • <code>◌ᷛ</code> 1DDB • <code>◌ᷞ</code> 1DDE </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
 <tr><td>• Congruence Relation Symbol ≡ &amp;#8801; &amp;equiv; A 240 U+2261 </td><td>• Vertical Ellipsis ⋮ U+22EE vellip </td><td>• Menu/App key ▤ </td></tr>
 <tr><td>• Identical To ≡ </td><td>• Strictly Identical To ≣ </td><td>• Greek Capital Letter Xi Ξ </td></tr>
 <tr><td>• Not-Equal-To ≠ &amp;#8800; &amp;ne; 🍎⌥Opt&#46;= </td><td>• Almost-Equal-To ≈ &amp;#8776; &amp;asymp; &amp;ap; &amp;approx; 🍎⌥Opt+x </td><td>• Division ÷ &amp;#247; 🍎⌥Opt+? 🍎⌥Opt+/ ❖Alt+0247 </td></tr>
 <tr><td>• Plus-Minus ± &amp;#177; 🍎⌥Opt+⇧Shift+= ❖Alt+241 </td><td>• Infinity ∞ &amp;#8734; &amp;infin; 🍎⌥Opt+5 </td><td> &#160; </td></tr>
+<tr><td align="center">⬑1of3</td><td align="center">⬑2of3</td><td align="center">⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
 <tr><td>• White Frowning Face ☹ &#65039; &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; ☹&#xFE0E;(txt) </td><td>• Worried Face 😟(emj) &amp;#128543; 0x1F61F 😟&#xFE0E;(txt) </td><td>• White Smiling Face ☺ &amp;#9786; 0x263A ☺&#xFE0E;(txt) </td></tr>
 <tr><td>• Slightly Smiling Face 🙂(emj) &amp;#128578; 0x1F642 🙂&#xFE0E;(txt) </td><td>• Black Smiling Face ☻ &amp;#9787; 0x263B ☻&#xFE0E;(txt) </td><td> &#160; </td></tr>
+<tr><td align="center">⬑1of3</td><td align="center">⬑2of3</td><td align="center">⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center"><tt>Col:1of3</tt></td><td width="33%" align="center"><tt>Col:2of3</tt></td><td  align="center"><tt>Col:3of3</tt></td></tr>
+<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
 <tr><td>• Ballot Box ☐ &amp;#9744; U+2610 </td><td>• Ballot Box with Check ☑ &amp;#9745; U+2611 ☑&#xFE0E;(txt) </td><td>• Ballot Box with X ☒ &amp;#9746; U+2612 ☒&#xFE0E;(txt) </td></tr>
+<tr><td colspan="3">• ª U+00AA &amp;#170; &amp;ordf; • ʈ U+0288 &amp;#648; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <!-- %2E = ".", %3A = ":", %20 = " "(space), %5F = "_", %28 = "(", %29 = ")", %2D = "-", %7E = "~", %2C = ",", %27 = ', %22 = " -->
@@ -458,7 +468,8 @@ by Unicode consortium/group.<br/>
 <tr><td> http://liberties.wikidot.com/symbols1<br/>http://liberties.wikidot.com/ligatures1 </td></tr>
 </table>
 
-<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70"><tr><td border="1" width="100%" class="UatErik81"> In macOSX, Calculate & Compare hash/checksum/digest code (it is a very unique identity code) of a file/bundle<b>:</b><br/>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<tr><td border="1" width="100%" class="UatErik81"> In macOSX, Calculate & Compare hash/checksum/digest code (it is a very unique identity code) of a file/bundle<b>:</b><br/>
 In macOSX in shell (“<code>Terminal</code>” utility) window, type command (<code>shasum</code>) & press <code>space</code> key,<br/>
 then drag the <code>.dmg</code> file from <code>Finder</code>(file browser) window & drop it into <code>Terminal</code> window<b>:</b><br/>
 The <code>shasum</code> tool by-default calculates the “SHA1” hash-code, & <code>openssl</code> usage also shown<b>:</b>
