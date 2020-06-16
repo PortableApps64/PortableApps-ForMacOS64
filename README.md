@@ -349,31 +349,31 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
 <tr><td width="100%"> • Char = Character/Symbol/Glyph • Grph = Graphic • Emj ~= Emoji ~= Emoticons • Txt = Textual Glyph • U = Unicode • h = H = x = hex = HexaDecimal • A = ASCII </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
+<tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td>• Low-Density Dotted Grph Char ░ &amp;#9617; 176 </td><td>• Medium-Density Dotted ▒ &amp;#9618; 177 </td><td>• High-Density Dotted ▓ &amp;#9619; 178 </td></tr>
 <tr><td>• Block █ &amp;#9608; &amp;block; 219 </td><td>• Bottom Half-Block ▄ &amp;#9604; &amp;lhblk; 220 </td><td>• Top Half-Block ▀ &amp;#9600; &amp;uhblk; 223 </td></tr>
-<tr><td align="center">⬑1of3</td><td align="center">⬑2of3</td><td align="center">⬑3of3</td></tr>
+<tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
+<tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td> Box-Drawings: </td><td> &#160; </td><td> &#160; </td></tr>
 <tr><td>• Light-Horizontal ─ &amp;#9472; </td><td>• Light-Vertical │ &amp;#9474; </td><td>• Light-Down&Right ┌ &amp;#9484; </td></tr>
 <tr><td>• Light-Down&Left ┐ &amp;#9488; </td><td>• Light-Up&Right └ &amp;#9492; </td><td>• Light-Up&Left ┘ &amp;#9496; </td></tr>
 <tr><td>• Light-Vert&Right ├ &amp;#9500; </td><td>• Light-Vert&Left ┤ &amp;#9508; </td><td>• Light-Down&Horizontal ┬ &amp;#9516; </td></tr>
 <tr><td>• Light-Up&Horizontal ┴ &amp;#9524; </td><td>• Light-Vert.&Horiz. ┼ &amp;#9532; </td><td> &#160; </td></tr>
-<tr><td align="center">⬑1of3</td><td align="center">⬑2of3</td><td align="center">⬑3of3</td></tr>
+<tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
+<tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td>• 📁 1F4C1, File Folder. Closed </td><td>• 📂 1F4C2, Open File Folder </td><td>• 📃 1F4C3, Page with curl. Rolled Paper </td></tr>
 <tr><td>• 📄＜1F4C4, Page facing Up. Page/Paper/Files </td><td>• 📤 1F4E4, Outbox Tray. For Send Out. Copy </td><td>• 📥 1F4E5, Inbox Tray. For Receiving. Paste </td></tr>
 <tr><td>• Warning Sign ⚠&#xFE0E; (Txt) U+26A0 </td><td>• Warning Sign ⚠️ (Emj) </td><td>• Left-Pointing Magnifying Glass 🔍 U+1F50D </td></tr>
 <tr><td>• Right-Pointing Magnifying Glass 🔎 U+1F50E </td><td>• Computer (Laptop) 💻 U+1F4BB </td><td>• Monitor/Screen 🖳 </td></tr>
 <tr><td>• Computer (Desktop) 🖥 U+1F5A5 </td><td> &#160; </td><td> &#160; </td></tr>
-<tr><td align="center">⬑1of3</td><td align="center">⬑2of3</td><td align="center">⬑3of3</td></tr>
+<tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
+<tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td>• Middot “·” &amp;#183; 🍎⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 </td><td>• Bullet “•” &amp;#8226; 🍎⌥Opt+8 ❖Alt+249 </td><td> &#160; </td></tr>
 <tr><td>• Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; </td><td>• (Vertical/Straight/Double) Quotation-Mark &quot; &amp;#34; &amp;quot; </td><td>• Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; </td></tr>
 <tr><td>• Acute-Accent ´ &amp;#180; </td><td>• Full-Width Quotation-Mark ＂ </td><td>• Full-Width Apostrophe ＇ </td></tr>
@@ -383,6 +383,7 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
 <tr><td>• (Single)-Vertical-Line (aka Pipe Char) • &amp;#124; &amp;verbar; &amp;vert; </td><td>• (Single)-Broken-Bar ¦ &amp;#166; &amp;brvbar; ❖AltGr+&#96; ❖AltGr+6 ❖AltGr+⇧Shift+Right\ </td><td> &#160; </td></tr>
 <tr><td>• Ampersand (aka And) & &amp;#38; &amp;amp; </td><td>• Less-Than &lt; &amp;#60; &amp;lt; </td><td>• Greater-Than &gt; &amp;#62; &amp;gt; </td></tr>
 <tr><td>• Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; 🍎⌥Opt+Space ❖Alt+0160 ❖Alt+255 </td><td>• Narrow No-Break Space "&#8239;" &amp;#8239; </td><td>• Space " " &amp;#32; </td></tr>
+<tr><td>• Zero-Width Space(ZWSP) "&#8203;" &amp;#8203; U+200B </td><td> &#160; </td><td> &#160; </td></tr>
 <tr><td>• Percent % &amp;#37; </td><td>• Asterisk * &amp;#42; &amp;ast; </td><td>• Exclamation ! &amp;#33; &amp;excl; </td></tr>
 <tr><td>• Number (aka Hash, Pound-Sign) # &amp;#35; &amp;num; </td><td>• Plus + &amp;#43; &amp;plus; </td><td>• Comma , &amp;#44; &amp;comma; </td></tr>
 <tr><td>• Period (aka dot, full stop) . &amp;#46; &amp;period; </td><td>• Solidus (Forward-Slash) / &amp;#47; &amp;sol; </td><td>• Colon : &amp;#58; &amp;colon; </td></tr>
@@ -393,25 +394,25 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
 <tr><td>• Copyleft © (ɔ) </td><td> &#160; </td><td> &#160; </td></tr>
 <tr><td>• Euro: € &amp;#8364; 🍎⌥Opt+2 ❖Alt+0128 </td><td>• Cent: ¢ &amp;#162; 🍎⌥Opt+4 ❖Alt+155 </td><td>• Yen: ¥ &amp;#165; 🍎⌥Opt+y ❖Alt+157 </td></tr>
 <tr><td>• Pound (Currency-Sign) £ &amp;#163; 🍎⌥Opt+3 ❖Alt+156 </td><td>• Dollar $ &amp;#36; &amp;dollar; </td><td> &#160; </td></tr>
-<tr><td align="center">⬑1of3</td><td align="center">⬑2of3</td><td align="center">⬑3of3</td></tr>
+<tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
+<tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td>• Apple symbol “” &amp;#63743; U+F8FF 🍎⌥Opt+⇧Shift+k (macOS) </td><td>• Red Apple “🍎”(emj) &amp;#58181; U+E345 &amp;#xe345; 🍎&#xFE0E;(txt) </td><td>• Green Apple “🍏” &amp;#127823; U+1F34F &amp;#x1f34f; 🍏&#xFE0E;(txt) </td></tr>
 <tr><td colspan="3"> These char(s) also look like an Apple, & displayed with Unicode Combining Diacritics: • Ag (Ol-Chiki) “ᱜ” U+1C5C (Apple/Mango) ᱜ&#x300; , ᱜ&#x301; , ᱜ&#x340; , ᱜ&#x341; , ᱜ&#x30C; , ᱜ&#x307;&#x341;
- • Ha (Limbu) “ᤜ” U+191C , ᤜ+&#x192A;&#x1928;=“ᤜᤨ” , ᤜ+&#x1927;=“ᤜᤧ” , ᤜ+&#x200C;&#x192A;=ᤜᤪ , ᤜ&#x300; , ᤜ&#x301; , ᤜ&#x30C; , ᤜ&#x32D; , ᤜ&#x340; , ᤜ&#x341; , ᤜ&#x30D; , ᤜ&#x316; , ᤜ&#x317; ᤜ&#x31C; , ᤜ&#x345; , ᤜ&#x351; , ᤜ&#x357; 
- • Low-Ca (Tai-Tham) “ᨩ” U+1A29 ᨩ&#x334; , ᨩ&#x340; , ᨩ&#x341; 
- • High-Ca (Tai-Tham) “ᨧ” U+1A27 ᨧ&#x334; ᨧ&#x340; ᨧ&#x341; 
+ • Ha (Limbu) “ᤜ” U+191C , ᤜ+&#x1928;=“ᤜᤨ” , ᤜ+&#x1927;=“ᤜᤧ” , ᤜ+&#x200C;&#x192A;=ᤜᤪ , ᤜ&#x300; , ᤜ&#x301; , ᤜ&#x30C; , ᤜ&#x32D; , ᤜ&#x340; , ᤜ&#x341; , ᤜ&#x30D; , ᤜ&#x316; , ᤜ&#x317; ᤜ&#x31C; , ᤜ&#x345; , ᤜ&#x351; , ᤜ&#x357; 
+ • Low-Ca (Tai-Tham) “ᨩ” U+1A29 ᨩ&#x334; , &#8203;&#x334;ᨩ , ᨩ&#x340; , ᨩ&#x341; 
+ • High-Ca (Tai-Tham) “ᨧ” U+1A27 ᨧ&#x334; , &#8203;&#x334;ᨧ , ᨧ&#x340; , ᨧ&#x341; 
  • Mem-Qoph (Pahlavi) “𐭬” (R-to-L) U+10B6C • Om (WarangCiti) “𑣿” U+118FF • Latin O with Acute “Ó” U+00D3 • o with grave “ò” U+00F2
  • o with acute “ó” U+00F3 • Small Omicron with Tonos/AcuteAccent (Greek) “ό” U+03CC (Apple/Orange) • Ban (Georgian) “ბ” U+10D1 & “Ბ” U+1C91 (Apple/Orange)
  • AntiClockwise Clock-Circle Arrow “⥀”(base) “⥀&#xFE0E;”(txt) (Apple) • Tu (Linear-B B069) “𐀶” U+10036 (Apple/Peach)
  • Ra (Telugu) “ర” U+0C30 (Apple/Orange) • Da (Telugu) “ద” (apple) U+0C26 ద&#x316; , ద&#x317; , ద&#x31C; , ద&#x328; , ద&#x329; , ద&#x339; , ద&#x345; , ద&#x1AB9; , ద&#x1ABA; 
- • Ba (Mayanmar/Burmese) “ဗ” U+1017 (an Apple in sideway) ဗ&#x334; , ဗ&#x316; , ဗ&#x317; , ဗ&#x31C; , ဗ&#x328; , ဗ&#x329; , ဗ&#x32D; , ဗ&#x339; , ဗ&#x345; , ဗ&#x1AB9; , ဗ&#x1ABA; 
+ • Ba (Mayanmar/Burmese) “ဗ” U+1017 (an Apple in sideway) ဗ&#x334; , &#8203;&#x334;ဗ , ဗ&#x316; , ဗ&#x317; , ဗ&#x31C; , ဗ&#x328; , ဗ&#x329; , ဗ&#x32D; , ဗ&#x339; , ဗ&#x345; , ဗ&#x1AB9; , ဗ&#x1ABA; 
  • Yesieung (Hangul Jamo) “ㆁ” U+3181 • Dha (Kannada) “ಧ” U+ (Upside-down Apple falling from a tree-branch)
- • Tha (Tai-Tham) “ᨵ” U+1A35 ᨵ&#x316; , ᨵ&#x317; , ᨵ&#x31C; , ᨵ&#x328; , ᨵ&#x329; , ᨵ&#x32D; , ᨵ&#x334; , ᨵ&#x339; , ᨵ&#x1AB9; , ᨵ&#x1ABA; </td></tr>
+ • Tha (Tai-Tham) “ᨵ” U+1A35 ᨵ&#x316; , ᨵ&#x317; , ᨵ&#x31C; , ᨵ&#x328; , ᨵ&#x329; , ᨵ&#x32D; , ᨵ&#x334; , &#8203;&#x334;ᨵ , ᨵ&#x339; , ᨵ&#x1AB9; , ᨵ&#x1ABA; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center">⬐1of2</td><td width="33%">&#160;</td><td align="center">⬐2of2</td></tr>
+<tr><td width="34%">⬐1of2</td><td width="33%">&#160;</td><td>⬐2of2</td></tr>
 <tr><td colspan="2">• “Squared-Plus” “⊞” &amp;#8862; U+229E used by Wikipedia as Windows Logo/Flag Key symbol, ❖Win+B ❖Win </td><td>• Kangxi “⽥” U+2F65 </td></tr>
 <tr><td colspan="2">• “Black Diamond Minus White X” “❖” &amp;#10070; U+2756 used by others+me as Windows Logo/Flag Key symbol </td><td>• CJKUI “㗊” U+35CA </td></tr>
 <tr><td colspan="2">• Ro (Halfwidth Katakana) “ﾛ” U+FF9B (its like “White Vertical Rectangle” “▯” U+25AF) </td><td>• Nu (Vai) “ꖸ” U+A5B8 </td></tr>
@@ -422,30 +423,31 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
  • Lagab (Cuneiform) “𒆸” U+121B8 • Lagab-Lagab “𒇔” U+121D4 </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
+<tr><td width="34%">⬐1of2</td><td width="33%">&#160;</td><td>⬐2of2</td></tr>
 <tr><td colspan="2">• Goat “🐐”(emj) &amp;#128016; U+1F410 🐐&#xFE0E;(txt) often used to indicate GNU software, GNU/GPL-License, GNU-Hurd OS, GNU-BSD OS, etc, As 🐐it looks like wildebeest </td><td> &#160; </td></tr>
 <tr><td colspan="3">• Egypt Hiero. Goat/kid 𓃙 U+130D9 • Ibex 𓃵 U+130F5 • Hartebeest 𓄃 U+13103 • Oryx 𓃲 U+130F2 </td></tr>
+<tr><td>⬐1of2</td><td>&#160;</td><td>⬐2of2</td></tr>
 <tr><td colspan="2">• Penguin “🐧”(emj) &amp;#128039; U+1F427 🐧&#xFE0E;(txt) often used to indicate GNU-Linux-OS, As 🐧&#xFE0E;it looks like Tux </td><td> &#160; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td width="100%"> Diacritics: • <code>◌̀</code> 300 • <code>◌́</code> 301 • <code>◌̃</code> 303 • <code>◌̆</code> 306 • <code>◌̇</code> 307 • <code>◌̌</code> 30C • <code>◌̍</code> 30D • <code>◌̖</code> 316 • <code>◌̗</code> 317 • <code>◌̜</code> 31C • <code>◌̨</code> 328 • <code>◌̩</code> 329 • <code>◌̭</code> 32D • <code>◌̴</code> 334 • <code>◌̹</code> 339 • <code>◌̀</code> 340 • <code>◌́</code> 341 • <code>◌ͅ</code> 345 • <code>◌͑</code> 351 • <code>◌͗</code> 357 • <code>◌ͨ</code> 368 • <code>◌᪹</code> 1AB9 • <code>◌᪺</code> 1ABA • <code>◌᷎</code> 1DCE • <code>◌᷃</code> 1DC3 • <code>◌᷎</code> 1DCE • <code>◌ᷗ</code> 1DD7 • <code>◌ᷛ</code> 1DDB • <code>◌ᷞ</code> 1DDE </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
+<tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td>• Congruence Relation Symbol ≡ &amp;#8801; &amp;equiv; A 240 U+2261 </td><td>• Vertical Ellipsis ⋮ U+22EE vellip </td><td>• Menu/App key ▤ </td></tr>
 <tr><td>• Identical To ≡ </td><td>• Strictly Identical To ≣ </td><td>• Greek Capital Letter Xi Ξ </td></tr>
 <tr><td>• Not-Equal-To ≠ &amp;#8800; &amp;ne; 🍎⌥Opt&#46;= </td><td>• Almost-Equal-To ≈ &amp;#8776; &amp;asymp; &amp;ap; &amp;approx; 🍎⌥Opt+x </td><td>• Division ÷ &amp;#247; 🍎⌥Opt+? 🍎⌥Opt+/ ❖Alt+0247 </td></tr>
 <tr><td>• Plus-Minus ± &amp;#177; 🍎⌥Opt+⇧Shift+= ❖Alt+241 </td><td>• Infinity ∞ &amp;#8734; &amp;infin; 🍎⌥Opt+5 </td><td> &#160; </td></tr>
-<tr><td align="center">⬑1of3</td><td align="center">⬑2of3</td><td align="center">⬑3of3</td></tr>
+<tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
+<tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td>• White Frowning Face ☹ &#65039; &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; ☹&#xFE0E;(txt) </td><td>• Worried Face 😟(emj) &amp;#128543; 0x1F61F 😟&#xFE0E;(txt) </td><td>• White Smiling Face ☺ &amp;#9786; 0x263A ☺&#xFE0E;(txt) </td></tr>
 <tr><td>• Slightly Smiling Face 🙂(emj) &amp;#128578; 0x1F642 🙂&#xFE0E;(txt) </td><td>• Black Smiling Face ☻ &amp;#9787; 0x263B ☻&#xFE0E;(txt) </td><td> &#160; </td></tr>
-<tr><td align="center">⬑1of3</td><td align="center">⬑2of3</td><td align="center">⬑3of3</td></tr>
+<tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="34%" align="center">⬐1of3</td><td width="33%" align="center">⬐2of3</td><td align="center">⬐3of3</td></tr>
+<tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td>• Ballot Box ☐ &amp;#9744; U+2610 </td><td>• Ballot Box with Check ☑ &amp;#9745; U+2611 ☑&#xFE0E;(txt) </td><td>• Ballot Box with X ☒ &amp;#9746; U+2612 ☒&#xFE0E;(txt) </td></tr>
 <tr><td colspan="3">• ª U+00AA &amp;#170; &amp;ordf; • ʈ U+0288 &amp;#648; </td></tr>
 </table>
