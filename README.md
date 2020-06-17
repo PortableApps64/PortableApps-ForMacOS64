@@ -42,8 +42,9 @@ etc To Execute/Run/Use it On Both 64bit-Only (Current) macOSX and Also On 64bit+
 “Portable OSX Apps”.
 <br/>
 
-<dl><dd>
- Acronyms, Recursive Backronyms & Abbreviations used here<b>:</b><br/>
+<dl width="100%"><dd width="100%">&#8239;<dl width="100%"><dd width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="UatErik70"><tr><td width="100%">
+ Acronyms, Recursive Backronyms & Abbreviations used here<b>:</b></td></tr>
+<tr><td>
  • PA = Portable Apps . Ususally kept-in & run from user’s External/Portable drives/storage, Or PA is kept-in & run from internal-Storage when a user need multiple instances of same PA apps with different profile(s)/settings.<br/>
  • Dev = Develope = Bld = Build . Web-Browser = WB = WebBr . Ver = Version = v . Mem = Memory . Mngr = Manager . Virtual = Virt . FileSystem = FS . Network = Net . Socket = Sock . Security = Sec . Hardware = HW . Software = SW . Firmware = FW . Driver = Drvr . Server = Srv . Service = Svc . Graphics = Grph . Engine = Engn . JavaScript = JS.<br/>
  • FF = Firefox . A web-browser from Mozilla Foundation. Since v57 its renamed as “Firefox <a href="https://en.wikipedia.org/wiki/Quantum%5F%28Mozilla%29#Quantum">Quantum</a>”(FFQ) & using different web-browser engine, known as Servo engine. Before v57 it used <a href="https://en.wikipedia.org/wiki/Gecko%5F%28software%29">Gecko</a> engine. FF/FFQ in iOS was forced to use WebKit based engine. Lots of PLUGINS existed/released for Gecko based FF, Mozilla stopped sharing those PLUGINS for Gecko-based old “Firefox” !! Now there are very VERY LESS PLUGINS availble/released for Servo-based FFQ.<br/>
@@ -58,7 +59,7 @@ etc To Execute/Run/Use it On Both 64bit-Only (Current) macOSX and Also On 64bit+
  • Lnx = 🐐&#xFE0E;GNU-🐧&#xFE0E;Linux = GNU/Linux = GNU/Lnx, though most users shorten/call/know it as or “Linux OS” or “Linux”. OpenSource (Unix-like) OS, with OpenSource Kernel. GNU-OS used/uses (Unix based) GNU tools/utilities developed by Richard Stallman, uses GNU-Kernel (aka GNU/Hurd-Kernel). Linux-kernel (aka “Linux”, kLnx, “Freax”) was developed by Linus Torvald based on MINIX-OS, to replace MINIX-OS. MINIX was/is based on Unix (v7) tools/utilies & microkernel, & began to use GNU tools/utilies after GNU was released). When AT&T filed lawsuit against BSD, users/devs could not get+use new/updated BSD/BSD-kernel, & all users/devs realized they needed a “free” OS-&-kernel without AT&T’s-restrictions, & this “Linux” was available exactly that time for+with “free” GNU/GPL license, So users/devs ended-up using this “GNU/Linux” instead of BSD, & So “GNU/Linux” became popular. Various groups & individuals now develop/release various distros/OSes based on GNU/Linux or GNU/Hurd (aka GNU/Mach) or GNU/BSD etc etc. All of these were/are primarily a derivative of Unix.<br/>
  • AOS = 🤖 = Andr = Android OS . An OS developed by Google LLC (under Alphabet Inc), with members of OHA consortium, & open-source dev(s)+individual(s). Mostly OpenSource (GUI) OS (except these ClosedSource components: “Google Play”, “Google Play Services”, etc, etc, etc). Andr uses (BSD based) Bionic C-Lib, uses ToyBox (based on older BusyBox) unix-utilities, mksh, etc. Andr uses modified Linux-kernel.<br/>
  • iOS = 🍎📱 = iPhone OS = iPad OS . Developed by Apple Inc. ClosedSource GUI OS. Based on Unix - BSD - Darwin. Uses Hybrid(XNU) Kernel.
-</dd></dl>
+</td></tr></table></dd></dl></dd></dl>
 
 <b>OLD SCRIPT:</b><br/><!-- %2E is "." , %3A is ":" , %20 is " "(space), %5F is "_" -->
 <div> Original & Last ‘script’ v4.1 is here<b>:</b> http://www.FreeSMUG.org/portableapps%3Acode%3Afirefox<br/>
