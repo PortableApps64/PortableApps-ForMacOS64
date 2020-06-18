@@ -498,8 +498,8 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
 <tr><td border="1" width="100%" class="UatErik81"> &#160; </td></tr>
 </table>
 
-<a name="Abbreviations"></a><b>Abbreviations:</b>
 <dl width="100%"><dd width="100%">&#8239;<dl width="100%"><dd width="100%">
+ <a name="Abbreviations"></a><b>Abbreviations:</b><br/>
  Acronyms, Recursive Backronyms & Abbreviations used here<b>:</b><br/>
  <b>•</b> PA = Portable Apps . Ususally kept-in & run from a user’s External/Portable drives/storage, Or PA is kept-in & run from internal-Storage when a user need to run 2nd or multiple instances of same PA apps with different profile(s)/settings.<br/>
  <b>•</b> Dev = Develope = Bld = Build . Web-Browser = WB = WebBr . Ver = Version = v . Mem = Memory . Mngr = Manager . Virtual = Virt . FileSystem = FS . Network = Net . Socket = Sock . Security = Sec . Hardware = HW . Software = SW . Firmware = FW . Driver = Drvr = Drv . Server = Srv . Service = Svc . Graphics = Grph . Engine = Engn . JavaScript = JS . Apple = Apl . Microsoft = MS . Google = Ggl . Mozilla = Mz .<br/>
