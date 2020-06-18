@@ -42,7 +42,7 @@ etc To Execute/Run/Use it On Both 64bit-Only (Current) macOSX and Also On 64bit+
 “Portable OSX Apps”.
 <br/>
 
-<dl><dd>(If you need to know meaning of an Abbreviation/Acronym used in this webpage, then goto <a href="#Abbreviations%3A">Abbreviations</a> section, shown at-bottom side of this webpage)</dd></dl>
+<dl><dd>(If you need to know meaning of an Abbreviation/Acronym used in this webpage, then (1st) goto <a href="#Abbreviations">Abbreviations</a> section, shown at-bottom side of this webpage)</dd></dl>
 
 <b>OLD SCRIPT:</b><br/><!-- %2E is "." , %3A is ":" , %20 is " "(space), %5F is "_" -->
 <div> Original & Last ‘script’ v4.1 is here<b>:</b> http://www.FreeSMUG.org/portableapps%3Acode%3Afirefox<br/>
@@ -498,7 +498,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
 <tr><td border="1" width="100%" class="UatErik81"> &#160; </td></tr>
 </table>
 
-### Abbreviations:
+<a name="Abbreviations"></a><b>Abbreviations:</b>
 <dl width="100%"><dd width="100%">&#8239;<dl width="100%"><dd width="100%">
  Acronyms, Recursive Backronyms & Abbreviations used here<b>:</b><br/>
  <b>•</b> PA = Portable Apps . Ususally kept-in & run from a user’s External/Portable drives/storage, Or PA is kept-in & run from internal-Storage when a user need to run 2nd or multiple instances of same PA apps with different profile(s)/settings.<br/>
