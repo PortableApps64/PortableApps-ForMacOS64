@@ -164,8 +164,8 @@ and install in your (64bit-only macOSX(Catalina & later) based) mac computer.<br
 Or get Platypus v4.9, as that is the last 32bit supported ( & working) Platypus,<br/>
 to build/wrap macOS app⒮ in 64bit+32bit suppported macOSX (Mojave & earlier).<br/>
 
-<div>PB-3: Obtain Pashua dialog from here : https://www.BlueM.net/en/projects/pashua/<br/>
-<dl><dd>Open dmg installer, Copy "Pashua&#46;app", "Pashua&#46;sh" into below folder<b>:</b>
+<div>PB-3: Obtain Pashua dialog from here : https://www.BlueM.net/en/projects/pashua/
+<dl><dd>Open dmg installer, Copy "Pashua&#46;app", "Pashua&#46;sh" into below folder<b>:</b><br/>
 <!-- “.” is &#46; -->&#160;<code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
 &#160;( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )
 </dd></dl>
@@ -195,29 +195,30 @@ or Get last Quantum/Servo-based new/latest <code>"Firefox-*.dmg"</code> from htt
 </dd></dl>
 <br/>
 
-PB-5: a: Obtain old PortableApps. (Download link⒮ shown few-paragraphs above).<br/>
-b: Double-Click/Tap on `"PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg"` file to view internal contents(files, bundles, folders, etc).<br/>
-c: Copy these 3-files: `"MPL-1.1.txt"`, `"Read me.txt"`, `"gpl-3.0.txt"`, in below build location:<br/>
-&#160;&#160;`"/System/Volumes/Data/MyProjects/PortableFirefox/"`<br/>
-&#160; ( or here: `"/Users/MyUserName/MyProjects/PortableFirefox/"` )<br/>
-d: Create a sub-dir/sub-folder `"Old-PA-Firefox"` in above/same location shown in PB-5-c step.<br/>
-e: Copy the `"Portable Firefox OS X"` folder/directory from opened content of `"PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg"`, & place/paste it in below sub-dir/sub-folder location:<br/>
-&#160;&#160;`"/System/Volumes/Data/MyProjects/PortableFirefox/Old-PA-Firefox/"`<br/>
-&#160; ( or here: `"/Users/MyUserName/MyProjects/PortableFirefox/Old-PA-Firefox/"` )<br/>
-f: Right-click (or Tap with double-finger) on `"Portable Firefox.app"` bundle which is here:<br/>
-&#160;&#160;`"/System/Volumes/Data/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app"`<br/>
-&#160; ( or here: `"/Users/MyUserName/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app"` )<br/>
-&#160; and select `“Show Package Contents”` option to go inside the bundle.<br/>
-g-1: Copy these 2-folders: `"English.lproj"` (and `"profile"` if it exists), from below (inside the bundle) location:<br/>
-&#160;&#160;`"/System/Volumes/Data/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/"`<br/>
-&#160; ( or here: `"/Users/MyUserName/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/"` )<br/>
-&#160;&#160;g-2: If you want to use your existing `"Portable Firefox OS X"` from your external storage/drive,
-then copy "profile" folder from that, into our build location.<br/>
-&#160;&#160;g-3: If you want to use your existing profile in your/current system as/with Portable Firefox, then copy this folder:<br/>
-&#160;&#160;&#160;&#160;/... (i will add location+info here, wait)<br/>
-h: Paste those folders into below (destination), our build/project folder:<br/>
-&#160;&#160;`"/System/Volumes/Data/MyProjects/PortableFirefox/"`<br/>
-&#160; ( or `"/Users/MyUserName/MyProjects/PortableFirefox/"` )
+PB-5: Get Language, Profile, License, etc related files/folders:<br/>
+<b>a:</b> Obtain old PortableFirefoxOSX App. (Download link⒮ shown few-paragraphs above).<br/>
+<b>b:</b> Double-Click/Tap on `"PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg"` file to view internal contents(files, bundles, folders, etc).<br/>
+<b>c:</b> Copy these 3-files: `"MPL-1.1.txt"`, `"Read me.txt"`, `"gpl-3.0.txt"`, in below build location:
+<dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
+( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )</dd></dl>
+<b>d:</b> Create a sub-dir/sub-folder <code>"Old-PA-Firefox"</code> in above/same location shown in PB-5-c step.<br/>
+<b>e:</b> Copy the <code>"Portable Firefox OS X"</code> folder/directory from opened content of <code>"PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg"</code>, & place/paste it in below sub-dir/sub-folder location:
+<dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/Old-PA-Firefox/"</code><br/>
+( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/Old-PA-Firefox/"</code> )</dd></dl>
+<b>f:</b> Right-click (or Tap with double-finger) on `"Portable Firefox.app"` bundle which is here:
+<dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app"</code><br/>
+( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app"</code> )<br/>
+and select <code>“Show Package Contents”</code> option to go inside the bundle.</dd></dl>
+<b>g-1:</b> Copy these 2-folders: <code>"English.lproj"</code> (and <code>"profile"</code> if it exists), from below (inside the bundle) location:
+<dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/"</code><br/>
+( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/"</code> )</dd>
+<dd><b>g-2:</b> If you want to use your existing <code>"Portable Firefox OS X"</code> from your external storage/drive,
+then copy <code>"profile"</code> folder from that, into our build location.</dd>
+<dd><b>g-3:</b> If you want to use your existing profile in your/current system as/with Portable Firefox, then copy this folder:<br/>
+&#160;&#160;/... (i will add location+info here, wait)</dd></dl>
+<b>h:</b> Paste those folders into below (destination), our build/project folder:
+<dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
+( or <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )</dd></dl>
 
 
 ## BUILD:
