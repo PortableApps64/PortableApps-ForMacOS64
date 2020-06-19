@@ -94,9 +94,8 @@ Platypus also creates the <code>“Portable Firefox.app”</code> bundle.
  A developer/user can either place/compress that <code>Portable-*.app</code> bundle inside a <code>.dmg</code> file to share it with users for downloading, from developer/user’s website.
 </dd><dd>
  Or, a developer/user can build the <code>Portable-*.app</code> with an (older) unmodified (Firefox) app, and share with Users that file & an accompanying instruction file on How-To update to use latest (Firefox) app.
-</dd></dl>
-</div><br/>
-<p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
+</dd><dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd></dl>
+</div>
 
 <a name="Platypus"></a>
 <b>PLATYPUS:</b><br/>
@@ -132,13 +131,12 @@ So we must change existing dialog program (a program to assist interaction betwe
 
 <a name="Pashua"></a>
 <b>PASHUA:</b><br/>
-<div> Pashua dialog seems to be a good choice for now (as a ‘dialog’/interaction assistor), Check here<b>:</b>
-<dl><dd>
+<div width="100%"> Pashua dialog seems to be a good choice for now (as a ‘dialog’/interaction assistor), Check here<b>:</b>
+<dl width="100%"><dd width="100%">
  Website: https://www.BlueM.net/en/projects/pashua/<br/>
  Github: https://GitHub.com/BlueM/Pashua
-</dd></dl>
+</dd><dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd></dl>
 </div><br/>
-<p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
 
 ## PRE-BUILD:
 <b>BRING TOGETHER BUILD-RELATED ITEMS/OBJECTS,ETC (PREPARATION):</b>
@@ -223,8 +221,8 @@ then copy <code>"profile"</code> folder from that, into our build location.</dd>
 &#160;&#160;/... (i will add location+info here, wait)</dd></dl>
 <b>h:</b> Paste those folders into below (destination), our build/project folder:
 <dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
-( or <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )</dd></dl>
-<p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
+( or <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )</dd><dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd></dl>
+
 
 ## BUILD:
 <b>BUILD/WRAP/GENERATE WITH PLATYPUS:</b>
@@ -302,13 +300,13 @@ Please help+contribute+collaborate+improve+rectify current codes to build this<b
 bash-shell ‘script’ (so-that, this ‘script’ can be run/used by Platypus<br/>
 to run macOSX apps (i.e: `“Firefox.app”`) on (64-bit) macOSX from portable/external<br/>
 drive/storage⒮).<br/>
-Thanks in advance.<br/>
-<br/>
+Thanks in advance.
 <p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
 
 ## EXTRA-NOTES:
 
-<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70"><tr><td border="1" width="100%"><a name="LoadFoldersUnderRootFolder"></a> To create "MyProjects" folder in mac hard drive (not under your user-name), you may edit <code>synthetic.conf</code><b>:</b>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<tr><td border="1" width="100%"><a name="LoadFoldersUnderRootFolder"></a> To create "MyProjects" folder in mac hard drive (not under your user-name), you may edit <code>synthetic.conf</code><b>:</b>
 <dl><dd><!-- “.” is &#46; -->
  <tt>０┌─────────────────</tt><br/>
  <tt>１│</tt>sudo nano /etc/synthetic&#46;conf<br/>
@@ -344,13 +342,12 @@ and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
  <tt>３└─────────────────</tt>
 </dd><dd>
  or, in <code>Finder</code>, press these 3-buttons together at-same-time: [⇧Shift]&#43;[⌘Command]&#43;[&#8239;<sup>&gt;</sup><sub>.</sub>&#8239;]<br/><!-- + written as &#43; , nnbsp is &#8239; -->
-</dd></dl>
-</td></tr>
+</dd></dl></td></tr>
+<tr><td align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></td></tr>
 </table>
-<p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="100%"><a name="UsefulOrRelatedUnicodeChars"></a>
+<tr><td border="1" width="100%"><a name="UsefulOrRelatedUnicodeChars"></a>
 List Of Few Useful Unicode Characters/Symbols, & How To Use/Show Them<b>:</b><br/>
 ( We will use some of these in our dialog messages from this ‘script’ )</td></tr>
 <tr><td><a name="U-abbr"></a>Unicode related Abbreviations: • Char = Character/Symbol/Glyph • Grph = Graphic • Emj ~= Emoji ~= Emoticons • Txt = Textual Glyph • U = Unicode • h = H = x = hex = HexaDecimal • A = ASCII • Ref = Reference • dec = decimal • DEC = DRC = Decimal Entity (Ref) Code • HEC = HexaDecimal Entity (Ref) Code • CNRC = Character Name Ref/Entity Code • PE = Percent-Encoding • FRE = Font/Character/Glyph/Grapheme Rendering Engine </td></tr>
@@ -438,7 +435,7 @@ List Of Few Useful Unicode Characters/Symbols, & How To Use/Show Them<b>:</b><br
 </table>
 <!-- : = &#58; -->
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="100%"> Combining-Diacritics (with Unicode hex code-point)&#58; • <code>◌̀</code> 300 • <code>◌́</code> 301 • <code>◌̃</code> 303 • <code>◌̆</code> 306 • <code>◌̇</code> 307 • <code>◌̌</code> 30C • <code>◌̍</code> 30D • <code>◌̖</code> 316 • <code>◌̗</code> 317 • <code>◌̜</code> 31C • <code>◌̨</code> 328 • <code>◌̩</code> 329 • <code>◌̭</code> 32D • <code>◌̴</code> 334 • <code>◌̹</code> 339 • <code>◌̀</code> 340 • <code>◌́</code> 341 • <code>◌ͅ</code> 345 • <code>◌͑</code> 351 • <code>◌͗</code> 357 • <code>◌ͨ</code> 368 • <code>◌᪹</code> 1AB9 • <code>◌᪺</code> 1ABA • <code>◌᷎</code> 1DCE • <code>◌᷃</code> 1DC3 • <code>◌᷎</code> 1DCE • <code>◌ᷗ</code> 1DD7 • <code>◌ᷛ</code> 1DDB • <code>◌ᷞ</code> 1DDE </td></tr>
+<tr><td border="1" width="100%"> Combining-Diacritics (with Unicode hex code-point)&#58; • <code>◌̀</code> 300 • <code>◌́</code> 301 • <code>◌̃</code> 303 • <code>◌̆</code> 306 • <code>◌̇</code> 307 • <code>◌̌</code> 30C • <code>◌̍</code> 30D • <code>◌̖</code> 316 • <code>◌̗</code> 317 • <code>◌̜</code> 31C • <code>◌̨</code> 328 • <code>◌̩</code> 329 • <code>◌̭</code> 32D • <code>◌̴</code> 334 • <code>◌̹</code> 339 • <code>◌̀</code> 340 • <code>◌́</code> 341 • <code>◌ͅ</code> 345 • <code>◌͑</code> 351 • <code>◌͗</code> 357 • <code>◌ͨ</code> 368 • <code>◌᪹</code> 1AB9 • <code>◌᪺</code> 1ABA • <code>◌᷎</code> 1DCE • <code>◌᷃</code> 1DC3 • <code>◌᷎</code> 1DCE • <code>◌ᷗ</code> 1DD7 • <code>◌ᷛ</code> 1DDB • <code>◌ᷞ</code> 1DDE </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
@@ -462,7 +459,7 @@ List Of Few Useful Unicode Characters/Symbols, & How To Use/Show Them<b>:</b><br
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <!-- %2E = ".", %3A = ":", %20 = " "(space), %5F = "_", %28 = "(", %29 = ")", %2D = "-", %7E = "~", %2C = ",", %27 = ', %22 = " -->
-<tr><td width="100%"><a name="UVS"></a>• To display an Emoji/Emoticon(emj) as a Textual(txt) glyph (if available/renderable), Use a <a href="https://en.wikipedia.org/wiki/Variant%5Fform%5F%28Unicode%29#Variation%5FSelectors%5Fblock">VS15</a>-char(&amp;#xFE0E; or &amp;#65038;) after the Emoji, (or apply CSS, i.e: <code>span.gray { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>).<br/>
+<tr><td border="1" width="100%"><a name="UVS"></a>• To display an Emoji/Emoticon(emj) as a Textual(txt) glyph (if available/renderable), Use a <a href="https://en.wikipedia.org/wiki/Variant%5Fform%5F%28Unicode%29#Variation%5FSelectors%5Fblock">VS15</a>-char(&amp;#xFE0E; or &amp;#65038;) after the Emoji, (or apply CSS, i.e: <code>span.gray { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>).<br/>
 <a name="UEM"></a>• When an <a href="https://en.wikipedia.org/wiki/Miscellaneous%5FSymbols%5Fand%5FPictographs#Emoji%5Fmodifiers">Emoji-Modifier</a> character (i.e: “Emoji Modifier FitzPatrick Type-6” character &amp;#x1F3FF; 
 or &amp;#127999; U+1F3FF) is placed after an Emoji (not all Emojis, but usually Emojis with 
 (human)-body/body-parts are supported),  then that Emoji will appear with dark/gray color/skin-tone, 
@@ -477,8 +474,8 @@ by Unicode consortium/group.<br/>
 <a name="ZWNJ"></a>• If you want to display a character & a diacrtic-mark separately & close to each other, but without joined-by the Font/Text rendering engine/system, then place a <a href="https://en.wikipedia.org/wiki/Zero-width_non-joiner">ZWNJ</a> char(U+200C &amp;#8204; or &amp;zwnj; or &amp;#x200C;) in between them.
 </td></tr>
 <tr><td> http://liberties.wikidot.com/symbols1<br/>http://liberties.wikidot.com/ligatures1<br/>https://en.wikipedia.org/wiki/Unicode_font<br/>https://en.wikipedia.org/wiki/List_of_Unicode_characters</td></tr>
+<tr><td align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></td></tr>
 </table>
-<p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td border="1" width="100%"><a name="VerifyFileAuthenticity"></a><a name="Hash"></a><a name="Digest"></a><a name="CheckSum"></a> In macOSX, Calculate & Compare hash/checksum/digest code (it is a very unique identity code) of a file/bundle<b>:</b><br/>
@@ -517,24 +514,24 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td border="1" width="100%"><a name="codesign"></a> Sign (aka: “codesign”, aka: add digital-signature) a macOSX binary app, without being in the Mac Developer Program:<br/>
 &#160;&#160; https://stackoverflow.com/questions/27474751/ </td></tr>
-<tr><td border="1" width="100%" class="UatErik81"> &#160; </td></tr>
+<tr><td> &#160; </td></tr>
+<tr><td align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></td></tr>
 </table>
-<p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td width="100%"><a name="Abbreviations"></a><b>Abbreviations:</b><br/>
+<tr><td border="1" width="100%"><a name="Abbreviations"></a><b>Abbreviations:</b><br/>
  Acronyms, Recursive Backronyms & Abbreviations used here<b>:</b></td></tr>
 <tr><td><a name="abbr"></a><b>•</b> Dev = Develope = Bld = Build . Web-Browser = WB = WebBr . Ver = Version = v . Mem = Memory . Mngr = Manager . Virtual = Virt . FileSystem = FS . Network = Net . Socket = Sock . Security = Sec . Hardware = HW . Software = SW . Firmware = FW . Driver = Drvr = Drv . Server = Srv . Service = Svc . Graphics = Grph . Engine = Engn . JavaScript = JS . Apple = Apl . Microsoft = MS . Google = Ggl . Mozilla = Mz .</td></tr>
 <tr><td><a name="PA"></a><b>•</b> PA = Portable Apps . Ususally kept-in & run from a user’s External/Portable drives/storage, Or PA is kept-in & run from internal-Storage when a user need to run 2nd or multiple instances of same PA apps with different profile(s)/settings.</td></tr>
 </table>
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td><a name="FF"></a><b>•</b> FF = Firefox . A web-browser from Mozilla Foundation. Before FF v57 it used <a href="https://en.wikipedia.org/wiki/Gecko%5F%28software%29">Gecko</a> engine. Since v57, FF was renamed as “Firefox <a href="https://en.wikipedia.org/wiki/Quantum%5F%28Mozilla%29#Quantum">Quantum</a>”(FFQ) & began to use a different & new web-browser engine, & Mozilla REMOVED SUPPORT FOR ALL PREVIOUS ADDONS/PLUGINS in FFQ !!! and, Although major parts of new engine were+are mostly based on <a href="https://en.wikipedia.org/wiki/Servo%5F%28software%29">Servo</a>,..engine but it is still (deceptively/purposely) named/known as same “Gecko”! some users (correctly) calls/identifies it GwS(“Gecko-with-Servo” or “Gecko-w/Servo”) or SbG(“Servo-based-Gecko”) or in-short just “Servo” engine. I will call it here, just Servo or GwS or SbG. FFQ in iOS was forced to use WebKit based engine. Lots of PLUGINS existed & was released for (older) Gecko based older FF (before v57), Mozilla STOPPED sharing/distrubuting ALL OF THOSE ADDONS/PLUGINS for older Gecko based older “Firefox” !!! Which indicated (again & sadly, that) Mozilla products are not-reliable & not-stable & cannot be depended-upon. Now there are very VERY LESS PLUGINS availble/ported/released for Servo/GwS based FFQ (v57 & after). WebRTC is kept in enabled state by-default, which can reveal user’s local location without user’s consent with full-awareness, which is a violation of Privacy-Rights, & this type of violation is also done by other new web-browsers too!</td></tr>
+<tr><td border="1" width="100%"><a name="FF"></a><b>•</b> FF = Firefox . A web-browser from Mozilla Foundation. Before FF v57 it used <a href="https://en.wikipedia.org/wiki/Gecko%5F%28software%29">Gecko</a> engine. Since v57, FF was renamed as “Firefox <a href="https://en.wikipedia.org/wiki/Quantum%5F%28Mozilla%29#Quantum">Quantum</a>”(FFQ) & began to use a different & new web-browser engine, & Mozilla REMOVED SUPPORT FOR ALL PREVIOUS ADDONS/PLUGINS in FFQ !!! and, Although major parts of new engine were+are mostly based on <a href="https://en.wikipedia.org/wiki/Servo%5F%28software%29">Servo</a>,..engine but it is still (deceptively/purposely) named/known as same “Gecko”! some users (correctly) calls/identifies it GwS(“Gecko-with-Servo” or “Gecko-w/Servo”) or SbG(“Servo-based-Gecko”) or in-short just “Servo” engine. I will call it here, just Servo or GwS or SbG. FFQ in iOS was forced to use WebKit based engine. Lots of PLUGINS existed & was released for (older) Gecko based older FF (before v57), Mozilla STOPPED sharing/distrubuting ALL OF THOSE ADDONS/PLUGINS for older Gecko based older “Firefox” !!! Which indicated (again & sadly, that) Mozilla products are not-reliable & not-stable & cannot be depended-upon. Now there are very VERY LESS PLUGINS availble/ported/released for Servo/GwS based FFQ (v57 & after). WebRTC is kept in enabled state by-default, which can reveal user’s local location without user’s consent with full-awareness, which is a violation of Privacy-Rights, & this type of violation is also done by other new web-browsers too!</td></tr>
 <tr><td><a name="SF"></a><b>•</b> SF = AS = Safari . A web-browser developed by Apple Inc . Proprietary . Uses open-source WebKit based engine. WebKit was closed-source & based-on OpenSource KDE-HTML(KHTML) layout engine & OpenSource KDE-JS(KJS) engine, etc. KHTML in WebKit was renamed into WebCore, & KJS in WebKit was renamed into JavaScriptCore by Apple Inc. Later WebKit was made open-source(LGPL) by Apple Inc, and then Adobe Systems, KDE, Igalia, and others joined. Later JavaScriptCore was replaced with SquirrelFish JS (SFX) engine in WebKit. WebKit was internally upgraded into WebKit2. Many other web-browsers are actually based on modified/customized version of WebKit engine. WebKit devs have removed GC related codes, after Google forked WebKit & created (WebKit-based) Blink for GC. Apple Inc forcefully/indirectly restricts other devs/groups, i.e: devs are forced to use WebKit to develop their apps for macOS/iOS, etc.</td></tr>
 <tr><td><a name="CM"></a><b>•</b> CM = CH = Chromium . Open-Source . A web-browser initially developed by Google LLC. Uses Blink rendering engine (Blink is based on modified WebKit engine), & V8 (JavaScript engine). Later Microsoft, Igalia, Yandex, & others joined to develope CM. Later Facebook, Opera Software, Adobe Systems, Intel, IBM, Samsung, & others joined to develope Blink. Many many web-browsers are actually based on modified/customized version of this CM web-browser or Blink engine from CM.</td></tr>
 <tr><td><a name="Ch"></a><b>•</b> Ch = GC = Chrome = Google-Chrome = GCh = gCh = gCH . Ch is developed by Google LLC . Many features+components are Proprietary & runs various binaries even before user logins into their OS, & does-not provide any option to completely disable/remove such malware-like behavior. GC web-browser's engine is based-on Chromium web-browser. Initially used WebKit rendering engine, later Google eventually forked WebKit to create Blink (BSD-License) based engine, now all Google-Chrome variants are using Blink except in iOS, in iOS its forced to use WebKit based engine.</td></tr>
 </table>
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td><a name="OS"></a><b>•</b> OS = Operating System = OprtSys = OpSys . A collection/set of vast numbers+types of programs, to assist interactions between computer User and computer hardwares & softwares and computer networks. Many OS did-not & does-not have GUI. Modern OS usually contains: microKernel/monolithicKernel/nanoKernel, HW layout & mngr, HW drvr, IPC mngr, I/O mngr, Virt mem mngr, Protected mem mngr, Scheduling, PreEmptive MultiTasking, RealTime support, Console I/O, FS support, Net support, Sockets, Security monitoring, Process mngr, PnP mngr, Power mngr, Graphics Display mngr, Window mngr, system services, related System Libraries, Userland/UserApps, App Environments, Servers/Daemons/Services for Userland, OS SubSystems/Thread support, related Userland Libraries.</td></tr>
+<tr><td border="1" width="100%"><a name="OS"></a><b>•</b> OS = Operating System = OprtSys = OpSys . A collection/set of vast numbers+types of programs, to assist interactions between computer User and computer hardwares & softwares and computer networks. Many OS did-not & does-not have GUI. Modern OS usually contains: microKernel/monolithicKernel/nanoKernel, HW layout & mngr, HW drvr, IPC mngr, I/O mngr, Virt mem mngr, Protected mem mngr, Scheduling, PreEmptive MultiTasking, RealTime support, Console I/O, FS support, Net support, Sockets, Security monitoring, Process mngr, PnP mngr, Power mngr, Graphics Display mngr, Window mngr, system services, related System Libraries, Userland/UserApps, App Environments, Servers/Daemons/Services for Userland, OS SubSystems/Thread support, related Userland Libraries.</td></tr>
 <tr><td><a name="Unx"></a><b>•</b> Unx = Unix = Research-Unix = &#42;nix. Originally developed (in 1969) by Ken Thompson & Dennis Ritchie & others at-then AT&T Bell Labs.</td></tr>
 <tr><td><a name="BSD"></a><b>•</b> BSD = BSD-Unix = Berkeley Software Distribution . Initially “BSD” was based on Unix v5, & it was developed by Bill Joy & Ozalp Babaoglu & Keith Bostic & others from CSRG(Computer Systems Research Group). Uses Monolithic kernel. BSD was updated to “4.3BSD-Net2”, and ~finally upd into “4.4BSD-Lite2” (after winning lawsuit filed-by AT&T), then BSD development ended. But 1-pair of devs released “386BSD” based on 4.3BSD-Net2. Later 386BSD & 4.4BSD-Lite were forked as “NetBSD” by another group, and later one more group forked 386BSD & 4.4BSD-Lite as “FreeBSD”. Later FreeBSD was forked into “DragonFly-BSD”. Later NetBSD was forked into “OpenBSD”. OpenBSD group prioritizes & focuses on SECURITY, trustworthiness, etc of source code & OS functionalities.</td></tr>
 <tr><td><a name="OSX"></a><b>•</b> OSX = 🍎 = MacOS = macOS = macOSX . An OS developed by Apple Inc. ClosedSource GUI OS. Initially based on Apple Lisa OS & (Unix based) Xenix, etc, then it was changed into combination of Unix … BSD(4.3BSD-Net2, 386BSD, 4.4BSD-Lite2, FreeBSD, NextSTEP, etc) … then finally changed into “Darwin” based OS. Initially kernel was Monolithic (for 68k) & nanokernel (for PowerPC), then changed into Hybrid(XNU) Kernel (initially CMU-Mach2.5 & 4.3BSD, then changed into OSFMK/Utah-Mach4 & FreeBSD).</td></tr>
@@ -542,8 +539,8 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
 <tr><td><a name="Lnx"></a><b>•</b> Lnx = 🐐&#xFE0E;GNU-🐧&#xFE0E;Linux = GNU/Linux = GNU/Lnx, though most users shorten/call/know it as or “Linux OS” or “Linux”. OpenSource (Unix-like) OS, with OpenSource Kernel. GNU-OS used/uses (Unix based) GNU tools/utilities developed by Richard Stallman, uses GNU-Kernel (aka GNU/Hurd-Kernel). Linux-kernel (aka “Linux”, kLnx, “Freax”) was developed by Linus Torvald based on Unix & MINIX-OS, to replace MINIX-OS. MINIX was/is based on Unix (v7) tools/utilies & it uses microkernel. MINIX began to use GNU tools/utilies after GNU was released). When AT&T filed lawsuit against BSD, users/devs could not get+use new/updated BSD/BSD-kernel, & all users/devs realized they needed a “free” OS-&-kernel without AT&T’s-restrictions, & this “Linux” was build+available exactly/around that time with “free” GNU-GPL license & tools/utilities, So users/devs ended-up using this “GNU/Linux” instead of BSD, & So “GNU/Linux” became popular. Various groups & individuals later began to develop/release various distros/OSes based on GNU/Linux or GNU/Hurd (aka GNU/Mach) or GNU/BSD etc etc. All of these were/are primarily a derivative of Unix.</td></tr>
 </table>
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td><a name="AOS"></a><a name="Andr"></a><b>•</b> AOS = 🤖&#xFE0E; = Andr = Android OS . A (GUI) OS developed by Google LLC (under Alphabet Inc), with members of OHA consortium, & by open-source dev(s)+individual(s). Many components are open-source, except these CLOSED-SOURCE components: “Google Play”, “Google Play Services”, etc, etc, etc). Andr uses (BSD based) Bionic C-Lib, uses ToyBox (based on older BusyBox) based Unix utilities, mksh, etc. Andr uses modified Linux-kernel.</td></tr>
+<tr><td border="1" width="100%"><a name="AOS"></a><a name="Andr"></a><b>•</b> AOS = 🤖&#xFE0E; = Andr = Android OS . A (GUI) OS developed by Google LLC (under Alphabet Inc), with members of OHA consortium, & by open-source dev(s)+individual(s). Many components are open-source, except these CLOSED-SOURCE components: “Google Play”, “Google Play Services”, etc, etc, etc). Andr uses (BSD based) Bionic C-Lib, uses ToyBox (based on older BusyBox) based Unix utilities, mksh, etc. Andr uses modified Linux-kernel.</td></tr>
 <tr><td><a name="iOS"></a><b>•</b> iOS = 🍎📱 . Developed by Apple Inc, used in/as iPhone OS, iPad OS, etc. Its a closed-source GUI OS. Based on (Unix->BSD->&#41; Darwin OS. Uses Hybrid(XNU) Kernel.</td></tr><!-- ( = &#40; , ) = &#41; -->
+<tr><td align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></td></tr>
 </table>
-<p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
 <br/>
