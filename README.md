@@ -31,6 +31,7 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 .UatErik83{ border-width:1px; border-width-top:0px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; } /* <br/> END of CSS STYLEs: */
 </style>
 
+<a name="intro"></a>
 # PORTABLE FIREFOX OSX script
 <br/><!-- “.” is &#46; -->
 
@@ -42,17 +43,18 @@ etc To Execute/Run/Use it On Both 64bit-Only (Current) macOSX and Also On 64bit+
 “Portable OSX Apps”.
 <br/>
 
-<dl><dd>(If you need to know meaning of an Abbreviation/Acronym used in this webpage,<br/>
-then (1st) goto <a href="#Abbreviations">Abbreviations</a> section shown at-bottom side of this webpage)</dd></dl>
+<a name="index"></a><!-- : = &#58; -->
+<dl><dd>Content/Index List<b>:</b> <a href="#intro">Intro</a> ¦ <a href="#Old-Script">Old-Script</a> ¦ <a href="#Script-Type">Script-Type</a> ¦ <a href="#New-Script">New-Script</a> ¦ <a href="#Platypus">Platypus</a> ¦ <a href="#Cocoa-Dialog">Cocoa-Dialog</a> ¦ <a href="#Pashua">Pashua</a> ¦ <a href="#pre-build">Pre-Build</a>&#58;( <a href="#pb-1">PB-1</a>, <a href="#pb-2">PB-2</a>, <a href="#pb-3">PB-3</a>, <a href="#pb-4">PB-4</a>, <a href="#pb-5">PB-5</a> ) ¦ <a href="#build">Build</a>&#58;( <a href="#b-1">B-1</a>, <a href="#b-2">B-2</a>, <a href="#b-3">B-3</a>, <a href="#b-4">B-4</a>, <a href="#b-5">B-5</a> ) ¦ <a href="#Errors">Errors</a> ¦ <a href="#HelpToBuild">Help-To-Build</a> ¦ <a href="#Extra-Notes">Extra-Notes</a>&#58;( <a href="#LoadFoldersUnderRootFolder">Load Folders Under RootFolder</a>, <a href="#ShowAllFilesFolders">Show All Files Folders</a>, <a href="#UsefulOrRelatedUnicodeChars">Related Unicode Chars</a>, <a href="#VerifyFileAuthenticity">Verify File Authenticity</a>, <a href="#codesign">CodeSign</a> ) ¦ <a href="#Abbreviations">Abbreviations</a>.</dd></dl>
 
+<a name="Old-Script"></a>
 <b>OLD SCRIPT:</b><br/><!-- %2E is "." , %3A is ":" , %20 is " "(space), %5F is "_" -->
 <div> Original & Last ‘script’ v4.1 is here<b>:</b> http://www.FreeSMUG.org/portableapps%3Acode%3Afirefox<br/>
 ( You can also check 1st commit of this ‘script’ file in Github to view the v4.1 code )<br/>
 The ‘script’ v4.1 was written by Carlo Gandolfi and Paolo Portaluri and others,<br/>
-Copyright 2010 by Carlo Gandolfi, and, Paolo Portaluri, Released under GPL v3.<br/>
+Copyright 2010 by Carlo Gandolfi, and, Paolo Portaluri, Released under <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL v3</a>.<br/>
 Project’s SF page: https://SourceForge.net/projects/osxportableapps/<br/>
 Project Website: http://www.FreeSMUG.org/<br/>
-Portable Firefox OSX is here<b>:</b><br/>
+Portable Firefox OSX (GPL-v3, <a href="https://www.mozilla.org/en-US/MPL/1.1/">MPL-1.1</a>) is here<b>:</b><br/>
 &#160; https://SourceForge.net/projects/osxportableapps/files/Portable%20Firefox%20OS%20X/<br/>
 The ‘script’ v4.1 is now distributed via a ZIP file located here<b>:</b><br/>
 &#160; https://prdownloads.SourceForge.net/osxportableapps/PortableFirefoxScript%5Fr4%2E1%2Etxt%2Ezip?download<br/>
@@ -65,17 +67,20 @@ Last “Portable Firefox OSX” app<b>:</b> "PortableFirefox_4.0.1_en-US-OSX_r4.
 </div><br/>
 
 
+<a name="Script-Type"></a>
 <b>WHAT TYPE OF ‘script’ FILE:</b><br/>
-The ‘<b>script</b>’ is a bash shell script file, Executable file.<br/>
+The ‘<b>script</b>’ is a bash shell script file, Executable file, and it is also the source code file.<br/>
 <br/>
 
 
+<a name="New-Script"></a>
 <b>NEW SCRIPT:</b>🆕<br/>
 
 New ‘<a href="https://github.com/atErik/Portable-Firefox-OSX-script/blob/master/script">script</a>’ v4.1.x (v4.1.4) Are released under below <b>Licenses</b> + <b>Restrictions</b> + <b>Permissions:</b><br/>
-&#160;&#160; - GNU General Public License Version 3  (GPL v3)<br/>
-&#160;&#160; - Do Not Use This To Kill/Harm/Violate (or Steal from) (Any) Human/Community,Earth,etc<br/>
-Copyright © 2020 by Erik T Ashfolk - &lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m&gt;
+&#160;&#160;- GNU General Public License Version 3  (<a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL v3</a>)<br/>
+&#160;&#160;- Do Not Use This To Kill/Harm/Violate (or Steal from) (Any) Human/Community,Earth,etc<br/>
+&#160;&#160;Copyright <b>©</b> 2020 by Erik T Ashfolk - &lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m&gt;<br/>
+&#160;&#160;(All other trademarks cited here are the property of their respective owners&#46;)
 
 This ‘script’ v4.1/v4.1.x file is usually used from such (i.e) location, in macOSX<b>:</b><br/>
 &#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/Resources/script"<br/><!-- “.” is &#46; -->
@@ -92,7 +97,9 @@ Platypus also creates the <code>“Portable Firefox.app”</code> bundle.
 </dd></dl>
 </div><br/>
 
+<p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
 
+<a name="Platypus"></a>
 <b>PLATYPUS:</b><br/>
 
 <div>The "Portable Firefox&#46;app" is packaged using the Platypus script wrapper (aka app builder) from http://sveinbjorn.sytes.net/platypus
@@ -108,6 +115,7 @@ Platypus also creates the <code>“Portable Firefox.app”</code> bundle.
 </div><br/>
 
 
+<a name="Cocoa-Dialog"></a>
 <b>COCOA-DIALOG:</b><br/>
 
 <div>The OSX PortableApps used CocoaDialog (&#46;app bundle) inside “PortableFirefoxOSX” v4.0.1 (the last/old release).
@@ -125,6 +133,7 @@ So we must change existing dialog program (a program to assist interaction betwe
 <br/>
 
 
+<a name="Pashua"></a>
 <b>PASHUA:</b><br/>
 <div> Pashua dialog seems to be a good choice for now (as a ‘dialog’/interaction assistor), Check here<b>:</b>
 <dl><dd>
@@ -133,11 +142,12 @@ So we must change existing dialog program (a program to assist interaction betwe
 </dd></dl>
 </div><br/>
 
+<p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
 
 ## PRE-BUILD:
 <b>BRING TOGETHER BUILD-RELATED ITEMS/OBJECTS,ETC (PREPARATION):</b>
 
-<div> PB-1: Suppose, We are working-on/building this project from below example folder<b>:</b>
+<div><a name="pb-1"></a>PB-1: Suppose, We are working-on/building this project from below (example) folder<b>:</b>
 <dl><dd>
  <code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
  ( alternatively you may/can also create a developement folder “PortableFirefox” here<b>:</b>
@@ -158,20 +168,20 @@ then Platypus will place/copy them, inside below folder location, inside the <co
 </dd></dl>
 </div><br/>
 
-PB-2: So obtain NEW Platypus (at the time of writing this README&#46;md, it is/was v5.3),<br/>
+<a name="pb-2"></a>PB-2: So obtain NEW Platypus (at the time of writing this README&#46;md, it is/was v5.3),<br/>
 &#160;&#160; from here: https://Sveinbjorn.org/platypus<br/>
 and install in your (64bit-only macOSX(Catalina & later) based) mac computer.<br/>
 Or get Platypus v4.9, as that is the last 32bit supported ( & working) Platypus,<br/>
 to build/wrap macOS app⒮ in 64bit+32bit suppported macOSX (Mojave & earlier).<br/>
 
-<div>PB-3: Obtain Pashua dialog from here : https://www.BlueM.net/en/projects/pashua/
+<div><a name="pb-3"></a>PB-3: Obtain Pashua dialog from here : https://www.BlueM.net/en/projects/pashua/
 <dl><dd>Open dmg installer, Copy "Pashua&#46;app", "Pashua&#46;sh" into below folder<b>:</b><br/>
 <!-- “.” is &#46; -->&#160;<code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
 &#160;( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )
 </dd></dl>
 </div><br/>
 
-<div>PB-4: Get last Gecko-based (Gecko-Without-Servo-based) old <code>"Firefox-*.dmg"</code> (which has old <code>“Firefox.app”</code> inside it) from below URLs,<br/>
+<div><a name="pb-4"></a>PB-4: Get last Gecko-based (Gecko-WithOut-Servo based) old <code>"Firefox-*.dmg"</code> (which has old <code>“Firefox.app”</code> inside it) from below URLs,<br/>
 or Get last Quantum/Servo-based new/latest <code>"Firefox-*.dmg"</code> from https://www.Mozilla.org/<br/>
 & extract/get/copy the <code>“Firefox.app”</code>, & place/paste it into below folder<b>:</b>
 <dl><dd>
@@ -195,17 +205,16 @@ or Get last Quantum/Servo-based new/latest <code>"Firefox-*.dmg"</code> from htt
 </dd></dl>
 <br/>
 
-PB-5: Get Language, Profile, License, etc related files/folders:<br/>
-<b>a:</b> Obtain old PortableFirefoxOSX App. (Download link⒮ shown few-paragraphs above).<br/>
+<a name="pb-5"></a>PB-5: Get (Language, Profile, License, etc) build related files/folders:<br/>
+<b>a:</b> Obtain old PortableFirefoxOSX App. (Download <a href="#Old-Script">link⒮</a> shown few-paragraphs above).<br/>
 <b>b:</b> Double-Click/Tap on `"PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg"` file to view internal contents(files, bundles, folders, etc).<br/>
-<b>c:</b> Copy these 3-files: `"MPL-1.1.txt"`, `"Read me.txt"`, `"gpl-3.0.txt"`, in below build location:
-<dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
+<b>c:</b> Copy these 3-files: `"MPL-1.1.txt"`, `"Read me.txt"`, `"gpl-3.0.txt"`, in below build location:<dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
 ( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )</dd></dl>
 <b>d:</b> Create a sub-dir/sub-folder <code>"Old-PA-Firefox"</code> in above/same location shown in PB-5-c step.<br/>
 <b>e:</b> Copy the <code>"Portable Firefox OS X"</code> folder/directory from opened content of <code>"PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg"</code>, & place/paste it in below sub-dir/sub-folder location:
 <dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/Old-PA-Firefox/"</code><br/>
 ( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/Old-PA-Firefox/"</code> )</dd></dl>
-<b>f:</b> Right-click (or Tap with double-finger) on `"Portable Firefox.app"` bundle which is here:
+<b>f:</b> Right-click (or Tap with double-finger) on <code>"Portable Firefox.app"</code> bundle which is here:
 <dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app"</code><br/>
 ( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app"</code> )<br/>
 and select <code>“Show Package Contents”</code> option to go inside the bundle.</dd></dl>
@@ -220,11 +229,12 @@ then copy <code>"profile"</code> folder from that, into our build location.</dd>
 <dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
 ( or <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )</dd></dl>
 
+<p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
 
 ## BUILD:
 <b>BUILD/WRAP/GENERATE WITH PLATYPUS:</b>
 
-<div> Test the ‘script’ file, before using it to build OSX PortableApp<b>:</b><br/>
+<div><a name="b-1"></a>B-1: Test the ‘script’ file, before using it to build OSX PortableApp<b>:</b><br/>
 Tips<b>:</b> a good practice from beginning would-be, After getting this <code>‘script’</code><br/>
 (inside the shown/recommended folder that is shown few paragraphs above), 1st Rename<br/>
 it to <code>"script.sh"</code>, then Open <code>"script.sh"</code> with your choice of code editing/developing<br/>
@@ -245,7 +255,7 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
 </dd></dl>
 </div><br/>
 
-<div>Build the final <code>“PortableAppName.app”</code> bundle, by using Platypus<b>:</b>
+<div><a name="b-2"></a>B-2: Build the final <code>“PortableAppName.app”</code> bundle, by using Platypus<b>:</b>
 <dl><dd>
  To build new <code>“Portable Firefox.app”</code>,<br/>
  choose these below files, directories, bundles inside Platypus GUI interface<b>:</b>
@@ -257,12 +267,13 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
   <b>◦</b> icon-file : P_Firefox_Caution&#46;icns<br/>
   <b>◦</b> icon-file : appIcon&#46;icns<br/>
   <b>◦</b> sh-script-file : pashua&#46;sh<br/>
-  <b>◦</b> sh-script-file : script
+  <b>◦</b> sh-script-file : script<br/>
+  <b>◦</b> license-file : gpl-3.0.txt
 </dd></dl>
 </dd></dl>
 </div><br/>
 
-<div> Then you may use, these type of settings in Platypus GUI interface<b>:</b>
+<div><a name="b-3"></a>B-3: Then you may use, these type of settings in Platypus GUI interface<b>:</b>
 <dl><dd>
  <b>◦</b> Script Type : Shell : /bin/sh<br/>
  <b>◦</b> Script Path : <code>/System/Volumes/Data/MyProjects/PortableFirefox/script</code><br/>
@@ -273,13 +284,14 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
 </dd></dl>
 </div><br/>
 
-Then tap/click/select/press the <code>“Create App”</code> button.<br/><!-- “.” is &#46; -->
+<a name="b-4"></a>B-4: Then tap/click/select/press the <code>“Create App”</code> button.<br/><!-- “.” is &#46; -->
 It will create/generate a new <code>“Portable Firefox.app”</code>, that is<br/>
 compatible with 64-only macOSX(Catalina/...)<br/>
 
-Run/execute/TEST it.
+<a name="b-5"></a>B-5: Run/execute/TEST it.
 <br/>
 
+<a name="Errors"></a>
 <b>ERRORs/PROBLEMs:</b><br/>
 
 Write down what error⒮ you’re getting, try to research & try to solve as much possible,<br/>
@@ -288,6 +300,7 @@ then let us know in FreeSMUG forum about your unsolved errors & share your code 
 If no errors, then please share your final working code in FreeSMUG & also in GitHub, Thank-you.<br/>
 <br/>
 
+<a name="HelpToBuild"></a>
 <b>HELP TO BUILD:</b><br/>
 
 Please help+contribute+collaborate+improve+rectify current codes to build this<br/>
@@ -296,11 +309,13 @@ to run macOSX apps (i.e: `“Firefox.app”`) on (64-bit) macOSX from portable/e
 drive/storage⒮).<br/>
 Thanks in advance.<br/>
 <br/>
-<br/>
 
+<p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
 
+<a name="Extra-Notes"></a>
 ## EXTRA-NOTES:
 
+<a name="LoadFoldersUnderRootFolder"></a>
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70"><tr><td border="1" width="100%" class="UatErik81"> To create "MyProjects" folder in mac hard drive (not under your user-name), you may edit <code>synthetic.conf</code><b>:</b>
 <dl><dd><!-- “.” is &#46; -->
  <tt>０┌─────────────────</tt><br/>
@@ -329,6 +344,7 @@ and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
 </td></tr>
 </table>
 
+<a name="ShowAllFilesFolders"></a>
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70"><tr><td border="1" width="100%" class="UatErik81"> To see all files in <code>Finder</code> (inlcuding Hidden/System), i executed below 2-commands<b>:</b>
 <dl><dd><!-- “.” is &#46; -->
  <tt>０┌─────────────────</tt><br/>
@@ -341,6 +357,7 @@ and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
 </td></tr>
 </table>
 
+<a name="UsefulOrRelatedUnicodeChars"></a>
 List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><br/>
 ( We will use some of these in our dialog messages from this ‘script’ )
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
@@ -378,7 +395,7 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
 <tr><td>• (Curved/Curly) Left Double Quotation-Mark: “ (&ldquo;) (&amp;#8220;) &amp;ldquo; 🍎⌥Opt+[ ❖Alt+0147 </td><td>• (Curved/Curly) Right Double Quotation-Mark: ” (&rdquo;) (&amp;#8221;) &amp;rdquo; 🍎⌥Opt+⇧Shift+] ❖Alt+0148 </td><td>• Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; </td></tr>
 <tr><td>• (Curved/Curly) Left Single-Quotation-Mark ‘ (&lsquo;) &amp;#8216; &amp;lsquo; 🍎⌥Opt+] ❖Alt+0145 </td><td>• (Curved/Curly) Right Single-Quotation-Mark ’ (&rsquo;) &amp;#8217; &amp;rsquo; 🍎⌥Opt+⇧Shift+] ❖Alt+0146 </td><td>• Single High-Reversed-9 Quotation-Mark ‛ &amp;#8219; </td></tr>
 <tr><td colspan="3">• (CJK) Reversed Double Prime Quation Mark 〝 U+301D • (CJK) Double Prime Quotation Mark 〞U+301E </td></tr>
-<tr><td>• (Single)-Vertical-Line (aka Pipe Char) • &amp;#124; &amp;verbar; &amp;vert; </td><td>• (Single)-Broken-Bar ¦ &amp;#166; &amp;brvbar; ❖AltGr+&#96; ❖AltGr+6 ❖AltGr+⇧Shift+Right\ </td><td> &#160; </td></tr>
+<tr><td>• (Single)-Vertical-Line (aka Pipe Char) "&#124;" &amp;#124; &amp;verbar; &amp;vert; </td><td>• (Single)-Broken-Bar "¦" &amp;#166; &amp;brvbar; ❖AltGr+&#96; ❖AltGr+6 ❖AltGr+⇧Shift+Right\ </td><td> &#160; </td></tr>
 <tr><td>• Ampersand (aka And) & &amp;#38; &amp;amp; </td><td>• Less-Than &lt; &amp;#60; &amp;lt; </td><td>• Greater-Than &gt; &amp;#62; &amp;gt; </td></tr>
 <tr><td>• Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; 🍎⌥Opt+Space ❖Alt+0160 ❖Alt+255 </td><td>• Narrow No-Break Space "&#8239;" &amp;#8239; </td><td>• Space " " &amp;#32; </td></tr>
 <tr><td>• Zero-Width Space(ZWSP) "&#8203;" &amp;#8203; U+200B </td><td> &#160; </td><td> &#160; </td></tr>
@@ -449,6 +466,7 @@ List Of Few Useful (Unicode) Characters/Symbols, & How To Use/Show Them<b>:</b><
 <tr><td>• Ballot Box ☐ &amp;#9744; U+2610 </td><td>• Ballot Box with Check ☑ &amp;#9745; U+2611 ☑&#xFE0E;(txt) </td><td>• Ballot Box with X ☒ &amp;#9746; U+2612 ☒&#xFE0E;(txt) </td></tr>
 <tr><td colspan="3">• ª U+00AA &amp;#170; &amp;ordf; • ʈ U+0288 &amp;#648; </td></tr>
 </table>
+
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <!-- %2E = ".", %3A = ":", %20 = " "(space), %5F = "_", %28 = "(", %29 = ")", %2D = "-", %7E = "~", %2C = ",", %27 = ', %22 = " -->
 <tr><td width="100%">• To display an Emoji/Emoticon(emj) as a Textual(txt) glyph (if available/renderable), Use a <a href="https://en.wikipedia.org/wiki/Variant%5Fform%5F%28Unicode%29#Variation%5FSelectors%5Fblock">VS15</a>-char(&amp;#xFE0E; or &amp;#65038;) after the Emoji, (or apply CSS, i.e: <code>span.gray { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>).<br/>
@@ -468,6 +486,9 @@ by Unicode consortium/group.<br/>
 <tr><td> http://liberties.wikidot.com/symbols1<br/>http://liberties.wikidot.com/ligatures1 </td></tr>
 </table>
 
+<p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
+
+<a name="VerifyFileAuthenticity"></a>
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td border="1" width="100%" class="UatErik81"> In macOSX, Calculate & Compare hash/checksum/digest code (it is a very unique identity code) of a file/bundle<b>:</b><br/>
 In macOSX in shell (“<code>Terminal</code>” utility) window, type command (<code>shasum</code>) & press <code>space</code> key,<br/>
@@ -502,11 +523,14 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
 </td></tr>
 </table>
 
+<a name="codesign"></a>
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td border="1" width="100%" class="UatErik81"> Sign (aka: “codesign”, aka: add digital-signature) a macOSX binary app, without being in the Mac Developer Program:<br/>
 &#160;&#160; https://stackoverflow.com/questions/27474751/ </td></tr>
 <tr><td border="1" width="100%" class="UatErik81"> &#160; </td></tr>
 </table>
+
+<p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
 
 <dl width="100%"><dd width="100%">&#8239;<dl width="100%"><dd width="100%">
  <a name="Abbreviations"></a><b>Abbreviations:</b><br/>
@@ -524,7 +548,8 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  <b>•</b> Win = ❖ = Windows OS = WinOS . WinOS developed by Microsoft corp . ClosedSource GUI OS . Windows 9X , Me & earlier WinOS used Monolithic kernel & was based on “Interface Manager”, etc. Later WinCE-family & WinNT-family of WinOS used Hybrid(NT) Kernel. Initial WinOS was a Graphical-Shell of MS-DOS OS, initially MS-DOS was based on CP/M-OS, 86-DOS, etc. WinOS-10/Win10 includes MS-Edge web-browser, its initially based on Trident engine, then changed into Blink(CM) engine.<br/>
  <b>•</b> Lnx = 🐐&#xFE0E;GNU-🐧&#xFE0E;Linux = GNU/Linux = GNU/Lnx, though most users shorten/call/know it as or “Linux OS” or “Linux”. OpenSource (Unix-like) OS, with OpenSource Kernel. GNU-OS used/uses (Unix based) GNU tools/utilities developed by Richard Stallman, uses GNU-Kernel (aka GNU/Hurd-Kernel). Linux-kernel (aka “Linux”, kLnx, “Freax”) was developed by Linus Torvald based on Unix & MINIX-OS, to replace MINIX-OS. MINIX was/is based on Unix (v7) tools/utilies & it uses microkernel. MINIX began to use GNU tools/utilies after GNU was released). When AT&T filed lawsuit against BSD, users/devs could not get+use new/updated BSD/BSD-kernel, & all users/devs realized they needed a “free” OS-&-kernel without AT&T’s-restrictions, & this “Linux” was build+available exactly/around that time with “free” GNU-GPL license & tools/utilities, So users/devs ended-up using this “GNU/Linux” instead of BSD, & So “GNU/Linux” became popular. Various groups & individuals later began to develop/release various distros/OSes based on GNU/Linux or GNU/Hurd (aka GNU/Mach) or GNU/BSD etc etc. All of these were/are primarily a derivative of Unix.<br/>
  <b>•</b> AOS = 🤖&#xFE0E; = Andr = Android OS . A (GUI) OS developed by Google LLC (under Alphabet Inc), with members of OHA consortium, & by open-source dev(s)+individual(s). Many components are open-source, except these CLOSED-SOURCE components: “Google Play”, “Google Play Services”, etc, etc, etc). Andr uses (BSD based) Bionic C-Lib, uses ToyBox (based on older BusyBox) based Unix utilities, mksh, etc. Andr uses modified Linux-kernel.<br/>
- <b>•</b> iOS = 🍎📱 . Developed by Apple Inc, used in/as iPhone OS, iPad OS, etc. Its a closed-source GUI OS. Based on (Unix->BSD->&#41; Darwin OS. Uses Hybrid(XNU) Kernel.<!-- ( = &#40; , ) =&#41; -->
+ <b>•</b> iOS = 🍎📱 . Developed by Apple Inc, used in/as iPhone OS, iPad OS, etc. Its a closed-source GUI OS. Based on (Unix->BSD->&#41; Darwin OS. Uses Hybrid(XNU) Kernel.<!-- ( = &#40; , ) = &#41; -->
 </dd></dl></dd></dl>
 
+<p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
 <br/>
