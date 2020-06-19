@@ -44,7 +44,7 @@ Also Be Modified/Adapted To Use With Any Other “Portable OSX Apps”.
 <br/>
 
 <a name="index"></a><!-- “:” = &#58; -->
-<dl><dd>Content/Index List<b>:</b> <a href="#intro">Intro</a> ¦ <a href="#Old-Script">Old-Script</a> ¦ <a href="#Script-Type">Script-Type</a> ¦ <a href="#New-Script">New-Script</a> ¦ <a href="#Platypus">Platypus</a> ¦ <a href="#Cocoa-Dialog">Cocoa-Dialog</a> ¦ <a href="#Pashua">Pashua</a> ¦ <a href="#pre-build">Pre-Build</a>&#58;( <a href="#pb-1">PB-1</a>, <a href="#pb-2">PB-2</a>, <a href="#pb-3">PB-3</a>, <a href="#pb-4">PB-4</a>, <a href="#pb-5">PB-5</a> ) ¦ <a href="#build">Build</a>&#58;( <a href="#b-1">B-1</a>, <a href="#b-2">B-2</a>, <a href="#b-3">B-3</a>, <a href="#b-4">B-4</a>, <a href="#b-5">B-5</a> ) ¦ <a href="#Errors">Errors</a> ¦ <a href="#HelpToBuild">Help-To-Build</a> ¦ <a href="#extra-notes">Extra-Notes</a>&#58;( <a href="#LoadFoldersUnderRootFolder">Load Folders Under RootFolder</a>, <a href="#ShowAllFilesFolders">Show All Files Folders</a>, <a href="#UsefulOrRelatedUnicodeChars">Related Unicode Chars</a>, <a href="#VerifyFileAuthenticity">Verify File Authenticity</a>, <a href="#codesign">CodeSign</a> ) ¦ <a href="#Abbreviations">Abbreviations</a>.</dd></dl>
+<dl><dd>Content/Index List<b>:</b> ¦ <a href="#intro">Intro</a> ¦ <a href="#Old-Script">Old-Script</a> ¦ <a href="#Script-Type">Script-Type</a> ¦ <a href="#New-Script">New-Script</a> ¦ <a href="#Platypus">Platypus</a> ¦ <a href="#Cocoa-Dialog">Cocoa-Dialog</a> ¦ <a href="#Pashua">Pashua</a> ¦ <a href="#pre-build">Pre-Build</a>&#58;( <a href="#pb-1">PB-1</a>, <a href="#pb-2">PB-2</a>, <a href="#pb-3">PB-3</a>, <a href="#pb-4">PB-4</a>, <a href="#pb-5">PB-5</a> ) ¦ <a href="#build">Build</a>&#58;( <a href="#b-1">B-1</a>, <a href="#b-2">B-2</a>, <a href="#b-3">B-3</a>, <a href="#b-4">B-4</a>, <a href="#b-5">B-5</a> ) ¦ <a href="#Errors">Errors</a> ¦ <a href="#HelpToBuild">Help-To-Build</a> ¦ <a href="#extra-notes">Extra-Notes</a>&#58;( <a href="#LoadFoldersUnderRootFolder">Load Folders Under RootFolder</a>, <a href="#ShowAllFilesFolders">Show All Files Folders</a>, <a href="#UsefulOrRelatedUnicodeChars">Related Unicode Chars</a>, <a href="#VerifyFileAuthenticity">Verify File Authenticity</a>, <a href="#codesign">CodeSign</a> ) ¦ <a href="#Abbreviations">Abbreviations</a> ¦</dd></dl>
 
 <a name="Old-Script"></a>
 <b>OLD SCRIPT:</b><br/><!-- %2E is "." , %3A is ":" , %20 is " "(space), %5F is "_" -->
@@ -73,27 +73,28 @@ The ‘<b>script</b>’ is a bash shell script file, Executable file, and it is 
 <br/>
 
 
-<a name="New-Script"></a>
+<a name="New-Script"></a><a name="License"></a>
 <b>NEW SCRIPT:</b>🆕<br/>
 
-New ‘<a href="https://github.com/atErik/Portable-Firefox-OSX-script/blob/master/script">script</a>’ v4.1.x (v4.1.4) Are released under below <b>Licenses</b> + <b>Restrictions</b> + <b>Permissions:</b><br/>
-&#160;&#160;- GNU General Public License Version 3 (<a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL v3</a>)<br/>
-&#160;&#160;- Do Not Use This To Kill/Harm/Violate (or Steal from) (Any) Human/Community,Earth,etc<br/>
-&#160;&#160;Copyright <b>©</b> 2020 by Erik T Ashfolk - &lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m&gt;<br/>
-&#160;&#160;(All other trademarks, etc cited here are the property of their respective owners&#46;)
+New ‘<a href="https://github.com/atErik/Portable-Firefox-OSX-script/blob/master/script">script</a>’ v4.1.x (v4.1.4) Are released under below <b>License</b>(s) + <b>Restrictions</b>+<b>Permissions:</b><br/>
+&#160;&#160;<b>◦</b> GNU General Public License Version 3 (<a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL v3</a>)<br/>
+&#160;&#160;<b>◦</b> Do Not Use This To Kill/Harm/Violate (or Steal from) (Any) Human/Community,Earth,etc<br/>
+&#160;&#160;<b>◦</b> Copyright <b>©</b> 2020 Erik T Ashfolk - &lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m&gt;(Type with basic-latin char)(No soliciting permitted)<br/>
+&#160;&#160;<b>◦</b> (All other trademarks, etc cited here are the property of their respective owners&#46;)<br/>
+&#160;&#160;<b>◦</b> (All other copyright items cited here are the copyright of their respective author/creator&#46;)
 
 This ‘script’ v4.1/v4.1.x file is usually used from such (i.e) location, in macOSX<b>:</b><br/>
-&#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/Resources/script"<br/><!-- “.” is &#46; -->
+&#160;&#160;"/MyPortableDriveName/PortableApps/MyPortableFF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/Resources/script"<br/><!-- “.” is &#46; -->
 
-This ‘script’ v4.1/v4.1.x is (i.e) used by the below binary “Portable Firefox” executable file<b>:</b><br/>
-&#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/MacOS/Portable Firefox"<br/><!-- “.” is &#46; -->
+This ‘script’ v4.1/v4.1.x is used by the below “Portable Firefox”, a binary executable file<b>:</b><br/>
+&#160;&#160;"/MyPortableDriveName/PortableApps/MyPortableFF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/MacOS/Portable Firefox"<br/><!-- “.” is &#46; -->
 
 <div> That binary “Portable Firefox” is created by Platypus,<br/>
-Platypus also creates the <code>“Portable Firefox.app”</code> bundle.
-<dl><dd>
- A developer/user can either place/compress that <code>Portable-*.app</code> bundle inside a <code>.dmg</code> file to share it with users for downloading, from developer/user’s website.
-</dd><dd>
- Or, a developer/user can build the <code>Portable-*.app</code> with an (older) unmodified (Firefox) app, and share with Users that file & an accompanying instruction file on How-To update, to use latest (Firefox) app.
+Platypus also creates the <code>“Portable Firefox.app”</code> bundle.<br/>
+That binary is placed inside the <code>“Portable Firefox.app”</code> bundle.<dl>
+<dd>
+ <b>◦</b> A developer/user can either place/compress that <code>Portable-*.app</code> bundle inside a <code>*.dmg</code> file, to share it with users/others for downloading, from developer/user’s website, (Note: pkg must include all license(s) & source files).<br/>
+ <b>◦</b> Or, a developer/user can build the <code>Portable-*.app</code> with an (older) unmodified (official Firefox) app, and share with Users that file <code>*.app</code> or <code>*.dmg</code> file with an accompanying instruction/readme file on How-To update/change included Firefox, into latest or another Firefox app. (Note: pkg must include all license(s) & source files).
 </dd><dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd></dl>
 </div>
 
@@ -104,10 +105,10 @@ Platypus also creates the <code>“Portable Firefox.app”</code> bundle.
  New website: https://Sveinbjorn.org/platypus<br/>
  GitHub: https://GitHub.com/sveinbjornt/Platypus<br/>
  <br/>
- Platypus (v5.3 & later version) seems to be able to generate 64bit-only app bundles,<br/>
+ Platypus (v5.3 & later version) seems to be able to generate 64bit-only compatible app bundles,<br/>
  but it does not (digitally) sign or provide option to sign the generated app bundle,<br/>
- so it seems only Admin level privileged user can use+run Platypus generated apps,<br/>
- in 64bit-only macOSX(Catalina & after...) and also in 64bit+32bit supported macOSX(Mojave & earlier...)
+ so it seems, only Admin level privileged user can use+run Platypus generated apps,<br/>
+ in 64bit-only macOSX(Catalina & macOSX after it) and also in 64bit+32bit supported macOSX(Mojave & macOSX before it)
 </dd></dl>
 </div><br/>
 
