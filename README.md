@@ -44,7 +44,11 @@ Also Be Modified/Adapted To Use With Any Other “Portable OSX Apps”.
 <br/>
 
 <a name="index"></a><!-- “:” = &#58; -->
-<dl><dd>Content/Index List<b>:</b> ¦ <a href="#intro">Intro</a> ¦ <a href="#Old-Script">Old-Script</a> ¦ <a href="#Script-Type">Script-Type</a> ¦ <a href="#New-Script">New-Script</a> ¦ <a href="#Platypus">Platypus</a> ¦ <a href="#Cocoa-Dialog">Cocoa-Dialog</a> ¦ <a href="#Pashua">Pashua</a> ¦ <a href="#pre-build">Pre-Build</a>&#58;( <a href="#pb-1">PB-1</a>, <a href="#pb-2">PB-2</a>, <a href="#pb-3">PB-3</a>, <a href="#pb-4">PB-4</a>, <a href="#pb-5">PB-5</a> ) ¦ <a href="#build">Build</a>&#58;( <a href="#b-1">B-1</a>, <a href="#b-2">B-2</a>, <a href="#b-3">B-3</a>, <a href="#b-4">B-4</a>, <a href="#b-5">B-5</a> ) ¦ <a href="#Errors">Errors</a> ¦ <a href="#HelpToBuild">Help-To-Build</a> ¦ <a href="#extra-notes">Extra-Notes</a>&#58;( <a href="#LoadFoldersUnderRootFolder">Load Folders Under RootFolder</a>, <a href="#ShowAllFilesFolders">Show All Files Folders</a>, <a href="#UsefulOrRelatedUnicodeChars">Related Unicode Chars</a>, <a href="#VerifyFileAuthenticity">Verify File Authenticity</a>, <a href="#codesign">CodeSign</a> ) ¦ <a href="#Abbreviations">Abbreviations</a> ¦</dd></dl>
+<dl><dd>Content/Index List<b>:</b> ¦ <a href="#intro">Intro</a> ¦ <a href="#Old-Script">Old-Script</a> ¦ <a href="#Script-Type">Script-Type</a> ¦ <a href="#New-Script">New-Script</a> ¦ <a href="#Platypus">Platypus</a> ¦ <a href="#Cocoa-Dialog">Cocoa-Dialog</a> ¦ <a href="#Pashua">Pashua</a> ¦ <a href="#pre-build">Pre-Build</a> ( <a href="#pb-1">PB-1</a>, <a href="#pb-2">PB-2</a>, <a href="#pb-3">PB-3</a>, <a href="#pb-4">PB-4</a>, <a href="#pb-5">PB-5</a> ) ¦ <a href="#build">Build</a> ( <a href="#b-1">B-1</a>, <a href="#b-2">B-2</a>, <a href="#b-3">B-3</a>, <a href="#b-4">B-4</a>, <a href="#b-5">B-5</a> ) ¦ <a href="#Errors">Errors</a> ¦ <a href="#HelpToBuild">Help-To-Build</a> ¦ <a href="#extra-notes">Extra-Notes</a>&#58;( <a href="#LoadFoldersUnderRootFolder">Load Folders Under RootFolder</a>, <a href="#ShowAllFilesFolders">Show All Files Folders</a>, <a href="#UsefulOrRelatedUnicodeChars">Related Unicode Chars</a>, <a href="#VerifyFileAuthenticity">Verify File Authenticity</a>, <a href="#codesign">CodeSign</a> ) ¦ <a href="#Abbreviations">Abbreviations</a> ¦</dd><dd><div align="center">
+ macOSX Catalina version is 10.15.x<br/>
+ macOSX Mojave version is 10.14.x
+</div>
+</dd></dl>
 
 <a name="Old-Script"></a>
 <b>OLD SCRIPT:</b><br/><!-- %2E is "." , %3A is ":" , %20 is " "(space), %5F is "_" -->
@@ -74,12 +78,12 @@ The ‘<b>script</b>’ is a bash shell script file, Executable file, and it is 
 
 
 <a name="New-Script"></a><a name="License"></a>
-<b>NEW SCRIPT:</b>🆕<br/>
+<b>NEW SCRIPT:</b>🆕<br/><!-- “(” = %28 , “)” = %29 , “.” = &#46; -->
 
-New ‘<a href="https://github.com/atErik/Portable-Firefox-OSX-script/blob/master/script">script</a>’ v4.1.x (v4.1.4) Are released under below <b>License</b>(s) + <b>Restrictions</b>+<b>Permissions:</b><br/>
+New ‘<a href="script">script</a>’ v4.1.x (v4.1.4) Are released under below <b>License</b>(s) + <b>Restrictions</b>+<b>Permissions:</b><br/>
 &#160;&#160;<b>◦</b> GNU General Public License Version 3 (<a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL v3</a>)<br/>
 &#160;&#160;<b>◦</b> Do Not Use This To Kill/Harm/Violate (or Steal from) (Any) Human/Community,Earth,etc<br/>
-&#160;&#160;<b>◦</b> Copyright <b>©</b> 2020 Erik T Ashfolk - &lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m&gt;(Type with basic-latin char)(No soliciting permitted)<br/>
+&#160;&#160;<b>◦</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m&gt;, Use <a href="https://en.wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29">basic-latin</a> char. No soliciting permitted&#46;) All rights reserved.<br/>
 &#160;&#160;<b>◦</b> (All other trademarks, etc cited here are the property of their respective owners&#46;)<br/>
 &#160;&#160;<b>◦</b> (All other copyright items cited here are the copyright of their respective author/creator&#46;)
 
@@ -94,7 +98,7 @@ Platypus also creates the <code>“Portable Firefox.app”</code> bundle.<br/>
 That binary is placed inside the <code>“Portable Firefox.app”</code> bundle.<dl>
 <dd>
  <b>◦</b> A developer/user can either place/compress that <code>Portable-*.app</code> bundle inside a <code>*.dmg</code> file, to share it with users/others for downloading, from developer/user’s website, (Note: pkg must include all license(s) & source files).<br/>
- <b>◦</b> Or, a developer/user can build the <code>Portable-*.app</code> with an (older) unmodified (official Firefox) app, and share with Users that file <code>*.app</code> or <code>*.dmg</code> file with an accompanying instruction/readme file on How-To update/change included Firefox, into latest or another Firefox app. (Note: pkg must include all license(s) & source files).
+ <b>◦</b> Or, a developer/user can build the <code>Portable-*.app</code> with an (older) unmodified (official Firefox) app, and share with Users the <code>*.app</code> or <code>*.dmg</code> bundle/file with an accompanying instruction/readme file on How-To update/change included Firefox, into latest or another Firefox app. (Note: pkg must include all license(s) & source files).
 </dd><dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd></dl>
 </div>
 
@@ -131,7 +135,7 @@ So we must change existing dialog program (a program to assist interaction betwe
 
 <a name="Pashua"></a>
 <b>PASHUA:</b><br/>
-<div width="100%"> Pashua dialog seems to be a good choice for now (as a ‘dialog’/interaction assistor), Check here<b>:</b>
+<div width="100%"> Pashua dialog seems to be a good choice for now (as a ‘dialog’/interaction assistor), (its licensed-under <a href="BSD-3-clause.txt">BSD-3-clause</a>), Check here<b>:</b>
 <dl width="100%"><dd width="100%">
  Website: https://www.BlueM.net/en/projects/pashua/<br/>
  Github: https://GitHub.com/BlueM/Pashua
@@ -172,7 +176,7 @@ then Platypus will place/copy them, inside below folder location, inside the <co
 &#160;&#160; from here: https://Sveinbjorn.org/platypus<br/>
 and install in your (64bit-only macOSX(Catalina & later) based) mac computer.<br/>
 Or get Platypus v4.9, as that is the last 32bit supported ( & working) Platypus,<br/>
-to build/wrap macOS app⒮ in 64bit+32bit suppported macOSX (Mojave & earlier).<br/>
+to build/wrap macOS app⒮ in 64bit+32bit suppported macOSX (Mojave or earlier macOSX).<br/>
 
 <div><a name="pb-3"></a>PB-3: Obtain Pashua dialog from here : https://www.BlueM.net/en/projects/pashua/
 <dl><dd>Open dmg installer, Copy "Pashua&#46;app", "Pashua&#46;sh" into below build related folder<b>:</b><br/>
@@ -275,7 +279,8 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
   <b>◦</b> icon-file : appIcon&#46;icns<br/>
   <b>◦</b> sh-script-file : pashua&#46;sh<br/>
   <b>◦</b> sh-script-file : script<br/>
-  <b>◦</b> license-file : gpl-3.0.txt
+  <b>◦</b> license-file : gpl-3.0.txt<br/>
+  <b>◦</b> license-file : MPL-1.1.txt
 </dd></dl>
 </dd></dl>
 </div><br/>
@@ -553,7 +558,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  Acronyms, Recursive Backronyms & Abbreviations used here<b>:</b></td></tr>
 <tr><td><a name="abbr"></a><b>•</b> Dev = Develope = Bld = Build . Web-Browser = WB = WebBr . Ver = Version = v . Mem = Memory . Mngr = Manager . Virtual = Virt . FileSystem = FS . Network = Net . Socket = Sock . Security = Sec . Hardware = HW . Software = SW . Firmware = FW . Driver = Drvr = Drv . Server = Srv . Service = Svc . Graphics = Grph . Engine = Engn . JavaScript = JS . Apple = Apl . Microsoft = MS . Google = Ggl . Mozilla = Mz .</td></tr>
 <tr><td><a name="PA"></a><b>•</b> PA = Portable Apps . Ususally kept-in & run from a user’s External/Portable drives/storage, Or PA is kept-in & run from internal-Storage when a user need to run 2nd or multiple instances of same PA apps with different profile(s)/settings.</td></tr>
-</table>
+</table><!-- “(” = %28 , “)” = %29 -->
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td border="1" width="100%"><a name="FF"></a><b>•</b> FF = Firefox . A web-browser from Mozilla Foundation. Before FF v57 it used <a href="https://en.wikipedia.org/wiki/Gecko%5F%28software%29">Gecko</a> engine. Since v57, FF was renamed as “Firefox <a href="https://en.wikipedia.org/wiki/Quantum%5F%28Mozilla%29#Quantum">Quantum</a>”(FFQ) & began to use a different & new web-browser engine, & Mozilla REMOVED SUPPORT FOR ALL PREVIOUS ADDONS/PLUGINS in FFQ !!! and, Although major parts of new engine were+are mostly based on <a href="https://en.wikipedia.org/wiki/Servo%5F%28software%29">Servo</a>,..engine but it is still (deceptively/purposely) named/known as same “Gecko”! some users (correctly) calls/identifies it GwS(“Gecko-with-Servo” or “Gecko-w/Servo”) or SbG(“Servo-based-Gecko”) or in-short just “Servo” engine. I will call it here, just Servo or GwS or SbG. FFQ in iOS was forced to use WebKit based engine. Lots of PLUGINS existed & was released for (older) Gecko based older FF (before v57), Mozilla STOPPED sharing/distrubuting ALL OF THOSE ADDONS/PLUGINS for older Gecko based older “Firefox” !!! Which indicated (again & sadly, that) Mozilla products are not-reliable & not-stable & cannot be depended-upon. Now there are very VERY LESS PLUGINS availble/ported/released for Servo/GwS based FFQ (v57 & after). WebRTC is kept in enabled state by-default, which can reveal user’s local location without user’s consent with full-awareness, which is a violation of Privacy-Rights, & this type of violation is also done by other new web-browsers too!</td></tr>
 <tr><td><a name="SF"></a><b>•</b> SF = AS = Safari . A web-browser developed by Apple Inc . Proprietary . Uses open-source WebKit based engine. WebKit was closed-source & based-on OpenSource KDE-HTML(KHTML) layout engine & OpenSource KDE-JS(KJS) engine, etc. KHTML in WebKit was renamed into WebCore, & KJS in WebKit was renamed into JavaScriptCore by Apple Inc. Later WebKit was made open-source(LGPL) by Apple Inc, and then Adobe Systems, KDE, Igalia, and others joined. Later JavaScriptCore was replaced with SquirrelFish JS (SFX) engine in WebKit. WebKit was internally upgraded into WebKit2. Many other web-browsers are actually based on modified/customized version of WebKit engine. WebKit devs have removed GC related codes, after Google forked WebKit & created (WebKit-based) Blink for GC. Apple Inc forcefully/indirectly restricts other devs/groups, i.e: devs are forced to use WebKit to develop their apps for macOS/iOS, etc.</td></tr>
@@ -570,7 +575,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
 </table>
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td border="1" width="100%"><a name="AOS"></a><a name="Andr"></a><b>•</b> AOS = 🤖&#xFE0E; = Andr = Android OS . A (GUI) OS developed by Google LLC (under Alphabet Inc), with members of OHA consortium, & by open-source dev(s)+individual(s). Many components are open-source, except these CLOSED-SOURCE components: “Google Play”, “Google Play Services”, etc, etc, etc). Andr uses (BSD based) Bionic C-Lib, uses ToyBox (based on older BusyBox) based Unix utilities, mksh, etc. Andr uses modified Linux-kernel.</td></tr>
-<tr><td><a name="iOS"></a><b>•</b> iOS = 🍎📱 . Developed by Apple Inc, used in/as iPhone OS, iPad OS, etc. Its a closed-source GUI OS. Based on (Unix->BSD->&#41; Darwin OS. Uses Hybrid(XNU) Kernel.</td></tr><!-- ( = &#40; , ) = &#41; -->
+<tr><td><a name="iOS"></a><b>•</b> iOS = 🍎📱 . Developed by Apple Inc, used in/as iPhone OS, iPad OS, etc. Its a closed-source GUI OS. Based on (Unix->BSD->&#41; Darwin OS. Uses Hybrid(XNU) Kernel.</td></tr><!-- “(” = &#40; , “)” = &#41; -->
 <tr><td align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></td></tr>
 </table>
 <br/>
