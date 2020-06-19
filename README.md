@@ -38,12 +38,12 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 A ‘script’ To Run "Firefox&#46;app" As an OSX PortableApps, From Inside the<br/>
 "Portable AppName&#46;app" bundle in MacOSX.  So We Are ( Working-on & Developing & )<br/>
 Modifying & Updating This ‘script’ To Include/Use 64bit Pashua dialog, 64bit Platypus,<br/>
-etc To Execute/Run/Use it On Both 64bit-Only (Current) macOSX and Also On 64bit+32bit<br/>
-(older) macOSX. New-‘script’ Can Also Be Modified/Adapted To Use With Any Other<br/>
-“Portable OSX Apps”.
+etc To Execute/Run/Use it On Both 64bit-Only (Current) macOSX (Catalina & macOSX after it)<br/>
+and Also On 64bit+32bit (older) macOSX (Mojave & macOSX before it). New-‘script’ Can<br/>
+Also Be Modified/Adapted To Use With Any Other “Portable OSX Apps”.
 <br/>
 
-<a name="index"></a><!-- : = &#58; -->
+<a name="index"></a><!-- “:” = &#58; -->
 <dl><dd>Content/Index List<b>:</b> <a href="#intro">Intro</a> ¦ <a href="#Old-Script">Old-Script</a> ¦ <a href="#Script-Type">Script-Type</a> ¦ <a href="#New-Script">New-Script</a> ¦ <a href="#Platypus">Platypus</a> ¦ <a href="#Cocoa-Dialog">Cocoa-Dialog</a> ¦ <a href="#Pashua">Pashua</a> ¦ <a href="#pre-build">Pre-Build</a>&#58;( <a href="#pb-1">PB-1</a>, <a href="#pb-2">PB-2</a>, <a href="#pb-3">PB-3</a>, <a href="#pb-4">PB-4</a>, <a href="#pb-5">PB-5</a> ) ¦ <a href="#build">Build</a>&#58;( <a href="#b-1">B-1</a>, <a href="#b-2">B-2</a>, <a href="#b-3">B-3</a>, <a href="#b-4">B-4</a>, <a href="#b-5">B-5</a> ) ¦ <a href="#Errors">Errors</a> ¦ <a href="#HelpToBuild">Help-To-Build</a> ¦ <a href="#extra-notes">Extra-Notes</a>&#58;( <a href="#LoadFoldersUnderRootFolder">Load Folders Under RootFolder</a>, <a href="#ShowAllFilesFolders">Show All Files Folders</a>, <a href="#UsefulOrRelatedUnicodeChars">Related Unicode Chars</a>, <a href="#VerifyFileAuthenticity">Verify File Authenticity</a>, <a href="#codesign">CodeSign</a> ) ¦ <a href="#Abbreviations">Abbreviations</a>.</dd></dl>
 
 <a name="Old-Script"></a>
@@ -88,12 +88,12 @@ This ‘script’ v4.1/v4.1.x file is usually used from such (i.e) location, in 
 This ‘script’ v4.1/v4.1.x is (i.e) used by the below binary “Portable Firefox” executable file<b>:</b><br/>
 &#160;&#160;"/MyPortableDrive/PortableApps/FF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/MacOS/Portable Firefox"<br/><!-- “.” is &#46; -->
 
-<div> The binary “Portable Firefox” is created by Platypus,<br/>
+<div> That binary “Portable Firefox” is created by Platypus,<br/>
 Platypus also creates the <code>“Portable Firefox.app”</code> bundle.
 <dl><dd>
  A developer/user can either place/compress that <code>Portable-*.app</code> bundle inside a <code>.dmg</code> file to share it with users for downloading, from developer/user’s website.
 </dd><dd>
- Or, a developer/user can build the <code>Portable-*.app</code> with an (older) unmodified (Firefox) app, and share with Users that file & an accompanying instruction file on How-To update to use latest (Firefox) app.
+ Or, a developer/user can build the <code>Portable-*.app</code> with an (older) unmodified (Firefox) app, and share with Users that file & an accompanying instruction file on How-To update, to use latest (Firefox) app.
 </dd><dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd></dl>
 </div>
 
@@ -117,15 +117,14 @@ Platypus also creates the <code>“Portable Firefox.app”</code> bundle.
 <div>The OSX PortableApps used CocoaDialog (&#46;app bundle) inside “PortableFirefoxOSX” v4.0.1 (the last/old release).
 <dl><dd><!-- “.” is &#46; -->
  But (old) CocoaDialog is NOT compatible with 64bit-only-macOSX yet, afaik.<br/>
- <br/>
  Website: https://CocoaDialog.com/<br/>
- <br/>
- So Apps/DMG which includes old CocoaDialog cannot run on 64bit-only macOSX (Catalina & later...)<br/>
+ GitHub: https://github.com/cocoadialog/cocoadialog<br/>
+ So Apps/DMG etc which includes old CocoaDialog cannot run on 64bit-only macOSX (Catalina & later...)<br/>
  and app⒮ built/wrapped with older Platypus also cannot run in 64bit-only macOSX,<br/>
- as old Platypus was not fully 64bit compatible.
+ as old Platypus was not completely 64bit compatible.
 </dd></dl>
 </div>
-So we must change existing dialog program (a program to assist interaction between user & script) functions in ‘script’, into something else.<br/>
+So we must change existing dialog program (a program to assist interaction between user & script) functions in old ‘script’, into something else, like: Pashua.<br/>
 <br/>
 
 
@@ -142,23 +141,29 @@ So we must change existing dialog program (a program to assist interaction betwe
 <b>BRING TOGETHER BUILD-RELATED ITEMS/OBJECTS,ETC (PREPARATION):</b>
 
 <div><a name="pb-1"></a>PB-1: Suppose, We are working-on/building this project from below (example) folder<b>:</b>
-<dl><dd>
+<dl><dd><!-- “:” = &#58; -->
  <code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
- ( alternatively you may/can also create a developement folder “PortableFirefox” here<b>:</b>
+<dl><dd>Above folder can also be accessed in this shorter way in (Catalina or) macOS (after it)<b>:</b>
+ <code>"/MyProjects/PortableFirefox/"</code><br/>
+ Follow <a href="#LoadFoldersUnderRootFolder">Create Folder(s) Under RootFolder</a> section for Catalina or macOS after it.
+</dd></dl>
+ Another option is to create a build/developement related folder “PortableFirefox” inside your own Userspace<b>:</b>
 <dl><dd>
-  <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )
+  <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code>
 </dd></dl>
 </dd></dl>
 </div>
 <div> So when Platypus will generate the new <code>“Portable Firefox OSX.app”</code> bundle, it will be placed here<b>:</b>
 <dl><dd>
- <code>"/System/Volumes/Data/MyProjects/PortableFirefox/Portable Firefox OSX.app"</code>
+ <code>"/System/Volumes/Data/MyProjects/PortableFirefox/Portable Firefox OSX.app"</code><br/>
+ (or, in its shorter form, here: <code>"/MyProjects/PortableFirefox/Portable Firefox OSX.app"</code>)
 </dd></dl>
 </div>
 <div> To build with Platypus, we will have to choose (various needed files, directories & bundles, etc from above location), inside the Platypus GUI interface/settings,<br/>
 then Platypus will place/copy them, inside below folder location, inside the <code>.app</code> bundle<b>:</b>
 <dl><dd>
- <code>"/System/Volumes/Data/MyProjects/PortableFirefox/Portable Firefox OSX.app/Contents/Resources/"</code>
+ <code>"/System/Volumes/Data/MyProjects/PortableFirefox/Portable Firefox OSX.app/Contents/Resources/"</code><br/>
+ ( above location’s shorter form is: <code>"/MyProjects/PortableFirefox/Portable Firefox OSX.app/Contents/Resources/"</code> )
 </dd></dl>
 </div><br/>
 
@@ -169,21 +174,23 @@ Or get Platypus v4.9, as that is the last 32bit supported ( & working) Platypus,
 to build/wrap macOS app⒮ in 64bit+32bit suppported macOSX (Mojave & earlier).<br/>
 
 <div><a name="pb-3"></a>PB-3: Obtain Pashua dialog from here : https://www.BlueM.net/en/projects/pashua/
-<dl><dd>Open dmg installer, Copy "Pashua&#46;app", "Pashua&#46;sh" into below folder<b>:</b><br/>
+<dl><dd>Open dmg installer, Copy "Pashua&#46;app", "Pashua&#46;sh" into below build related folder<b>:</b><br/>
 <!-- “.” is &#46; -->&#160;<code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
-&#160;( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )
+&#160;( shorter form of above location is: <code>"/MyProjects/PortableFirefox/"</code> )<br/>
+&#160;( or, Copy in your Userspace: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )
 </dd></dl>
 </div><br/>
 
-<div><a name="pb-4"></a>PB-4: Get last Gecko-based (Gecko-WithOut-Servo based) old <code>"Firefox-*.dmg"</code> (which has old <code>“Firefox.app”</code> inside it) from below URLs,<br/>
+<div><a name="pb-4"></a>PB-4: Get last Gecko-based (Gecko-WithOut-Servo) old <code>"Firefox-*.dmg"</code> (which has old <code>“Firefox.app”</code> inside it) from below URLs,<br/>
 or Get last Quantum/Servo-based new/latest <code>"Firefox-*.dmg"</code> from https://www.Mozilla.org/<br/>
 & extract/get/copy the <code>“Firefox.app”</code>, & place/paste it into below folder<b>:</b>
 <dl><dd>
  <code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
- ( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )
+ ( above location’s shorter form is: <code>"/MyProjects/PortableFirefox/"</code> )<br/>
+ ( or Paste in your Userspace: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )
 </dd></dl>
 </div>
-<dl><dd>The last security-updated gecko-based non-ESR old Firefox<b>:</b><dl>
+<dl><dd>The last security-updated Gecko-based non-ESR old Firefox<b>:</b><dl>
   <dd>
   FF v56.0.2 dmg file’s sha1: 79a0013664134ced2307c8e1ffa5d36f6256e8f,<br/>
   md5: a5608df45832df3ff302a7ccbe7ec3f6, 54.5 MBytes,<br/>
@@ -203,25 +210,30 @@ or Get last Quantum/Servo-based new/latest <code>"Firefox-*.dmg"</code> from htt
 <b>a:</b> Obtain old PortableFirefoxOSX App. (Download <a href="#Old-Script">link⒮</a> shown few-paragraphs above).<br/>
 <b>b:</b> Double-Click/Tap on `"PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg"` file to view internal contents(files, bundles, folders, etc).<br/>
 <b>c:</b> Copy these 3-files: `"MPL-1.1.txt"`, `"Read me.txt"`, `"gpl-3.0.txt"`, in below build location:<dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
-( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )</dd></dl>
+( above location’s shorter form is: <code>"/MyProjects/PortableFirefox/"</code> )<br/>
+( or Copy into your Userspace: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )</dd></dl>
 <b>d:</b> Create a sub-dir/sub-folder <code>"Old-PA-Firefox"</code> in above/same location shown in PB-5-c step.<br/>
 <b>e:</b> Copy the <code>"Portable Firefox OS X"</code> folder/directory from opened content of <code>"PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg"</code>, & place/paste it in below sub-dir/sub-folder location:
 <dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/Old-PA-Firefox/"</code><br/>
-( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/Old-PA-Firefox/"</code> )</dd></dl>
+( above location’s shorter form is: <code>"/MyProjects/PortableFirefox/Old-PA-Firefox/"</code> )<br/>
+( or Paste in your Userpsace: <code>"/Users/MyUserName/MyProjects/PortableFirefox/Old-PA-Firefox/"</code> )</dd></dl>
 <b>f:</b> Right-click (or Tap with double-finger) on <code>"Portable Firefox.app"</code> bundle which is here:
 <dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app"</code><br/>
-( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app"</code> )<br/>
-and select <code>“Show Package Contents”</code> option to go inside the bundle.</dd></dl>
+( above location’s shorter form is: <code>"/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app"</code> )<br/>
+( or access it from your Userspace: <code>"/Users/MyUserName/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app"</code> )<br/>
+and select <code>“Show Package Contents”</code> option, to go inside the bundle.</dd></dl>
 <b>g-1:</b> Copy these 2-folders: <code>"English.lproj"</code> (and <code>"profile"</code> if it exists), from below (inside the bundle) location:
 <dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/"</code><br/>
+( above location’s shorter form is: <code>"/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/"</code> )<br/>
 ( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/"</code> )</dd>
 <dd><b>g-2:</b> If you want to use your existing <code>"Portable Firefox OS X"</code> from your external storage/drive,
-then copy <code>"profile"</code> folder from that, into our build location.</dd>
+then Copy <code>"profile"</code> folder from that, into our build location.</dd>
 <dd><b>g-3:</b> If you want to use your existing profile in your/current system as/with Portable Firefox, then copy this folder:<br/>
 &#160;&#160;/... (i will add location+info here, wait)</dd></dl>
 <b>h:</b> Paste those folders into below (destination), our build/project folder:
 <dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
-( or <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )</dd><dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd></dl>
+( above location’s shorter form is: <code>"/MyProjects/PortableFirefox/"</code> )<br/>
+( or Paste in your Userspace: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )</dd><dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd></dl>
 
 
 ## BUILD:
@@ -241,6 +253,7 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
  <tt>３│</tt>0<br/>
  <tt>４│</tt>MacNm:~ UsrNm$<br/>
  <tt>５└─────────────────</tt><br/><br/>
+ ( the ‘script’ can also be accessed from here: <code>"/MyProjects/PortableFirefox/script.sh"</code> )<br/>
  When there is no syntax-error, (in other words, When the output is “0”), then<br/>
  copy the <code>"script.sh"</code> in same folder,<br/>
  & Rename the <code>"script.sh Copy"</code> into <code>"script"</code>,<br/>
@@ -270,6 +283,7 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
 <dl><dd>
  <b>◦</b> Script Type : Shell : /bin/sh<br/>
  <b>◦</b> Script Path : <code>/System/Volumes/Data/MyProjects/PortableFirefox/script</code><br/>
+ &#160;&#160;( above location’s shorter form is: <code>"/MyProjects/PortableFirefox/script"</code> )<br/>
  <b>◦</b> Interface : Text Window<br/>
  <b>◦</b> Unselected options : Run with root privileges , Run in background , Accept dropped items<br/>
  <b>◦</b> Selected/Check-Marked options : Remain running after execution<br/>
@@ -279,7 +293,7 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
 
 <a name="b-4"></a>B-4: Then tap/click/select/press the <code>“Create App”</code> button.<br/><!-- “.” is &#46; -->
 It will create/generate a new <code>“Portable Firefox.app”</code>, that is<br/>
-compatible with 64-only macOSX(Catalina/...)<br/>
+compatible with 64-only macOSX (Catalina or macOSX after it)<br/>
 
 <a name="b-5"></a>B-5: Run/execute/TEST it.
 <br/>
@@ -287,10 +301,17 @@ compatible with 64-only macOSX(Catalina/...)<br/>
 <a name="Errors"></a>
 <b>ERRORs/PROBLEMs:</b><br/>
 
-Write down what error⒮ you’re getting, try to research & try to solve as much possible,<br/>
-then let us know in FreeSMUG forum about your unsolved errors & share your code changes<b>:</b><br/>
-&#160;&#160; http://www.FreeSMUG.org/forum/t-13404441/<br/>
-If no errors, then please share your final working code in FreeSMUG & also in GitHub, Thank-you.<br/>
+If you have spotted an bug/error/fault, then let us know,<br/>
+create/report an issue under this project in GitHub.<br/>
+And during/after build, if you received/observed/found Error(s)<br/>
+please Write down what Error⒮ you’re getting,<br/>
+try to research & try to solve as much possible,<br/>
+and/then Let us know about your unsolved errors & Share your code changes<br/>
+either in <a href="http://www.FreeSMUG.org/forum/t-13404441/">FreeSMUG-forum</a> or Create an <a href="https://github.com/atErik/Portable-Firefox-OSX-script/issues/new/choose">Issue</a> here in GitHub, & submit info.<br/>
+<br/>
+If no errors, even then please share your final working code, your OS info, etc<br/>
+either: by Forking/Cloning (this project) + Edit/Change & Test ‘script’ file in your side/computer + Push your own (successful/working) code-changes inside your own (this)-cloned-project first + then send a Pull-request to this project,<br/>
+or: by Sharing/pasting your code-changes, by using the create new “Issue” option in GitHub under this project.<br/>
 <br/>
 
 <a name="HelpToBuild"></a>
@@ -329,8 +350,16 @@ and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
  <tt>２│</tt>sudo mkdir -p /System/Volumes/Data/Development<br/>
  <tt>３└─────────────────</tt>
 </dd></dl>
-... and then you must Reboot.<br/>
+... and then you must REBOOT.<br/>
 <br/>
+Now "MyProjects" or "Development" folder(s) can be accessed in these ways:
+<dl><dd>
+ <code>"/System/Volumes/Data/MyProjects"</code><br/>
+ <code>"/System/Volumes/Data/Development"</code><br/>
+ and also in its shorter form:<br/>
+ <code>"/MyProjects"</code><br/>
+ <code>"/Development"</code>
+</dd></dl>
 </td></tr>
 </table>
 
