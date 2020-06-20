@@ -80,10 +80,10 @@ The ‘<b>script</b>’ is a bash shell script file, Executable file, and it is 
 <a name="New-Script"></a><a name="License"></a>
 <b>NEW SCRIPT:</b>🆕<br/><!-- “(” = %28 , “)” = %29 , “.” = &#46; -->
 
-New ‘<a href="script">script</a>’ v4.1.x (v4.1.4) Are released under below <b>License</b>(s) + <b>Restrictions</b>+<b>Permissions:</b><br/>
+New ‘<a href="script">script</a>’ v4.1.x (v4.1.4) Are released with+under below (multiple) <b>License</b>(s) + <b>Restrictions</b>+<b>Permissions:</b><br/>
 &#160;&#160;<b>◦</b> GNU General Public License Version 3 (<a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL v3</a>)<br/>
 &#160;&#160;<b>◦</b> Do Not Use This To Kill/Harm/Violate (or Steal from) (Any) Human/Community,Earth,etc<br/>
-&#160;&#160;<b>◦</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m&gt;, Use <a href="https://en.wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29">basic-latin</a> char. No soliciting permitted&#46;) All rights reserved.<br/>
+&#160;&#160;<b>◦</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m&gt;, Use <a href="https://en.wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29">basic-latin</a> char. No soliciting permitted)&#46; All rights reserved.<br/>
 &#160;&#160;<b>◦</b> (All other trademarks, etc cited here are the property of their respective owners&#46;)<br/>
 &#160;&#160;<b>◦</b> (All other copyright items cited here are the copyright of their respective author/creator&#46;)
 
@@ -109,17 +109,18 @@ That binary is placed inside the <code>“Portable Firefox.app”</code> bundle.
  New website: https://Sveinbjorn.org/platypus<br/>
  GitHub: https://GitHub.com/sveinbjornt/Platypus<br/>
  <br/>
- Platypus (v5.3 & later version) seems to be able to generate 64bit-only compatible app bundles,<br/>
- but it does not (digitally) sign or provide option to sign the generated app bundle,<br/>
- so it seems, only Admin level privileged user can use+run Platypus generated apps,<br/>
- in 64bit-only macOSX(Catalina & macOSX after it) and also in 64bit+32bit supported macOSX(Mojave & macOSX before it)
+ Platypus is licensed under <a href="BSD-3-clause.txt">BSD-3-clause</a>, & Platypus (v5.3 & later version) seems to be able<br/>
+ to generate 64bit-only compatible app bundles, but it does not (digitally) sign or<br/>
+ provides option to sign the generated app bundle, So it seems, only Admin level<br/>
+ privileged user can use+run Platypus generated apps, in 64bit-only macOSX(Catalina<br/>
+ & macOSX after it) and also in 64bit+32bit supported macOSX(Mojave & macOSX before it)
 </dd></dl>
 </div><br/>
 
 
 <a name="Cocoa-Dialog"></a>
 <b>COCOA-DIALOG:</b><br/>
-<div>The OSX PortableApps used CocoaDialog (&#46;app bundle) inside “PortableFirefoxOSX” v4.0.1 (the last/old release).
+<div>The OSX PortableApps used CocoaDialog (&#46;app bundle) inside “PortableFirefoxOSX” v4.0.1 (the last/old release). CocoaDialog is licensed under <a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html">GPL-2.0</a>.
 <dl><dd><!-- “.” is &#46; -->
  But (old) CocoaDialog is NOT compatible with 64bit-only-macOSX yet, afaik.<br/>
  Website: https://CocoaDialog.com/<br/>
@@ -272,15 +273,19 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
  choose these below files, directories, bundles inside Platypus GUI interface<b>:</b>
 <dl><dd><!-- “.” is &#46; -->
   <b>◦</b> directory : English&#46;lproj<br/>
-  <b>◦</b> directory : profile<br/>
+  <b>◦</b> directory (optional) : profile<br/>
   <b>◦</b> bundle : Firefox&#46;app<br/>
   <b>◦</b> bundle : Pashua&#46;app<br/>
   <b>◦</b> icon-file : P_Firefox_Caution&#46;icns<br/>
   <b>◦</b> icon-file : appIcon&#46;icns<br/>
   <b>◦</b> sh-script-file : pashua&#46;sh<br/>
   <b>◦</b> sh-script-file : script<br/>
-  <b>◦</b> license-file : gpl-3.0.txt<br/>
-  <b>◦</b> license-file : MPL-1.1.txt
+  <b>◦</b> license-file : GPL-3.0_LICENSE_for_script.txt<br/>
+  <b>◦</b> license-file : MPL-1.1.txt<br/>
+  <b>◦</b> license-file : MPL-2.0_LICENSE_for_Firefox.txt<br/>
+  <b>◦</b> license-file : BSD-3-clause_LICENSE_for_Pashua.txt<br/>
+  <b>◦</b> license-file : BSD-3-clause_LICENSE_for_Platypus.txt<br/>
+  <b>◦</b> license-file : BSD-3-clause.txt
 </dd></dl>
 </dd></dl>
 </div><br/>
