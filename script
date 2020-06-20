@@ -32,33 +32,57 @@
 #   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##########################################################################
-# Portable Firefox OS X
+# A 'script' to run "Firefox" as "Portable Firefox OS X" in macOSX
 # Revision: 4.1.4
-# Modified by Erik T Ashfolk <atErik at Out Look dot com> aka "atErik"
-#             ______ <______ at ________ dot ___>
-# to use Pashua dialog (instead of CocoaDialog) & new Platypus, etc
-# for 64bit macOSX (Catalina,...) compatibility.
-#
-#   The Contents of this file are made available subject to the terms
-#   of the following license+restrictions+permissions:
-#   - GNU General Public License Version 3  (GPL v3)
-#   - Do not use my+our contributions to kill/harm(or steal-from) any Human/Community/Earth/etc
-#   Copyright 2020 by Erik T Ashfolk - <atErik at Out Look dot com>
-#   ...
-#
-#   GPL v3
+# Modified by:
+#  Erik T Ashfolk <atErik at Öυť Ĺöōķ dot com> (Öυť=Out,Ĺöōķ=Look) aka "atErik"
+# 
+# Modified to use Pashua dialog (instead of CocoaDialog) & new Platypus,
+#  etc, for 64bit-only macOSX (Catalina & macOSX after it) compatibility.
+# 
+# The Contents of this new 'script' file are made available subject to
+#  the terms of the following LICENSE(S)+Restrictions+Permissions:
+#  - GNU General Public License Version 3 (GPL v3)
+#  - Do Not Use This To Kill/Harm/Violate(or Steal from)(Any) Human/Community,Earth,etc
+#  - Copyright © 2020 Erik T Ashfolk (atErik＠ÖυťĹöōķ·ċōm, Use basic-latin
+#      char. No soliciting permitted). All rights reserved.
+# 
+# GNU General Public License Version 3 for this 'script'
+# =============================================
+# 
+#   A 'script' to run Firefox as portable app on macOSX.
+#   Copyright © 2020 Erik T Ashfolk (atErik＠ÖυťĹöōķ·ċōm, Use basic
+#       latin char. No soliciting permitted).
+#   
 #   This program is free software: you can redistribute it and/or modify
 #   it under the terms of the GNU General Public License as published by
 #   the Free Software Foundation, either version 3 of the License, or
-#   any later version.
-#
+#   (at your option) any later version.
+#   
 #   This program is distributed in the hope that it will be useful,
 #   but WITHOUT ANY WARRANTY; without even the implied warranty of
 #   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #   GNU General Public License for more details.
-#
+#   
 #   You should have received a copy of the GNU General Public License
-#   along with this program.  If not, see <http://www.gnu.org/license/>.
+#   along with this program.  If not, see <https://www.gnu.org/licenses/>.
+# 
+# =============================================
+#
+# This project's primary 'script' is licensed under GPL 3.0 & See-Above
+# Pashua is licensed under BSD-3-clause
+# Platypus is licensed under BSD-3-Clause
+# Firefox (older version) related items are licensed under MPL 1.1
+# Firefox (newer version) related items are licensed under MPL 2.0
+# 
+# GPL v3 : https://www.gnu.org/licenses/gpl-3.0.en.html
+# BSD (BSD-3-Clause) License:
+#  https://github.com/atErik/Portable-Firefox-OSX-script/blob/master/BSD-3-clause.txt
+# MPL 1.1 License: https://www.mozilla.org/en-US/MPL/1.1/
+# MPL 2.0 License: https://www.mozilla.org/en-US/MPL/2.0/
+# 
+# All other trademarks, etc cited here are the property of their respective owners.
+# All other copyright items cited here are the copyright of their respective author/creator.
 #
 #################################################################################
 
