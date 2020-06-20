@@ -35,12 +35,13 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 # PORTABLE FIREFOX OSX script
 <br/><!-- “.” is &#46; -->
 
-A ‘script’ To Run "Firefox&#46;app" As an OSX PortableApps, From Inside the<br/>
+A ‘script’ To Run "Firefox&#46;app" As an OSX Portable App, From Inside the<br/>
 "Portable AppName&#46;app" bundle in MacOSX.  So We Are ( Working-on & Developing & )<br/>
 Modifying & Updating This ‘script’ To Include/Use 64bit Pashua dialog, 64bit Platypus,<br/>
 etc To Execute/Run/Use it On Both 64bit-Only (Current) macOSX (Catalina & macOSX after it)<br/>
 and Also On 64bit+32bit (older) macOSX (Mojave & macOSX before it). New-‘script’ Can<br/>
-Also Be Modified/Adapted To Use With Any Other “Portable OSX Apps”.
+Also Be Modified/Adapted To Use With Any Other “Portable OSX Apps”.<br/>
+(For Windows-PortableApps goto https://github.com/PortableApps)
 <br/>
 
 <a name="index"></a><!-- “:” = &#58; -->
@@ -88,10 +89,10 @@ New ‘<a href="script">script</a>’ v4.1.x (v4.1.4) Are released with+under be
 &#160;&#160;<b>◦</b> (All other copyright items cited here are the copyright of their respective author/creator&#46;)
 
 This ‘script’ v4.1/v4.1.x file is usually used from such (i.e) location, in macOSX<b>:</b><br/>
-&#160;&#160;"/MyPortableDriveName/PortableApps/MyPortableFF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/Resources/script"<br/><!-- “.” is &#46; -->
+&#160;&#160;"/MyPortableDriveName/PortableAppsOSX/MyPortableFF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/Resources/script"<br/><!-- “.” is &#46; -->
 
 This ‘script’ v4.1/v4.1.x is used by the below “Portable Firefox”, a binary executable file<b>:</b><br/>
-&#160;&#160;"/MyPortableDriveName/PortableApps/MyPortableFF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/MacOS/Portable Firefox"<br/><!-- “.” is &#46; -->
+&#160;&#160;"/MyPortableDriveName/PortableAppsOSX/MyPortableFF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/MacOS/Portable Firefox"<br/><!-- “.” is &#46; -->
 
 <div> That binary “Portable Firefox” is created by Platypus,<br/>
 Platypus also creates the <code>“Portable Firefox.app”</code> bundle.<br/>
@@ -149,8 +150,8 @@ So we must change existing dialog program (a program to assist interaction betwe
 <div><a name="pb-1"></a>PB-1: Suppose, We are working-on/building this project from below (example) folder<b>:</b>
 <dl><dd><!-- “:” = &#58; -->
  <code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
-<dl><dd>Above folder can also be accessed in this shorter way in (Catalina or) macOS (after it)<b>:</b>
- <code>"/MyProjects/PortableFirefox/"</code><br/>
+<dl><dd>Above folder can also be accessed in this shorter way in (Catalina or) macOS (after it)<b>:</b><br/>
+ &#160;<code>"/MyProjects/PortableFirefox/"</code><br/>
  Follow <a href="#LoadFoldersUnderRootFolder">Create Folder(s) Under RootFolder</a> section for Catalina or macOS after it.
 </dd></dl>
  Another option is to create a build/developement related folder “PortableFirefox” inside your own Userspace<b>:</b>
@@ -181,7 +182,7 @@ to build/wrap macOS app⒮ in 64bit+32bit suppported macOSX (Mojave or earlier m
 
 <div><a name="pb-3"></a>PB-3: Obtain Pashua dialog from here : https://www.BlueM.net/en/projects/pashua/
 <dl><dd>Open dmg installer, Copy "Pashua&#46;app", "Pashua&#46;sh" into below build related folder<b>:</b><br/>
-<!-- “.” is &#46; -->&#160;<code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
+<!-- “.” = &#46; -->&#160;<code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
 &#160;( shorter form of above location is: <code>"/MyProjects/PortableFirefox/"</code> )<br/>
 &#160;( or, Copy in your Userspace: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )
 </dd></dl>
@@ -207,36 +208,40 @@ or Get last Quantum/Servo-based new/latest <code>"Firefox-*.dmg"</code> from htt
   FF v52.9.0 ESR dmg file’s sha1: d879f5423d79393f2384e0f97a5581f9d89d7977,<br/>
   md5: 34e8280bb9b33ca202ba22cf9daf25e4, 82.8 MBytes,<br/>
   https://ftp.Mozilla.org/pub/firefox/releases/52%2E9%2E0esr/
-  </dd></dl><!-- %2E is . -->
+  </dd></dl><!-- “.” = %2E -->
 </dd><dd>Note: ESR = Extended Support Release.
 </dd></dl>
 <br/>
 
 <a name="pb-5"></a>PB-5: Get (Language, Profile, License, etc) build related files/folders:<br/>
-<b>a:</b> Obtain old PortableFirefoxOSX App. (Download <a href="#Old-Script">link⒮</a> shown few-paragraphs above).<br/>
-<b>b:</b> Double-Click/Tap on `"PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg"` file to view internal contents(files, bundles, folders, etc).<br/>
-<b>c:</b> Copy these 3-files: `"MPL-1.1.txt"`, `"Read me.txt"`, `"gpl-3.0.txt"`, in below build location:<dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
+<b>a:</b> Use GitHub’s “Clone or Download” button & select “Download ZIP”, save zip file, goto default download location folder “Downloads”, double-click/tap on zip file (to decompress it), you’ll get a folder with same-name (without the “zip” extension), then copy all files inside that folder, paste into our build folder:<dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
 ( above location’s shorter form is: <code>"/MyProjects/PortableFirefox/"</code> )<br/>
 ( or Copy into your Userspace: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )</dd></dl>
-<b>d:</b> Create a sub-dir/sub-folder <code>"Old-PA-Firefox"</code> in above/same location shown in PB-5-c step.<br/>
-<b>e:</b> Copy the <code>"Portable Firefox OS X"</code> folder/directory from opened content of <code>"PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg"</code>, & place/paste it in below sub-dir/sub-folder location:
+<b>b:</b> Skip below files/steps which you’ve already obtained/exists or already done.<br/>
+<b>c:</b> Obtain old PortableFirefoxOSX App. (Download <a href="#Old-Script">link⒮</a> shown few-paragraphs above).<br/>
+<b>d:</b> Double-Click/Tap on `"PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg"` file to view internal contents(files, bundles, folders, etc).<br/>
+<!-- “:” = &#58; --><b>e:</b> Copy these 2-files (if does not exists)&#58; `"MPL-1.1.txt"`, `"Read me.txt"`, in below build location:<dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
+( above location’s shorter form is: <code>"/MyProjects/PortableFirefox/"</code> )<br/>
+( or Copy into your Userspace: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )</dd></dl>
+<b>f:</b> Create a sub-dir/sub-folder <code>"Old-PA-Firefox"</code> in above/same location shown in PB-5-c step.<br/>
+<b>g:</b> Copy the <code>"Portable Firefox OS X"</code> folder/directory from opened content of <code>"PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg"</code>, & place/paste it in below sub-dir/sub-folder location:
 <dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/Old-PA-Firefox/"</code><br/>
 ( above location’s shorter form is: <code>"/MyProjects/PortableFirefox/Old-PA-Firefox/"</code> )<br/>
 ( or Paste in your Userpsace: <code>"/Users/MyUserName/MyProjects/PortableFirefox/Old-PA-Firefox/"</code> )</dd></dl>
-<b>f:</b> Right-click (or Tap with double-finger) on <code>"Portable Firefox.app"</code> bundle which is here:
+<b>h:</b> Right-click (or Tap with double-finger) on <code>"Portable Firefox.app"</code> bundle which is here:
 <dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app"</code><br/>
 ( above location’s shorter form is: <code>"/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app"</code> )<br/>
 ( or access it from your Userspace: <code>"/Users/MyUserName/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app"</code> )<br/>
 and select <code>“Show Package Contents”</code> option, to go inside the bundle.</dd></dl>
-<b>g-1:</b> Copy these 2-folders: <code>"English.lproj"</code> (and <code>"profile"</code> if it exists), from below (inside the bundle) location:
+<b>i-1:</b> Copy these 2-folders: <code>"English.lproj"</code> (and <code>"profile"</code> if it exists), from below (inside the bundle) location:
 <dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/"</code><br/>
 ( above location’s shorter form is: <code>"/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/"</code> )<br/>
 ( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/"</code> )</dd>
-<dd><b>g-2:</b> If you want to use your existing <code>"Portable Firefox OS X"</code> from your external storage/drive,
+<dd><b>i-2:</b> If you want to use your existing <code>"Portable Firefox OS X"</code> from your external storage/drive,
 then Copy <code>"profile"</code> folder from that, into our build location.</dd>
-<dd><b>g-3:</b> If you want to use your existing profile in your/current system as/with Portable Firefox, then copy this folder:<br/>
+<dd><b>i-3:</b> If you want to use your existing profile in your/current system as/with Portable Firefox, then copy this folder:<br/>
 &#160;&#160;/... (i will add location+info here, wait)</dd></dl>
-<b>h:</b> Paste those folders into below (destination), our build/project folder:
+<b>j:</b> Paste those folders into below (destination), our build/project folder:
 <dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
 ( above location’s shorter form is: <code>"/MyProjects/PortableFirefox/"</code> )<br/>
 ( or Paste in your Userspace: <code>"/Users/MyUserName/MyProjects/PortableFirefox/"</code> )</dd><dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd></dl>
@@ -245,7 +250,7 @@ then Copy <code>"profile"</code> folder from that, into our build location.</dd>
 ## BUILD:
 <b>BUILD/WRAP/GENERATE WITH PLATYPUS:</b>
 
-<div><a name="b-1"></a>B-1: Test the ‘script’ file, before using it to build OSX PortableApp<b>:</b><br/>
+<div><a name="b-1"></a>B-1: Test the ‘script’ file, before using it to build Portable App for OSX<b>:</b><br/>
 Tips<b>:</b> a good practice from beginning would-be, After getting this <code>‘script’</code><br/>
 (inside the shown/recommended folder that is shown few paragraphs above), 1st Rename<br/>
 it to <code>"script.sh"</code>, then Open <code>"script.sh"</code> with your choice of code editing/developing<br/>
@@ -255,7 +260,7 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
 <dl><dd>
  <tt>０┌─────────────────</tt><br/>
  <tt>１│</tt>MacNm:~ UsrNm$ <b>sh -n</b> /System/Volumes/Data/MyProjects/PortableFirefox/script&#46;sh<br/>
- <tt>２│</tt>MacNm:~ UsrNm$ echo &#36;?<!-- “.” written as &#46; , $ as &#36; --><br/>
+ <tt>２│</tt>MacNm:~ UsrNm$ echo &#36;?<!-- “.” = &#46; , “$” = &#36; --><br/>
  <tt>３│</tt>0<br/>
  <tt>４│</tt>MacNm:~ UsrNm$<br/>
  <tt>５└─────────────────</tt><br/><br/>
@@ -280,6 +285,7 @@ Use below commands to test if bash code syntaxes are right or where the fault⒮
   <b>◦</b> icon-file : appIcon&#46;icns<br/>
   <b>◦</b> sh-script-file : pashua&#46;sh<br/>
   <b>◦</b> sh-script-file : script<br/>
+  <b>◦</b> readme-file : Read me.txt<br/>
   <b>◦</b> license-file : GPL-3.0_LICENSE_for_script.txt<br/>
   <b>◦</b> license-file : MPL-1.1.txt<br/>
   <b>◦</b> license-file : MPL-2.0_LICENSE_for_Firefox.txt<br/>
@@ -307,7 +313,10 @@ It will create/generate a new <code>“Portable Firefox.app”</code>, that is<b
 compatible with 64-only macOSX (Catalina or macOSX after it)<br/>
 
 <a name="b-5"></a>B-5: Run/execute/TEST it.
-<br/>
+<div><a name="test"></a>You may OPTIONALLY do these:<dl><dd>
+ <b>◦</b> Which “profile” folder is used by the running Firefox ?<dl><dd>
+  Firefox > ff main menu > Help > Troubleshooting Information > Profile Folder: ...<br/>
+  if above info row/line is not-showing full-PATH of “profile” folder, then press “Show in Finder” button</dd></dl></dd></dl></div>
 
 <a name="Errors"></a>
 <b>ERRORs/PROBLEMs:</b><br/>
@@ -562,7 +571,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
 <tr><td border="1" width="100%"><a name="Abbreviations"></a><b>Abbreviations:</b><br/>
  Acronyms, Recursive Backronyms & Abbreviations used here<b>:</b></td></tr>
 <tr><td><a name="abbr"></a><b>•</b> Dev = Develope = Bld = Build . Web-Browser = WB = WebBr . Ver = Version = v . Mem = Memory . Mngr = Manager . Virtual = Virt . FileSystem = FS . Network = Net . Socket = Sock . Security = Sec . Hardware = HW . Software = SW . Firmware = FW . Driver = Drvr = Drv . Server = Srv . Service = Svc . Graphics = Grph . Engine = Engn . JavaScript = JS . Apple = Apl . Microsoft = MS . Google = Ggl . Mozilla = Mz .</td></tr>
-<tr><td><a name="PA"></a><b>•</b> PA = Portable Apps . Ususally kept-in & run from a user’s External/Portable drives/storage, Or PA is kept-in & run from internal-Storage when a user need to run 2nd or multiple instances of same PA apps with different profile(s)/settings.</td></tr>
+<tr><td><a name="PA"></a><b>•</b> PA = Portable App . Ususally kept-in & run from a user’s External/Portable drives/storage, Or PA is kept-in & run from internal-Storage when a user need to run 2nd or multiple instances of same PA apps with different profile(s)/settings.</td></tr>
 </table><!-- “(” = %28 , “)” = %29 -->
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td border="1" width="100%"><a name="FF"></a><b>•</b> FF = Firefox . A web-browser from Mozilla Foundation. Before FF v57 it used <a href="https://en.wikipedia.org/wiki/Gecko%5F%28software%29">Gecko</a> engine. Since v57, FF was renamed as “Firefox <a href="https://en.wikipedia.org/wiki/Quantum%5F%28Mozilla%29#Quantum">Quantum</a>”(FFQ) & began to use a different & new web-browser engine, & Mozilla REMOVED SUPPORT FOR ALL PREVIOUS ADDONS/PLUGINS in FFQ !!! and, Although major parts of new engine were+are mostly based on <a href="https://en.wikipedia.org/wiki/Servo%5F%28software%29">Servo</a>,..engine but it is still (deceptively/purposely) named/known as same “Gecko”! some users (correctly) calls/identifies it GwS(“Gecko-with-Servo” or “Gecko-w/Servo”) or SbG(“Servo-based-Gecko”) or in-short just “Servo” engine. I will call it here, just Servo or GwS or SbG. FFQ in iOS was forced to use WebKit based engine. Lots of PLUGINS existed & was released for (older) Gecko based older FF (before v57), Mozilla STOPPED sharing/distrubuting ALL OF THOSE ADDONS/PLUGINS for older Gecko based older “Firefox” !!! Which indicated (again & sadly, that) Mozilla products are not-reliable & not-stable & cannot be depended-upon. Now there are very VERY LESS PLUGINS availble/ported/released for Servo/GwS based FFQ (v57 & after). WebRTC is kept in enabled state by-default, which can reveal user’s local location without user’s consent with full-awareness, which is a violation of Privacy-Rights, & this type of violation is also done by other new web-browsers too!</td></tr>
