@@ -1,0 +1,361 @@
+#!/bin/sh -x
+
+##########################################################################
+#
+#   Portable Firefox OS X
+#   $Revision: 4.1
+#
+#   The Contents of this file are made available subject to the terms
+#   of the following license
+#
+#          - GNU General Public License Version 3
+#
+#   Carlo Gandolfi, Paolo Portaluri January 2010
+#
+#   GNU General Public License Version 3
+#   =============================================
+#   Copyright 2006-2010 by:
+#      Carlo Gandolfi - http://www.freesmug.org
+#      Paolo Portaluri - http://plus2.it/~paolo/
+#
+#   This program is free software: you can redistribute it and/or modify
+#   it under the terms of the GNU General Public License as published by
+#   the Free Software Foundation, either version 3 of the License, or
+#   any later version.
+#
+#   This program is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#   GNU General Public License for more details.
+#
+#   You should have received a copy of the GNU General Public License
+#   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+##########################################################################
+
+# Reset PATH
+PATH=/bin:/sbin:/usr/bin:/usr/sbin
+export PATH
+
+appid=Firefox
+appbin=firefox-bin
+
+userprefbase="Library/Application Support"
+userpref="$HOME/$userprefbase/$appid/Profiles"
+usercachebase="$HOME/Library/Caches"
+usercache="$usercachebase/$appid"
+
+p_userbase="$1/Contents/Resources"
+p_userpref="$p_userbase/profile"
+copy_pref="$p_userbase/CopyPref_Done"
+
+CD="$p_userbase/CocoaDialog.app/Contents/MacOS/CocoaDialog"
+
+appicon="$p_userbase/appIcon.icns"
+cautionicon="$p_userbase/P_${appid}_Caution.icns"
+
+
+# ========================================================
+# CDokmessage
+# CocoaDialog Ok/Cancel message box
+# $1 "text"
+# $2 "informative text"
+# $3 "--no-cancel" = don't show a cancel button
+# ========================================================
+
+function CDokmessage {
+	beep
+	"$CD" ok-msgbox  --icon-file "$appicon" \
+	--text "$1" --informative-text "$2" "$3"
+}
+
+function CDokmessagec {
+	beep
+	"$CD" ok-msgbox  --icon-file "$cautionicon" \
+	--text "$1" --informative-text "$2" "$3"
+}
+
+function beep {
+	/usr/bin/osascript << EOT
+	tell application "Finder"
+	beep
+	end tell
+EOT
+}
+
+# ========================================================
+# bsd_command_check
+# Check that the required BSD command are installed
+# ========================================================
+
+function command_check_msg {
+message1="One or more *BSD commands* to run Portable $appid were not found on \
+this machine. You must install the BSD Subsystem package that is in the \
+following folder on disk 1 of your Mac OS X installation DVD:\n/Welcome to Mac \
+OS X/Optional Installs.\n\nNow quit."
+button=`/usr/bin/osascript << EOT
+	tell application "Finder"
+	beep
+	display dialog "$message1" buttons {"Quit"} \
+		with icon caution default button "Quit"
+	set result to button returned of result
+	end tell
+EOT`
+if test "$button" == "Quit"; then				# Quit application
+	exit 112
+fi
+}
+
+function bsd_command_check {  	# written by Patrick Luby	
+commands="awk cp defaults diskutil echo grep ln mkfifo mkdir mv plutil ps rm sed sleep touch"
+for i in $commands ; do
+	if [ ! -x "/usr/bin/$i" -a ! -x "/bin/$i" -a ! -x "/usr/sbin/$i" -a ! -x "/sbin/$i" ] ; then
+	    # Return 96 + 16 if a command is not found
+		command_check_msg;
+		exit 112;
+	fi
+done
+}
+
+
+# ========================================================
+# osx_version_check
+# Check that the user is running Mac OS X 10.4 or higher
+# ========================================================
+
+function version_check_msg {
+message1="You are running OS X version $version.\n\
+Portable $appid can only be opened on Mac OS X 10.4 or higher."
+button=`/usr/bin/osascript << EOT
+	tell application "Finder"
+	beep
+	display dialog "$message1" buttons {"Quit"} \
+		with icon caution default button "Quit"
+	set result to button returned of result
+	end tell
+EOT`
+if test "$button" == "Quit"; then				# Quit application
+	exit 113
+fi
+
+}
+
+function osx_version_check {	 # written by Patrick Luby	
+if [ -x "/usr/bin/sw_vers" ] ; then
+    # Return 96 + 17 if it is a bad version
+    version=`/usr/bin/sw_vers | grep '^ProductVersion:' | awk '{ print $2 }'`
+    case "$version" in
+        10.[0123]) version_check_msg ; exit 113;;
+        10.[0123].*) version_check_msg ; exit 113;;
+    esac
+fi
+}
+
+# ========================================================
+# quitapp
+# Check if local app is open and quit
+# ========================================================
+
+function quitapp {
+	if ps cx | grep '[0-9] '"$appbin"'$' > /dev/null; then
+		rv=` CDokmessage "$appid is already running on this system" \
+		"Only one copy can be run at a time. \
+Quit runnig $appid and reopen Portable $appid." "--no-cancel" `
+		if [ "$rv" == "1" ] ; then				# Quit application
+			exit 0
+		fi
+	fi
+}
+
+# ========================================================
+# check_p_asf
+# Check and create Portable Application Support folders
+# ========================================================
+
+function check_p_asf {
+	# "Read Only" string in till OsX 10.5
+	readonly5=`diskutil info "$p_userbase" | grep "Read Only" | awk '{ print $3 }'`
+	# "Read-Only Volume:" srting on OsX 10.6
+	readonly6=`diskutil info "$p_userbase" | grep "Read-Only Volume" | awk '{ print $3 }'`
+	if [ "$readonly5" = Yes ] || [ "$readonly6" = Yes ]; then
+		CDokmessagec "Portable $appid is on a locked volume" "Portable $appid can't \
+be opened on a locked volume. Now quit." "--no-cancel" > /dev/null
+		exit 0
+	else
+		if [ ! -d "$p_userpref" ] ; then
+			mkdir -p "$p_userpref"
+		fi
+	fi
+}
+
+# ========================================================
+# copy_local_pref
+# Copy local preferences to Portable Application
+# ========================================================
+
+function select_profile {
+	rvpf=` "$CD" fileselect --title "Select local $appid Profile folder" \
+	--text "Look for a folder named \"********.default\" or similar." \
+	--select-only-directories --with-directory "$userpref" `
+	if [ -f "$rvpf/prefs.js" ] ; then
+		profilepath="$rvpf"; export profilepath
+	else
+		rv=` CDokmessagec "$appid Profile folder not selected" "Sorry you have not choose \
+$appid Profile folder. You have selected: \"$rvpf\". Try again?" `
+		if [ "$rv" == "1" ] ; then
+			select_profile
+		elif [ "$rv" == "2" ] ; then
+			rv=` CDokmessage "Portable $appid now quit" \
+			"You have not choose $appid Profile folder, now Portable $appid quit." \
+			"--no-cancel" `
+			if [ "$rv" == "1" ] ; then				# Quit application
+				exit 0
+			fi
+		fi
+	fi
+}
+
+function runcopypref {	# written by Kevin Hendricks 
+	rm -f /tmp/hpipe
+	mkfifo /tmp/hpipe
+	"$CD" progressbar --indeterminate --title "Copying $appid Profile" \
+	--text "Copying \"$rvpf\". Please wait..." < /tmp/hpipe &
+	exec 3<> /tmp/hpipe
+	echo -n . >&3
+	# do all of your work here
+	cp -R "$rvpf/" "$p_userpref"
+	exec 3>&-
+	wait
+	rm -f /tmp/hpipe
+}
+	
+function check_asf {
+	if [ -d "$p_userpref" ] ; then
+		# delete p_userpref if it still exist
+		rm -Rf "$p_userpref"
+	else
+		mkdir -p "$p_userpref"
+	fi
+}
+	
+# copy Preferences Folder
+function copy_pf {
+	userprefsize=`du -hc "$userpref" | cut -f1 | tail -1`
+	freesize=`df -H "$p_userbase" | tail -1 | awk '{print $4}'`
+	buserprefsize=`du -c "$userpref" | cut -f1 | tail -1`
+	bfreesize=`df "$p_userbase" | tail -1 | awk '{print $4}'`
+	if [ $buserprefsize -lt $bfreesize ] ; then
+		rv=` CDokmessage "Copy $appid Profile" \
+		"Your $appid Profile folder \"$rvpf\" is $userprefsize. \
+You have $freesize available. Copy to Portable $appid?" `
+		if [ "$rv" == "1" ] ; then
+			if check_asf ; runcopypref ; then
+				touch -f "$copy_pref"
+				"$CD" bubble --title "$appid Profile copied" --text "Local \
+$appid Profile copied to Portable $appid with success." \
+--icon-file "$appicon"
+			else
+				"$CD" bubble --title "$appid Profile copy error" \
+--text "An error occurred copying $appid Profile to Portable $appid." \
+--icon-file "$cautionicon" --no-timeout
+			fi
+		fi
+		else
+		CDokmessagec "No space to copy $appid Profile" \
+		"Your $appid Profile folder is $userprefsize. \
+You have $freesize available. There is no enough space. Portable $appid will \
+open without copy existing $appid Profile." "--no-cancel" > /dev/null
+	fi
+}
+
+function copy_local_pref {
+	if [ ! -f "$copy_pref" ] && [ -d "$userpref" ] ; then
+	beep
+	text="Copy local Profile"
+	informativetext="Copy the existing $appid Profile \
+on this system to Portable $appid?"
+	rv=`"$CD" msgbox --no-newline --icon-file "$appicon" \
+	--text "$text" --informative-text "$informativetext" \
+	--button1 "Copy" --button2 "Don't Copy" --button3 "Never"`
+		if [ "$rv" == "1" ] ; then
+			select_profile
+			copy_pf
+		elif [ "$rv" == "3" ] ; then
+			touch -f "$copy_pref" 
+		fi
+	fi
+}
+
+# ========================================================
+# bu/recover cache
+# BackUp existing cache
+# ========================================================
+
+function bu_cache {
+	if [ -d "$usercache" ] ; then
+		mv "$usercache" "$usercache.pabu"
+	fi
+}
+
+function recover_cache {
+	if  [ -d "$usercache.pabu" ] ; then
+		mv "$usercache.pabu" "$usercache"
+	fi
+}
+
+function remove_p_cache {
+	if  [ -d "$usercache" ] ; then
+		rm -rf "$usercache"
+	fi
+}
+
+# ========================================================
+# run
+# Open Portable Application
+# ========================================================
+
+function run_app {
+	"$p_userbase/$appid.app/Contents/MacOS/$appbin" -profile "$p_userpref"
+}
+
+# ========================================================
+# open_p_app
+# Run Portable Application script
+# ========================================================
+	
+function set_p_app {
+	bu_cache			# Backup exixting Cache folder
+}
+
+function close_p_app {
+	remove_p_cache		# Remove portable cache
+	recover_cache		# Restore existing cache
+}
+	
+function open_p_app {
+	if set_p_app ; then
+		"$CD" bubble --title "Portable $appid setup ok" --text "Portable \
+$appid open with success." --icon-file "$appicon" &
+	else
+		CDokmessagec "Portable $appid setup error" \
+"An error occour while opening portable preferences. Now quit." "--no-cancel" > /dev/null
+	close_p_app
+	exit 0
+	fi
+	run_app 				# Run application from external drive
+	if close_p_app ; then
+	"$CD" bubble --title "Portable $appid quit" --text "Portable \
+$appid quit with success." --icon-file "$appicon" &
+	else
+	CDokmessagec "Portable $appid quit error" \
+"Portable $appid can't restore local cache." "--no-cancel" > /dev/null
+	fi
+}
+
+bsd_command_check
+osx_version_check
+check_p_asf
+quitapp
+copy_local_pref
+open_p_app
+exit 0
