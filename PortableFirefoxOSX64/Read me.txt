@@ -1,0 +1,52 @@
+Portable Firefox OS X
+-------------------------
+
+Requires OS X 10.5 or later with Intel x86.
+
+1. Drag the "Portable Firefox OS X" folder to your portable device, USB thumb drive, iPod, portable hard drive, memory card, other portable device (also to your internal hard disk) as long as it has 75 MB of free space.
+
+2. Clicking "Portable Firefox" will open Firefox from your portable drive, wait a while before Firefox start.
+
+3. You can copy your local Profile folder to Portable Firefox when "Copy local Profile" window ask you. So, if you wish to use your bookmarks, add-ons, history, personal data and preferences you already have on your system, just click "Copy" when prompt, and select the folder "/Users/<username>/Library/Applications Support/Firefox/Profiles/********.default/".
+
+Firefox application and profile folder are inside the bundle:
+"Portable Firefox.app/Contents/Resources/"
+
+Other languages
+---------------
+
+Download Firefox in your language from http://www.mozilla.org and copy it to:
+"Portable Firefox.app/Contents/Resources/" folder.
+
+Portable Firefox is packaged using the Platypus script wrapper from
+http://sveinbjorn.vefsyn.is/platypus
+
+Portable Firefox include CocoaDialog.
+CocoaDialog is Copyright © 2004, Mark A. Stratman <mark@sporkstorms.org>It is licensed under the GNU General Public License. 
+http://cocoadialog.sourceforge.net/
+
+License
+-------
+
+Portable Firefox OSX
+Copyright © 2006-2011
+Carlo Gandolfi - http://www.freesmug.org
+Paolo Portaluri - http://plus2.it/~paolo/
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+Mozilla Firefox¨ provided is an unmodified version of official binaries downloaded from Mozilla.org licensed under:
+Mozilla Public License Version 1.1
+http://www.mozilla.org/MPL/MPL-1.1.html
