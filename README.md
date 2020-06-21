@@ -32,17 +32,20 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 </style>
 
 <a name="intro"></a>
-# PORTABLE FIREFOX OSX script
+# PORTABLE APPS OS X 64 : script
 <br/><!-- “.” is &#46; -->
 
-A ‘script’ To Run "Firefox&#46;app" As an OSX Portable App, From Inside the<br/>
-"Portable AppName&#46;app" bundle in MacOSX.  So We Are ( Working-on & Developing & )<br/>
-Modifying & Updating This ‘script’ To Include/Use 64bit Pashua dialog, 64bit Platypus,<br/>
-etc To Execute/Run/Use it On Both 64bit-Only (Current) macOSX (Catalina & macOSX after it)<br/>
-and Also On 64bit+32bit (older) macOSX (Mojave & macOSX before it). New-‘script’ Can<br/>
-Also Be Modified/Adapted To Use With Any Other “Portable OSX Apps”.<br/>
-(For Windows-PortableApps goto https://github.com/PortableApps)
-<br/>
+A ‘script’ To Run Apps (i.e:"Firefox&#46;app" from Mozilla) Natively
+ As A macOS X Portable App, From Inside the "Portable-AppName-OS-X&#46;app"
+ bundle in MacOSX.  So We Are ( Working-on & Developing & ) Modifying &
+ Updating primary ‘script’ To Include/Use 64bit Pashua dialog, 64bit
+ Platypus, etc To Execute/Run & Use it On Both 64bit-Only macOSX (Catalina
+ & macOSX after it) and Also On 64bit+32bit (older) macOSX (Mojave &
+ macOSX before it).<br/>
+New-‘script’ Can Also Be Modified/Adapted To Use With Any Other
+ “Portable OSX Apps”.<br/>
+&#160;(For Windows-PortableApps goto https://github.com/PortableApps)<br/>
+&#160;(By the way, Windows Apps Can be Run On macOSX By Using <a href="https://wiki.winehq.org/MacOS">Wine</a>, <a href="https://wineskin.urgesoftware.com/tiki-index.php">Wineskin</a>, <a href="https://winebottler.kronenberg.org/">WineBottler</a>, <a href="https://www.playonmac.com/en">PlayOnMac</a>)<br/>
 
 <a name="index"></a><!-- “:” = &#58; -->
 <dl><dd>Content/Index List<b>:</b> ¦ <a href="#intro">Intro</a> ¦ <a href="#Old-Script">Old-Script</a> ¦ <a href="#Script-Type">Script-Type</a> ¦ <a href="#New-Script">New-Script</a> ¦ <a href="#Platypus">Platypus</a> ¦ <a href="#Cocoa-Dialog">Cocoa-Dialog</a> ¦ <a href="#Pashua">Pashua</a> ¦ <a href="#pre-build">Pre-Build</a> ( <a href="#pb-1">PB-1</a>, <a href="#pb-2">PB-2</a>, <a href="#pb-3">PB-3</a>, <a href="#pb-4">PB-4</a>, <a href="#pb-5">PB-5</a> ) ¦ <a href="#build">Build</a> ( <a href="#b-1">B-1</a>, <a href="#b-2">B-2</a>, <a href="#b-3">B-3</a>, <a href="#b-4">B-4</a>, <a href="#b-5">B-5</a> ) ¦ <a href="#Errors">Errors</a> ¦ <a href="#HelpToBuild">Help-To-Build</a> ¦ <a href="#extra-notes">Extra-Notes</a>&#58;( <a href="#LoadFoldersUnderRootFolder">Load Folders Under RootFolder</a>, <a href="#ShowAllFilesFolders">Show All Files Folders</a>, <a href="#UsefulOrRelatedUnicodeChars">Related Unicode Chars</a>, <a href="#VerifyFileAuthenticity">Verify File Authenticity</a>, <a href="#codesign">CodeSign</a> ) ¦ <a href="#Abbreviations">Abbreviations</a> ¦</dd><dd><div align="center">
@@ -239,8 +242,8 @@ and select <code>“Show Package Contents”</code> option, to go inside the bun
 ( or here: <code>"/Users/MyUserName/MyProjects/PortableFirefox/Old-PA-Firefox/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/"</code> )</dd>
 <dd><b>i-2:</b> If you want to use your existing <code>"Portable Firefox OS X"</code> from your external storage/drive,
 then Copy <code>"profile"</code> folder from that, into our build location.</dd>
-<dd><b>i-3:</b> If you want to use your existing profile in your/current system as/with Portable Firefox, then copy this folder:<br/>
-&#160;&#160;/... (i will add location+info here, wait)</dd></dl>
+<dd><b>i-3:</b> If you want to use your existing Firefox “profile” in your/current system as/with the Portable Firefox, then copy this folder:<br/>
+&#160;&#160;<code>"/Users/<username>/Library/Applications Support/Firefox/Profiles/********.default/"</code></dd></dl>
 <b>j:</b> Paste those folders into below (destination), our build/project folder:
 <dl><dd><code>"/System/Volumes/Data/MyProjects/PortableFirefox/"</code><br/>
 ( above location’s shorter form is: <code>"/MyProjects/PortableFirefox/"</code> )<br/>
@@ -327,7 +330,7 @@ And during/after build, if you received/observed/found Error(s)<br/>
 please Write down what Error⒮ you’re getting,<br/>
 try to research & try to solve as much possible,<br/>
 and/then Let us know about your unsolved errors & Share your code changes<br/>
-either in <a href="http://www.FreeSMUG.org/forum/t-13404441/">FreeSMUG-forum</a> or Create an <a href="https://github.com/atErik/Portable-Firefox-OSX-script/issues/new/choose">Issue</a> here in GitHub, & submit info.<br/>
+either in <a href="http://www.FreeSMUG.org/forum/t-13404441/">FreeSMUG-forum</a> or Create an <a href="https://github.com/atErik/Portable-Apps-OS-X-64/issues/new/choose">Issue</a> here in GitHub, & submit info.<br/>
 <br/>
 If no errors, even then please share your final working code, your OS info, etc<br/>
 either: by Forking/Cloning (this project) + Edit/Change & Test ‘script’ file in your side/computer + Push your own (successful/working) code-changes inside your own (this)-cloned-project first + then send a Pull-request to this project,<br/>
