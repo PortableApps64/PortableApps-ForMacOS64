@@ -1,18 +1,18 @@
-<style type="text/css"> /*<br/>
- &#160; Scroll-down to see main content of README.md, or Press/Tap on "View all of README.md".<br/>
- &#160; If this Line/Paragraph/&lt;style>..&lt;/style>-CSS-Block is Shown On This README&#46;md,<br/>
- &#160; Then GitHub <a href="https://github.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization%5Ffilter%2Erb">Disabled</a> Usage Of &lt;style>-CSS HTML Tag/Command for all GitHub users!<br/>
- &#160; It Appaers That, To Support "GitHub-Pages"-Hosting/DEAL$/…/… GitHub,… Disabled<br/>
- &#160; CSS, JS, etc Here, & Directing Users To Use "GitHub-Pages" For CSS/JS/etc.<br/>
- &#160; But We Need Basic-CSS Here, As it(&lt;style>) Helps Developers/Users To Define Simple CSS<br/>
- &#160; To Present/Show Distinct-Contents Distinctly+Accurately.<br/>
- &#160; GitHub Already <a href="https://github.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization%5Ffilter%2Erb">Applying</a> Filtering/Restrictions On HTML Commands, So Contact<br/>
- &#160; GitHub-Support & Request Them To Unblock+Enable Essential Function(s), Tell<br/>
- &#160; GitHub-Support To Apply Filtering Also For CSS/JS Commands Inside "&lt;STYLE>" & "&lt;SCRIPT>" Commands,<br/>
- &#160; to AtLeast Allow CSS & JS With Limited/Restricted Functionalities/Abilities, like:<br/>
- &#160; Element+Text Coloring, Positioning, Width/Margin/Padding/Height/etc Controlling, etc,etc.<br/>
- &#160; For This README&#46;md Page, Few Txt/Inl/Blk/etc Element’s Style(Look/Appearance/etc)<br/>
- &#160; OverRiding CSS Rules Are Defined Below:<br/>
+<style type="text/css"> /*<br/><dl><dd>
+ Scroll-down to see main content of README.md, or Press/Tap on "View all of README.md".<br/>
+ If this Line/Paragraph/&lt;style>..&lt;/style>-CSS-Block is Shown On This README&#46;md,<br/>
+ Then GitHub <a href="https://github.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization%5Ffilter%2Erb">Disabled</a> Usage Of &lt;style>-CSS HTML Tag/Command for all GitHub users!<br/>
+ It Appaers That, To Support "GitHub-Pages"-Hosting/DEAL$/…/… GitHub,… Disabled<br/>
+ CSS, JS, etc Here, & Directing Users To Use "GitHub-Pages" For CSS/JS/etc.<br/>
+ But We Need Basic-CSS Here, As it(&lt;style>) Helps Developers/Users To Define Simple CSS<br/>
+ To Present/Show Distinct-Contents Distinctly+Accurately.<br/>
+ GitHub Already <a href="https://github.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization%5Ffilter%2Erb">Applying</a> Filtering/Restrictions On HTML Commands, So Contact<br/>
+ GitHub-Support & Request Them To Unblock+Enable Essential Function(s), Tell<br/>
+ GitHub-Support To Apply Filtering Also For CSS/JS Commands Inside "&lt;STYLE>" & "&lt;SCRIPT>" Commands,<br/>
+ to AtLeast Allow CSS & JS With Limited/Restricted Functionalities/Abilities, like:<br/>
+ Element+Text Coloring, Positioning, Width/Margin/Padding/Height/etc Controlling, etc,etc.<br/>
+ For This README&#46;md Page, Few Txt/Inl/Blk/etc Element’s Style(Look/Appearance/etc)<br/>
+ OverRiding CSS Rules Are Defined Below:</dd></dl>
 BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 .UatErik50{ float:left; position:relative; width:30%; padding-bottom:30%; margin:1.66%; overflow:hidden; }
 /* <br/> Content inside SqrBox:<br/> */
@@ -48,11 +48,10 @@ So We Are Including 64bit Pashua dialog, 64bit Platypus, etc Tools
 This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted 
  To Use With Other “Portable Apps for OSX 64” (under this project), 
  and also with older “Portable Apps for OSX” (from 
- “<a href="http://www.FreeSMUG.org/" target="_blank">FreeSMUG</a>”/“<a href="https://SourceForge.net/projects/osxportableapps/" target="_blank">osxportableapps</a>”).<dl>
-<dd>
- (FreeSMUG/osx-pa based older Portable-Apps cannot run on 
- 64-bit-only macOSX (Catalina or macOSX after it) because Apps were not 
- built with completely 64bit compatible codes/tools)<br/>
+ “<a href="http://www.FreeSMUG.org/" target="_blank">FreeSMUG</a>”/“<a href="https://SourceForge.net/projects/osxportableapps/" target="_blank">osxportableapps</a>”).<dl><dd>(FreeSMUG/osx-pa 
+ based older Portable-Apps cannot run on 64-bit-only macOSX (Catalina 
+ or macOSX after it) because Apps were not built with completely 64bit 
+ compatible codes/tools)<br/>
  (For Windows-PortableApps goto https://github.com/PortableApps)<br/>
  (By the way, Windows Apps Can Be Run On macOSX By Using 
  <a href="https://wiki.WineHQ.org/MacOS" target="_blank">Wine</a>, 
@@ -62,8 +61,8 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
  (PA = Portable App)</dd></dl>
 
 <a name="index"></a><!-- “:” = &#58; -->
-<dl><dd>&#160;<dl><dd>
- <a href="F/">F</a> ¦ <a href="F/PortableFirefoxOSX64/">Portable Firefox OSX64</a> </dd>
+<dl><dd>&#160;<dl>
+<dd>¦ <a href="F/">F</a> ¦ <a href="F/PortableFirefoxOSX64/">Portable Firefox OSX64</a> ¦</dd>
 <dd>Content/Index List<b>:</b> 
  ¦ <a href="#intro">Intro</a> 
  ¦ <a href="#BuildTools">Build/Run Tools</a> 
@@ -88,8 +87,8 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
  ¦ <a href="#License">License(s)</a> 
  ¦</dd>
 <dd><div align="center">
- macOSX Catalina version is 10.15.x (mostly 64bit-only)<br/>
- macOSX Mojave version is 10.14.x (64bit+32bit)</div></dd>
+ <b>◦</b> macOSX Catalina version is 10.15.x (mostly 64bit-only)<br/>
+ <b>◦</b> macOSX Mojave version is 10.14.x (64bit+32bit)</div></dd>
 </dl></dd></dl>
 
 <a name="BuildTools"></a><a name="RunTools"></a>
@@ -139,8 +138,8 @@ Xcode is released by Apple. It can perform verious functionalities:
  So it seems, only Admin level privileged user can use+run Platypus generated apps, 
  in 64bit-only macOSX(Catalina & macOSX after it) and also in 64bit+32bit supported 
  macOSX(Mojave & macOSX before it).<br/>
- To wrap app for macOSX Mojave & before it, use v4.9.<br/>
- To wrap app for macOSX Catalina & after it, use v5.3 & later.<br/>
+ To wrap an App for macOSX Mojave & before it, use v4.9.<br/>
+ To wrap an App for macOSX Catalina & after it, use v5.3 & later.<br/>
 </dd></dl>
 </div><br/>
 
@@ -152,8 +151,11 @@ Xcode is released by Apple. It can perform verious functionalities:
  Check here<b>:</b>
 <dl width="100%"><dd width="100%">
  Website: <a href="https://www.BlueM.net/en/projects/pashua/" target="_blank">https://www.BlueM.net/en/projects/pashua/</a><br/>
- Github: https://GitHub.com/BlueM/Pashua
-</dd><dd>We have to use Pashua or similar, because older “Portable OSX Apps” (from “FreeSMUG”/“osxportableapps”) do not include 64bit dialog/interaction software/tools, So cannot be run/executed on 64-only macOSX (Catalina or after it).</dd>
+ Github: https://GitHub.com/BlueM/Pashua</dd>
+<dd>We have to use Pashua or similar, because older “Portable OSX Apps” 
+ (from “FreeSMUG”/“osxportableapps”) do not include 64bit dialog/interaction 
+ software/tools, So cannot be run/executed on 64-only macOSX (Catalina 
+ or after it).</dd>
 <dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd></dl>
 </div><br/>
 
@@ -164,8 +166,7 @@ Xcode is released by Apple. It can perform verious functionalities:
 
 <div><a name="pb-1"></a>PB-1: Suppose, We are working-on/building this project 
  from below (example) folder<b>:</b>
-<dl><dd><!-- “:” = &#58; -->
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/"</code><br/>
+<dl><dd><!-- “:” = &#58; --><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/"</code>
 <dl><dd>Above folder can also be accessed in this shorter way in (Catalina or) 
  macOS (after it)<b>:</b><br/>
  &#160;<code>"/Projects/Portable-Apps-OS-X-64/"</code><br/>
@@ -208,16 +209,16 @@ to build/wrap macOS app⒮ inside 64bit+32bit suppported macOSX Mojave or earlie
 <br/>
 
 <a name="pb-5"></a>PB-5: Get (Language, Profile, License, etc) build related 
- files/folders/bundles:<br/>
-<b>a:</b> Use GitHub’s “Clone or Download” button & select “Download ZIP”, save zip file, 
+ files/folders/bundles:
+<div><b>a:</b> Use GitHub’s “Clone or Download” button & select “Download ZIP”, save zip file, 
  goto default download location folder “Downloads”, double-click/tap on zip file (to 
  decompress it), you’ll get a folder with same-name (without the “zip” extension), 
- then Copy all files inside that folder, & Paste into our build folder:<dl><dd>
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/"</code><br/>
+ then Copy all files inside that folder, & Paste into our build 
+ folder<b>:</b><dl><dd> <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/"</code><br/>
  ( above location’s shorter form is: 
  <code>"/Projects/Portable-Apps-OS-X-64/"</code> )<br/>
  ( or Paste into your userspace: 
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/"</code> )</dd></dl>
+ <code>"/Users/MyUserName/MyProjects/PA-OSX64/"</code> )</dd></dl></div>
 <b>b:</b> Skip below files/steps which you’ve already obtained/exists 
  or already done.<br/>
 <b>c:</b> Obtain old PortableAppNameOSX App (i.e: PortableFirefoxOSX) (download from 
@@ -225,8 +226,8 @@ to build/wrap macOS app⒮ inside 64bit+32bit suppported macOSX Mojave or earlie
  sites), or download any other non-portable macOS Apps directly from original releaser’s website.<br/>
 <b>d:</b> Double-Click/Tap on `"PortableAppName_*.dmg"` or `"AppName_*.dmg"` 
  file to view internal contents(files, bundles, folders, etc).<br/>
-<b>e:</b><!-- “:” = &#58; --> Copy necessary files/bundles (if does not exist in destination), 
- & Paste into below sub-dir structure shown inside our build location:<dl><dd> 1st Create a 
+<div><b>e:</b><!-- “:” = &#58; --> Copy necessary files/bundles (if does not exist in destination), 
+ & Paste into below sub-dir structure shown inside our build location<b>:</b><dl><dd> 1st Create a 
  single-letter sub-dir/sub-folder by using the 1st alphabet/letter of “AppName”, 
  in the location shown in above <b>PB-5-a</b> step.<br/>
  <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/"</code><br/>
@@ -244,22 +245,22 @@ to build/wrap macOS app⒮ inside 64bit+32bit suppported macOSX Mojave or earlie
  ( NOTE: Use “<b>PA</b>” (in-beginning) to indicate the App was obtained from 
  “OsxPortableApps”/“FreeSMUG” site, and Use “<b>OSX</b>” or “<b>OSX-Old</b>” 
  (and <b>Not</b>-“<b>OSX64</b>”) in End, to indicate the App is 
- Not-Yet-Converted into a <b>“</b>Portable<b>OSX64</b>App<b>”</b> )</dd></dl>
-<b>f:</b> Create another sub-dir <code>"PA-AppName-OSX64"</code> under the 
+ Not-Yet-Converted into a <b>“</b>Portable<b>OSX64</b>App<b>”</b> )</dd></dl></div>
+<div><b>f:</b> Create another sub-dir <code>"PA-AppName-OSX64"</code> under the 
  location shown in <b>PB-5-a</b> step:<br/>
  <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppNameOSX64/"</code><br/>
  ( above location’s shorter form is:<br/>
  <code>"/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppNameOSX64/"</code> )<br/>
  ( or Create that sub-dir inside your userspace, like this:<br/>
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/"</code> )<br/>
+  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/"</code> )</div>
 <b>g:</b> After following the step PB-5-e, you will/should find a folder 
  <code>"Portable AppName OS X"</code> inside <code>".../PortableAppNameOSX-Old/"</code> 
  folder (or in <code>".../PA-AppName-OSX-Old/"</code> folder). And inside 
  that folder, you will/should find the portable app bundle 
  <code>"Portable AppName.app"</code>.<br/>
-<b>h:</b> Right-click (or Tap with double-finger) on <code>"Portable AppName.app"</code> 
- bundle, which is here:
-<dl><dd><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppName-OSX-Old/Portable AppName OS X/Portable AppName.app"</code><br/>
+<div><b>h:</b> Right-click (or Tap with double-finger) on <code>"Portable AppName.app"</code> 
+ bundle, which is here:<dl>
+<dd><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppName-OSX-Old/Portable AppName OS X/Portable AppName.app"</code><br/>
  ( above location’s shorter form is: 
  <code>"/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppName-OSX-Old/Portable AppName OS X/Portable AppName.app"</code> )<br/>
  ( or access it inside your userspace: 
@@ -278,14 +279,15 @@ to build/wrap macOS app⒮ inside 64bit+32bit suppported macOSX Mojave or earlie
 <dd><b>i-3:</b> If you want to use your existing App’s settings/“profile” 
  in your/current system (inside your computer’s internal drive), with the 
  newer “Portable AppName OSX64”, then copy below “profile” folder:<br/>
- &#160;&#160;<code>"/Users/MyUserName/Library/Applications Support/AppName/Profiles/********.default/"</code></dd></dl>
-<b>j:</b> Paste the “profile” folder inside our build related (destination) folder:
-<dl><dd><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppName-OSX64/"</code><br/>
+ &#160;&#160;<code>"/Users/MyUserName/Library/Applications Support/AppName/Profiles/********.default/"</code></dd></dl></div>
+<div><b>j:</b> Paste the “profile” folder inside our build related (destination) folder:<dl>
+<dd><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppName-OSX64/"</code><br/>
  ( above location’s shorter form is: 
  <code>"/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppName-OSX64/"</code> )<br/>
  ( or Paste in your userspace: 
  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/"</code> 
- )</dd><dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd></dl>
+ )</dd><dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd>
+</dl></div>
 
 
 ## BUILD:
