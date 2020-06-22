@@ -42,23 +42,33 @@ Portable Apps for MacOSX-64 is a (set of)‘script’/Tool Which Allows To Run
 So We Are Including 64bit Pashua dialog, 64bit Platypus, etc Tools 
  To Assist In Executing/Running Apps Either As Portable App Or As 
  Multi-Instance Of Same App, Either From Portable/External-Drive 
- Or From Mac's Internal-Drive, On Both 64bit-Only macOSX (Catalina 
+ Or From Mac’s Internal-Drive, On Both 64bit-Only macOSX (Catalina 
  & macOSX after it) And 64bit+32bit macOSX (Mojave & macOSX before 
  it).<br/>
 This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted 
- To Use With Other “Portable OSX 64 Apps”.<br/>
-&#160;&#160;(For Windows-PortableApps goto https://github.com/PortableApps)<br/>
-&#160;&#160;(By the way, Windows Apps Can Be Run On macOSX By Using 
+ To Use With Other “Portable Apps for OSX 64” (under this project), 
+ and also with older “Portable Apps for OSX” (from 
+ “<a href="http://www.FreeSMUG.org/" target="_blank">FreeSMUG</a>”/“<a href="https://SourceForge.net/projects/osxportableapps/" target="_blank">osxportableapps</a>”).<dl>
+<dd>
+ (FreeSMUG/osx-pa based older Portable-Apps cannot run on 
+ 64-bit-only macOSX (Catalina or macOSX after it) because Apps were not 
+ built with completely 64bit compatible codes/tools)<br/>
+ (For Windows-PortableApps goto https://github.com/PortableApps)<br/>
+ (By the way, Windows Apps Can Be Run On macOSX By Using 
  <a href="https://wiki.WineHQ.org/MacOS" target="_blank">Wine</a>, 
  <a href="https://WineSkin.UrgeSoftware.com/tiki-index.php" target="_blank">Wineskin</a>, 
  <a href="https://WineBottler.KronenBerg.org/" target="_blank">WineBottler</a>, 
  <a href="https://www.PlayOnMac.com/en" target="_blank">PlayOnMac</a>, etc)<br/>
+ (PA = Portable App)</dd></dl>
 
 <a name="index"></a><!-- “:” = &#58; -->
-<dl><dd>Content/Index List<b>:</b> 
+<dl><dd>&#160;<dl><dd>
+ <a href="F/">F</a> ¦ <a href="F/PortableFirefoxOSX64/">Portable Firefox OSX64</a> </dd>
+<dd>Content/Index List<b>:</b> 
  ¦ <a href="#intro">Intro</a> 
  ¦ <a href="#BuildTools">Build/Run Tools</a> 
-  ( <a href="#Xcode">Xcode</a> ¦ <a href="#Platypus">Platypus</a> 
+  ( <a href="#PA-OSX64">Portable-Apps-OS-X-64</a> 
+  ¦ <a href="#Xcode">Xcode</a> ¦ <a href="#Platypus">Platypus</a> 
   ¦ <a href="#Pashua">Pashua</a> ) 
  ¦ <a href="#pb">Pre-Build</a> 
   ( <a href="#pb-1">PB-1</a> ¦ <a href="#pb-2">PB-2</a> ¦ <a href="#pb-3">PB-3</a> 
@@ -75,11 +85,12 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
   ¦ <a href="#VerifyFileAuthenticity">Verify File Authenticity</a> 
   ¦ <a href="#codesign">CodeSign</a> ) 
  ¦ <a href="#Abbreviations">Abbreviations</a> 
- ¦</dd><dd><div align="center">
+ ¦ <a href="#License">License(s)</a> 
+ ¦</dd>
+<dd><div align="center">
  macOSX Catalina version is 10.15.x (mostly 64bit-only)<br/>
- macOSX Mojave version is 10.14.x (64bit+32bit)</div></dd><dd>
- <a href="F/">F</a> 
- ¦ <a href="F/PortableFirefoxOSX64/">Portable Firefox OSX64</a> </dd></dl>
+ macOSX Mojave version is 10.14.x (64bit+32bit)</div></dd>
+</dl></dd></dl>
 
 <a name="BuildTools"></a><a name="RunTools"></a>
 ## BUILD TOOLS & EXECUTION/RUN TOOLS:
@@ -88,11 +99,30 @@ We use (mentioned in below) tools to build our binary executable,
  tool during execution, & for executing the App either as portable 
  app or as multi-instance of same app.
 
+<a name="PA-OSX64"><a name="License"></a>
+<b>Portable Apps OSX 64:</b>
+<div>Script(s)/Tool(s), Config(s)/Settings, etc For “Portable-Apps-OS-X-64" 
+ (this project) are released with following License(s) + Restrictions + 
+ Permissions<b>:</b><dl>
+ <dd>
+  <b>◦</b> GNU General Public License Version 3 
+  (<a href="https://www.GNU.org/licenses/gpl-3.0.en.html" target="_blank">GPL v3</a>)<br/>
+  <b>◦</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc<br/>
+  <b>◦</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
+  at&#69;rik＠&#65;śh&#70;ölķ·ć&#333;m&gt; Use 
+  <a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">basic-latin</a> 
+  char. No soliciting permitted)&#46; All rights reserved.<br/>
+  <b>◦</b> (All other trademarks, etc cited here are the property of their respective owners&#46;)<br/>
+  <b>◦</b> (All other copyright items cited here are the copyright of their respective author/creator&#46;)</dd>
+ </dl>
+</div>
+
 <a name="Xcode"></a>
-<b>Xcode:</b><br/>
+<b>Xcode<b>:</b></b><br/>
 Xcode is released by Apple. It can perform verious functionalities: 
  App building IDE, source-code management, compiler, command-line compiler, 
- etc, etc, etc, etc.
+ etc, etc, etc, etc.<br/>
+ At currrent stage of this project, we are/will-be using Xcode command-line tools, mostly.
 
 <a name="Platypus"></a>
 <b>PLATYPUS:</b><br/>
@@ -116,16 +146,18 @@ Xcode is released by Apple. It can perform verious functionalities:
 
 <a name="Pashua"></a>
 <b>PASHUA:</b><br/>
-<div width="100%"> Pashua dialog seems to be a good choice for now (as a 
-‘dialog’/interaction assistor), (its licensed-under <a href="BSD-3-clause.txt">BSD-3-clause</a>), 
-Check here<b>:</b>
+<div width="100%"> Pashua dialog uses completely 64bit compatible codes, 
+ so it seems to be a good choice for now (as a ‘dialog’/interaction 
+ assistor), (and its licensed-under <a href="BSD-3-clause.txt">BSD-3-clause</a>), 
+ Check here<b>:</b>
 <dl width="100%"><dd width="100%">
  Website: <a href="https://www.BlueM.net/en/projects/pashua/" target="_blank">https://www.BlueM.net/en/projects/pashua/</a><br/>
  Github: https://GitHub.com/BlueM/Pashua
-</dd><dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd></dl>
+</dd><dd>We have to use Pashua or similar, because older “Portable OSX Apps” (from “FreeSMUG”/“osxportableapps”) do not include 64bit dialog/interaction software/tools, So cannot be run/executed on 64-only macOSX (Catalina or after it).</dd>
+<dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd></dl>
 </div><br/>
 
-<!-- markdown line which starts with # or ## or ### , are turned into html-header & html-hr & a lower-case name-link. -->
+<!-- markdown line which starts with # or ## or ### etc are turned into html-header & html-hr & a lower-case name-link. -->
 <a name="pb"></a>
 ## PRE-BUILD:
 <b>BRING TOGETHER BUILD-RELATED ITEMS/OBJECTS,ETC (PREPARATION):</b>
