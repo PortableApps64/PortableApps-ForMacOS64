@@ -1,12 +1,12 @@
 <style type="text/css"> /*<br/><dl><dd>
  Scroll-down to see main content of README.md, or Press/Tap on "View all of README.md".<br/>
  If this Line/Paragraph/&lt;style>..&lt;/style>-CSS-Block is Shown On This README&#46;md,<br/>
- Then GitHub <a href="https://github.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization%5Ffilter%2Erb">Disabled</a> Usage Of &lt;style>-CSS HTML Tag/Command for all GitHub users!<br/>
+ Then GitHub <a href="https://GitHub.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization%5Ffilter%2Erb" target="_blank">Disabled</a> Usage Of &lt;style>-CSS HTML Tag/Command for all GitHub users!<br/>
  It Appaers That, To Support "GitHub-Pages"-Hosting/DEAL$/…/… GitHub,… Disabled<br/>
  CSS, JS, etc Here, & Directing Users To Use "GitHub-Pages" For CSS/JS/etc.<br/>
  But We Need Basic-CSS Here, As it(&lt;style>) Helps Developers/Users To Define Simple CSS<br/>
  To Present/Show Distinct-Contents Distinctly+Accurately.<br/>
- GitHub Already <a href="https://github.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization%5Ffilter%2Erb">Applying</a> Filtering/Restrictions On HTML Commands, So Contact<br/>
+ GitHub Already <a href="https://GitHub.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization%5Ffilter%2Erb" target="_blank">Applying</a> Filtering/Restrictions On HTML Commands, So Contact<br/>
  GitHub-Support & Request Them To Unblock+Enable Essential Function(s), Tell<br/>
  GitHub-Support To Apply Filtering Also For CSS/JS Commands Inside "&lt;STYLE>" & "&lt;SCRIPT>" Commands,<br/>
  to AtLeast Allow CSS & JS With Limited/Restricted Functionalities/Abilities, like:<br/>
@@ -51,12 +51,13 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
  To Use With Other “Portable Apps for OSX 64” (under this project), 
  and also with older “Portable Apps for OSX” (from another developer’s 
  project 
- “<a href="http://www.FreeSMUG.org/" target="_blank">FreeSMUG</a>”/“<a href="https://SourceForge.net/projects/osxportableapps/" target="_blank">osxportableapps</a>”).<dl><dd> 
- (FreeSMUG/osx-pa based older Portable-Apps cannot run on 64-bit-only 
+ “<a href="http://www.FreeSMUG.org/" target="_blank">FreeSMUG</a>”/“<a href="https://SourceForge.net/projects/osxportableapps/" target="_blank">osxportableapps</a>”).<dl>
+<dd> 
+ <b>◦</b> FreeSMUG/osx-pa based older Portable-Apps cannot run on 64-bit-only 
  macOSX (Catalina or macOSX after it) because Apps were not built with 
  completely 64bit compatible codes/tools)<br/>
  <b>◦</b> For Windows based “PortableApps”, checkout another developer’s 
- project: https://github.com/PortableApps<br/>
+ project: https://GitHub.com/PortableApps<br/>
  <b>◦</b> By the way, not-all but some Windows Apps Can Be Run On macOSX By Using : 
  “<a href="https://wiki.WineHQ.org/MacOS" target="_blank">Wine</a>”, 
  “<a href="https://WineSkin.UrgeSoftware.com/tiki-index.php" target="_blank">Wineskin</a>”, 
@@ -64,15 +65,17 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
  “<a href="https://www.PlayOnMac.com/en" target="_blank">PlayOnMac</a>”, etc.<br/>
  <b>◦</b> Not-all but many many Unix/BSD/Linux/etc based tools/apps can be built 
  from source-code (and some binary/executable tools can also be downloaded) 
- on your macOSX Mac computer, by using these package-management tools : 
- “<a href="https://github.com/macports/macports-base/releases/" target="_blank">MacPorts</a>” 
- (Be warned: “MacPorts” requires admin/sudo privileged access) , 
- “<a href="https://github.com/Homebrew/brew/releases/" target="_blank">HomeBrew</a>” 
- (click on “Assets” below a release, then click on “brew-&#42;&#46;tar&#46;gz”<!-- “.” = &#46; , “*” = &#42; -->
- to download, ByTheWay Be warned of Violation of Privacy-Rights by “HomeBrew” 
- project & “Google” : HomeBrew (by-default) uses Google engines/APIs/etc, 
- & Google stores+records+collects your ALL download/usage patterns/profile, 
- private-info, etc near-to-forever).<br/>
+ on your macOSX Mac computer, by using these package-management tools:<dl>
+ <dd> 
+ <b>◦</b> “<a href="https://GitHub.com/macports/macports-base/releases/" target="_blank">MacPorts</a>” 
+ (Be warned: “MacPorts” requires admin/sudo privileged access),<br/>
+ <b>◦</b> “<a href="https://GitHub.com/Homebrew/brew/releases/" target="_blank">HomeBrew</a>” 
+ <!-- “.” = &#46; , “*” = &#42; -->(click on “Assets” below a release, 
+ then click on “brew-&#42;&#46;tar&#46;gz” to download)&#46; (ByTheWay, 
+ Be Warned of Violation of Privacy-Rights by “HomeBrew” project & “Google” : 
+ HomeBrew (by-default) uses Google engines/APIs/etc, 
+ & Google stores+records+collects your ALL download/usage 
+ patterns/profile, private-info, etc near-ForEver).</dd></dl>
  <b>◦</b> PA = pa = Portable App)</dd></dl>
 </div>
 
@@ -140,7 +143,8 @@ We use (mentioned in below) tools to build our binary executable,
  At currrent stage of this project, we will-be/are using Xcode 
  command-line tools (CLT), mostly:<dl><dd> 
  to install it, run this command in Terminal window : <code>xcode-select --install</code><br/>
- or, Visit Apple dev site & obtain only Xcode-CLT portion (not full Xcode) : <a href="https://developer.apple.com/downloads"  target="_blank">https://Developer.Apple.com/downloads</a></dd></dl>
+ or, Visit Apple dev site & obtain only Xcode-CLT portion (not full Xcode) : 
+ <a href="https://developer.apple.com/downloads" target="_blank">https://Developer.Apple.com/downloads</a></dd></dl>
 </div>
 
 <a name="Platypus"></a>
@@ -149,7 +153,8 @@ We use (mentioned in below) tools to build our binary executable,
  the Platypus script wrapper (aka Platypus App builder) from 
  <a href="http://sveinbjorn.sytes.net/platypus" target="_blank">http://sveinbjorn.sytes.net/platypus</a>
 <dl><dd><!-- “.” is &#46; -->
- New website: <a href="https://Sveinbjorn.org/platypus" target="_blank">https://Sveinbjorn.org/platypus</a><br/>
+ New website: 
+ <a href="https://Sveinbjorn.org/platypus" target="_blank">https://Sveinbjorn.org/platypus</a><br/>
  GitHub: https://GitHub.com/sveinbjornt/Platypus<br/>
  Platypus is licensed under <a href="BSD-3-clause.txt">BSD-3-clause</a>, & Platypus 
  (v5.3 & later version) seems to be able to generate 64bit-only compatible app bundles, 
@@ -169,7 +174,8 @@ We use (mentioned in below) tools to build our binary executable,
  assistor), (and its licensed-under <a href="BSD-3-clause.txt">BSD-3-clause</a>), 
  Check here<b>:</b><dl>
 <dd>
- Website: <a href="https://www.BlueM.net/en/projects/pashua/" target="_blank">https://www.BlueM.net/en/projects/pashua/</a><br/>
+ Website: 
+ <a href="https://www.BlueM.net/en/projects/pashua/" target="_blank">https://www.BlueM.net/en/projects/pashua/</a><br/>
  Github: https://GitHub.com/BlueM/Pashua<br/>
  We have to use Pashua or similar, because older “Portable OSX Apps” 
  (from “FreeSMUG”/“osx-pa”) do not include 64bit dialog/interaction 
@@ -251,7 +257,7 @@ We use (mentioned in below) tools to build our binary executable,
  <a href="https://SourceForge.net/projects/osxportableapps/files/" target="_blank">here</a>(FreeSMUG/OsxPortableApps 
  sites), or download any other non-portable macOS Apps directly from 
  original releaser’s website.<br/>
-<b>d:</b> Double-Click/Tap on `"PortableAppName_*.dmg"` or `"AppName_*.dmg"` 
+<b>d:</b> Double-Click/Tap on <code>"PortableAppName_*.dmg"</code> or <code>"AppName_*.dmg"</code> 
  file to view internal contents(files, bundles, folders, etc).<br/>
 <div width="100%"><b>e:</b><!-- “:” = &#58; --> Copy necessary files/bundles 
  (if does not exist in destination), & Paste into below sub-dir structure 
@@ -279,12 +285,12 @@ We use (mentioned in below) tools to build our binary executable,
  Not-Yet-Converted into a <b>“</b>Portable<b>OSX64</b>App<b>”</b> )</dd></dl>
 </div>
 <div width="100%"><b>f:</b> Create another sub-dir <code>"PA-AppName-OSX64"</code> 
- under the location shown in <b>PB-5-a</b> step:<br/>
+ under the location shown in <b>PB-5-a</b> step:<dl><dd> 
  <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppNameOSX64/"</code><br/>
  ( above location’s shorter form is:<br/>
  <code>"/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppNameOSX64/"</code> )<br/>
  ( or Create that sub-dir inside your userspace, like this:<br/>
-  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/"</code> )
+ <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/"</code> )</dd></dl>
 </div>
 <b>g:</b> After following the step PB-5-e, you will/should find a folder 
  <code>"Portable AppName OS X"</code> inside <code>".../PortableAppNameOSX-Old/"</code> 
@@ -426,7 +432,8 @@ If you have spotted an bug/error/fault, then let us know,<br/>
  please Write down what Error⒮ you’re getting,<br/>
  try to research & try to solve as much possible,<br/>
  and/then Let us know about your unsolved errors & Share your code changes<br/>
- by creating an <a href="https://github.com/atErik/Portable-Apps-OS-X-64/issues/new/choose">Issue</a> 
+ by creating an 
+ <a href="https://GitHub.com/atErik/Portable-Apps-OS-X-64/issues/new/choose">Issue</a> 
  here in GitHub, & submit info.<br/>
 <br/>
 If no errors, even then please share your final working code, your OS info, 
@@ -472,7 +479,8 @@ and then add below 2-lines of settings<b>:</b>
  shows target/destination filename <code>/etc/synthetic.conf</code> (and allows 
  you to change name), So press <code>Enter</code> to select it & Save+Exit.<br/>
  Note<b>:</b> you must press <code>tab</code>-button after typing "Projects"/"Development". 
- More on <a href="https://www.Nano-Editor.org/dist/latest/cheatsheet.html" target="_blank">Nano</a>
+ More on 
+ <a href="https://www.Nano-Editor.org/dist/latest/cheatsheet.html" target="_blank">Nano</a>
 </dd></dl><!-- “.” is &#46; -->
 and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
 <dl><dd>
@@ -718,7 +726,8 @@ List Of Few Useful Unicode Characters/Symbols, & How To Use/Show Them<b>:</b><br
  %2D = "-", %7E = "~", %2C = ",", %27 = ', %22 = " -->
 <tr><td border="1" width="100%"><a name="UVS"></a>
  • To display an Emoji/Emoticon(emj) as a Textual(txt) glyph (if available/renderable), 
- Use a <a href="https://en.Wikipedia.org/wiki/Variant%5Fform%5F%28Unicode%29#Variation%5FSelectors%5Fblock" target="_blank">VS15</a>-char(&amp;#xFE0E; 
+ Use a 
+ <a href="https://en.Wikipedia.org/wiki/Variant%5Fform%5F%28Unicode%29#Variation%5FSelectors%5Fblock" target="_blank">VS15</a>-char(&amp;#xFE0E; 
  or &amp;#65038;) after the Emoji, (or apply CSS, i.e: <code>span.gray 
  { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>).<br/>
  <a name="UEM"></a>• When an 
@@ -747,8 +756,8 @@ List Of Few Useful Unicode Characters/Symbols, & How To Use/Show Them<b>:</b><br
  <a href="https://en.Wikipedia.org/wiki/Zero-width_non-joiner" target="_blank">ZWNJ</a> 
  char(U+200C &amp;#8204; or &amp;zwnj; or &amp;#x200C;) in between them.
 </td></tr>
-<tr><td> <a href="http://liberties.wikidot.com/symbols1" target="_blank">http://Liberties.WikiDot.com/symbols1</a><br/>
- <a href="http://liberties.wikidot.com/ligatures1" target="_blank">http://Liberties.WikiDot.com/ligatures1</a><br/>
+<tr><td> <a href="http://liberties.WikiDot.com/symbols1" target="_blank">http://Liberties.WikiDot.com/symbols1</a><br/>
+ <a href="http://liberties.WikiDot.com/ligatures1" target="_blank">http://Liberties.WikiDot.com/ligatures1</a><br/>
  <a href="https://en.Wikipedia.org/wiki/Unicode_font" target="_blank">https://en.Wikipedia.org/wiki/Unicode_font</a><br/>
  <a href="https://en.Wikipedia.org/wiki/List_of_Unicode_characters" target="_blank">https://en.Wikipedia.org/wiki/List_of_Unicode_characters</a></td></tr>
 <tr><td align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></td></tr>
