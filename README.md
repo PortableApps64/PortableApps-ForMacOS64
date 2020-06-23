@@ -23,6 +23,8 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 .UatErik53{ display:table-cell; vertical-align:middle; height:100%; width:100%; }
 /* <br/> No-Border:<br/> */
 .UatErik70{ border-collapse:collapse; border-spacing:0px; width:100%; border-width:0px; border-style:none; border:none; margin:0px; padding:0px;}
+/* <br/> Table-Cell-Border for Borderless-Table:<br/> */
+.UatErik70 td,.UatErik70 th,.UatErik70 tbody td,.UatErik70 tbody th{ border-width:1px; margin:0px; padding:0px; }
 /* <br/> Border-1:<br/> */
 .UatErik81{ border-width:1px; width:100%; margin:0px; padding:0px; }
 /* <br/> Top & Bottom Border Without Sides:<br/> */
@@ -237,7 +239,8 @@ Mojave or earlier macOSX.<br/>
  does not exist in destination), & Paste into below sub-dir structure 
  shown inside our build location<b>:</b><dl><dd> 1st Create a 
  single-letter sub-dir/sub-folder by using the 1st alphabet/letter of 
- “AppName”, in the location shown in above <b>PB-5-a</b> step.<br/>
+ “AppName”, in the location which was shown in above <b>PB-5-a</b> step, 
+ & also shown below<b>:</b><br/>
  <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/"</code><br/>
  ( above location’s shorter form is:<br/>
  <code>"/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/"</code> )<br/>
@@ -321,8 +324,8 @@ Mojave or earlier macOSX.<br/>
  <tt>２│</tt>MacNm:~ UsrNm$ echo &#36;?<!-- “.” = &#46; , “$” = &#36; --><br/>
  <tt>３│</tt>0<br/>
  <tt>４│</tt>MacNm:~ UsrNm$<br/>
- <tt>５└─────────────────</tt><br/><br/>
- ( the above ‘script’ can also be accessed from here: 
+ <tt>５└─────────────────</tt><br/>
+ ( the above ‘script’ can also be accessed from here:<br/>
  <code>"/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppName-OSX64/script.sh"</code> )<br/>
  When there is no syntax-error, (in other words, When the output is “0”),<br/>
  then copy the <code>"script.sh"</code> & paste it in same folder,<br/>
@@ -342,10 +345,13 @@ Mojave or earlier macOSX.<br/>
   <b>◦</b> directory (optional) : profile<br/>
   <b>◦</b> bundle : AppName&#46;app<br/>
   <b>◦</b> bundle : Pashua&#46;app<br/>
-  <b>◦</b> icon-file : P_AppName_Caution&#46;icns<br/>
-  <b>◦</b> icon-file : appIcon&#46;icns<br/>
-  <b>◦</b> sh-script-file : pashua&#46;sh<br/>
-  <b>◦</b> sh-script-file : script<br/>
+  <b>◦</b> icon : P_AppName_Caution&#46;icns<br/>
+  <b>◦</b> icon : appIcon&#46;icns<br/>
+  <b>◦</b> sh-script : pashua&#46;sh<br/>
+  <b>◦</b> sh-script : pashua&#46;sh&#46;lib<br/>
+  <b>◦</b> sh-script : script<br/>
+  <b>◦</b> tool : filecount<br/>
+  <b>◦</b> tool : dirsize<br/>
   <b>◦</b> readme-file : Read me&#46;txt<br/>
   <b>◦</b> license-file : GPL-3.0_LICENSE_for_script&#46;txt<br/>
   <b>◦</b> license-file : <App’s-License’s-shortName-&-version-number>_LICENSE_for_AppName&#46;txt<br/>
@@ -360,10 +366,11 @@ Mojave or earlier macOSX.<br/>
  GUI interface<b>:</b>
 <dl><dd>
  <b>◦</b> Script Type : Shell : /bin/sh<br/>
- <b>◦</b> Script Path : 
- <code>/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppName-OSX64/script</code><br/>
+ <b>◦</b> Script Path : <code>/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppName-OSX64/script</code><br/>
  &#160;&#160;( above location’s shorter form is: 
  <code>"/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppName-OSX64/script"</code> )<br/>
+ &#160;&#160;( if you're using your userpsace: 
+ <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/script"</code> )<br/>
  <b>◦</b> Interface : Text Window<br/>
  <b>◦</b> Unselected options : Run with root privileges , Run in background , 
   Accept dropped items<br/>
@@ -438,13 +445,13 @@ and then add below 2-lines of settings<b>:</b>
  “Y” (to Save) or “N” (to Discard) changes, so press “Y” (to Save), then Nano 
  shows target/destination filename <code>/etc/synthetic.conf</code> (and allows 
  you to change name), So press <code>Enter</code> to select it & Save+Exit.<br/>
- Note<b>:</b> you must press <code>tab</code>-button after typing "MyProjects"/"Development". 
+ Note<b>:</b> you must press <code>tab</code>-button after typing "Projects"/"Development". 
  More on <a href="https://www.Nano-Editor.org/dist/latest/cheatsheet.html" target="_blank">Nano</a>
 </dd></dl><!-- “.” is &#46; -->
 and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
 <dl><dd>
  <tt>０┌─────────────────</tt><br/>
- <tt>１│</tt>sudo mkdir -p /System/Volumes/Data/MyProjects<br/>
+ <tt>１│</tt>sudo mkdir -p /System/Volumes/Data/Projects<br/>
  <tt>２│</tt>sudo mkdir -p /System/Volumes/Data/Development<br/>
  <tt>３└─────────────────</tt>
 </dd></dl>
@@ -452,10 +459,10 @@ and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
 <br/>
 Now "MyProjects" or "Development" folder(s) can be accessed in these ways:
 <dl><dd>
- <code>"/System/Volumes/Data/MyProjects"</code><br/>
+ <code>"/System/Volumes/Data/Projects"</code><br/>
  <code>"/System/Volumes/Data/Development"</code><br/>
  and also in its shorter form:<br/>
- <code>"/MyProjects"</code><br/>
+ <code>"/Projects"</code><br/>
  <code>"/Development"</code>
 </dd></dl>
 </td></tr>
@@ -483,10 +490,11 @@ List Of Few Useful Unicode Characters/Symbols, & How To Use/Show Them<b>:</b><br
 ( We will use some of these in our dialog messages from this ‘script’ )</td></tr>
 <tr><td><a name="U-abbr"></a>Unicode related Abbreviations: 
  • Char = Character/Symbol/Glyph • Grph = Graphic • Emj ~= Emoji ~= Emoticons 
- • Txt = Textual Glyph • U = Unicode • h = H = x = hex = HexaDecimal • A = ASCII 
- • Ref = Reference • dec = decimal • DEC = DRC = Decimal Entity (Ref) Code 
- • HEC = HexaDecimal Entity (Ref) Code • CNRC = Character Name Ref/Entity Code 
- • PE = Percent-Encoding • FRE = Font/Character/Glyph/Grapheme Rendering Engine </td></tr>
+ • Txt = Textual Glyph • U = Unicode • A = ASCII • Ref = Reference 
+ • dec = decimal • DEC = DRC = Decimal Entity (Ref) Code 
+ • HEC = HexaDecimal Entity (Ref) Code • h = H = x = hex = HexaDecimal 
+ • CNRC = Character Name Ref/Entity Code • PE = Percent-Encoding 
+ • FRE = Font/Character/Glyph/Grapheme Rendering Engine </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
@@ -794,8 +802,8 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  parts of new engine were+are mostly based on 
  <a href="https://en.wikipedia.org/wiki/Servo%5F%28software%29" target="_blank">Servo</a>,..engine 
  but it is still (deceptively/purposely) named/known as same “Gecko”! 
- some users (correctly) calls/identifies it GwS(“Gecko-with-Servo” 
- or “Gecko-w/Servo”) or SbG(“Servo-based-Gecko”) or in-short just “Servo” engine. 
+ some users calls/identifies it GwS(“Gecko-with-Servo” or “Gecko-w/Servo”) 
+ or SbG(“Servo-based-Gecko”) or in-short just calls it “Servo” engine. 
  I will call it here, just Servo or GwS or SbG. FFQ in iOS was forced to use WebKit 
  based engine. Lots of PLUGINS existed & was released for (older) Gecko based 
  older FF (before v57), Mozilla STOPPED sharing/distrubuting ALL OF THOSE 
