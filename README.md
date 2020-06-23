@@ -40,8 +40,8 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 Portable Apps for MacOSX-64 is a (set of)‘script’/Tool Which Allows To Run 
  Apps (i.e: Mozilla’s "Firefox&#46;app") for macOS As A macOSX-64 Portable App, 
  & Also Allows To Run (Second/Third&#47;&#41;Multiple Instances Of Same App, 
- in macOSX.<br/>
-So We Are Including 64bit Pashua dialog, 64bit Platypus, etc Tools 
+ in macOSX.
+<div width="100%">So We Are Including 64bit Pashua dialog, 64bit Platypus, etc Tools 
  To Assist In Executing/Running Apps Either As Portable App Or As 
  Multi-Instance Of Same App, Either From Portable/External-Drive 
  Or From Mac’s Internal-Drive, On Both 64bit-Only macOSX (Catalina 
@@ -49,25 +49,39 @@ So We Are Including 64bit Pashua dialog, 64bit Platypus, etc Tools
  it).<br/>
 This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted 
  To Use With Other “Portable Apps for OSX 64” (under this project), 
- and also with older “Portable Apps for OSX” (from 
- “<a href="http://www.FreeSMUG.org/" target="_blank">FreeSMUG</a>”/“<a href="https://SourceForge.net/projects/osxportableapps/" target="_blank">osxportableapps</a>”).<dl><dd>(FreeSMUG/osx-pa 
- based older Portable-Apps cannot run on 64-bit-only macOSX (Catalina 
- or macOSX after it) because Apps were not built with completely 64bit 
- compatible codes/tools)<br/>
- (For Windows-PortableApps goto https://github.com/PortableApps)<br/>
- (By the way, Windows Apps Can Be Run On macOSX By Using 
- <a href="https://wiki.WineHQ.org/MacOS" target="_blank">Wine</a>, 
- <a href="https://WineSkin.UrgeSoftware.com/tiki-index.php" target="_blank">Wineskin</a>, 
- <a href="https://WineBottler.KronenBerg.org/" target="_blank">WineBottler</a>, 
- <a href="https://www.PlayOnMac.com/en" target="_blank">PlayOnMac</a>, etc)<br/>
- (PA = pa = Portable App)</dd></dl>
+ and also with older “Portable Apps for OSX” (from another developer’s 
+ project 
+ “<a href="http://www.FreeSMUG.org/" target="_blank">FreeSMUG</a>”/“<a href="https://SourceForge.net/projects/osxportableapps/" target="_blank">osxportableapps</a>”).<dl><dd> 
+ (FreeSMUG/osx-pa based older Portable-Apps cannot run on 64-bit-only 
+ macOSX (Catalina or macOSX after it) because Apps were not built with 
+ completely 64bit compatible codes/tools)<br/>
+ <b>◦</b> For Windows based “PortableApps”, checkout another developer’s 
+ project: https://github.com/PortableApps<br/>
+ <b>◦</b> By the way, not-all but some Windows Apps Can Be Run On macOSX By Using : 
+ “<a href="https://wiki.WineHQ.org/MacOS" target="_blank">Wine</a>”, 
+ “<a href="https://WineSkin.UrgeSoftware.com/tiki-index.php" target="_blank">Wineskin</a>”, 
+ “<a href="https://WineBottler.KronenBerg.org/" target="_blank">WineBottler</a>”, 
+ “<a href="https://www.PlayOnMac.com/en" target="_blank">PlayOnMac</a>”, etc.<br/>
+ <b>◦</b> Not-all but many many Unix/BSD/Linux/etc based tools/apps can be built 
+ from source-code (and some binary/executable tools can also be downloaded) 
+ on your macOSX Mac computer, by using these package-management tools : 
+ “<a href="https://github.com/macports/macports-base/releases/" target="_blank">MacPorts</a>” 
+ (Be warned: “MacPorts” requires admin/sudo privileged access) , 
+ “<a href="https://github.com/Homebrew/brew/releases/" target="_blank">HomeBrew</a>” 
+ (click on “Assets” below a release, then click on “brew-&#42;&#46;tar&#46;gz”<!-- “.” = &#46; , “*” = &#42; -->
+ to download, ByTheWay Be warned of Violation of Privacy-Rights by “HomeBrew” 
+ project & “Google” : HomeBrew (by-default) uses Google engines/APIs/etc, 
+ & Google stores+records+collects your ALL download/usage patterns/profile, 
+ private-info, etc near-to-forever).<br/>
+ <b>◦</b> PA = pa = Portable App)</dd></dl>
+</div>
 
 <a name="index"></a><!-- “:” = &#58; -->
 <dl><dd>&#160;<dl>
 <dd>¦ <a href="F/">F</a> ¦ <a href="F/PortableFirefoxOSX64/">Portable Firefox OSX64</a> ¦</dd>
 <dd>Content/Index List<b>:</b> 
  ¦ <a href="#intro">Intro</a> 
- ¦ <a href="#BuildTools">Build/Run Tools</a> 
+ ¦ <a href="#BuildTools">Build/Run-Tools</a> 
   ( <a href="#PA-OSX64">Portable-Apps-OS-X-64</a> 
   ¦ <a href="#Xcode">Xcode</a> ¦ <a href="#Platypus">Platypus</a> 
   ¦ <a href="#Pashua">Pashua</a> ) 
@@ -88,7 +102,7 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
  ¦ <a href="#Abbreviations">Abbreviations</a> 
  ¦ <a href="#License">License(s)</a> 
  ¦</dd>
-<dd><div align="center">
+<dd><div width="100%" align="center">
  <b>◦</b> macOSX Catalina version is 10.15.x (mostly 64bit-only)<br/>
  <b>◦</b> macOSX Mojave version is 10.14.x (64bit+32bit)</div></dd>
 </dl></dd></dl>
@@ -101,7 +115,7 @@ We use (mentioned in below) tools to build our binary executable,
  app or as multi-instance of same app.
 
 <a name="PA-OSX64"><a name="License"></a>
-<div><b>Portable Apps OSX 64:</b><br/>
+<div width="100%"><b>Portable Apps OSX 64:</b><br/>
  Script(s)/Tool(s), Config(s)/Settings, etc For “Portable-Apps-OS-X-64" 
  (this project) are released with following <b>License</b>(s) + Restrictions + 
  Permissions<b>:</b><dl>
@@ -119,16 +133,18 @@ We use (mentioned in below) tools to build our binary executable,
 </div>
 
 <a name="Xcode"></a>
-<div><b>Xcode:</b><br/>
+<div width="100%"><b>Xcode:</b><br/>
  Xcode is released by Apple. It can perform verious functionalities: 
  App building IDE, source-code management, compiler, command-line compiler, 
  etc, etc, etc, etc.<br/>
  At currrent stage of this project, we will-be/are using Xcode 
- command-line tools, mostly.
+ command-line tools (CLT), mostly:<dl><dd> 
+ to install it, run this command in Terminal window : <code>xcode-select --install</code><br/>
+ or, Visit Apple dev site & obtain only Xcode-CLT portion (not full Xcode) : <a href="https://developer.apple.com/downloads"  target="_blank">https://Developer.Apple.com/downloads</a></dd></dl>
 </div>
 
 <a name="Platypus"></a>
-<div><b>PLATYPUS:</b><br/>
+<div width="100%"><b>PLATYPUS:</b><br/>
  Older "Portable AppName&#46;app" bundle is created/packaged by using 
  the Platypus script wrapper (aka Platypus App builder) from 
  <a href="http://sveinbjorn.sytes.net/platypus" target="_blank">http://sveinbjorn.sytes.net/platypus</a>
@@ -147,7 +163,7 @@ We use (mentioned in below) tools to build our binary executable,
 </div><br/>
 
 <a name="Pashua"></a>
-<div><b>PASHUA:</b><br/>
+<div width="100%"><b>PASHUA:</b><br/>
  Pashua dialog uses completely 64bit compatible codes, 
  so it seems to be a good choice for now (as a ‘dialog’/interaction 
  assistor), (and its licensed-under <a href="BSD-3-clause.txt">BSD-3-clause</a>), 
@@ -169,7 +185,7 @@ We use (mentioned in below) tools to build our binary executable,
 ## PRE-BUILD:
 <b>BRING TOGETHER BUILD-RELATED ITEMS/OBJECTS,ETC (PREPARATION):</b>
 
-<div><a name="pb-1"></a>PB-1: Suppose, We are working-on/building this project 
+<div width="100%"><a name="pb-1"></a>PB-1: Suppose, We are working-on/building this project 
  from below (example) folder<b>:</b>
 <dl><dd><!-- “:” = &#58; --><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/"</code>
 <dl><dd>Above folder can also be accessed in this shorter way in (Catalina or) 
@@ -187,47 +203,48 @@ We use (mentioned in below) tools to build our binary executable,
 </dd></dl>
 </div>
 
-<a name="pb-2"></a>PB-2: Obtain NEW Platypus (at the time of writing 
-this README&#46;md, it is/was v5.3),<br/>
-&#160;&#160; from here: 
-<a href="https://Sveinbjorn.org/platypus" target="_blank">https://Sveinbjorn.org/platypus</a><br/>
-and install in your (64bit-only macOSX(Catalina or macOS after it) based) 
-Mac computer.<br/>
-Or get Platypus v4.9, as that is/was the last 32bit supported 
-( & working) Platypus,<br/>
-to build/wrap macOS app⒮ inside 64bit+32bit suppported macOSX 
-Mojave or earlier macOSX.<br/>
+<div width="100%"><a name="pb-2"></a>PB-2: Obtain NEW Platypus (at the 
+ time of writing this README&#46;md, it is/was v5.3),<br/>
+ &#160;&#160; from here: 
+ <a href="https://Sveinbjorn.org/platypus" target="_blank">https://Sveinbjorn.org/platypus</a><br/>
+ and install in your Mac computer, new version allows to build *.app 
+ on 64bit-only macOSX Catalina or macOSX after it.<br/>
+ Get Platypus v4.9, as that is/was the last 32bit supported 
+ ( & working) Platypus, it allows to build/wrap macOS app⒮ 
+ for 64bit+32bit suppported macOSX Mojave or macOSX earlier of that.
+</div>
 
-<div><a name="pb-3"></a>PB-3: Obtain Pashua dialog from here : 
- <a href="https://www.BlueM.net/en/projects/pashua/" target="_blank">https://www.BlueM.net/en/projects/pashua/</a>
-<dl><dd>Open dmg installer, Copy "Pashua&#46;app", "Pashua&#46;sh" 
- into below build related folder<b>:</b><br/>
-<!-- “.” = &#46; -->&#160;<code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/"</code><br/>
-&#160;( shorter form of above location is: 
+<div width="100%"><a name="pb-3"></a>PB-3: Obtain Pashua dialog from here : 
+ <a href="https://www.BlueM.net/en/projects/pashua/" target="_blank">https://www.BlueM.net/en/projects/pashua/</a><dl>
+<dd> Open dmg installer, Copy "Pashua&#46;app", "Pashua&#46;sh" 
+ into below build related folder<b>:</b><br/><!-- “.” = &#46; -->
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/"</code><br/>
+ ( shorter form of above location is: 
  <code>"/Projects/Portable-Apps-OS-X-64/"</code> )<br/>
-&#160;( or, Copy in your Userspace: 
+ ( or, Copy in your userspace: 
  <code>"/Users/MyUserName/MyProjects/PA-OSX64/"</code> )<br/>
-&#160;( PA = Portable App )
-</dd></dl>
-</div><br/>
+ ( PA = pa = Portable App )</dd>
+</dl>
+</div>
 
-<div><a name="pb-4"></a>PB-4: Get macOS 64-bit compatible APP,<br/>
+<div width="100%"><a name="pb-4"></a>PB-4: Get macOS 64-bit compatible APP,<br/>
  (to convert them as Portable App or to convert them as Multi-instance App).
 </div>
 <br/>
 
 <a name="pb-5"></a>PB-5: Get (Language, Profile, License, etc) build related 
  files/folders/bundles:
-<div><b>a:</b> Use GitHub’s “Clone or Download” button & select “Download 
- ZIP”, save zip file, goto default download location folder “Downloads”, 
- double-click/tap on zip file (to decompress it), you’ll get a folder with 
- same-name (without the “zip” extension), then Copy all files inside that 
- folder, & Paste into our build 
+<div width="100%"><b>a:</b> Use GitHub’s “Clone or Download” button & select 
+ “Download ZIP”, save zip file, goto default download location folder 
+ “Downloads”, double-click/tap on zip file (to decompress it), you’ll get 
+ a folder with same-name (without the “zip” extension), then Copy all files 
+ inside that folder, & Paste into our build 
  folder<b>:</b><dl><dd> <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/"</code><br/>
  ( above location’s shorter form is: 
  <code>"/Projects/Portable-Apps-OS-X-64/"</code> )<br/>
  ( or Paste into your userspace: 
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/"</code> )</dd></dl></div>
+ <code>"/Users/MyUserName/MyProjects/PA-OSX64/"</code> )</dd></dl>
+</div>
 <b>b:</b> Skip below files/steps which you’ve already obtained/exists 
  or already done.<br/>
 <b>c:</b> Obtain old PortableAppNameOSX App (i.e: PortableFirefoxOSX) (download from 
@@ -236,8 +253,8 @@ Mojave or earlier macOSX.<br/>
  original releaser’s website.<br/>
 <b>d:</b> Double-Click/Tap on `"PortableAppName_*.dmg"` or `"AppName_*.dmg"` 
  file to view internal contents(files, bundles, folders, etc).<br/>
-<div><b>e:</b><!-- “:” = &#58; --> Copy necessary files/bundles (if 
- does not exist in destination), & Paste into below sub-dir structure 
+<div width="100%"><b>e:</b><!-- “:” = &#58; --> Copy necessary files/bundles 
+ (if does not exist in destination), & Paste into below sub-dir structure 
  shown inside our build location<b>:</b><dl><dd> 1st Create a 
  single-letter sub-dir/sub-folder by using the 1st alphabet/letter of 
  “AppName”, in the location which was shown in above <b>PB-5-a</b> step, 
@@ -259,29 +276,35 @@ Mojave or earlier macOSX.<br/>
  ( NOTE: Use “<b>PA</b>” (in-beginning) to indicate the App was obtained from 
  “OsxPortableApps”/“FreeSMUG” site, and Use “<b>OSX</b>” or “<b>OSX-Old</b>” 
  (and <b>Not</b>-“<b>OSX64</b>”) in End, to indicate the App is 
- Not-Yet-Converted into a <b>“</b>Portable<b>OSX64</b>App<b>”</b> )</dd></dl></div>
-<div><b>f:</b> Create another sub-dir <code>"PA-AppName-OSX64"</code> under the 
- location shown in <b>PB-5-a</b> step:<br/>
+ Not-Yet-Converted into a <b>“</b>Portable<b>OSX64</b>App<b>”</b> )</dd></dl>
+</div>
+<div width="100%"><b>f:</b> Create another sub-dir <code>"PA-AppName-OSX64"</code> 
+ under the location shown in <b>PB-5-a</b> step:<br/>
  <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppNameOSX64/"</code><br/>
  ( above location’s shorter form is:<br/>
  <code>"/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppNameOSX64/"</code> )<br/>
  ( or Create that sub-dir inside your userspace, like this:<br/>
-  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/"</code> )</div>
+  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/"</code> )
+</div>
 <b>g:</b> After following the step PB-5-e, you will/should find a folder 
  <code>"Portable AppName OS X"</code> inside <code>".../PortableAppNameOSX-Old/"</code> 
  folder (or in <code>".../PA-AppName-OSX-Old/"</code> folder). And inside 
  that folder, you will/should find the portable app bundle 
  <code>"Portable AppName.app"</code>.<br/>
-<div><b>h:</b> Right-click (or Tap with double-finger) on <code>"Portable AppName.app"</code> 
- bundle, which is here:<dl>
+<div width="100%"><b>h:</b> Right-click (or Tap with double-finger) on 
+ <code>"Portable AppName.app"</code> bundle, which is here:<dl>
 <dd><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppName-OSX-Old/Portable AppName OS X/Portable AppName.app"</code><br/>
  ( above location’s shorter form is: 
  <code>"/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppName-OSX-Old/Portable AppName OS X/Portable AppName.app"</code> )<br/>
  ( or access it inside your userspace: 
  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX-Old/Portable AppName OS X/Portable AppName.app"</code> )<br/>
- and select <code>“Show Package Contents”</code> option, to go inside the bundle:</dd></dl></div>
-<div><b>i-1:</b><!-- “:” = &#58; --> Copy these 2-folders: <code>"English.lproj"</code> (and <code>"profile"</code> 
- if it exists), from below location (this location is inside the bundle)&#58;<dl><dd><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppName-OSX-Old/Portable AppName OS X/Portable AppName.app/Contents/Resources/"</code><br/>
+ and select <code>“Show Package Contents”</code> option, to go inside the bundle:</dd></dl>
+</div>
+<div width="100%"><b>i-1:</b><!-- “:” = &#58; --> Copy these 2-folders: 
+ <code>"English.lproj"</code> (and <code>"profile"</code> 
+ if it exists), from below location (this location is inside the 
+ bundle)&#58;<dl>
+ <dd><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppName-OSX-Old/Portable AppName OS X/Portable AppName.app/Contents/Resources/"</code><br/>
  ( above location’s shorter form is: 
  <code>"/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppName-OSX-Old/Portable AppName/Portable AppName.app/Contents/Resources/"</code> )<br/>
  ( or here: 
@@ -293,8 +316,9 @@ Mojave or earlier macOSX.<br/>
 <b>i-3:</b> If you want to use your existing App’s settings/“profile” 
  in your/current system (inside your computer’s internal drive), with the 
  newer “Portable AppName OSX64”, then copy below “profile” folder:<br/>
- &#160;&#160;<code>"/Users/MyUserName/Library/Applications Support/AppName/Profiles/********.default/"</code></dd></dl></div>
-<div><b>j:</b> Paste the “profile” folder inside our build related 
+ &#160;&#160;<code>"/Users/MyUserName/Library/Applications Support/AppName/Profiles/********.default/"</code></dd></dl>
+</div>
+<div width="100%"><b>j:</b> Paste the “profile” folder inside our build related 
 (destination) folder:<dl><dd> 
  <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/<1st-Alphabet-Of-AppName>/PortableAppName-OSX64/"</code><br/>
  ( above location’s shorter form is:<br/>
@@ -308,8 +332,8 @@ Mojave or earlier macOSX.<br/>
 ## BUILD:
 <b>BUILD/WRAP/GENERATE WITH PLATYPUS:</b>
 
-<div><a name="b-1"></a>B-1: Test the ‘script’ file, before using it to build 
- Portable App for OS X 64<b>:</b><br/>
+<div width="100%"><a name="b-1"></a>B-1: Test the ‘script’ file, before 
+ using it to build Portable App for OS X 64<b>:</b><br/>
  Tips<b>:</b> a good practice from beginning would-be, After getting this 
  <code>‘script’</code><br/>
  (Place it inside the recommended folder, that is shown few paragraphs above),<br/>
@@ -335,7 +359,7 @@ Mojave or earlier macOSX.<br/>
 </dd></dl>
 </div><br/>
 
-<div><a name="b-2"></a>B-2: Build the final <code>“Portable AppName OSX64.app”</code> 
+<div width="100%"><a name="b-2"></a>B-2: Build the final <code>“Portable AppName OSX64.app”</code> 
  bundle, by using Platypus<b>:</b>
 <dl><dd>
  To build new <code>“Portable AppName OSX64.app”</code> bundle,<br/>
@@ -363,7 +387,7 @@ Mojave or earlier macOSX.<br/>
 </dd></dl>
 </div><br/>
 
-<div><a name="b-3"></a>B-3: Then you may use, these type of settings in Platypus 
+<div width="100%"><a name="b-3"></a>B-3: Then you may use, these type of settings in Platypus 
  GUI interface<b>:</b>
 <dl><dd>
  <b>◦</b> Script Type : Shell : /bin/sh<br/>
@@ -388,9 +412,10 @@ Mojave or earlier macOSX.<br/>
  compatible with 64bit+32bit macOSX (Mojave or macOSX earlier of it)
 
 <a name="b-5"></a>B-5: Run/execute/TEST it.
-<div><a name="test"></a>You may OPTIONALLY do these:<dl><dd>
+<div width="100%"><a name="test"></a>You may OPTIONALLY do these:<dl><dd>
  <b>◦</b> Which “profile” folder is used by the running AppName ?<dl><dd>
-  AppName > main menu > ... > Show Profile Folder: ...</dd></dl></dd></dl></div>
+  AppName > main menu > ... > Show Profile Folder: ...</dd></dl></dd></dl>
+</div>
 
 <a name="Errors"></a>
 <b>ERRORs/PROBLEMs:</b><br/>
@@ -561,7 +586,7 @@ List Of Few Useful Unicode Characters/Symbols, & How To Use/Show Them<b>:</b><br
  </td><td>• Space " " &amp;#32; </td></tr>
 <tr><td>• Zero-Width Space(ZWSP) "&#8203;" &amp;#8203; U+200B </td><td> &#160; 
  </td><td> &#160; </td></tr>
-<tr><td>• Percent % &amp;#37; </td><td>• Asterisk * &amp;#42; &amp;ast; 
+<tr><td>• Percent % &amp;#37; </td><td>• Asterisk &#42; &amp;#42; &amp;ast; 
  </td><td>• Exclamation ! &amp;#33; &amp;excl; </td></tr>
 <tr><td>• Number (aka Hash, Pound-Sign) # &amp;#35; &amp;num; </td><td>• Plus + &amp;#43; &amp;plus; 
  </td><td>• Comma , &amp;#44; &amp;comma; </td></tr>
