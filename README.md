@@ -76,7 +76,7 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
  HomeBrew (by-default) uses Google engines/APIs/etc, 
  & Google stores+records+collects your ALL download/usage 
  patterns/profile, private-info, etc near-ForEver).</dd></dl>
- <b>◦</b> PA = pa = Portable App)</dd></dl>
+ <b>◦</b> PA = pa = Portable App.</dd></dl>
 </div>
 
 <a name="index"></a><!-- “:” = &#58; -->
@@ -119,7 +119,7 @@ We use (mentioned in below) tools to build our binary executable,
 
 <a name="PA-OSX64"><a name="License"></a>
 <div width="100%"><b>Portable Apps OSX 64:</b><br/>
- Script(s)/Tool(s), Config(s)/Settings, etc For “Portable-Apps-OS-X-64" 
+ Script(s)/Tool(s), Config(s)/Settings, etc For “Portable-Apps-OS-X-64” 
  (this project) are released with following <b>License</b>(s) + Restrictions + 
  Permissions<b>:</b><dl>
  <dd> 
@@ -191,6 +191,12 @@ We use (mentioned in below) tools to build our binary executable,
 ## PRE-BUILD:
 <b>BRING TOGETHER BUILD-RELATED ITEMS/OBJECTS,ETC (PREPARATION):</b>
 
+Here, we use “<b>PA</b>” in-beginning of a Folder/Directory NAME to 
+indicate, that an App was obtained from “OsxPortableApps”/“FreeSMUG” 
+site, and We use “<b>OSX</b>” or “<b>OSX-Old</b>” (and 
+<b>Not</b>-“<b>OSX64</b>”) in the End of a Folder/Dir NAME to 
+indicate, that this App is Not-Yet-Converted into a 
+<b>“</b>Portable<b>OSX64</b>App<b>”</b>.<br/>
 <div width="100%"><a name="pb-1"></a>PB-1: Suppose, We are working-on/building this project 
  from below (example) folder<b>:</b>
 <dl><dd><!-- “:” = &#58; --><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/"</code>
@@ -211,14 +217,14 @@ We use (mentioned in below) tools to build our binary executable,
 
 <div width="100%"><a name="pb-2"></a>PB-2: Obtain NEW Platypus (at the 
  time of writing this README&#46;md, it is/was v5.3),<br/>
- &#160;&#160; from here: 
+ &#160;&#160; from here:<!-- “.” = &#46; , “*” = &#42; --> 
  <a href="https://Sveinbjorn.org/platypus" target="_blank">https://Sveinbjorn.org/platypus</a><br/>
- and install in your Mac computer, new version allows to build *.app 
+ and install in your Mac computer, new version allows to build “&#42;&#46;app” 
  on 64bit-only macOSX Catalina or macOSX after it.<br/>
  Get Platypus v4.9, as that is/was the last 32bit supported 
  ( & working) Platypus, it allows to build/wrap macOS app⒮ 
  for 64bit+32bit suppported macOSX Mojave or macOSX earlier of that.
-</div>
+</div><br/>
 
 <div width="100%"><a name="pb-3"></a>PB-3: Obtain Pashua dialog from here : 
  <a href="https://www.BlueM.net/en/projects/pashua/" target="_blank">https://www.BlueM.net/en/projects/pashua/</a><dl>
