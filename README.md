@@ -101,8 +101,8 @@ We use (mentioned in below) tools to build our binary executable,
  app or as multi-instance of same app.
 
 <a name="PA-OSX64"><a name="License"></a>
-<b>Portable Apps OSX 64:</b>
-<div>Script(s)/Tool(s), Config(s)/Settings, etc For “Portable-Apps-OS-X-64" 
+<div><b>Portable Apps OSX 64:</b><br/>
+ Script(s)/Tool(s), Config(s)/Settings, etc For “Portable-Apps-OS-X-64" 
  (this project) are released with following <b>License</b>(s) + Restrictions + 
  Permissions<b>:</b><dl>
  <dd> 
@@ -119,16 +119,17 @@ We use (mentioned in below) tools to build our binary executable,
 </div>
 
 <a name="Xcode"></a>
-<b>Xcode<b>:</b></b><br/>
-Xcode is released by Apple. It can perform verious functionalities: 
+<div><b>Xcode:</b><br/>
+ Xcode is released by Apple. It can perform verious functionalities: 
  App building IDE, source-code management, compiler, command-line compiler, 
  etc, etc, etc, etc.<br/>
- At currrent stage of this project, we are/will-be using Xcode 
+ At currrent stage of this project, we will-be/are using Xcode 
  command-line tools, mostly.
+</div>
 
 <a name="Platypus"></a>
-<b>PLATYPUS:</b><br/>
-<div>Older "Portable AppName&#46;app" bundle is created/packaged by using 
+<div><b>PLATYPUS:</b><br/>
+ Older "Portable AppName&#46;app" bundle is created/packaged by using 
  the Platypus script wrapper (aka Platypus App builder) from 
  <a href="http://sveinbjorn.sytes.net/platypus" target="_blank">http://sveinbjorn.sytes.net/platypus</a>
 <dl><dd><!-- “.” is &#46; -->
@@ -146,8 +147,8 @@ Xcode is released by Apple. It can perform verious functionalities:
 </div><br/>
 
 <a name="Pashua"></a>
-<b>PASHUA:</b><br/>
-<div width="100%"> Pashua dialog uses completely 64bit compatible codes, 
+<div><b>PASHUA:</b><br/>
+ Pashua dialog uses completely 64bit compatible codes, 
  so it seems to be a good choice for now (as a ‘dialog’/interaction 
  assistor), (and its licensed-under <a href="BSD-3-clause.txt">BSD-3-clause</a>), 
  Check here<b>:</b><dl>
