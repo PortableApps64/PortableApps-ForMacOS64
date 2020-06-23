@@ -193,10 +193,17 @@ We use (mentioned in below) tools to build our binary executable,
 
 Here, we use “<b>PA</b>” in-beginning of a Folder/Directory NAME to 
 indicate, that an App was obtained from “OsxPortableApps”/“FreeSMUG” 
-site, and We use “<b>OSX</b>” or “<b>OSX-Old</b>” (and 
+site,<br/>
+and We use “<b>OSX</b>” or “<b>OSX-Old</b>” (and 
 <b>Not</b>-“<b>OSX64</b>”) in the End of a Folder/Dir NAME to 
-indicate, that this App is Not-Yet-Converted into a 
-<b>“</b>Portable<b>OSX64</b>App<b>”</b>.<br/>
+indicate, that this Folder/Dir is for an older PA app & its 
+not-compatible with 64bit-only macOSX (Catalina & macOSX after it),<br/>
+and We use “<b>OSX64</b>” at-end of a Folder/Dir NAME (i.e: 
+<b>“</b>Portable<b>OSX64</b>App<b>”</b> or “PortableAppName-<b>OSX64</b>”) 
+to indicate, this is where we will use this-project & this is where 
+we will work + create/build our App that will/can run on both 64-bit-only 
+macOSX (Catalina & macOSX after it) & also on 64bit+32bit based older 
+macOSX (Mojave & macOSX before it).<br/>
 <div width="100%"><a name="pb-1"></a>PB-1: Suppose, We are working-on/building this project 
  from below (example) folder<b>:</b>
 <dl><dd><!-- “:” = &#58; --><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/"</code>
