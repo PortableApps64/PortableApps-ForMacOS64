@@ -182,7 +182,6 @@ We use various (mentioned in below) tools to build our binary executable,
 </dd></dl>
 </div><br/>
 
-
 <a name="Cocoa-Dialog"></a>
 <div><b>COCOA-DIALOG:</b><br/>
  The OSX PortableApps used CocoaDialog (&#46;app bundle) inside “PortableFirefoxOSX” v4.0.1 
@@ -220,7 +219,7 @@ So we must change existing dialog program (a program to assist in interaction be
  <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/"</code><br/>
 <dl><dd>Above folder can also be accessed in this shorter way in (Catalina or) macOS (after it)<b>:</b><br/>
  &#160;<code>"/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/"</code><br/>
- Follow <a href="#LoadFoldersUnderRootFolder">Create Folder(s) Under RootFolder</a> section for Catalina or macOS after it.
+ Follow <a href="../../README.md#LoadFoldersUnderRootFolder">Create Folder(s) Under RootFolder</a> section for Catalina or macOS after it.
 </dd></dl>
  Another option is to create a build/developement related folder “PA-Firefox-OSX64” inside your own userspace<b>:</b>
 <dl><dd>
@@ -293,7 +292,7 @@ to build/wrap macOS app⒮ inside 64bit+32bit suppported macOSX (Mojave or earli
   <dd>
   FF v52.9.0 ESR dmg file’s sha1: d879f5423d79393f2384e0f97a5581f9d89d7977,<br/>
   md5: 34e8280bb9b33ca202ba22cf9daf25e4, 82.8 MBytes,<br/>
-  <a href=https://ftp.Mozilla.org/pub/firefox/releases/52%2E9%2E0esr/" target="_blank">https://ftp.Mozilla.org/pub/firefox/releases/52.9.0esr/</a>
+  <a href="https://ftp.Mozilla.org/pub/firefox/releases/52%2E9%2E0esr/" target="_blank">https://ftp.Mozilla.org/pub/firefox/releases/52.9.0esr/</a>
   </dd></dl><!-- “.” = %2E -->
 </dd><dd>Note: ESR = Extended Support Release.
 </dd></dl>
@@ -383,8 +382,10 @@ to build/wrap macOS app⒮ inside 64bit+32bit suppported macOSX (Mojave or earli
  <tt>３│</tt>0<br/>
  <tt>４│</tt>MacNm:~ UsrNm$<br/>
  <tt>５└─────────────────</tt><br/><br/>
- ( the above ‘script’ can also be accessed from here: 
+ ( the above ‘script’ can also be accessed using its short form: 
  <code>"/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/script.sh"</code> )<br/>
+( if you're developing from your userspace: 
+ <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-Firefox-OSX64/script.sh"</code> )<br/> 
  When there is no syntax-error, (in other words, When the output is “0”),<br/>
  then copy the <code>"script.sh"</code> in same folder,<br/>
  & Rename the <code>"script.sh Copy"</code> into <code>"script"</code>,<br/>
@@ -521,5 +522,5 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
 </dd></dl>
 </td></tr>
 </table>
-
+<p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
 <br/>
