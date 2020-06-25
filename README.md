@@ -229,11 +229,14 @@ before it).<br/>
  time of writing this README&#46;md, it is/was v5.3),<br/>
  &#160;&#160; from here:<!-- “.” = &#46; , “*” = &#42; --> 
  <a href="https://Sveinbjorn.org/platypus" target="_blank">https://Sveinbjorn.org/platypus</a><br/>
- and install in your Mac computer, new version allows to build “&#42;&#46;app” 
- on 64bit-only macOSX Catalina or macOSX after it.<br/>
- Get Platypus v4.9, as that is/was the last 32bit supported 
- ( & working) Platypus, it allows to build/wrap macOS app⒮ 
- for 64bit+32bit suppported macOSX Mojave or macOSX earlier of that.
+ and install in your Mac computer, new version allows to build 
+ “&#42;&#46;app” for both: 64bit-only macOSX Catalina or macOSX 
+ after it, & also for 64bit+32bit older macOSX Mojave or macOSX 
+ before that.<br/>
+ Also get Platypus v4.9, as that is/was the last 32bit+64bit supported 
+ ( & working) Platypus (for older mcOSX), that allows to build/wrap 
+ macOS app⒮ for 64bit+32bit suppported older macOSX Mojave or macOSX 
+ earlier of that.
 </div><br/>
 
 <div width="100%"><a name="pb-3"></a>PB-3: Obtain Pashua dialog from here : 
@@ -338,7 +341,11 @@ before it).<br/>
 <b>i-3:</b> If you want to use your existing App’s settings/“profile” 
  in your/current system (inside your computer’s internal drive), with the 
  newer “Portable AppName OSX64”, then copy below “profile” folder:<br/>
- &#160;&#160;<code>"/Users/MyUserName/Library/Applications Support/AppName/Profiles/********.default/"</code></dd></dl>
+ &#160;&#160;<code>"/Users/MyUserName/Library/<b>Applications Support/</b>AppName/Profiles/********.default/"</code><br/>
+ ( Note: some app’s Developer uses the app’s NAME inside 
+ <code>"<b>Applications Support/</b>"</code> folder, some Dev uses 
+ his/her own or employer company NAME. So you should find out app’s 
+ company/business/group name also. )</dd></dl>
 </div>
 <div width="100%"><b>j:</b> Paste the “profile” folder inside our build related 
 (destination) folder:<dl><dd> 
