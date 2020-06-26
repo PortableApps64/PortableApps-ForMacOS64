@@ -89,7 +89,8 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
  ¦ <a href="#intro">Intro</a> 
  ¦ <a href="#BuildTools">Build/Run-Tools</a> 
   ( <a href="#PA-OSX64">Portable-Apps-OS-X-64</a> 
-  ¦ <a href="#Xcode">Xcode</a> ¦ <a href="#Platypus">Platypus</a> 
+  ¦ <a href="#Xcode">Xcode</a> ¦ <a href="#Swift">Swift</a> 
+  ¦ <a href="#Platypus">Platypus</a> 
   ¦ <a href="#Pashua">Pashua</a> ) 
  ¦ <a href="#pb">Pre-Build</a> 
   ( <a href="#pb-1">PB-1</a> ¦ <a href="#pb-2">PB-2</a> ¦ <a href="#pb-3">PB-3</a> 
@@ -115,10 +116,34 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
 
 <a name="BuildTools"></a><a name="RunTools"></a>
 ## BUILD TOOLS & EXECUTION/RUN TOOLS:
-We use (mentioned in below) tools to build our binary executable, 
+<div width="100%">We use (mentioned in below) tools to build our binary executable, 
  & we also use (mentioned in below) tools to assist our-project 
  tool during execution, & for executing the App either as portable 
- app or as multi-instance of same app.
+ app or as multi-instance of same app.<dl>
+<dd>Note: <b>◦</b> <a href="#VerifyFileAuthenticity">Verify</a> files/apps 
+ after download. And download only when download url/website begins with 
+ “https”.<br/>
+ <b>◦</b> If you only-want to USE built Apps, & do not want to completely 
+ compile/build, then go directly into <u><b>App</b></u> sub-dir/sub-folder, 
+ shown <a href="#index">here</a> & obtain <code>*-OSX-64.dmg</code> (or 
+ <code>*-OSX-64.tar.gz</code> or <code>*-OSX-64.zip</code>) file release, 
+ and FOLLOW “POST-BUILD (for USER)” instruction shown on 
+ “Portable-<u><b>App</b>Name</u>-OSX-64” page, to know what else you have 
+ to get & do.<br/>
+ <b>◦</b> Some items/files/components we may-not or cannot be directly 
+ included inside in some of the built+shared <b>App</b> archive 
+ (<code>*.dmg</code>,etc) file. Either because of License/proprietary 
+ restrictions or to provide you/USER more Security/Privacy: ( Some 
+ files/components should not be provided by someone-else, as it may have 
+ pre-fixed (or trackable) IDs/numbers/settings, etc or it has some 
+ restriction(s), So it is better+safer to load/install (those specific 
+ components) on your side, (to get your own & different IDs/numbers/etc). 
+ And some IDs/numbers inside some items/components need-to-be or should-be 
+ anonymized/randomized, to provide more Privacy/Security to USER, those 
+ are/will-be done & pre-included by us, and All of such matters/modifications 
+ are mentioned in that App’s page.</dd>
+</dl>
+</div>
 
 <a name="PA-OSX64"><a name="License"></a>
 <div width="100%"><b>Portable Apps OSX 64:</b><br/>
@@ -138,17 +163,44 @@ We use (mentioned in below) tools to build our binary executable,
  </dl>
 </div>
 
-<a name="Xcode"></a>
+<a name="Xcode"></a><a name="CLT"></a>
 <div width="100%"><b>Xcode:</b><br/>
- Xcode is released by Apple. It can perform verious functionalities: 
- App building IDE, source-code management, compiler, command-line compiler, 
- etc, etc, etc, etc.<br/>
- At currrent stage of this project, we will-be/are using Xcode 
- command-line tools (CLT), mostly:<dl><dd> 
- to install it, run this command in Terminal window<b>:</b><br/>
+ <a href="https://developer.Apple.com/xcode/" target="_blank">Xcode</a> 
+ is released by Apple. It includes complete toolset for developing 
+ Mac/macOS, iPhone/iOS, etc, IDE (GUI) for building Apps,etc, 
+ iOS simulator, source-code management, Frameworks & Tools, 
+ Command-Line-Tools(CLT), etc, etc, etc, etc.<br/>
+ At currrent stage of this project, we will-be/are using only/mostly 
+ Command-Line-Tools (CLT) portion of Xcode. CLT includes: SDK frameworks 
+ & headers, compiler (<code>gcc</code>, <code>LLVM</code>, etc), Linker, 
+ Make, etc etc.<dl><dd> 
+ to install Xcode-CLT, run this command in Terminal window<b>:</b><br/>
  &#160;&#160;<code>xcode-select --install</code><br/>
- or, Visit Apple dev site & obtain only Xcode-CLT portion (not full Xcode)<b>:</b><br/>
- &#160;&#160;<a href="https://developer.apple.com/downloads" target="_blank">https://Developer.Apple.com/downloads</a></dd></dl>
+ or, Visit Apple Dev site (and create a “free” account) & obtain only 
+ Xcode-CLT portion (not full Xcode), for now<b>:</b><br/>
+ &#160;&#160;<a href="https://developer.Apple.com/downloads" target="_blank">https://Developer.Apple.com/downloads</a><br/>
+ <a href="https://download.developer.Apple.com/Developer_Tools/Command_Line_Tools_for_Xcode_11.5/Command_Line_Tools_for_Xcode_11.5.dmg" target="_blank">Command Line Tools for Xcode 11.5</a>(dmg 
+ file, 260.4 MBytes) (May-20, 2020) has MD5<b>:</b>5620d026d2313934cdfee2499c10ccc4, 
+ SHA1<b>:</b>23943d6eaccdec9290077457252132707298210f, 
+ SHA256<b>:</b>4a6210962fe568d871e2b51ceb8836930031f432a8e1a7ec2e98f64768f87c79.<br/>
+ To get a sense on size of FULL Xcode: Xcode 11.5 (xip file, 8.12 GBytes) 
+ (May-20, 2020) has MD5<b>:</b>65a84fa871855af4f369fe643fe278e0, 
+ SHA1<b>:</b>4654b261841d0336cb90ea1c82d15fd7aa03c982, 
+ SHA256<b>:</b>a5568ae0d30d9d3be94416dbd1aa3a26f23ca5d937c4b9895913cda1b18ceea4.</dd></dl>
+</div>
+
+<a name="Swift"></a>
+<div width="100%"><b>Swift:</b><br/>
+ Swift is released by Apple. Its a programming language, etc (to 
+ build Apps, etc). Since v2.2 it is released as open-source. It provides Swift 
+ related <code>LLVM</code> compiler & related toolchains, 
+ frameworks & headers, etc to Xcode.<br/>
+ At currrent stage of this project, we may/will-be/are using Swift 
+ Toolchain:<dl><dd> 
+ <a href="https://Swift.org/download/#releases" target="_blank">Swift</a>: <a href="https://Swift.org/builds/swift-5.2.4-release/xcode/swift-5.2.4-RELEASE/swift-5.2.4-RELEASE-osx.pkg" target="_blank">v5.2.4 Toolchain</a>(pkg file, 599.4 MBytes) 
+ for Xcode 11.5 (May-20, 2020) has MD5<b>:</b>9da44d83095e17cbcde46691af5a043b, 
+ SHA1<b>:</b>ddd4ee0cb0dc640121680606e203c809eec854ab, 
+ SHA256<b>:</b>ba409649620129375e014c4753a6f802fb94e46ee833dbf917111e593342ddfc.</dd></dl>
 </div>
 
 <a name="Platypus"></a>
@@ -164,10 +216,15 @@ We use (mentioned in below) tools to build our binary executable,
  (v5.3 & later version) seems to be able to generate 64bit-only compatible app bundles, 
  but it does not (digitally) sign or provides any option to sign the generated app 
  bundle, So it seems, only Admin level privileged user can use+run Platypus generated 
- apps, in 64bit-only macOSX(Catalina & macOSX after it) and also in 64bit+32bit 
- supported macOSX(Mojave & macOSX before it).<br/>
- To wrap an App for macOSX Mojave & before it, use v4.9.<br/>
- To wrap an App for macOSX Catalina & after it, use v5.3 & later.<br/>
+ apps in 64bit-only macOSX(Catalina & macOSX after it), and (it appears v5.3 & later 
+ version generated) apps can also be run/used in 64bit+32bit supported macOSX(Mojave 
+ & macOSX before it) by a less privileged user.<br/>
+ To wrap an App for macOSX Mojave & before it, use v4.9. 
+ Zip file is 1.7 MBytes, MD5<b>:</b>076f27017fde028948fe560dd7457b71, 
+ SHA1<b>:</b>490107b5da6f16cfe7d64692b1699905c3eba960.<br/>
+ To wrap an App for macOSX Catalina & after it, use v5.3 & later. 
+ v5.3 zip file is 3.3 MBytes, MD5<b>:</b>51ebf430b45529a7dd891b8d6cd80517, 
+ SHA1<b>:</b>dacaf4b6f9309f4abff3f453ea31fe0edf74dd05.<br/>
 </dd></dl>
 </div><br/>
 
@@ -185,6 +242,9 @@ We use (mentioned in below) tools to build our binary executable,
  (from “FreeSMUG”/“osx-pa”) do not include 64bit dialog/interaction 
  software/tools, So cannot be run/executed on 64-only macOSX (Catalina 
  or after it).<br/>
+ <a href="https://www.bluem.net/files/Pashua.dmg" target="_blank">Pashua</a>(dmg) 
+ v0.11 file has 1.8 MBytes, MD5<b>:</b>7492da10f78dde4833264eebbda9c210, 
+ SHA1<b>:</b>bcc843a1f889ff779a6b6acc1b90a27b72f040f5.<br/>
  ( PA = pa = Portable App )</dd>
 <dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd></dl>
 </div><br/>
@@ -207,8 +267,8 @@ we will use this-project & this is where we will work + create/build
 our App that will/can run on both: 64-bit-only macOSX (Catalina & macOSX 
 after it) & also on 64bit+32bit based older macOSX (Mojave & macOSX 
 before it).<br/>
-<div width="100%"><a name="pb-1"></a>PB-1: Suppose, We are working-on/building this project 
- from below (example) folder<b>:</b>
+<div width="100%"><a name="pb-1"></a>PB-1: Suppose, We are working-on/building 
+ this project from below (example) folder<b>:</b>
 <dl><dd><!-- “:” = &#58; --><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/"</code>
 <dl><dd>Above folder can also be accessed in this shorter way in (Catalina or) 
  macOS (after it)<b>:</b><br/>
@@ -408,7 +468,7 @@ before it).<br/>
   <b>◦</b> tool : dirsize<br/>
   <b>◦</b> readme-file : Read me&#46;txt<br/>
   <b>◦</b> license-file : GPL-3.0_LICENSE_for_script&#46;txt<br/>
-  <b>◦</b> license-file : <App’s-License’s-shortName-&-version-number>_LICENSE_for_AppName&#46;txt<br/>
+  <b>◦</b> license-file : &lt;App’s-License’s-shortName-&-version-number&gt;_LICENSE_for_AppName&#46;txt<br/>
   <b>◦</b> license-file : BSD-3-clause_LICENSE_for_Pashua&#46;txt<br/>
   <b>◦</b> license-file : BSD-3-clause_LICENSE_for_Platypus&#46;txt<br/>
   <b>◦</b> license-file : BSD-3-clause&#46;txt
@@ -416,14 +476,14 @@ before it).<br/>
 </dd></dl>
 </div><br/>
 
-<div width="100%"><a name="b-3"></a>B-3: Then you may use, these type of settings in Platypus 
- GUI interface<b>:</b>
+<div width="100%"><a name="b-3"></a>B-3: Then you may use, these 
+ type of settings in Platypus GUI interface<b>:</b>
 <dl><dd>
  <b>◦</b> Script Type : Shell : /bin/sh<br/>
  <b>◦</b> Script Path : <code>/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/script</code><br/>
  &#160;&#160;( above location’s shorter form is: 
  <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/script"</code> )<br/>
- &#160;&#160;( if you're using your userpsace: 
+ &#160;&#160;( if you’re using your userpsace: 
  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/script"</code> )<br/>
  <b>◦</b> Interface : Text Window<br/>
  <b>◦</b> Unselected options : Run with root privileges , Run in background , 
@@ -436,7 +496,8 @@ before it).<br/>
 
 <a name="b-4"></a>B-4: Then tap/click/select/press the <code>“Create App”</code> 
  button.<br/><!-- “.” is &#46; -->
- It will create/generate a new <code>“Portable AppName OSX64.app”</code> bundle, that is<br/>
+ It will create/generate a new <code>“Portable AppName OSX64.app”</code> 
+ bundle, that is<br/>
  compatible with 64-only macOSX (Catalina or macOSX after it), and also<br/>
  compatible with 64bit+32bit macOSX (Mojave or macOSX earlier of it)
 
@@ -475,7 +536,8 @@ Please help+contribute+collaborate+improve+rectify current codes to
 build this bash-shell ‘script’ (or apple-script or ..., etc ), 
 so-that it can be run/used by Platypus or run/used directly by user, 
 To run macOSX Apps on (64-bit) macOSX from portable/external<br/>
-drive/storage⒮), or run macOSX App as a second/third/multi-instance of same App.<br/>
+drive/storage⒮), or run macOSX App as a second/third/multi-instance 
+of same App.<br/>
 Thanks in advance.
 <p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
 
@@ -531,7 +593,8 @@ Now "MyProjects" or "Development" folder(s) can be accessed in these ways:
 <tr><td border="1" width="100%"><a name="ShowAllFilesFolders"></a> 
  Show All Files & Folders in macOS:</td></tr>
 <tr><td border="1">
-To see all files in <code>Finder</code> (inlcuding Hidden/System) in macOS, i executed below 2-commands<b>:</b>
+To see all files in <code>Finder</code> (inlcuding Hidden/System) in macOS, 
+i executed below 2-commands<b>:</b>
 <dl><dd><!-- “.” is &#46; -->
  <tt>０┌─────────────────</tt><br/>
  <tt>１│</tt>defaults write com&#46;apple&#46;finder AppleShowAllFiles TRUE<br/>
@@ -839,7 +902,13 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  Add Signature With App/Code:</td></tr>
 <tr><td border="1"> Sign (aka: “codesign”, aka: add digital-signature) 
  a macOSX binary app, without being in the Mac Developer Program:<br/>
- &#160;&#160;<a href="https://StackOverflow.com/questions/27474751/" target="_blank">https://StackOverflow.com/questions/27474751/</a></td></tr>
+ &#160;&#160;<a href="https://StackOverflow.com/questions/27474751/" target="_blank">https://StackOverflow.com/questions/27474751/</a><br/>
+ Apple Developer Program (ADP) requires $99 fee ! & that allows a Dev to 
+ release (signed) App with signature, & that App (if its a general app)
+ can be used by less-privileged user (and ofcourse by any privileged user). 
+ Apple Developer site/website (not ADP) allows to create “Free” account, 
+ by using a user’s/dev’s Apple-ID, that allows to download/get some 
+ basic Development related items for free, like: Xcode, Xcode-CLT, etc.</td></tr>
 <tr><td> &#160; </td></tr>
 <tr><td align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></td></tr>
 </table>
@@ -908,7 +977,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  = gCh = gCH . Ch is developed by Google LLC . Many features+components 
  are Proprietary & runs various binaries even before user logins into their OS, 
  & does-not provide any option to completely disable/remove such malware-like 
- behavior. GC web-browser's engine is based-on Chromium web-browser. 
+ behavior. GC web-browser’s engine is based-on Chromium web-browser. 
  Initially used WebKit rendering engine, later Google eventually forked 
  WebKit to create Blink (BSD-License) based engine, now all Google-Chrome 
  variants are using Blink except in iOS, in iOS its forced to use WebKit 
