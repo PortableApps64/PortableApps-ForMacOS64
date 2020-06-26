@@ -17,9 +17,9 @@
  & "&lt;SCRIPT>" Commands<b>,</b> to AtLeast Allow (safer) CSS & JS With Limited/Restricted<br/>
  Functionalities/Abilities, like<b>:</b> Element+Text Coloring, Positioning, Width/Margin/<br/>
  /Padding/Height/etc Controlling, etc,etc<b>.</b><br/>
- We/Devs/Users also need basic PHP or markdown-based-Template support, to repeat/include<br/> 
- common paragraphs/sections/template/data in other files, or else we have to repeat the task<br/>
- of editing all files just for a simple/tiny change.<br/> 
+ We/Devs/Users also need basic PHP or markdown-based-Template support, to repeat or<br/>
+ include common paragraphs/sections/template/data in other files, or else we have to<br/>
+ repeat the task of editing all files just for a simple/tiny change.<br/> 
  For This README&#46;md Page, Few Txt/inl/Blk/etc Element’s Style(Look/Appearance/etc)<br/>
  OverRiding CSS Rules Are Defined Below<b>:</b></dd></dl>
 BEGIN CSS RULES:<br/> Square Boxes:<br/> */
