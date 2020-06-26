@@ -1,20 +1,25 @@
 <style type="text/css"> /*<br/><dl><dd><!-- README.md PA-OSX64 -->
- Scroll-down to see main content of README.md, or Press/Tap on "View all of README.md"<b>.</b><br/>
+ Skip this Paragraph or Scroll-down to see main content of <a href="#intro">README.md</a>,<br/> 
+ or Press/Tap on "View all of README.md"<b>.</b><br/>
  If this Line/Paragraph/&lt;style>..&lt;/style>-CSS-Block is Shown On This README&#46;md,<br/>
- Then GitHub <a href="https://GitHub.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization%5Ffilter%2Erb" target="_blank">Disabled</a> 
+ Then GitHub 
+ <a href="https://GitHub.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization%5Ffilter%2Erb" target="_blank">Disabled</a> 
  Usage Of &lt;style>-CSS HTML Tag/Command for all GitHub users<b>!</b><br/>
  It Appears That, To Support "GitHub-Pages"-Hosting/DEAL$/…/… GitHub,… Disabled<br/>
  CSS, JS, etc Here, & Directing Users To Use "GitHub-Pages" For CSS/JS/etc<b>.</b><br/>
- But We Need Basic-CSS Here, As it(&lt;style>) Helps Developers/Users To Define Simple CSS<br/>
- To Present/Show Distinct-Contents Distinctly+Accurately<b>.</b><br/>
- GitHub Already <a href="https://GitHub.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization%5Ffilter%2Erb" target="_blank">Applying</a> Filtering/Restrictions On HTML Commands, So Contact<br/>
+ But We Need Freedom of Basic-CSS Here, As it(&lt;style>) Helps Developers/Users To<br/>
+ Define Simple CSS To Present/Show Distinct-Contents Distinctly+Accurately<b>.</b><br/>
+ GitHub Already 
+ <a href="https://GitHub.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization%5Ffilter%2Erb" target="_blank">Applying</a>
+ Filtering/Restrictions On HTML Commands, So Contact<br/>
  GitHub-Support & Request Them To Unblock+Enable Essential Function(s), Tell<br/>
- GitHub-Support To Apply Filtering Also For CSS/JS Commands Inside "&lt;STYLE>"<br/>
+ @github/support To Apply Filtering Also For CSS/JS Commands Inside "&lt;STYLE>"<br/>
  & "&lt;SCRIPT>" Commands<b>,</b> to AtLeast Allow (safer) CSS & JS With Limited/Restricted<br/>
  Functionalities/Abilities, like<b>:</b> Element+Text Coloring, Positioning, Width/Margin/<br/>
  /Padding/Height/etc Controlling, etc,etc<b>.</b><br/>
- We/Devs/Users also need basic PHP support, to include common paragraphs/sections/template/data<br/>
- in other files, or else we have to edit all for a simple/tiny change.<br/> 
+ We/Devs/Users also need basic PHP or markdown-based-Template support, to repeat/include<br/> 
+ common paragraphs/sections/template/data in other files, or else we have to repeat the task<br/>
+ of editing all files just for a simple/tiny change.<br/> 
  For This README&#46;md Page, Few Txt/inl/Blk/etc Element’s Style(Look/Appearance/etc)<br/>
  OverRiding CSS Rules Are Defined Below<b>:</b></dd></dl>
 BEGIN CSS RULES:<br/> Square Boxes:<br/> */
@@ -39,18 +44,16 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 
 <a name="intro"></a>
 # PORTABLE APPS OS X 64
-<br/><!-- “.” is &#46; , “(” is &#40; , “)” is &#41; , “/” is &#47; -->
-
-Portable Apps for MacOSX-64 is a (set of)‘script’/Tool Which Allows To Run 
+<!-- “.” is &#46; , “(” is &#40; , “)” is &#41; , “/” is &#47; -->
+Portable Apps for MacOSX-64 is a (Set of) Scripts/Tools Which Allows To Run 
  Apps (i.e: Mozilla’s "Firefox&#46;app") for macOS As A macOSX-64 Portable App, 
  & Also Allows To Run (Second/Third&#47;&#41;Multiple Instances Of Same App, 
  in macOSX.
-<div width="100%">So We Are Including 64bit Pashua dialog, 64bit Platypus, etc Tools 
- To Assist In Executing/Running Apps Either As Portable App Or As 
- Multi-Instance Of Same App, Either From Portable/External-Drive 
- Or From Mac’s Internal-Drive, On Both 64bit-Only macOSX (Catalina 
- & macOSX after it) And 64bit+32bit macOSX (Mojave & macOSX before 
- it).<br/>
+<div width="100%">So We Are Including 64bit Pashua dialog, 64bit Platypus, 
+ etc Tools To Assist In Executing/Running Apps Either As Portable App Or 
+ As Multi-Instance Of Same App, Either From Portable/External-Drive Or
+ From Mac’s Internal-Drive, On Both 64bit-Only macOSX (Catalina & macOSX 
+ after it) And 64bit+32bit macOSX (Mojave & macOSX before it).<br/>
 This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted 
  To Use With Other “Portable Apps for OSX 64” (under this project), 
  and also with older “Portable Apps for OSX” (from another developer’s 
@@ -88,18 +91,18 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
 <dd>Portable-Apps-OS-X-64<b>:</b> ¦ <a href="F/">F</a> ¦ <a href="F/PortableFirefoxOSX64/">Portable Firefox OSX64</a> ¦</dd>
 <dd>Content/Index List<b>:</b> 
  ¦ <a href="#intro">Intro</a> 
- ¦ <a href="#BuildTools">Build/Run-Tools</a> 
+ ¦ <a href="#BuildTools">Build/Run-Tools(for-Devs)</a> 
   ( <a href="#PA-OSX64">Portable-Apps-OS-X-64</a> 
   ¦ <a href="#Xcode">Xcode</a> ¦ <a href="#Swift">Swift</a> 
   ¦ <a href="#Platypus">Platypus</a> 
   ¦ <a href="#Pashua">Pashua</a> ) 
- ¦ <a href="#pb">Pre-Build</a> 
+ ¦ <a href="#pb">Pre-Build(for-Devs)</a> 
   ( <a href="#pb-1">PB-1</a> ¦ <a href="#pb-2">PB-2</a> ¦ <a href="#pb-3">PB-3</a> 
   ¦ <a href="#pb-4">PB-4</a> ¦ <a href="#pb-5">PB-5</a> ) 
- ¦ <a href="#build">Build</a> 
+ ¦ <a href="#Build">Build(for-Devs)</a> 
   ( <a href="#b-1">B-1</a> ¦ <a href="#b-2">B-2</a> ¦ <a href="#b-3">B-3</a> 
   ¦ <a href="#b-4">B-4</a> ) 
- ¦ <a href="#POST-BUILD">Post-Build(for-Users)</a> 
+ ¦ <a href="#Post-Build">Post-Build(for-Users)</a> 
  ¦ <a href="#Test-Run">Run/Execute/Test</a> 
  ¦ <a href="#Errors">Errors</a> 
  ¦ <a href="#HelpToBuild">Help-To-Build</a> 
@@ -118,7 +121,7 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
 </dl></dd></dl>
 
 <a name="BuildTools"></a><a name="RunTools"></a>
-## BUILD TOOLS & EXECUTION/RUN TOOLS:
+## BUILD TOOLS & EXECUTION/RUN TOOLS (for DEVELOPERs):
 <div width="100%">We use (mentioned in below) tools to build our binary executable, 
  & we also use (mentioned in below) tools to assist our-project 
  tool during execution, & for executing the App either as portable 
@@ -159,7 +162,7 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
   <b>◦</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc<br/>
   <b>◦</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
   at&#69;rik＠&#65;śh&#70;ölķ·ć&#333;m&gt; Use 
-  <a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">basic-latin</a> 
+  english/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">basic-latin</a> 
   char. No soliciting permitted)&#46; All rights reserved.<br/>
   <b>◦</b> (All other trademarks, etc cited here are the property of their respective owners&#46;)<br/>
   <b>◦</b> (All other copyright items cited here are the copyright of their respective author/creator&#46;)</dd>
@@ -254,8 +257,8 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
 
 <!-- markdown line which starts with # or ## or ### etc are turned into 
  html-header & html-hr & a lower-case name-link. -->
-<a name="pb"></a>
-## PRE-BUILD:
+<a name="pb"></a><a name="Pre-Build"></a>
+## PRE-BUILD (for DEVELOPERs):
 <b>BRING TOGETHER BUILD-RELATED ITEMS/OBJECTS,ETC (PREPARATION):</b>
 
 Here, We use “<b>OSX</b>” or “<b>OSX-Old</b>” (and 
@@ -420,8 +423,8 @@ before it).<br/>
  )</dd><dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd>
 </dl></div>
 
-
-## BUILD:
+<a name="Build"></a>
+## BUILD (for DEVELOPERs):
 <b>BUILD/WRAP/GENERATE WITH PLATYPUS:</b>
 
 <div width="100%"><a name="b-1"></a>B-1: Test the ‘script’ file, before 
@@ -505,15 +508,16 @@ before it).<br/>
  compatible with 64bit+32bit macOSX (Mojave or macOSX earlier of it)
 
 
-<a name="POST-BUILD"></a>
+<a name="Post-Build"></a>
 ## POST-BUILD (for USERS):
-You/Users may have to add some files or apps or components (or 
-change a settings) by yourself, & place that inside a specific 
-sub-folder location, inside the <code>“&#42;&#46;app”</code> bundle, 
-which is inside the downloaded <code>“&#42;&#46;dmg”</code> archive file.<br/>
-For different App, this section/paragraph’s instruction in different 
-App page will be different.<br/>
-This section/paragraph may also be empty, if User have to do nothing.
+Users/you may have to download+add some files or apps or components 
+ (or change a settings) by yourself, & place that inside a specific 
+ sub-folder location, inside the <code>“&#42;&#46;app”</code> bundle, 
+ which is inside the downloaded <code>“&#42;&#46;dmg”</code> (archive) 
+ file.<br/>
+ In different App’s page, instruction in this section/paragraph, 
+ will be different.<br/>
+ This section/paragraph may also be empty, if User have to do nothing.
 
 
 <a name="Test-Run"></a><a name="test">
