@@ -97,7 +97,9 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
   ¦ <a href="#pb-4">PB-4</a> ¦ <a href="#pb-5">PB-5</a> ) 
  ¦ <a href="#build">Build</a> 
   ( <a href="#b-1">B-1</a> ¦ <a href="#b-2">B-2</a> ¦ <a href="#b-3">B-3</a> 
-  ¦ <a href="#b-4">B-4</a> ¦ <a href="#b-5">B-5</a> ) 
+  ¦ <a href="#b-4">B-4</a> ) 
+ ¦ <a href="#POST-BUILD">Post-Build(for-Users)</a> 
+ ¦ <a href="#Test-Run">Run/Execute/Test</a> 
  ¦ <a href="#Errors">Errors</a> 
  ¦ <a href="#HelpToBuild">Help-To-Build</a> 
  ¦ <a href="#extra-notes">Extra-Notes</a> 
@@ -148,8 +150,8 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
 <a name="PA-OSX64"><a name="License"></a>
 <div width="100%"><b>Portable Apps OSX 64:</b><br/>
  Script(s)/Tool(s), Config(s)/Settings, etc For “Portable-Apps-OS-X-64” 
- (this project) are released with following <b>License</b>(s) + Restrictions + 
- Permissions<b>:</b><dl>
+ (this project) are released with <b>following License(s) + Restrictions + 
+ Permissions:</b><dl>
  <dd> 
   <b>◦</b> GNU General Public License Version 3 
   (<a href="https://www.GNU.org/licenses/gpl-3.0.en.html" target="_blank">GPL v3</a>)<br/>
@@ -501,15 +503,31 @@ before it).<br/>
  compatible with 64-only macOSX (Catalina or macOSX after it), and also<br/>
  compatible with 64bit+32bit macOSX (Mojave or macOSX earlier of it)
 
-<a name="b-5"></a>B-5: Run/execute/TEST it.
-<div width="100%"><a name="test"></a>You may OPTIONALLY do these:<dl><dd>
+
+<a name="POST-BUILD"></a>
+## POST-BUILD (for USERS):
+You/Users may have to add some files or apps or components (or 
+change a settings) by yourself, & place that inside a specific 
+sub-folder location, inside the <code>“*.app”</code> bundle, 
+which is inside the downloaded <code>“*.dmg”</code> archive file.<br/>
+For different App, this section/paragraph’s instruction in different 
+App page will be different.<br/>
+This section/paragraph may also be empty, if User have to do nothing.
+
+
+<a name="Test-Run"></a><a name="test">
+## RUN/EXECUTE/TEST:
+<div width="100%"> Now you need-to run/execute & test & investigate the 
+ <code>“*.app”</code> App/bundle.<br/>
+ <br/>
+ You may OPTIONALLY do these:<dl><dd>
  <b>◦</b> Which “profile” folder is used by the running AppName ?<dl><dd>
   AppName > main menu > ... > Show Profile Folder: ...</dd></dl></dd></dl>
 </div>
 
-<a name="Errors"></a>
-<b>ERRORs/PROBLEMs:</b><br/>
 
+<a name="Errors"></a>
+## ERRORs/PROBLEMs:
 If you have spotted an bug/error/fault, then let us know,<br/>
  create/report an issue under this project in GitHub.<br/>
  And during/after build, if you received/observed/found Error(s)<br/>
@@ -530,7 +548,7 @@ If no errors, even then please share your final working code, your OS info,
 <br/>
 
 <a name="HelpToBuild"></a>
-<b>HELP TO BUILD:</b><br/>
+## HELP TO BUILD:
 
 Please help+contribute+collaborate+improve+rectify current codes to 
 build this bash-shell ‘script’ (or apple-script or ..., etc ), 
@@ -545,7 +563,7 @@ Thanks in advance.
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td border="1" width="100%"><a name="LoadFoldersUnderRootFolder"></a> 
- Create Directory Under Root-Directory:</td></tr>
+ <b>Create Directory Under Root-Directory:</b> ( Directory = Folder )</td></tr>
 <tr><td border="1"> 
  To create "MyProjects" folder in mac hard drive (not under your user-name), 
  you may edit <code>synthetic.conf</code><b>:</b>
@@ -591,7 +609,7 @@ Now "MyProjects" or "Development" folder(s) can be accessed in these ways:
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td border="1" width="100%"><a name="ShowAllFilesFolders"></a> 
- Show All Files & Folders in macOS:</td></tr>
+ <b>Show All Files & Folders in macOS:</b></td></tr>
 <tr><td border="1">
 To see all files in <code>Finder</code> (inlcuding Hidden/System) in macOS, 
 i executed below 2-commands<b>:</b>
@@ -610,9 +628,9 @@ i executed below 2-commands<b>:</b>
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td border="1" width="100%"><a name="UsefulOrRelatedUnicodeChars"></a><a name="U-chars"></a>
-List Of Few Useful Unicode Characters/Symbols, & How To Use/Show Them<b>:</b><br/>
+<b>List Of Few Useful Unicode Characters/Symbols</b>, & How To Use/Show Them<b>:</b><br/>
 ( We will use some of these in our dialog messages from this ‘script’ )</td></tr>
-<tr><td><a name="U-abbr"></a>Unicode related Abbreviations: 
+<tr><td><a name="U-abbr"></a>Unicode related <b>Abbreviations:</b> 
  • Char = Character/Symbol/Glyph • Grph = Graphic • Emj ~= Emoji ~= Emoticons 
  • Txt = Textual Glyph • U = Unicode • A = ASCII • Ref = Reference 
  • dec = decimal • DEC = DRC = Decimal Entity (Ref) Code 
@@ -815,7 +833,7 @@ List Of Few Useful Unicode Characters/Symbols, & How To Use/Show Them<b>:</b><br
 <!-- %2E = ".", %3A = ":", %20 = " "(space), %5F = "_", %28 = "(", %29 = ")", 
  %2D = "-", %7E = "~", %2C = ",", %27 = ', %22 = " -->
 <tr><td border="1" width="100%"><a name="U-tips"></a> 
- Unicode Tricks+Tips:</td></tr>
+ <b>Unicode Tricks+Tips:</b></td></tr>
 <tr><td border="1"><a name="UVS"></a> 
  • To display an Emoji/Emoticon(emj) as a Textual(txt) glyph (if available/renderable), 
  Use a 
@@ -857,7 +875,7 @@ List Of Few Useful Unicode Characters/Symbols, & How To Use/Show Them<b>:</b><br
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td border="1" width="100%"><a name="VerifyFileAuthenticity"></a><a name="Hash"></a><a name="Digest"></a><a name="CheckSum"></a> 
- Verify/Authenticate Files:</td></tr>
+ <b>Verify/Authenticate Files:</b></td></tr>
 <tr><td border="1">
  In macOSX, Calculate & Compare hash/checksum/digest code (it is a very unique 
  identity code) of a file/bundle<b>:</b><br/>
@@ -869,29 +887,29 @@ List Of Few Useful Unicode Characters/Symbols, & How To Use/Show Them<b>:</b><br
  & <code>openssl</code> usage also shown<b>:</b>
 <dl><dd><!-- “.” is &#46; -->
  <tt>０┌─────────────────</tt><br/>
- <tt>１│</tt>MacNm:~ UsrNm$ <b>shasum</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- <tt>２│</tt>50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- <tt>３│</tt>MacNm:~ UsrNm$ <b>shasum -a 1</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- <tt>４│</tt>50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- <tt>５│</tt>MacNm:~ UsrNm$ <b>openssl sha1</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- <tt>６│</tt>SHA1(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg)= 50ff626452dfadb9cbb6a2a5e2ddf60848adf256<br/>
+ <tt>１│</tt>MacNm:~ UsrNm$ <b>shasum</b> /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
+ <tt>２│</tt>50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
+ <tt>３│</tt>MacNm:~ UsrNm$ <b>shasum -a 1</b> /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
+ <tt>４│</tt>50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
+ <tt>５│</tt>MacNm:~ UsrNm$ <b>openssl sha1</b> /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
+ <tt>６│</tt>SHA1(/Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg)= 50ff626452dfadb9cbb6a2a5e2ddf60848adf256<br/>
  <tt>７└─────────────────</tt>
 </dd></dl>
 To calculate “SHA256” hash-code, use <code>-a 256</code> option in 
  <code>shasum</code>, & <code>openssl</code> usage also shown<b>:</b>
 <dl><dd><!-- “.” is &#46; -->
  <tt>０┌─────────────────</tt><br/>
- <tt>１│</tt>MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- <tt>２│</tt>e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- <tt>３│</tt>MacNm:~ UsrNm$ <b>openssl sha256</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- <tt>４│</tt>SHA256(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg)= e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57<br/>
+ <tt>１│</tt>MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
+ <tt>２│</tt>e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
+ <tt>３│</tt>MacNm:~ UsrNm$ <b>openssl sha256</b> /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
+ <tt>４│</tt>SHA256(/Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg)= e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57<br/>
  <tt>５└─────────────────</tt>
 </dd></dl>
 To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</code><b>:</b>
 <dl><dd><!-- “.” is &#46; -->
  <tt>０┌─────────────────</tt><br/>
- <tt>１│</tt>MacNm:~ UsrNm$ <b>openssl md5</b> /Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg<br/>
- <tt>２│</tt>MD5(/Users/UsrNm/Downlo…/PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg)= fa6691336e22a2d83e5629533b830300<br/>
+ <tt>１│</tt>MacNm:~ UsrNm$ <b>openssl md5</b> /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
+ <tt>２│</tt>MD5(/Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg)= fa6691336e22a2d83e5629533b830300<br/>
  <tt>３└─────────────────</tt>
 </dd></dl>
 </td></tr>
@@ -899,7 +917,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td border="1" width="100%"><a name="codesign"></a>
- Add Signature With App/Code:</td></tr>
+ <b>Add Signature With App/Code:</b></td></tr>
 <tr><td border="1"> Sign (aka: “codesign”, aka: add digital-signature) 
  a macOSX binary app, without being in the Mac Developer Program:<br/>
  &#160;&#160;<a href="https://StackOverflow.com/questions/27474751/" target="_blank">https://StackOverflow.com/questions/27474751/</a><br/>
