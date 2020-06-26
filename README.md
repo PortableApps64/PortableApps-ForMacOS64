@@ -1,7 +1,8 @@
 <style type="text/css"> /*<br/><dl><dd><!-- README.md PA-OSX64 -->
  Scroll-down to see main content of README.md, or Press/Tap on "View all of README.md"<b>.</b><br/>
  If this Line/Paragraph/&lt;style>..&lt;/style>-CSS-Block is Shown On This README&#46;md,<br/>
- Then GitHub <a href="https://GitHub.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization%5Ffilter%2Erb" target="_blank">Disabled</a> Usage Of &lt;style>-CSS HTML Tag/Command for all GitHub users<b>!</b><br/>
+ Then GitHub <a href="https://GitHub.com/github/html-pipeline/blob/master/lib/html/pipeline/sanitization%5Ffilter%2Erb" target="_blank">Disabled</a> 
+ Usage Of &lt;style>-CSS HTML Tag/Command for all GitHub users<b>!</b><br/>
  It Appears That, To Support "GitHub-Pages"-Hosting/DEAL$/…/… GitHub,… Disabled<br/>
  CSS, JS, etc Here, & Directing Users To Use "GitHub-Pages" For CSS/JS/etc<b>.</b><br/>
  But We Need Basic-CSS Here, As it(&lt;style>) Helps Developers/Users To Define Simple CSS<br/>
@@ -508,8 +509,8 @@ before it).<br/>
 ## POST-BUILD (for USERS):
 You/Users may have to add some files or apps or components (or 
 change a settings) by yourself, & place that inside a specific 
-sub-folder location, inside the <code>“*.app”</code> bundle, 
-which is inside the downloaded <code>“*.dmg”</code> archive file.<br/>
+sub-folder location, inside the <code>“&#42;&#46;app”</code> bundle, 
+which is inside the downloaded <code>“&#42;&#46;dmg”</code> archive file.<br/>
 For different App, this section/paragraph’s instruction in different 
 App page will be different.<br/>
 This section/paragraph may also be empty, if User have to do nothing.
@@ -518,7 +519,7 @@ This section/paragraph may also be empty, if User have to do nothing.
 <a name="Test-Run"></a><a name="test">
 ## RUN/EXECUTE/TEST:
 <div width="100%"> Now you need-to run/execute & test & investigate the 
- <code>“*.app”</code> App/bundle.<br/>
+ <code>“&#42;&#46;app”</code> App/bundle.<br/>
  <br/>
  You may OPTIONALLY do these:<dl><dd>
  <b>◦</b> Which “profile” folder is used by the running AppName ?<dl><dd>
