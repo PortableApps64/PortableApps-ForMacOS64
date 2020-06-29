@@ -160,10 +160,11 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
   <b>◦</b> GNU General Public License Version 3 
   (<a href="https://www.GNU.org/licenses/gpl-3.0.en.html" target="_blank">GPL v3</a>)<br/>
   <b>◦</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc<br/>
-  <b>◦</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
-  at&#69;rik＠&#65;śh&#70;ölķ·ć&#333;m&gt; Use 
-  english/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">basic-latin</a> 
-  char. No soliciting permitted)&#46; All rights reserved.<br/>
+  <b>◦</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rïk＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
+  at&#69;rik＠&#65;śh&#70;ölķ·ć&#333;m&gt; Do Not Copy 
+  Eml-Adrs, Type in 
+  English/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">basic-latin</a> 
+  char, No Soliciting Permitted)&#46; All rights reserved.<br/>
   <b>◦</b> (All other trademarks, etc cited here are the property of their respective owners&#46;)<br/>
   <b>◦</b> (All other copyright items cited here are the copyright of their respective author/creator&#46;)</dd>
  </dl>
@@ -185,7 +186,8 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
  or, Visit Apple Dev site (and create a “free” account) & obtain only 
  Xcode-CLT portion (not full Xcode), for now<b>:</b><br/>
  &#160;&#160;<a href="https://developer.Apple.com/downloads" target="_blank">https://Developer.Apple.com/downloads</a><br/>
- <a href="https://download.developer.Apple.com/Developer_Tools/Command_Line_Tools_for_Xcode_11.5/Command_Line_Tools_for_Xcode_11.5.dmg" target="_blank">Command Line Tools for Xcode 11.5</a>(dmg 
+ Command Line Tools for Xcode 
+ 11.5(<a href="https://download.developer.Apple.com/Developer_Tools/Command_Line_Tools_for_Xcode_11.5/Command_Line_Tools_for_Xcode_11.5.dmg" target="_blank">dmg</a>
  file, 260.4 MBytes) (May-20, 2020) has MD5<b>:</b>5620d026d2313934cdfee2499c10ccc4, 
  SHA1<b>:</b>23943d6eaccdec9290077457252132707298210f, 
  SHA256<b>:</b>4a6210962fe568d871e2b51ceb8836930031f432a8e1a7ec2e98f64768f87c79.<br/>
@@ -203,7 +205,8 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
  frameworks & headers, etc to Xcode.<br/>
  At currrent stage of this project, we may/will-be/are using Swift 
  Toolchain:<dl><dd> 
- <a href="https://Swift.org/download/#releases" target="_blank">Swift</a>: <a href="https://Swift.org/builds/swift-5.2.4-release/xcode/swift-5.2.4-RELEASE/swift-5.2.4-RELEASE-osx.pkg" target="_blank">v5.2.4 Toolchain</a>(pkg file, 599.4 MBytes) 
+ <a href="https://Swift.org/download/#releases" target="_blank">Swift</a>: 
+ v5.2.4 Toolchain (<a href="https://Swift.org/builds/swift-5.2.4-release/xcode/swift-5.2.4-RELEASE/swift-5.2.4-RELEASE-osx.pkg" target="_blank">pkg</a> file, 599.4 MBytes) 
  for Xcode 11.5 (May-20, 2020) has MD5<b>:</b>9da44d83095e17cbcde46691af5a043b, 
  SHA1<b>:</b>ddd4ee0cb0dc640121680606e203c809eec854ab, 
  SHA256<b>:</b>ba409649620129375e014c4753a6f802fb94e46ee833dbf917111e593342ddfc.</dd></dl>
@@ -248,7 +251,7 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
  (from “FreeSMUG”/“osx-pa”) do not include 64bit dialog/interaction 
  software/tools, So cannot be run/executed on 64-only macOSX (Catalina 
  or after it).<br/>
- <a href="https://www.bluem.net/files/Pashua.dmg" target="_blank">Pashua</a>(dmg) 
+ Pashua(<a href="https://www.bluem.net/files/Pashua.dmg" target="_blank">dmg</a>)
  v0.11 file has 1.8 MBytes, MD5<b>:</b>7492da10f78dde4833264eebbda9c210, 
  SHA1<b>:</b>bcc843a1f889ff779a6b6acc1b90a27b72f040f5.<br/>
  ( PA = pa = Portable App )</dd>
@@ -892,29 +895,29 @@ i executed below 2-commands<b>:</b>
  & <code>openssl</code> usage also shown<b>:</b>
 <dl><dd><!-- “.” is &#46; -->
  <tt>０┌─────────────────</tt><br/>
- <tt>１│</tt>MacNm:~ UsrNm$ <b>shasum</b> /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
- <tt>２│</tt>50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
- <tt>３│</tt>MacNm:~ UsrNm$ <b>shasum -a 1</b> /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
- <tt>４│</tt>50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
- <tt>５│</tt>MacNm:~ UsrNm$ <b>openssl sha1</b> /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
- <tt>６│</tt>SHA1(/Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg)= 50ff626452dfadb9cbb6a2a5e2ddf60848adf256<br/>
+ <tt>１│</tt>MacNm:~ UsrNm$ <b>shasum</b> /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>２│</tt>50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>３│</tt>MacNm:~ UsrNm$ <b>shasum -a 1</b> /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>４│</tt>50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>５│</tt>MacNm:~ UsrNm$ <b>openssl sha1</b> /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>６│</tt>SHA1(/Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg)= 50ff626452dfadb9cbb6a2a5e2ddf60848adf256<br/>
  <tt>７└─────────────────</tt>
 </dd></dl>
 To calculate “SHA256” hash-code, use <code>-a 256</code> option in 
  <code>shasum</code>, & <code>openssl</code> usage also shown<b>:</b>
 <dl><dd><!-- “.” is &#46; -->
  <tt>０┌─────────────────</tt><br/>
- <tt>１│</tt>MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
- <tt>２│</tt>e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
- <tt>３│</tt>MacNm:~ UsrNm$ <b>openssl sha256</b> /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
- <tt>４│</tt>SHA256(/Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg)= e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57<br/>
+ <tt>１│</tt>MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>２│</tt>e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>３│</tt>MacNm:~ UsrNm$ <b>openssl sha256</b> /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>４│</tt>SHA256(/Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg)= e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57<br/>
  <tt>５└─────────────────</tt>
 </dd></dl>
 To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</code><b>:</b>
 <dl><dd><!-- “.” is &#46; -->
  <tt>０┌─────────────────</tt><br/>
- <tt>１│</tt>MacNm:~ UsrNm$ <b>openssl md5</b> /Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg<br/>
- <tt>２│</tt>MD5(/Users/UsrNm/Downlo…/Porta…Firefox…r4.1&#46;dmg)= fa6691336e22a2d83e5629533b830300<br/>
+ <tt>１│</tt>MacNm:~ UsrNm$ <b>openssl md5</b> /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>２│</tt>MD5(/Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg)= fa6691336e22a2d83e5629533b830300<br/>
  <tt>３└─────────────────</tt>
 </dd></dl>
 </td></tr>
