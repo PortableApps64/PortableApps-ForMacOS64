@@ -46,18 +46,19 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 # PORTABLE APPS OS X 64
 <!-- “.” is &#46; , “(” is &#40; , “)” is &#41; , “/” is &#47; -->
 Portable Apps for MacOSX-64 is a (Set of) Scripts/Tools Which Allows To Run 
- Apps (i.e: Mozilla’s "Firefox&#46;app") for macOS As A macOSX-64 Portable App, 
- & Also Allows To Run (Second/Third&#47;&#41;Multiple Instances Of Same App, 
- in macOSX.
+ Apps (i.e: Mozilla’s "Firefox&#46;app") for macOS As A macOSX-64 Portable 
+ App, & Also Allows To Run (Second/Third&#47;&#41;Multiple Instances Of Same 
+ App, in macOSX.
 <div width="100%">So We Are Including 64bit Pashua dialog, 64bit Platypus, 
- etc Tools To Assist In Executing/Running Apps Either As Portable App Or 
- As Multi-Instance Of Same App, Either From Portable/External-Drive Or
- From Mac’s Internal-Drive, On Both 64bit-Only macOSX (Catalina & macOSX 
- after it) And 64bit+32bit macOSX (Mojave & macOSX before it).<br/>
-This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted 
- To Use With Other “Portable Apps for OSX 64” (under this project), 
- and also with older “Portable Apps for OSX” (from another developer’s 
- project 
+ etc etc Tools To Assist In Executing/Running macOS (64bit) Apps Either As 
+ Portable App Or As Multi-Instance Of Same App, & To Run Our Apps Either 
+ From Portable/External Drive/Disk Or Run From Mac’s Internal-Drive, 
+ & To Run Our Apps On Both 64bit-Only macOSX (Catalina & macOSX after it) 
+ And also 64bit+32bit macOSX (Mojave & macOSX before it).<br/>
+The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted 
+ To Use With Other “Portable Apps for OSX 64” (Under This Project), 
+ And Can Also Be Used With Older “Portable Apps for OSX” (from another 
+ developer’s project 
  “<a href="http://www.FreeSMUG.org/" target="_blank">FreeSMUG</a>”/“<a href="https://SourceForge.net/projects/osxportableapps/" target="_blank">osxportableapps</a>”).<dl>
 <dd> 
  <b>◦</b> FreeSMUG/osx-pa based older Portable-Apps cannot run on 64-bit-only 
@@ -122,10 +123,10 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
 
 <a name="BuildTools"></a><a name="RunTools"></a>
 ## BUILD TOOLS & EXECUTION/RUN TOOLS (for DEVELOPERs):
-<div width="100%">We use (mentioned in below) tools to build our binary executable, 
- & we also use (mentioned in below) tools to assist our-project 
- tool during execution, & for executing the App either as portable 
- app or as multi-instance of same app.<dl>
+<div width="100%">We use (mentioned in below) tools to build our binary 
+ executable, & we also use (mentioned in below) tools to assist our-project 
+ tool during execution, & for executing the App either as portable app 
+ or as multi-instance of same app.<dl>
 <dd>Note: <b>◦</b> <a href="#VerifyFileAuthenticity">Verify</a> files/apps 
  after download. And download only when download url/website begins with 
  “https”.<br/>
@@ -154,17 +155,16 @@ This New (Portable Apps OS X 64) ‘script’/Tool Can Be Modified/Adapted
 <a name="PA-OSX64"><a name="License"></a>
 <div width="100%"><b>Portable Apps OSX 64:</b><br/>
  Script(s)/Tool(s), Config(s)/Settings, etc For “Portable-Apps-OS-X-64” 
- (this project) are released with <b>following License(s) + Restrictions + 
+ (this project) are <b>released with following License(s) + Restrictions + 
  Permissions:</b><dl>
  <dd> 
   <b>◦</b> GNU General Public License Version 3 
   (<a href="https://www.GNU.org/licenses/gpl-3.0.en.html" target="_blank">GPL v3</a>)<br/>
   <b>◦</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc<br/>
-  <b>◦</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rïk＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
-  at&#69;rik＠&#65;śh&#70;ölķ·ć&#333;m&gt; Do Not Copy 
-  Eml-Adrs, Type in 
-  English/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">basic-latin</a> 
-  char, No Soliciting Permitted)&#46; All rights reserved.<br/>
+  <b>◦</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
+  at&#69;rik＠&#65;śh&#70;ölķ·ć&#333;m&gt; Do Not Copy Eml-Adrs, Type In 
+  English/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">Basic-Latin</a> 
+  Char, No Soliciting Permitted)&#46; All rights reserved.<br/>
   <b>◦</b> (All other trademarks, etc cited here are the property of their respective owners&#46;)<br/>
   <b>◦</b> (All other copyright items cited here are the copyright of their respective author/creator&#46;)</dd>
  </dl>
@@ -341,12 +341,14 @@ before it).<br/>
 </div>
 <b>b:</b> Skip below files/steps which you’ve already obtained/exists 
  or already done.<br/>
-<b>c:</b> Obtain old PortableAppNameOSX App (i.e: PortableFirefoxOSX) (download from 
+<b>c:</b> Obtain old PortableAppNameOSX App (i.e: PortableFirefoxOSX) 
+ (download from 
  <a href="https://SourceForge.net/projects/osxportableapps/files/" target="_blank">here</a>(FreeSMUG/OsxPortableApps 
  sites), or download any other non-portable macOS Apps directly from 
  original releaser’s website.<br/>
-<b>d:</b> Double-Click/Tap on <code>"PortableAppName_*.dmg"</code> or <code>"AppName_*.dmg"</code> 
- file to view internal contents(files, bundles, folders, etc).<br/>
+<b>d:</b> Double-Click/Tap on <code>"PortableAppName_*.dmg"</code> or 
+ <code>"AppName_*.dmg"</code> file to view internal contents(files, bundles, 
+ folders, etc).<br/>
 <div width="100%"><b>e:</b><!-- “:” = &#58; --> Copy necessary files/bundles 
  (if does not exist in destination), & Paste into below sub-dir structure 
  shown inside our build location<b>:</b><dl><dd> 1st Create a 
@@ -457,8 +459,9 @@ before it).<br/>
 </dd></dl>
 </div><br/>
 
-<div width="100%"><a name="b-2"></a>B-2: Build the final <code>“Portable AppName OSX64.app”</code> 
- bundle, by using Platypus<b>:</b>
+<div width="100%"><a name="b-2"></a>B-2: Build the final 
+ <code>“Portable AppName OSX64.app”</code> bundle, by using 
+ Platypus<b>:</b>
 <dl><dd>
  To build new <code>“Portable AppName OSX64.app”</code> bundle,<br/>
  choose these below files, directories, bundles, etc inside the 
@@ -541,18 +544,20 @@ If you have spotted an bug/error/fault, then let us know,<br/>
  And during/after build, if you received/observed/found Error(s)<br/>
  please Write down what Error⒮ you’re getting,<br/>
  try to research & try to solve as much possible,<br/>
- and/then Let us know about your unsolved errors & Share your code changes<br/>
+ and/then Let us know about your unsolved errors & Share your code 
+ changes<br/>
  by creating an 
  <a href="https://GitHub.com/atErik/Portable-Apps-OS-X-64/issues/new/choose">Issue</a> 
  here in GitHub, & submit info.<br/>
 <br/>
-If no errors, even then please share your final working code, your OS info, 
- etc (if you want to)<br/>
- either: by Forking/Cloning (this project) + Edit/Change & Test ‘script’ file 
- in your side/computer + Push your own (successful/working) code-changes inside 
- your own (this)-cloned-project first + then send a Pull-request to this project,<br/>
- or: by Sharing/pasting your code-changes, by using the create new “Issue” option 
- in GitHub under this project.<br/>
+If no errors, even then please share your final working code, your OS 
+ info, etc (if you want to)<br/>
+ either: by Forking/Cloning (this project) + Edit/Change & Test ‘script’ 
+ file in your side/computer + Push your own (successful/working) code-changes 
+ inside your own (this)-cloned-project first + then send a Pull-request to 
+ this project,<br/>
+ or: by Sharing/pasting your code-changes, by using the create new “Issue” 
+ option in GitHub under this project.<br/>
 <br/>
 
 <a name="HelpToBuild"></a>
@@ -587,12 +592,13 @@ and then add below 2-lines of settings<b>:</b>
  <tt>２│</tt>Development&#9;	System/Volumes/Data/Development<br/>
  <tt>３└─────────────────</tt>
 </dd><dd>
- then Press <code>Ctrl+X</code> (to Exit), and Nano prompts/asks you to press 
- “Y” (to Save) or “N” (to Discard) changes, so press “Y” (to Save), then Nano 
- shows target/destination filename <code>/etc/synthetic.conf</code> (and allows 
- you to change name), So press <code>Enter</code> to select it & Save+Exit.<br/>
- Note<b>:</b> you must press <code>tab</code>-button after typing "Projects"/"Development". 
- More on 
+ then Press <code>Ctrl+X</code> (to Exit), and Nano prompts/asks you to 
+ press “Y” (to Save) or “N” (to Discard) changes, so press “Y” (to Save), 
+ then Nano shows target/destination filename <code>/etc/synthetic.conf</code> 
+ (and allows you to change name), So press <code>Enter</code> to select it 
+ & Save+Exit.<br/>
+ Note<b>:</b> you must press <code>tab</code>-button after typing 
+ "Projects"/"Development". More on 
  <a href="https://www.Nano-Editor.org/dist/latest/cheatsheet.html" target="_blank">Nano</a>
 </dd></dl><!-- “.” is &#46; -->
 and Execute below Terminal/shell command⒮ to create those 2-folders<b>:</b>
@@ -636,8 +642,10 @@ i executed below 2-commands<b>:</b>
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
 <tr><td border="1" width="100%"><a name="UsefulOrRelatedUnicodeChars"></a><a name="U-chars"></a>
-<b>List Of Few Useful Unicode Characters/Symbols</b>, & How To Use/Show Them<b>:</b><br/>
-( We will use some of these in our dialog messages from this ‘script’ )</td></tr>
+<b>List Of Few Useful Unicode Characters/Symbols</b>, 
+ & How To Use/Show Them<b>:</b><br/>
+ ( We will use some of these in our dialog messages from this 
+ ‘script’ )</td></tr>
 <tr><td><a name="U-abbr"></a>Unicode related <b>Abbreviations:</b> 
  • Char = Character/Symbol/Glyph • Grph = Graphic • Emj ~= Emoji ~= Emoticons 
  • Txt = Textual Glyph • U = Unicode • A = ASCII • Ref = Reference 
@@ -843,19 +851,19 @@ i executed below 2-commands<b>:</b>
 <tr><td border="1" width="100%"><a name="U-tips"></a> 
  <b>Unicode Tricks+Tips:</b></td></tr>
 <tr><td border="1"><a name="UVS"></a> 
- • To display an Emoji/Emoticon(emj) as a Textual(txt) glyph (if available/renderable), 
- Use a 
+ • To display an Emoji/Emoticon(emj) as a Textual(txt) glyph (if 
+ available/renderable), Use a 
  <a href="https://en.Wikipedia.org/wiki/Variant%5Fform%5F%28Unicode%29#Variation%5FSelectors%5Fblock" target="_blank">VS15</a>-char(&amp;#xFE0E; 
  or &amp;#65038;) after the Emoji, (or apply CSS, i.e: <code>span.gray 
  { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>).<br/>
  <a name="UEM"></a>• When an 
  <a href="https://en.Wikipedia.org/wiki/Miscellaneous%5FSymbols%5Fand%5FPictographs#Emoji%5Fmodifiers" target="_blank">Emoji-Modifier</a> 
- character (i.e: “Emoji Modifier FitzPatrick Type-6” character &amp;#x1F3FF; 
- or &amp;#127999; U+1F3FF) is placed after an Emoji (not all Emojis, 
- but usually Emojis with (human)-body/body-parts are supported), 
- then that Emoji will appear with dark/gray color/skin-tone, 
- but many (font/glypgh/emoji)-Rendering-engine/system still does 
- not support this "Human Diversity" for all Emojis!<br/>
+ character (i.e: “Emoji Modifier FitzPatrick Type-6” character 
+ &amp;#x1F3FF; or &amp;#127999; U+1F3FF) is placed after an Emoji 
+ (not all Emojis, but usually Emojis with (human)-body/body-parts 
+ are supported), then that Emoji will appear with dark/gray 
+ color/skin-tone, but many (font/glypgh/emoji)-Rendering-engine/system 
+ still does not support this "Human Diversity" for all Emojis!<br/>
  <a name="CUD"></a>• If you want to <a href="https://en.Wikipedia.org/wiki/Combining_diacritics" target="_blank">Join</a> 
  a <a href="https://en.Wikipedia.org/wiki/Combining_Diacritical_Marks" target="_blank">diacritical-mark</a> 
  with an Unicode-char(U-char), 
@@ -885,8 +893,8 @@ i executed below 2-commands<b>:</b>
 <tr><td border="1" width="100%"><a name="VerifyFileAuthenticity"></a><a name="Hash"></a><a name="Digest"></a><a name="CheckSum"></a> 
  <b>Verify/Authenticate Files:</b></td></tr>
 <tr><td border="1">
- In macOSX, Calculate & Compare hash/checksum/digest code (it is a very unique 
- identity code) of a file/bundle<b>:</b><br/>
+ In macOSX, Calculate & Compare hash/checksum/digest code (it is a very 
+ unique identity code) of a file/bundle<b>:</b><br/>
  In macOSX in shell (“<code>Terminal</code>” utility) window, type command 
  (<code>shasum</code>) & press <code>space</code> key,<br/>
  then drag the <code>.dmg</code> file from <code>Finder</code>(file browser) 
@@ -967,38 +975,39 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  but it is still (deceptively/purposely) named/known as same “Gecko”! 
  some users calls/identifies it GwS(“Gecko-with-Servo” or “Gecko-w/Servo”) 
  or SbG(“Servo-based-Gecko”) or in-short just calls it “Servo” engine. 
- I will call it here, just Servo or GwS or SbG. FFQ in iOS was forced to use WebKit 
- based engine. Lots of PLUGINS existed & was released for (older) Gecko based 
- older FF (before v57), Mozilla STOPPED sharing/distrubuting ALL OF THOSE 
- ADDONS/PLUGINS for older Gecko based older “Firefox” !!! 
+ I will call it here, just Servo or GwS or SbG. FFQ in iOS was forced to 
+ use WebKit based engine. Lots of PLUGINS existed & was released for (older) 
+ Gecko based older FF (before v57), Mozilla STOPPED sharing/distrubuting 
+ ALL OF THOSE ADDONS/PLUGINS for older Gecko based older “Firefox” !!! 
  Which indicated (again & sadly, that) Mozilla products are not-reliable 
- & not-stable & cannot be depended-upon. Now there are very VERY LESS PLUGINS 
- availble/ported/released for Servo/GwS based FFQ (v57 & after). 
+ & not-stable & cannot be depended-upon. Now there are very VERY LESS 
+ PLUGINS availble/ported/released for Servo/GwS based FFQ (v57 & after). 
  WebRTC is kept in enabled state by-default, which can reveal user’s 
  local location without user’s consent with full-awareness, 
  which is a violation of Privacy-Rights, & this type of violation 
  is also done by other new web-browsers too!</td></tr>
 <tr><td><a name="SF"></a><b>•</b> SF = AS = Safari . 
- A web-browser developed by Apple Inc . Proprietary . Uses open-source WebKit based engine. 
- WebKit was closed-source & based-on OpenSource KDE-HTML(KHTML) layout engine 
- & OpenSource KDE-JS(KJS) engine, etc. KHTML in WebKit was renamed into WebCore, 
- & KJS in WebKit was renamed into JavaScriptCore by Apple Inc. Later WebKit 
- was made open-source(LGPL) by Apple Inc, and then Adobe Systems, KDE, Igalia, 
- & others joined. Later JavaScriptCore was replaced with SquirrelFish JS (SFX) 
+ A web-browser developed by Apple Inc . Proprietary . Uses open-source 
+ WebKit based engine. WebKit was closed-source & based-on OpenSource 
+ KDE-HTML(KHTML) layout engine & OpenSource KDE-JS(KJS) engine, etc. 
+ KHTML in WebKit was renamed into WebCore, & KJS in WebKit was renamed 
+ into JavaScriptCore by Apple Inc. Later WebKit was made open-source(LGPL) 
+ by Apple Inc, and then Adobe Systems, KDE, Igalia, & others joined. 
+ Later JavaScriptCore was replaced with SquirrelFish JS (SFX) 
  engine in WebKit. WebKit was internally upgraded into WebKit2. 
  Many other web-browsers are actually based on modified/customized version 
  of WebKit engine. WebKit devs have removed GC related codes, after Google 
- forked WebKit & created (WebKit-based) Blink for GC. Apple Inc forcefully/indirectly 
- restricts other devs/groups, i.e: devs are forced to use WebKit to develop 
- their apps for macOS/iOS, etc.</td></tr>
+ forked WebKit & created (WebKit-based) Blink for GC. Apple Inc 
+ forcefully/indirectly restricts other devs/groups, i.e: devs are 
+ forced to use WebKit to develop their apps for macOS/iOS, etc.</td></tr>
 <tr><td><a name="CM"></a><b>•</b> CM = CH = Chromium . Open-Source . 
- A web-browser initially developed by Google LLC. Uses Blink rendering engine 
- (Blink is based on modified WebKit engine), & V8 (JavaScript engine). 
- Later Microsoft, Igalia, Yandex, & others joined to develope CM. Later 
- Facebook, Opera Software, Adobe Systems, Intel, IBM, Samsung, & others 
- joined to develope Blink. Many many web-browsers are actually based on 
- modified/customized version of this CM web-browser or Blink engine from 
- CM.</td></tr>
+ A web-browser initially developed by Google LLC. Uses Blink rendering 
+ engine (Blink is based on modified WebKit engine), & V8 (JavaScript 
+ engine). Later Microsoft, Igalia, Yandex, & others joined to develope CM. 
+ Later Facebook, Opera Software, Adobe Systems, Intel, IBM, Samsung, & 
+ others joined to develope Blink. Many many web-browsers are actually 
+ based on modified/customized version of this CM web-browser or Blink 
+ engine from CM.</td></tr>
 <tr><td><a name="Ch"></a><b>•</b> Ch = GC = Chrome = Google-Chrome = GCh 
  = gCh = gCH . Ch is developed by Google LLC . Many features+components 
  are Proprietary & runs various binaries even before user logins into their OS, 
@@ -1010,30 +1019,31 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  based engine.</td></tr>
 </table>
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
-<tr><td border="1" width="100%"><a name="OS"></a><b>•</b> OS = Operating System 
- = OprtSys = OpSys . A collection/set of vast numbers+types of programs, 
- to assist interactions between computer User and computer hardwares & softwares 
- and computer networks. Many OS did-not & does-not have GUI. Modern OS usually 
- contains: microKernel/monolithicKernel/nanoKernel, HW layout & mngr, HW drvr, 
- IPC mngr, I/O mngr, Virt mem mngr, Protected mem mngr, Scheduling, 
- PreEmptive MultiTasking, RealTime support, Console I/O, FS support, 
- Net support, Sockets, Security monitoring, Process mngr, PnP mngr, 
- Power mngr, Graphics Display mngr, Window mngr, system services, 
- related System Libraries, Userland/UserApps, App Environments, 
- Servers/Daemons/Services for Userland, OS SubSystems/Thread support, 
- related Userland Libraries.</td></tr>
+<tr><td border="1" width="100%"><a name="OS"></a><b>•</b> OS = Operating 
+ System = OprtSys = OpSys . A collection/set of vast numbers+types of 
+ programs, to assist interactions between computer User and computer 
+ hardwares & softwares and computer networks. Many OS did-not & does-not 
+ have GUI. Modern OS usually contains: microKernel/monolithicKernel/nanoKernel, 
+ HW layout & mngr, HW drvr, IPC mngr, I/O mngr, Virt mem mngr, Protected 
+ mem mngr, Scheduling, PreEmptive MultiTasking, RealTime support, 
+ Console I/O, FS support, Net support, Sockets, Security monitoring, 
+ Process mngr, PnP mngr, Power mngr, Graphics Display mngr, Window mngr, 
+ system services, related System Libraries, Userland/UserApps, 
+ App Environments, Servers/Daemons/Services for Userland, OS 
+ SubSystems/Thread support, related Userland Libraries.</td></tr>
 <tr><td><a name="Unx"></a><b>•</b> Unx = Unix = Research-Unix 
  = &#42;nix. Originally developed (in 1969) by Ken Thompson & Dennis Ritchie 
  & others at-then AT&T Bell Labs.</td></tr>
-<tr><td><a name="BSD"></a><b>•</b> BSD = BSD-Unix = Berkeley Software Distribution . 
- Initially “BSD” was based on Unix v5, & it was developed by Bill Joy 
- & Ozalp Babaoglu & Keith Bostic & others from CSRG(Computer Systems Research Group). 
- Uses Monolithic kernel. BSD was updated to “4.3BSD-Net2”, and ~finally upd 
- into “4.4BSD-Lite2” (after winning lawsuit filed-by AT&T), then BSD development 
- ended. But 1-pair of devs released “386BSD” based on 4.3BSD-Net2. Later 
- 386BSD & 4.4BSD-Lite were forked as “NetBSD” by another group, and later 
- one more group forked 386BSD & 4.4BSD-Lite as “FreeBSD”. Later FreeBSD 
- was forked into “DragonFly-BSD”. Later NetBSD was forked into “OpenBSD”. 
+<tr><td><a name="BSD"></a><b>•</b> BSD = BSD-Unix = Berkeley Software 
+ Distribution . Initially “BSD” was based on Unix v5, & it was developed 
+ by Bill Joy & Ozalp Babaoglu & Keith Bostic & others from CSRG(Computer 
+ Systems Research Group). Uses Monolithic kernel. BSD was updated to 
+ “4.3BSD-Net2”, and ~finally upd into “4.4BSD-Lite2” (after winning 
+ lawsuit filed-by AT&T), then BSD development ended. But 1-pair of devs 
+ released “386BSD” based on 4.3BSD-Net2. Later 386BSD & 4.4BSD-Lite were 
+ forked as “NetBSD” by another group, and later one more group forked 
+ 386BSD & 4.4BSD-Lite as “FreeBSD”. Later FreeBSD was forked into 
+ “DragonFly-BSD”. Later NetBSD was forked into “OpenBSD”. 
  OpenBSD group prioritizes & focuses on SECURITY, trustworthiness, etc 
  of source code & OS functionalities.</td></tr>
 <tr><td><a name="OSX"></a><b>•</b> OSX = 🍎 = MacOS = macOS = macOSX . 
