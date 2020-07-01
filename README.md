@@ -33,7 +33,7 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 /* <br/> No-Border:<br/> */
 .PAosx64-70{ border-collapse:collapse; border-spacing:0px; width:100%; border-width:0px; border-style:none; border:none; margin:0px; padding:0px;}
 /* <br/> Table-Cell-Border for Borderless-Table:<br/> */
-.PAosx64-70 td,.PAosx64-70 th,.PAosx64-70 tbody td,.PAosx64-70 tbody th{ border-width:1px; margin:0px; padding:0px; }
+.PAosx64-70 td,.PAosx64-70 th,.PAosx64-70 tbody td,.PAosx64-70 tbody th{ border-width:1px; border-width-left:1px!important; border-width-right:1px!important; margin:0px; padding:0px; }
 /* <br/> Border-1:<br/> */
 .PAosx64-81{ border-width:1px; width:100%; margin:0px; padding:0px; }
 /* <br/> Top & Bottom Border Without Sides:<br/> */
@@ -41,7 +41,11 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 /* <br/> Only Bottom Border:<br/> */
 .PAosx64-83{ border-width:1px; border-width-top:0px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; }
 /* <br/> Only Top Border:<br/> */
-.PAosx64-84{ border-width:1px; border-width-top:1px; border-width-bottom:0px; border-width-left:0px; border-width-right:0px; width:100%; }
+.PAosx64-84{ border-width:0px; border-width-top:1px; }
+/* <br/> Top & Both-Side Border:<br/> */
+.PAosx64-85{ border-width:1px; border-width-bottom:0px; }
+/* <br/> No Top Border:<br/> */
+.PAosx64-86{ border-width:1px; border-width-top:0px; }
 /* <br/> Align Center:<br/> */
 .PAosx64-TAC{ text-align:center; } /* <br/> END of CSS STYLEs: */
 </style>
