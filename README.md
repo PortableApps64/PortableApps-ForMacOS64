@@ -23,32 +23,36 @@
  For This README&#46;md Page, Few Txt/inl/Blk/etc Element’s Style(Look/Appearance/etc)<br/>
  OverRiding CSS Rules Are Defined Below<b>:</b></dd></dl>
 BEGIN CSS RULES:<br/> Square Boxes:<br/> */
-.UatErik50{ float:left; position:relative; width:30%; padding-bottom:30%; margin:1.66%; overflow:hidden; }
+.PAosx64-50{ float:left; position:relative; width:30%; padding-bottom:30%; margin:1.66%; overflow:hidden; }
 /* <br/> Content inside SqrBox:<br/> */
-.UatErik51{ position:absolute; height:80%; width:90%; padding:10% 5%; }
+.PAosx64-51{ position:absolute; height:80%; width:90%; padding:10% 5%; }
 /* <br/> Table For Vertical Allignment:<br/> */
-.UatErik52{ display:table; height:100%; width:100%; }
+.PAosx64-52{ display:table; height:100%; width:100%; }
 /* <br/> Cell in Vert Tbl:<br/> */
-.UatErik53{ display:table-cell; vertical-align:middle; height:100%; width:100%; }
+.PAosx64-53{ display:table-cell; vertical-align:middle; height:100%; width:100%; }
 /* <br/> No-Border:<br/> */
-.UatErik70{ border-collapse:collapse; border-spacing:0px; width:100%; border-width:0px; border-style:none; border:none; margin:0px; padding:0px;}
+.PAosx64-70{ border-collapse:collapse; border-spacing:0px; width:100%; border-width:0px; border-style:none; border:none; margin:0px; padding:0px;}
 /* <br/> Table-Cell-Border for Borderless-Table:<br/> */
-.UatErik70 td,.UatErik70 th,.UatErik70 tbody td,.UatErik70 tbody th{ border-width:1px; margin:0px; padding:0px; }
+.PAosx64-70 td,.PAosx64-70 th,.PAosx64-70 tbody td,.PAosx64-70 tbody th{ border-width:1px; margin:0px; padding:0px; }
 /* <br/> Border-1:<br/> */
-.UatErik81{ border-width:1px; width:100%; margin:0px; padding:0px; }
+.PAosx64-81{ border-width:1px; width:100%; margin:0px; padding:0px; }
 /* <br/> Top & Bottom Border Without Sides:<br/> */
-.UatErik82{ border-width:1px; border-width-top:1px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; }
+.PAosx64-82{ border-width:1px; border-width-top:1px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; }
 /* <br/> Only Bottom Border:<br/> */
-.UatErik83{ border-width:1px; border-width-top:0px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; } /* <br/> END of CSS STYLEs: */
+.PAosx64-83{ border-width:1px; border-width-top:0px; border-width-bottom:1px; border-width-left:0px; border-width-right:0px; width:100%; }
+/* <br/> Only Top Border:<br/> */
+.PAosx64-84{ border-width:1px; border-width-top:1px; border-width-bottom:0px; border-width-left:0px; border-width-right:0px; width:100%; }
+/* <br/> Align Center:<br/> */
+.PAosx64-TAC{ text-align:center; } /* <br/> END of CSS STYLEs: */
 </style>
-
 <a name="intro"></a>
 # PORTABLE APPS OS X 64
 <!-- “.” is &#46; , “(” is &#40; , “)” is &#41; , “/” is &#47; -->
 Portable Apps for MacOSX-64 is a (Set of) Scripts/Tools Which Allows To Run 
  Apps (i.e: Mozilla’s "Firefox&#46;app") for macOS As A macOSX-64 Portable 
  App, & Also Allows To Run (Second/Third&#47;&#41;Multiple Instances Of Same 
- App, in macOSX.
+ App, in macOSX. (View this repo/project on 
+ <a href="https://github.com/PortableApps64/PortableAppsOSX64">GitHub</a>).
 <div width="100%">So We Are Including 64bit Pashua dialog, 64bit Platypus, 
  etc etc Tools To Assist In Executing/Running macOS (64bit) Apps Either As 
  Portable App Or As Multi-Instance Of Same App, & To Run Our Apps Either 
@@ -255,7 +259,8 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  v0.11 file has 1.8 MBytes, MD5<b>:</b>7492da10f78dde4833264eebbda9c210, 
  SHA1<b>:</b>bcc843a1f889ff779a6b6acc1b90a27b72f040f5.<br/>
  ( PA = pa = Portable App )</dd>
-<dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd></dl>
+<dd><div width="100%" align="center" class="PAosx64-TAC">Goto <a href="#intro">Top</a> 
+ or <a href="#index">Index</a></div></dd></dl>
 </div><br/>
 
 <!-- markdown line which starts with # or ## or ### etc are turned into 
@@ -425,7 +430,8 @@ before it).<br/>
  <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/"</code> )<br/>
  ( or Paste in your userspace:<br>
  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/"</code> 
- )</dd><dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd>
+ )</dd><dd><div width="100%" align="center" class="PAosx64-TAC">Goto <a href="#intro">Top</a> 
+ or <a href="#index">Index</a></div></dd>
 </dl></div>
 
 <a name="Build"></a>
@@ -547,7 +553,7 @@ If you have spotted an bug/error/fault, then let us know,<br/>
  and/then Let us know about your unsolved errors & Share your code 
  changes<br/>
  by creating an 
- <a href="https://GitHub.com/atErik/Portable-Apps-OS-X-64/issues/new/choose">Issue</a> 
+ <a href="https://GitHub.com/PortableApps64/PortableAppsOSX64/issues/new/choose">Issue</a> 
  here in GitHub, & submit info.<br/>
 <br/>
 If no errors, even then please share your final working code, your OS 
@@ -570,11 +576,12 @@ To run macOSX Apps on (64-bit) macOSX from portable/external<br/>
 drive/storage⒮), or run macOSX App as a second/third/multi-instance 
 of same App.<br/>
 Thanks in advance.
-<p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
+<p width="100%" align="center" class="PAosx64-TAC">Goto <a href="#intro">Top</a> 
+ or <a href="#index">Index</a></p>
 
 ## EXTRA-NOTES:
 
-<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="LoadFoldersUnderRootFolder"></a> 
  <b>Create Directory Under Root-Directory:</b> ( Directory = Folder )</td></tr>
 <tr><td border="1"> 
@@ -619,9 +626,9 @@ Now "MyProjects" or "Development" folder(s) can be accessed in these ways:
  <code>"/Development"</code>
 </dd></dl>
 </td></tr>
-</table>
+</table><br/>
 
-<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="ShowAllFilesFolders"></a> 
  <b>Show All Files & Folders in macOS:</b></td></tr>
 <tr><td border="1">
@@ -637,10 +644,11 @@ i executed below 2-commands<b>:</b>
  [⇧Shift]&#43;[⌘Command]&#43;[&#8239;<sup>&gt;</sup><sub>.</sub>&#8239;]
  <!-- + written as &#43; , nnbsp is &#8239; -->
 </dd></dl></td></tr>
-<tr><td align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></td></tr>
-</table>
+<tr><td align="center" class="PAosx64-TAC">Goto <a href="#intro">Top</a> 
+ or <a href="#index">Index</a></td></tr>
+</table><br/>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="UsefulOrRelatedUnicodeChars"></a><a name="U-chars"></a>
 <b>List Of Few Useful Unicode Characters/Symbols</b>, 
  & How To Use/Show Them<b>:</b><br/>
@@ -654,7 +662,7 @@ i executed below 2-commands<b>:</b>
  • CNRC = Character Name Ref/Entity Code • PE = Percent-Encoding 
  • FRE = Font/Character/Glyph/Grapheme Rendering Engine </td></tr>
 </table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td>• Low-Density Dotted Grph Char ░ &amp;#9617; 176 
  </td><td>• Medium-Density Dotted ▒ &amp;#9618; 177 
@@ -664,7 +672,7 @@ i executed below 2-commands<b>:</b>
  </td><td>• Top Half-Block ▀ &amp;#9600; &amp;uhblk; 223 </td></tr>
 <tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td> Box-Drawings: </td><td> &#160; </td><td> &#160; </td></tr>
 <tr><td>• Light-Horizontal ─ &amp;#9472; </td><td>• Light-Vertical │ &amp;#9474; 
@@ -677,7 +685,7 @@ i executed below 2-commands<b>:</b>
  </td><td> &#160; </td></tr>
 <tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td>• 📁 1F4C1, File Folder. Closed </td><td>• 📂 1F4C2, Open File Folder 
  </td><td>• 📃 1F4C3, Page with curl. Rolled Paper </td></tr>
@@ -691,7 +699,7 @@ i executed below 2-commands<b>:</b>
  </td><td> &#160; </td></tr>
 <tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td>• Middot “·” &amp;#183; 🍎⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 
  </td><td>• Bullet “•” &amp;#8226; 🍎⌥Opt+8 ❖Alt+249 </td><td> &#160; </td></tr>
@@ -743,7 +751,7 @@ i executed below 2-commands<b>:</b>
  </td><td> &#160; </td></tr>
 <tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td>• Apple symbol “” &amp;#63743; U+F8FF 🍎⌥Opt+⇧Shift+k (macOS) 
  </td><td>• Red Apple “🍎”(emj) &amp;#58181; U+E345 &amp;#xe345; 🍎&#xFE0E;(txt) 
@@ -773,7 +781,7 @@ i executed below 2-commands<b>:</b>
  , ᨵ&#x31C; , ᨵ&#x328; , ᨵ&#x329; , ᨵ&#x32D; , ᨵ&#x339; , ᨵ&#x1AB9; 
  , ᨵ&#x1ABA; </td></tr>
 </table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of2</td><td width="33%">&#160;</td><td>⬐2of2</td></tr>
 <tr><td colspan="2">• “Squared-Plus” “⊞” &amp;#8862; U+229E used by Wikipedia 
  as indicator for Windows Flag/Logo/Key symbol, ❖Win+B ❖Win 
@@ -792,7 +800,7 @@ i executed below 2-commands<b>:</b>
  • CJK = Chinese Japanese Korean, CJKUI = CJK Unified Ideograph
  • Lagab (Cuneiform) “𒆸” U+121B8 • Lagab-Lagab “𒇔” U+121D4 </td></tr>
 </table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of2</td><td width="33%">&#160;</td><td>⬐2of2</td></tr>
 <tr><td colspan="2">• Goat “🐐”(emj) &amp;#128016; U+1F410 🐐&#xFE0E;(txt) 
  often used to indicate GNU software, GNU/GPL-License, GNU-Hurd OS, GNU-BSD OS, etc. 
@@ -804,7 +812,7 @@ i executed below 2-commands<b>:</b>
  often used to indicate GNU-Linux-OS. Tux is a 🐧&#xFE0E; penguin</td><td> &#160; </td></tr>
 </table>
 <!-- : = &#58; -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"> Combining-Diacritics (with Unicode hex code-point)&#58; 
  • <code>◌̀</code> 300 • <code>◌́</code> 301 • <code>◌̃</code> 303 • <code>◌̆</code> 306 
  • <code>◌̇</code> 307 • <code>◌̌</code> 30C • <code>◌̍</code> 30D • <code>◌̖</code> 316 
@@ -815,7 +823,7 @@ i executed below 2-commands<b>:</b>
  • <code>◌᷃</code> 1DC3 • <code>◌᷎</code> 1DCE • <code>◌ᷗ</code> 1DD7 • <code>◌ᷛ</code> 1DDB 
  • <code>◌ᷞ</code> 1DDE </td></tr>
 </table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td>• Congruence Relation Symbol ≡ &amp;#8801; &amp;equiv; A 240 U+2261 
  </td><td>• Vertical Ellipsis ⋮ U+22EE vellip </td><td>• Menu/App key ▤ </td></tr>
@@ -828,7 +836,7 @@ i executed below 2-commands<b>:</b>
  </td><td>• Infinity ∞ &amp;#8734; &amp;infin; 🍎⌥Opt+5 </td><td> &#160; </td></tr>
 <tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td>• White Frowning Face ☹ &#65039; &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; ☹&#xFE0E;(txt) 
  </td><td>• Worried Face 😟(emj) &amp;#128543; 0x1F61F 😟&#xFE0E;(txt) 
@@ -837,15 +845,15 @@ i executed below 2-commands<b>:</b>
  </td><td>• Black Smiling Face ☻ &amp;#9787; 0x263B ☻&#xFE0E;(txt) </td><td> &#160; </td></tr>
 <tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td>• Ballot Box ☐ &amp;#9744; U+2610 
  </td><td>• Ballot Box with Check ☑ &amp;#9745; U+2611 ☑&#xFE0E;(txt) 
  </td><td>• Ballot Box with X ☒ &amp;#9746; U+2612 ☒&#xFE0E;(txt) </td></tr>
 <tr><td colspan="3">• ª U+00AA &amp;#170; &amp;ordf; • ʈ U+0288 &amp;#648; </td></tr>
-</table>
+</table><br/>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <!-- %2E = ".", %3A = ":", %20 = " "(space), %5F = "_", %28 = "(", %29 = ")", 
  %2D = "-", %7E = "~", %2C = ",", %27 = ', %22 = " -->
 <tr><td border="1" width="100%"><a name="U-tips"></a> 
@@ -886,10 +894,11 @@ i executed below 2-commands<b>:</b>
  <a href="http://liberties.WikiDot.com/ligatures1" target="_blank">http://Liberties.WikiDot.com/ligatures1</a><br/>
  <a href="https://en.Wikipedia.org/wiki/Unicode_font" target="_blank">https://en.Wikipedia.org/wiki/Unicode_font</a><br/>
  <a href="https://en.Wikipedia.org/wiki/List_of_Unicode_characters" target="_blank">https://en.Wikipedia.org/wiki/List_of_Unicode_characters</a></td></tr>
-<tr><td align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></td></tr>
-</table>
+<tr><td align="center" class="PAosx64-TAC">Goto <a href="#intro">Top</a> 
+ or <a href="#index">Index</a></td></tr>
+</table><br/>
 
-<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="VerifyFileAuthenticity"></a><a name="Hash"></a><a name="Digest"></a><a name="CheckSum"></a> 
  <b>Verify/Authenticate Files:</b></td></tr>
 <tr><td border="1">
@@ -929,9 +938,9 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  <tt>３└─────────────────</tt>
 </dd></dl>
 </td></tr>
-</table>
+</table><br/>
 
-<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="codesign"></a>
  <b>Add Signature With App/Code:</b></td></tr>
 <tr><td border="1"> Sign (aka: “codesign”, aka: add digital-signature) 
@@ -944,10 +953,11 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  by using a user’s/dev’s Apple-ID, that allows to download/get some 
  basic Development related items for free, like: Xcode, Xcode-CLT, etc.</td></tr>
 <tr><td> &#160; </td></tr>
-<tr><td align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></td></tr>
-</table>
+<tr><td align="center" class="PAosx64-TAC">Goto <a href="#intro">Top</a> 
+ or <a href="#index">Index</a></td></tr>
+</table><br/>
 
-<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="Abbreviations"></a><b>Abbreviations:</b><br/>
  Acronyms, Recursive Backronyms & Abbreviations used here<b>:</b></td></tr>
 <tr><td><a name="abbr"></a><b>•</b> Dev = Develope = Bld = Build 
@@ -962,7 +972,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  Or PA is kept-in & run from internal-Storage when a user need to run 2nd 
  or multiple instances of same PA apps with different profile(s)/settings.</td></tr>
 </table><!-- “(” = %28 , “)” = %29 -->
-<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="FF"></a><b>•</b> FF = Firefox . 
  A web-browser from Mozilla Foundation. Before FF v57 it used 
  <a href="https://en.wikipedia.org/wiki/Gecko%5F%28software%29" target="_blank">Gecko</a> engine. 
@@ -1018,7 +1028,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  variants are using Blink except in iOS, in iOS its forced to use WebKit 
  based engine.</td></tr>
 </table>
-<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="OS"></a><b>•</b> OS = Operating 
  System = OprtSys = OpSys . A collection/set of vast numbers+types of 
  programs, to assist interactions between computer User and computer 
@@ -1079,7 +1089,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  distros/OSes based on GNU/Linux or GNU/Hurd (aka GNU/Mach) or GNU/BSD 
  etc etc. All of these were/are primarily a derivative of Unix.</td></tr>
 </table>
-<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="UatErik70">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="AOS"></a><a name="Andr"></a><b>•</b> 
  AOS = 🤖&#xFE0E; = Andr = Android OS . A (GUI) OS developed by Google LLC 
  (under Alphabet Inc), with members of OHA consortium, & by open-source 
@@ -1091,6 +1101,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  used in/as iPhone OS, iPad OS, etc. Its a closed-source GUI OS. 
  Based on (Unix->BSD->&#41; Darwin OS. Uses Hybrid(XNU) Kernel.</td></tr>
  <!-- “(” = &#40; , “)” = &#41; -->
-<tr><td align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></td></tr>
-</table>
+<tr><td align="center" class="PAosx64-TAC">Goto <a href="#intro">Top</a> 
+ or <a href="#index">Index</a></td></tr>
+</table><br/>
 <br/>
