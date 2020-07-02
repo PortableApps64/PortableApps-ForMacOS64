@@ -174,27 +174,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
   English/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">Basic-Latin</a> 
   Char, No Soliciting Permitted)&#46; All rights reserved.<br/>
   <b>•</b> (All other trademarks, etc cited here are the property of their respective owners&#46;)<br/>
-  <b>•</b> (All other copyright items cited here are the copyright of their respective author/creator&#46;)<br/>
- <br/>
- Note: <b>To Devs</b>, You Must Duplicate The Default “LICENSE” File 
- Into Another File<b>NAME</b> : For Any Item(Program / Script / Tool, etc) 
- Under This Project/Repo, Devs/You Need/Have To Add A “License” File, 
- You May Do That In This Way : Use GitHub To Choose & Add Your Choice 
- Of "LICENSE" Type & File, Then Goto that file's <b>RAW</b> View 
- (Page/Mode/Button), 
- Copy & Paste (RAW)-Info/Content Into Another NEW (<b>Text</b>) File With 
- Such (Different) File-NAME: 
- <code>"LICENSE.&lt;License-Type/NAME-Version&gt;.&lt;Software/Script/Program/Tool-NAME&gt;.txt"</code> 
- (i.e: "LICENSE&#46;MPL-2.0.Firefox&#46;txt"). 
- This Will Allow To Clearly Show+Include : Which App Has What “LICENSE”, 
- & <b>AVOID</b> The Problem Of <b>OVERWRITE/DISCARD</b> Same Named 
- "LICENSE" File, 
- When Multiple Tools / Scripts / Programs / Licenses / Files, etc 
- (From Different Projects/GH-Repos) Are (Or Will Be) Placed In Same Folder. 
- This Project Uses (And Will Use) Multiple Items (From Different Folders) 
- Into Same Folder. 
- So Each File Must Have Unique (aka: Non-Conflicting, aka: different) 
- File-NAME.</dd>
+  <b>•</b> (All other copyright items cited here are the copyright of their respective author/creator&#46;)</dd>
  </dl>
 </div>
 
