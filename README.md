@@ -22,7 +22,11 @@
  repeat the task of editing all files just for a simple/tiny change.<br/> 
  For This README&#46;md Page, Few Txt/inl/Blk/etc Element’s Style(Look/Appearance/etc)<br/>
  OverRiding CSS Rules Are Defined Below<b>:</b></dd></dl>
-BEGIN CSS RULES:<br/> Square Boxes:<br/> */
+BEGIN CSS RULES:<br/> BODY width<br/> */
+body{ width:100%; }
+<br/> For "GH-Pages" wrapper<br/> */
+.wrapper{ width:100%; }
+/* <br/> Square Boxes:<br/> */
 .PAosx64-50{ float:left; position:relative; width:30%; padding-bottom:30%; margin:1.66%; overflow:hidden; }
 /* <br/> Content inside SqrBox:<br/> */
 .PAosx64-51{ position:absolute; height:80%; width:90%; padding:10% 5%; }
@@ -49,9 +53,13 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 /* <br/> Align Center:<br/> */
 .PAosx64-TAC{ text-align:center; }
 /* <br/> Lesser Margin+Padding For DL:<br/> */
-dl,ul,ol{ margin:12px; margin-top:3px; margin-bottom:3px; padding:0px; }
-/* <br/> Lesser Margin+Padding For DD:<br/> */
+dl{ margin:12px; margin-top:3px; margin-bottom:3px; padding:0px; }
+/* <br/> No-Margin & Lesser-Padding For DD,LI:<br/> */
 dd,li{ margin:0px; padding:3px; }
+/* <br/> Lesser Margin+Padding For UL,OL:<br/> */
+ul,ol{ margin:12px; margin-top:3px; margin-bottom:3px; padding:0px; }
+/* <br/> Forcefully use Bullet DL:<br/> */
+ul li:before { content:"\2022"; margin:0 0 0 -10px; padding:0px; }
 /* <br/> Smaller Font/Text:<br/> */
 span.PAosx64-Sml{ font-size:0.8em; }
 /* <br/> END of CSS STYLEs: */
