@@ -33,7 +33,7 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 /* <br/> No-Border:<br/> */
 .PAosx64-70{ border-collapse:collapse; border-spacing:0px; width:100%; border-style:none; border:none; border-width:0px; margin:0px; padding:0px;}
 /* <br/> Table-Cell-Border for Borderless-Table:<br/> */
-.PAosx64-70 td,.PAosx64-70 tr td,.PAosx64-70 th,.PAosx64-70 tr th,.PAosx64-70 tbody td,.PAosx64-70 tbody tr td,.PAosx64-70 tbody th,.PAosx64-70 tbody tr th,.PAosx64-70 theader td,.PAosx64-70 theader tr td,.PAosx64-70 theader th,.PAosx64-70 theader tr th,.PAosx64-70 tfooter td,.PAosx64-70 tfooter tr td,.PAosx64-70 tfooter th,.PAosx64-70 tfooter tr th{ border-collapse:collapse; border-spacing:0px; border-width:1px!important; border-width-bottom:1px!important; border-style:solid; margin:0px; padding:3px; }
+.PAosx64-70 td,.PAosx64-70 tr td,.PAosx64-70 th,.PAosx64-70 tr th,.PAosx64-70 tbody td,.PAosx64-70 tbody tr td,.PAosx64-70 tbody th,.PAosx64-70 tbody tr th,.PAosx64-70 theader td,.PAosx64-70 theader tr td,.PAosx64-70 theader th,.PAosx64-70 theader tr th,.PAosx64-70 tfooter td,.PAosx64-70 tfooter tr td,.PAosx64-70 tfooter th,.PAosx64-70 tfooter tr th{ border-collapse:collapse; border-spacing:0px; border-width:1em!important; border-style:solid; margin:0px; padding:3px; }
 /* <br/> Border-1:<br/> */
 .PAosx64-81{ border-width:1px; width:100%; margin:0px; padding:0px; }
 /* <br/> Top & Bottom Border Without Sides:<br/> */
