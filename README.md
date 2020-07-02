@@ -95,7 +95,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  <b>•</b> PA = pa = Portable App.</dd></dl>
 </div>
 
-<a name="index"></a><!-- “:” = &#58; -->
+<a name="index"></a><!-- “:” = &#58;, “{” = &#123;, “}” = &#125; -->
 <dl><dd>&#160;<dl>
 <dd>Portable-Apps-OS-X-64<b>:</b> ¦ <a href="F/">F</a> ¦ <a href="F/PortableFirefoxOSX64/">Portable Firefox OSX64</a> ¦</dd>
 <dd>Content/Index List<b>:</b> 
@@ -174,7 +174,27 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
   English/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">Basic-Latin</a> 
   Char, No Soliciting Permitted)&#46; All rights reserved.<br/>
   <b>•</b> (All other trademarks, etc cited here are the property of their respective owners&#46;)<br/>
-  <b>•</b> (All other copyright items cited here are the copyright of their respective author/creator&#46;)</dd>
+  <b>•</b> (All other copyright items cited here are the copyright of their respective author/creator&#46;)<br/>
+ <br/>
+ Note: <b>To Devs</b>, You Must Duplicate The Default “LICENSE” File 
+ Into Another File<b>NAME</b> : For Any Item(Program / Script / Tool, etc) 
+ Under This Project/Repo, Devs/You Need/Have To Add A “License” File, 
+ You May Do That In This Way : Use GitHub To Choose & Add Your Choice 
+ Of "LICENSE" Type & File, Then Goto that file's <b>RAW</b> View 
+ (Page/Mode/Button), 
+ Copy & Paste (RAW)-Info/Content Into Another NEW (<b>Text</b>) File With 
+ Such (Different) File-NAME: 
+ <code>"LICENSE.&lt;License-Type/NAME-Version&gt;.&lt;Software/Script/Program/Tool-NAME&gt;.txt"</code> 
+ (i.e: "LICENSE&#46;MPL-2.0.Firefox&#46;txt"). 
+ This Will Allow To Clearly Show+Include : Which App Has What “LICENSE”, 
+ & <b>AVOID</b> The Problem Of <b>OVERWRITE/DISCARD</b> Same Named 
+ "LICENSE" File, 
+ When Multiple Tools / Scripts / Programs / Licenses / Files, etc 
+ (From Different Projects/GH-Repos) Are (Or Will Be) Placed In Same Folder. 
+ This Project Uses (And Will Use) Multiple Items (From Different Folders) 
+ Into Same Folder. 
+ So Each File Must Have Unique (aka: Non-Conflicting, aka: different) 
+ File-NAME.</dd>
  </dl>
 </div>
 
@@ -300,7 +320,36 @@ before it).<br/>
   <code>"/Users/MyUserName/MyProjects/PA-OSX64/"</code> )<br/>
   ( PA = Portable App )
 </dd></dl>
-</dd></dl>
+</dd></dl><!-- “.” = &#46; “<” = &lt; “>” = &gt; -->
+<dl><dd><b>Note:</b> To <b>Devs</b>, You Must Create Duplicate-Files 
+ For “LICENSE” & “README&#46;md” File(s), & Duplicates Must Have 
+ Different File<b>NAME</b> <b>:</b> 
+ For Any Item(Program / Script / Tool / License / ReadMe file, etc) 
+ Under This Project/Repo, (If Not Done Already/Yet), <b>Devs</b>/You 
+ Need/Have To Add A “ReadMe” & A “License” File, You May/Can Do That 
+ In This Way <b>:</b> 
+ Use GitHub To Choose & Add Your Choice Of "LICENSE" Type & File, 
+ Then Goto <b>RAW</b> View (Page/Mode/Button), Copy & Paste That 
+ (RAW)-Info/Content Into Another NEW (<b>Text</b>) File With Such 
+ File-Name: 
+ <code>"LICENSE.&lt;License-Type/NAME-&-Version&gt;.&lt;Software/Script/Program/Tool-NAME&gt;.txt"</code> 
+ (i.e: "LICENSE&#46;MPL-2.0.Firefox&#46;txt"). And You Also 
+ Need/Have To Create <b>Another NEW File</b> To Duplicate The Content 
+ Of “README&#46;md”, It Will Be A Backup “ReadMe” File, But It Must 
+ Have A Different FileNAME: 
+ <code>"README.&lt;Software/Script/Program/Tool-NAME&gt;.md"</code> 
+ (i.e: "README.Firefox&#46;md").<br/>
+ This Will Allow To Clearly Show+Include : Which App Has What “LICENSE” 
+ File, & Which App Has What “ReadMe” File, & This Will <b>AVOID</b> 
+ The Problem Of <b>OVERWRITE/DISCARD</b> Of Same Named “LICENSE” File(s) 
+ Or Same Named “README&#46;md” File(s), When Multiple Different-Project's 
+ Tool / Script / Program / License / README, etc Are (Or Will Be) 
+ Placed In <b>Same Folder</b>. 
+ This Project Uses (And Will Use) Multiple Items (From Different Folders) 
+ Into Same Folder. 
+ So Each File Must Have Unique (aka: Non-Conflicting, aka: different) 
+ File-NAME. PLEASE Follow The Convention We Laid Out, Thank You.</dd>
+</dl>
 </div>
 
 <div width="100%"><a name="pb-2"></a>PB-2: Obtain NEW Platypus (at the 
