@@ -49,7 +49,7 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 /* <br/> Align Center:<br/> */
 .PAosx64-TAC{ text-align:center; }
 /* <br/> Lesser Margin+Padding For DL:<br/> */
-dl{ margin:12px; margin-top:4px; margin-bottom:6px; padding:0px; }
+dl{ margin:12px; margin-top:3px; margin-bottom:5px; padding:0px; }
 /* <br/> Lesser Margin+Padding For DD:<br/> */
 dd{ margin:0px; padding:3px; }
 /* <br/> Smaller Font/Text:<br/> */
@@ -311,7 +311,7 @@ before it).<br/>
 </dd></dl>
 </dd></dl><!-- “.” = &#46; “<” = &lt; “>” = &gt; -->
 <dl><dd><a name="DupliLICN"></a><a name="DupliRDME"></a><b>Note:</b> 
- To <b>Devs</b>, You Must Create Duplicate-Files 
+ To <b>Devs</b>, You Must Create <b>DUPLICATE</b>-Files 
  For “LICENSE” & “README&#46;md” File(s), & Duplicates Must Have 
  Different File<b>NAME</b> <b>:</b> 
  For Any Item(Program / Script / Tool / License / ReadMe file, etc) 
