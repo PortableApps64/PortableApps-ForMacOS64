@@ -49,7 +49,7 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 /* <br/> Align Center:<br/> */
 .PAosx64-TAC{ text-align:center; }
 /* <br/> Lesser Margin+Padding For DL:<br/> */
-dl{ margin:10px; padding:0px; }
+dl{ margin:12px; padding:0px; }
 /* <br/> Lesser Margin+Padding For DD:<br/> */
 dd{ margin:0px; padding:3px; }
 /* <br/> END of CSS STYLEs: */
@@ -111,7 +111,9 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
   ¦ <a href="#Platypus">Platypus</a> 
   ¦ <a href="#Pashua">Pashua</a> &#125; 
  ¦ <a href="#pb">Pre-Build(for-Devs)</a> 
-  &#123; <a href="#pb-1">PB-1</a> ¦ <a href="#pb-2">PB-2</a> ¦ <a href="#pb-3">PB-3</a> 
+  &#123; <a href="#pb-1">PB-1</a> 
+  ¦ <a href="#DupliLICN"></a>Duplicate</a> (License & ReadMe) 
+  ¦ <a href="#pb-2">PB-2</a> ¦ <a href="#pb-3">PB-3</a> 
   ¦ <a href="#pb-4">PB-4</a> ¦ <a href="#pb-5">PB-5</a> &#125; 
  ¦ <a href="#Build">Build(for-Devs)</a> 
   &#123; <a href="#b-1">B-1</a> ¦ <a href="#b-2">B-2</a> ¦ <a href="#b-3">B-3</a> 
@@ -203,11 +205,11 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  11.5(<a href="https://download.developer.Apple.com/Developer_Tools/Command_Line_Tools_for_Xcode_11.5/Command_Line_Tools_for_Xcode_11.5.dmg" target="_blank">dmg</a>
  file, 260.4 MBytes) (May-20, 2020) has MD5<b>:</b>5620d026d2313934cdfee2499c10ccc4, 
  SHA1<b>:</b>23943d6eaccdec9290077457252132707298210f, 
- SHA256<b>:</b>4a6210962fe568d871e2b51ceb8836930031f432a8e1a7ec2e98f64768f87c79.<br/>
+ SHA256<b>:</b><span class="PAosx64-Sml">4a6210962fe568d871e2b51ceb8836930031f432a8e1a7ec2e98f64768f87c79.</span><br/>
  To get a sense on size of FULL Xcode: Xcode 11.5 (xip file, 8.12 GBytes) 
  (May-20, 2020) has MD5<b>:</b>65a84fa871855af4f369fe643fe278e0, 
  SHA1<b>:</b>4654b261841d0336cb90ea1c82d15fd7aa03c982, 
- SHA256<b>:</b>a5568ae0d30d9d3be94416dbd1aa3a26f23ca5d937c4b9895913cda1b18ceea4.</dd></dl>
+ SHA256<b>:</b><span class="PAosx64-Sml">a5568ae0d30d9d3be94416dbd1aa3a26f23ca5d937c4b9895913cda1b18ceea4.</span></dd></dl>
 </div>
 
 <a name="Swift"></a>
@@ -222,7 +224,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  v5.2.4 Toolchain (<a href="https://Swift.org/builds/swift-5.2.4-release/xcode/swift-5.2.4-RELEASE/swift-5.2.4-RELEASE-osx.pkg" target="_blank">pkg</a> file, 599.4 MBytes) 
  for Xcode 11.5 (May-20, 2020) has MD5<b>:</b>9da44d83095e17cbcde46691af5a043b, 
  SHA1<b>:</b>ddd4ee0cb0dc640121680606e203c809eec854ab, 
- SHA256<b>:</b>ba409649620129375e014c4753a6f802fb94e46ee833dbf917111e593342ddfc.</dd></dl>
+ SHA256<b>:</b><span class="PAosx64-Sml">ba409649620129375e014c4753a6f802fb94e46ee833dbf917111e593342ddfc.</span></dd></dl>
 </div>
 
 <a name="Platypus"></a>
@@ -303,10 +305,11 @@ before it).<br/>
  inside your own userspace<b>:</b>
 <dl><dd>
   <code>"/Users/MyUserName/MyProjects/PA-OSX64/"</code> )<br/>
-  ( PA = Portable App )
+  ( PA = pa = Portable App )
 </dd></dl>
 </dd></dl><!-- “.” = &#46; “<” = &lt; “>” = &gt; -->
-<dl><dd><b>Note:</b> To <b>Devs</b>, You Must Create Duplicate-Files 
+<dl><dd><a name="DupliLICN"></a><a name="DupliRDME"></a><b>Note:</b> 
+ To <b>Devs</b>, You Must Create Duplicate-Files 
  For “LICENSE” & “README&#46;md” File(s), & Duplicates Must Have 
  Different File<b>NAME</b> <b>:</b> 
  For Any Item(Program / Script / Tool / License / ReadMe file, etc) 
@@ -963,9 +966,9 @@ To calculate “SHA256” hash-code, use <code>-a 256</code> option in
 <dl><dd><!-- “.” is &#46; -->
  <tt>０┌─────────────────</tt><br/>
  <tt>１│</tt>MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
- <tt>２│</tt>e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>２│</tt><span class="PAosx64-Sml">e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57</span>  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
  <tt>３│</tt>MacNm:~ UsrNm$ <b>openssl sha256</b> /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
- <tt>４│</tt>SHA256(/Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg)= e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57<br/>
+ <tt>４│</tt>SHA256(/Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg)= <span class="PAosx64-Sml">e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57</span><br/>
  <tt>５└─────────────────</tt>
 </dd></dl>
 To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</code><b>:</b>
