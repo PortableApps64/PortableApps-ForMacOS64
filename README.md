@@ -33,7 +33,7 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 /* <br/> No-Border:<br/> */
 .PAosx64-70{ border-collapse:collapse; border-spacing:0px; width:100%; border-style:none; border:none; border-width:0px; margin:0px; padding:0px;}
 /* <br/> Table-Cell-Border for Borderless-Table:<br/> */
-.PAosx64-70 td,.PAosx64-70 tr td,.PAosx64-70 th,.PAosx64-70 tr th,.PAosx64-70 tbody td,.PAosx64-70 tbody tr td,.PAosx64-70 tbody th,.PAosx64-70 tbody tr th,.PAosx64-70 theader td,.PAosx64-70 theader tr td,.PAosx64-70 theader th,.PAosx64-70 theader tr th,.PAosx64-70 tfooter td,.PAosx64-70 tfooter tr td,.PAosx64-70 tfooter th,.PAosx64-70 tfooter tr th{ border-collapse:collapse; border-spacing:0px; border-width:1px; border-style:solid; border-color:gray; margin:0px; padding:3px; }
+.PAosx64-70 td,.PAosx64-70 tr td,.PAosx64-70 th,.PAosx64-70 tr th,.PAosx64-70 tbody td,.PAosx64-70 tbody tr td,.PAosx64-70 tbody th,.PAosx64-70 tbody tr th,.PAosx64-70 theader td,.PAosx64-70 theader tr td,.PAosx64-70 theader th,.PAosx64-70 theader tr th,.PAosx64-70 tfooter td,.PAosx64-70 tfooter tr td,.PAosx64-70 tfooter th,.PAosx64-70 tfooter tr th{ border-collapse:collapse; border-spacing:0px; border-width:1px; border-style:solid; border-color:#2F4F4F; margin:0px; padding:3px; }
 /* <br/> Border-1:<br/> */
 .PAosx64-81{ border-width:1px; width:100%; margin:0px; padding:0px; }
 /* <br/> Top & Bottom Border Without Sides:<br/> */
@@ -49,9 +49,9 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 /* <br/> Align Center:<br/> */
 .PAosx64-TAC{ text-align:center; }
 /* <br/> Lesser Margin+Padding For DL:<br/> */
-dl{ margin:12px; margin-top:3px; margin-bottom:5px; padding:0px; }
+dl,ul,ol{ margin:12px; margin-top:3px; margin-bottom:5px; padding:0px; }
 /* <br/> Lesser Margin+Padding For DD:<br/> */
-dd{ margin:0px; padding:3px; }
+dd,li{ margin:0px; padding:3px; }
 /* <br/> Smaller Font/Text:<br/> */
 span.PAosx64-Sml{ font-size:0.8em; }
 /* <br/> END of CSS STYLEs: */
@@ -179,7 +179,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
   (<a href="https://www.GNU.org/licenses/gpl-3.0.en.html" target="_blank">GPL v3</a>)<br/>
   <b>•</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc<br/>
   <b>•</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
-  at&#69;rik＠&#65;śh&#70;ölķ·ć&#333;m&gt; Do Not Copy Eml-Adrs, Type In 
+  at&#69;rïķ＠&#65;śh&#70;ölķ·ć&#333;m&gt; Do Not Copy Eml-Adrs, Type In 
   English/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">Basic-Latin</a> 
   Char, No Soliciting Permitted)&#46; All rights reserved.<br/>
   <b>•</b> (All other trademarks, etc cited here are the property of their respective owners&#46;)<br/>
@@ -309,7 +309,7 @@ before it).<br/>
   <code>"/Users/MyUserName/MyProjects/PA-OSX64/"</code> )<br/>
   ( PA = pa = Portable App )
 </dd></dl>
-</dd></dl><!-- “.” = &#46; “<” = &lt; “>” = &gt; -->
+</dd></dl><!-- “.” = &#46;, “<” = &lt;, “>” = &gt;, “#” = &#35; -->
 <dl><dd><a name="DupliLICN"></a><a name="DupliRDME"></a><b>Note:</b> 
  To <b>Devs</b>, You Must Create <b>DUPLICATE</b>-Files 
  For “LICENSE” & “README&#46;md” File(s), & Duplicates Must Have 
@@ -323,7 +323,7 @@ before it).<br/>
  (RAW)-Info/Content Into Another NEW (<b>Text</b>) File With Such 
  File-Name: 
  <code>"LICENSE.&lt;License-Type/NAME-&-Version&gt;.&lt;Software/Script/Program/Tool-NAME&gt;.txt"</code>
- or  <code>"&lt;License-Type/NAME-&-Version&gt;.LICENSE.&lt;Software/Script/Program/Tool-NAME&gt;.txt"</code>
+ or  <code>"&lt;Lic-Type/NAME-&-Ver&#35;&gt;.LICENSE.&lt;Software/Script/Program/Tool-NAME&gt;.txt"</code>
  or  <code>"&lt;License-Type/NAME-&-Version&gt;_LICENSE_for_&lt;Software/Script/Program/Tool-NAME&gt;.txt"</code>
  (i.e: "LICENSE&#46;MPL-2.0.Firefox&#46;txt"). And You Also 
  Need/Have To Create <b>Another NEW File</b> To Duplicate The Content 
@@ -342,7 +342,7 @@ before it).<br/>
  Into Same Folder. 
  So Each File Must Have Unique (aka: Non-Conflicting, aka: <b>different</b>) 
  <b>File-NAME</b>. PLEASE Follow The Convention We Laid Out, Thank You.<br/>
- ( PA = pa = Portable App )</dd>
+ ( PA = pa = Portable App . Lic = Licn = License )</dd>
 </dl>
 </div>
 
