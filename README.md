@@ -47,7 +47,12 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 /* <br/> No Top Border:<br/> */
 .PAosx64-86{ border-width:1px; border-width-top:0px; }
 /* <br/> Align Center:<br/> */
-.PAosx64-TAC{ text-align:center; } /* <br/> END of CSS STYLEs: */
+.PAosx64-TAC{ text-align:center; }
+/* <br/> Lesser Margin+Padding For DL:<br/> */
+dl{ margin:10px; padding:0px; }
+/* <br/> Lesser Margin+Padding For DD:<br/> */
+dd{ margin:0px; padding:3px; }
+/* <br/> END of CSS STYLEs: */
 </style>
 <a name="intro"></a>
 # PORTABLE APPS OS X 64
