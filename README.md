@@ -31,9 +31,9 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 /* <br/> Cell in Vert Tbl:<br/> */
 .PAosx64-53{ display:table-cell; vertical-align:middle; height:100%; width:100%; }
 /* <br/> No-Border:<br/> */
-.PAosx64-70{ border-collapse:collapse; border-spacing:0px; width:100%; border-style:none; border:none; border-width-:0px; margin:0px; padding:0px;}
+.PAosx64-70{ border-collapse:collapse; border-spacing:0px; width:100%; border-style:none; border:none; border-width:0px; margin:0px; padding:0px;}
 /* <br/> Table-Cell-Border for Borderless-Table:<br/> */
-.PAosx64-70 td,.PAosx64-70 th,.PAosx64-70 tbody td,.PAosx64-70 tbody th{ border-width:1px!important; margin:0px; padding:2px; }
+.PAosx64-70 td,.PAosx64-70 tr td,.PAosx64-70 th,.PAosx64-70 tr th,.PAosx64-70 tbody td,.PAosx64-70 tbody tr td,.PAosx64-70 tbody th,.PAosx64-70 tbody tr th,.PAosx64-70 theader td,.PAosx64-70 theader tr td,.PAosx64-70 theader th,.PAosx64-70 theader tr th,.PAosx64-70 tfooter td,.PAosx64-70 tfooter tr td,.PAosx64-70 tfooter th,.PAosx64-70 tfooter tr th{ border-width:1px!important; border-style:solid; margin:0px; padding:2px; }
 /* <br/> Border-1:<br/> */
 .PAosx64-81{ border-width:1px; width:100%; margin:0px; padding:0px; }
 /* <br/> Top & Bottom Border Without Sides:<br/> */
@@ -101,26 +101,26 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
 <dd>Content/Index List<b>:</b> 
  ¦ <a href="#intro">Intro</a> 
  ¦ <a href="#BuildTools">Build/Run-Tools(for-Devs)</a> 
-  ( <a href="#PA-OSX64">Portable-Apps-OS-X-64</a> 
+  &#123; <a href="#PA-OSX64">Portable-Apps-OS-X-64</a> 
   ¦ <a href="#Xcode">Xcode</a> ¦ <a href="#Swift">Swift</a> 
   ¦ <a href="#Platypus">Platypus</a> 
-  ¦ <a href="#Pashua">Pashua</a> ) 
+  ¦ <a href="#Pashua">Pashua</a> &#125; 
  ¦ <a href="#pb">Pre-Build(for-Devs)</a> 
-  ( <a href="#pb-1">PB-1</a> ¦ <a href="#pb-2">PB-2</a> ¦ <a href="#pb-3">PB-3</a> 
-  ¦ <a href="#pb-4">PB-4</a> ¦ <a href="#pb-5">PB-5</a> ) 
+  &#123; <a href="#pb-1">PB-1</a> ¦ <a href="#pb-2">PB-2</a> ¦ <a href="#pb-3">PB-3</a> 
+  ¦ <a href="#pb-4">PB-4</a> ¦ <a href="#pb-5">PB-5</a> &#125; 
  ¦ <a href="#Build">Build(for-Devs)</a> 
-  ( <a href="#b-1">B-1</a> ¦ <a href="#b-2">B-2</a> ¦ <a href="#b-3">B-3</a> 
-  ¦ <a href="#b-4">B-4</a> ) 
+  &#123; <a href="#b-1">B-1</a> ¦ <a href="#b-2">B-2</a> ¦ <a href="#b-3">B-3</a> 
+  ¦ <a href="#b-4">B-4</a> &#125; 
  ¦ <a href="#Post-Build">Post-Build(for-Users)</a> 
  ¦ <a href="#Test-Run">Run/Execute/Test</a> 
  ¦ <a href="#Errors">Errors</a> 
  ¦ <a href="#HelpToBuild">Help-To-Build</a> 
  ¦ <a href="#extra-notes">Extra-Notes</a> 
-  ( <a href="#LoadFoldersUnderRootFolder">Load Folders Under RootFolder</a> 
+  &#123; <a href="#LoadFoldersUnderRootFolder">Load Folders Under RootFolder</a> 
   ¦ <a href="#ShowAllFilesFolders">Show All Files Folders</a> 
   ¦ <a href="#UsefulOrRelatedUnicodeChars">Related Unicode Chars</a> 
   ¦ <a href="#VerifyFileAuthenticity">Verify File Authenticity</a> 
-  ¦ <a href="#codesign">CodeSign</a> ) 
+  ¦ <a href="#codesign">CodeSign</a> &#125; 
  ¦ <a href="#Abbreviations">Abbreviations</a> 
  ¦ <a href="#License">License(s)</a> 
  ¦</dd>
