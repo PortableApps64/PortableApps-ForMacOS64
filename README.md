@@ -31,9 +31,9 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 /* <br/> Cell in Vert Tbl:<br/> */
 .PAosx64-53{ display:table-cell; vertical-align:middle; height:100%; width:100%; }
 /* <br/> No-Border:<br/> */
-.PAosx64-70{ border-collapse:collapse; border-spacing:0px; width:100%; border-width:0px; border-style:none; border:none; margin:0px; padding:0px;}
+.PAosx64-70{ border-collapse:collapse; border-spacing:0px; width:100%; border-style:none; border:none; border-width-:0px; margin:0px; padding:0px;}
 /* <br/> Table-Cell-Border for Borderless-Table:<br/> */
-.PAosx64-70 td,.PAosx64-70 th,.PAosx64-70 tbody td,.PAosx64-70 tbody th{ border-width:1px; border-width-left:1px!important; border-width-right:1px!important; margin:0px; padding:0px; }
+.PAosx64-70 td,.PAosx64-70 th,.PAosx64-70 tbody td,.PAosx64-70 tbody th{ border-width-:1px!important; margin:0px; padding:0px; }
 /* <br/> Border-1:<br/> */
 .PAosx64-81{ border-width:1px; width:100%; margin:0px; padding:0px; }
 /* <br/> Top & Bottom Border Without Sides:<br/> */
