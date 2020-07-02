@@ -49,7 +49,7 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 /* <br/> Align Center:<br/> */
 .PAosx64-TAC{ text-align:center; }
 /* <br/> Lesser Margin+Padding For DL:<br/> */
-dl,ul,ol{ margin:12px; margin-top:3px; margin-bottom:5px; padding:0px; }
+dl,ul,ol{ margin:12px; margin-top:3px; margin-bottom:3px; padding:0px; }
 /* <br/> Lesser Margin+Padding For DD:<br/> */
 dd,li{ margin:0px; padding:3px; }
 /* <br/> Smaller Font/Text:<br/> */
@@ -74,19 +74,19 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  To Use With Other “Portable Apps for OSX 64” (Under This Project), 
  And Can Also Be Used With Older “Portable Apps for OSX” (from another 
  developer’s project 
- “<a href="http://www.FreeSMUG.org/" target="_blank">FreeSMUG</a>”/“<a href="https://SourceForge.net/projects/osxportableapps/" target="_blank">osxportableapps</a>”).<dl>
-<dd> 
- <b>•</b> FreeSMUG/osx-pa based older Portable-Apps cannot run on 64-bit-only 
+ “<a href="http://www.FreeSMUG.org/" target="_blank">FreeSMUG</a>”/“<a href="https://SourceForge.net/projects/osxportableapps/" target="_blank">osxportableapps</a>”).<ul>
+<li> 
+ FreeSMUG/osx-pa based older Portable-Apps cannot run on 64-bit-only 
  macOSX (Catalina or macOSX after it) because Apps were not built with 
- completely 64bit compatible codes/tools)<br/>
- <b>•</b> For Windows based “PortableApps”, checkout another developer’s 
- project: https://GitHub.com/PortableApps<br/>
- <b>•</b> By the way, not-all but some Windows Apps Can Be Run On macOSX By Using : 
+ completely 64bit compatible codes/tools)</li>
+<li> For Windows based “PortableApps”, checkout another developer’s 
+ project: https://GitHub.com/PortableApps</li>
+<li> By the way, not-all but some Windows Apps Can Be Run On macOSX By Using : 
  “<a href="https://wiki.WineHQ.org/MacOS" target="_blank">Wine</a>”, 
  “<a href="https://WineSkin.UrgeSoftware.com/tiki-index.php" target="_blank">Wineskin</a>”, 
  “<a href="https://WineBottler.KronenBerg.org/" target="_blank">WineBottler</a>”, 
- “<a href="https://www.PlayOnMac.com/en" target="_blank">PlayOnMac</a>”, etc.<br/>
- <b>•</b> Not-all but many many Unix/BSD/Linux/etc based tools/apps can be built 
+ “<a href="https://www.PlayOnMac.com/en" target="_blank">PlayOnMac</a>”, etc.</li>
+<li> Not-all but many many Unix/BSD/Linux/etc based tools/apps can be built 
  from source-code (and some binary/executable tools can also be downloaded) 
  on your macOSX Mac computer, by using these package-management tools:<dl>
  <dd> 
@@ -99,7 +99,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  HomeBrew (by-default) uses Google engines/APIs/etc, 
  & Google stores+records+collects your ALL download/usage 
  patterns/profile, private-info, etc near-ForEver).</dd></dl>
- <b>•</b> PA = pa = Portable App.</dd></dl>
+<li> PA = pa = Portable App.</li></ul>
 </div>
 
 <a name="index"></a><!-- “:” = &#58;, “{” = &#123;, “}” = &#125; -->
