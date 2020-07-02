@@ -49,9 +49,11 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 /* <br/> Align Center:<br/> */
 .PAosx64-TAC{ text-align:center; }
 /* <br/> Lesser Margin+Padding For DL:<br/> */
-dl{ margin:12px; margin-top:6px; padding:0px; }
+dl{ margin:12px; margin-top:4px; padding:0px; }
 /* <br/> Lesser Margin+Padding For DD:<br/> */
 dd{ margin:0px; padding:3px; }
+/* <br/> Smaller Font/Text:<br/> */
+span.PAosx64-Sml{ font-size:0.8em; }
 /* <br/> END of CSS STYLEs: */
 </style>
 <a name="intro"></a>
