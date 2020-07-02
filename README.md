@@ -33,7 +33,7 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 /* <br/> No-Border:<br/> */
 .PAosx64-70{ border-collapse:collapse; border-spacing:0px; width:100%; border-style:none; border:none; border-width:0px; margin:0px; padding:0px;}
 /* <br/> Table-Cell-Border for Borderless-Table:<br/> */
-.PAosx64-70 td,.PAosx64-70 tr td,.PAosx64-70 th,.PAosx64-70 tr th,.PAosx64-70 tbody td,.PAosx64-70 tbody tr td,.PAosx64-70 tbody th,.PAosx64-70 tbody tr th,.PAosx64-70 theader td,.PAosx64-70 theader tr td,.PAosx64-70 theader th,.PAosx64-70 theader tr th,.PAosx64-70 tfooter td,.PAosx64-70 tfooter tr td,.PAosx64-70 tfooter th,.PAosx64-70 tfooter tr th{ border-width:1px!important; border-style:solid; margin:0px; padding:2px; }
+.PAosx64-70 td,.PAosx64-70 tr td,.PAosx64-70 th,.PAosx64-70 tr th,.PAosx64-70 tbody td,.PAosx64-70 tbody tr td,.PAosx64-70 tbody th,.PAosx64-70 tbody tr th,.PAosx64-70 theader td,.PAosx64-70 theader tr td,.PAosx64-70 theader th,.PAosx64-70 theader tr th,.PAosx64-70 tfooter td,.PAosx64-70 tfooter tr td,.PAosx64-70 tfooter th,.PAosx64-70 tfooter tr th{ border-collapse:collapse; border-spacing:0px; border-width:1px!important; border-style:solid; margin:0px; padding:2px; }
 /* <br/> Border-1:<br/> */
 .PAosx64-81{ border-width:1px; width:100%; margin:0px; padding:0px; }
 /* <br/> Top & Bottom Border Without Sides:<br/> */
@@ -69,30 +69,30 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  developer’s project 
  “<a href="http://www.FreeSMUG.org/" target="_blank">FreeSMUG</a>”/“<a href="https://SourceForge.net/projects/osxportableapps/" target="_blank">osxportableapps</a>”).<dl>
 <dd> 
- <b>◦</b> FreeSMUG/osx-pa based older Portable-Apps cannot run on 64-bit-only 
+ <b>•</b> FreeSMUG/osx-pa based older Portable-Apps cannot run on 64-bit-only 
  macOSX (Catalina or macOSX after it) because Apps were not built with 
  completely 64bit compatible codes/tools)<br/>
- <b>◦</b> For Windows based “PortableApps”, checkout another developer’s 
+ <b>•</b> For Windows based “PortableApps”, checkout another developer’s 
  project: https://GitHub.com/PortableApps<br/>
- <b>◦</b> By the way, not-all but some Windows Apps Can Be Run On macOSX By Using : 
+ <b>•</b> By the way, not-all but some Windows Apps Can Be Run On macOSX By Using : 
  “<a href="https://wiki.WineHQ.org/MacOS" target="_blank">Wine</a>”, 
  “<a href="https://WineSkin.UrgeSoftware.com/tiki-index.php" target="_blank">Wineskin</a>”, 
  “<a href="https://WineBottler.KronenBerg.org/" target="_blank">WineBottler</a>”, 
  “<a href="https://www.PlayOnMac.com/en" target="_blank">PlayOnMac</a>”, etc.<br/>
- <b>◦</b> Not-all but many many Unix/BSD/Linux/etc based tools/apps can be built 
+ <b>•</b> Not-all but many many Unix/BSD/Linux/etc based tools/apps can be built 
  from source-code (and some binary/executable tools can also be downloaded) 
  on your macOSX Mac computer, by using these package-management tools:<dl>
  <dd> 
- <b>◦</b> “<a href="https://GitHub.com/macports/macports-base/releases/" target="_blank">MacPorts</a>” 
+ <b>•</b> “<a href="https://GitHub.com/macports/macports-base/releases/" target="_blank">MacPorts</a>” 
  (Be warned: “MacPorts” requires admin/sudo privileged access),<br/>
- <b>◦</b> “<a href="https://GitHub.com/Homebrew/brew/releases/" target="_blank">HomeBrew</a>” 
+ <b>•</b> “<a href="https://GitHub.com/Homebrew/brew/releases/" target="_blank">HomeBrew</a>” 
  <!-- “.” = &#46; , “*” = &#42; -->(click on “Assets” below a release, 
  then click on “brew-&#42;&#46;tar&#46;gz” to download)&#46; (ByTheWay, 
  Be Warned of Violation of Privacy-Rights by “HomeBrew” project & “Google” : 
  HomeBrew (by-default) uses Google engines/APIs/etc, 
  & Google stores+records+collects your ALL download/usage 
  patterns/profile, private-info, etc near-ForEver).</dd></dl>
- <b>◦</b> PA = pa = Portable App.</dd></dl>
+ <b>•</b> PA = pa = Portable App.</dd></dl>
 </div>
 
 <a name="index"></a><!-- “:” = &#58; -->
@@ -125,8 +125,8 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  ¦ <a href="#License">License(s)</a> 
  ¦</dd>
 <dd><div width="100%" align="center">
- <b>◦</b> macOSX Catalina version is 10.15.x (mostly 64bit-only)<br/>
- <b>◦</b> macOSX Mojave version is 10.14.x (64bit+32bit)</div></dd>
+ <b>•</b> macOSX Catalina version is 10.15.x (mostly 64bit-only)<br/>
+ <b>•</b> macOSX Mojave version is 10.14.x (64bit+32bit)</div></dd>
 </dl></dd></dl>
 
 <a name="BuildTools"></a><a name="RunTools"></a>
@@ -135,17 +135,17 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  executable, & we also use (mentioned in below) tools to assist our-project 
  tool during execution, & for executing the App either as portable app 
  or as multi-instance of same app.<dl>
-<dd>Note: <b>◦</b> <a href="#VerifyFileAuthenticity">Verify</a> files/apps 
+<dd>Note: <b>•</b> <a href="#VerifyFileAuthenticity">Verify</a> files/apps 
  after download. And download only when download url/website begins with 
  “https”.<br/>
- <b>◦</b> If you only-want to USE built Apps, & do not want to completely 
+ <b>•</b> If you only-want to USE built Apps, & do not want to completely 
  compile/build, then go directly into <u><b>App</b></u> sub-dir/sub-folder, 
  shown <a href="#index">here</a> & obtain <code>*-OSX-64.dmg</code> (or 
  <code>*-OSX-64.tar.gz</code> or <code>*-OSX-64.zip</code>) file release, 
  and FOLLOW “POST-BUILD (for USER)” instruction shown on 
  “Portable-<u><b>App</b>Name</u>-OSX-64” page, to know what else you have 
  to get & do.<br/>
- <b>◦</b> Some items/files/components we may-not or cannot be directly 
+ <b>•</b> Some items/files/components we may-not or cannot be directly 
  included inside in some of the built+shared <b>App</b> archive 
  (<code>*.dmg</code>,etc) file. Either because of License/proprietary 
  restrictions or to provide you/USER more Security/Privacy: ( Some 
@@ -166,15 +166,15 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  (this project) are <b>released with following License(s) + Restrictions + 
  Permissions:</b><dl>
  <dd> 
-  <b>◦</b> GNU General Public License Version 3 
+  <b>•</b> GNU General Public License Version 3 
   (<a href="https://www.GNU.org/licenses/gpl-3.0.en.html" target="_blank">GPL v3</a>)<br/>
-  <b>◦</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc<br/>
-  <b>◦</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
+  <b>•</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc<br/>
+  <b>•</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
   at&#69;rik＠&#65;śh&#70;ölķ·ć&#333;m&gt; Do Not Copy Eml-Adrs, Type In 
   English/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">Basic-Latin</a> 
   Char, No Soliciting Permitted)&#46; All rights reserved.<br/>
-  <b>◦</b> (All other trademarks, etc cited here are the property of their respective owners&#46;)<br/>
-  <b>◦</b> (All other copyright items cited here are the copyright of their respective author/creator&#46;)</dd>
+  <b>•</b> (All other trademarks, etc cited here are the property of their respective owners&#46;)<br/>
+  <b>•</b> (All other copyright items cited here are the copyright of their respective author/creator&#46;)</dd>
  </dl>
 </div>
 
@@ -477,23 +477,23 @@ before it).<br/>
  choose these below files, directories, bundles, etc inside the 
  Platypus GUI interface<b>:</b>
 <dl><dd><!-- “.” is &#46; -->
-  <b>◦</b> directory : English&#46;lproj<br/>
-  <b>◦</b> directory (optional) : profile<br/>
-  <b>◦</b> bundle : AppName&#46;app<br/>
-  <b>◦</b> bundle : Pashua&#46;app<br/>
-  <b>◦</b> icon : P_AppName_Caution&#46;icns<br/>
-  <b>◦</b> icon : appIcon&#46;icns<br/>
-  <b>◦</b> sh-script : pashua&#46;sh<br/>
-  <b>◦</b> sh-script : pashua&#46;sh&#46;lib<br/>
-  <b>◦</b> sh-script : script<br/>
-  <b>◦</b> tool : filecount<br/>
-  <b>◦</b> tool : dirsize<br/>
-  <b>◦</b> readme-file : Read me&#46;txt<br/>
-  <b>◦</b> license-file : GPL-3.0_LICENSE_for_script&#46;txt<br/>
-  <b>◦</b> license-file : &lt;App’s-License’s-shortName-&-version-number&gt;_LICENSE_for_AppName&#46;txt<br/>
-  <b>◦</b> license-file : BSD-3-clause_LICENSE_for_Pashua&#46;txt<br/>
-  <b>◦</b> license-file : BSD-3-clause_LICENSE_for_Platypus&#46;txt<br/>
-  <b>◦</b> license-file : BSD-3-clause&#46;txt
+  <b>•</b> directory : English&#46;lproj<br/>
+  <b>•</b> directory (optional) : profile<br/>
+  <b>•</b> bundle : AppName&#46;app<br/>
+  <b>•</b> bundle : Pashua&#46;app<br/>
+  <b>•</b> icon : P_AppName_Caution&#46;icns<br/>
+  <b>•</b> icon : appIcon&#46;icns<br/>
+  <b>•</b> sh-script : pashua&#46;sh<br/>
+  <b>•</b> sh-script : pashua&#46;sh&#46;lib<br/>
+  <b>•</b> sh-script : script<br/>
+  <b>•</b> tool : filecount<br/>
+  <b>•</b> tool : dirsize<br/>
+  <b>•</b> readme-file : Read me&#46;txt<br/>
+  <b>•</b> license-file : GPL-3.0_LICENSE_for_script&#46;txt<br/>
+  <b>•</b> license-file : &lt;App’s-License’s-shortName-&-version-number&gt;_LICENSE_for_AppName&#46;txt<br/>
+  <b>•</b> license-file : BSD-3-clause_LICENSE_for_Pashua&#46;txt<br/>
+  <b>•</b> license-file : BSD-3-clause_LICENSE_for_Platypus&#46;txt<br/>
+  <b>•</b> license-file : BSD-3-clause&#46;txt
 </dd></dl>
 </dd></dl>
 </div><br/>
@@ -501,18 +501,18 @@ before it).<br/>
 <div width="100%"><a name="b-3"></a>B-3: Then you may use, these 
  type of settings in Platypus GUI interface<b>:</b>
 <dl><dd>
- <b>◦</b> Script Type : Shell : /bin/sh<br/>
- <b>◦</b> Script Path : <code>/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/script</code><br/>
+ <b>•</b> Script Type : Shell : /bin/sh<br/>
+ <b>•</b> Script Path : <code>/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/script</code><br/>
  &#160;&#160;( above location’s shorter form is: 
  <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/script"</code> )<br/>
  &#160;&#160;( if you’re using your userpsace: 
  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/script"</code> )<br/>
- <b>◦</b> Interface : Text Window<br/>
- <b>◦</b> Unselected options : Run with root privileges , Run in background , 
+ <b>•</b> Interface : Text Window<br/>
+ <b>•</b> Unselected options : Run with root privileges , Run in background , 
   Accept dropped items<br/>
- <b>◦</b> Selected/Check-Marked options : Remain running after execution<br/>
- <b>◦</b> App Name : Portable AppName OSX64 (or specify what you want)<br/>
- <b>◦</b> Fill in other boxes: identifier, author, etc
+ <b>•</b> Selected/Check-Marked options : Remain running after execution<br/>
+ <b>•</b> App Name : Portable AppName OSX64 (or specify what you want)<br/>
+ <b>•</b> Fill in other boxes: identifier, author, etc
 </dd></dl>
 </div><br/>
 
@@ -542,7 +542,7 @@ Users/you may have to download+add some files or apps or components
  <code>“&#42;&#46;app”</code> App/bundle.<br/>
  <br/>
  You may OPTIONALLY do these:<dl><dd>
- <b>◦</b> Which “profile” folder is used by the running AppName ?<dl><dd>
+ <b>•</b> Which “profile” folder is used by the running AppName ?<dl><dd>
   AppName > main menu > ... > Show Profile Folder: ...</dd></dl></dd></dl>
 </div>
 
