@@ -6,9 +6,9 @@
 **   • Do Not Use My/Our Contribution(s) To Kill/Harm/Violate(or Steal-from)(Any) Human/Community,Earth,etc.
 **   • GNU General Public License v3 (GPL v3) https://www.GNU.org/licenses/gpl-3.0.en.html 
 **************************************** */
-/* BODY width */
-body{ width:100%; background-color:black; color:white; }
-/* For "GH-Pages" class "wrapper" */
-div.wrapper{ width:100%; }
+/* BODY width (on "GH-Pages") */
+body{ width:100%; background-color:black; color:white; text-align:left; }
+/* DIV class "wrapper" on GH-Pages */
+div.wrapper{ width:99%; }
 div.wrapper section{ width:100%; }
 div.wrapper section div{ width:100%; }
