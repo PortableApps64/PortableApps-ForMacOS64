@@ -16,7 +16,7 @@ body{ padding:1px; margin:0px; width:100%;
  font-size:14px; line-height:1.5; font-weight:normal;
  font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; }
 /* DIV class "wrapper" on GH-Pages */
-div.wrapper{ width:99.5%; padding:2px; }
+div.wrapper{ width:99.4%; padding:2px; }
 div.wrapper section{ width:100%; }
 div.wrapper section div{ width:100%; }
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{ display:block; }
