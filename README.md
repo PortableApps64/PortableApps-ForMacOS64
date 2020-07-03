@@ -58,7 +58,7 @@ dd{ margin:0px; padding:3px; }
 /* ul,ol{ list-style:none; } */
 /* ul,ol{ list-style-position:inside; list-style-image:none; } */
 ul,ol{ list-style-image:none; }
-ul li::before,ol li::before,ul li:before,ol li:before{ margin:0px 0px 0px 0px; padding:3px; padding-right:0px; }
+ul li::before,ol li::before,ul li:before,ol li:before{ margin:0px -3px 0px 0px; padding:3px; padding-right:-3px; }
 /* <br/> Lesser-Margin & No-Padding For UL,OL:<br/> */
 ul,ol{ margin:0px; padding:0px; }
 /* <br/> No-Margin & Lesser-Padding For LI:<br/> */
