@@ -58,9 +58,8 @@ ul,ol{ list-style-position:inside; list-style-image:none; }
 ul li::before,ol li::before,ul li:before,ol li:before{ margin:0 0 0 -9px; padding:3px; }
 /* <br/> Lesser-Margin & No-Padding For UL,OL:<br/> */
 ul,ol{ margin:3px; padding:0px; }
-/* ul,ol{ margin:3px; margin-top:3px; margin-bottom:3px; margin-right:3px; padding:0px; } */
 /* <br/> No-Margin & Lesser-Padding For LI:<br/> */
-li{ margin:0px; margin-left:-3px; padding:3px; }
+li{ margin:0px; margin-left:-6px; padding:3px; }
 /* <br/> Smaller Font/Text:<br/> */
 span.PAosx64-Sml{ font-size:0.8em; }
 /* <br/> END of CSS STYLEs: */
