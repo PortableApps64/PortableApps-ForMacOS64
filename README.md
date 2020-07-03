@@ -109,8 +109,9 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  Be Warned of Violation of Privacy-Rights by “HomeBrew” project & “Google” : 
  HomeBrew (by-default) uses Google engines/APIs/etc, 
  & Google stores+records+collects your ALL download/usage 
- patterns/profile, private-info, etc near-ForEver).</dd></dl>
-<li> PA = pa = Portable App.</li></ul>
+ patterns/profile, private-info, etc near-ForEver).</dd></dl></li>
+<li> PA = pa = Portable App.</li>
+</ul>
 </div>
 
 <a name="index"></a><!-- “:” = &#58;, “{” = &#123;, “}” = &#125; -->
