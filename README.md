@@ -58,11 +58,11 @@ dd{ margin:0px; padding:3px; }
 /* ul,ol{ list-style:none; } */
 /* ul,ol{ list-style-position:inside; list-style-image:none; } */
 ul,ol{ list-style-image:none; }
-ul li::before,ol li::before,ul li:before,ol li:before{ margin:0px -3px 0px 0px; padding:3px; padding-right:-3px; }
+ul li::before,ol li::before,ul li:before,ol li:before{ margin:0px -4px 0px 0px; padding:3px -4px 3px 3px; }
 /* <br/> Lesser-Margin & No-Padding For UL,OL:<br/> */
 ul,ol{ margin:0px; padding:0px; }
 /* <br/> No-Margin & Lesser-Padding For LI:<br/> */
-li{ margin:0px; margin-left:16px; padding:3px; padding-left:-12px; }
+li{ margin:0px 0px 0px 16px; padding:3px 3px 3px -14px; }
 /* <br/> Smaller Font/Text:<br/> */
 span.PAosx64-Sml{ font-size:0.8em; }
 /* <br/> END of CSS STYLEs: */
