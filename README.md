@@ -50,13 +50,15 @@ BEGIN CSS RULES:<br/> Square Boxes:<br/> */
 .PAosx64-TAC{ text-align:center; }
 /* <br/> Lesser Margin+Padding For DL:<br/> */
 dl{ margin:12px; margin-top:3px; margin-bottom:3px; padding:0px; }
-/* <br/> No-Margin & Lesser-Padding For DD,LI:<br/> */
-dd,li{ margin:0px; padding:3px; }
-/* <br/> Lesser Margin+Padding For UL,OL:<br/> */
-ul,ol{ margin:12px; margin-top:3px; margin-bottom:3px; margin-right:3px; padding:0px; list-style-image:none;}
-/* <br/> Forcefully use Bullet DL:<br/> */
-ul li:before { margin:0 0 0 -6px; padding:1px; }
-/* ul li:before { content:"\2022"; margin:0 0 0 -6px; padding:1px; } */
+/* <br/> No-Margin & Lesser-Padding For DD:<br/> */
+dd{ margin:0px; padding:3px; }
+/* <br/> Lesser-Margin & No-Padding For UL,OL:<br/> */
+ul,ol{ margin:12px; margin-top:3px; margin-bottom:3px; margin-right:3px; padding:0px; }
+/* <br/> No-Margin & Lesser-Padding For LI:<br/> */
+li{ margin:0px; margin-left:-3px; padding:3px; }
+/* <br/> Forcefully use Bullet in LI,OL:<br/> */
+ul,ol{ list-style-image:none; }
+ul li:before,ol li:before{ margin:0px; padding:1px; }
 /* <br/> Smaller Font/Text:<br/> */
 span.PAosx64-Sml{ font-size:0.8em; }
 /* <br/> END of CSS STYLEs: */
