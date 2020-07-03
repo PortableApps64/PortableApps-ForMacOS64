@@ -6,9 +6,17 @@
 **   • Do Not Use My/Our Contribution(s) To Kill/Harm/Violate(or Steal-from)(Any) Human/Community,Earth,etc.
 **   • GNU General Public License v3 (GPL v3) https://www.GNU.org/licenses/gpl-3.0.en.html 
 **************************************** */
-/* BODY width (on "GH-Pages") */
-body{ width:100%; background-color:black; color:white; text-align:left; }
+/* HTML element */
+html{ font-size:100%; -webkit-text-size-adjust:100%; }
+html,button,input,select,textarea{ font-family:sans-serif; }
+/* BODY element (on "GH-Pages" for Darker-Colored Theme) */
+body{ padding:0px 0 0px 0px; margin:0px; width:100%;
+ background-color:black; color:white;
+ text-align:left;
+ font-size:14px; line-height:1.5; font-weight:normal;
+ font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; }
 /* DIV class "wrapper" on GH-Pages */
 div.wrapper{ width:99%; }
 div.wrapper section{ width:100%; }
 div.wrapper section div{ width:100%; }
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{ display: block; }
