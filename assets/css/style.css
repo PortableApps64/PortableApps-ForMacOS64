@@ -7,7 +7,7 @@
 **   • GNU General Public License v3 (GPL v3) https://www.GNU.org/licenses/gpl-3.0.en.html 
 **************************************** */
 /* BODY width */
-body{ width:100%; }
+body{ width:100%; background-color:black; }
 /* For "GH-Pages" class "wrapper" */
 div.wrapper{ width:100%; }
 div.wrapper section{ width:100%; }
