@@ -55,7 +55,7 @@ td{ text-align:left; padding:5px 10px; border-bottom:1px solid #434343; }
 #header nav li.fork{ float:left; margin-left:0px; } /* View On GitHub */
 #header nav li.downloads{ float:right; margin-left:6px; }
 #header nav li.title{ float:right; margin-right:10px; font-size:11px; }
-section{ padding:5px 0px 5px 0px; margin:2px 0; margin-top:10px; }
+section{ padding:5px 0px 5px 0px; margin:2px 0; margin-top:50px; }
 section #title,div#title{ border:0; outline:none; margin:0 0 15px 0; padding:0 0 5px 0; }
 div#title h1,section #title h1{ font-weight:normal; font-size:40px; line-height:36px;
  font-family:'OpenSansLight',"Helvetica Neue",Helvetica,Arial,sans-serif;
