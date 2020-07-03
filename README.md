@@ -62,7 +62,7 @@ ul li::before,ol li::before,ul li:before,ol li:before{ margin:0px 0px 0px 0px; p
 /* <br/> Lesser-Margin & No-Padding For UL,OL:<br/> */
 ul,ol{ margin:0px; padding:0px; }
 /* <br/> No-Margin & Lesser-Padding For LI:<br/> */
-li{ margin:0px; margin-left:10px; padding:3px; padding-left:0px; }
+li{ margin:0px; margin-left:14px; padding:3px; padding-left:-4px; }
 /* <br/> Smaller Font/Text:<br/> */
 span.PAosx64-Sml{ font-size:0.8em; }
 /* <br/> END of CSS STYLEs: */
