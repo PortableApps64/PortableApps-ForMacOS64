@@ -51,7 +51,7 @@ BEGIN CSS RULES (for a Dark-colored Theme in GH-Pages,<br/>
 /* <br/> Align Center:<br/> */
 .PAosx64-TAC{ text-align:center; }
 /* <br/> Lesser Margin+Padding For DL:<br/> */
-dl{ margin:12px; margin-top:3px; margin-bottom:3px; padding:0px; }
+dl{ margin:3px 4px; padding:0px; }
 /* <br/> No-Margin & Lesser-Padding For DD:<br/> */
 dd{ margin:0px; padding:3px; }
 /* <br/> Forcefully use Bullet-symbol in LI,OL:<br/> */
