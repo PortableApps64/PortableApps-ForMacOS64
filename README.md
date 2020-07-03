@@ -22,7 +22,9 @@
  repeat the task of editing all files just for a simple/tiny change.<br/> 
  For This README&#46;md Page, Few Txt/inl/Blk/etc Element’s Style(Look/Appearance/etc)<br/>
  OverRiding CSS Rules Are Defined Below<b>:</b></dd></dl>
-BEGIN CSS RULES:<br/> Square Boxes:<br/> */
+BEGIN CSS RULES (for a Dark-colored Theme in GH-Pages,<br/>
+& Reduced-Spaces In-Between Lines & Items, etc here in GH & also in GH-Pages):<br/>
+/* <br/> Square Boxes:<br/> */
 .PAosx64-50{ float:left; position:relative; width:30%; padding-bottom:30%; margin:1.66%; overflow:hidden; }
 /* <br/> Content inside SqrBox:<br/> */
 .PAosx64-51{ position:absolute; height:80%; width:90%; padding:10% 5%; }
@@ -55,11 +57,11 @@ dd{ margin:0px; padding:3px; }
 /* <br/> Forcefully use Bullet in LI,OL:<br/> */
 /* ul,ol{ list-style:none; } */
 ul,ol{ list-style-position:inside; list-style-image:none; }
-ul li::before,ol li::before,ul li:before,ol li:before{ margin:0 0 0 -3px; padding:3px; }
+ul li::before,ol li::before,ul li:before,ol li:before{ margin:0px 0px 0px 1px; padding:3px; }
 /* <br/> Lesser-Margin & No-Padding For UL,OL:<br/> */
 ul,ol{ margin:3px; padding:0px; }
 /* <br/> No-Margin & Lesser-Padding For LI:<br/> */
-li{ margin:0px; margin-left:-6px; padding:3px; }
+li{ margin:0px; margin-left:-5px; padding:3px; }
 /* <br/> Smaller Font/Text:<br/> */
 span.PAosx64-Sml{ font-size:0.8em; }
 /* <br/> END of CSS STYLEs: */
