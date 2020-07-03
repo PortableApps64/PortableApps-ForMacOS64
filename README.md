@@ -58,7 +58,7 @@ ul,ol{ margin:12px; margin-top:3px; margin-bottom:3px; margin-right:3px; padding
 li{ margin:0px; margin-left:-3px; padding:3px; }
 /* <br/> Forcefully use Bullet in LI,OL:<br/> */
 ul,ol{ list-style-image:none; }
-ul li:before,ol li:before{ margin:0px; margin-left:-10px; padding:1px; }
+ul li:before,ol li:before{ margin:0 0 0 3px; padding:1px; }
 /* <br/> Smaller Font/Text:<br/> */
 span.PAosx64-Sml{ font-size:0.8em; }
 /* <br/> END of CSS STYLEs: */
