@@ -21,3 +21,8 @@ div.wrapper section{ width:100%; }
 div.wrapper section div{ width:100%; }
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{ display:block; }
 div#header{ text-align:center; }
+a{ text-decoration:none; color:yellow; }
+a:link{ color:yellow; } /* url is unvisited */
+a:active{ color:blue; } /* when clicked-on url */
+a:visited{ color:#FFD700; } /* gold : url was visited */
+a:hover{ color:#00FF00; } /* lime : hovers mouse on url */
