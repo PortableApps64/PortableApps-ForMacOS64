@@ -8,6 +8,7 @@
 **
 ** Note: Applied CSS-Properties are highly-modified version of Midnight Theme by "mattgraham"
 **************************************** */
+/* T = Top . R = Right . B = Bottom . L = Left */
 /* HTML element */
 html{ font-size:100%; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
 body{ margin:0; }
@@ -40,7 +41,7 @@ td{ text-align:left; padding:5px 10px; border-bottom:1px solid #434343; }
  background:url(../images/nav-bg.gif) #353535;
  border-bottom:4px solid #434343;
  box-shadow:0px 1px 3px rgba(0,0,0,0.25); }
-#header nav,div#header nav{ max-width:90%; margin:0 auto; padding:0 10px; margin:6px auto; /* T/B R/L */
+#header nav,div#header nav{ max-width:90%; margin:0 auto; padding:0 10px; margin:6px auto; /* 2 items = [T/B] [R/L] */
  background:blue; text-align:center; }
 #header nav li{ list-style:none; display:inline;  
   font-size:14px; font-weight:normal; line-height:50px;
@@ -70,10 +71,10 @@ section #title p,div#title p{ color:#d7cfbe; font-size:18px; font-weight:normal;
  text-align:center; }
 img{ border:0; -ms-interpolation-mode:bicubic; }
 section img{ max-width:100%; }
-hr{ border:0; outline:none; height:3px; margin:0 0 10px; /* T R/L B */
+hr{ border:0; outline:none; height:3px; margin:0 0 10px; /* [T] [R/L] [B] */
  background:transparent url("../images/hr.gif") center center repeat-x; }
 h1,h2,h3{ line-height:1.1; }
-h1,h2,h3,h4,h5,h6{ color:#e8e8e8; margin:0 0 10px; /* T R/L B */
+h1,h2,h3,h4,h5,h6{ color:#e8e8e8; margin:0 0 10px; /* [T] [R/L] [B] */
  font-weight:normal;
  font-family:'OpenSansRegular',"Helvetica Neue",Helvetica,Arial,sans-serif; }
 h1{ font-size:2em; margin:0.67em 0; }
@@ -89,19 +90,20 @@ h6{ font-size:0.75em; margin:2.33em 0; }
 section #title h1{ font-family:'OpenSansLight',"Helvetica Neue",Helvetica,Arial,sans-serif;
  font-weight:normal; font-size:40px; line-height:36px; text-align:center; }
 pre,code,kbd,samp{ font-family:monospace,serif; _font-family:'courier new',monospace; font-size:1em; }
-menu,ol,ul{ padding:0 0 0 10px; }
-p,ul,ol,table,pre,dl{ margin:0 0 5px; } /* T R/L B */
-dl,menu,ol,ul{ margin:1em 0; }
-/* ul{ list-style-image:url("../images/bullet.png"); } */ /* disabling it, bcuz we will use default bullet symbol */
+menu,ol,ul{ padding:0 0 0 5px; } /* [T] [R] [B] [L] */
+p,ul,ol,table,pre,dl{ margin:0 0 5px; } /* [T] [R/L] [B] */
+dl,menu,ol,ul{ margin:1em 0; } /* [T/B] [R/L] */
+/* ul{ list-style-image:url("../images/bullet.png"); } */ /* disabling img, bcuz we want default bullet-symbol */
+dl{ margin:0px 2px; padding:0px; }
 dt{ color:#F0E7D5; font-weight:normal;
  font-family:'OpenSansSemibold',"Helvetica Neue",Helvetica,Arial,sans-serif !important; }
-dd{ margin:0 0 0 1px; } /* T R B L */
+dd{ margin:0 0 0 1px; } /* [T] [R] [B] [L] */
 p,pre{ margin:1em 0; }
 pre{ padding:5px 10px; background:#191919; border-radius:2px; border:1px solid #121212;
  box-shadow:inset 0 1px 3px rgba(0,0,0,0.3);
  overflow:auto; overflow-y:auto; overflow-y:hidden; }
 code{ font-family:Monaco,Bitstream Vera Sans Mono,Lucida Console,Terminal,monospace;
- color:#efefef; font-size:13px; margin:0 4px; padding:4px 6px; /* T/B R/L */
+ color:#efefef; font-size:13px; margin:0 4px; padding:3px 4px; /* [T/B] [R/L] */
  border-radius:2px; }
 pre code{ color:#efefef; text-shadow:0px 1px 0px #000; margin:0; padding:0; }
 blockquote{ margin:1em 40px; }
