@@ -95,7 +95,7 @@ dl,menu,ol,ul{ margin:1em 0; }
 /* ul{ list-style-image:url("../images/bullet.png"); } */ /* disabling it, bcuz we will use default bullet symbol */
 dt{ color:#F0E7D5; font-weight:normal;
  font-family:'OpenSansSemibold',"Helvetica Neue",Helvetica,Arial,sans-serif !important; }
-dd{ margin:0 0 0 10px; }
+dd{ margin:0 0 0 1px; } /* T R B L */
 p,pre{ margin:1em 0; }
 pre{ padding:5px 10px; background:#191919; border-radius:2px; border:1px solid #121212;
  box-shadow:inset 0 1px 3px rgba(0,0,0,0.3);
