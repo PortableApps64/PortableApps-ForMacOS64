@@ -61,7 +61,7 @@ ul,ol{ margin:0px; padding:0px; }
 /* <br/> Reduce Space(s) Around Bullet-symbol & Re-Position:<br/> */
 ul li::before,ol li::before,ul li:before,ol li:before{ margin:0px -6px 0px 0px; padding:3px -6px 3px 3px; }
 /* <br/> No-Margin & Lesser-Padding For LI:<br/> */
-li{ margin:0px 0px 0px 16px; padding:3px 3px 3px -15px; }
+li{ margin:0px 0px 0px 16px; padding:3px 3px 3px -17px; }
 /* <br/> Smaller Font/Text:<br/> */
 span.Sml{ font-size:0.8em; }
 /* <br/> Bold Text & Same Line-Height:<br/> */
