@@ -65,7 +65,7 @@ li{ margin:0px 0px 0px 16px; padding:3px 3px 3px -14px; }
 /* <br/> Smaller Font/Text:<br/> */
 span.Sml{ font-size:0.8em; }
 /* <br/> Bold Text & Same Line-Height:<br/> */
-b.b{ font-size:22px; line-height:0.75em; font-weight:bold; font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; vertical-align:middle; }
+b.b{ font-size:22px; line-height:0.75em; font-weight:bold; font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; vertical-align:baseline; }
 /* <br/> END of CSS STYLEs: */
 </style>
 <a name="intro"></a>
@@ -104,7 +104,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  <dd> 
  <b class="b">&#x2022;</b> “<a href="https://GitHub.com/macports/macports-base/releases/" target="_blank">MacPorts</a>” 
  (Be warned: “MacPorts” requires admin/sudo privileged access),<br/>
- <b class="b">•</b> “<a href="https://GitHub.com/Homebrew/brew/releases/" target="_blank">HomeBrew</a>” 
+ <b class="b">test•TEST</b> “<a href="https://GitHub.com/Homebrew/brew/releases/" target="_blank">HomeBrew</a>” 
  <!-- “.” = &#46; , “*” = &#42; -->(click on “Assets” below a release, 
  then click on “brew-&#42;&#46;tar&#46;gz” to download)&#46; (ByTheWay, 
  Be Warned of Violation of Privacy-Rights by “HomeBrew” project & “Google” : 
