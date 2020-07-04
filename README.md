@@ -65,7 +65,7 @@ li{ margin:0px 0px 0px 16px; padding:3px 3px 3px -14px; }
 /* <br/> Smaller Font/Text:<br/> */
 span.PAosx64-Sml{ font-size:0.8em; }
 /* <br/> Bold Text & Same Line-Height:<br/> */
-b.b{ font-size:14px; line-height:1.5; font-weight:normal; font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; }
+b.b{ font-size:18px; line-height:1.5; font-weight:normal; font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; }
 /* <br/> END of CSS STYLEs: */
 </style>
 <a name="intro"></a>
@@ -102,7 +102,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  from source-code (and some binary/executable tools can also be downloaded) 
  on your macOSX Mac computer, by using these package-management tools:<dl>
  <dd> 
- <b class="b">•</b> “<a href="https://GitHub.com/macports/macports-base/releases/" target="_blank">MacPorts</a>” 
+ <b class="b">&#x2022;</b> “<a href="https://GitHub.com/macports/macports-base/releases/" target="_blank">MacPorts</a>” 
  (Be warned: “MacPorts” requires admin/sudo privileged access),<br/>
  <b class="b">•</b> “<a href="https://GitHub.com/Homebrew/brew/releases/" target="_blank">HomeBrew</a>” 
  <!-- “.” = &#46; , “*” = &#42; -->(click on “Assets” below a release, 
