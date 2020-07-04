@@ -57,7 +57,7 @@ dd{ margin:0px; padding:0px 3px 2px 3px; }
 /* <br/> Disable usage of img in UL/OL To Force Bullet-symbol in LI:<br/> */
 ul,ol{ list-style-image:none; }
 /* <br/> Lesser-Margin & No-Padding For UL,OL:<br/> */
-ul,ol{ margin:0px; padding:0px; }
+ul,ol{ margin:0px; padding:0px 0px 0px -3px; }
 /* <br/> Reduce Space(s) Around Bullet-symbol & Re-Position:<br/> */
 ul li::before,ol li::before,ul li:before,ol li:before{ margin:0px -8px 0px 0px; padding:3px -8px 3px 3px; }
 /* <br/> No-Margin & Lesser-Padding For LI:<br/> */
