@@ -53,7 +53,7 @@ BEGIN CSS RULES (for a Dark-colored Theme in GH-Pages,<br/>
 /* <br/> Lesser Margin & No-Padding For DL:<br/> */
 dl{ margin:0px 2px; padding:0px; }
 /* <br/> No-Margin & Lesser-Padding For DD:<br/> */
-dd{ margin:0px; padding:3px; }
+dd{ margin:0px; padding:0px 3px 2px 3px; }
 /* <br/> Forcefully use Bullet-symbol in LI,OL instead of img:<br/> */
 ul,ol{ list-style-image:none; }
 /* <br/> Reduce Space(s) Around Bullet-symbol & Re-Position:<br/> */
@@ -102,9 +102,9 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  from source-code (and some binary/executable tools can also be downloaded) 
  on your macOSX Mac computer, by using these package-management tools:<dl>
  <dd> 
- <b class="b">&#x2022;</b> “<a href="https://GitHub.com/macports/macports-base/releases/" target="_blank">MacPorts</a>” 
+ <b class="b">•</b> “<a href="https://GitHub.com/macports/macports-base/releases/" target="_blank">MacPorts</a>” 
  (Be warned: “MacPorts” requires admin/sudo privileged access),<br/>
- <b class="b">test•TEST</b> “<a href="https://GitHub.com/Homebrew/brew/releases/" target="_blank">HomeBrew</a>” 
+ <b class="b">•</b> “<a href="https://GitHub.com/Homebrew/brew/releases/" target="_blank">HomeBrew</a>” 
  <!-- “.” = &#46; , “*” = &#42; -->(click on “Assets” below a release, 
  then click on “brew-&#42;&#46;tar&#46;gz” to download)&#46; (ByTheWay, 
  Be Warned of Violation of Privacy-Rights by “HomeBrew” project & “Google” : 
