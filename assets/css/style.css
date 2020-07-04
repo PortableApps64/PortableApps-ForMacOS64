@@ -91,14 +91,6 @@ h6{ font-size:0.75em; margin:2.33em 0; }
 section #title h1{ font-family:'OpenSansLight',"Helvetica Neue",Helvetica,Arial,sans-serif;
  font-weight:normal; font-size:40px; line-height:36px; text-align:center; }
 pre,code,kbd,samp{ font-family:monospace,serif; _font-family:'courier new',monospace; font-size:1em; }
-menu,ol,ul{ padding:0 0 0 5px; } /* [T] [R] [B] [L] */
-p,ul,ol,table,pre,dl{ margin:0 0 5px; } /* [T] [R/L] [B] */
-dl,menu,ol,ul{ margin:1em 0; } /* [T/B] [R/L] */
-/* ul{ list-style-image:url("../images/bullet.png"); } */ /* disabling img, bcuz we want default bullet-symbol */
-dl{ margin:0px 2px; padding:0px; }
-dt{ color:#F0E7D5; font-weight:normal;
- font-family:'OpenSansSemibold',"Helvetica Neue",Helvetica,Arial,sans-serif !important; }
-dd{ margin:0 0 0 1px; } /* [T] [R] [B] [L] */
 p,pre{ margin:1em 0; }
 pre{ padding:5px 10px; background:#191919; border-radius:2px; border:1px solid #121212;
  box-shadow:inset 0 1px 3px rgba(0,0,0,0.3);
@@ -107,6 +99,16 @@ code{ font-family:Monaco,Bitstream Vera Sans Mono,Lucida Console,Terminal,monosp
  color:white; font-size:13px; margin:0 2px; padding:1px; /* [T/B] [R/L] */
  border-radius:2px; }
 pre code{ color:#efefef; text-shadow:0px 1px 0px #000; margin:0; padding:0; }
+menu{ padding:0 0 0 5px; margin:1em 0; } /* [T] [R] [B] [L] */ /* [T/B] [R/L] */
+ul,ol{ list-style-image:none; margin:0px; padding:0px; }
+/* ul{ list-style-image:url("../images/bullet.png"); } */ /* disabling img, bcuz we want default bullet-symbol */
+ul li::before,ol li::before,ul li:before,ol li:before{ margin:0px -7px 0px 0px; padding:3px -7px 3px 3px; }
+li{ margin:0px 0px 0px 16px; padding:3px 3px 3px -18px; }
+p,table,pre,dl{ margin:0 0 5px; } /* [T] [R/L] [B] */
+dl{ margin:0px 2px; padding:0px; }
+dt{ color:#F0E7D5; font-weight:normal;
+ font-family:'OpenSansSemibold',"Helvetica Neue",Helvetica,Arial,sans-serif !important; }
+dd{ margin:0 0 0 1px; } /* [T] [R] [B] [L] */
 blockquote{ margin:1em 40px; }
 blockquote{ margin:0; padding:0 0 0 10px; border-left:3px solid #ffcc00; font-style:italic; }
 .highlight,.highlight .w{ color:#d0d0d0; }
