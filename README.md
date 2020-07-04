@@ -49,7 +49,7 @@ BEGIN CSS RULES (for a Dark-colored Theme in GH-Pages,<br/>
 /* <br/> No Top Border:<br/> */
 .PAosx64-86{ border-width:1px; border-width-top:0px; }
 /* <br/> Align Center:<br/> */
-.PAosx64-TAC{ text-align:center; }
+.TAC{ text-align:center; }
 /* <br/> Lesser Margin & No-Padding For DL:<br/> */
 dl{ margin:0px 2px; padding:0px; }
 /* <br/> No-Margin & Lesser-Padding For DD:<br/> */
@@ -66,6 +66,8 @@ li{ margin:0px 0px 0px 16px; padding:3px 3px 3px -14px; }
 span.Sml{ font-size:0.8em; }
 /* <br/> Bold Text & Same Line-Height:<br/> */
 b.b{ font-size:22px; line-height:0.75em; font-weight:bold; font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; vertical-align:-15%; }
+/* <br/> Dark-Gray Background For CODE:<br/> */
+code{ background-color:#4d4d4d; }
 /* <br/> END of CSS STYLEs: */
 </style>
 <a name="intro"></a>
@@ -184,7 +186,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
 </dl>
 </div>
 
-<a name="PA-OSX64"><a name="License"></a>
+<a name="License"></a><a name="PA-OSX64">
 <div width="100%"><b>Portable Apps OSX 64:</b><br/>
  Script(s)/Tool(s), Config(s)/Settings, etc For “Portable-Apps-OS-X-64” 
  (this project) are <b>released with following License(s) + Restrictions + 
@@ -289,7 +291,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  v0.11 file has 1.8 MBytes, MD5<b>:</b>7492da10f78dde4833264eebbda9c210, 
  SHA1<b>:</b>bcc843a1f889ff779a6b6acc1b90a27b72f040f5.<br/>
  ( PA = pa = Portable App )</dd>
-<dd><div width="100%" align="center" class="PAosx64-TAC">Goto <a href="#intro">Top</a> 
+<dd><div width="100%" align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></div></dd></dl>
 </div><br/>
 
@@ -352,7 +354,7 @@ before it).<br/>
  This Will Allow To Clearly Show+Include : Which App Has Which/What “LICENSE” 
  File, & Which App Has Which/What “ReadMe” File, & This Will <b>AVOID</b> 
  The Problem Of <b>OVERWRITE/DISCARD</b> Of Same Named “LICENSE” File(s) 
- Or Same Named “README&#46;md” File(s), When Multiple Different-Project's 
+ Or Same Named “README&#46;md” File(s), When Multiple Different-Project’s 
  Tool / Script / Program / License / README, etc Are (Or Will Be) 
  Placed In <b>Same Folder</b>. 
  This Project Uses (And Will Use) Multiple Items (From Different Folders) 
@@ -497,7 +499,7 @@ before it).<br/>
  <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/"</code> )<br/>
  ( or Paste in your userspace:<br>
  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/"</code> 
- )</dd><dd><div width="100%" align="center" class="PAosx64-TAC">Goto <a href="#intro">Top</a> 
+ )</dd><dd><div width="100%" align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></div></dd>
 </dl></div>
 
@@ -595,7 +597,7 @@ before it).<br/>
 
 
 <a name="Post-Build"></a>
-## POST-BUILD (for USERS):
+## POST-BUILD (for USERS)(and Developers):
 Users/you may have to download+add some files or apps or components 
  (or change a settings) by yourself, & place that inside a specific 
  sub-folder location, inside the <code>“&#42;&#46;app”</code> bundle, 
@@ -651,7 +653,7 @@ To run macOSX Apps on (64-bit) macOSX from portable/external<br/>
 drive/storage⒮), or run macOSX App as a second/third/multi-instance 
 of same App.<br/>
 Thanks in advance.
-<p width="100%" align="center" class="PAosx64-TAC">Goto <a href="#intro">Top</a> 
+<p width="100%" align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></p>
 
 ## EXTRA-NOTES:
@@ -719,7 +721,7 @@ i executed below 2-commands<b>:</b>
  [⇧Shift]&#43;[⌘Command]&#43;[&#8239;<sup>&gt;</sup><sub>.</sub>&#8239;]
  <!-- + written as &#43; , nnbsp is &#8239; -->
 </dd></dl></td></tr>
-<tr><td align="center" class="PAosx64-TAC">Goto <a href="#intro">Top</a> 
+<tr><td align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></td></tr>
 </table><br/>
 
@@ -1028,7 +1030,7 @@ i executed below 2-commands<b>:</b>
  <a href="http://liberties.WikiDot.com/ligatures1" target="_blank">http://Liberties.WikiDot.com/ligatures1</a><br/>
  <a href="https://en.Wikipedia.org/wiki/Unicode_font" target="_blank">https://en.Wikipedia.org/wiki/Unicode_font</a><br/>
  <a href="https://en.Wikipedia.org/wiki/List_of_Unicode_characters" target="_blank">https://en.Wikipedia.org/wiki/List_of_Unicode_characters</a></td></tr>
-<tr><td align="center" class="PAosx64-TAC">Goto <a href="#intro">Top</a> 
+<tr><td align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></td></tr>
 </table><br/>
 
@@ -1088,7 +1090,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  by using a user’s/dev’s Apple-ID, that allows to download/get some 
  basic Development related items for free, like: Xcode, Xcode-CLT, etc.</td></tr>
 <tr><td> &#160; </td></tr>
-<tr><td align="center" class="PAosx64-TAC">Goto <a href="#intro">Top</a> 
+<tr><td align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></td></tr>
 </table><br/>
 
@@ -1238,7 +1240,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  Apple Inc, used in/as iPhone OS, iPad OS, etc. Its a closed-source GUI OS. 
  Based on (Unix->BSD->&#41; Darwin OS. Uses Hybrid(XNU) Kernel.</td></tr>
  <!-- “(” = &#40; , “)” = &#41; -->
-<tr><td align="center" class="PAosx64-TAC">Goto <a href="#intro">Top</a> 
+<tr><td align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></td></tr>
 </table><br/>
 <br/>
