@@ -57,15 +57,15 @@ dd{ margin:0px; padding:3px; }
 /* <br/> Forcefully use Bullet-symbol in LI,OL instead of img:<br/> */
 ul,ol{ list-style-image:none; }
 /* <br/> Reduce Space(s) Around Bullet-symbol & Re-Position:<br/> */
-ul li::before,ol li::before,ul li:before,ol li:before{ margin:0px -4px 0px 0px; padding:3px -4px 3px 3px; font-size:14px; line-height:1.5; font-weight:normal; font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; }
+ul li::before,ol li::before,ul li:before,ol li:before{ margin:0px -4px 0px 0px; padding:3px -4px 3px 3px; }
 /* <br/> Lesser-Margin & No-Padding For UL,OL:<br/> */
 ul,ol{ margin:0px; padding:0px; }
 /* <br/> No-Margin & Lesser-Padding For LI:<br/> */
 li{ margin:0px 0px 0px 16px; padding:3px 3px 3px -14px; }
 /* <br/> Smaller Font/Text:<br/> */
-span.PAosx64-Sml{ font-size:0.8em; }
+span.Sml{ font-size:0.8em; }
 /* <br/> Bold Text & Same Line-Height:<br/> */
-b.b{ font-size:24px; line-height:0.75em; font-weight:bold; font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; }
+b.b{ font-size:22px; line-height:0.75em; font-weight:bold; font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; vertical-align:middle; }
 /* <br/> END of CSS STYLEs: */
 </style>
 <a name="intro"></a>
@@ -220,11 +220,11 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  11.5(<a href="https://download.developer.Apple.com/Developer_Tools/Command_Line_Tools_for_Xcode_11.5/Command_Line_Tools_for_Xcode_11.5.dmg" target="_blank">dmg</a>
  file, 260.4 MBytes) (May-20, 2020) has MD5<b>:</b>5620d026d2313934cdfee2499c10ccc4, 
  SHA1<b>:</b>23943d6eaccdec9290077457252132707298210f, 
- SHA256<b>:</b><span class="PAosx64-Sml">4a6210962fe568d871e2b51ceb8836930031f432a8e1a7ec2e98f64768f87c79.</span><br/>
+ SHA256<b>:</b><span class="Sml">4a6210962fe568d871e2b51ceb8836930031f432a8e1a7ec2e98f64768f87c79.</span><br/>
  To get a sense on size of FULL Xcode: Xcode 11.5 (xip file, 8.12 GBytes) 
  (May-20, 2020) has MD5<b>:</b>65a84fa871855af4f369fe643fe278e0, 
  SHA1<b>:</b>4654b261841d0336cb90ea1c82d15fd7aa03c982, 
- SHA256<b>:</b><span class="PAosx64-Sml">a5568ae0d30d9d3be94416dbd1aa3a26f23ca5d937c4b9895913cda1b18ceea4.</span></dd></dl>
+ SHA256<b>:</b><span class="Sml">a5568ae0d30d9d3be94416dbd1aa3a26f23ca5d937c4b9895913cda1b18ceea4.</span></dd></dl>
 </div>
 
 <a name="Swift"></a>
@@ -239,7 +239,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  v5.2.4 Toolchain (<a href="https://Swift.org/builds/swift-5.2.4-release/xcode/swift-5.2.4-RELEASE/swift-5.2.4-RELEASE-osx.pkg" target="_blank">pkg</a> file, 599.4 MBytes) 
  for Xcode 11.5 (May-20, 2020) has MD5<b>:</b>9da44d83095e17cbcde46691af5a043b, 
  SHA1<b>:</b>ddd4ee0cb0dc640121680606e203c809eec854ab, 
- SHA256<b>:</b><span class="PAosx64-Sml">ba409649620129375e014c4753a6f802fb94e46ee833dbf917111e593342ddfc.</span></dd></dl>
+ SHA256<b>:</b><span class="Sml">ba409649620129375e014c4753a6f802fb94e46ee833dbf917111e593342ddfc.</span></dd></dl>
 </div>
 
 <a name="Platypus"></a>
@@ -985,9 +985,9 @@ To calculate “SHA256” hash-code, use <code>-a 256</code> option in
 <dl><dd><!-- “.” is &#46; -->
  <tt>０┌─────────────────</tt><br/>
  <tt>１│</tt>MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
- <tt>２│</tt><span class="PAosx64-Sml">e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57</span>  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>２│</tt><span class="Sml">e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57</span>  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
  <tt>３│</tt>MacNm:~ UsrNm$ <b>openssl sha256</b> /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
- <tt>４│</tt>SHA256(/Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg)= <span class="PAosx64-Sml">e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57</span><br/>
+ <tt>４│</tt>SHA256(/Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg)= <span class="Sml">e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57</span><br/>
  <tt>５└─────────────────</tt>
 </dd></dl>
 To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</code><b>:</b>
