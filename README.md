@@ -54,16 +54,18 @@ BEGIN CSS RULES (for a Dark-colored Theme in GH-Pages,<br/>
 dl{ margin:0px 2px; padding:0px; }
 /* <br/> No-Margin & Lesser-Padding For DD:<br/> */
 dd{ margin:0px; padding:3px; }
-/* <br/> Forcefully use Bullet-symbol in LI,OL:<br/> */
+/* <br/> Forcefully use Bullet-symbol in LI,OL instead of img:<br/> */
 ul,ol{ list-style-image:none; }
 /* <br/> Reduce Space(s) Around Bullet-symbol & Re-Position:<br/> */
-ul li::before,ol li::before,ul li:before,ol li:before{ margin:0px -4px 0px 0px; padding:3px -4px 3px 3px; }
+ul li::before,ol li::before,ul li:before,ol li:before{ margin:0px -4px 0px 0px; padding:3px -4px 3px 3px; font-size:14px; line-height:1.5; font-weight:normal; font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; }
 /* <br/> Lesser-Margin & No-Padding For UL,OL:<br/> */
 ul,ol{ margin:0px; padding:0px; }
 /* <br/> No-Margin & Lesser-Padding For LI:<br/> */
 li{ margin:0px 0px 0px 16px; padding:3px 3px 3px -14px; }
 /* <br/> Smaller Font/Text:<br/> */
 span.PAosx64-Sml{ font-size:0.8em; }
+/* <br/> Bold Text & Same Line-Height:<br/> */
+b.b{ font-size:14px; line-height:1.5; font-weight:normal; font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; }
 /* <br/> END of CSS STYLEs: */
 </style>
 <a name="intro"></a>
@@ -100,9 +102,9 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  from source-code (and some binary/executable tools can also be downloaded) 
  on your macOSX Mac computer, by using these package-management tools:<dl>
  <dd> 
- <b>•</b> “<a href="https://GitHub.com/macports/macports-base/releases/" target="_blank">MacPorts</a>” 
+ <b class="b">•</b> “<a href="https://GitHub.com/macports/macports-base/releases/" target="_blank">MacPorts</a>” 
  (Be warned: “MacPorts” requires admin/sudo privileged access),<br/>
- <b>•</b> “<a href="https://GitHub.com/Homebrew/brew/releases/" target="_blank">HomeBrew</a>” 
+ <b class="b">•</b> “<a href="https://GitHub.com/Homebrew/brew/releases/" target="_blank">HomeBrew</a>” 
  <!-- “.” = &#46; , “*” = &#42; -->(click on “Assets” below a release, 
  then click on “brew-&#42;&#46;tar&#46;gz” to download)&#46; (ByTheWay, 
  Be Warned of Violation of Privacy-Rights by “HomeBrew” project & “Google” : 
@@ -145,8 +147,8 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  ¦ <a href="#License">License(s)</a> 
  ¦</dd>
 <dd><div width="100%" align="center">
- <b>•</b> macOSX Catalina version is 10.15.x (mostly 64bit-only)<br/>
- <b>•</b> macOSX Mojave version is 10.14.x (64bit+32bit)</div></dd>
+ <b class="b">•</b> macOSX Catalina version is 10.15.x (mostly 64bit-only)<br/>
+ <b class="b">•</b> macOSX Mojave version is 10.14.x (64bit+32bit)</div></dd>
 </dl></dd></dl>
 
 <a name="BuildTools"></a><a name="RunTools"></a>
@@ -155,17 +157,17 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  executable, & we also use (mentioned in below) tools to assist our-project 
  tool during execution, & for executing the App either as portable app 
  or as multi-instance of same app.<dl>
-<dd>Note: <b>•</b> <a href="#VerifyFileAuthenticity">Verify</a> files/apps 
+<dd>Note: <b class="b">•</b> <a href="#VerifyFileAuthenticity">Verify</a> files/apps 
  after download. And download only when download url/website begins with 
  “https”.<br/>
- <b>•</b> If you only-want to USE built Apps, & do not want to completely 
+ <b class="b">•</b> If you only-want to USE built Apps, & do not want to completely 
  compile/build, then go directly into <u><b>App</b></u> sub-dir/sub-folder, 
  shown <a href="#index">here</a> & obtain <code>*-OSX-64.dmg</code> (or 
  <code>*-OSX-64.tar.gz</code> or <code>*-OSX-64.zip</code>) file release, 
  and FOLLOW “POST-BUILD (for USER)” instruction shown on 
  “Portable-<u><b>App</b>Name</u>-OSX-64” page, to know what else you have 
  to get & do.<br/>
- <b>•</b> Some items/files/components we may-not or cannot be directly 
+ <b class="b">•</b> Some items/files/components we may-not or cannot be directly 
  included inside in some of the built+shared <b>App</b> archive 
  (<code>*.dmg</code>,etc) file. Either because of License/proprietary 
  restrictions or to provide you/USER more Security/Privacy: ( Some 
@@ -186,15 +188,15 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  (this project) are <b>released with following License(s) + Restrictions + 
  Permissions:</b><dl>
  <dd> 
-  <b>•</b> GNU General Public License Version 3 
+  <b class="b">•</b> GNU General Public License Version 3 
   (<a href="https://www.GNU.org/licenses/gpl-3.0.en.html" target="_blank">GPL v3</a>)<br/>
-  <b>•</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc<br/>
-  <b>•</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
+  <b class="b">•</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc<br/>
+  <b class="b">•</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
   at&#69;rïķ＠&#65;śh&#70;ölķ·ć&#333;m&gt; Do Not Copy Eml-Adrs, Type In 
   English/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">Basic-Latin</a> 
   Char, No Soliciting Permitted)&#46; All rights reserved.<br/>
-  <b>•</b> (All other trademarks, etc cited here are the property of their respective owners&#46;)<br/>
-  <b>•</b> (All other copyright items cited here are the copyright of their respective author/creator&#46;)</dd>
+  <b class="b">•</b> (All other trademarks, etc cited here are the property of their respective owners&#46;)<br/>
+  <b class="b">•</b> (All other copyright items cited here are the copyright of their respective author/creator&#46;)</dd>
  </dl>
 </div>
 
@@ -531,23 +533,23 @@ before it).<br/>
  choose these below files, directories, bundles, etc inside the 
  Platypus GUI interface<b>:</b>
 <dl><dd><!-- “.” is &#46; -->
-  <b>•</b> directory : English&#46;lproj<br/>
-  <b>•</b> directory (optional) : profile<br/>
-  <b>•</b> bundle : AppName&#46;app<br/>
-  <b>•</b> bundle : Pashua&#46;app<br/>
-  <b>•</b> icon : P_AppName_Caution&#46;icns<br/>
-  <b>•</b> icon : appIcon&#46;icns<br/>
-  <b>•</b> sh-script : pashua&#46;sh<br/>
-  <b>•</b> sh-script : pashua&#46;sh&#46;lib<br/>
-  <b>•</b> sh-script : script<br/>
-  <b>•</b> tool : filecount<br/>
-  <b>•</b> tool : dirsize<br/>
-  <b>•</b> readme-file : Read me&#46;txt<br/>
-  <b>•</b> license-file : GPL-3.0_LICENSE_for_script&#46;txt<br/>
-  <b>•</b> license-file : &lt;App’s-License’s-shortName-&-version-number&gt;_LICENSE_for_AppName&#46;txt<br/>
-  <b>•</b> license-file : BSD-3-clause_LICENSE_for_Pashua&#46;txt<br/>
-  <b>•</b> license-file : BSD-3-clause_LICENSE_for_Platypus&#46;txt<br/>
-  <b>•</b> license-file : BSD-3-clause&#46;txt
+  <b class="b">•</b> directory : English&#46;lproj<br/>
+  <b class="b">•</b> directory (optional) : profile<br/>
+  <b class="b">•</b> bundle : AppName&#46;app<br/>
+  <b class="b">•</b> bundle : Pashua&#46;app<br/>
+  <b class="b">•</b> icon : P_AppName_Caution&#46;icns<br/>
+  <b class="b">•</b> icon : appIcon&#46;icns<br/>
+  <b class="b">•</b> sh-script : pashua&#46;sh<br/>
+  <b class="b">•</b> sh-script : pashua&#46;sh&#46;lib<br/>
+  <b class="b">•</b> sh-script : script<br/>
+  <b class="b">•</b> tool : filecount<br/>
+  <b class="b">•</b> tool : dirsize<br/>
+  <b class="b">•</b> readme-file : Read me&#46;txt<br/>
+  <b class="b">•</b> license-file : GPL-3.0_LICENSE_for_script&#46;txt<br/>
+  <b class="b">•</b> license-file : &lt;App’s-License’s-shortName-&-version-number&gt;_LICENSE_for_AppName&#46;txt<br/>
+  <b class="b">•</b> license-file : BSD-3-clause_LICENSE_for_Pashua&#46;txt<br/>
+  <b class="b">•</b> license-file : BSD-3-clause_LICENSE_for_Platypus&#46;txt<br/>
+  <b class="b">•</b> license-file : BSD-3-clause&#46;txt
 </dd></dl>
 </dd></dl>
 </div><br/>
@@ -555,18 +557,18 @@ before it).<br/>
 <div width="100%"><a name="b-3"></a>B-3: Then you may use, these 
  type of settings in Platypus GUI interface<b>:</b>
 <dl><dd>
- <b>•</b> Script Type : Shell : /bin/sh<br/>
- <b>•</b> Script Path : <code>/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/script</code><br/>
+ <b class="b">•</b> Script Type : Shell : /bin/sh<br/>
+ <b class="b">•</b> Script Path : <code>/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/script</code><br/>
  &#160;&#160;( above location’s shorter form is: 
  <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/script"</code> )<br/>
  &#160;&#160;( if you’re using your userpsace: 
  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/script"</code> )<br/>
- <b>•</b> Interface : Text Window<br/>
- <b>•</b> Unselected options : Run with root privileges , Run in background , 
+ <b class="b">•</b> Interface : Text Window<br/>
+ <b class="b">•</b> Unselected options : Run with root privileges , Run in background , 
   Accept dropped items<br/>
- <b>•</b> Selected/Check-Marked options : Remain running after execution<br/>
- <b>•</b> App Name : Portable AppName OSX64 (or specify what you want)<br/>
- <b>•</b> Fill in other boxes: identifier, author, etc
+ <b class="b">•</b> Selected/Check-Marked options : Remain running after execution<br/>
+ <b class="b">•</b> App Name : Portable AppName OSX64 (or specify what you want)<br/>
+ <b class="b">•</b> Fill in other boxes: identifier, author, etc
 </dd></dl>
 </div><br/>
 
@@ -596,7 +598,7 @@ Users/you may have to download+add some files or apps or components
  <code>“&#42;&#46;app”</code> App/bundle.<br/>
  <br/>
  You may OPTIONALLY do these:<dl><dd>
- <b>•</b> Which “profile” folder is used by the running AppName ?<dl><dd>
+ <b class="b">•</b> Which “profile” folder is used by the running AppName ?<dl><dd>
   AppName > main menu > ... > Show Profile Folder: ...</dd></dl></dd></dl>
 </div>
 
@@ -1018,20 +1020,20 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="Abbreviations"></a><b>Abbreviations:</b><br/>
  Acronyms, Recursive Backronyms & Abbreviations used here<b>:</b></td></tr>
-<tr><td><a name="abbr"></a><b>•</b> Dev = Develope = Bld = Build 
+<tr><td><a name="abbr"></a><b class="b">•</b> Dev = Develope = Bld = Build 
  . Web-Browser = WB = WebBr . Ver = Version = v . Mem = Memory 
  . Mngr = Manager . Virtual = Virt . FileSystem = FS . Network = Net 
  . Socket = Sock . Security = Sec . Hardware = HW . Software = SW 
  . Firmware = FW . Driver = Drvr = Drv . Server = Srv . Service = Svc 
  . Graphics = Grph . Engine = Engn . JavaScript = JS . Apple = Apl 
  . Microsoft = MS . Google = Ggl . Mozilla = Mz .</td></tr>
-<tr><td><a name="PA"></a><b>•</b> PA = Portable App 
+<tr><td><a name="PA"></a><b class="b">•</b> PA = Portable App 
  . Ususally kept-in & run from a user’s External/Portable drives/storage, 
  Or PA is kept-in & run from internal-Storage when a user need to run 2nd 
  or multiple instances of same PA apps with different profile(s)/settings.</td></tr>
 </table><!-- “(” = %28 , “)” = %29 -->
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
-<tr><td border="1" width="100%"><a name="FF"></a><b>•</b> FF = Firefox . 
+<tr><td border="1" width="100%"><a name="FF"></a><b class="b">•</b> FF = Firefox . 
  A web-browser from Mozilla Foundation. Before FF v57 it used 
  <a href="https://en.wikipedia.org/wiki/Gecko%5F%28software%29" target="_blank">Gecko</a> engine. 
  Since v57, FF was renamed as “Firefox 
@@ -1054,7 +1056,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  local location without user’s consent with full-awareness, 
  which is a violation of Privacy-Rights, & this type of violation 
  is also done by other new web-browsers too!</td></tr>
-<tr><td><a name="SF"></a><b>•</b> SF = AS = Safari . 
+<tr><td><a name="SF"></a><b class="b">•</b> SF = AS = Safari . 
  A web-browser developed by Apple Inc . Proprietary . Uses open-source 
  WebKit based engine. WebKit was closed-source & based-on OpenSource 
  KDE-HTML(KHTML) layout engine & OpenSource KDE-JS(KJS) engine, etc. 
@@ -1068,7 +1070,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  forked WebKit & created (WebKit-based) Blink for GC. Apple Inc 
  forcefully/indirectly restricts other devs/groups, i.e: devs are 
  forced to use WebKit to develop their apps for macOS/iOS, etc.</td></tr>
-<tr><td><a name="CM"></a><b>•</b> CM = CH = Chromium . Open-Source . 
+<tr><td><a name="CM"></a><b class="b">•</b> CM = CH = Chromium . Open-Source . 
  A web-browser initially developed by Google LLC. Uses Blink rendering 
  engine (Blink is based on modified WebKit engine), & V8 (JavaScript 
  engine). Later Microsoft, Igalia, Yandex, & others joined to develope CM. 
@@ -1076,7 +1078,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  others joined to develope Blink. Many many web-browsers are actually 
  based on modified/customized version of this CM web-browser or Blink 
  engine from CM.</td></tr>
-<tr><td><a name="Ch"></a><b>•</b> Ch = GC = Chrome = Google-Chrome = GCh 
+<tr><td><a name="Ch"></a><b class="b">•</b> Ch = GC = Chrome = Google-Chrome = GCh 
  = gCh = gCH . Ch is developed by Google LLC . Many features+components 
  are Proprietary & runs various binaries even before user logins into their OS, 
  & does-not provide any option to completely disable/remove such malware-like 
@@ -1087,7 +1089,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  based engine.</td></tr>
 </table>
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
-<tr><td border="1" width="100%"><a name="OS"></a><b>•</b> OS = Operating 
+<tr><td border="1" width="100%"><a name="OS"></a><b class="b">•</b> OS = Operating 
  System = OprtSys = OpSys . A collection/set of vast numbers+types of 
  programs, to assist interactions between computer User and computer 
  hardwares & softwares and computer networks. Many OS did-not & does-not 
@@ -1099,10 +1101,10 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  system services, related System Libraries, Userland/UserApps, 
  App Environments, Servers/Daemons/Services for Userland, OS 
  SubSystems/Thread support, related Userland Libraries.</td></tr>
-<tr><td><a name="Unx"></a><b>•</b> Unx = Unix = Research-Unix 
+<tr><td><a name="Unx"></a><b class="b">•</b> Unx = Unix = Research-Unix 
  = &#42;nix. Originally developed (in 1969) by Ken Thompson & Dennis Ritchie 
  & others at-then AT&T Bell Labs.</td></tr>
-<tr><td><a name="BSD"></a><b>•</b> BSD = BSD-Unix = Berkeley Software 
+<tr><td><a name="BSD"></a><b class="b">•</b> BSD = BSD-Unix = Berkeley Software 
  Distribution . Initially “BSD” was based on Unix v5, & it was developed 
  by Bill Joy & Ozalp Babaoglu & Keith Bostic & others from CSRG(Computer 
  Systems Research Group). Uses Monolithic kernel. BSD was updated to 
@@ -1114,7 +1116,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  “DragonFly-BSD”. Later NetBSD was forked into “OpenBSD”. 
  OpenBSD group prioritizes & focuses on SECURITY, trustworthiness, etc 
  of source code & OS functionalities.</td></tr>
-<tr><td><a name="OSX"></a><b>•</b> OSX = 🍎 = MacOS = macOS = macOSX . 
+<tr><td><a name="OSX"></a><b class="b">•</b> OSX = 🍎 = MacOS = macOS = macOSX . 
  An OS developed by Apple Inc. ClosedSource GUI OS. Initially based 
  on Apple Lisa OS & (Unix based) Xenix, etc, then it was changed 
  into combination of Unix … BSD(4.3BSD-Net2, 386BSD, 4.4BSD-Lite2, 
@@ -1122,7 +1124,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  Initially kernel was Monolithic (for 68k) & nanokernel (for PowerPC), 
  then changed into Hybrid(XNU) Kernel (initially CMU-Mach2.5 & 4.3BSD, 
  then changed into OSFMK/Utah-Mach4 & FreeBSD).</td></tr>
-<tr><td><a name="Win"></a><b>•</b> Win = ❖ = Windows OS = WinOS . 
+<tr><td><a name="Win"></a><b class="b">•</b> Win = ❖ = Windows OS = WinOS . 
  WinOS developed by Microsoft corp . ClosedSource GUI OS . Windows 9X 
  (Win9X), WinMe & earlier WinOS used Monolithic kernel & was based on 
  “Interface Manager”, etc. Later WinCE-family & WinNT-family of WinOS 
@@ -1130,7 +1132,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  OS, initially MS-DOS was based on CP/M-OS, 86-DOS, etc. WinOS-10/Win10 
  includes MS-Edge web-browser, its initially based on Trident engine, 
  then changed into Blink(CM) engine.</td></tr>
-<tr><td><a name="Lnx"></a><b>•</b> Lnx = 🐐&#xFE0E;GNU-🐧&#xFE0E;Linux 
+<tr><td><a name="Lnx"></a><b class="b">•</b> Lnx = 🐐&#xFE0E;GNU-🐧&#xFE0E;Linux 
  = GNU/Linux = GNU/Lnx, though most users shorten/call/know it as or 
  “Linux OS” or “Linux”. OpenSource (Unix-like) OS, with OpenSource Kernel. 
  GNU-OS used/uses (Unix based) GNU tools/utilities developed by Richard Stallman, 
@@ -1148,14 +1150,14 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  etc etc. All of these were/are primarily a derivative of Unix.</td></tr>
 </table>
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
-<tr><td border="1" width="100%"><a name="AOS"></a><a name="Andr"></a><b>•</b> 
+<tr><td border="1" width="100%"><a name="AOS"></a><a name="Andr"></a><b class="b">•</b> 
  AOS = 🤖&#xFE0E; = Andr = Android OS . A (GUI) OS developed by Google LLC 
  (under Alphabet Inc), with members of OHA consortium, & by open-source 
  dev(s)+individual(s). Many components are open-source, except these CLOSED-SOURCE 
  components: “Google Play”, “Google Play Services”, etc, etc, etc). 
  Andr uses (BSD based) Bionic C-Lib, uses ToyBox (based on older BusyBox) 
  based Unix utilities, mksh, etc. Andr uses modified Linux-kernel.</td></tr>
-<tr><td><a name="iOS"></a><b>•</b> iOS = 🍎📱 . Developed by Apple Inc, 
+<tr><td><a name="iOS"></a><b class="b">•</b> iOS = 🍎📱 . Developed by Apple Inc, 
  used in/as iPhone OS, iPad OS, etc. Its a closed-source GUI OS. 
  Based on (Unix->BSD->&#41; Darwin OS. Uses Hybrid(XNU) Kernel.</td></tr>
  <!-- “(” = &#40; , “)” = &#41; -->
