@@ -54,12 +54,12 @@ BEGIN CSS RULES (for a Dark-colored Theme in GH-Pages,<br/>
 dl{ margin:0px 2px; padding:0px; }
 /* <br/> No-Margin & Lesser-Padding For DD:<br/> */
 dd{ margin:0px; padding:0px 3px 2px 3px; }
-/* <br/> Forcefully use Bullet-symbol in LI,OL instead of img:<br/> */
+/* <br/> Forcefully use Bullet-symbol in LI of UL/OL instead of img:<br/> */
 ul,ol{ list-style-image:none; }
-/* <br/> Reduce Space(s) Around Bullet-symbol & Re-Position:<br/> */
-ul li::before,ol li::before,ul li:before,ol li:before{ margin:0px -4px 0px 0px; padding:3px -4px 3px 3px; }
 /* <br/> Lesser-Margin & No-Padding For UL,OL:<br/> */
 ul,ol{ margin:0px; padding:0px; }
+/* <br/> Reduce Space(s) Around Bullet-symbol & Re-Position:<br/> */
+ul li::before,ol li::before,ul li:before,ol li:before{ margin:0px -5px 0px 0px; padding:3px -5px 3px 3px; }
 /* <br/> No-Margin & Lesser-Padding For LI:<br/> */
 li{ margin:0px 0px 0px 16px; padding:3px 3px 3px -14px; }
 /* <br/> Smaller Font/Text:<br/> */
