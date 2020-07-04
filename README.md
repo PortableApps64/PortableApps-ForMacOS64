@@ -117,7 +117,8 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
 
 <a name="index"></a><!-- “:” = &#58;, “{” = &#123;, “}” = &#125; -->
 <dl><dd>&#160;<dl>
-<dd>Portable-Apps-OS-X-64<b>:</b> ¦ <a href="F/">F</a> ¦ <a href="F/PortableFirefoxOSX64/">Portable Firefox OSX64</a> ¦<br/></dd>
+<dd>Portable-Apps-OS-X-64<b>:</b> ¦ <a href="F/">F</a> 
+ ¦ <a href="F/PortableFirefoxOSX64/">Portable Firefox OSX64</a> ¦<br/></dd>
 <dd>Content/Index List<b>:</b> 
  ¦ <a href="#intro">Intro</a> 
  ¦ <a href="#BuildTools">Build/Run-Tools(for-Devs)</a> 
@@ -157,18 +158,19 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  executable, & we also use (mentioned in below) tools to assist our-project 
  tool during execution, & for executing the App either as portable app 
  or as multi-instance of same app.<dl>
-<dd>Note: <b class="b">•</b> <a href="#VerifyFileAuthenticity">Verify</a> files/apps 
- after download. And download only when download url/website begins with 
- “https”.<br/>
- <b class="b">•</b> If you only-want to USE built Apps, & do not want to completely 
- compile/build, then go directly into <u><b>App</b></u> sub-dir/sub-folder, 
- shown <a href="#index">here</a> & obtain <code>*-OSX-64.dmg</code> (or 
- <code>*-OSX-64.tar.gz</code> or <code>*-OSX-64.zip</code>) file release, 
+<dd>Note: <b class="b">•</b> <a href="#VerifyFileAuthenticity">Verify</a> 
+ files/apps after download. And download only when download url/website 
+ begins with “https”.<br/>
+ <b class="b">•</b> If you only-want to USE built Apps, & do not want to 
+ completely compile/build, then go directly into <u><b>App</b></u> 
+ sub-dir/sub-folder, shown <a href="#index">here</a> & obtain 
+ <code>*-OSX-64.dmg</code> (or <code>*-OSX-64.tar.gz</code> or 
+ <code>*-OSX-64.zip</code>) file release, 
  and FOLLOW “POST-BUILD (for USER)” instruction shown on 
  “Portable-<u><b>App</b>Name</u>-OSX-64” page, to know what else you have 
  to get & do.<br/>
- <b class="b">•</b> Some items/files/components we may-not or cannot be directly 
- included inside in some of the built+shared <b>App</b> archive 
+ <b class="b">•</b> Some items/files/components we may-not or cannot be 
+ directly included inside in some of the built+shared <b>App</b> archive 
  (<code>*.dmg</code>,etc) file. Either because of License/proprietary 
  restrictions or to provide you/USER more Security/Privacy: ( Some 
  files/components should not be provided by someone-else, as it may have 
@@ -195,8 +197,10 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
   at&#69;rïķ＠&#65;śh&#70;ölķ·ć&#333;m&gt; Do Not Copy Eml-Adrs, Type In 
   English/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">Basic-Latin</a> 
   Char, No Soliciting Permitted)&#46; All rights reserved.<br/>
-  <b class="b">•</b> (All other trademarks, etc cited here are the property of their respective owners&#46;)<br/>
-  <b class="b">•</b> (All other copyright items cited here are the copyright of their respective author/creator&#46;)</dd>
+  <b class="b">•</b> (All other trademarks, etc cited here are the property 
+  of their respective owners&#46;)<br/>
+  <b class="b">•</b> (All other copyright items cited here are the copyright 
+  of their respective author/creator&#46;)</dd>
  </dl>
 </div>
 
@@ -230,8 +234,8 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
 <a name="Swift"></a>
 <div width="100%"><b>Swift:</b><br/>
  Swift is released by Apple. Its a programming language, etc (to 
- build Apps, etc). Since v2.2 it is released as open-source. It provides Swift 
- related <code>LLVM</code> compiler & related toolchains, 
+ build Apps, etc). Since v2.2 it is released as open-source. It provides 
+ Swift related <code>LLVM</code> compiler & related toolchains, 
  frameworks & headers, etc to Xcode.<br/>
  At currrent stage of this project, we may/will-be/are using Swift 
  Toolchain:<dl><dd> 
@@ -437,7 +441,8 @@ before it).<br/>
  ( NOTE: Use “<b>OSX</b>” or “<b>OSX-Old</b>” (and <b>Not</b>-“<b>OSX64</b>”) 
  in the End, to indicate the App inside this folder is Not-Yet-Converted into 
  a <b>“</b>Portable<b>OSX64</b>App<b>”</b>, & this App (very likely) was 
- obtained from “OsxPortableApps”/“FreeSMUG” site . PA = pa = Portable App. )</dd></dl>
+ obtained from “OsxPortableApps”/“FreeSMUG” site . PA = pa = Portable App. 
+ )</dd></dl>
 </div>
 <div width="100%"><b>f:</b> Create another sub-dir <code>"PA-AppName-OSX64"</code> 
  under the location shown in <b>PB-5-a</b> step:<dl><dd> 
@@ -445,11 +450,13 @@ before it).<br/>
  ( above location’s shorter form is:<br/>
  <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppNameOSX64/"</code> )<br/>
  ( or Create that sub-dir inside your userspace, like this:<br/>
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/"</code> )</dd></dl>
+ <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/"</code> 
+ )</dd></dl>
 </div>
 <b>g:</b> After following the step PB-5-e, you will/should find a folder 
- <code>"Portable AppName OS X"</code> inside <code>".../PortableAppNameOSX-Old/"</code> 
- folder (or in <code>".../PA-AppName-OSX-Old/"</code> folder). And inside 
+ <code>"Portable AppName OS X"</code> inside 
+ <code>".../PortableAppNameOSX-Old/"</code> folder (or in 
+ <code>".../PA-AppName-OSX-Old/"</code> folder). And inside 
  that folder, you will/should find the portable app bundle 
  <code>"Portable AppName.app"</code>.<br/>
 <div width="100%"><b>h:</b> Right-click (or Tap with double-finger) on 
@@ -502,7 +509,8 @@ before it).<br/>
  using it to build Portable App for OS X 64<b>:</b><br/>
  Tips<b>:</b> a good practice from beginning would-be, After getting this 
  <code>‘script’</code><br/>
- (Place it inside the recommended folder, that is shown few paragraphs above),<br/>
+ (Place it inside the recommended folder, which is shown few paragraphs 
+ above),<br/>
  1st Rename it to <code>"script.sh"</code>, then Open <code>"script.sh"</code> 
  with your choice of code editing/developing editor/build software,<br/>
  Improve/Modify source code, Save,<br/>
@@ -518,9 +526,11 @@ before it).<br/>
  <tt>５└─────────────────</tt><br/>
  ( the above ‘script’ can also be accessed from here:<br/>
  <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/script.sh"</code> )<br/>
- When there is no syntax-error, (in other words, When the output is “0”),<br/>
+ When there is no syntax-error, (in other words, When the output 
+ is “0”),<br/>
  then copy the <code>"script.sh"</code> & paste it in same folder,<br/>
- & Rename the <code>"script.sh Copy"</code> file, into the <code>"script"</code>,<br/>
+ & Rename the <code>"script.sh Copy"</code> file, into the 
+ <code>"script"</code>,<br/>
  then follow next/below stage/procedures.
 </dd></dl>
 </div><br/>
@@ -546,7 +556,8 @@ before it).<br/>
   <b class="b">•</b> tool : dirsize<br/>
   <b class="b">•</b> readme-file : Read me&#46;txt<br/>
   <b class="b">•</b> license-file : GPL-3.0_LICENSE_for_script&#46;txt<br/>
-  <b class="b">•</b> license-file : &lt;App’s-License’s-shortName-&-version-number&gt;_LICENSE_for_AppName&#46;txt<br/>
+  <b class="b">•</b> license-file : 
+   &lt;App’s-License’s-shortName-&-version-number&gt;_LICENSE_for_AppName&#46;txt<br/>
   <b class="b">•</b> license-file : BSD-3-clause_LICENSE_for_Pashua&#46;txt<br/>
   <b class="b">•</b> license-file : BSD-3-clause_LICENSE_for_Platypus&#46;txt<br/>
   <b class="b">•</b> license-file : BSD-3-clause&#46;txt
@@ -562,12 +573,15 @@ before it).<br/>
  &#160;&#160;( above location’s shorter form is: 
  <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/script"</code> )<br/>
  &#160;&#160;( if you’re using your userpsace: 
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/script"</code> )<br/>
+ <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/script"</code> 
+ )<br/>
  <b class="b">•</b> Interface : Text Window<br/>
- <b class="b">•</b> Unselected options : Run with root privileges , Run in background , 
-  Accept dropped items<br/>
- <b class="b">•</b> Selected/Check-Marked options : Remain running after execution<br/>
- <b class="b">•</b> App Name : Portable AppName OSX64 (or specify what you want)<br/>
+ <b class="b">•</b> Unselected options : Run with root privileges , 
+  Run in background , Accept dropped items<br/>
+ <b class="b">•</b> Selected/Check-Marked options : Remain running 
+  after execution<br/>
+ <b class="b">•</b> App Name : Portable AppName OSX64 (or specify 
+  what you want)<br/>
  <b class="b">•</b> Fill in other boxes: identifier, author, etc
 </dd></dl>
 </div><br/>
@@ -594,11 +608,12 @@ Users/you may have to download+add some files or apps or components
 
 <a name="Test-Run"></a><a name="test">
 ## RUN/EXECUTE/TEST:
-<div width="100%"> Now you need-to run/execute & test & investigate the 
- <code>“&#42;&#46;app”</code> App/bundle.<br/>
+<div width="100%"> Now you need-to run/execute & test & investigate 
+ the <code>“&#42;&#46;app”</code> App/bundle.<br/>
  <br/>
  You may OPTIONALLY do these:<dl><dd>
- <b class="b">•</b> Which “profile” folder is used by the running AppName ?<dl><dd>
+ <b class="b">•</b> Which “profile” folder is used by the running 
+  AppName ?<dl><dd>
   AppName > main menu > ... > Show Profile Folder: ...</dd></dl></dd></dl>
 </div>
 
@@ -616,8 +631,8 @@ If you have spotted an bug/error/fault, then let us know,<br/>
  <a href="https://GitHub.com/PortableApps64/PortableAppsOSX64/issues/new/choose">Issue</a> 
  here in GitHub, & submit info.<br/>
 <br/>
-If no errors, even then please share your final working code, your OS 
- info, etc (if you want to)<br/>
+If no errors, even then please share your final working code, your 
+ OS info, etc (if you want to)<br/>
  either: by Forking/Cloning (this project) + Edit/Change & Test ‘script’ 
  file in your side/computer + Push your own (successful/working) code-changes 
  inside your own (this)-cloned-project first + then send a Pull-request to 
@@ -715,202 +730,261 @@ i executed below 2-commands<b>:</b>
  ( We will use some of these in our dialog messages from this 
  ‘script’ )</td></tr>
 <tr><td><a name="U-abbr"></a>Unicode related <b>Abbreviations:</b> 
- • Char = Character/Symbol/Glyph • Grph = Graphic • Emj ~= Emoji ~= Emoticons 
- • Txt = Textual Glyph • U = Unicode • A = ASCII • Ref = Reference 
- • dec = decimal • DEC = DRC = Decimal Entity (Ref) Code 
- • HEC = HexaDecimal Entity (Ref) Code • h = H = x = hex = HexaDecimal 
- • CNRC = Character Name Ref/Entity Code • PE = Percent-Encoding 
- • FRE = Font/Character/Glyph/Grapheme Rendering Engine </td></tr>
+ <b class="b">•</b> Char = Character/Symbol/Glyph <b class="b">•</b> Grph = Graphic 
+ <b class="b">•</b> Emj ~= Emoji ~= Emoticons 
+ <b class="b">•</b> Txt = Textual Glyph <b class="b">•</b> U = Unicode 
+ <b class="b">•</b> A = ASCII <b class="b">•</b> Ref = Reference 
+ <b class="b">•</b> dec = decimal <b class="b">•</b> DEC = DRC = Decimal Entity (Ref) Code 
+ <b class="b">•</b> HEC = HexaDecimal Entity (Ref) Code 
+ <b class="b">•</b> h = H = x = hex = HexaDecimal 
+ <b class="b">•</b> CNRC = Character Name Ref/Entity Code 
+ <b class="b">•</b> PE = Percent-Encoding 
+ <b class="b">•</b> FRE = Font/Character/Glyph/Grapheme Rendering Engine </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
-<tr><td>• Low-Density Dotted Grph Char ░ &amp;#9617; 176 
- </td><td>• Medium-Density Dotted ▒ &amp;#9618; 177 
- </td><td>• High-Density Dotted ▓ &amp;#9619; 178 </td></tr>
-<tr><td>• Block █ &amp;#9608; &amp;block; 219 
- </td><td>• Bottom Half-Block ▄ &amp;#9604; &amp;lhblk; 220 
- </td><td>• Top Half-Block ▀ &amp;#9600; &amp;uhblk; 223 </td></tr>
+<tr><td><b class="b">•</b> Low-Density Dotted Grph Char ░ &amp;#9617; 176 
+ </td><td><b class="b">•</b> Medium-Density Dotted ▒ &amp;#9618; 177 
+ </td><td><b class="b">•</b> High-Density Dotted ▓ &amp;#9619; 178 </td></tr>
+<tr><td><b class="b">•</b> Block █ &amp;#9608; &amp;block; 219 
+ </td><td><b class="b">•</b> Bottom Half-Block ▄ &amp;#9604; &amp;lhblk; 220 
+ </td><td><b class="b">•</b> Top Half-Block ▀ &amp;#9600; &amp;uhblk; 223 </td></tr>
 <tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td> Box-Drawings: </td><td> &#160; </td><td> &#160; </td></tr>
-<tr><td>• Light-Horizontal ─ &amp;#9472; </td><td>• Light-Vertical │ &amp;#9474; 
- </td><td>• Light-Down&Right ┌ &amp;#9484; </td></tr>
-<tr><td>• Light-Down&Left ┐ &amp;#9488; </td><td>• Light-Up&Right └ &amp;#9492; 
- </td><td>• Light-Up&Left ┘ &amp;#9496; </td></tr>
-<tr><td>• Light-Vert&Right ├ &amp;#9500; </td><td>• Light-Vert&Left ┤ &amp;#9508; 
- </td><td>• Light-Down&Horizontal ┬ &amp;#9516; </td></tr>
-<tr><td>• Light-Up&Horizontal ┴ &amp;#9524; </td><td>• Light-Vert.&Horiz. ┼ &amp;#9532; 
+<tr><td><b class="b">•</b> Light-Horizontal ─ &amp;#9472; 
+ </td><td><b class="b">•</b> Light-Vertical │ &amp;#9474; 
+ </td><td><b class="b">•</b> Light-Down&Right ┌ &amp;#9484; </td></tr>
+<tr><td><b class="b">•</b> Light-Down&Left ┐ &amp;#9488; 
+ </td><td><b class="b">•</b> Light-Up&Right └ &amp;#9492; 
+ </td><td><b class="b">•</b> Light-Up&Left ┘ &amp;#9496; </td></tr>
+<tr><td><b class="b">•</b> Light-Vert&Right ├ &amp;#9500; 
+ </td><td><b class="b">•</b> Light-Vert&Left ┤ &amp;#9508; 
+ </td><td><b class="b">•</b> Light-Down&Horizontal ┬ &amp;#9516; </td></tr>
+<tr><td><b class="b">•</b> Light-Up&Horizontal ┴ &amp;#9524; 
+ </td><td><b class="b">•</b> Light-Vert.&Horiz. ┼ &amp;#9532; 
  </td><td> &#160; </td></tr>
 <tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
-<tr><td>• 📁 1F4C1, File Folder. Closed </td><td>• 📂 1F4C2, Open File Folder 
- </td><td>• 📃 1F4C3, Page with curl. Rolled Paper </td></tr>
-<tr><td>• 📄＜1F4C4, Page facing Up. Page/Paper/Files </td><td>• 📤 1F4E4, Outbox Tray. For Send Out. Copy 
- </td><td>• 📥 1F4E5, Inbox Tray. For Receiving. Paste </td></tr>
-<tr><td>• Warning Sign ⚠&#xFE0E; (Txt) U+26A0 </td><td>• Warning Sign ⚠️ (Emj) 
- </td><td>• Left-Pointing Magnifying Glass 🔍 U+1F50D </td></tr>
-<tr><td>• Right-Pointing Magnifying Glass 🔎 U+1F50E </td><td>• Computer (Laptop) 💻 U+1F4BB 
- </td><td>• Monitor/Screen 🖳 </td></tr>
-<tr><td>• Computer (Desktop) 🖥 U+1F5A5 </td><td> &#160; 
+<tr><td><b class="b">•</b> 📁 1F4C1, File Folder. Closed 
+ </td><td><b class="b">•</b> 📂 1F4C2, Open File Folder 
+ </td><td><b class="b">•</b> 📃 1F4C3, Page with curl. Rolled Paper </td></tr>
+<tr><td><b class="b">•</b> 📄＜1F4C4, Page facing Up. Page/Paper/Files 
+ </td><td><b class="b">•</b> 📤 1F4E4, Outbox Tray. For Send Out. Copy 
+ </td><td><b class="b">•</b> 📥 1F4E5, Inbox Tray. For Receiving. Paste </td></tr>
+<tr><td><b class="b">•</b> Warning Sign ⚠&#xFE0E; (Txt) U+26A0 
+ </td><td><b class="b">•</b> Warning Sign ⚠️ (Emj) 
+ </td><td><b class="b">•</b> Left-Pointing Magnifying Glass 🔍 U+1F50D </td></tr>
+<tr><td><b class="b">•</b> Right-Pointing Magnifying Glass 🔎 U+1F50E 
+ </td><td><b class="b">•</b> Computer (Laptop) 💻 U+1F4BB 
+ </td><td><b class="b">•</b> Monitor/Screen 🖳 </td></tr>
+<tr><td><b class="b">•</b> Computer (Desktop) 🖥 U+1F5A5 </td><td> &#160; 
  </td><td> &#160; </td></tr>
 <tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
-<tr><td>• Middot “·” &amp;#183; 🍎⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 
- </td><td>• Bullet “•” &amp;#8226; 🍎⌥Opt+8 ❖Alt+249 </td><td> &#160; </td></tr>
-<tr><td>• Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; 
- </td><td>• (Vertical/Straight/Double) Quotation-Mark &quot; &amp;#34; &amp;quot; 
- </td><td>• Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; </td></tr>
-<tr><td>• Acute-Accent ´ &amp;#180; </td><td>• Full-Width Quotation-Mark ＂ 
- </td><td>• Full-Width Apostrophe ＇ </td></tr>
-<tr><td>• (Curved/Curly) Left Double Quotation-Mark: “ (&ldquo;) (&amp;#8220;) &amp;ldquo; 🍎⌥Opt+[ ❖Alt+0147 
- </td><td>• (Curved/Curly) Right Double Quotation-Mark: ” (&rdquo;) (&amp;#8221;) &amp;rdquo; 🍎⌥Opt+⇧Shift+] ❖Alt+0148 
- </td><td>• Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; </td></tr>
-<tr><td>• (Curved/Curly) Left Single-Quotation-Mark ‘ (&lsquo;) &amp;#8216; &amp;lsquo; 🍎⌥Opt+] ❖Alt+0145 
- </td><td>• (Curved/Curly) Right Single-Quotation-Mark ’ (&rsquo;) &amp;#8217; &amp;rsquo; 🍎⌥Opt+⇧Shift+] ❖Alt+0146 
- </td><td>• Single High-Reversed-9 Quotation-Mark ‛ &amp;#8219; </td></tr>
-<tr><td colspan="3">• (CJK) Reversed Double Prime Quation Mark 〝 U+301D • (CJK) Double Prime Quotation Mark 〞U+301E 
+<tr><td><b class="b">•</b> Middot “·” &amp;#183; 🍎⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 
+ </td><td><b class="b">•</b> Bullet “•” &amp;#8226; 🍎⌥Opt+8 ❖Alt+249 
+ </td><td> &#160; </td></tr>
+<tr><td><b class="b">•</b> Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; 
+ </td><td><b class="b">•</b> (Vertical/Straight/Double) Quotation-Mark &quot; &amp;#34; &amp;quot; 
+ </td><td><b class="b">•</b> Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; </td></tr>
+<tr><td><b class="b">•</b> Acute-Accent ´ &amp;#180; 
+ </td><td><b class="b">•</b> Full-Width Quotation-Mark ＂ 
+ </td><td><b class="b">•</b> Full-Width Apostrophe ＇ </td></tr>
+<tr><td><b class="b">•</b> (Curved/Curly) Left Double Quotation-Mark: “ (&ldquo;) (&amp;#8220;) &amp;ldquo; 🍎⌥Opt+[ ❖Alt+0147 
+ </td><td><b class="b">•</b> (Curved/Curly) Right Double Quotation-Mark: ” (&rdquo;) (&amp;#8221;) &amp;rdquo; 🍎⌥Opt+⇧Shift+] ❖Alt+0148 
+ </td><td><b class="b">•</b> Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; </td></tr>
+<tr><td><b class="b">•</b> (Curved/Curly) Left Single-Quotation-Mark ‘ (&lsquo;) &amp;#8216; &amp;lsquo; 🍎⌥Opt+] ❖Alt+0145 
+ </td><td><b class="b">•</b> (Curved/Curly) Right Single-Quotation-Mark ’ (&rsquo;) &amp;#8217; &amp;rsquo; 🍎⌥Opt+⇧Shift+] ❖Alt+0146 
+ </td><td><b class="b">•</b> Single High-Reversed-9 Quotation-Mark ‛ &amp;#8219; </td></tr>
+<tr><td colspan="3"><b class="b">•</b> (CJK) Reversed Double Prime Quation Mark 〝 U+301D 
+ <b class="b">•</b> (CJK) Double Prime Quotation Mark 〞U+301E 
  </td></tr>
-<tr><td>• (Single)-Vertical-Line (aka Pipe Char) "&#124;" &amp;#124; &amp;verbar; &amp;vert; 
- </td><td>• (Single)-Broken-Bar "¦" &amp;#166; &amp;brvbar; ❖AltGr+&#96; ❖AltGr+6 ❖AltGr+⇧Shift+Right\ 
+<tr><td><b class="b">•</b> (Single)-Vertical-Line (aka Pipe Char) "&#124;" &amp;#124; &amp;verbar; &amp;vert; 
+ </td><td><b class="b">•</b> (Single)-Broken-Bar "¦" &amp;#166; &amp;brvbar; ❖AltGr+&#96; ❖AltGr+6 ❖AltGr+⇧Shift+Right\ 
  </td><td> &#160; </td></tr>
-<tr><td>• Ampersand (aka And) & &amp;#38; &amp;amp; </td><td>• Less-Than &lt; &amp;#60; &amp;lt; 
- </td><td>• Greater-Than &gt; &amp;#62; &amp;gt; </td></tr>
-<tr><td>• Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; 🍎⌥Opt+Space ❖Alt+0160 ❖Alt+255 
- </td><td>• Narrow No-Break Space "&#8239;" &amp;#8239; 
- </td><td>• Space " " &amp;#32; </td></tr>
-<tr><td>• Zero-Width Space(ZWSP) "&#8203;" &amp;#8203; U+200B </td><td> &#160; 
+<tr><td><b class="b">•</b> Ampersand (aka And) & &amp;#38; &amp;amp; 
+ </td><td><b class="b">•</b> Less-Than &lt; &amp;#60; &amp;lt; 
+ </td><td><b class="b">•</b> Greater-Than &gt; &amp;#62; &amp;gt; </td></tr>
+<tr><td><b class="b">•</b> Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; 🍎⌥Opt+Space ❖Alt+0160 ❖Alt+255 
+ </td><td><b class="b">•</b> Narrow No-Break Space "&#8239;" &amp;#8239; 
+ </td><td><b class="b">•</b> Space " " &amp;#32; </td></tr>
+<tr><td><b class="b">•</b> Zero-Width Space(ZWSP) "&#8203;" &amp;#8203; U+200B 
+ </td><td> &#160; 
  </td><td> &#160; </td></tr>
-<tr><td>• Percent % &amp;#37; </td><td>• Asterisk &#42; &amp;#42; &amp;ast; 
- </td><td>• Exclamation ! &amp;#33; &amp;excl; </td></tr>
-<tr><td>• Number (aka Hash, Pound-Sign) # &amp;#35; &amp;num; </td><td>• Plus + &amp;#43; &amp;plus; 
- </td><td>• Comma , &amp;#44; &amp;comma; </td></tr>
-<tr><td>• Period (aka dot, full stop) . &amp;#46; &amp;period; 
- </td><td>• Solidus (Forward-Slash) / &amp;#47; &amp;sol; 
- </td><td>• Colon : &amp;#58; &amp;colon; </td></tr>
-<tr><td>• SemiColon ; &amp;#59; &amp;semi; </td><td>• Equals = &amp;#61; &amp;equals; 
- </td><td>• Question ? &amp;#63; &amp;quest; </td></tr>
-<tr><td>• Commercial-At @ &amp;#64; &amp;commat; 
- </td><td>• Square-Bracket &#91; &#93; &amp;#91; &amp;#93; &amp;lsqb; &amp;rsqb; 
- </td><td>• Reverse-Solidus (Back-Slash) &#92; &amp;#92; &amp;bsol; </td></tr>
-<tr><td>• Circumflex-Accent (Hat) (Caret) &#94; &amp;#94; &amp;Hat; 
- </td><td>• Low-Line (aka LowBar, UnderBar, UnderScore) &#95; &amp;#95; &amp;lowbar; 
+<tr><td><b class="b">•</b> Percent % &amp;#37; 
+ </td><td><b class="b">•</b> Asterisk &#42; &amp;#42; &amp;ast; 
+ </td><td><b class="b">•</b> Exclamation ! &amp;#33; &amp;excl; </td></tr>
+<tr><td><b class="b">•</b> Number (aka Hash, Pound-Sign) # &amp;#35; &amp;num; 
+ </td><td><b class="b">•</b> Plus + &amp;#43; &amp;plus; 
+ </td><td><b class="b">•</b> Comma , &amp;#44; &amp;comma; </td></tr>
+<tr><td><b class="b">•</b> Period (aka dot, full stop) . &amp;#46; &amp;period; 
+ </td><td><b class="b">•</b> Solidus (Forward-Slash) / &amp;#47; &amp;sol; 
+ </td><td><b class="b">•</b> Colon : &amp;#58; &amp;colon; </td></tr>
+<tr><td><b class="b">•</b> SemiColon ; &amp;#59; &amp;semi; 
+ </td><td><b class="b">•</b> Equals = &amp;#61; &amp;equals; 
+ </td><td><b class="b">•</b> Question ? &amp;#63; &amp;quest; </td></tr>
+<tr><td><b class="b">•</b> Commercial-At @ &amp;#64; &amp;commat; 
+ </td><td><b class="b">•</b> Square-Bracket &#91; &#93; &amp;#91; &amp;#93; &amp;lsqb; &amp;rsqb; 
+ </td><td><b class="b">•</b> Reverse-Solidus (Back-Slash) &#92; &amp;#92; &amp;bsol; 
+ </td></tr>
+<tr><td><b class="b">•</b> Circumflex-Accent (Hat) (Caret) &#94; &amp;#94; &amp;Hat; 
+ </td><td><b class="b">•</b> Low-Line (aka LowBar, UnderBar, UnderScore) &#95; &amp;#95; &amp;lowbar; 
  </td><td> Full-Width Asterisk ＊ U+FF0A </td></tr>
-<tr><td>• Registered-Trademark: ®(base) ®️&#xFE0F;(emj) ®&#xFE0E;(txt) &amp;#174; U+00AE 🍎⌥Opt+r ❖Alt+0174 
- </td><td>• Copyright: ©(base) ©️&#xFE0F;(emj) ©&#xFE0E;(txt) &amp;#169; U+00A9 🍎⌥Opt+g ❖Alt+0169 
- </td><td>• Trademark: ™ &amp;#8482; 🍎⌥Opt+⇧Shift+2 ❖Alt+0153 </td></tr>
-<tr><td>• Copyleft © (ɔ) </td><td> &#160; </td><td> &#160; </td></tr>
-<tr><td>• Euro: € &amp;#8364; 🍎⌥Opt+2 ❖Alt+0128 </td><td>• Cent: ¢ &amp;#162; 🍎⌥Opt+4 ❖Alt+155 
- </td><td>• Yen: ¥ &amp;#165; 🍎⌥Opt+y ❖Alt+157 </td></tr>
-<tr><td>• Pound (Currency-Sign) £ &amp;#163; 🍎⌥Opt+3 ❖Alt+156 </td><td>• Dollar $ &amp;#36; &amp;dollar; 
+<tr><td><b class="b">•</b> Registered-Trademark: ®(base) ®️&#xFE0F;(emj) ®&#xFE0E;(txt) &amp;#174; U+00AE 🍎⌥Opt+r ❖Alt+0174 
+ </td><td><b class="b">•</b> Copyright: ©(base) ©️&#xFE0F;(emj) ©&#xFE0E;(txt) &amp;#169; U+00A9 🍎⌥Opt+g ❖Alt+0169 
+ </td><td><b class="b">•</b> Trademark: ™ &amp;#8482; 🍎⌥Opt+⇧Shift+2 ❖Alt+0153 
+ </td></tr>
+<tr><td><b class="b">•</b> Copyleft © (ɔ) </td><td> &#160; </td><td> &#160; </td></tr>
+<tr><td><b class="b">•</b> Euro: € &amp;#8364; 🍎⌥Opt+2 ❖Alt+0128 
+ </td><td><b class="b">•</b> Cent: ¢ &amp;#162; 🍎⌥Opt+4 ❖Alt+155 
+ </td><td><b class="b">•</b> Yen: ¥ &amp;#165; 🍎⌥Opt+y ❖Alt+157 </td></tr>
+<tr><td><b class="b">•</b> Pound (Currency-Sign) £ &amp;#163; 🍎⌥Opt+3 ❖Alt+156 
+ </td><td><b class="b">•</b> Dollar $ &amp;#36; &amp;dollar; 
  </td><td> &#160; </td></tr>
 <tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
-<tr><td>• Apple symbol “” &amp;#63743; U+F8FF 🍎⌥Opt+⇧Shift+k (macOS) 
- </td><td>• Red Apple “🍎”(emj) &amp;#58181; U+E345 &amp;#xe345; 🍎&#xFE0E;(txt) 
- </td><td>• Green Apple “🍏” &amp;#127823; U+1F34F &amp;#x1f34f; 🍏&#xFE0E;(txt) </td></tr>
+<tr><td><b class="b">•</b> Apple symbol “” &amp;#63743; U+F8FF 🍎⌥Opt+⇧Shift+k (macOS) 
+ </td><td><b class="b">•</b> Red Apple “🍎”(emj) &amp;#58181; U+E345 &amp;#xe345; 🍎&#xFE0E;(txt) 
+ </td><td><b class="b">•</b> Green Apple “🍏” &amp;#127823; U+1F34F &amp;#x1f34f; 🍏&#xFE0E;(txt) 
+ </td></tr>
 <tr><td colspan="3"> These char(s) also look like an Apple, & displayed with Unicode Combining Diacritics: 
- • Ag (Ol-Chiki) “ᱜ” U+1C5C (Apple/Mango) &#8203;&#x300;ᱜ , ᱜ&#x300; , ᱜ&#x301; 
- , ᱜ&#x340; , ᱜ&#x341; , ᱜ&#x30C; , ᱜ&#x307;&#x341;
- • Ha (Limbu) “ᤜ” U+191C , ᤜ+&#x1928;=“ᤜᤨ” , ᤜ+&#x1927;=“ᤜᤧ” , ᤜ+&#x200C;&#x192A;=ᤜᤪ 
- , ᤜ&#x351; , ᤜ&#x357; , ᤜ&#x340; , ᤜ&#x341; , ᤜ&#x30D; , ᤜ&#x300; , ᤜ&#x301; 
- , ᤜ&#x316; , ᤜ&#x317; , ᤜ&#x30C; , ᤜ&#x32D; , ᤜ&#x31C; , ᤜ&#x345; 
- • Low-Ca (Tai-Tham) “ᨩ” U+1A29 ᨩ&#x334; , &#8203;&#x334;ᨩ , ᨩ&#x340; , ᨩ&#x341; 
- • High-Ca (Tai-Tham) “ᨧ” U+1A27 &#8203;&#x334;ᨧ , ᨧ&#x334; , ᨧ&#x340; , ᨧ&#x341; 
- • Mem-Qoph (Pahlavi) “𐭬” (R-to-L) U+10B6C • Om (WarangCiti) “𑣿” U+118FF 
- • Latin O with Acute “Ó” U+00D3 • o with grave “ò” U+00F2
- • o with acute “ó” U+00F3 • Small Omicron with Tonos/AcuteAccent (Greek) “ό” U+03CC (Apple/Orange) 
- • Ban (Georgian) “ბ” U+10D1 & “Ბ” U+1C91 (Apple/Orange)
- • AntiClockwise Clock-Circle Arrow “⥀”(base) “⥀&#xFE0E;”(txt) (Apple) 
- • Tu (Linear-B B069) “𐀶” U+10036 (Apple/Peach)
- • Ra (Telugu) “ర” U+0C30 (Apple/Orange) • Da (Telugu) “ద” (apple) U+0C26 ద&#x316; 
- , ద&#x317; , ద&#x31C; , ద&#x328; , ద&#x329; , ద&#x339; , ద&#x345; , ద&#x1AB9; , ద&#x1ABA; 
- • Ba (Mayanmar/Burmese) “ဗ” U+1017 (an Apple in sideway) &#8203;&#x334;ဗ , ဗ&#x334; 
- , ဗ&#x316; , ဗ&#x317; , ဗ&#x31C; , ဗ&#x328; , ဗ&#x329; , ဗ&#x32D; , ဗ&#x339; 
- , ဗ&#x345; , ဗ&#x1AB9; , ဗ&#x1ABA; 
- • Yesieung (Hangul Jamo) “ㆁ” U+3181 
- • Dha (Kannada) “ಧ” U+ (Upside-down Apple falling from a tree-branch)
- • Tha (Tai-Tham) “ᨵ” U+1A35 ᨵ&#x316; , ᨵ&#x317; , ᨵ&#x334; , &#8203;&#x334;ᨵ 
- , ᨵ&#x31C; , ᨵ&#x328; , ᨵ&#x329; , ᨵ&#x32D; , ᨵ&#x339; , ᨵ&#x1AB9; 
- , ᨵ&#x1ABA; </td></tr>
+ <b class="b">•</b> Ag (Ol-Chiki) “ᱜ” U+1C5C (Apple/Mango) &#8203;&#x300;ᱜ , ᱜ&#x300; ,
+  ᱜ&#x301; , ᱜ&#x340; , ᱜ&#x341; , ᱜ&#x30C; , ᱜ&#x307;&#x341;
+ <b class="b">•</b> Ha (Limbu) “ᤜ” U+191C , ᤜ+&#x1928;=“ᤜᤨ” , ᤜ+&#x1927;=“ᤜᤧ” ,
+  ᤜ+&#x200C;&#x192A;=ᤜᤪ , ᤜ&#x351; , ᤜ&#x357; , ᤜ&#x340; , ᤜ&#x341; , ᤜ&#x30D; ,
+  ᤜ&#x300; , ᤜ&#x301; , ᤜ&#x316; , ᤜ&#x317; , ᤜ&#x30C; , ᤜ&#x32D; , ᤜ&#x31C; , ᤜ&#x345; 
+ <b class="b">•</b> Low-Ca (Tai-Tham) “ᨩ” U+1A29 ᨩ&#x334; , &#8203;&#x334;ᨩ , ᨩ&#x340; , ᨩ&#x341; 
+ <b class="b">•</b> High-Ca (Tai-Tham) “ᨧ” U+1A27 &#8203;&#x334;ᨧ , ᨧ&#x334; , ᨧ&#x340; , ᨧ&#x341; 
+ <b class="b">•</b> Mem-Qoph (Pahlavi) “𐭬” (R-to-L) U+10B6C 
+ <b class="b">•</b> Om (WarangCiti) “𑣿” U+118FF 
+ <b class="b">•</b> Latin O with Acute “Ó” U+00D3 
+ <b class="b">•</b> o with grave “ò” U+00F2
+ <b class="b">•</b> o with acute “ó” U+00F3 
+ <b class="b">•</b> Small Omicron with Tonos/AcuteAccent (Greek) “ό” U+03CC (Apple/Orange) 
+ <b class="b">•</b> Ban (Georgian) “ბ” U+10D1 & “Ბ” U+1C91 (Apple/Orange)
+ <b class="b">•</b> AntiClockwise Clock-Circle Arrow “⥀”(base) “⥀&#xFE0E;”(txt) (Apple) 
+ <b class="b">•</b> Tu (Linear-B B069) “𐀶” U+10036 (Apple/Peach)
+ <b class="b">•</b> Ra (Telugu) “ర” U+0C30 (Apple/Orange) 
+ <b class="b">•</b> Da (Telugu) “ద” (apple) U+0C26 ద&#x316; , ద&#x317; ,
+  ద&#x31C; , ద&#x328; , ద&#x329; , ద&#x339; , ద&#x345; , ద&#x1AB9; , ద&#x1ABA; 
+ <b class="b">•</b> Ba (Mayanmar/Burmese) “ဗ” U+1017 (an Apple in sideway)
+  &#8203;&#x334;ဗ , ဗ&#x334; , ဗ&#x316; , ဗ&#x317; , ဗ&#x31C; , ဗ&#x328; ,
+  ဗ&#x329; , ဗ&#x32D; , ဗ&#x339; , ဗ&#x345; , ဗ&#x1AB9; , ဗ&#x1ABA; 
+ <b class="b">•</b> Yesieung (Hangul Jamo) “ㆁ” U+3181 
+ <b class="b">•</b> Dha (Kannada) “ಧ” U+ (Upside-down Apple falling from a tree-branch)
+ <b class="b">•</b> Tha (Tai-Tham) “ᨵ” U+1A35 ᨵ&#x316; , ᨵ&#x317; , ᨵ&#x334; ,
+  &#8203;&#x334;ᨵ , ᨵ&#x31C; , ᨵ&#x328; , ᨵ&#x329; , ᨵ&#x32D; , ᨵ&#x339; ,
+  ᨵ&#x1AB9; , ᨵ&#x1ABA; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of2</td><td width="33%">&#160;</td><td>⬐2of2</td></tr>
-<tr><td colspan="2">• “Squared-Plus” “⊞” &amp;#8862; U+229E used by Wikipedia 
- as indicator for Windows Flag/Logo/Key symbol, ❖Win+B ❖Win 
- </td><td>• Kangxi “⽥” U+2F65 </td></tr>
-<tr><td colspan="2">• “Black Diamond Minus White X” “❖” &amp;#10070; U+2756 used by 
- others+me to indicate Windows Flag/Logo/Key symbol 
- </td><td>• CJKUI “㗊” U+35CA </td></tr>
-<tr><td colspan="2">• Ro (Halfwidth Katakana) “ﾛ” U+FF9B (its like “White Vertical Rectangle” “▯” U+25AF) 
- </td><td>• Nu (Vai) “ꖸ” U+A5B8 </td></tr>
+<tr><td colspan="2"><b class="b">•</b> “Squared-Plus” “⊞” &amp;#8862; 
+ U+229E used by Wikipedia as indicator for Windows Flag/Logo/Key symbol, 
+ ❖Win+B ❖Win 
+ </td><td><b class="b">•</b> Kangxi “⽥” U+2F65 </td></tr>
+<tr><td colspan="2"><b class="b">•</b> “Black Diamond Minus White X” “❖” 
+ &amp;#10070; U+2756 used by others+me to indicate Windows Flag/Logo/Key symbol 
+ </td><td><b class="b">•</b> CJKUI “㗊” U+35CA </td></tr>
+<tr><td colspan="2"><b class="b">•</b> Ro (Halfwidth Katakana) “ﾛ” U+FF9B 
+ (its like “White Vertical Rectangle” “▯” U+25AF) 
+ </td><td><b class="b">•</b> Nu (Vai) “ꖸ” U+A5B8 </td></tr>
 <tr><td colspan="3"> These also look like a Windows or Windows: 
- • CJKUI “田” U+7530 
- • CJKUI “毌” U+6BCC • “畋” U+754B = 田X = WindowsX = Windows10
- • Esh (Old Italic) “𐌎” U+1030E • CJKUI “回” U+56DE • Squared-Square “⧈” U+29C8 
- • He (Old Itlaic) “𐌇” U+10307 • Squared Minus “⊟” U+229F
- • Clear-Screen symbol “⎚” U+239A • White Square with Vertical Bisecting Line “◫” U+25EB
- • CJK = Chinese Japanese Korean, CJKUI = CJK Unified Ideograph
- • Lagab (Cuneiform) “𒆸” U+121B8 • Lagab-Lagab “𒇔” U+121D4 </td></tr>
+ <b class="b">•</b> CJKUI “田” U+7530 
+ <b class="b">•</b> CJKUI “毌” U+6BCC 
+ <b class="b">•</b> “畋” U+754B = 田X = WindowsX = Windows10
+ <b class="b">•</b> Esh (Old Italic) “𐌎” U+1030E 
+ <b class="b">•</b> CJKUI “回” U+56DE <b class="b">•</b> Squared-Square “⧈” U+29C8 
+ <b class="b">•</b> He (Old Itlaic) “𐌇” U+10307 
+ <b class="b">•</b> Squared Minus “⊟” U+229F
+ <b class="b">•</b> Clear-Screen symbol “⎚” U+239A 
+ <b class="b">•</b> White Square with Vertical Bisecting Line “◫” U+25EB
+ <b class="b">•</b> CJK = Chinese Japanese Korean, CJKUI = CJK Unified Ideograph
+ <b class="b">•</b> Lagab (Cuneiform) “𒆸” U+121B8 
+ <b class="b">•</b> Lagab-Lagab “𒇔” U+121D4 </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of2</td><td width="33%">&#160;</td><td>⬐2of2</td></tr>
-<tr><td colspan="2">• Goat “🐐”(emj) &amp;#128016; U+1F410 🐐&#xFE0E;(txt) 
- often used to indicate GNU software, GNU/GPL-License, GNU-Hurd OS, GNU-BSD OS, etc. 
- Wildebeest & Goat🐐 are in similar family & have similarity.</td><td> &#160; </td></tr>
-<tr><td colspan="3">• Egypt Hiero. Goat/kid 𓃙 U+130D9 • Ibex 𓃵 U+130F5 
- • Hartebeest 𓄃 U+13103 • Oryx 𓃲 U+130F2 </td></tr>
+<tr><td colspan="2"><b class="b">•</b> Goat “🐐”(emj) &amp;#128016; U+1F410 
+ 🐐&#xFE0E;(txt) often used to indicate GNU software, GNU/GPL-License, 
+ GNU-Hurd OS, GNU-BSD OS, etc. 
+ Wildebeest & Goat🐐 are in similar family & have similarity.
+ </td><td> &#160; </td></tr>
+<tr><td colspan="3"><b class="b">•</b> Egypt Hiero. Goat/kid 𓃙 U+130D9 
+ <b class="b">•</b> Ibex 𓃵 U+130F5 
+ <b class="b">•</b> Hartebeest 𓄃 U+13103 
+ <b class="b">•</b> Oryx 𓃲 U+130F2 </td></tr>
 <tr><td>⬐1of2</td><td>&#160;</td><td>⬐2of2</td></tr>
-<tr><td colspan="2">• Penguin “🐧”(emj) &amp;#128039; U+1F427 🐧&#xFE0E;(txt) 
- often used to indicate GNU-Linux-OS. Tux is a 🐧&#xFE0E; penguin</td><td> &#160; </td></tr>
+<tr><td colspan="2"><b class="b">•</b> Penguin “🐧”(emj) &amp;#128039; 
+ U+1F427 🐧&#xFE0E;(txt) often used to indicate GNU-Linux-OS. 
+ Tux is a 🐧&#xFE0E; penguin</td><td> &#160; </td></tr>
 </table>
 <!-- : = &#58; -->
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"> Combining-Diacritics (with Unicode hex code-point)&#58; 
- • <code>◌̀</code> 300 • <code>◌́</code> 301 • <code>◌̃</code> 303 • <code>◌̆</code> 306 
- • <code>◌̇</code> 307 • <code>◌̌</code> 30C • <code>◌̍</code> 30D • <code>◌̖</code> 316 
- • <code>◌̗</code> 317 • <code>◌̜</code> 31C • <code>◌̨</code> 328 • <code>◌̩</code> 329 
- • <code>◌̭</code> 32D • <code>◌̴</code> 334 • <code>◌̹</code> 339 • <code>◌̀</code> 340 
- • <code>◌́</code> 341 • <code>◌ͅ</code> 345 • <code>◌͑</code> 351 • <code>◌͗</code> 357 
- • <code>◌ͨ</code> 368 • <code>◌᪹</code> 1AB9 • <code>◌᪺</code> 1ABA • <code>◌᷎</code> 1DCE 
- • <code>◌᷃</code> 1DC3 • <code>◌᷎</code> 1DCE • <code>◌ᷗ</code> 1DD7 • <code>◌ᷛ</code> 1DDB 
- • <code>◌ᷞ</code> 1DDE </td></tr>
+ <b class="b">•</b> <code>◌̀</code> 300 <b class="b">•</b> <code>◌́</code> 301 
+ <b class="b">•</b> <code>◌̃</code> 303 <b class="b">•</b> <code>◌̆</code> 306 
+ <b class="b">•</b> <code>◌̇</code> 307 <b class="b">•</b> <code>◌̌</code> 30C 
+ <b class="b">•</b> <code>◌̍</code> 30D <b class="b">•</b> <code>◌̖</code> 316 
+ <b class="b">•</b> <code>◌̗</code> 317 <b class="b">•</b> <code>◌̜</code> 31C 
+ <b class="b">•</b> <code>◌̨</code> 328 <b class="b">•</b> <code>◌̩</code> 329 
+ <b class="b">•</b> <code>◌̭</code> 32D <b class="b">•</b> <code>◌̴</code> 334 
+ <b class="b">•</b> <code>◌̹</code> 339 <b class="b">•</b> <code>◌̀</code> 340 
+ <b class="b">•</b> <code>◌́</code> 341 <b class="b">•</b> <code>◌ͅ</code> 345 
+ <b class="b">•</b> <code>◌͑</code> 351 <b class="b">•</b> <code>◌͗</code> 357 
+ <b class="b">•</b> <code>◌ͨ</code> 368 <b class="b">•</b> <code>◌᪹</code> 1AB9 
+ <b class="b">•</b> <code>◌᪺</code> 1ABA <b class="b">•</b> <code>◌᷎</code> 1DCE 
+ <b class="b">•</b> <code>◌᷃</code> 1DC3 <b class="b">•</b> <code>◌᷎</code> 1DCE 
+ <b class="b">•</b> <code>◌ᷗ</code> 1DD7 <b class="b">•</b> <code>◌ᷛ</code> 1DDB 
+ <b class="b">•</b> <code>◌ᷞ</code> 1DDE </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
-<tr><td>• Congruence Relation Symbol ≡ &amp;#8801; &amp;equiv; A 240 U+2261 
- </td><td>• Vertical Ellipsis ⋮ U+22EE vellip </td><td>• Menu/App key ▤ </td></tr>
-<tr><td>• Identical To ≡ </td><td>• Strictly Identical To ≣ 
- </td><td>• Greek Capital Letter Xi Ξ </td></tr>
-<tr><td>• Not-Equal-To ≠ &amp;#8800; &amp;ne; 🍎⌥Opt&#46;= 
- </td><td>• Almost-Equal-To ≈ &amp;#8776; &amp;asymp; &amp;ap; &amp;approx; 🍎⌥Opt+x 
- </td><td>• Division ÷ &amp;#247; 🍎⌥Opt+? 🍎⌥Opt+/ ❖Alt+0247 </td></tr>
-<tr><td>• Plus-Minus ± &amp;#177; 🍎⌥Opt+⇧Shift+= ❖Alt+241 
- </td><td>• Infinity ∞ &amp;#8734; &amp;infin; 🍎⌥Opt+5 </td><td> &#160; </td></tr>
+<tr><td><b class="b">•</b> Congruence Relation Symbol ≡ &amp;#8801; 
+ &amp;equiv; A 240 U+2261 
+ </td><td><b class="b">•</b> Vertical Ellipsis ⋮ U+22EE vellip 
+ </td><td><b class="b">•</b> Menu/App key ▤ </td></tr>
+<tr><td><b class="b">•</b> Identical To ≡ 
+ </td><td><b class="b">•</b> Strictly Identical To ≣ 
+ </td><td><b class="b">•</b> Greek Capital Letter Xi Ξ </td></tr>
+<tr><td><b class="b">•</b> Not-Equal-To ≠ &amp;#8800; &amp;ne; 🍎⌥Opt&#46;= 
+ </td><td><b class="b">•</b> Almost-Equal-To ≈ &amp;#8776; &amp;asymp; &amp;ap; 
+  &amp;approx; 🍎⌥Opt+x 
+ </td><td><b class="b">•</b> Division ÷ &amp;#247; 🍎⌥Opt+? 🍎⌥Opt+/ ❖Alt+0247 </td></tr>
+<tr><td><b class="b">•</b> Plus-Minus ± &amp;#177; 🍎⌥Opt+⇧Shift+= ❖Alt+241 
+ </td><td><b class="b">•</b> Infinity ∞ &amp;#8734; &amp;infin; 🍎⌥Opt+5 
+ </td><td> &#160; </td></tr>
 <tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
-<tr><td>• White Frowning Face ☹ &#65039; &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; ☹&#xFE0E;(txt) 
- </td><td>• Worried Face 😟(emj) &amp;#128543; 0x1F61F 😟&#xFE0E;(txt) 
- </td><td>• White Smiling Face ☺ &amp;#9786; 0x263A ☺&#xFE0E;(txt) </td></tr>
-<tr><td>• Slightly Smiling Face 🙂(emj) &amp;#128578; 0x1F642 🙂&#xFE0E;(txt) 
- </td><td>• Black Smiling Face ☻ &amp;#9787; 0x263B ☻&#xFE0E;(txt) </td><td> &#160; </td></tr>
+<tr><td><b class="b">•</b> White Frowning Face ☹ &#65039; 
+ &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; ☹&#xFE0E;(txt) 
+ </td><td><b class="b">•</b> Worried Face 😟(emj) &amp;#128543; 0x1F61F 😟&#xFE0E;(txt) 
+ </td><td><b class="b">•</b> White Smiling Face ☺ &amp;#9786; 0x263A ☺&#xFE0E;(txt) 
+ </td></tr>
+<tr><td><b class="b">•</b> Slightly Smiling Face 🙂(emj) &amp;#128578; 
+ 0x1F642 🙂&#xFE0E;(txt) 
+ </td><td><b class="b">•</b> Black Smiling Face ☻ &amp;#9787; 0x263B ☻&#xFE0E;(txt) 
+ </td><td> &#160; </td></tr>
 <tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
-<tr><td>• Ballot Box ☐ &amp;#9744; U+2610 
- </td><td>• Ballot Box with Check ☑ &amp;#9745; U+2611 ☑&#xFE0E;(txt) 
- </td><td>• Ballot Box with X ☒ &amp;#9746; U+2612 ☒&#xFE0E;(txt) </td></tr>
-<tr><td colspan="3">• ª U+00AA &amp;#170; &amp;ordf; • ʈ U+0288 &amp;#648; </td></tr>
+<tr><td><b class="b">•</b> Ballot Box ☐ &amp;#9744; U+2610 
+ </td><td><b class="b">•</b> Ballot Box with Check ☑ &amp;#9745; U+2611 ☑&#xFE0E;(txt) 
+ </td><td><b class="b">•</b> Ballot Box with X ☒ &amp;#9746; U+2612 ☒&#xFE0E;(txt) 
+ </td></tr>
+<tr><td colspan="3"><b class="b">•</b> ª U+00AA &amp;#170; &amp;ordf; 
+ <b class="b">•</b> ʈ U+0288 &amp;#648; </td></tr>
 </table><br/>
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
@@ -919,12 +993,12 @@ i executed below 2-commands<b>:</b>
 <tr><td border="1" width="100%"><a name="U-tips"></a> 
  <b>Unicode Tricks+Tips:</b></td></tr>
 <tr><td border="1"><a name="UVS"></a> 
- • To display an Emoji/Emoticon(emj) as a Textual(txt) glyph (if 
- available/renderable), Use a 
+ <b class="b">•</b> To display an Emoji/Emoticon(emj) as a Textual(txt) 
+ glyph (if available/renderable), Use a 
  <a href="https://en.Wikipedia.org/wiki/Variant%5Fform%5F%28Unicode%29#Variation%5FSelectors%5Fblock" target="_blank">VS15</a>-char(&amp;#xFE0E; 
  or &amp;#65038;) after the Emoji, (or apply CSS, i.e: <code>span.gray 
  { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>).<br/>
- <a name="UEM"></a>• When an 
+ <a name="UEM"></a><b class="b">•</b> When an 
  <a href="https://en.Wikipedia.org/wiki/Miscellaneous%5FSymbols%5Fand%5FPictographs#Emoji%5Fmodifiers" target="_blank">Emoji-Modifier</a> 
  character (i.e: “Emoji Modifier FitzPatrick Type-6” character 
  &amp;#x1F3FF; or &amp;#127999; U+1F3FF) is placed after an Emoji 
@@ -932,7 +1006,7 @@ i executed below 2-commands<b>:</b>
  are supported), then that Emoji will appear with dark/gray 
  color/skin-tone, but many (font/glypgh/emoji)-Rendering-engine/system 
  still does not support this "Human Diversity" for all Emojis!<br/>
- <a name="CUD"></a>• If you want to <a href="https://en.Wikipedia.org/wiki/Combining_diacritics" target="_blank">Join</a> 
+ <a name="CUD"></a><b class="b">•</b> If you want to <a href="https://en.Wikipedia.org/wiki/Combining_diacritics" target="_blank">Join</a> 
  a <a href="https://en.Wikipedia.org/wiki/Combining_Diacritical_Marks" target="_blank">diacritical-mark</a> 
  with an Unicode-char(U-char), 
  then place diacritic(s)-char(s) after the base/primary U-char in sequence, 
@@ -944,9 +1018,9 @@ i executed below 2-commands<b>:</b>
  or &amp;#847; or &amp;#x34F;) in-between them. 
  Text/Font Rendering Engine in your system may-not work/support/uptodate as 
  expected/instructed/requested by Unicode consortium/group.<br/>
- <a name="ZWNJ"></a>• If you want to display a character & a diacrtic-mark 
- separately & close to each other, but without joined-by the Font/Text 
- rendering engine/system, then place a 
+ <a name="ZWNJ"></a><b class="b">•</b> If you want to display a character 
+ & a diacrtic-mark separately & close to each other, but without joined-by 
+ the Font/Text rendering engine/system, then place a 
  <a href="https://en.Wikipedia.org/wiki/Zero-width_non-joiner" target="_blank">ZWNJ</a> 
  char(U+200C &amp;#8204; or &amp;zwnj; or &amp;#x200C;) in between them.
 </td></tr>
@@ -959,7 +1033,8 @@ i executed below 2-commands<b>:</b>
 </table><br/>
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
-<tr><td border="1" width="100%"><a name="VerifyFileAuthenticity"></a><a name="Hash"></a><a name="Digest"></a><a name="CheckSum"></a> 
+<tr><td border="1" width="100%"><a name="VerifyFileAuthenticity"></a>
+<a name="Hash"></a><a name="Digest"></a><a name="CheckSum"></a> 
  <b>Verify/Authenticate Files:</b></td></tr>
 <tr><td border="1">
  In macOSX, Calculate & Compare hash/checksum/digest code (it is a very 
@@ -1078,8 +1153,8 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  others joined to develope Blink. Many many web-browsers are actually 
  based on modified/customized version of this CM web-browser or Blink 
  engine from CM.</td></tr>
-<tr><td><a name="Ch"></a><b class="b">•</b> Ch = GC = Chrome = Google-Chrome = GCh 
- = gCh = gCH . Ch is developed by Google LLC . Many features+components 
+<tr><td><a name="Ch"></a><b class="b">•</b> Ch = GC = Chrome = Google-Chrome 
+ = GCh = gCh = gCH . Ch is developed by Google LLC . Many features+components 
  are Proprietary & runs various binaries even before user logins into their OS, 
  & does-not provide any option to completely disable/remove such malware-like 
  behavior. GC web-browser’s engine is based-on Chromium web-browser. 
@@ -1089,9 +1164,9 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  based engine.</td></tr>
 </table>
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
-<tr><td border="1" width="100%"><a name="OS"></a><b class="b">•</b> OS = Operating 
- System = OprtSys = OpSys . A collection/set of vast numbers+types of 
- programs, to assist interactions between computer User and computer 
+<tr><td border="1" width="100%"><a name="OS"></a><b class="b">•</b> OS = 
+ Operating System = OprtSys = OpSys . A collection/set of vast numbers+types 
+ of programs, to assist interactions between computer User and computer 
  hardwares & softwares and computer networks. Many OS did-not & does-not 
  have GUI. Modern OS usually contains: microKernel/monolithicKernel/nanoKernel, 
  HW layout & mngr, HW drvr, IPC mngr, I/O mngr, Virt mem mngr, Protected 
@@ -1104,21 +1179,21 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
 <tr><td><a name="Unx"></a><b class="b">•</b> Unx = Unix = Research-Unix 
  = &#42;nix. Originally developed (in 1969) by Ken Thompson & Dennis Ritchie 
  & others at-then AT&T Bell Labs.</td></tr>
-<tr><td><a name="BSD"></a><b class="b">•</b> BSD = BSD-Unix = Berkeley Software 
- Distribution . Initially “BSD” was based on Unix v5, & it was developed 
- by Bill Joy & Ozalp Babaoglu & Keith Bostic & others from CSRG(Computer 
- Systems Research Group). Uses Monolithic kernel. BSD was updated to 
- “4.3BSD-Net2”, and ~finally upd into “4.4BSD-Lite2” (after winning 
- lawsuit filed-by AT&T), then BSD development ended. But 1-pair of devs 
- released “386BSD” based on 4.3BSD-Net2. Later 386BSD & 4.4BSD-Lite were 
- forked as “NetBSD” by another group, and later one more group forked 
- 386BSD & 4.4BSD-Lite as “FreeBSD”. Later FreeBSD was forked into 
- “DragonFly-BSD”. Later NetBSD was forked into “OpenBSD”. 
+<tr><td><a name="BSD"></a><b class="b">•</b> BSD = BSD-Unix = Berkeley 
+ Software Distribution . Initially “BSD” was based on Unix v5, & it was 
+ developed by Bill Joy & Ozalp Babaoglu & Keith Bostic & others from 
+ CSRG(Computer Systems Research Group). Uses Monolithic kernel. BSD was 
+ updated to “4.3BSD-Net2”, and ~finally upd into “4.4BSD-Lite2” (after 
+ winning lawsuit filed-by AT&T), then BSD development ended. But 1-pair 
+ of devs released “386BSD” based on 4.3BSD-Net2. Later 386BSD & 4.4BSD-Lite 
+ were forked as “NetBSD” by another group, and later one more group 
+ forked 386BSD & 4.4BSD-Lite as “FreeBSD”. Later FreeBSD was forked 
+ into “DragonFly-BSD”. Later NetBSD was forked into “OpenBSD”. 
  OpenBSD group prioritizes & focuses on SECURITY, trustworthiness, etc 
  of source code & OS functionalities.</td></tr>
-<tr><td><a name="OSX"></a><b class="b">•</b> OSX = 🍎 = MacOS = macOS = macOSX . 
- An OS developed by Apple Inc. ClosedSource GUI OS. Initially based 
- on Apple Lisa OS & (Unix based) Xenix, etc, then it was changed 
+<tr><td><a name="OSX"></a><b class="b">•</b> OSX = 🍎 = MacOS = macOS 
+ = macOSX . An OS developed by Apple Inc. ClosedSource GUI OS. Initially 
+ based on Apple Lisa OS & (Unix based) Xenix, etc, then it was changed 
  into combination of Unix … BSD(4.3BSD-Net2, 386BSD, 4.4BSD-Lite2, 
  FreeBSD, NextSTEP, etc) … then finally changed into “Darwin” based OS. 
  Initially kernel was Monolithic (for 68k) & nanokernel (for PowerPC), 
@@ -1132,9 +1207,10 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  OS, initially MS-DOS was based on CP/M-OS, 86-DOS, etc. WinOS-10/Win10 
  includes MS-Edge web-browser, its initially based on Trident engine, 
  then changed into Blink(CM) engine.</td></tr>
-<tr><td><a name="Lnx"></a><b class="b">•</b> Lnx = 🐐&#xFE0E;GNU-🐧&#xFE0E;Linux 
- = GNU/Linux = GNU/Lnx, though most users shorten/call/know it as or 
- “Linux OS” or “Linux”. OpenSource (Unix-like) OS, with OpenSource Kernel. 
+<tr><td><a name="Lnx"></a><b class="b">•</b> Lnx = 
+ 🐐&#xFE0E;GNU-🐧&#xFE0E;Linux = GNU/Linux = GNU/Lnx, though most users 
+ shorten/call/know it as or “Linux OS” or “Linux”. OpenSource (Unix-like) OS, 
+ with OpenSource Kernel. 
  GNU-OS used/uses (Unix based) GNU tools/utilities developed by Richard Stallman, 
  uses GNU-Kernel (aka GNU/Hurd-Kernel). Linux-kernel (aka “Linux”, kLnx, “Freax”) 
  was developed by Linus Torvald based on Unix & MINIX-OS, to replace MINIX-OS. 
@@ -1150,15 +1226,16 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  etc etc. All of these were/are primarily a derivative of Unix.</td></tr>
 </table>
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
-<tr><td border="1" width="100%"><a name="AOS"></a><a name="Andr"></a><b class="b">•</b> 
- AOS = 🤖&#xFE0E; = Andr = Android OS . A (GUI) OS developed by Google LLC 
- (under Alphabet Inc), with members of OHA consortium, & by open-source 
- dev(s)+individual(s). Many components are open-source, except these CLOSED-SOURCE 
- components: “Google Play”, “Google Play Services”, etc, etc, etc). 
+<tr><td border="1" width="100%"><a name="AOS"></a>
+ <a name="Andr"></a><b class="b">•</b> AOS = 🤖&#xFE0E; = Andr = Android OS . 
+ A (GUI) OS developed by Google LLC (under Alphabet Inc), with members of OHA 
+ consortium, & by open-source dev(s)+individual(s). Many components are 
+ open-source, except these CLOSED-SOURCE components: “Google Play”, 
+ “Google Play Services”, etc, etc, etc). 
  Andr uses (BSD based) Bionic C-Lib, uses ToyBox (based on older BusyBox) 
  based Unix utilities, mksh, etc. Andr uses modified Linux-kernel.</td></tr>
-<tr><td><a name="iOS"></a><b class="b">•</b> iOS = 🍎📱 . Developed by Apple Inc, 
- used in/as iPhone OS, iPad OS, etc. Its a closed-source GUI OS. 
+<tr><td><a name="iOS"></a><b class="b">•</b> iOS = 🍎📱 . Developed by 
+ Apple Inc, used in/as iPhone OS, iPad OS, etc. Its a closed-source GUI OS. 
  Based on (Unix->BSD->&#41; Darwin OS. Uses Hybrid(XNU) Kernel.</td></tr>
  <!-- “(” = &#40; , “)” = &#41; -->
 <tr><td align="center" class="PAosx64-TAC">Goto <a href="#intro">Top</a> 
