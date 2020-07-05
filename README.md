@@ -113,14 +113,15 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  HomeBrew (by-default) uses Google engines/APIs/etc, 
  & Google stores+records+collects your ALL download/usage 
  patterns/profile, private-info, etc near-ForEver).</dd></dl></li>
-<li> PA = pa = Portable App.</li>
+<li> PA = pa = Portable App. Testing @github/support </li>
 </ul>
 </div>
 
 <a name="index"></a><!-- “:” = &#58;, “{” = &#123;, “}” = &#125; -->
 <dl><dd>&#160;<dl>
 <dd>Portable-Apps-OS-X-64<b>:</b> ¦ <a href="F/">F</a> 
- ¦ <a href="F/PortableFirefoxOSX64/">Portable Firefox OSX64</a> ¦<br/></dd>
+ ¦ <a href="F/PortableFirefoxOSX64/">Portable Firefox OSX64</a> 
+ ¦<br/></dd>
 <dd>Content/Index List<b>:</b> 
  ¦ <a href="#intro">Intro</a> 
  ¦ <a href="#BuildTools">Build/Run-Tools(for-Devs)</a> 
@@ -134,7 +135,8 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
   ¦ <a href="#pb-2">PB-2</a> ¦ <a href="#pb-3">PB-3</a> 
   ¦ <a href="#pb-4">PB-4</a> ¦ <a href="#pb-5">PB-5</a> &#125; 
  ¦ <a href="#Build">Build(for-Devs)</a> 
-  &#123; <a href="#b-1">B-1</a> ¦ <a href="#b-2">B-2</a> ¦ <a href="#b-3">B-3</a> 
+  &#123; <a href="#b-1">B-1</a> ¦ <a href="#b-2">B-2</a> 
+  ¦ <a href="#b-3">B-3</a> 
   ¦ <a href="#b-4">B-4</a> &#125; 
  ¦ <a href="#Post-Build">Post-Build(for-Users)</a> 
  ¦ <a href="#Test-Run">Run/Execute/Test</a> 
@@ -155,34 +157,44 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
 </dl></dd></dl>
 
 <a name="BuildTools"></a><a name="RunTools"></a>
-## BUILD TOOLS & EXECUTION/RUN TOOLS (for DEVELOPERs):
+## BUILD TOOLS & EXECUTION/RUN TOOLS (for DEVELOPERs)(and USERs):
 <div width="100%">We use (mentioned in below) tools to build our binary 
  executable, & we also use (mentioned in below) tools to assist our-project 
  tool during execution, & for executing the App either as portable app 
  or as multi-instance of same app.<dl>
-<dd>Note: <b class="b">•</b> <a href="#VerifyFileAuthenticity">Verify</a> 
+<dd>To DEVs/USERs: <b class="b">•</b> <a href="#VerifyFileAuthenticity">Verify</a> 
  files/apps after download. And download only when download url/website 
  begins with “https”.<br/>
- <b class="b">•</b> If you only-want to USE built Apps, & do not want to 
- completely compile/build, then go directly into <u><b>App</b></u> 
- sub-dir/sub-folder, shown <a href="#index">here</a> & obtain 
- <code>*-OSX-64.dmg</code> (or <code>*-OSX-64.tar.gz</code> or 
- <code>*-OSX-64.zip</code>) file release, 
+ <b class="b">•</b> TO USERs, If you only-want to USE a pre built App, 
+ & do not want to completely compile/build, then go directly into 
+ <u><b>App</b></u> sub-dir/sub-folder, shown <a href="#index">here</a> 
+ & obtain <code>"*-OSX-64.dmg"</code> (or <code>"*-OSX-64.tar.gz"</code> 
+ or <code>"*-OSX-64.zip"</code>) file release, 
  and FOLLOW “POST-BUILD (for USER)” instruction shown on 
- “Portable-<u><b>App</b>Name</u>-OSX-64” page, to know what else you have 
- to get & do.<br/>
- <b class="b">•</b> Some items/files/components we may-not or cannot be 
- directly included inside in some of the built+shared <b>App</b> archive 
- (<code>*.dmg</code>,etc) file. Either because of License/proprietary 
- restrictions or to provide you/USER more Security/Privacy: ( Some 
- files/components should not be provided by someone-else, as it may have 
- pre-fixed (or trackable) IDs/numbers/settings, etc or it has some 
- restriction(s), So it is better+safer to load/install (those specific 
- components) on your side, (to get your own & different IDs/numbers/etc). 
- And some IDs/numbers inside some items/components need-to-be or should-be 
- anonymized/randomized, to provide more Privacy/Security to USER, those 
- are/will-be done & pre-included by us, and All of such matters/modifications 
- are mentioned in that App’s page.</dd>
+ “Portable-<u><b>App</b>Name</u>-OSX-64” page, to know what else you 
+ have to get & do.<br/>
+ <b class="b">•</b> To USERs, Some items/files/components we may-not or 
+ cannot be directly included inside in some of the built+shared <b>App</b> 
+ archive (<code>"*.dmg"</code>, etc) file. 
+ Either because of License/proprietary restrictions or to provide you/USER 
+ more Security/Privacy: ( Some files/components should not be provided by 
+ someone-else, as it may have pre-fixed (or trackable) IDs/numbers/settings, 
+ etc, 
+ Or it has some type of file-sharing (or file-distribution) related 
+ restriction(s).<br/>
+ So it is better+safer to load/install (those specific components) on your 
+ side by yourself, (to get your own & different IDs/numbers/etc). 
+ And in some cases, some IDs/numbers inside some specific items/components 
+ need-to-be or should-be anonymized/randomized, to provide more 
+ Privacy/Security to USER, 
+ those are/will-be done (if possible) & pre-included by us/DEVs, 
+ and All of such matters/modifications are mentioned in that (Portable) 
+ App’s webpage.<br/>
+ To USERs, you can skip below BUILD-TOOLS & Other sections which are 
+ for DEVELOPERs, & Goto next "<a href="#Post-Build">POST-BUILD(for USERs)</a>" 
+ section (in this page), 
+ Or goto the "POST-BUILD(for USERs)" section in the (Portable) App’s 
+ webpage, from which you want to obtain the (Portable) App.</dd>
 </dl>
 </div>
 
@@ -214,9 +226,9 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  iOS simulator, source-code management, Frameworks & Tools, 
  Command-Line-Tools(CLT), etc, etc, etc, etc.<br/>
  At currrent stage of this project, we will-be/are using only/mostly 
- Command-Line-Tools (CLT) portion of Xcode. CLT includes: SDK frameworks 
- & headers, compiler (<code>gcc</code>, <code>LLVM</code>, etc), Linker, 
- Make, etc etc.<dl><dd> 
+ Command-Line-Tools (<b>CLT</b>) portion of Xcode. CLT includes: SDK 
+ frameworks & headers, compiler (<code>gcc</code>, <code>LLVM</code>, 
+ etc), Linker, Make, etc etc.<dl><dd> 
  to install Xcode-CLT, run this command in Terminal window<b>:</b><br/>
  &#160;&#160;<code>xcode-select --install</code><br/>
  or, Visit Apple Dev site (and create a “free” account) & obtain only 
@@ -257,12 +269,13 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  New website: 
  <a href="https://Sveinbjorn.org/platypus" target="_blank">https://Sveinbjorn.org/platypus</a><br/>
  GitHub: https://GitHub.com/sveinbjornt/Platypus<br/>
- Platypus is licensed under <a href="BSD-3-clause.txt">BSD-3-clause</a>, & Platypus 
- (v5.3 & later version) seems to be able to generate 64bit-only compatible app bundles, 
- but it does not (digitally) sign or provides any option to sign the generated app 
- bundle, So it seems, only Admin level privileged user can use+run Platypus generated 
- apps in 64bit-only macOSX(Catalina & macOSX after it), and (it appears v5.3 & later 
- version generated) apps can also be run/used in 64bit+32bit supported macOSX(Mojave 
+ Platypus is licensed under <a href="BSD-3-clause.txt">BSD-3-clause</a>, & 
+ Platypus (v5.3 & later version) seems to be able to generate 64bit-only 
+ compatible app bundles, but it does not (digitally) sign or provides any 
+ option to sign the generated app bundle, So it seems, only Admin level 
+ privileged user can use+run Platypus generated apps in 64bit-only 
+ macOSX(Catalina & macOSX after it), and (it appears v5.3 & later version 
+ generated) apps can also be run/used in 64bit+32bit supported macOSX(Mojave 
  & macOSX before it) by a less privileged user.<br/>
  To wrap an App for macOSX Mojave & before it, use v4.9. 
  Zip file is 1.7 MBytes, MD5<b>:</b>076f27017fde028948fe560dd7457b71, 
@@ -313,24 +326,27 @@ we will use this-project & this is where we will work + create/build
 our App that will/can run on both: 64-bit-only macOSX (Catalina & macOSX 
 after it) & also on 64bit+32bit based older macOSX (Mojave & macOSX 
 before it).<br/>
-<div width="100%"><a name="pb-1"></a>PB-1: Suppose, We are working-on/building 
- this project from below (example) folder<b>:</b>
-<dl><dd><!-- “:” = &#58; --><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/"</code>
-<dl><dd>Above folder can also be accessed in this shorter way in (Catalina or) 
- macOS (after it)<b>:</b><br/>
+<div width="100%"><a name="pb-1"></a>PB-1: Suppose, We are 
+ working-on/building this project from below (example) 
+ folder<b>:</b><!-- “:” = &#58; --> 
+<dl><dd> 
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/"</code>
+<dl><dd>Above folder can also be accessed in this shorter way in 
+ (Catalina or) macOS (after it)<b>:</b><br/>
  &#160;<code>"/Projects/Portable-Apps-OS-X-64/"</code><br/>
- Follow <a href="#LoadFoldersUnderRootFolder">Create Folder(s) Under RootFolder</a> 
+ Follow 
+ <a href="#LoadFoldersUnderRootFolder">Create Folder(s) Under RootFolder</a> 
  section for macOS Catalina or macOS after it.
 </dd></dl>
- ( Another option is to create a build/developement related folder “PA-OSX64” 
- inside your own userspace<b>:</b>
+ ( Another option is to create a build/developement related folder 
+ “PA-OSX64” inside your own userspace<b>:</b>
 <dl><dd>
   <code>"/Users/MyUserName/MyProjects/PA-OSX64/"</code> )<br/>
   ( PA = pa = Portable App )
 </dd></dl>
 </dd></dl><!-- “.” = &#46;, “<” = &lt;, “>” = &gt;, “#” = &#35; -->
 <dl><dd><a name="DupliLICN"></a><a name="DupliRDME"></a><b>Note:</b> 
- To <b>Devs</b>, You Must Create <b>DUPLICATE</b>-Files 
+ To <b>DEVs</b>, You Must Create <b>DUPLICATE</b>-Files 
  For “LICENSE” & “README&#46;md” File(s), & Duplicates Must Have 
  Different File<b>NAME</b> <b>:</b> 
  For Any Item(Program / Script / Tool / License / ReadMe file, etc) 
@@ -365,8 +381,8 @@ before it).<br/>
 </dl>
 </div><br/>
 
-<div width="100%"><a name="pb-2"></a>PB-2: Obtain NEW Platypus (at the 
- time of writing this README&#46;md, it is/was v5.3),<br/>
+<div width="100%"><a name="pb-2"></a>PB-2: Obtain NEW Platypus (at 
+ the time of writing this README&#46;md, it is/was v5.3),<br/>
  &#160;&#160; from here:<!-- “.” = &#46; , “*” = &#42; --> 
  <a href="https://Sveinbjorn.org/platypus" target="_blank">https://Sveinbjorn.org/platypus</a><br/>
  and install in your Mac computer, new version allows to build 
@@ -428,7 +444,8 @@ before it).<br/>
  & also shown below<b>:</b><br/>
  <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/"</code><br/>
  ( above location’s shorter form is:<br/>
- <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/"</code> )<br/>
+ <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/"</code> 
+ )<br/>
  then Create another sub-dir with “AppName”, under that 
  single-letter sub-dir:<br/>
  <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/"</code><br/>
@@ -441,10 +458,10 @@ before it).<br/>
  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX-Old/"</code><br/>
  or, <code>"/Users/MyUserName/MyProjects/PA-OSX64/AppName-OSX/"</code> )<br/>
  ( NOTE: Use “<b>OSX</b>” or “<b>OSX-Old</b>” (and <b>Not</b>-“<b>OSX64</b>”) 
- in the End, to indicate the App inside this folder is Not-Yet-Converted into 
- a <b>“</b>Portable<b>OSX64</b>App<b>”</b>, & this App (very likely) was 
- obtained from “OsxPortableApps”/“FreeSMUG” site . PA = pa = Portable App. 
- )</dd></dl>
+ in the End, to indicate the App inside this folder is Not-Yet-Converted 
+ into a <b>“</b>Portable<b>OSX64</b>App<b>”</b>, & this App (very likely) 
+ was obtained from “OsxPortableApps”/“FreeSMUG” site . PA = pa = Portable 
+ App. )</dd></dl>
 </div>
 <div width="100%"><b>f:</b> Create another sub-dir <code>"PA-AppName-OSX64"</code> 
  under the location shown in <b>PB-5-a</b> step:<dl><dd> 
@@ -455,8 +472,8 @@ before it).<br/>
  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/"</code> 
  )</dd></dl>
 </div>
-<b>g:</b> After following the step PB-5-e, you will/should find a folder 
- <code>"Portable AppName OS X"</code> inside 
+<b>g:</b> After following the step PB-5-e, you will/should find a 
+ folder <code>"Portable AppName OS X"</code> inside 
  <code>".../PortableAppNameOSX-Old/"</code> folder (or in 
  <code>".../PA-AppName-OSX-Old/"</code> folder). And inside 
  that folder, you will/should find the portable app bundle 
@@ -472,7 +489,7 @@ before it).<br/>
 </div>
 <div width="100%"><b>i-1:</b><!-- “:” = &#58; --> Copy these 2-folders: 
  <code>"English.lproj"</code> (and <code>"profile"</code> 
- if it exists), from below location (this location is inside the 
+ if it exists), from below location (and below location is inside the 
  bundle)&#58;<dl>
  <dd><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/Portable AppName OS X/Portable AppName.app/Contents/Resources/"</code><br/>
  ( above location’s shorter form is: 
@@ -616,7 +633,8 @@ Users/you may have to download+add some files or apps or components
  You may OPTIONALLY do these:<dl><dd>
  <b class="b">•</b> Which “profile” folder is used by the running 
   AppName ?<dl><dd>
-  AppName > main menu > ... > Show Profile Folder: ...</dd></dl></dd></dl>
+  AppName > main menu > ... > Show Profile Folder: ...</dd></dl>
+ </dd></dl>
 </div>
 
 
@@ -627,8 +645,8 @@ If you have spotted an bug/error/fault, then let us know,<br/>
  And during/after build, if you received/observed/found Error(s)<br/>
  please Write down what Error⒮ you’re getting,<br/>
  try to research & try to solve as much possible,<br/>
- and/then Let us know about your unsolved errors & Share your code 
- changes<br/>
+ and/then Let us know about your unsolved errors & Share your 
+ code changes<br/>
  by creating an 
  <a href="https://GitHub.com/PortableApps64/PortableAppsOSX64/issues/new/choose">Issue</a> 
  here in GitHub, & submit info.<br/>
@@ -660,7 +678,8 @@ Thanks in advance.
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="LoadFoldersUnderRootFolder"></a> 
- <b>Create Directory Under Root-Directory:</b> ( Directory = Folder )</td></tr>
+ <b>Create Directory Under Root-Directory:</b> ( Directory = Folder )
+ </td></tr>
 <tr><td border="1"> 
  To create "MyProjects" folder in mac hard drive (not under your user-name), 
  you may edit <code>synthetic.conf</code><b>:</b>
@@ -790,31 +809,45 @@ i executed below 2-commands<b>:</b>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
-<tr><td><b class="b">•</b> Middot “·” &amp;#183; 🍎⌥Opt+⇧Shift+9 ❖Alt+250 / ❖Alt+0183 
+<tr><td><b class="b">•</b> Middot “·” &amp;#183; 🍎⌥Opt+⇧Shift+9 
+ ❖Alt+250 / ❖Alt+0183 
  </td><td><b class="b">•</b> Bullet “•” &amp;#8226; 🍎⌥Opt+8 ❖Alt+249 
  </td><td> &#160; </td></tr>
-<tr><td><b class="b">•</b> Apostrophe (aka Vertical Single-Quote) &#39; &amp;#39; &amp;apos; 
- </td><td><b class="b">•</b> (Vertical/Straight/Double) Quotation-Mark &quot; &amp;#34; &amp;quot; 
- </td><td><b class="b">•</b> Grave-Accent (aka Backtick/Tick, DiacriticalGrave) &#96; (&#96;) &amp;grave; &amp;#96; </td></tr>
+<tr><td><b class="b">•</b> Apostrophe (aka Vertical Single-Quote) 
+ &#39; &amp;#39; &amp;apos; 
+ </td><td><b class="b">•</b> (Vertical/Straight/Double) Quotation-Mark 
+  &quot; &amp;#34; &amp;quot; 
+ </td><td><b class="b">•</b> Grave-Accent (aka Backtick/Tick, DiacriticalGrave) 
+  &#96; (&#96;) &amp;grave; &amp;#96; </td></tr>
 <tr><td><b class="b">•</b> Acute-Accent ´ &amp;#180; 
  </td><td><b class="b">•</b> Full-Width Quotation-Mark ＂ 
  </td><td><b class="b">•</b> Full-Width Apostrophe ＇ </td></tr>
-<tr><td><b class="b">•</b> (Curved/Curly) Left Double Quotation-Mark: “ (&ldquo;) (&amp;#8220;) &amp;ldquo; 🍎⌥Opt+[ ❖Alt+0147 
- </td><td><b class="b">•</b> (Curved/Curly) Right Double Quotation-Mark: ” (&rdquo;) (&amp;#8221;) &amp;rdquo; 🍎⌥Opt+⇧Shift+] ❖Alt+0148 
- </td><td><b class="b">•</b> Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; </td></tr>
-<tr><td><b class="b">•</b> (Curved/Curly) Left Single-Quotation-Mark ‘ (&lsquo;) &amp;#8216; &amp;lsquo; 🍎⌥Opt+] ❖Alt+0145 
- </td><td><b class="b">•</b> (Curved/Curly) Right Single-Quotation-Mark ’ (&rsquo;) &amp;#8217; &amp;rsquo; 🍎⌥Opt+⇧Shift+] ❖Alt+0146 
- </td><td><b class="b">•</b> Single High-Reversed-9 Quotation-Mark ‛ &amp;#8219; </td></tr>
-<tr><td colspan="3"><b class="b">•</b> (CJK) Reversed Double Prime Quation Mark 〝 U+301D 
+<tr><td><b class="b">•</b> (Curved/Curly) Left Double Quotation-Mark: “ 
+ (&ldquo;) (&amp;#8220;) &amp;ldquo; 🍎⌥Opt+[ ❖Alt+0147 
+ </td><td><b class="b">•</b> (Curved/Curly) Right Double Quotation-Mark: ” 
+  (&rdquo;) (&amp;#8221;) &amp;rdquo; 🍎⌥Opt+⇧Shift+] ❖Alt+0148 
+ </td><td><b class="b">•</b> Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; 
+ </td></tr>
+<tr><td><b class="b">•</b> (Curved/Curly) Left Single-Quotation-Mark ‘ 
+ (&lsquo;) &amp;#8216; &amp;lsquo; 🍎⌥Opt+] ❖Alt+0145 
+ </td><td><b class="b">•</b> (Curved/Curly) Right Single-Quotation-Mark ’ 
+  (&rsquo;) &amp;#8217; &amp;rsquo; 🍎⌥Opt+⇧Shift+] ❖Alt+0146 
+ </td><td><b class="b">•</b> Single High-Reversed-9 Quotation-Mark ‛ 
+  &amp;#8219; </td></tr>
+<tr><td colspan="3"><b class="b">•</b> (CJK) Reversed Double Prime 
+ Quation Mark 〝 U+301D 
  <b class="b">•</b> (CJK) Double Prime Quotation Mark 〞U+301E 
  </td></tr>
-<tr><td><b class="b">•</b> (Single)-Vertical-Line (aka Pipe Char) "&#124;" &amp;#124; &amp;verbar; &amp;vert; 
- </td><td><b class="b">•</b> (Single)-Broken-Bar "¦" &amp;#166; &amp;brvbar; ❖AltGr+&#96; ❖AltGr+6 ❖AltGr+⇧Shift+Right\ 
+<tr><td><b class="b">•</b> (Single)-Vertical-Line (aka Pipe Char) "&#124;" 
+ &amp;#124; &amp;verbar; &amp;vert; 
+ </td><td><b class="b">•</b> (Single)-Broken-Bar "¦" &amp;#166; &amp;brvbar; 
+  ❖AltGr+&#96; ❖AltGr+6 ❖AltGr+⇧Shift+Right\ 
  </td><td> &#160; </td></tr>
 <tr><td><b class="b">•</b> Ampersand (aka And) & &amp;#38; &amp;amp; 
  </td><td><b class="b">•</b> Less-Than &lt; &amp;#60; &amp;lt; 
  </td><td><b class="b">•</b> Greater-Than &gt; &amp;#62; &amp;gt; </td></tr>
-<tr><td><b class="b">•</b> Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; 🍎⌥Opt+Space ❖Alt+0160 ❖Alt+255 
+<tr><td><b class="b">•</b> Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; 
+ 🍎⌥Opt+Space ❖Alt+0160 ❖Alt+255 
  </td><td><b class="b">•</b> Narrow No-Break Space "&#8239;" &amp;#8239; 
  </td><td><b class="b">•</b> Space " " &amp;#32; </td></tr>
 <tr><td><b class="b">•</b> Zero-Width Space(ZWSP) "&#8203;" &amp;#8203; U+200B 
@@ -833,17 +866,22 @@ i executed below 2-commands<b>:</b>
  </td><td><b class="b">•</b> Equals = &amp;#61; &amp;equals; 
  </td><td><b class="b">•</b> Question ? &amp;#63; &amp;quest; </td></tr>
 <tr><td><b class="b">•</b> Commercial-At @ &amp;#64; &amp;commat; 
- </td><td><b class="b">•</b> Square-Bracket &#91; &#93; &amp;#91; &amp;#93; &amp;lsqb; &amp;rsqb; 
- </td><td><b class="b">•</b> Reverse-Solidus (Back-Slash) &#92; &amp;#92; &amp;bsol; 
+ </td><td><b class="b">•</b> Square-Bracket &#91; &#93; &amp;#91; &amp;#93; 
+  &amp;lsqb; &amp;rsqb; 
+ </td><td><b class="b">•</b> Reverse-Solidus (Back-Slash) &#92; &amp;#92; 
+  &amp;bsol; 
  </td></tr>
 <tr><td><b class="b">•</b> Circumflex-Accent (Hat) (Caret) &#94; &amp;#94; &amp;Hat; 
  </td><td><b class="b">•</b> Low-Line (aka LowBar, UnderBar, UnderScore) &#95; &amp;#95; &amp;lowbar; 
  </td><td> Full-Width Asterisk ＊ U+FF0A </td></tr>
-<tr><td><b class="b">•</b> Registered-Trademark: ®(base) ®️&#xFE0F;(emj) ®&#xFE0E;(txt) &amp;#174; U+00AE 🍎⌥Opt+r ❖Alt+0174 
- </td><td><b class="b">•</b> Copyright: ©(base) ©️&#xFE0F;(emj) ©&#xFE0E;(txt) &amp;#169; U+00A9 🍎⌥Opt+g ❖Alt+0169 
+<tr><td><b class="b">•</b> Registered-Trademark: ®(base) ®️&#xFE0F;(emj) 
+ ®&#xFE0E;(txt) &amp;#174; U+00AE 🍎⌥Opt+r ❖Alt+0174 
+ </td><td><b class="b">•</b> Copyright: ©(base) ©️&#xFE0F;(emj) ©&#xFE0E;(txt) 
+  &amp;#169; U+00A9 🍎⌥Opt+g ❖Alt+0169 
  </td><td><b class="b">•</b> Trademark: ™ &amp;#8482; 🍎⌥Opt+⇧Shift+2 ❖Alt+0153 
  </td></tr>
-<tr><td><b class="b">•</b> Copyleft © (ɔ) </td><td> &#160; </td><td> &#160; </td></tr>
+<tr><td><b class="b">•</b> Copyleft © (ɔ) </td><td> &#160; </td><td> &#160; 
+ </td></tr>
 <tr><td><b class="b">•</b> Euro: € &amp;#8364; 🍎⌥Opt+2 ❖Alt+0128 
  </td><td><b class="b">•</b> Cent: ¢ &amp;#162; 🍎⌥Opt+4 ❖Alt+155 
  </td><td><b class="b">•</b> Yen: ¥ &amp;#165; 🍎⌥Opt+y ❖Alt+157 </td></tr>
@@ -854,38 +892,48 @@ i executed below 2-commands<b>:</b>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
-<tr><td><b class="b">•</b> Apple symbol “” &amp;#63743; U+F8FF 🍎⌥Opt+⇧Shift+k (macOS) 
- </td><td><b class="b">•</b> Red Apple “🍎”(emj) &amp;#58181; U+E345 &amp;#xe345; 🍎&#xFE0E;(txt) 
- </td><td><b class="b">•</b> Green Apple “🍏” &amp;#127823; U+1F34F &amp;#x1f34f; 🍏&#xFE0E;(txt) 
+<tr><td><b class="b">•</b> Apple symbol “” &amp;#63743; U+F8FF 🍎⌥Opt+⇧Shift+k 
+ (macOS) 
+ </td><td><b class="b">•</b> Red Apple “🍎”(emj) &amp;#58181; U+E345 &amp;#xe345; 
+  🍎&#xFE0E;(txt) 
+ </td><td><b class="b">•</b> Green Apple “🍏” &amp;#127823; U+1F34F &amp;#x1f34f; 
+  🍏&#xFE0E;(txt) 
  </td></tr>
 <tr><td colspan="3"> These char(s) also look like an Apple, & displayed with Unicode Combining Diacritics: 
- <b class="b">•</b> Ag (Ol-Chiki) “ᱜ” U+1C5C (Apple/Mango) &#8203;&#x300;ᱜ , ᱜ&#x300; ,
-  ᱜ&#x301; , ᱜ&#x340; , ᱜ&#x341; , ᱜ&#x30C; , ᱜ&#x307;&#x341;
+ <b class="b">•</b> Ag (Ol-Chiki) “ᱜ” U+1C5C (Apple/Mango) &#8203;&#x300;ᱜ ,
+  ᱜ&#x300; , ᱜ&#x301; , ᱜ&#x340; , ᱜ&#x341; , ᱜ&#x30C; , ᱜ&#x307;&#x341;
  <b class="b">•</b> Ha (Limbu) “ᤜ” U+191C , ᤜ+&#x1928;=“ᤜᤨ” , ᤜ+&#x1927;=“ᤜᤧ” ,
   ᤜ+&#x200C;&#x192A;=ᤜᤪ , ᤜ&#x351; , ᤜ&#x357; , ᤜ&#x340; , ᤜ&#x341; , ᤜ&#x30D; ,
-  ᤜ&#x300; , ᤜ&#x301; , ᤜ&#x316; , ᤜ&#x317; , ᤜ&#x30C; , ᤜ&#x32D; , ᤜ&#x31C; , ᤜ&#x345; 
- <b class="b">•</b> Low-Ca (Tai-Tham) “ᨩ” U+1A29 ᨩ&#x334; , &#8203;&#x334;ᨩ , ᨩ&#x340; , ᨩ&#x341; 
- <b class="b">•</b> High-Ca (Tai-Tham) “ᨧ” U+1A27 &#8203;&#x334;ᨧ , ᨧ&#x334; , ᨧ&#x340; , ᨧ&#x341; 
+  ᤜ&#x300; , ᤜ&#x301; , ᤜ&#x316; , ᤜ&#x317; , ᤜ&#x30C; , ᤜ&#x32D; , ᤜ&#x31C; ,
+  ᤜ&#x345; 
+ <b class="b">•</b> Low-Ca (Tai-Tham) “ᨩ” U+1A29 ᨩ&#x334; , &#8203;&#x334;ᨩ ,
+  ᨩ&#x340; , ᨩ&#x341; 
+ <b class="b">•</b> High-Ca (Tai-Tham) “ᨧ” U+1A27 &#8203;&#x334;ᨧ , ᨧ&#x334; ,
+  ᨧ&#x340; , ᨧ&#x341; 
  <b class="b">•</b> Mem-Qoph (Pahlavi) “𐭬” (R-to-L) U+10B6C 
  <b class="b">•</b> Om (WarangCiti) “𑣿” U+118FF 
  <b class="b">•</b> Latin O with Acute “Ó” U+00D3 
  <b class="b">•</b> o with grave “ò” U+00F2
  <b class="b">•</b> o with acute “ó” U+00F3 
- <b class="b">•</b> Small Omicron with Tonos/AcuteAccent (Greek) “ό” U+03CC (Apple/Orange) 
+ <b class="b">•</b> Small Omicron with Tonos/AcuteAccent (Greek) “ό” U+03CC 
+  (Apple/Orange) 
  <b class="b">•</b> Ban (Georgian) “ბ” U+10D1 & “Ბ” U+1C91 (Apple/Orange)
- <b class="b">•</b> AntiClockwise Clock-Circle Arrow “⥀”(base) “⥀&#xFE0E;”(txt) (Apple) 
+ <b class="b">•</b> AntiClockwise Clock-Circle Arrow “⥀”(base) 
+  “⥀&#xFE0E;”(txt) (Apple) 
  <b class="b">•</b> Tu (Linear-B B069) “𐀶” U+10036 (Apple/Peach)
  <b class="b">•</b> Ra (Telugu) “ర” U+0C30 (Apple/Orange) 
  <b class="b">•</b> Da (Telugu) “ద” (apple) U+0C26 ద&#x316; , ద&#x317; ,
-  ద&#x31C; , ద&#x328; , ద&#x329; , ద&#x339; , ద&#x345; , ద&#x1AB9; , ద&#x1ABA; 
+  ద&#x31C; , ద&#x328; , ద&#x329; , ద&#x339; , ద&#x345; , ద&#x1AB9; ,
+  ద&#x1ABA; 
  <b class="b">•</b> Ba (Mayanmar/Burmese) “ဗ” U+1017 (an Apple in sideway)
   &#8203;&#x334;ဗ , ဗ&#x334; , ဗ&#x316; , ဗ&#x317; , ဗ&#x31C; , ဗ&#x328; ,
   ဗ&#x329; , ဗ&#x32D; , ဗ&#x339; , ဗ&#x345; , ဗ&#x1AB9; , ဗ&#x1ABA; 
  <b class="b">•</b> Yesieung (Hangul Jamo) “ㆁ” U+3181 
- <b class="b">•</b> Dha (Kannada) “ಧ” U+ (Upside-down Apple falling from a tree-branch)
- <b class="b">•</b> Tha (Tai-Tham) “ᨵ” U+1A35 ᨵ&#x316; , ᨵ&#x317; , ᨵ&#x334; ,
-  &#8203;&#x334;ᨵ , ᨵ&#x31C; , ᨵ&#x328; , ᨵ&#x329; , ᨵ&#x32D; , ᨵ&#x339; ,
-  ᨵ&#x1AB9; , ᨵ&#x1ABA; </td></tr>
+ <b class="b">•</b> Dha (Kannada) “ಧ” U+ (Upside-down Apple falling 
+  from a tree-branch)
+ <b class="b">•</b> Tha (Tai-Tham) “ᨵ” U+1A35 ᨵ&#x316; , ᨵ&#x317; ,
+  ᨵ&#x334; , &#8203;&#x334;ᨵ , ᨵ&#x31C; , ᨵ&#x328; , ᨵ&#x329; , ᨵ&#x32D; ,
+  ᨵ&#x339; , ᨵ&#x1AB9; , ᨵ&#x1ABA; </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of2</td><td width="33%">&#160;</td><td>⬐2of2</td></tr>
@@ -894,7 +942,8 @@ i executed below 2-commands<b>:</b>
  ❖Win+B ❖Win 
  </td><td><b class="b">•</b> Kangxi “⽥” U+2F65 </td></tr>
 <tr><td colspan="2"><b class="b">•</b> “Black Diamond Minus White X” “❖” 
- &amp;#10070; U+2756 used by others+me to indicate Windows Flag/Logo/Key symbol 
+ &amp;#10070; U+2756 used by others+me to indicate Windows Flag/Logo/Key 
+ symbol 
  </td><td><b class="b">•</b> CJKUI “㗊” U+35CA </td></tr>
 <tr><td colspan="2"><b class="b">•</b> Ro (Halfwidth Katakana) “ﾛ” U+FF9B 
  (its like “White Vertical Rectangle” “▯” U+25AF) 
@@ -960,7 +1009,8 @@ i executed below 2-commands<b>:</b>
 <tr><td><b class="b">•</b> Not-Equal-To ≠ &amp;#8800; &amp;ne; 🍎⌥Opt&#46;= 
  </td><td><b class="b">•</b> Almost-Equal-To ≈ &amp;#8776; &amp;asymp; &amp;ap; 
   &amp;approx; 🍎⌥Opt+x 
- </td><td><b class="b">•</b> Division ÷ &amp;#247; 🍎⌥Opt+? 🍎⌥Opt+/ ❖Alt+0247 </td></tr>
+ </td><td><b class="b">•</b> Division ÷ &amp;#247; 🍎⌥Opt+? 🍎⌥Opt+/ ❖Alt+0247 
+ </td></tr>
 <tr><td><b class="b">•</b> Plus-Minus ± &amp;#177; 🍎⌥Opt+⇧Shift+= ❖Alt+241 
  </td><td><b class="b">•</b> Infinity ∞ &amp;#8734; &amp;infin; 🍎⌥Opt+5 
  </td><td> &#160; </td></tr>
@@ -970,12 +1020,15 @@ i executed below 2-commands<b>:</b>
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
 <tr><td><b class="b">•</b> White Frowning Face ☹ &#65039; 
  &amp;#9785;/&amp;#65039; &amp;#x2639;/&amp;#xFE0F; ☹&#xFE0E;(txt) 
- </td><td><b class="b">•</b> Worried Face 😟(emj) &amp;#128543; 0x1F61F 😟&#xFE0E;(txt) 
- </td><td><b class="b">•</b> White Smiling Face ☺ &amp;#9786; 0x263A ☺&#xFE0E;(txt) 
+ </td><td><b class="b">•</b> Worried Face 😟(emj) &amp;#128543; 0x1F61F 
+  😟&#xFE0E;(txt) 
+ </td><td><b class="b">•</b> White Smiling Face ☺ &amp;#9786; 0x263A 
+  ☺&#xFE0E;(txt) 
  </td></tr>
 <tr><td><b class="b">•</b> Slightly Smiling Face 🙂(emj) &amp;#128578; 
  0x1F642 🙂&#xFE0E;(txt) 
- </td><td><b class="b">•</b> Black Smiling Face ☻ &amp;#9787; 0x263B ☻&#xFE0E;(txt) 
+ </td><td><b class="b">•</b> Black Smiling Face ☻ &amp;#9787; 0x263B 
+  ☻&#xFE0E;(txt) 
  </td><td> &#160; </td></tr>
 <tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
 </table>
@@ -1013,13 +1066,13 @@ i executed below 2-commands<b>:</b>
  with an Unicode-char(U-char), 
  then place diacritic(s)-char(s) after the base/primary U-char in sequence, 
  in such case Text/Font Rendering Engine will/may join them as a sequence 
- of single-char to display, so your Search/Find(Ctrl+F) option/button may or 
- may-not work to find it, But if you want to join AND also want to make sure 
- to be able to search/find those char(s) separately, then place the 
+ of single-char to display, so your Search/Find(Ctrl+F) option/button may 
+ or may-not work to find it, But if you want to join AND also want to make 
+ sure to be able to search/find those char(s) separately, then place the 
  <a href="https://en.Wikipedia.org/wiki/Combining_grapheme_joiner" target="_blank">CGJ</a>-char(U+034F 
  or &amp;#847; or &amp;#x34F;) in-between them. 
- Text/Font Rendering Engine in your system may-not work/support/uptodate as 
- expected/instructed/requested by Unicode consortium/group.<br/>
+ Text/Font Rendering Engine in your system may-not work/support/uptodate 
+ as expected/instructed/requested by Unicode consortium/group.<br/>
  <a name="ZWNJ"></a><b class="b">•</b> If you want to display a character 
  & a diacrtic-mark separately & close to each other, but without joined-by 
  the Font/Text rendering engine/system, then place a 
@@ -1049,29 +1102,41 @@ i executed below 2-commands<b>:</b>
  & <code>openssl</code> usage also shown<b>:</b>
 <dl><dd><!-- “.” is &#46; -->
  <tt>０┌─────────────────</tt><br/>
- <tt>１│</tt>MacNm:~ UsrNm$ <b>shasum</b> /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
- <tt>２│</tt>50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
- <tt>３│</tt>MacNm:~ UsrNm$ <b>shasum -a 1</b> /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
- <tt>４│</tt>50ff626452dfadb9cbb6a2a5e2ddf60848adf256  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
- <tt>５│</tt>MacNm:~ UsrNm$ <b>openssl sha1</b> /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
- <tt>６│</tt>SHA1(/Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg)= 50ff626452dfadb9cbb6a2a5e2ddf60848adf256<br/>
+ <tt>１│</tt>MacNm:~ UsrNm$ <b>shasum</b> 
+  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>２│</tt>50ff626452dfadb9cbb6a2a5e2ddf60848adf256 
+  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>３│</tt>MacNm:~ UsrNm$ <b>shasum -a 1</b> 
+  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>４│</tt>50ff626452dfadb9cbb6a2a5e2ddf60848adf256 
+  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>５│</tt>MacNm:~ UsrNm$ <b>openssl sha1</b> 
+  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>６│</tt>SHA1(/Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg)= 
+  50ff626452dfadb9cbb6a2a5e2ddf60848adf256<br/>
  <tt>７└─────────────────</tt>
 </dd></dl>
 To calculate “SHA256” hash-code, use <code>-a 256</code> option in 
  <code>shasum</code>, & <code>openssl</code> usage also shown<b>:</b>
 <dl><dd><!-- “.” is &#46; -->
  <tt>０┌─────────────────</tt><br/>
- <tt>１│</tt>MacNm:~ UsrNm$ <b>shasum -a 256</b> /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
- <tt>２│</tt><span class="Sml">e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57</span>  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
- <tt>３│</tt>MacNm:~ UsrNm$ <b>openssl sha256</b> /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
- <tt>４│</tt>SHA256(/Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg)= <span class="Sml">e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57</span><br/>
+ <tt>１│</tt>MacNm:~ UsrNm$ <b>shasum -a 256</b> 
+  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>２│</tt><span class="Sml">e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57</span> 
+  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>３│</tt>MacNm:~ UsrNm$ <b>openssl sha256</b> 
+  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>４│</tt>SHA256(/Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg)= 
+  <span class="Sml">e0052b8423cc117c99371a97e51a6ef9948510ac9a9c0ec1f2537be3597bad57</span><br/>
  <tt>５└─────────────────</tt>
 </dd></dl>
 To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</code><b>:</b>
 <dl><dd><!-- “.” is &#46; -->
  <tt>０┌─────────────────</tt><br/>
- <tt>１│</tt>MacNm:~ UsrNm$ <b>openssl md5</b> /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
- <tt>２│</tt>MD5(/Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg)= fa6691336e22a2d83e5629533b830300<br/>
+ <tt>１│</tt>MacNm:~ UsrNm$ <b>openssl md5</b> 
+  /Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg<br/>
+ <tt>２│</tt>MD5(/Users/UsrNm/Down…/Port…Firefox…r4.1&#46;dmg)= 
+  fa6691336e22a2d83e5629533b830300<br/>
  <tt>３└─────────────────</tt>
 </dd></dl>
 </td></tr>
@@ -1088,29 +1153,41 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  can be used by less-privileged user (and ofcourse by any privileged user). 
  Apple Developer site/website (not ADP) allows to create “Free” account, 
  by using a user’s/dev’s Apple-ID, that allows to download/get some 
- basic Development related items for free, like: Xcode, Xcode-CLT, etc.</td></tr>
+ basic Development related items for free, like: Xcode, Xcode-CLT, 
+ etc.</td></tr>
 <tr><td> &#160; </td></tr>
 <tr><td align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></td></tr>
 </table><br/>
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
-<tr><td border="1" width="100%"><a name="Abbreviations"></a><b>Abbreviations:</b><br/>
- Acronyms, Recursive Backronyms & Abbreviations used here<b>:</b></td></tr>
-<tr><td><a name="abbr"></a><b class="b">•</b> Dev = Develope = Bld = Build 
- . Web-Browser = WB = WebBr . Ver = Version = v . Mem = Memory 
- . Mngr = Manager . Virtual = Virt . FileSystem = FS . Network = Net 
- . Socket = Sock . Security = Sec . Hardware = HW . Software = SW 
- . Firmware = FW . Driver = Drvr = Drv . Server = Srv . Service = Svc 
- . Graphics = Grph . Engine = Engn . JavaScript = JS . Apple = Apl 
- . Microsoft = MS . Google = Ggl . Mozilla = Mz .</td></tr>
+<tr><td border="1" width="100%"><a name="Abbreviations">
+ </a><b>Abbreviations:</b><br/>
+ Acronyms, Recursive Backronyms & Abbreviations used 
+ here<b>:</b></td></tr>
+<tr><td><a name="abbr"></a><b class="b">•</b> Dev = Develope = 
+ Bld = Build ( = Developer = Builder ) 
+ <b class="b">•</b> Web-Browser = WB = WebBr 
+ <b class="b">•</b> Ver = Version = v <b class="b">•</b> Mem = Memory 
+ <b class="b">•</b> Mngr = Manager <b class="b">•</b> Virtual = Virt 
+ <b class="b">•</b> FileSystem = FS <b class="b">•</b> Network = Net 
+ <b class="b">•</b> Socket = Sock <b class="b">•</b> Security = Sec 
+ <b class="b">•</b> Hardware = HW <b class="b">•</b> Software = SW 
+ <b class="b">•</b> Firmware = FW <b class="b">•</b> Driver = Drvr = Drv 
+ <b class="b">•</b> Server = Srv <b class="b">•</b> Service = Svc 
+ <b class="b">•</b> Graphics = Grph <b class="b">•</b> Engine = Engn 
+ <b class="b">•</b> JavaScript = JS <b class="b">•</b> Apple = Apl 
+ <b class="b">•</b> Microsoft = MS <b class="b">•</b> Google = Ggl 
+ <b class="b">•</b> Mozilla = Mz </td></tr>
 <tr><td><a name="PA"></a><b class="b">•</b> PA = Portable App 
- . Ususally kept-in & run from a user’s External/Portable drives/storage, 
- Or PA is kept-in & run from internal-Storage when a user need to run 2nd 
- or multiple instances of same PA apps with different profile(s)/settings.</td></tr>
+ . Ususally kept-in & run from a user’s External/Portable 
+ drives/storage, Or PA is kept-in & run from internal-Storage when 
+ a user need to run 2nd or multiple instances of same PA apps with 
+ different profile(s)/settings.</td></tr>
 </table><!-- “(” = %28 , “)” = %29 -->
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
-<tr><td border="1" width="100%"><a name="FF"></a><b class="b">•</b> FF = Firefox . 
+<tr><td border="1" width="100%"><a name="FF"></a><b class="b">•</b> 
+ FF = Firefox . 
  A web-browser from Mozilla Foundation. Before FF v57 it used 
  <a href="https://en.wikipedia.org/wiki/Gecko%5F%28software%29" target="_blank">Gecko</a> engine. 
  Since v57, FF was renamed as “Firefox 
@@ -1211,28 +1288,31 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  then changed into Blink(CM) engine.</td></tr>
 <tr><td><a name="Lnx"></a><b class="b">•</b> Lnx = 
  🐐&#xFE0E;GNU-🐧&#xFE0E;Linux = GNU/Linux = GNU/Lnx, though most users 
- shorten/call/know it as or “Linux OS” or “Linux”. OpenSource (Unix-like) OS, 
- with OpenSource Kernel. 
- GNU-OS used/uses (Unix based) GNU tools/utilities developed by Richard Stallman, 
- uses GNU-Kernel (aka GNU/Hurd-Kernel). Linux-kernel (aka “Linux”, kLnx, “Freax”) 
- was developed by Linus Torvald based on Unix & MINIX-OS, to replace MINIX-OS. 
+ shorten/call/know it as or “Linux OS” or “Linux”. OpenSource (Unix-like) 
+ OS, with OpenSource Kernel. 
+ GNU-OS used/uses (Unix based) GNU tools/utilities developed by Richard 
+ Stallman, uses GNU-Kernel (aka GNU/Hurd-Kernel). Linux-kernel (aka 
+ “Linux”, kLnx, “Freax”) was developed by Linus Torvald based on Unix 
+ & MINIX-OS, to replace MINIX-OS. 
  MINIX was/is based on Unix (v7) tools/utilies & it uses microkernel. 
  MINIX began to use GNU tools/utilies after GNU was released). 
- When AT&T filed lawsuit against BSD, users/devs could not get+use new/updated 
- BSD/BSD-kernel, & all users/devs realized they needed a “free” OS-&-kernel 
- without AT&T’s-restrictions, & this “Linux” was build+available exactly/around 
- that time with “free” GNU-GPL license & tools/utilities, So users/devs ended-up 
- using this “GNU/Linux” instead of BSD, & So “GNU/Linux” became popular. 
+ When AT&T filed lawsuit against BSD, users/devs could not get+use 
+ new/updated BSD/BSD-kernel, & all users/devs realized they needed 
+ a “free” OS-&-kernel without AT&T’s-restrictions, & this “Linux” 
+ was built+available exactly/around that time with “free” GNU-GPL 
+ license & GNU-tools/utilities, So users/devs ended-up using this 
+ “GNU/Linux” instead of BSD, & So “GNU/Linux” became popular. 
  Various groups & individuals later began to develop/release various 
  distros/OSes based on GNU/Linux or GNU/Hurd (aka GNU/Mach) or GNU/BSD 
  etc etc. All of these were/are primarily a derivative of Unix.</td></tr>
 </table>
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="AOS"></a>
- <a name="Andr"></a><b class="b">•</b> AOS = 🤖&#xFE0E; = Andr = Android OS . 
- A (GUI) OS developed by Google LLC (under Alphabet Inc), with members of OHA 
- consortium, & by open-source dev(s)+individual(s). Many components are 
- open-source, except these CLOSED-SOURCE components: “Google Play”, 
+ <a name="Andr"></a><b class="b">•</b> AOS = 🤖&#xFE0E; = Andr = 
+ Android OS . 
+ A (GUI) OS developed by Google LLC (under Alphabet Inc), with members 
+ of OHA consortium, & by open-source dev(s)+individual(s). Many components 
+ are open-source, except these CLOSED-SOURCE components: “Google Play”, 
  “Google Play Services”, etc, etc, etc). 
  Andr uses (BSD based) Bionic C-Lib, uses ToyBox (based on older BusyBox) 
  based Unix utilities, mksh, etc. Andr uses modified Linux-kernel.</td></tr>
