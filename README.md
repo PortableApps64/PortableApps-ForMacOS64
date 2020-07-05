@@ -65,7 +65,7 @@ li{ margin:0px 0px 0px 16px; padding:3px 3px 3px -20px; }
 /* <br/> Smaller Font/Text:<br/> */
 span.Sml{ font-size:0.8em; }
 /* <br/> Bold Text & Same Line-Height:<br/> */
-b.b{ font-size:28px; line-height:0.8em; font-weight:bold; font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; vertical-align:-15%; }
+b.b{ font-size:28px; line-height:0.8em; font-weight:bold; font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; vertical-align:-10%; }
 b.m,b.p{ line-height:0.8em; font-weight:normal; font-family:Monaco,Bitstream Vera Sans Mono,Lucida Console,Terminal,monospace; }
 b.m{ font-size:16px; vertical-align:5%; }
 b.p{ font-size:18px; vertical-align:0%; }
@@ -213,6 +213,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  webpage, from which you want to obtain the (Portable) App.</dd>
 </dl>
 </div>
+<br/>
 
 <a name="License"></a><a name="PA-OSX64">
 <div width="100%"><b>Portable Apps OSX 64:</b><br/>
@@ -234,6 +235,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
   of their respective author/creator&#46;)</dd>
  </dl>
 </div>
+<br/>
 
 <a name="Xcode"></a><a name="CLT"></a>
 <div width="100%"><b>Xcode:</b><br/>
@@ -261,6 +263,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  SHA1<b>:</b>4654b261841d0336cb90ea1c82d15fd7aa03c982, 
  SHA256<b>:</b><span class="Sml">a5568ae0d30d9d3be94416dbd1aa3a26f23ca5d937c4b9895913cda1b18ceea4.</span></dd></dl>
 </div>
+<br/>
 
 <a name="Swift"></a>
 <div width="100%"><b>Swift:</b><br/>
@@ -276,6 +279,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  SHA1<b>:</b>ddd4ee0cb0dc640121680606e203c809eec854ab, 
  SHA256<b>:</b><span class="Sml">ba409649620129375e014c4753a6f802fb94e46ee833dbf917111e593342ddfc.</span></dd></dl>
 </div>
+<br/>
 
 <a name="Platypus"></a>
 <div width="100%"><b>PLATYPUS:</b><br/>
@@ -301,7 +305,8 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  v5.3 zip file is 3.3 MBytes, MD5<b>:</b>51ebf430b45529a7dd891b8d6cd80517, 
  SHA1<b>:</b>dacaf4b6f9309f4abff3f453ea31fe0edf74dd05.<br/>
 </dd></dl>
-</div><br/>
+</div>
+<br/>
 
 <a name="Pashua"></a>
 <div width="100%"><b>PASHUA:</b><br/>
@@ -323,7 +328,8 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  ( PA = pa = Portable App )</dd>
 <dd><div width="100%" align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></div></dd></dl>
-</div><br/>
+</div>
+<br/>
 
 
 <!-- markdown line which starts with # or ## or ### etc are turned into 
@@ -398,7 +404,8 @@ before it).<br/>
  <b>File-NAME</b>. PLEASE Follow The Convention We Laid Out, Thank You.<br/>
  ( PA = pa = Portable App . Lic = Licn = License )</dd>
 </dl>
-</div><br/>
+</div>
+<br/>
 
 <div width="100%"><a name="pb-2"></a>PB-2: Obtain NEW Platypus (at 
  the time of writing this README&#46;md, it is/was v5.3),<br/>
@@ -412,7 +419,8 @@ before it).<br/>
  ( & working) Platypus (for older mcOSX), that allows to build/wrap 
  macOS app⒮ for 64bit+32bit suppported older macOSX Mojave or macOSX 
  earlier of that.
-</div><br/>
+</div>
+<br/>
 
 <div width="100%"><a name="pb-3"></a>PB-3: Obtain Pashua dialog from here : 
  <a href="https://www.BlueM.net/en/projects/pashua/" target="_blank">https://www.BlueM.net/en/projects/pashua/</a><dl>
@@ -426,6 +434,7 @@ before it).<br/>
  ( PA = pa = Portable App )</dd>
 </dl>
 </div>
+<br/>
 
 <div width="100%"><a name="pb-4"></a>PB-4: Get macOS 64-bit compatible APP,<br/>
  (to convert them as “Portable App” Or to convert them as Multi-instance App).
@@ -573,7 +582,8 @@ before it).<br/>
  <code>"script"</code>,<br/>
  then follow next/below stage/procedures.
 </dd></dl>
-</div><br/>
+</div>
+<br/>
 
 <div width="100%"><a name="b-2"></a>B-2: Build the final 
  <code>“Portable AppName OSX64.app”</code> bundle, by using 
@@ -603,7 +613,8 @@ before it).<br/>
   <b class="b">•</b> license-file : BSD-3-clause&#46;txt
 </dd></dl>
 </dd></dl>
-</div><br/>
+</div>
+<br/>
 
 <div width="100%"><a name="b-3"></a>B-3: Then you may use, these 
  type of settings in Platypus GUI interface<b>:</b>
@@ -624,7 +635,8 @@ before it).<br/>
   what you want)<br/>
  <b class="b">•</b> Fill in other boxes: identifier, author, etc
 </dd></dl>
-</div><br/>
+</div>
+<br/>
 
 <a name="b-4"></a>B-4: Then tap/click/select/press the <code>“Create App”</code> 
  button.<br/><!-- “.” is &#46; -->
@@ -657,7 +669,8 @@ Users/you may have to download+add some files or apps or components
   AppName ?<dl><dd>
   AppName > main menu > ... > Show Profile Folder: ...</dd></dl>
  </dd></dl>
-</div><br/>
+</div>
+<br/>
 
 
 <a name="Errors"></a>
@@ -683,6 +696,7 @@ If no errors, even then please share your final working code, your
  option in GitHub under this project.<br/>
 <br/>
 
+
 <a name="HelpToBuild"></a>
 ## HELP TO BUILD:
 
@@ -695,6 +709,8 @@ of same App.<br/>
 Thanks in advance.
 <p width="100%" align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></p>
+<br/>
+
 
 <a name="ExtraNotes"></a>
 ## EXTRA-NOTES:
@@ -745,7 +761,8 @@ Now "MyProjects" or "Development" folder(s) can be accessed in these ways:
  <code>"/Development"</code>
 </dd></dl>
 </td></tr>
-</table><br/>
+</table>
+<br/>
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="ShowAllFilesFolders"></a> 
@@ -765,7 +782,8 @@ i executed below 2-commands<b>:</b>
 </dd></dl></td></tr>
 <tr><td align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></td></tr>
-</table><br/>
+</table>
+<br/>
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="UsefulOrRelatedUnicodeChars"></a><a name="U-chars"></a>
@@ -1063,7 +1081,8 @@ i executed below 2-commands<b>:</b>
  </td></tr>
 <tr><td colspan="3"><b class="b">•</b> ª U+00AA &amp;#170; &amp;ordf; 
  <b class="b">•</b> ʈ U+0288 &amp;#648; </td></tr>
-</table><br/>
+</table>
+<br/>
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <!-- %2E = ".", %3A = ":", %20 = " "(space), %5F = "_", %28 = "(", %29 = ")", 
@@ -1108,7 +1127,8 @@ i executed below 2-commands<b>:</b>
  <a href="https://en.Wikipedia.org/wiki/List_of_Unicode_characters" target="_blank">https://en.Wikipedia.org/wiki/List_of_Unicode_characters</a></td></tr>
 <tr><td align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></td></tr>
-</table><br/>
+</table>
+<br/>
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="VerifyFileAuthenticity"></a>
@@ -1163,7 +1183,8 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  <tt>３└─────────────────</tt>
 </dd></dl>
 </td></tr>
-</table><br/>
+</table>
+<br/>
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="codesign"></a>
@@ -1181,7 +1202,8 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
 <tr><td> &#160; </td></tr>
 <tr><td align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></td></tr>
-</table><br/>
+</table>
+<br/>
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="Abbreviations">
@@ -1345,5 +1367,6 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  <!-- “(” = &#40; , “)” = &#41; -->
 <tr><td align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></td></tr>
-</table><br/>
+</table>
+<br/>
 <br/>
