@@ -611,7 +611,7 @@ before it).<br/>
  It will create/generate a new <code>“Portable AppName OSX64.app”</code> 
  bundle, that is<br/>
  compatible with 64-only macOSX (Catalina or macOSX after it), and also<br/>
- compatible with 64bit+32bit macOSX (Mojave or macOSX earlier of it)
+ compatible with 64bit+32bit macOSX (Mojave or macOSX earlier of it)<br/>
 
 
 <a name="Post-Build"></a>
@@ -623,7 +623,7 @@ Users/you may have to download+add some files or apps or components
  file.<br/>
  In different App’s page, instruction in this section/paragraph, 
  will be different.<br/>
- This section/paragraph may also be empty, if User have to do nothing.
+ This section/paragraph may also be empty, if User have to do nothing.<br/>
 
 
 <a name="Test-Run"></a><a name="test">
@@ -636,7 +636,7 @@ Users/you may have to download+add some files or apps or components
   AppName ?<dl><dd>
   AppName > main menu > ... > Show Profile Folder: ...</dd></dl>
  </dd></dl>
-</div>
+</div><br/>
 
 
 <a name="Errors"></a>
