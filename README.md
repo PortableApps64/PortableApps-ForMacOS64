@@ -119,40 +119,49 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
 <br/>
 
 
-<a name="index"></a><!-- “:” = &#58;, “{” = &#123;, “}” = &#125; -->
+<a name="index"></a><!-- “:” = &#58;, “{” = &#123;, “}” = &#125;, “|” = &#124; -->
 <dl><dd>&#160;<dl>
-<dd>Portable-Apps-OS-X-64<b>:</b> ¦ <a href="F/">F</a> 
- ¦ <a href="F/PortableFirefoxOSX64/">Portable Firefox OSX64</a> 
- ¦<br/></dd>
-<dd>Content/Index List<b>:</b> 
- ¦ <a href="#intro">Intro</a> 
- ¦ <a href="#BuildTools">Build/Run-Tools(for-Devs)</a> 
-  &#123; <a href="#PA-OSX64">Portable-Apps-OS-X-64</a> 
-  ¦ <a href="#Xcode">Xcode</a> ¦ <a href="#Swift">Swift</a> 
-  ¦ <a href="#Platypus">Platypus</a> 
-  ¦ <a href="#Pashua">Pashua</a> &#125; 
- ¦ <a href="#pb">Pre-Build(for-Devs)</a> 
-  &#123; <a href="#pb-1">PB-1</a> 
-  ¦ <a href="#DupliLICN">Duplicate</a> (License & ReadMe) 
-  ¦ <a href="#pb-2">PB-2</a> ¦ <a href="#pb-3">PB-3</a> 
-  ¦ <a href="#pb-4">PB-4</a> ¦ <a href="#pb-5">PB-5</a> &#125; 
- ¦ <a href="#Build">Build(for-Devs)</a> 
-  &#123; <a href="#b-1">B-1</a> ¦ <a href="#b-2">B-2</a> 
-  ¦ <a href="#b-3">B-3</a> 
-  ¦ <a href="#b-4">B-4</a> &#125; 
- ¦ <a href="#Post-Build">Post-Build(for-Users)</a> 
- ¦ <a href="#Test-Run">Run/Execute/Test</a> 
- ¦ <a href="#Errors">Errors</a> 
- ¦ <a href="#HelpToBuild">Help-To-Build</a> 
- ¦ <a href="#ExtraNotes">Extra-Notes</a> 
-  &#123; <a href="#LoadFoldersUnderRootFolder">Load Folders Under RootFolder</a> 
-  ¦ <a href="#ShowAllFilesFolders">Show All Files Folders</a> 
-  ¦ <a href="#UsefulOrRelatedUnicodeChars">Related Unicode Chars</a> 
-  ¦ <a href="#VerifyFileAuthenticity">Verify File Authenticity</a> 
-  ¦ <a href="#codesign">CodeSign</a> &#125; 
- ¦ <a href="#Abbreviations">Abbreviations</a> 
- ¦ <a href="#License">License(s)</a> 
- ¦</dd>
+<dd>Portable-Apps-OS-X-64<b>:</b> 
+ <b class="b">&#124;</b> <a href="F/">F</a> 
+ <b class="b">&#124;</b> <a href="F/PortableFirefoxOSX64/">Portable Firefox OSX64</a> 
+ <b class="b">&#124;</b><br/></dd>
+<dd>Content/<b>INDEX</b> List<b>:</b> 
+ <b class="b">&#124;</b> <a href="#intro">Intro</a> 
+ <b class="b">&#124;</b> <a href="#BuildTools">Build/Run-Tools(for-Devs)</a> 
+  <b class="b">&#123;</b> <a href="#PA-OSX64">Portable-Apps-OS-X-64</a> 
+  <b class="b">&#124;</b> <a href="#Xcode">Xcode</a> 
+  <b class="b">&#124;</b> <a href="#Swift">Swift</a> 
+  <b class="b">&#124;</b> <a href="#Platypus">Platypus</a> 
+  <b class="b">&#124;</b> <a href="#Pashua">Pashua</a> 
+  <b class="b">&#125;</b> 
+ <b class="b">&#124;</b> <a href="#pb">Pre-Build(for-Devs)</a> 
+  <b class="b">&#123;</b> <a href="#pb-1">PB-1</a> 
+  <b class="b">&#124;</b> <a href="#DupliLICN">Duplicate</a> (License & ReadMe) 
+  <b class="b">&#124;</b> <a href="#pb-2">PB-2</a> 
+  <b class="b">&#124;</b> <a href="#pb-3">PB-3</a> 
+  <b class="b">&#124;</b> <a href="#pb-4">PB-4</a> 
+  <b class="b">&#124;</b> <a href="#pb-5">PB-5</a> 
+  <b class="b">&#125;</b> 
+ <b class="b">&#124;</b> <a href="#Build">Build(for-Devs)</a> 
+  <b class="b">&#123;</b> <a href="#b-1">B-1</a> 
+  <b class="b">&#124;</b> <a href="#b-2">B-2</a> 
+  <b class="b">&#124;</b> <a href="#b-3">B-3</a> 
+  <b class="b">&#124;</b> <a href="#b-4">B-4</a> 
+  <b class="b">&#125;</b> 
+ <b class="b">&#124;</b> <a href="#Post-Build">Post-Build(for-Users)</a> 
+ <b class="b">&#124;</b> <a href="#Test-Run">Run/Execute/Test</a> 
+ <b class="b">&#124;</b> <a href="#Errors">Errors</a> 
+ <b class="b">&#124;</b> <a href="#HelpToBuild">Help-To-Build</a> 
+ <b class="b">&#124;</b> <a href="#ExtraNotes">Extra-Notes</a> 
+  <b class="b">&#123;</b> <a href="#LoadFoldersUnderRootFolder">Load Folders Under RootFolder</a> 
+  <b class="b">&#124;</b> <a href="#ShowAllFilesFolders">Show All Files Folders</a> 
+  <b class="b">&#124;</b> <a href="#UsefulOrRelatedUnicodeChars">Related Unicode Chars</a> 
+  <b class="b">&#124;</b> <a href="#VerifyFileAuthenticity">Verify File Authenticity</a> 
+  <b class="b">&#124;</b> <a href="#codesign">CodeSign</a> 
+  <b class="b">&#125;</b> 
+ <b class="b">&#124;</b> <a href="#Abbreviations">Abbreviations</a> 
+ <b class="b">&#124;</b> <a href="#License">License(s)</a> 
+ <b class="b">&#124;</b></dd>
 <dd><div width="100%" align="center">
  <b class="b">•</b> macOSX Catalina version is 10.15.x (mostly 64bit-only)<br/>
  <b class="b">•</b> macOSX Mojave version is 10.14.x (64bit+32bit)</div></dd>
