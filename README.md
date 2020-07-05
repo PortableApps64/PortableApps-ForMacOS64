@@ -66,9 +66,9 @@ li{ margin:0px 0px 0px 16px; padding:3px 3px 3px -20px; }
 span.Sml{ font-size:0.8em; }
 /* <br/> Bold Text & Same Line-Height:<br/> */
 b.b{ font-size:22px; line-height:0.8em; font-weight:bold; font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; vertical-align:-15%; }
-b.m,b.p{ line-height:0.8em; font-weight:normal; font-family:Monaco,Bitstream Vera Sans Mono,Lucida Console,Terminal,monospace; vertical-align:-10%; }
+b.m,b.p{ line-height:0.8em; font-weight:normal; font-family:Monaco,Bitstream Vera Sans Mono,Lucida Console,Terminal,monospace; }
 b.m{ font-size:14px; vertical-align:5%; }
-b.p{ font-size:16px; }
+b.p{ font-size:16px; vertical-align:0%; }
 /* <br/> Dark-Gray Background For CODE:<br/> */
 code{ background-color:#2D2D2D; }
 /* <br/> END of CSS STYLEs: */
