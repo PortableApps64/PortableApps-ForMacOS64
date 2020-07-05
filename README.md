@@ -66,7 +66,9 @@ li{ margin:0px 0px 0px 16px; padding:3px 3px 3px -20px; }
 span.Sml{ font-size:0.8em; }
 /* <br/> Bold Text & Same Line-Height:<br/> */
 b.b{ font-size:22px; line-height:0.8em; font-weight:bold; font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; vertical-align:-15%; }
-b.m{ font-size:14px; line-height:0.8em; font-weight:normal; font-family:Monaco,Bitstream Vera Sans Mono,Lucida Console,Terminal,monospace; vertical-align:-15%; }
+b.m,b.p{ line-height:0.8em; font-weight:normal; font-family:Monaco,Bitstream Vera Sans Mono,Lucida Console,Terminal,monospace; vertical-align:-10%; }
+b.m{ font-size:14px; }
+b.p{ font-size:16px; }
 /* <br/> Dark-Gray Background For CODE:<br/> */
 code{ background-color:#2D2D2D; }
 /* <br/> END of CSS STYLEs: */
@@ -123,46 +125,46 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
 <a name="index"></a><!-- “:” = &#58;, “{” = &#123;, “}” = &#125;, “|” = &#124; -->
 <dl><dd>&#160;<dl>
 <dd>Portable-Apps-OS-X-64<b>:</b> 
- <b class="m">&#124;</b> <a href="F/">F</a> 
- <b class="m">&#124;</b> <a href="F/PortableFirefoxOSX64/">Portable Firefox OSX64</a> 
- <b class="m">&#124;</b><br/></dd>
+ <b class="p">&#124;</b> <a href="F/">F</a> 
+ <b class="p">&#124;</b> <a href="F/PortableFirefoxOSX64/">Portable Firefox OSX64</a> 
+ <b class="p">&#124;</b><br/></dd>
 <dd>Content/<b>INDEX</b> List<b>:</b> 
- <b class="m">&#124;</b> <a href="#intro">Intro</a> 
- <b class="m">&#124;</b> <a href="#BuildTools">Build/Run-Tools(for-Devs)</a> 
+ <b class="p">&#124;</b> <a href="#intro">Intro</a> 
+ <b class="p">&#124;</b> <a href="#BuildTools">Build/Run-Tools(for-Devs)</a> 
   <b class="m">&#123;</b> <a href="#PA-OSX64">Portable-Apps-OS-X-64</a> 
-  <b class="m">&#124;</b> <a href="#Xcode">Xcode</a> 
-  <b class="m">&#124;</b> <a href="#Swift">Swift</a> 
-  <b class="m">&#124;</b> <a href="#Platypus">Platypus</a> 
-  <b class="m">&#124;</b> <a href="#Pashua">Pashua</a> 
+  <b class="p">&#124;</b> <a href="#Xcode">Xcode</a> 
+  <b class="p">&#124;</b> <a href="#Swift">Swift</a> 
+  <b class="p">&#124;</b> <a href="#Platypus">Platypus</a> 
+  <b class="p">&#124;</b> <a href="#Pashua">Pashua</a> 
   <b class="m">&#125;</b> 
- <b class="m">&#124;</b> <a href="#pb">Pre-Build(for-Devs)</a> 
+ <b class="p">&#124;</b> <a href="#pb">Pre-Build(for-Devs)</a> 
   <b class="m">&#123;</b> <a href="#pb-1">PB-1</a> 
-  <b class="m">&#124;</b> <a href="#DupliLICN">Duplicate</a> (License & ReadMe) 
-  <b class="m">&#124;</b> <a href="#pb-2">PB-2</a> 
-  <b class="m">&#124;</b> <a href="#pb-3">PB-3</a> 
-  <b class="m">&#124;</b> <a href="#pb-4">PB-4</a> 
-  <b class="m">&#124;</b> <a href="#pb-5">PB-5</a> 
+  <b class="p">&#124;</b> <a href="#DupliLICN">Duplicate</a> (License & ReadMe) 
+  <b class="p">&#124;</b> <a href="#pb-2">PB-2</a> 
+  <b class="p">&#124;</b> <a href="#pb-3">PB-3</a> 
+  <b class="p">&#124;</b> <a href="#pb-4">PB-4</a> 
+  <b class="p">&#124;</b> <a href="#pb-5">PB-5</a> 
   <b class="m">&#125;</b> 
- <b class="m">&#124;</b> <a href="#Build">Build(for-Devs)</a> 
+ <b class="p">&#124;</b> <a href="#Build">Build(for-Devs)</a> 
   <b class="m">&#123;</b> <a href="#b-1">B-1</a> 
-  <b class="m">&#124;</b> <a href="#b-2">B-2</a> 
-  <b class="m">&#124;</b> <a href="#b-3">B-3</a> 
-  <b class="m">&#124;</b> <a href="#b-4">B-4</a> 
+  <b class="p">&#124;</b> <a href="#b-2">B-2</a> 
+  <b class="p">&#124;</b> <a href="#b-3">B-3</a> 
+  <b class="p">&#124;</b> <a href="#b-4">B-4</a> 
   <b class="m">&#125;</b> 
- <b class="m">&#124;</b> <a href="#Post-Build">Post-Build(for-Users)</a> 
- <b class="m">&#124;</b> <a href="#Test-Run">Run/Execute/Test</a> 
- <b class="m">&#124;</b> <a href="#Errors">Errors</a> 
- <b class="m">&#124;</b> <a href="#HelpToBuild">Help-To-Build</a> 
- <b class="m">&#124;</b> <a href="#ExtraNotes">Extra-Notes</a> 
+ <b class="p">&#124;</b> <a href="#Post-Build">Post-Build(for-Users)</a> 
+ <b class="p">&#124;</b> <a href="#Test-Run">Run/Execute/Test</a> 
+ <b class="p">&#124;</b> <a href="#Errors">Errors</a> 
+ <b class="p">&#124;</b> <a href="#HelpToBuild">Help-To-Build</a> 
+ <b class="p">&#124;</b> <a href="#ExtraNotes">Extra-Notes</a> 
   <b class="m">&#123;</b> <a href="#LoadFoldersUnderRootFolder">Load Folders Under RootFolder</a> 
-  <b class="m">&#124;</b> <a href="#ShowAllFilesFolders">Show All Files Folders</a> 
-  <b class="m">&#124;</b> <a href="#UsefulOrRelatedUnicodeChars">Related Unicode Chars</a> 
-  <b class="m">&#124;</b> <a href="#VerifyFileAuthenticity">Verify File Authenticity</a> 
-  <b class="m">&#124;</b> <a href="#codesign">CodeSign</a> 
+  <b class="p">&#124;</b> <a href="#ShowAllFilesFolders">Show All Files Folders</a> 
+  <b class="p">&#124;</b> <a href="#UsefulOrRelatedUnicodeChars">Related Unicode Chars</a> 
+  <b class="p">&#124;</b> <a href="#VerifyFileAuthenticity">Verify File Authenticity</a> 
+  <b class="p">&#124;</b> <a href="#codesign">CodeSign</a> 
   <b class="m">&#125;</b> 
- <b class="m">&#124;</b> <a href="#Abbreviations">Abbreviations</a> 
- <b class="m">&#124;</b> <a href="#License">License(s)</a> 
- <b class="m">&#124;</b></dd>
+ <b class="p">&#124;</b> <a href="#Abbreviations">Abbreviations</a> 
+ <b class="p">&#124;</b> <a href="#License">License(s)</a> 
+ <b class="p">&#124;</b></dd>
 <dd><div width="100%" align="center">
  <b class="b">•</b> macOSX Catalina version is 10.15.x (mostly 64bit-only)<br/>
  <b class="b">•</b> macOSX Mojave version is 10.14.x (64bit+32bit)</div></dd>
