@@ -67,7 +67,7 @@ span.Sml{ font-size:0.8em; }
 /* <br/> Bold Text & Same Line-Height:<br/> */
 b.b{ font-size:22px; line-height:0.75em; font-weight:bold; font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; vertical-align:-15%; }
 /* <br/> Dark-Gray Background For CODE:<br/> */
-code{ background-color:#303030; }
+code{ background-color:#292929; }
 /* <br/> END of CSS STYLEs: */
 </style>
 <a name="intro"></a>
