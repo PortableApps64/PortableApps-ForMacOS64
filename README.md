@@ -18,7 +18,7 @@
  Functionalities/Abilities, like<b>:</b> Element+Text Coloring, Positioning, Width/Margin/<br/>
  /Padding/Height/etc Controlling, etc,etc<b>.</b><br/>
  We/Devs/Users also need basic PHP or markdown-based-Template support, to repeat or<br/>
- include common paragraphs/sections/template/data in other files, or else we have to<br/>
+ include common paragraphs/sections/template/data in other files, Or else we have to<br/>
  repeat the task of editing all files just for a simple/tiny change.<br/> 
  For This README&#46;md Page, Few Txt/inl/Blk/etc Element’s Style(Look/Appearance/etc)<br/>
  OverRiding CSS Rules Are Defined Below<b>:</b></dd></dl>
@@ -162,7 +162,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
 <div width="100%">We use (mentioned in below) tools to build our binary 
  executable, & we also use (mentioned in below) tools to assist our-project 
  tool during execution, & for executing the App either as portable app 
- or as multi-instance of same app.<dl>
+ Or as multi-instance of same app.<dl>
 <dd>To DEVs/USERs: <b class="b">•</b> <a href="#VerifyFileAuthenticity">Verify</a> 
  files/apps after download. And download only when download url/website 
  begins with “https”.<br/>
@@ -170,14 +170,14 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  & do not want to completely compile/build, then go directly into 
  <u><b>App</b></u> sub-dir/sub-folder, shown <a href="#index">here</a> 
  & obtain <code>"*-OSX-64.dmg"</code> (or <code>"*-OSX-64.tar.gz"</code> 
- or <code>"*-OSX-64.zip"</code>) file release, 
+ or <code>"*-OSX-64.zip"</code>) file <b>release</b>, 
  and FOLLOW “POST-BUILD (for USER)” instruction shown on 
  “Portable-<u><b>App</b>Name</u>-OSX-64” page, to know what else you 
  have to get & do.<br/>
- <b class="b">•</b> To USERs, Some items/files/components we may-not or 
- cannot be directly included inside in some of the built+shared <b>App</b> 
+ <b class="b">•</b> To USERs, Some items/files/components we may-not (or 
+ cannot) directly include inside in some of the built+shared <b>App</b> 
  archive (<code>"*.dmg"</code>, etc) file. 
- Either because of License/proprietary restrictions or to provide you/USER 
+ Either because of License/proprietary restrictions Or to provide you/USER 
  more Security/Privacy: ( Some files/components should not be provided by 
  someone-else, as it may have pre-fixed (or trackable) IDs/numbers/settings, 
  etc, 
@@ -297,7 +297,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  Website: 
  <a href="https://www.BlueM.net/en/projects/pashua/" target="_blank">https://www.BlueM.net/en/projects/pashua/</a><br/>
  Github: https://GitHub.com/BlueM/Pashua<br/>
- We have to use Pashua or similar, because older “Portable OSX Apps” 
+ We have to use Pashua Or similar, because older “Portable OSX Apps” 
  (from “FreeSMUG”/“osx-pa”) do not include 64bit dialog/interaction 
  software/tools, So cannot be run/executed on 64-only macOSX (Catalina 
  or after it).<br/>
@@ -410,7 +410,7 @@ before it).<br/>
 </div>
 
 <div width="100%"><a name="pb-4"></a>PB-4: Get macOS 64-bit compatible APP,<br/>
- (to convert them as Portable App or to convert them as Multi-instance App).
+ (to convert them as “Portable App” Or to convert them as Multi-instance App).
 </div>
 <br/>
 
@@ -424,15 +424,15 @@ before it).<br/>
  folder<b>:</b><dl><dd> <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/"</code><br/>
  ( above location’s shorter form is: 
  <code>"/Projects/Portable-Apps-OS-X-64/"</code> )<br/>
- ( or Paste into your userspace: 
+ ( Or, Paste into your userspace: 
  <code>"/Users/MyUserName/MyProjects/PA-OSX64/"</code> )</dd></dl>
 </div>
 <b>b:</b> Skip below files/steps which you’ve already obtained/exists 
- or already done.<br/>
+ Or which you’ve already done.<br/>
 <b>c:</b> Obtain old PortableAppNameOSX App (i.e: PortableFirefoxOSX) 
  (download from 
  <a href="https://SourceForge.net/projects/osxportableapps/files/" target="_blank">here</a>(FreeSMUG/OsxPortableApps 
- sites), or download any other non-portable macOS Apps directly from 
+ sites), Or download any other non-portable macOS Apps directly from 
  original releaser’s website.<br/>
 <b>d:</b> Double-Click/Tap on <code>"PortableAppName_*.dmg"</code> or 
  <code>"AppName_*.dmg"</code> file to view internal contents(files, bundles, 
@@ -455,7 +455,7 @@ before it).<br/>
  <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/"</code><br/>
  or, <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/AppName-OSX/"</code> 
  )<br/>
- ( or Create it inside your userspace, like this:<br/>
+ ( Or, Create it inside your userspace, like this:<br/>
  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX-Old/"</code><br/>
  or, <code>"/Users/MyUserName/MyProjects/PA-OSX64/AppName-OSX/"</code> )<br/>
  ( NOTE: Use “<b>OSX</b>” or “<b>OSX-Old</b>” (and <b>Not</b>-“<b>OSX64</b>”) 
@@ -469,7 +469,7 @@ before it).<br/>
  <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppNameOSX64/"</code><br/>
  ( above location’s shorter form is:<br/>
  <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppNameOSX64/"</code> )<br/>
- ( or Create that sub-dir inside your userspace, like this:<br/>
+ ( Or, Create that sub-dir inside your userspace, like this:<br/>
  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/"</code> 
  )</dd></dl>
 </div>
@@ -484,7 +484,7 @@ before it).<br/>
 <dd><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/Portable AppName OS X/Portable AppName.app"</code><br/>
  ( above location’s shorter form is: 
  <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/Portable AppName OS X/Portable AppName.app"</code> )<br/>
- ( or access it inside your userspace: 
+ ( Or, access it inside your userspace: 
  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX-Old/Portable AppName OS X/Portable AppName.app"</code> )<br/>
  and select <code>“Show Package Contents”</code> option, to go inside the bundle:</dd></dl>
 </div>
@@ -495,7 +495,7 @@ before it).<br/>
  <dd><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/Portable AppName OS X/Portable AppName.app/Contents/Resources/"</code><br/>
  ( above location’s shorter form is: 
  <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/Portable AppName/Portable AppName.app/Contents/Resources/"</code> )<br/>
- ( or here: 
+ ( Or, here: 
  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX-Old/Portable AppName OS X/Portable AppName.app/Contents/Resources/"</code> )<br/>
 <b>i-2:</b> If you want to use your existing Portable-App’s settings/profile 
  from <code>"Portable AppName OS X"</code> (which is in your external 
@@ -507,7 +507,7 @@ before it).<br/>
  &#160;&#160;<code>"/Users/MyUserName/Library/<b>Applications Support/</b>AppName/Profiles/********.default/"</code><br/>
  ( Note: some app’s Developer uses the app’s NAME inside 
  <code>"<b>Applications Support/</b>"</code> folder, some Dev uses 
- his/her own or employer company NAME. So you should find out app’s 
+ his/her own Or employer company NAME. So you should find out app’s 
  company/business/group name also. )</dd></dl>
 </div>
 <div width="100%"><b>j:</b> Paste the “profile” folder inside our build related 
@@ -515,7 +515,7 @@ before it).<br/>
  <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/"</code><br/>
  ( above location’s shorter form is:<br/>
  <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/"</code> )<br/>
- ( or Paste in your userspace:<br>
+ ( Or, Paste in your userspace:<br>
  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/"</code> 
  )</dd><dd><div width="100%" align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></div></dd>
@@ -534,7 +534,7 @@ before it).<br/>
  1st Rename it to <code>"script.sh"</code>, then Open <code>"script.sh"</code> 
  with your choice of code editing/developing editor/build software,<br/>
  Improve/Modify source code, Save,<br/>
- then Use below commands to test if bash code syntaxes are right or where 
+ then Use below commands to test if bash code syntaxes are right Or where 
  the fault⒮ is/are<b>:</b>
 <dl><dd>
  <tt>０┌─────────────────</tt><br/>
@@ -667,9 +667,9 @@ If no errors, even then please share your final working code, your
 
 Please help+contribute+collaborate+improve+rectify current codes to 
 build this bash-shell ‘script’ (or apple-script or ..., etc ), 
-so-that it can be run/used by Platypus or run/used directly by user, 
+so-that it can be run/used by Platypus Or run/used directly by user, 
 To run macOSX Apps on (64-bit) macOSX from portable/external<br/>
-drive/storage⒮), or run macOSX App as a second/third/multi-instance 
+drive/storage⒮), Or run macOSX App as a second/third/multi-instance 
 of same App.<br/>
 Thanks in advance.
 <p width="100%" align="center" class="TAC">Goto <a href="#intro">Top</a> 
@@ -949,7 +949,7 @@ i executed below 2-commands<b>:</b>
 <tr><td colspan="2"><b class="b">•</b> Ro (Halfwidth Katakana) “ﾛ” U+FF9B 
  (its like “White Vertical Rectangle” “▯” U+25AF) 
  </td><td><b class="b">•</b> Nu (Vai) “ꖸ” U+A5B8 </td></tr>
-<tr><td colspan="3"> These also look like a Windows or Windows: 
+<tr><td colspan="3"> These also look like a Window or Windows: 
  <b class="b">•</b> CJKUI “田” U+7530 
  <b class="b">•</b> CJKUI “毌” U+6BCC 
  <b class="b">•</b> “畋” U+754B = 田X = WindowsX = Windows10
@@ -1289,12 +1289,12 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  then changed into Blink(CM) engine.</td></tr>
 <tr><td><a name="Lnx"></a><b class="b">•</b> Lnx = 
  🐐&#xFE0E;GNU-🐧&#xFE0E;Linux = GNU/Linux = GNU/Lnx, though most users 
- shorten/call/know it as or “Linux OS” or “Linux”. OpenSource (Unix-like) 
+ shorten/call/know it as “Linux” or “Linux OS”. OpenSource (Unix-like) 
  OS, with OpenSource Kernel. 
  GNU-OS used/uses (Unix based) GNU tools/utilities developed by Richard 
- Stallman, uses GNU-Kernel (aka GNU/Hurd-Kernel). Linux-kernel (aka 
+ Stallman, & uses GNU-Kernel (aka GNU/Hurd-Kernel). Linux-kernel (aka 
  “Linux”, kLnx, “Freax”) was developed by Linus Torvald based on Unix 
- & MINIX-OS, to replace MINIX-OS. 
+ & MINIX-OS, to replace MINIX-OS (initially). 
  MINIX was/is based on Unix (v7) tools/utilies & it uses microkernel. 
  MINIX began to use GNU tools/utilies after GNU was released). 
  When AT&T filed lawsuit against BSD, users/devs could not get+use 
