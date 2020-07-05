@@ -75,7 +75,7 @@ section{ padding:3px 0px; margin:2px 0; margin-top:32px; }
 section #title,div#title{ border:0; outline:none; margin:0 0 3px 0; padding:0 0 3px 0; }
 section #title h1,div#title h1{ font-weight:normal; font-size:38px; line-height:32px;
  font-family:'OpenSansLight',"Helvetica Neue",Helvetica,Arial,sans-serif;
- text-align:center; margin:0.4em 0; }
+ text-align:center; margin:0.2em 0; }
 section #title .credits,div#title .credits{ color:#696969; margin-top:-10px;
   font-size:11px; font-weight:normal;
   font-family:'OpenSansRegular',"Helvetica Neue",Helvetica,Arial,sans-serif; }
