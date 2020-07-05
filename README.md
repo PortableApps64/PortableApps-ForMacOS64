@@ -144,7 +144,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  ¦ <a href="#Test-Run">Run/Execute/Test</a> 
  ¦ <a href="#Errors">Errors</a> 
  ¦ <a href="#HelpToBuild">Help-To-Build</a> 
- ¦ <a href="#extra-notes">Extra-Notes</a> 
+ ¦ <a href="#ExtraNotes">Extra-Notes</a> 
   &#123; <a href="#LoadFoldersUnderRootFolder">Load Folders Under RootFolder</a> 
   ¦ <a href="#ShowAllFilesFolders">Show All Files Folders</a> 
   ¦ <a href="#UsefulOrRelatedUnicodeChars">Related Unicode Chars</a> 
@@ -195,9 +195,9 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  and All of such matters/modifications are mentioned in that (Portable) 
  App’s webpage.<br/>
  To USERs, you can skip below BUILD-TOOLS & Other sections which are 
- for DEVELOPERs, & Goto next "<a href="#Post-Build">POST-BUILD(for USERs)</a>" 
+ for DEVELOPERs, & Goto next ("<a href="#Post-Build">POST-BUILD(for USERs</a>") 
  section (in this page), 
- Or goto the "POST-BUILD(for USERs)" section in the (Portable) App’s 
+ Or goto the "POST-BUILD(for USERs" section in the (Portable) App’s 
  webpage, from which you want to obtain the (Portable) App.</dd>
 </dl>
 </div>
@@ -296,7 +296,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  so it seems to be a good choice for now (as a ‘dialog’/interaction 
  assistor), (and its licensed-under <a href="BSD-3-clause.txt">BSD-3-clause</a>), 
  Check here<b>:</b><dl>
-<dd>
+<dd> 
  Website: 
  <a href="https://www.BlueM.net/en/projects/pashua/" target="_blank">https://www.BlueM.net/en/projects/pashua/</a><br/>
  Github: https://GitHub.com/BlueM/Pashua<br/>
@@ -371,7 +371,8 @@ before it).<br/>
  Have A Different FileNAME: 
  <code>"README.&lt;Software/Script/Program/Tool-NAME&gt;.md"</code> 
  (i.e: "README.PortableAppsOSX64-Firefox&#46;md" or 
- "README.PAOSX64-Firefox&#46;md" or "README.PA64-Firefox&#46;md").<br/>
+ "README.PAOSX64-Firefox&#46;md" or "README.PA64-Firefox&#46;md", 
+ etc).<br/>
  This Will Allow To Clearly Show+Include : Which App Has Which/What “LICENSE” 
  File, & Which App Has Which/What “ReadMe” File, & This Will <b>AVOID</b> 
  The Problem Of <b>OVERWRITE/DISCARD</b> Of Same Named “LICENSE” File(s) 
@@ -682,6 +683,7 @@ Thanks in advance.
 <p width="100%" align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></p>
 
+<a name="ExtraNotes"></a>
 ## EXTRA-NOTES:
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
