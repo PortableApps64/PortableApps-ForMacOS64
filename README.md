@@ -205,8 +205,8 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
 <a name="License"></a><a name="PA-OSX64">
 <div width="100%"><b>Portable Apps OSX 64:</b><br/>
  Script(s)/Tool(s), Config(s)/Settings, etc For “Portable-Apps-OS-X-64” 
- (this project) are <b>released with following License(s) + Restrictions + 
- Permissions:</b><dl>
+ (this project) are <b>released with following (combined) LICENSE(s) + RESTRICTIONs + 
+ PERMISSIONs:</b><dl>
  <dd> 
   <b class="b">•</b> GNU General Public License Version 3 
   (<a href="https://www.GNU.org/licenses/gpl-3.0.en.html" target="_blank">GPL v3</a>)<br/>
@@ -215,6 +215,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
   at&#69;rïķ＠&#65;śh&#70;ölķ·ć&#333;m&gt; Do Not Copy Eml-Adrs, Type In 
   English/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">Basic-Latin</a> 
   Char, No Soliciting Permitted)&#46; All rights reserved.<br/>
+  <br/>
   <b class="b">•</b> (All other trademarks, etc cited here are the property 
   of their respective owners&#46;)<br/>
   <b class="b">•</b> (All other copyright items cited here are the copyright 
