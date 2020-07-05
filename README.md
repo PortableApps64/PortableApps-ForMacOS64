@@ -113,7 +113,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  HomeBrew (by-default) uses Google engines/APIs/etc, 
  & Google stores+records+collects your ALL download/usage 
  patterns/profile, private-info, etc near-ForEver).</dd></dl></li>
-<li> PA = pa = Portable App. Testing @github/support </li>
+<li> PA = pa = Portable App.</li>
 </ul>
 </div>
 
@@ -155,6 +155,8 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  <b class="b">•</b> macOSX Catalina version is 10.15.x (mostly 64bit-only)<br/>
  <b class="b">•</b> macOSX Mojave version is 10.14.x (64bit+32bit)</div></dd>
 </dl></dd></dl>
+
+Testing @github/support
 
 <a name="BuildTools"></a><a name="RunTools"></a>
 ## BUILD TOOLS & EXECUTION/RUN TOOLS (for DEVELOPERs)(and USERs):
