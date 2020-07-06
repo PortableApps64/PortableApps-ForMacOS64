@@ -159,7 +159,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
   <b class="m">&#123;</b> <a href="#LoadFoldersUnderRootFolder">Load Folders Under RootFolder</a> 
   <b class="p">&#124;</b> <a href="#ShowAllFilesFolders">Show All Files Folders</a> 
   <b class="p">&#124;</b> <a href="#UsefulOrRelatedUnicodeChars">Related Unicode Chars</a> 
-  <b class="p">&#124;</b> <a href="#VerifyFileAuthenticity">Verify File Authenticity</a> 
+  <b class="p">&#124;</b> <a href="#Verify">Verify File Authenticity</a> 
   <b class="p">&#124;</b> <a href="#codesign">CodeSign</a> 
   <b class="m">&#125;</b> 
  <b class="p">&#124;</b> <a href="#Abbreviations">Abbreviations</a> 
@@ -178,7 +178,7 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  executable, & we also use (mentioned in below) tools to assist our-project 
  tool during execution, & for executing the App either as portable app 
  Or as multi-instance of same app.<dl>
-<dd>To DEVs/USERs: <b class="b">•</b> <a href="#VerifyFileAuthenticity">Verify</a> 
+<dd>To DEVs/USERs: <b class="b">•</b> <a href="#Verify">Verify</a> 
  files/apps after download. And download only when download url/website 
  begins with “https”.<br/>
  <b class="b">•</b> TO USERs, If you only-want to USE a pre built App, 
@@ -191,7 +191,8 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  have to get & do.<br/>
  <b class="b">•</b> To USERs, Some items/files/components we may-not (or 
  cannot) directly include inside in some of the built+shared <b>App</b> 
- archive (<code>"*.dmg"</code>, etc) file. 
+ archive (<code>"*.dmg"</code>, <code>"*.tar.gz"</code>, 
+ <code>"*.zip"</code>, etc) file. 
  Either because of License/proprietary restrictions Or to provide you/USER 
  more Security/Privacy: ( Some files/components should not be provided by 
  someone-else, as it may have pre-fixed (or trackable) IDs/numbers/settings, 
@@ -201,18 +202,19 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  So it is better+safer to load/install (those specific components) on your 
  side by yourself, (to get your own & different IDs/numbers/etc). 
  And in some cases, some IDs/numbers inside some specific items/components 
- need-to-be or should-be anonymized/randomized, to provide more 
- Privacy/Security to USER, 
- those are/will-be done (if possible) & pre-included by us/DEVs, 
+ need-to-be or should-be anonymized(either randomized in some cases or 
+ kept-same in other cases), to provide more Privacy/Security to USER, 
+ those steps are/will-be done (if possible), & pre-included by us/DEVs, 
  and All of such matters/modifications are mentioned in that (Portable) 
  App’s webpage.<br/>
- To USERs, you can skip below BUILD-TOOLS & Other sections which are 
- for DEVELOPERs, & Goto next ("<a href="#Post-Build">POST-BUILD(for USERs</a>") 
- section (in this page), 
- Or goto the "POST-BUILD(for USERs" section in the (Portable) App’s 
+ To USERs, you can skip below BUILD-TOOLS & Other sections which 
+ are for DEVELOPERs, & Goto next 
+ “<a href="#Post-Build">POST-BUILD&#40;for USERs&#41;</a>” section 
+ (in this page), 
+ Or goto the "POST-BUILD(for USERs)" section in the (Portable) App’s 
  webpage, from which you want to obtain the (Portable) App.</dd>
 </dl>
-</div>
+</div><!-- “(” is &#40; , “)” is &#41; -->
 <br/>
 
 <a name="License"></a><a name="PA-OSX64">
@@ -1132,7 +1134,7 @@ i executed below 2-commands<b>:</b>
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="VerifyFileAuthenticity"></a>
-<a name="Hash"></a><a name="Digest"></a><a name="CheckSum"></a> 
+<a name="Hash"></a><a name="Digest"></a><a name="CheckSum"></a><a name="Verify"></a> 
  <b>Verify/Authenticate Files:</b></td></tr>
 <tr><td border="1">
  In macOSX, Calculate & Compare hash/checksum/digest code (it is a very 
