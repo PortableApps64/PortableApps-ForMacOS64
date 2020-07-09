@@ -38,19 +38,17 @@ th{ border-bottom:1px solid #434343; padding:3px 4px; text-align:left;
  font-weight:normal; color:white; }
 td{ text-align:left; padding:3px 4px; border-bottom:1px solid #434343; }
 h1,h2,h3{ line-height:1.1; }
-h1,h2,h3,h4,h5,h6{ color:#e8e8e8; margin:0 0 6px; /* [T] [R/L] [B] */
- font-weight:normal;
+h1,h2,h3,h4,h5,h6{ color:#f2f2f2; margin:0 0 6px; /* [T] [R/L] [B] */
+ font-weight:bold;
  font-family:'OpenSansRegular',"Helvetica Neue",Helvetica,Arial,sans-serif; }
-h1{ font-size:2em; margin:0.67em 0; }
-h1{ font-size:28px; }
-h2{ font-size:24px; }
-h3{ font-size:1.17em; margin:1em 0; }
-h3{ font-size:18px; font-weight:normal; line-height:24px; color:#b6b6b6;
+h1{ font-size:2em; line-height:2.1em; margin:0.67em 0; } /* fs 28px */
+h2{ font-size:1.6em; line-height:1.7em; } /* fs 24px */
+h3{ font-size:1.2em; line-height:1.3em; margin:1em 0; /* prev: fs 18px lh 24px */
  font-family:'OpenSansRegular',"Helvetica Neue",Helvetica,Arial,sans-serif !important; }
-h4,h5,h6{ color:#e8e8e8; }
-h4{ font-size:1em; margin:1.33em 0; }
-h5{ font-size:0.83em; margin:1.67em 0; }
-h6{ font-size:0.75em; margin:2.33em 0; }
+h4,h5,h6{ color:#f2f2f2; }
+h4{ font-size:1em; line-height:1.1em; margin:1.33em 0; }
+h5{ font-size:0.83em; line-height:0.9em; margin:1.67em 0; }
+h6{ font-size:0.75em; line-height:0.8em; margin:2.33em 0; }
 #header{ z-index:100; left:0; top:0px; height:30px; width:100%;
  position:fixed;
  background:url(../images/nav-bg.gif) #353535;
