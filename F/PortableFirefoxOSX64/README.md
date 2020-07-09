@@ -138,21 +138,13 @@ We (will & we need-to) use various (mentioned in below) tools/scripts,
  <b>DEVELOPERs</b>.<dl width="100%">
 <dd> 
  <b class="b">•</b>Some of the below 3rd-Party or Our Other 
- Tools/Scripts are needed to build necessary (binary/executable) 
+ Tools/Scripts are needed, to build necessary (binary/executable) 
  tools/bundles/files/etc for this "PortableFirefoxOSX64" 
- & related. And (mentiomned in below) some of the Tools/Scripts 
+ & related. And (mentioned in below) some of the Tools/Scripts 
  are used for running/executing the portable-App/Tool/Script 
  Or used for executing the target-App (that is inside the 
  portable-App, ie: Firefox&#46;app), either as a portable App 
- Or as a multi-instance of same app.<br/>
- 
- Please follow instruction from 
- <a href="../../PortableAppsOSX64#Platypus">Platypus</a> section 
- in this project’s parent/home page. (After that, 
- press Go-Back button in your web-browser 
- (Firefo&#120;/Safar&#105;/Chromiu&#109;) to come-back to this 
- section here).<br/>
- 
+ Or as a multi-instance of same app.<br/> 
  <b class="b">•</b> To USERS+DEVS: 
  <a href="../../PortableAppsOSX64#Verify">Verify</a> files/apps 
  after download, And download only when (download) 
@@ -167,8 +159,9 @@ We (will & we need-to) use various (mentioned in below) tools/scripts,
  (or <code>"&#42;-OSX-64.tar.gz"</code> 
  or <code>"&#42;-OSX-64.zip"</code>) file <b>release</b>, 
  and to <b>Users</b>, please also <b>FOLLOW</b> instruction 
- shown on <b>“POST-BUILD (for USER)”</b> paragraph/section, 
- to know what else you/User have to get & do.<br/>
+ shown on <a href="#Post-Buid"><b>“POST-BUILD (for USER)”</b></a> 
+ paragraph/section, to know what else you/User have to 
+ get & do.<br/>
  <b class="b">•</b> To USERs, Some items/files/components we 
  may-not (or cannot) directly include inside some of the 
  built+shared <b>App</b> archive-file (<code>"&#42;.dmg"</code>, 
@@ -198,7 +191,7 @@ We (will & we need-to) use various (mentioned in below) tools/scripts,
 <br/>
 
 <!-- “(” = %28 , “)” = %29 , “.” = &#46; -->
-<a name="New-Script"></a><a name="License"></a><a name="PA-Firefox-OSX64">
+<a name="New-Script"></a><a name="License"></a><a name="PA-Firefox-OSX64"></a>
 ### NEW SCRIPT/TOOL LICENSE:🆕
 <div width="100%">New ‘<a href="script">script</a>’ (or 
  “PortableFirefoxOSX64&#46;sh” or “script&#46;sh” script) 
@@ -732,7 +725,7 @@ or you know what you’re doing).
 <br/>
 
 
-<a name="Test-Run"></a><a name="Test"><a name="Run"></a>
+<a name="Test-Run"></a><a name="Test"></a><a name="Run"></a>
 ## RUN/EXECUTE/TEST:
 <div width="100%"> Now you need-to run/execute & test & investigate 
  the <code>“PortableFirefoxOSX64&#46;app”</code> App/bundle, 
