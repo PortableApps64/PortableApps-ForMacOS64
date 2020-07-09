@@ -137,7 +137,7 @@ We (will & we need-to) use various (mentioned in below) tools/scripts,
  Some are just for <b>USERs</b>, and some are just for 
  <b>DEVELOPERs</b>.<dl width="100%">
 <dd> 
- <b class="b">•</b>Some of the below 3rd-Party or Our Other 
+ <b class="b">•</b> Some of the below 3rd-Party or Our Other 
  Tools/Scripts are needed, to build necessary (binary/executable) 
  tools/bundles/files/etc for this "PortableFirefoxOSX64" 
  & related. And (mentioned in below) some of the Tools/Scripts 
@@ -206,7 +206,7 @@ We (will & we need-to) use various (mentioned in below) tools/scripts,
  <dd> 
   <b class="b">•</b> GNU General Public License Version 3 
   (<a href="https://www.GNU.org/licenses/gpl-3.0.en.html" target="_blank">GPL v3</a>)<br/>
-  <b class="b">•</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc<br/>
+  <b class="b">•</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc.<br/>
   <b class="b">•</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
   at&#69;rïķ＠&#65;śh&#70;ölķ·ć&#333;m&gt; Do Not Copy Eml-Adrs, Type In 
   English/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">Basic-Latin</a> 
@@ -250,7 +250,7 @@ That binary is then placed inside the <code>“Portable Firefox.app”</code> bu
 
 <!-- %2E = ".", %3A = ":", %20 = " "(space), %5F = "_", "(" = &#40;, ")" = &#41; -->
 <a name="Old-Script"></a>
-### OLD SCRIPT From (Another Project&#58; PortableFirefoxOSX&#41;&#58;
+### OLD SCRIPT (From Another Project&#58; PortableFirefoxOSX&#41;&#58;
 <div width="100%"> Original & Last ‘script’ v4.1 is here<b>:</b> 
  <a href="http://www.FreeSMUG.org/portableapps%3Acode%3Afirefox" target="_blank">http://www.FreeSMUG.org/portableapps:code:firefox</a><br/>
  ( You can also check 1st commit of this ‘script’ file here in Github 
@@ -467,7 +467,7 @@ Or get Platypus v4.9, as that is the last 32bit supported
 </dd></dl>
 <br/>
 
-<div width="100%"><a name="pb-5"></a>PB-5: Get (Language, 
+<div width="100%"><a name="pb-5"></a><b>PB-5:</b> Get (Language, 
 Profile, License, etc) build related files/folders/bundles:<br/>
 <b>a:</b> Use GitHub’s “Clone or Download” button & select 
  “Download ZIP”, save zip file, goto default download location 
@@ -702,9 +702,10 @@ or you know what you’re doing).
 <br/>
 
 
-<a name="Post-Build"></a>
+<a name="Post-Build"></a><!-- “.” is &#46; -->
 ## POST-BUILD (for USERS) (and Developers):
-<div width="100%">Users+Devs, before you run this, you may have 
+<div width="100%">Users+Devs, before you run 
+ <code>“PortableFirefoxOSX64.app”</code>, you will have 
  to download+add some more files or apps or components (or 
  <b>modify</b>/<b>change</b> a/few settings) by yourself, 
  & apply/put those <b>modified</b>/<b>changed</b> settings/file(s) 
