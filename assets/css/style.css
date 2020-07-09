@@ -66,7 +66,7 @@ h6{ font-size:0.75em; margin:2.33em 0; }
  box-shadow:inset 0px 1px 0px rgba(255,255,255,0.3),0px 2px 5px rgba(0,0,0,0.7);
  background-color:#93bd20; padding:1px 4px; margin-top:1px; line-height:9px; /* [T] [R/L] [B] */
  font-size:9px; text-align:center; }
-#header nav li.fork{ float:left; margin-left:0px; vertical-align:-5%; } /* View On GitHub */
+#header nav li.fork{ float:left; margin-left:0px; vertical-align:-15%; } /* View On GitHub */
 #header nav li.downloads{ float:right; margin-left:5px; }
 #header nav li.title{ float:right; margin-right:5px; font-size:9px; }
 section{ padding:3px 0px; margin:2px 0; margin-top:16px; }
