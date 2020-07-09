@@ -61,10 +61,10 @@ h6{ font-size:0.75em; margin:2.33em 0; }
   font-family:'OpenSansSemiBold',"Helvetica Neue",Helvetica,Arial,sans-serif;
   color:white; text-shadow:0px 1px 0px rgba(0,0,0,0.2); }
 #header nav li a{ display:inline-block; color:white; border:1px solid #5d910b;
- background:linear-gradient(#93bd20,#659e10);
+ background:linear-gradient(#77991a,#598b0e); /* #93bd20,#659e10 */
  background-color:rgba(0,0,0,0); border-radius:2px;
  box-shadow:inset 0px 1px 0px rgba(255,255,255,0.3),0px 2px 5px rgba(0,0,0,0.7);
- background-color:#93bd20; padding:1px 4px; margin-top:1px; line-height:9px; /* [T] [R/L] [B] */
+ background-color:#77991a; padding:1px 4px; margin-top:1px; line-height:9px; /* [T] [R/L] [B] */
  font-size:9px; text-align:center; }
 #header nav li.fork{ float:left; margin-left:0px; vertical-align:-15%; } /* View On GitHub */
 #header nav li.downloads{ float:right; margin-left:5px; }
