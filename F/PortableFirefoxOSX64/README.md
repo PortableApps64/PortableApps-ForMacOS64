@@ -125,8 +125,9 @@ Executable(s) or Source Script(s)/Tool(s), Config(s), Setting(s), instruction(s)
 </dl>
 <br/>
 
-<a name="Tools-Scripts"></a><a name="BuildTools"></a><a name="RunTools"></a>
-## BUILD TOOLS/SCRIPS & EXECUTION/RUN TOOLS/SCRIPTS(for USERS & DEVELOPERS):
+<a name="Tools-Scripts"></a>
+<a name="BuildTools"></a><a name="RunTools"></a>
+## BUILD & RUN TOOLS/SCRIPTS(for USERS & DEVELOPERS):
 <div width="100%"> 
 We (will & we need-to) use various (mentioned in below) tools/scripts, 
  etc to BUILD our primary (portable script or portable binary) 
@@ -146,7 +147,7 @@ We (will & we need-to) use various (mentioned in below) tools/scripts,
  portable-App, ie: Firefox&#46;app), either as a portable App 
  Or as a multi-instance of same app.<br/> 
  <b class="b">•</b> To USERS+DEVS: 
- <a href="../../PortableAppsOSX64#Verify">Verify</a> files/apps 
+ <a href="../../README.md#Verify">Verify</a> files/apps 
  after download, And download only when (download) 
  url/website begins with “http<b>s</b>”. One of the best 
  way to Verify files is: Use GnuPG(GPG) tools, & trustworthy 
@@ -281,7 +282,7 @@ Last “Portable Firefox OSX” app<b>:</b>
 <a name="Xcode"></a>
 ### Xcode:
 Please follow instruction from 
-<a href="../../PortableAppsOSX64#Xcode">Xcode</a> section in this 
+<a href="../../README.md#Xcode">Xcode</a> section in this 
 project’s parent/home page, & get only Xcode-CLT. (After that, 
 press Go-Back button in your web-browser 
 (Firefo&#120;/Safar&#105;/Chromiu&#109;) to come-back to this 
@@ -291,7 +292,7 @@ section here).<br/>
 <a name="Platypus"></a>
 ### PLATYPUS:
 Please follow instruction from 
-<a href="../../PortableAppsOSX64#Platypus">Platypus</a> section 
+<a href="../../README.md#Platypus">Platypus</a> section 
 in this project’s parent/home page. (After that, 
 press Go-Back button in your web-browser 
 (Firefo&#120;/Safar&#105;/Chromiu&#109;) to come-back to this 
@@ -342,7 +343,7 @@ section here).<br/>
 <a name="Pashua"></a>
 ### PASHUA:
 Please follow instruction from 
-<a href="../../PortableAppsOSX64#Pashua">Pashua</a> section 
+<a href="../../README.md#Pashua">Pashua</a> section 
 in this project’s parent/home page. (After that, 
 press Go-Back button in your web-browser 
 (Firefo&#120;/Safar&#105;/Chromiu&#109;) 
@@ -509,15 +510,16 @@ Profile, License, etc) build related files/folders/bundles:<br/>
 <div width="100%"><b>g:</b> Copy the <code>"Portable Firefox OS X"</code> 
  folder/directory from opened content of 
  <code>"PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg"</code>, 
- & place/paste it in below sub-dir/sub-folder location:<dl><dd> 
-  <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/F/PA-Firefox-OSX-Old/"</code><br/>
-  ( above location’s shorter form is: 
-  <code>"/Projects/Portable-Apps-OS-X-64/F/PA-Firefox-OSX-Old/"</code> 
-  )<br/>
-  ( or Paste in your userpsace: 
-  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-Firefox-OSX-Old/"</code> 
-  )</dd>
-</dl>
+ & place/paste it in below sub-dir/sub-folder location:<dl>
+ <dd> 
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/F/PA-Firefox-OSX-Old/"</code><br/>
+ ( above location’s shorter form is: 
+ <code>"/Projects/Portable-Apps-OS-X-64/F/PA-Firefox-OSX-Old/"</code> 
+ )<br/>
+ ( or Paste in your userpsace: 
+ <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-Firefox-OSX-Old/"</code> 
+ )</dd>
+ </dl>
 </div>
 <div width="100%"><b>h:</b> Right-click (or Tap with double-finger) 
  on <code>"Portable Firefox.app"</code> bundle which is here:<dl>
