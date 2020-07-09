@@ -41,9 +41,9 @@ h1,h2,h3{ line-height:1.1; }
 h1,h2,h3,h4,h5,h6{ color:white; margin:0 0 6px; /* [T] [R/L] [B] */
  font-weight:bold;
  font-family:'OpenSansSemibold',"Helvetica Neue",Helvetica,Arial,sans-serif; }
-h1{ font-size:1.7em; margin:0.67em 0; } /* fs 28px */
-h2{ font-size:1.3em; } /* fs 24px */
-h3{ font-size:1.1em; margin:1em 0; /* prev: fs 18px lh 24px */
+h1{ font-size:1.8em; margin:0.67em 0; }
+h2{ font-size:1.3em; }
+h3{ font-size:1.1em; margin:1em 0;
  font-family:'OpenSansSemibold',"Helvetica Neue",Helvetica,Arial,sans-serif !important; }
 h5,h6{ line-height:0.9; }
 h4{ font-size:1em; line-height:1; margin:1.33em 0; }
@@ -91,7 +91,7 @@ p,pre{ margin:1em 0; }
 pre{ padding:4px 6px; background:#191919; border-radius:2px; border:1px solid #121212;
  box-shadow:inset 0 1px 3px rgba(0,0,0,0.3);
  overflow:auto; overflow-y:auto; overflow-y:hidden; }
-code{ font-family:Monaco,Bitstream Vera Sans Mono,Lucida Console,Terminal,monospace;
+code{ font-family:Monaco,"Bitstream Vera Sans Mono",Lucida Console,Terminal,monospace;
  font-size:15px; margin:0 2px; padding:1px; /* [T/B] [R/L] */
  color:white; background-color:#303030;
  border-radius:2px; }
