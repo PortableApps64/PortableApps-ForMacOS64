@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6{ color:white; margin:0 0 6px; /* [T] [R/L] [B] */
  font-weight:bold;
  font-family:'OpenSansSemibold',"Helvetica Neue",Helvetica,Arial,sans-serif; }
 h1{ font-size:1.8em; margin:0.67em 0; }
-h2{ font-size:1.3em; }
+h2{ font-size:1.4em; }
 h3{ font-size:1.1em; margin:1em 0;
  font-family:'OpenSansSemibold',"Helvetica Neue",Helvetica,Arial,sans-serif !important; }
 h5,h6{ line-height:0.9; }
