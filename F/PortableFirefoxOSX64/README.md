@@ -75,7 +75,7 @@ code{ background-color:#2D2D2D; }
 </style>
 <a name="intro"></a><!-- “.” is &#46; -->
 # PORTABLE FIREFOX OS X 64
-Executable(s) or Source Script(s)/Tool(s), Config(s), Setting(s), instruction(s), link(s), etc for “<b>Portable Firefox OS X 64</b>” (aka “<b>PortableFirefoxOSX64<b>” aka “<b>Portable-Firefox-OSX-64</b>”) are displayed+placed in this page.
+Executable(s) or Source Script(s)/Tool(s), Config(s), Setting(s), instruction(s), link(s), etc for “<b>Portable Firefox OS X 64</b>” (aka “<b>PortableFirefoxOSX64</b>” aka “<b>Portable-Firefox-OSX-64</b>”) are displayed+placed in this page.
 
 <a name="index"></a><!-- “:” = &#58;, “{” = &#123;, “|” = &#124;, “}” = &#125; -->
 <dl width="100%"><dd>Content/INDEX List<b>:</b> 
@@ -121,7 +121,7 @@ Executable(s) or Source Script(s)/Tool(s), Config(s), Setting(s), instruction(s)
  <b class="b">•</b> macOSX Catalina version is 10.15.x (mostly 64bit-only)<br/>
  <b class="b">•</b> macOSX Mojave version is 10.14.x (64bit+32bit)
 </div></dd><dd>
- ( PA = pa = Portable App . DEVs = Developers . MODs = Modifications . CFGs = Configs )
+ ( PA = pa = Portable App . DEVs = Developers . MODs = Modifications . CFGs = Configs )</dd>
 </dl>
 <br/>
 
