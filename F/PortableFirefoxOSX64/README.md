@@ -183,9 +183,10 @@ We (will & we need-to) use various (mentioned in below) tools/scripts,
  us/DEVs, and All of such matters/modifications are mentioned in 
  "<a href="#ModsDevs">Modifications</a>(for DEVs)" paragraph/section 
  of this (Portable) App’s webpage.<br/>
- To USERs, you can skip below BUILD-TOOLS & Other sections which 
- are for DEVELOPERs, & Goto next 
- “<a href="#Post-Build">POST-BUILD&#40;for USERs&#41;</a>” section 
+ To <b>USERs</b>, you can <b>skip</b> below BUILD-TOOLS & 
+ Other sections which are for DEVELOPERs, & Goto next 
+ “<a href="#Post-Build">POST-BUILD&#40;for USERs&#41;</a>” 
+ section or “<a href="#Release">Release</a>” section
  (in this page).</dd>
 </dl>
 </div>
@@ -445,19 +446,18 @@ Or get Platypus v4.9, as that is the last 32bit supported
  ( above location’s shorter form is: 
  <code>"/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/"</code> 
  )<br/>
- ( or Paste in your Userspace: 
+ ( or Paste inside your Userspace: 
  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-Firefox-OSX64/"</code> 
  )<br/>
  ( PA = pa = Portable App )
 </dd></dl>
-</div>
-<dl width="100%"><dd>The last security-updated Gecko-based 
+<dl><dd>The last security-updated Gecko-based 
  & non-ESR (old) Firefox<b>:</b><dl>
-  <dd>
+ <dd>
   FF v56.0.2 dmg file’s sha1:79a0013664134ced2307c8e1ffa5d36f6256e8f,<br/>
   md5:a5608df45832df3ff302a7ccbe7ec3f6, 54.5 MBytes,<br/>
   <a href="https://ftp.Mozilla.org/pub/firefox/releases/56%2E0%2E2/" target="_blank">https://ftp.Mozilla.org/pub/firefox/releases/56.0.2/</a>
-  </dd><dl>
+ </dd></dl>
 </dd><dd>The last gecko-based old Firefox-ESR<b>:</b><dl>
   <dd>
   FF v52.9.0 ESR dmg file’s sha1:d879f5423d79393f2384e0f97a5581f9d89d7977,<br/>
@@ -466,6 +466,7 @@ Or get Platypus v4.9, as that is the last 32bit supported
   </dd></dl><!-- “.” = %2E -->
 </dd><dd>Note: ESR = Extended Support Release.
 </dd></dl>
+</div>
 <br/>
 
 <div width="100%"><a name="pb-5"></a><b>PB-5:</b> Get (Language, 
