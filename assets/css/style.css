@@ -57,15 +57,15 @@ h6{ font-size:0.75em; margin:2.33em 0; }
 #header nav,div#header nav{ max-width:94%; margin:0 auto; padding:0 10px; margin:1px auto; /* 2 items = [T/B] [R/L] */
  background:blue; text-align:center; }
 #header nav li{ list-style:none; display:inline;  
-  font-size:9px; font-weight:bold; line-height:10px; vertical-align:-15%;
+  font-size:9px; font-weight:bold; line-height:10px;
   font-family:'OpenSansSemiBold',"Helvetica Neue",Helvetica,Arial,sans-serif;
   color:white; text-shadow:0px 1px 0px rgba(0,0,0,0.2); }
 #header nav li a{ display:inline-block; color:white; border:1px solid #5d910b;
  background:linear-gradient(#93bd20,#659e10);
  background-color:rgba(0,0,0,0); border-radius:2px;
  box-shadow:inset 0px 1px 0px rgba(255,255,255,0.3),0px 2px 5px rgba(0,0,0,0.7);
- background-color:#93bd20; padding:1px 4px; margin-top:1px; line-height:9px; /* [T] [R/L] [B] */
- font-size:9px; text-align:center; }
+ background-color:#93bd20; padding:1px 4px; margin-top:2px; line-height:9px; /* [T] [R/L] [B] */
+ font-size:9px; text-align:center; } /* vertical-align:-20%; */
 #header nav li.fork{ float:left; margin-left:0px; } /* View On GitHub */
 #header nav li.downloads{ float:right; margin-left:5px; }
 #header nav li.title{ float:right; margin-right:5px; font-size:9px; }
