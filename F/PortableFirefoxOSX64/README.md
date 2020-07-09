@@ -65,8 +65,8 @@ li{ margin:0px 0px 0px 16px; padding:3px 3px 3px -20px; }
 /* <br/> Smaller Font/Text:<br/> */
 span.Sml{ font-size:0.8em; }
 /* <br/> Bold Text & Same Line-Height:<br/> */
-b.b{ font-size:28px; line-height:0.8em; font-weight:bold; font-family:"OpenSansRegular","Helvetica Neue",Helvetica,Arial,sans-serif; vertical-align:-20%; }
-b.m,b.p{ line-height:0.8em; font-weight:normal; font-family:Monaco,Bitstream Vera Sans Mono,Lucida Console,Terminal,monospace; }
+b.b{ font-size:28px; line-height:0.8em; font-weight:bold; font-family:"OpenSansSemibold","Helvetica Neue",Helvetica,Arial,sans-serif; vertical-align:-20%; }
+b.m,b.p{ line-height:0.8em; font-weight:normal; font-family:Monaco,"Bitstream Vera Sans Mono","Lucida Console",Terminal,monospace; }
 b.m{ font-size:16px; vertical-align:5%; }
 b.p{ font-size:18px; vertical-align:0%; }
 /* <br/> Dark-Gray Background For CODE:<br/> */
