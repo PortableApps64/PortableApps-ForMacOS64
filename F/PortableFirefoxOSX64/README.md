@@ -81,47 +81,47 @@ Executable(s) or Source Script(s)/Tool(s), Config(s), Setting(s), instruction(s)
 <dl width="100%"><dd>Content/INDEX List<b>:</b> 
 <b class="p">&#124;</b> <a href="#intro">Intro</a> 
 <b class="p">&#124;</b> <a href="#RunTools">Run/Build-Tools</a>(for Users+Devs) 
- <b class="p">&#715;&#123;</b> <a href="#License">New Script/Tool License</a> 
-  <b class="p">&#x2C6;&#123;</b> <a href="#Tool-Type">Type of New Tool/Script</a> 
-  <b class="p">&#125;&#8204;&#x2C6;</b> 
+ <b class="p">&#8203;&#768;&#123;</b> <a href="#License">New Script/Tool License</a> 
+  <b class="p">&#8203;&#x2C6;&#123;</b> <a href="#Tool-Type">Type of New Tool/Script</a> 
+  <b class="p">&#125;&#8203;&#x2C6;</b> 
  <b class="p">&#124;</b> <a href="#Old-Script">Old-Script</a> 
  <b class="p">&#124;</b> <a href="#Xcode">Xcode</a> 
  <b class="p">&#124;</b> <a href="#Platypus">Platypus</a> 
  <b class="p">&#124;</b> <a href="#Cocoa-Dialog">Cocoa-Dialog</a> 
  <b class="p">&#124;</b> <a href="#Pashua">Pashua</a> 
- <b class="p">&#125;&#714;</b> 
+ <b class="p">&#125;&#8203;&#769;</b> 
 <b class="p">&#124;</b> <a href="#Pre-Build">Pre-Build (for-DEVs)</a> 
- <b class="p">&#715;&#123;</b> <a href="#pb-1">PB-1</a> 
+ <b class="p">&#8203;&#768;&#123;</b> <a href="#pb-1">PB-1</a> 
  <b class="p">&#124;</b> <a href="#pb-2">PB-2</a> 
  <b class="p">&#124;</b> <a href="#pb-3">PB-3</a> 
  <b class="p">&#124;</b> <a href="#pb-4">PB-4</a> 
  <b class="p">&#124;</b> <a href="#pb-5">PB-5</a> 
- <b class="p">&#125;&#714;</b> 
+ <b class="p">&#125;&#8203;&#769;</b> 
 <b class="p">&#124;</b> <a href="#ModsDevs">MODs (for-DEVs)</a> 
- <b class="p">&#715;&#123;</b> - 
- <b class="p">&#125;&#714;</b> 
+ <b class="p">&#8203;&#768;&#123;</b> - 
+ <b class="p">&#125;&#8203;&#769;</b> 
 <b class="p">&#124;</b> <a href="#Build">Build (for-DEVs)</a> 
- <b class="p">&#715;&#123;</b> <a href="#b-1">B-1</a> 
+ <b class="p">&#8203;&#768;&#123;</b> <a href="#b-1">B-1</a> 
  <b class="p">&#124;</b> <a href="#b-2">B-2</a> 
  <b class="p">&#124;</b> <a href="#b-3">B-3</a> 
  <b class="p">&#124;</b> <a href="#b-4">B-4</a> 
- <b class="p">&#125;&#714;</b> 
+ <b class="p">&#125;&#8203;&#769;</b> 
 <b class="p">&#124;</b> <a href="#Release">Release</a>(Apps,Tools,Scripts,Cfgs,etc) 
 <b class="p">&#124;</b> <a href="#Post-Build">Post-Build (for USERs)</a> (and DEVs) 
- <b class="p">&#715;&#123;</b> <a href="#ModsUsersDevs">MODs (for USERs)</a> (and DEVs) 
- <b class="p">&#125;&#714;</b> 
+ <b class="p">&#8203;&#768;&#123;</b> <a href="#ModsUsersDevs">MODs (for USERs)</a> (and DEVs) 
+ <b class="p">&#125;&#8203;&#769;</b> 
 <b class="p">&#124;</b> <a href="#Run">Run/Execute/Test</a> 
 <b class="p">&#124;</b> <a href="#Errors">Errors</a> 
 <b class="p">&#124;</b> <a href="#HelpToBuild">Help-To-Build</a> 
 <b class="p">&#124;</b> <a href="#ExtraNotes">Extra-Notes</a> 
- <b class="p">&#715;&#123;</b> <a href="#Profile-Folder">Profile-Folder</a> 
- <b class="p">&#125;&#714;</b> 
+ <b class="p">&#8203;&#768;&#123;</b> <a href="#Profile-Folder">Profile-Folder</a> 
+ <b class="p">&#125;&#8203;&#769;</b> 
 <b class="p">&#124;</b></dd>
 <dd><div align="center">
  <b class="b">•</b> macOSX Catalina version is 10.15.x (mostly 64bit-only)<br/>
  <b class="b">•</b> macOSX Mojave version is 10.14.x (64bit+32bit)
 </div></dd><dd>
- ( PA = pa = Portable App . DEVs = Developers . MODs = Modifications . CFGs = Configs )</dd>
+ ( PA = pa = Portable App . DEVs = Developers . MODs = Modifications . CFGs = Configs . Lic = Licn = License )</dd>
 </dl>
 <br/>
 
@@ -805,7 +805,7 @@ Thanks in advance.
 ## EXTRA-NOTES:
 
 <a name="Profile-Folder"></a>
-<div width="100%"></a>Profile folder: <dl width="100%">
+<div width="100%">Profile folder: <dl width="100%">
 <dd> 
  <b class="b">•</b> Which “profile” folder is used by the running 
  Firefox ?<dl width="100%">
