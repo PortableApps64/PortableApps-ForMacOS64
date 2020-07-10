@@ -83,7 +83,7 @@ Executable(s) or Source Script(s)/Tool(s), Config(s), Setting(s), instruction(s)
 <b class="p">&#124;</b> <a href="#RunTools">Run/Build-Tools</a>(for Users+Devs) 
  &#8239;&#715;<b class="p">&#123;</b> <a href="#License">New Script/Tool License</a> 
   &#8239;&#x2C6;<b class="p">&#123;</b> <a href="#Tool-Type">Type of New Tool/Script</a> 
-  <b class="p">&#125;</b>&#8239;&#x302; 
+  <b class="p">&#125;</b>&#8239;&#x302;&#32; 
  <b class="p">&#124;</b> <a href="#Old-Script">Old-Script</a> 
  <b class="p">&#124;</b> <a href="#Xcode">Xcode</a> 
  <b class="p">&#124;</b> <a href="#Platypus">Platypus</a> 
