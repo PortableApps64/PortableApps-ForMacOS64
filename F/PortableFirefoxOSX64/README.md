@@ -77,45 +77,64 @@ code{ background-color:#2D2D2D; }
 # PORTABLE FIREFOX OS X 64
 Executable(s) or Source Script(s)/Tool(s), Config(s), Setting(s), instruction(s), link(s), etc for “<b>Portable Firefox OS X 64</b>” (aka “<b>PortableFirefoxOSX64</b>” aka “<b>Portable-Firefox-OSX-64</b>”) are displayed+placed in this page.
 
-<a name="index"></a><!-- “:” = &#58;, “{” = &#123;, “|” = &#124;, “}” = &#125; -->
+<!-- Note For DEVs:
+Use CSS-class-"m" for curly-braces “{”/“}” = &#123;/&#125; ,
+Use CSS-class-"p" for pipe-symbols “|” = &#124; ,
+" " = &#8239; = NNBSP , "​" = &#8203; = ZWSP , &#8204 = ZWNJ , &#32; = Space ,
+&#x300; &#768; ◌̀ dcm , &#x340; &#832; ◌̀ dct , &#x2CB; &#715; ˋ dsl ,
+ &#x2F4; ˴ sml , &#x60; &#96; ` dss ,
+&#x301; &#769; ◌́ dcm , &#x341; &#833; ◌́ dct , &#x2CA; &#714; ˊ dsl ,
+ &#x2D9; &#714; ˊ dsl , &#xB4; &#180; ´ dss ,
+&#x302; ◌̂ dcm , &#x2C6; ˆ dml , &#x5E; &#94; ^ dss , &#x2C7; ˇ dml , 
+&#x2C4; ˄ sml , &#x2C5; ˅ sml ,
+&#x2081; ₁ ss , &#x2082; ₂ ss , &#x2083; ₃ ss , &#x2084; ₄ ss , &#x2085; ₅ ss ,
+ &#x2086; ₆ ss , &#x2087; ₇ ss ,
+&#x207F; ⁿ ss , &#x2074; ⁴ ss , &#x2075; ⁵ ss ,
+&#x307; &#775; ◌̇ , &#x2D9; &#729; ˙ ,
+&#x2F5; ˵ sml , &#x2F6; ˶ sml , &#x2DD; ˝ sml ,
+&#x2F9; ˹ sml , &#x2FA; ˺ sml , &#x2BB; ʻ sml , &#x2BC; ʼ sml , &#x2BD; ʽ sml ,
+ -->
+<a name="index"></a><!-- “:” = &#58; -->
 <dl width="100%"><dd>Content/INDEX List<b>:</b> 
 <b class="p">&#124;</b> <a href="#intro">Intro</a> 
 <b class="p">&#124;</b> <a href="#RunTools">Run/Build-Tools</a>(for Users+Devs) 
- &#8239;&#715;<b class="m">&#123;</b> <a href="#License">New Script/Tool License</a> 
-  &#8239;&#x2C6;<b class="m">&#123;</b> <a href="#Tool-Type">Type of New Tool/Script</a> 
-  <b class="m">&#125;</b>&#8239;&#x302;&#32; 
+ ₁<b class="m">&#123;</b> <a href="#License">New Script/Tool License</a> 
+  ₂<b class="m">&#123;</b> <a href="#Tool-Type">Type of New Tool/Script</a> 
+  <b class="m">&#125;</b>₂ 
  <b class="p">&#124;</b> <a href="#Old-Script">Old-Script</a> 
  <b class="p">&#124;</b> <a href="#Xcode">Xcode</a> 
  <b class="p">&#124;</b> <a href="#Platypus">Platypus</a> 
  <b class="p">&#124;</b> <a href="#Cocoa-Dialog">Cocoa-Dialog</a> 
  <b class="p">&#124;</b> <a href="#Pashua">Pashua</a> 
- <b class="m">&#125;</b>&#8239;&#833; 
+ <b class="m">&#125;</b>₁ 
 <b class="p">&#124;</b> <a href="#Pre-Build">Pre-Build (for-DEVs)</a> 
- &#8239;&#715;<b class="m">&#123;</b> <a href="#pb-1">PB-1</a> 
+ ₁<b class="m">&#123;</b> <a href="#pb-1">PB-1</a> 
  <b class="p">&#124;</b> <a href="#pb-2">PB-2</a> 
  <b class="p">&#124;</b> <a href="#pb-3">PB-3</a> 
  <b class="p">&#124;</b> <a href="#pb-4">PB-4</a> 
  <b class="p">&#124;</b> <a href="#pb-5">PB-5</a> 
- <b class="m">&#125;</b>&#8239;&#833; 
+ <b class="m">&#125;</b>₁ 
 <b class="p">&#124;</b> <a href="#ModsDevs">MODs (for-DEVs)</a> 
- &#8239;&#715;<b class="m">&#123;</b> - 
- <b class="m">&#125;</b>&#8239;&#833; 
+ ₁<b class="m">&#123;</b> - 
+ <b class="m">&#125;</b>₁ 
 <b class="p">&#124;</b> <a href="#Build">Build (for-DEVs)</a> 
- &#8239;&#715;<b class="m">&#123;</b> <a href="#b-1">B-1</a> 
+ ₁<b class="m">&#123;</b> <a href="#b-1">B-1</a> 
  <b class="p">&#124;</b> <a href="#b-2">B-2</a> 
  <b class="p">&#124;</b> <a href="#b-3">B-3</a> 
  <b class="p">&#124;</b> <a href="#b-4">B-4</a> 
- <b class="m">&#125;</b>&#8239;&#833; 
+ <b class="m">&#125;</b>₁ 
 <b class="p">&#124;</b> <a href="#Release">Release</a>(Apps,Tools,Scripts,Cfgs,etc) 
 <b class="p">&#124;</b> <a href="#Post-Build">Post-Build (for USERs)</a> (and DEVs) 
- &#8239;&#715;<b class="m">&#123;</b> <a href="#ModsUsersDevs">MODs (for USERs)</a> (and DEVs) 
- <b class="m">&#125;</b>&#8239;&#833; 
+ ₁<b class="m">&#123;</b> <a href="#ModsUsersDevs">MODs (for USERs)</a> (and DEVs) 
+  ₂<b class="m">&#123;</b> - 
+  <b class="m">&#125;</b>₂ 
+ <b class="m">&#125;</b>₁ 
 <b class="p">&#124;</b> <a href="#Run">Run/Execute/Test</a> 
 <b class="p">&#124;</b> <a href="#Errors">Errors</a> 
 <b class="p">&#124;</b> <a href="#HelpToBuild">Help-To-Build</a> 
 <b class="p">&#124;</b> <a href="#ExtraNotes">Extra-Notes</a> 
- &#8239;&#715;<b class="m">&#123;</b> <a href="#Profile-Folder">Profile-Folder</a> 
- <b class="m">&#125;</b>&#8239;&#833; 
+ ₁<b class="m">&#123;</b> <a href="#Profile-Folder">Profile-Folder</a> 
+ <b class="m">&#125;</b>₁ 
 <b class="p">&#124;</b></dd>
 <dd>
  <b class="b">•</b> macOSX Catalina version is 10.15.x (mostly 64bit-only)<br/>
