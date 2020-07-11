@@ -116,12 +116,16 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
  HomeBrew (by-default) uses Google engines/APIs/etc, 
  & Google stores+records+collects your ALL download/usage 
  patterns/profile, private-info, etc near-ForEver).</dd></dl></li>
-<li> PA = pa = Portable App.</li>
+<li> PA = pa = Portable App . </li>
 </ul>
 </div>
 <br/>
 
-
+<!-- NOTEs for DEVs:
+&#xB9; ¹ , &#xB2; ² , &#xB3; ³ ,
+ss &#x2074; ⁴ , &#x2075; ⁵ , &#x2076; ⁶ , &#x2077; ⁷ ,
+ss &#x2078; ⁸ , &#x2079; ⁹ , &#x2070; ⁰ , &#x207F; ⁿ , 
+-->
 <a name="index"></a><!-- “:” = &#58;, “{” = &#123;, “}” = &#125;, “|” = &#124; -->
 <dl><dd>&#160;<dl>
 <dd>Portable-Apps-OS-X-64<b>:</b> 
@@ -131,43 +135,44 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
 <dd>Content/<b>INDEX</b> List<b>:</b> 
  <b class="p">&#124;</b> <a href="#intro">Intro</a> 
  <b class="p">&#124;</b> <a href="#BuildTools">Build/Run-Tools(for-Devs)</a> 
-  <b class="m">&#123;</b> <a href="#PA-OSX64">Portable-Apps-OS-X-64</a> 
+  ¹<b class="m">&#123;</b> <a href="#PA-OSX64">Portable-Apps-OS-X-64</a> 
   <b class="p">&#124;</b> <a href="#Xcode">Xcode</a> 
   <b class="p">&#124;</b> <a href="#Swift">Swift</a> 
   <b class="p">&#124;</b> <a href="#Platypus">Platypus</a> 
   <b class="p">&#124;</b> <a href="#Pashua">Pashua</a> 
-  <b class="m">&#125;</b> 
+  <b class="m">&#125;</b>¹ 
  <b class="p">&#124;</b> <a href="#pb">Pre-Build(for-Devs)</a> 
-  <b class="m">&#123;</b> <a href="#pb-1">PB-1</a> 
+  ²<b class="m">&#123;</b> <a href="#pb-1">PB-1</a> 
   <b class="p">&#124;</b> <a href="#DupliLICN">Duplicate</a> (License & ReadMe) 
   <b class="p">&#124;</b> <a href="#pb-2">PB-2</a> 
   <b class="p">&#124;</b> <a href="#pb-3">PB-3</a> 
   <b class="p">&#124;</b> <a href="#pb-4">PB-4</a> 
   <b class="p">&#124;</b> <a href="#pb-5">PB-5</a> 
-  <b class="m">&#125;</b> 
+  <b class="m">&#125;</b>² 
  <b class="p">&#124;</b> <a href="#Build">Build(for-Devs)</a> 
-  <b class="m">&#123;</b> <a href="#b-1">B-1</a> 
+  ³<b class="m">&#123;</b> <a href="#b-1">B-1</a> 
   <b class="p">&#124;</b> <a href="#b-2">B-2</a> 
   <b class="p">&#124;</b> <a href="#b-3">B-3</a> 
   <b class="p">&#124;</b> <a href="#b-4">B-4</a> 
-  <b class="m">&#125;</b> 
+  <b class="m">&#125;</b>³ 
  <b class="p">&#124;</b> <a href="#Post-Build">Post-Build(for-Users)</a> 
  <b class="p">&#124;</b> <a href="#Test-Run">Run/Execute/Test</a> 
  <b class="p">&#124;</b> <a href="#Errors">Errors</a> 
  <b class="p">&#124;</b> <a href="#HelpToBuild">Help-To-Build</a> 
  <b class="p">&#124;</b> <a href="#ExtraNotes">Extra-Notes</a> 
-  <b class="m">&#123;</b> <a href="#LoadFoldersUnderRootFolder">Load Folders Under RootFolder</a> 
+  ⁴<b class="m">&#123;</b> <a href="#LoadFoldersUnderRootFolder">Load Folders Under RootFolder</a> 
   <b class="p">&#124;</b> <a href="#ShowAllFilesFolders">Show All Files Folders</a> 
   <b class="p">&#124;</b> <a href="#UsefulOrRelatedUnicodeChars">Related Unicode Chars</a> 
   <b class="p">&#124;</b> <a href="#Verify">Verify File Authenticity</a> 
   <b class="p">&#124;</b> <a href="#codesign">CodeSign</a> 
-  <b class="m">&#125;</b> 
+  <b class="m">&#125;</b>⁴ 
  <b class="p">&#124;</b> <a href="#Abbreviations">Abbreviations</a> 
  <b class="p">&#124;</b> <a href="#License">License(s)</a> 
  <b class="p">&#124;</b></dd>
 <dd><div width="100%" align="center">
  <b class="b">•</b> macOSX Catalina version is 10.15.x (mostly 64bit-only)<br/>
- <b class="b">•</b> macOSX Mojave version is 10.14.x (64bit+32bit)</div></dd>
+ <b class="b">•</b> macOSX Mojave version is 10.14.x (64bit+32bit)</div>
+</dd>
 </dl></dd></dl>
 <br/>
 
@@ -220,12 +225,12 @@ The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted
 <a name="License"></a><a name="PA-OSX64">
 <div width="100%"><b>Portable Apps OSX 64:</b><br/>
  Script(s)/Tool(s), Config(s)/Settings, etc For “Portable-Apps-OS-X-64” 
- (this project) are <b>released with following (combined) LICENSE(s) + RESTRICTIONs + 
+ (this project) are <b>Released with following (combined) LICENSE(s) + RESTRICTIONs + 
  PERMISSIONs:</b><dl>
  <dd> 
   <b class="b">•</b> GNU General Public License Version 3 
   (<a href="https://www.GNU.org/licenses/gpl-3.0.en.html" target="_blank">GPL v3</a>)<br/>
-  <b class="b">•</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc<br/>
+  <b class="b">•</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc.<br/>
   <b class="b">•</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
   at&#69;rïķ＠&#65;śh&#70;ölķ·ć&#333;m&gt; Do Not Copy Eml-Adrs, Type In 
   English/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">Basic-Latin</a> 
@@ -701,7 +706,6 @@ If no errors, even then please share your final working code, your
 
 <a name="HelpToBuild"></a>
 ## HELP TO BUILD:
-
 Please help+contribute+collaborate+improve+rectify current codes to 
 build this bash-shell ‘script’ (or apple-script or ..., etc ), 
 so-that it can be run/used by Platypus Or run/used directly by user, 
@@ -794,11 +798,16 @@ i executed below 2-commands<b>:</b>
  ( We will use some of these in our dialog messages from this 
  ‘script’ )</td></tr>
 <tr><td><a name="U-abbr"></a>Unicode related <b>Abbreviations:</b> 
- <b class="b">•</b> Char = Character/Symbol/Glyph <b class="b">•</b> Grph = Graphic 
+ <b class="b">•</b> Char = Character/Symbol/Glyph 
+ <b class="b">•</b> Grph = Graphic 
  <b class="b">•</b> Emj ~= Emoji ~= Emoticons 
- <b class="b">•</b> Txt = Textual Glyph <b class="b">•</b> U = Unicode 
- <b class="b">•</b> A = ASCII <b class="b">•</b> Ref = Reference 
- <b class="b">•</b> dec = decimal <b class="b">•</b> DEC = DRC = Decimal Entity (Ref) Code 
+ <b class="b">•</b> Txt = Textual Glyph 
+ <b class="b">•</b> U = Unicode 
+ <b class="b">•</b> A = ASCII 
+ <b class="b">•</b> CJK = Chinese-Japanese-Korean 
+ <b class="b">•</b> Ref = Reference 
+ <b class="b">•</b> dec = decimal 
+ <b class="b">•</b> DEC = DRC = Decimal Entity (Ref) Code 
  <b class="b">•</b> HEC = HexaDecimal Entity (Ref) Code 
  <b class="b">•</b> h = H = x = hex = HexaDecimal 
  <b class="b">•</b> CNRC = Character Name Ref/Entity Code 
@@ -885,13 +894,14 @@ i executed below 2-commands<b>:</b>
  &amp;#124; &amp;verbar; &amp;vert; 
  </td><td><b class="b">•</b> (Single)-Broken-Bar "¦" &amp;#166; &amp;brvbar; 
   ❖AltGr+&#96; ❖AltGr+6 ❖AltGr+⇧Shift+Right\ 
- </td><td> &#160; </td></tr>
-<tr><td><b class="b">•</b> Ampersand (aka And) & &amp;#38; &amp;amp; 
+ </td><td><b class="b">•</b> ǁ &amp;#449; &amp;#x1C1; 
+  <b class="b">•</b> ‖ &amp;#x2016; </td></tr>
+<tr><td><b class="b">•</b> Ampersand (aka "And") & &amp;#38; &amp;amp; 
  </td><td><b class="b">•</b> Less-Than &lt; &amp;#60; &amp;lt; 
  </td><td><b class="b">•</b> Greater-Than &gt; &amp;#62; &amp;gt; </td></tr>
-<tr><td><b class="b">•</b> Non-Breaking Space "&#160;" &amp;#160; &amp;nbsp; 
- 🍎⌥Opt+Space ❖Alt+0160 ❖Alt+255 
- </td><td><b class="b">•</b> Narrow No-Break Space "&#8239;" &amp;#8239; 
+<tr><td><a name="Space"></a><b class="b">•</b> Non-Breaking Space (NBSP) 
+ "&#160;" &amp;#160; &amp;nbsp; 🍎⌥Opt+Space ❖Alt+0160 ❖Alt+255 
+ </td><td><b class="b">•</b> Narrow No-Break Space (NNBSP) "&#8239;" &amp;#8239; 
  </td><td><b class="b">•</b> Space " " &amp;#32; </td></tr>
 <tr><td><b class="b">•</b> Zero-Width Space(ZWSP) "&#8203;" &amp;#8203; U+200B 
  </td><td> &#160; 
@@ -956,7 +966,7 @@ i executed below 2-commands<b>:</b>
  <b class="b">•</b> Mem-Qoph (Pahlavi) “𐭬” (R-to-L) U+10B6C 
  <b class="b">•</b> Om (WarangCiti) “𑣿” U+118FF 
  <b class="b">•</b> Latin O with Acute “Ó” U+00D3 
- <b class="b">•</b> o with grave “ò” U+00F2
+ <b class="b">•</b> o with grave “ò” U+00F2 
  <b class="b">•</b> o with acute “ó” U+00F3 
  <b class="b">•</b> Small Omicron with Tonos/AcuteAccent (Greek) “ό” U+03CC 
   (Apple/Orange) 
@@ -1038,7 +1048,7 @@ i executed below 2-commands<b>:</b>
  <b class="b">•</b> <code>◌᪺</code> 1ABA <b class="b">•</b> <code>◌᷎</code> 1DCE 
  <b class="b">•</b> <code>◌᷃</code> 1DC3 <b class="b">•</b> <code>◌᷎</code> 1DCE 
  <b class="b">•</b> <code>◌ᷗ</code> 1DD7 <b class="b">•</b> <code>◌ᷛ</code> 1DDB 
- <b class="b">•</b> <code>◌ᷞ</code> 1DDE </td></tr>
+ <b class="b">•</b> <code>◌ᷞ</code> 1DDE <b class="b">•</b> See <a href="#CUD">CDM</a> </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
@@ -1058,6 +1068,8 @@ i executed below 2-commands<b>:</b>
  </td><td><b class="b">•</b> Infinity ∞ &amp;#8734; &amp;infin; 🍎⌥Opt+5 
  </td><td> &#160; </td></tr>
 <tr><td>⬑1of3</td><td>⬑2of3</td><td>⬑3of3</td></tr>
+<tr><td colspan="3"><b class="b">•</b> Various ⿰ ⿱ ⿲ ⿳ ⿴ ⿵ ⿶ ⿷ ⿸ ⿹ ⿺ ⿻ 〔 〕 ︿ ﹝ ﹞ ‹ › ∶ ⎮ ╱ ⧶ ⧸ ⫻ ⫽ 〳 ゠ ː̷̸ </td></tr>
+<tr><td colspan="3"><b class="b">•</b>  ։ ֊ ׃ ״  ٪ ۔ ܁ ܂ ܃ ܄ᅟ </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
@@ -1097,7 +1109,7 @@ i executed below 2-commands<b>:</b>
  <a href="https://en.Wikipedia.org/wiki/Variant%5Fform%5F%28Unicode%29#Variation%5FSelectors%5Fblock" target="_blank">VS15</a>-char(&amp;#xFE0E; 
  or &amp;#65038;) after the Emoji, (or apply CSS, i.e: <code>span.gray 
  { -webkit-filter&#58; grayscale(100%); filter&#58; grayscale(100%); }</code>).<br/>
- <a name="UEM"></a><b class="b">•</b> When an 
+<a name="UEM"></a><b class="b">•</b> When an 
  <a href="https://en.Wikipedia.org/wiki/Miscellaneous%5FSymbols%5Fand%5FPictographs#Emoji%5Fmodifiers" target="_blank">Emoji-Modifier</a> 
  character (i.e: “Emoji Modifier FitzPatrick Type-6” character 
  &amp;#x1F3FF; or &amp;#127999; U+1F3FF) is placed after an Emoji 
@@ -1105,7 +1117,7 @@ i executed below 2-commands<b>:</b>
  are supported), then that Emoji will appear with dark/gray 
  color/skin-tone, but many (font/glypgh/emoji)-Rendering-engine/system 
  still does not support this "Human Diversity" for all Emojis!<br/>
- <a name="CUD"></a><b class="b">•</b> If you want to <a href="https://en.Wikipedia.org/wiki/Combining_diacritics" target="_blank">Join</a> 
+<a name="CUD"></a><b class="b">•</b> If you want to <a href="https://en.Wikipedia.org/wiki/Combining_diacritics" target="_blank">Join</a> 
  a <a href="https://en.Wikipedia.org/wiki/Combining_Diacritical_Marks" target="_blank">diacritical-mark</a> 
  with an Unicode-char(U-char), 
  then place diacritic(s)-char(s) after the base/primary U-char in sequence, 
@@ -1117,11 +1129,12 @@ i executed below 2-commands<b>:</b>
  or &amp;#847; or &amp;#x34F;) in-between them. 
  Text/Font Rendering Engine in your system may-not work/support/uptodate 
  as expected/instructed/requested by Unicode consortium/group.<br/>
- <a name="ZWNJ"></a><b class="b">•</b> If you want to display a character 
+<a name="ZWNJ"></a><b class="b">•</b> If you want to display a character 
  & a diacrtic-mark separately & close to each other, but without joined-by 
  the Font/Text rendering engine/system, then place a 
  <a href="https://en.Wikipedia.org/wiki/Zero-width_non-joiner" target="_blank">ZWNJ</a> 
- char(U+200C &amp;#8204; or &amp;zwnj; or &amp;#x200C;) in between them.
+ char(U+200C &amp;#8204; or &amp;zwnj; or &amp;#x200C;) in between them. 
+ Also see <a href="#Space">space</a>.
 </td></tr>
 <tr><td> <a href="http://liberties.WikiDot.com/symbols1" target="_blank">http://Liberties.WikiDot.com/symbols1</a><br/>
  <a href="http://liberties.WikiDot.com/ligatures1" target="_blank">http://Liberties.WikiDot.com/ligatures1</a><br/>
