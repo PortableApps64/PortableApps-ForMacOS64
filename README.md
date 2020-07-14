@@ -74,68 +74,90 @@ code{ background-color:#2D2D2D; }
 /* <br/> END of CSS STYLEs: */
 </style>
 <a name="intro"></a>
-# PORTABLE APPS OS X 64
+# PORTABLE APPS For MacOS X/XI 64
 <!-- “.” is &#46; , “(” is &#40; , “)” is &#41; , “/” is &#47; -->
-Portable Apps for MacOSX-64 is a (Set of) Scripts/Tools Which Allows To Run 
- Apps (i.e: Mozilla’s "Firefox&#46;app") for macOS As A macOSX-64 Portable 
- App, & Also Allows To Run (Second/Third&#47;&#41;Multiple Instances Of Same 
- App, in macOSX. (View this repo/project on 
- <a href="https://github.com/PortableApps64/PortableAppsOSX64">GitHub</a>).
+Portable Apps for MacOS-X/XI-64 (aka MacOS-10/11-64) (MacOS10, MacOS11, 
+ MacOSX, MacOSXI) is a Set of Scripts/Tools Which Allows To Run Apps 
+ (i.e: Mozilla’s “Firefox&#46;app”) made for <a href="#MacOS">macOS</a>, 
+ As A Portable App For MacOS (aka Portable App For MacOS-X/XI-64 / 
+ MacOS-10/11-64), 
+ And Also Allows To Run (Second/Third&#47;&#41;Multiple Instances 
+ Of Same App in macOSX/macOSXI (macOS-X/XI, macOS-10/11). 
+ (View this repo/project on 
+ <a href="https://github.com/PortableApps64/PortableApps-ForMacOS64">GitHub</a>).
 <div width="100%">So We Are Including 64bit Pashua dialog, 64bit Platypus, 
- etc etc Tools To Assist In Executing/Running macOS (64bit) Apps Either As 
- Portable App Or As Multi-Instance Of Same App, & To Run Our Apps Either 
- From Portable/External Drive/Disk Or Run From Mac’s Internal-Drive, 
- & To Run Our Apps On Both 64bit-Only macOSX (Catalina & macOSX after it) 
- And also 64bit+32bit macOSX (Mojave & macOSX before it).<br/>
-The Newer ‘Script’/Tool That We Are Building Can (Also) Be Modified/Adapted 
- To Use With Other “Portable Apps for OSX 64” (Under This Project), 
+ etc etc Tools To Assist In Executing/Running <a href="#MacOS">macOS</a> 
+ (64bit) Apps Either As Portable App Or As Multi-Instance (Of Same) App, 
+ So That We Can Run Our Apps Either From Portable/External Drive/Disk 
+ Or Run From Mac’s Internal-Drive, 
+ And We Are Making It To Be Compatible With Both 64bit-Only macOSX 
+ (Catalina, & macOSXI after it) And Also Compatible With 64bit+32bit 
+ macOSX (Mojave & macOSX before it).<br/>
+The Newer ‘Script’(s)/Tool(s) That We Are Building Can (Also) Be 
+ Modified/Adapted To Use With Other “Portable Apps for MacOS-X/XI-64” 
+ (Under This Project), 
  And Can Also Be Used With Older “Portable Apps for OSX” (from another 
  developer’s project 
  “<a href="http://www.FreeSMUG.org/" target="_blank">FreeSMUG</a>”/“<a href="https://SourceForge.net/projects/osxportableapps/" target="_blank">osxportableapps</a>”).<ul>
 <li> 
- FreeSMUG/osx-pa based older Portable-Apps cannot run on 64-bit-only 
- macOSX (Catalina or macOSX after it) because Apps were not built with 
- completely 64bit compatible codes/tools)</li>
+ FreeSMUG/osx-pa based older Portable Apps cannot run on 64-bit-only 
+ macOSX (Catalina, or macOSXI after it) because Apps were not built with 
+ completely 64bit compatible codes/tools, AND because: 
+ <a href="https://support.apple.com/en-us/HT208436" target="_blank">Apple</a> 
+ has removed 32-bit support (almost-completely) from macOSX Catalina 
+ & macOSXI after it)</li>
 <li> For Windows based “PortableApps”, checkout another developer’s 
  project: https://GitHub.com/PortableApps</li>
-<li> By the way, not-all but some Windows Apps Can Be Run On macOSX By Using : 
+<li> By the way, not-all but some Windows Apps Can Be Run On macOS-X/XI 
+ By Using : 
  “<a href="https://wiki.WineHQ.org/MacOS" target="_blank">Wine</a>”, 
  “<a href="https://WineSkin.UrgeSoftware.com/tiki-index.php" target="_blank">Wineskin</a>”, 
  “<a href="https://WineBottler.KronenBerg.org/" target="_blank">WineBottler</a>”, 
  “<a href="https://www.PlayOnMac.com/en" target="_blank">PlayOnMac</a>”, etc.</li>
-<li> Not-all but many many Unix/BSD/Linux/etc based tools/apps can be built 
- from source-code (and some binary/executable tools can also be downloaded) 
- on your macOSX Mac computer, by using these package-management tools:<dl>
+<li> Not-all but many many 
+ <a href="#Unx">Unix</a>/<a href="#BSD">BSD</a>/<a href="#Lnx">Linux</a>/etc 
+ based tools/apps can be built from source-code (and some binary/executable 
+ tools can also be downloaded/used) on your macOS-X/XI Mac computer, 
+ by using these package-management tools:<dl>
  <dd> 
  <b class="b">•</b> “<a href="https://GitHub.com/macports/macports-base/releases/" target="_blank">MacPorts</a>” 
  (Be warned: “MacPorts” requires admin/sudo privileged access),<br/>
+ <b class="b">•</b> “<a href="https://www.pkgsrc.org/" target="_blank">pkgsrc</a>” 
+ (<a href="https://pkgsrc.joyent.com/install-on-osx/" target="_blank">macOS</a>) 
+ (Be warned: “pkgsrc” also requires admin/sudo privileged access),<br/>
  <b class="b">•</b> “<a href="https://GitHub.com/Homebrew/brew/releases/" target="_blank">HomeBrew</a>” 
  <!-- “.” = &#46; , “*” = &#42; -->(click on “Assets” below a release, 
  then click on “brew-&#42;&#46;tar&#46;gz” to download)&#46; (ByTheWay, 
  Be Warned of Violation of Privacy-Rights by “HomeBrew” project & “Google” : 
  HomeBrew (by-default) uses Google engines/APIs/etc, 
  & Google stores+records+collects your ALL download/usage 
- patterns/profile, private-info, etc near-ForEver).</dd></dl></li>
-<li> PA = pa = Portable App . </li>
+ patterns/profile, private-info, etc near-ForEver. But one good aspect is 
+ “HomeBrew” does-not require admin/sudo privileged access.)</dd></dl></li>
+<li>( PA = pa = Portable App )</li>
 </ul>
 </div>
 <br/>
 
-<!-- NOTEs for DEVs:
-&#xB9; ¹ , &#xB2; ² , &#xB3; ³ ,
-ss &#x2074; ⁴ , &#x2075; ⁵ , &#x2076; ⁶ , &#x2077; ⁷ ,
-ss &#x2078; ⁸ , &#x2079; ⁹ , &#x2070; ⁰ , &#x207F; ⁿ , 
+<!-- NOTE For DEVs: 
+Use CSS-class-"m" for curly-braces “{”/“}” = &#123;/&#125; ,
+Use CSS-class-"p" for pipe-symbols “|” = &#124; ,
+ss &#x2081; ₁ , &#x2082; ₂ , &#x2083; ₃ , &#x2084; ₄ , &#x2085; ₅ ,
+ ss &#x2086; ₆ , &#x2087; ₇ , &#x2088; ₈ , &#x2089; ₉ , &#x2080; ₀ ,
+&#xB9; ¹ , &#xB2; ² , &#xB3; ³ , 
+ ss &#x2074; ⁴ , &#x2075; ⁵ , &#x2076; ⁶ , &#x2077; ⁷ , &#x2078; ⁸ ,
+ ss &#x2079; ⁹ , &#x2070; ⁰ , &#x207F; ⁿ , 
 -->
 <a name="index"></a><!-- “:” = &#58;, “{” = &#123;, “}” = &#125;, “|” = &#124; -->
 <dl><dd>&#160;<dl>
-<dd>Portable-Apps-OS-X-64<b>:</b> 
+<dd>Portable-Apps-For-MacOS-X/XI-64 (aka “Portable-Apps-OS-X-XI-64” aka 
+ “PortableApps-ForMacOS64” aka “PortableApps-OSX1-64”)<b>:</b> 
  <b class="p">&#124;</b> <a href="F/">F</a> 
- <b class="p">&#124;</b> <a href="F/PortableFirefoxOSX64/">Portable Firefox OSX64</a> 
+ <b class="p">&#124;</b> <a href="F/PortableFirefoxOSX64/">Portable Firefox OS-X-XI-64</a> 
  <b class="p">&#124;</b><br/></dd>
 <dd>Content/<b>INDEX</b> List<b>:</b> 
  <b class="p">&#124;</b> <a href="#intro">Intro</a> 
  <b class="p">&#124;</b> <a href="#BuildTools">Build/Run-Tools(for-Devs)</a> 
-  ¹<b class="m">&#123;</b> <a href="#PA-OSX64">Portable-Apps-OS-X-64</a> 
+  ¹<b class="m">&#123;</b> <a href="#PA-OSX64">Portable-Apps-OS-X-XI-64</a> 
   <b class="p">&#124;</b> <a href="#Xcode">Xcode</a> 
   <b class="p">&#124;</b> <a href="#Swift">Swift</a> 
   <b class="p">&#124;</b> <a href="#Platypus">Platypus</a> 
@@ -169,15 +191,32 @@ ss &#x2078; ⁸ , &#x2079; ⁹ , &#x2070; ⁰ , &#x207F; ⁿ ,
  <b class="p">&#124;</b> <a href="#Abbreviations">Abbreviations</a> 
  <b class="p">&#124;</b> <a href="#License">License(s)</a> 
  <b class="p">&#124;</b></dd>
-<dd><div width="100%" align="center">
- <b class="b">•</b> macOSX Catalina version is 10.15.x (mostly 64bit-only)<br/>
- <b class="b">•</b> macOSX Mojave version is 10.14.x (64bit+32bit)</div>
-</dd>
-</dl></dd></dl>
+<dd> 
+ <b class="b">•</b> macOSXI Big Sur - version is 11.0.z (<s>10.16.z</s>) 
+  (mostly 64bit-only)<br/>
+ <b class="b">•</b> macOSX Catalina - version is 10.15.z 
+  (mostly 64bit-only)<br/>
+ <b class="b">•</b> macOSX Mojave - version is 10.14.z 
+  (64bit+32bit)<br/>
+ <b class="b">•</b> macOSX High-Sierra - version is 10.13.z 
+  (64bit+32bit)<br/>
+ <b class="b">•</b> macOSX Sierra - version is 10.12.z 
+  (64bit+32bit)<br/>
+ ( XI = 11 = Eleven = macOS-XI = macOSXI = macOS11 )<br/>
+ ( X = 10 = Ten = macOS-X = macOSX = macOS10 )<br/>
+ ( X/XI = X-XI = 10/11 = 10-11 = Ten/Eleven = Ten-Eleven = 
+  macOS-X/XI = macOS-X-XI = macOS-10/11 )<br/>
+ ( Generally in a version number X.Y.Z , X indicates a MAJOR version 
+  number, Y is Minor , Z is patch / build / maintenance , then a 
+  revision alphanum string may/can exist. But Apple followed different 
+  versioning: Significant.Major.Minor )<br/>
+  ( PA = pa = Portable App . OS64 = MacOS-X/XI-64 = MacOS-10/11-64bit )</dd>
+</dl>
+</dd></dl>
 <br/>
 
 
-<a name="BuildTools"></a><a name="RunTools"></a>
+<a name="BuildTools"></a><a name="RunTools"></a><!-- &#x2081; ₁ , &#x2082; ₂ -->
 ## BUILD TOOLS & EXECUTION/RUN TOOLS (for DEVELOPERs)(and USERs):
 <div width="100%">We use (mentioned in below) tools to build our binary 
  executable, & we also use (mentioned in below) tools to assist our-project 
@@ -189,57 +228,65 @@ ss &#x2078; ⁸ , &#x2079; ⁹ , &#x2070; ⁰ , &#x207F; ⁿ ,
  <b class="b">•</b> TO USERs, If you only-want to USE a pre built App, 
  & do not want to completely compile/build, then go directly into 
  <u><b>App</b></u> sub-dir/sub-folder, shown <a href="#index">here</a> 
- & obtain <code>"*-OSX-64.dmg"</code> (or <code>"*-OSX-64.tar.gz"</code> 
- or <code>"*-OSX-64.zip"</code>) file <b>release</b>, 
+ & obtain <code>"*-ForMacOS64.dmg"</code> 
+ ₁(or <code>"*-OS-X-XI-64.dmg"</code> or <code>"*-ForMacOS64.tar.gz"</code> 
+ or <code>"*-OS-X-XI-64.tar.gz"</code> or <code>"*-ForMacOS64.zip"</code> 
+ or <code>"*-OS-X-XI-64.zip"</code>)₁ file <b>release</b>, 
  and FOLLOW “POST-BUILD (for USER)” instruction shown on 
- “Portable-<u><b>App</b>Name</u>-OSX-64” page, to know what else you 
+ “Portable-<u><b>App</b>Name</u>-OS64” (or 
+ “Portable-<u><b>App</b>Name</u>-OS-X-XI-64”) page, to know what else you 
  have to get & do.<br/>
  <b class="b">•</b> To USERs, Some items/files/components we may-not (or 
  cannot) directly include inside in some of the built+shared <b>App</b> 
  archive (<code>"*.dmg"</code>, <code>"*.tar.gz"</code>, 
  <code>"*.zip"</code>, etc) file. 
  Either because of License/proprietary restrictions Or to provide you/USER 
- more Security/Privacy: ( Some files/components should not be provided by 
- someone-else, as it may have pre-fixed (or trackable) IDs/numbers/settings, 
- etc, 
- Or it has some type of file-sharing (or file-distribution) related 
- restriction(s).<br/>
+ more Security/Privacy Or there are some type of file-sharing (or 
+ file-distribution), etc related restriction(s).<br/>
+ Some files/components should not be provided by someone-else, 
+ as it may have pre-fixed (or trackable) IDs/numbers/settings, etc.<br/>
  So it is better+safer to load/install (those specific components) on your 
- side by yourself, (to get your own & different IDs/numbers/etc). 
- And in some cases, some IDs/numbers inside some specific items/components 
- need-to-be or should-be anonymized(either randomized in some cases or 
- kept-same in other cases), to provide more Privacy/Security to USER, 
- those steps are/will-be done (if possible), & pre-included by us/DEVs, 
- and All of such matters/modifications are mentioned in that (Portable) 
+ side by yourself, to get your own (and different than others) 
+ IDs/numbers/etc.<br/>
+ And in some cases, some IDs/numbers inside some specific 
+ items/components need-to-be or should-be anonymized(either randomized 
+ in some cases or kept-same in other cases), 
+ to provide more Privacy/Security to USER, 
+ some of those steps are/will-be done (if possible) and pre-included by 
+ us/DEVs, 
+ and All of such modifications/matters are mentioned in that (Portable) 
  App’s webpage.<br/>
  To USERs, you can skip below BUILD-TOOLS & Other sections which 
  are for DEVELOPERs, & Goto next 
  “<a href="#Post-Build">POST-BUILD&#40;for USERs&#41;</a>” section 
  (in this page), 
- Or goto the "POST-BUILD(for USERs)" section in the (Portable) App’s 
- webpage, from which you want to obtain the (Portable) App.</dd>
+ Or goto the "POST-BUILD (for USERs)" section in the (Portable) 
+ App’s webpage, from which you want to obtain the (Portable) App.</dd>
 </dl>
 </div><!-- “(” is &#40; , “)” is &#41; -->
 <br/>
 
 <a name="License"></a><a name="PA-OSX64">
-<div width="100%"><b>Portable Apps OSX 64:</b><br/>
- Script(s)/Tool(s), Config(s)/Settings, etc For “Portable-Apps-OS-X-64” 
- (this project) are <b>Released with following (combined) LICENSE(s) + RESTRICTIONs + 
- PERMISSIONs:</b><dl>
+<div width="100%"><b>Portable Apps For MacOS X/XI 64:</b><br/>
+ Script(s)/Tool(s), Config(s)/Settings, etc For 
+ “Portable-Apps-For-MacOS-X-XI-64” (aka “PortableApps-ForMacOS64”) 
+ (this project) are <b>Released with following (combined) LICENSE(s) + 
+ RESTRICTIONs + PERMISSIONs:</b><dl>
  <dd> 
   <b class="b">•</b> GNU General Public License Version 3 
-  (<a href="https://www.GNU.org/licenses/gpl-3.0.en.html" target="_blank">GPL v3</a>)<br/>
+  (<a href="https://www.GNU.org/licenses/gpl-3.0.en.html" target="_blank">GPL v3</a>).<br/>
   <b class="b">•</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc.<br/>
   <b class="b">•</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
   at&#69;rïķ＠&#65;śh&#70;ölķ·ć&#333;m&gt; Do Not Copy Eml-Adrs, Type In 
-  English/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">Basic-Latin</a> 
+  English/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">basic-Latin</a> 
   Char, No Soliciting Permitted)&#46; All rights reserved.<br/>
   <br/>
   <b class="b">•</b> (All other trademarks, etc cited here are the property 
   of their respective owners&#46;)<br/>
   <b class="b">•</b> (All other copyright items cited here are the copyright 
-  of their respective author/creator&#46;)</dd>
+  of their respective author/creator&#46;)<br/>
+  <br/>
+  ( PA = Portable App . OS64 = MacOS-X/XI-64 = MacOS-10/11-64bit )</dd>
  </dl>
 </div>
 <br/>
@@ -302,13 +349,13 @@ ss &#x2078; ⁸ , &#x2079; ⁹ , &#x2070; ⁰ , &#x207F; ⁿ ,
  compatible app bundles, but it does not (digitally) sign or provides any 
  option to sign the generated app bundle, So it seems, only Admin level 
  privileged user can use+run Platypus generated apps in 64bit-only 
- macOSX(Catalina & macOSX after it), and (it appears v5.3 & later version 
- generated) apps can also be run/used in 64bit+32bit supported macOSX(Mojave 
+ macOSX (Catalina, & macOSXI after it), and (it appears v5.3 & later version 
+ generated) apps can also be run/used in 64bit+32bit supported macOSX (Mojave 
  & macOSX before it) by a less privileged user.<br/>
- To wrap an App for macOSX Mojave & before it, use v4.9. 
+ To wrap an App for macOSX Mojave & macOSX before it, use v4.9. 
  Zip file is 1.7 MBytes, MD5<b>:</b>076f27017fde028948fe560dd7457b71, 
  SHA1<b>:</b>490107b5da6f16cfe7d64692b1699905c3eba960.<br/>
- To wrap an App for macOSX Catalina & after it, use v5.3 & later. 
+ To wrap an App for macOSX Catalina & macOSXI after it, use v5.3 & later. 
  v5.3 zip file is 3.3 MBytes, MD5<b>:</b>51ebf430b45529a7dd891b8d6cd80517, 
  SHA1<b>:</b>dacaf4b6f9309f4abff3f453ea31fe0edf74dd05.<br/>
 </dd></dl>
@@ -325,10 +372,10 @@ ss &#x2078; ⁸ , &#x2079; ⁹ , &#x2070; ⁰ , &#x207F; ⁿ ,
  Website: 
  <a href="https://www.BlueM.net/en/projects/pashua/" target="_blank">https://www.BlueM.net/en/projects/pashua/</a><br/>
  Github: https://GitHub.com/BlueM/Pashua<br/>
- We have to use Pashua Or similar, because older “Portable OSX Apps” 
- (from “FreeSMUG”/“osx-pa”) do not include 64bit dialog/interaction 
- software/tools, So cannot be run/executed on 64-only macOSX (Catalina 
- or after it).<br/>
+ We have to use Pashua Or similar, because older “Portable Apps OSX” 
+ (from “FreeSMUG”/“osx-pa”) did not include 64bit-only compatible 
+ dialog/interaction software/tools, So cannot be run/executed on 
+ 64-only macOSX (Catalina, or macOSXI after it).<br/>
  Pashua(<a href="https://www.bluem.net/files/Pashua.dmg" target="_blank">dmg</a>)
  v0.11 file has 1.8 MBytes, MD5<b>:</b>7492da10f78dde4833264eebbda9c210, 
  SHA1<b>:</b>bcc843a1f889ff779a6b6acc1b90a27b72f040f5.<br/>
@@ -340,54 +387,66 @@ ss &#x2078; ⁸ , &#x2079; ⁹ , &#x2070; ⁰ , &#x207F; ⁿ ,
 
 
 <!-- markdown line which starts with # or ## or ### etc are turned into 
- html-header & html-hr & a lower-case name-link. -->
-<a name="pb"></a><a name="Pre-Build"></a>
+ html-header & html-hr & a lower-case name/id-link. -->
+<a name="pb"></a><a name="Pre-Build"></a><!-- &#x2081; ₁ , &#x2082; ₂ -->
 ## PRE-BUILD (for DEVELOPERs):
 <b>BRING TOGETHER BUILD-RELATED ITEMS/OBJECTS,ETC (PREPARATION):</b>
 
-Here, We use “<b>OSX</b>” or “<b>OSX-Old</b>” (and 
-<b>Not</b>-“<b>OSX64</b>”) in-the-End of a Folder/Directory NAME to 
-indicate, that this Folder/Dir is for an older PA app (that was likely 
-obtained from “OsxPortableApps”/“FreeSMUG” site) & its not-compatible 
-with 64bit-only macOSX (Catalina & macOSX after it),<br/>
-and, We use “<b>OSX64</b>” at-end of a Folder/Dir NAME (i.e: 
-<b>“</b>Portable<b>OSX64</b>App<b>”</b> or “PortableAppName-<b>OSX64</b>” 
-or “PortableAppName-<b>OSX-64</b>” etc) to indicate, this is where 
+Here, We use “<b>OSX</b>” or “<b>OS-X</b>” or “<b>OSX-Old</b>” or 
+“<b>OS-X-Old</b>” ₁(and <b>Not</b>-“<b>OS64</b>”, and also 
+<b>Not</b>-“<b>OS-X-XI-64</b>”)₁ in-the-End of a Folder/Directory NAME 
+to indicate, that this Folder/Dir is for an older PA app (that was 
+likely obtained from “OsxPortableApps”/“FreeSMUG” site) & its 
+not-compatible with 64bit-only macOSX (Catalina & macOSXI after it),<br/>
+and We use “<b>OS64</b>” or “<b>OS-X-XI-64</b>” or “<b>64</b>” 
+at-end of a Folder/Dir NAME ₂(i.e: 
+“Portable-App-<b>OS64</b>” or 
+“Portable-App-<b>OS-X-XI-64</b>” or 
+“PortableAppName-<b>OS64</b>” or 
+“PortableAppName-<b>OSX64</b>” or 
+“PortableAppName-<b>OSXI64</b>” or 
+“PortableAppName-<b>OS-X-XI-64</b>” or 
+“PortableAppName-<b>OSX-64</b>” or 
+“PortableAppName-<b>OSXI-64</b>” or 
+“PortableAppName-<b>OSX-OSXI-64</b>” etc)₂ to indicate, this is where 
 we will use this-project & this is where we will work + create/build 
-our App that will/can run on both: 64-bit-only macOSX (Catalina & macOSX 
-after it) & also on 64bit+32bit based older macOSX (Mojave & macOSX 
-before it).<br/>
+our App that will/can run on both: 64-bit-only macOSX (Catalina 
+& macOSXI after it) and also on 64bit+32bit based (older) macOSX 
+(Mojave & macOSX before it).<br/>
 <div width="100%"><a name="pb-1"></a>PB-1: Suppose, We are 
  working-on/building this project from below (example) 
  folder<b>:</b><!-- “:” = &#58; --> 
 <dl><dd> 
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/"</code>
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/"</code>
 <dl><dd>Above folder can also be accessed in this shorter way in 
- (Catalina or) macOS (after it)<b>:</b><br/>
- &#160;<code>"/Projects/Portable-Apps-OS-X-64/"</code><br/>
+ macOS (Catalina, or macOSXI after it)<b>:</b><br/>
+ &#160;<code>"/Projects/Portable-Apps-OS64/"</code><br/>
  Follow 
  <a href="#LoadFoldersUnderRootFolder">Create Folder(s) Under RootFolder</a> 
- section for macOS Catalina or macOS after it.
+ section for macOS (Catalina, or macOSXI after it).
 </dd></dl>
  ( Another option is to create a build/developement related folder 
- “PA-OSX64” inside your own userspace<b>:</b>
+ "<b>PA-OS64</b>" or “PA-OS-X-XI-64” inside your own userspace<b>:</b>
 <dl><dd>
-  <code>"/Users/MyUserName/MyProjects/PA-OSX64/"</code> )<br/>
-  ( PA = pa = Portable App )
+  <code>"/Users/MyUserName/MyProjects/PA-OS64/"</code> or<br/>
+  <code>"/Users/MyUserName/MyProjects/PA-OS-X-XI-64/"</code> )<br/>
+  ( PA = pa = Portable App . OS64 = MacOS-X/XI-64 = MacOS-10/11-64bit )
 </dd></dl>
 </dd></dl><!-- “.” = &#46;, “<” = &lt;, “>” = &gt;, “#” = &#35; -->
 <dl><dd><a name="DupliLICN"></a><a name="DupliRDME"></a><b>Note:</b> 
  To <b>DEVs</b>, You Must Create <b>DUPLICATE</b>-Files 
  For “LICENSE” & “README&#46;md” File(s), & Duplicates Must Have 
  Different File<b>NAME</b> <b>:</b> 
- For Any Item(Program / Script / Tool / License / ReadMe file, etc) 
+ For Any Item (Program / Script / Tool / License / ReadMe file, etc) 
  Under This Project/Repo, (If Not Done Already/Yet), <b>Devs</b>/You 
  Need/Have To Add A “ReadMe” & A “License” File, You May/Can Do That 
  In This Way <b>:</b> 
- Use GitHub To Choose & Add Your Choice Of "LICENSE" Type & File, 
- Then Goto <b>RAW</b> View (Page/Mode/Button), Copy & Paste That 
- (RAW)-Info/Content Into Another NEW (<b>Text</b>) File With Such 
- File-Name: 
+ Use GitHub To Create a New File, Then Type in "LICENSE" in 
+ FileName-Box, GitHub Will Show A Button/Option To Add a LICENSE 
+ file, Use That, Then Choose & Add Your Choice Of "LICENSE" Type, 
+ Then Goto <b>RAW</b> View (Page/Mode/Button) of that LICENSE file, 
+ Copy & Paste That (RAW)-Info/Content Into Another NEW (<b>Text</b>) 
+ File With Such File-Name: 
  <code>"LICENSE.&lt;License-Type/NAME-&-Version&gt;.&lt;Software/Script/Program/Tool-NAME&gt;.txt"</code>
  or  <code>"&lt;Lic-Type/NAME-&-Ver&#35;&gt;.LICENSE.&lt;Software/Script/Program/Tool-NAME&gt;.txt"</code>
  or  <code>"&lt;License-Type/NAME-&-Version&gt;_LICENSE_for_&lt;Software/Script/Program/Tool-NAME&gt;.txt"</code>
@@ -396,11 +455,18 @@ before it).<br/>
  Of “README&#46;md”, It Will Be A Backup “ReadMe” File, But It Must 
  Have A Different FileNAME: 
  <code>"README.&lt;Software/Script/Program/Tool-NAME&gt;.md"</code> 
- (i.e: "README.PortableAppsOSX64-Firefox&#46;md" or 
- "README.PAOSX64-Firefox&#46;md" or "README.PA64-Firefox&#46;md", 
- etc).<br/>
- This Will Allow To Clearly Show+Include : Which App Has Which/What “LICENSE” 
- File, & Which App Has Which/What “ReadMe” File, & This Will <b>AVOID</b> 
+ ₃(i.e: "README.PortableFirefox-ForMacOS64&#46;md" or 
+ "README.PortableAppsOS64-Firefox&#46;md" or 
+ "README.PortableFirefox-OS64&#46;md" or 
+ "README.PortableApps-OS-X-XI-64-Firefox&#46;md" or 
+ "README.PAOS64-Firefox&#46;md" or 
+ "README.PA-OS-X-XI-64-Firefox&#46;md" or 
+ "README.PAOS64-Firefox&#46;md" or 
+ "README.PA-ForMacOS64-Firefox&#46;md" or 
+ "README.PA64-Firefox&#46;md", 
+ etc)₃.<br/>
+ This Will Allow To CLEARLY Show+Include : Which App Has Which/What “README” 
+ File, & Which App Has Which/What “LICENSE” File, & This Will <b>AVOID</b> 
  The Problem Of <b>OVERWRITE/DISCARD</b> Of Same Named “LICENSE” File(s) 
  Or Same Named “README&#46;md” File(s), When Multiple Different-Project’s 
  Tool / Script / Program / License / README, etc Are (Or Will Be) 
@@ -409,9 +475,10 @@ before it).<br/>
  Into Same Folder. 
  So Each File Must Have Unique (aka: Non-Conflicting, aka: <b>different</b>) 
  <b>File-NAME</b>. PLEASE Follow The Convention We Laid Out, Thank You.<br/>
- ( PA = pa = Portable App . Lic = Licn = License )</dd>
+ ( PA = pa = Portable App . Lic = Licn = License . OS64 = MacOS-X/XI-64 
+  = MacOS-10/11-64bit )</dd>
 </dl>
-</div>
+</div><!-- &#x2081; ₁ , &#x2082; ₂ , &#x2083; ₃ , &#x2084; ₄ -->
 <br/>
 
 <div width="100%"><a name="pb-2"></a>PB-2: Obtain NEW Platypus (at 
@@ -419,8 +486,8 @@ before it).<br/>
  &#160;&#160; from here:<!-- “.” = &#46; , “*” = &#42; --> 
  <a href="https://Sveinbjorn.org/platypus" target="_blank">https://Sveinbjorn.org/platypus</a><br/>
  and install in your Mac computer, new version allows to build 
- “&#42;&#46;app” for both: 64bit-only macOSX Catalina or macOSX 
- after it, & also for 64bit+32bit older macOSX Mojave or macOSX 
+ “&#42;&#46;app” for both: 64bit-only macOSX Catalina (or macOSXI 
+ after it), & also for 64bit+32bit macOSX Mojave or macOSX 
  before that.<br/>
  Also get Platypus v4.9, as that is/was the last 32bit+64bit supported 
  ( & working) Platypus (for older mcOSX), that allows to build/wrap 
@@ -433,12 +500,12 @@ before it).<br/>
  <a href="https://www.BlueM.net/en/projects/pashua/" target="_blank">https://www.BlueM.net/en/projects/pashua/</a><dl>
 <dd> Open dmg installer, Copy "Pashua&#46;app", "Pashua&#46;sh" 
  into below build related folder<b>:</b><br/><!-- “.” = &#46; -->
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/"</code><br/>
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/"</code><br/>
  ( shorter form of above location is: 
- <code>"/Projects/Portable-Apps-OS-X-64/"</code> )<br/>
+ <code>"/Projects/Portable-Apps-OS64/"</code> )<br/>
  ( or, Copy in your userspace: 
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/"</code> )<br/>
- ( PA = pa = Portable App )</dd>
+ <code>"/Users/MyUserName/MyProjects/PA-OS64/"</code> )<br/>
+ ( PA = pa = Portable App . OS64 = MacOS-X/XI-64 = MacOS-10/11-64bit )</dd>
 </dl>
 </div>
 <br/>
@@ -457,9 +524,9 @@ before it).<br/>
  inside that folder, & Paste into our build 
  folder<b>:</b><dl><dd> <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/"</code><br/>
  ( above location’s shorter form is: 
- <code>"/Projects/Portable-Apps-OS-X-64/"</code> )<br/>
+ <code>"/Projects/Portable-Apps-OS64/"</code> )<br/>
  ( Or, Paste into your userspace: 
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/"</code> )</dd></dl>
+ <code>"/Users/MyUserName/MyProjects/PA-OS64/"</code> )</dd></dl>
 </div>
 <b>b:</b> Skip below files/steps which you’ve already obtained/exists 
  Or which you’ve already done.<br/>
@@ -477,80 +544,80 @@ before it).<br/>
  single-letter sub-dir/sub-folder by using the 1st alphabet/letter of 
  “AppName”, in the location which was shown in above <b>PB-5-a</b> step, 
  & also shown below<b>:</b><br/>
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/"</code><br/>
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/"</code><br/>
  ( above location’s shorter form is:<br/>
- <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/"</code> 
+ <code>"/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/"</code> 
  )<br/>
  then Create another sub-dir with “AppName”, under that 
  single-letter sub-dir:<br/>
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/"</code><br/>
- or, <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/AppName-OSX/"</code><br/>
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/"</code><br/>
+ or, <code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/AppName-OSX/"</code><br/>
  ( above location’s shorter form is:<br/>
- <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/"</code><br/>
- or, <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/AppName-OSX/"</code> 
+ <code>"/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/"</code><br/>
+ or, <code>"/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/AppName-OSX/"</code> 
  )<br/>
  ( Or, Create it inside your userspace, like this:<br/>
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX-Old/"</code><br/>
- or, <code>"/Users/MyUserName/MyProjects/PA-OSX64/AppName-OSX/"</code> )<br/>
- ( NOTE: Use “<b>OSX</b>” or “<b>OSX-Old</b>” (and <b>Not</b>-“<b>OSX64</b>”) 
+ <code>"/Users/MyUserName/MyProjects/PA-OS64/PA-AppName-OSX-Old/"</code><br/>
+ or, <code>"/Users/MyUserName/MyProjects/PA-OS64/AppName-OSX/"</code> )<br/>
+ ( NOTE: Use “<b>OSX</b>” or “<b>OSX-Old</b>” (and <b>Not</b>-“<b>OS64</b>”) 
  in the End, to indicate the App inside this folder is Not-Yet-Converted 
- into a <b>“</b>Portable<b>OSX64</b>App<b>”</b>, & this App (very likely) 
- was obtained from “OsxPortableApps”/“FreeSMUG” site . PA = pa = Portable 
- App. )</dd></dl>
+ into a “Portable-App-<b>OS64</b>”, & this App (very likely) 
+ was obtained from “OsxPortableApps”/“FreeSMUG” site.<br/>
+ ( PA = pa = Portable App. . OS64 = MacOS-X/XI-64 = MacOS-10/11-64bit )</dd></dl>
 </div>
-<div width="100%"><b>f:</b> Create another sub-dir <code>"PA-AppName-OSX64"</code> 
+<div width="100%"><b>f:</b> Create another sub-dir <code>"PA-AppName-OS64"</code> 
  under the location shown in <b>PB-5-a</b> step:<dl><dd> 
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppNameOSX64/"</code><br/>
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OS64/"</code><br/>
  ( above location’s shorter form is:<br/>
- <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppNameOSX64/"</code> )<br/>
+ <code>"/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OS64/"</code> )<br/>
  ( Or, Create that sub-dir inside your userspace, like this:<br/>
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/"</code> 
+ <code>"/Users/MyUserName/MyProjects/PA-OS64/PA-AppName-OS64/"</code> 
  )</dd></dl>
 </div>
 <b>g:</b> After following the step PB-5-e, you will/should find a 
  folder <code>"Portable AppName OS X"</code> inside 
- <code>".../PortableAppNameOSX-Old/"</code> folder (or in 
+ <code>".../PortableAppName-OSX-Old/"</code> folder (or in 
  <code>".../PA-AppName-OSX-Old/"</code> folder). And inside 
  that folder, you will/should find the portable app bundle 
  <code>"Portable AppName.app"</code>.<br/>
 <div width="100%"><b>h:</b> Right-click (or Tap with double-finger) on 
  <code>"Portable AppName.app"</code> bundle, which is here:<dl>
-<dd><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/Portable AppName OS X/Portable AppName.app"</code><br/>
+<dd><code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/Portable AppName OS X/Portable AppName.app"</code><br/>
  ( above location’s shorter form is: 
- <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/Portable AppName OS X/Portable AppName.app"</code> )<br/>
+ <code>"/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/Portable AppName OS X/Portable AppName.app"</code> )<br/>
  ( Or, access it inside your userspace: 
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX-Old/Portable AppName OS X/Portable AppName.app"</code> )<br/>
+ <code>"/Users/MyUserName/MyProjects/PA-OS64/PA-AppName-OSX-Old/Portable AppName OS X/Portable AppName.app"</code> )<br/>
  and select <code>“Show Package Contents”</code> option, to go inside the bundle:</dd></dl>
 </div>
 <div width="100%"><b>i-1:</b><!-- “:” = &#58; --> Copy these 2-folders: 
  <code>"English.lproj"</code> (and <code>"profile"</code> 
  if it exists), from below location (and below location is inside the 
  bundle)&#58;<dl>
- <dd><code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/Portable AppName OS X/Portable AppName.app/Contents/Resources/"</code><br/>
+ <dd><code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/Portable AppName OS X/Portable AppName.app/Contents/Resources/"</code><br/>
  ( above location’s shorter form is: 
- <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/Portable AppName/Portable AppName.app/Contents/Resources/"</code> )<br/>
+ <code>"/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX-Old/Portable AppName/Portable AppName.app/Contents/Resources/"</code> )<br/>
  ( Or, here: 
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX-Old/Portable AppName OS X/Portable AppName.app/Contents/Resources/"</code> )<br/>
+ <code>"/Users/MyUserName/MyProjects/PA-OS64/PA-AppName-OSX-Old/Portable AppName OS X/Portable AppName.app/Contents/Resources/"</code> )<br/>
 <b>i-2:</b> If you want to use your existing Portable-App’s settings/profile 
  from <code>"Portable AppName OS X"</code> (which is in your external 
  storage/drive), then Copy <code>"profile"</code> folder from that, into 
  our build location.<br/>
 <b>i-3:</b> If you want to use your existing App’s settings/“profile” 
  in your/current system (inside your computer’s internal drive), with the 
- newer “Portable AppName OSX64”, then copy below “profile” folder:<br/>
+ newer “Portable AppName ForMacOS64”, then copy below “profile” folder:<br/>
  &#160;&#160;<code>"/Users/MyUserName/Library/<b>Applications Support/</b>AppName/Profiles/********.default/"</code><br/>
  ( Note: some app’s Developer uses the app’s NAME inside 
  <code>"<b>Applications Support/</b>"</code> folder, some Dev uses 
- his/her own Or employer company NAME. So you should find out app’s 
+ his/her own Or employer company NAME. So you should (or may need to) find out app’s 
  company/business/group name also. )</dd></dl>
 </div>
 <div width="100%"><b>j:</b> Paste the “profile” folder inside our build related 
 (destination) folder:<dl><dd> 
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/"</code><br/>
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OS64/"</code><br/>
  ( above location’s shorter form is:<br/>
- <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/"</code> )<br/>
+ <code>"/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OS64/"</code> )<br/>
  ( Or, Paste in your userspace:<br>
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/"</code> 
+ <code>"/Users/MyUserName/MyProjects/PA-OS64/PA-AppName-OS64/"</code> 
  )</dd><dd><div width="100%" align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></div></dd>
 </dl></div>
@@ -575,28 +642,28 @@ before it).<br/>
 <dl><dd>
  <tt>０┌─────────────────</tt><br/>
  <tt>１│</tt>MacNm:~ UsrNm$ <b>sh -n</b> 
- /System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/script&#46;sh<br/>
+ /System/Volumes/Data/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OS64/script&#46;sh<br/>
  <tt>２│</tt>MacNm:~ UsrNm$ echo &#36;?<!-- “.” = &#46; , “$” = &#36; --><br/>
  <tt>３│</tt>0<br/>
  <tt>４│</tt>MacNm:~ UsrNm$<br/>
  <tt>５└─────────────────</tt><br/>
  ( the above ‘script’ can also be accessed from here:<br/>
- <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/script.sh"</code> )<br/>
+ <code>"/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OS64/script.sh"</code> )<br/>
  When there is no syntax-error, (in other words, When the output 
  is “0”),<br/>
  then copy the <code>"script.sh"</code> & paste it in same folder,<br/>
- & Rename the <code>"script.sh Copy"</code> file, into the 
- <code>"script"</code>,<br/>
+ & Rename the <code>"script.sh Copy"</code> (or <code>"script 
+ Copy.sh"</code>) file, into the <code>"script"</code>,<br/>
  then follow next/below stage/procedures.
 </dd></dl>
 </div>
 <br/>
 
 <div width="100%"><a name="b-2"></a>B-2: Build the final 
- <code>“Portable AppName OSX64.app”</code> bundle, by using 
+ <code>“Portable AppName ForMacOS64.app”</code> bundle, by using 
  Platypus<b>:</b>
 <dl><dd>
- To build new <code>“Portable AppName OSX64.app”</code> bundle,<br/>
+ To build new <code>“Portable AppName ForMacOS64.app”</code> bundle,<br/>
  choose these below files, directories, bundles, etc inside the 
  Platypus GUI interface<b>:</b>
 <dl><dd><!-- “.” is &#46; -->
@@ -612,7 +679,8 @@ before it).<br/>
   <b class="b">•</b> tool : filecount<br/>
   <b class="b">•</b> tool : dirsize<br/>
   <b class="b">•</b> readme-file : Read me&#46;txt<br/>
-  <b class="b">•</b> license-file : GPL-3.0_LICENSE_for_script&#46;txt<br/>
+  <b class="b">•</b> license-file : GPL-3.0_LICENSE_for_script&#46;txt 
+   (or GPL-3.0_LICENSE_for_Script/Tool-Name&#46;txt)<br/>
   <b class="b">•</b> license-file : 
    &lt;App’s-License’s-shortName-&-version-number&gt;_LICENSE_for_AppName&#46;txt<br/>
   <b class="b">•</b> license-file : BSD-3-clause_LICENSE_for_Pashua&#46;txt<br/>
@@ -627,18 +695,18 @@ before it).<br/>
  type of settings in Platypus GUI interface<b>:</b>
 <dl><dd>
  <b class="b">•</b> Script Type : Shell : /bin/sh<br/>
- <b class="b">•</b> Script Path : <code>/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/script</code><br/>
+ <b class="b">•</b> Script Path : <code>/System/Volumes/Data/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OS64/script</code><br/>
  &#160;&#160;( above location’s shorter form is: 
- <code>"/Projects/Portable-Apps-OS-X-64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OSX64/script"</code> )<br/>
+ <code>"/Projects/Portable-Apps-OS64/&lt;1st-Alphabet-Of-AppName&gt;/PortableAppName-OS64/script"</code> )<br/>
  &#160;&#160;( if you’re using your userpsace: 
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-AppName-OSX64/script"</code> 
+ <code>"/Users/MyUserName/MyProjects/PA-OS64/PA-AppName-OS64/script"</code> 
  )<br/>
  <b class="b">•</b> Interface : Text Window<br/>
  <b class="b">•</b> Unselected options : Run with root privileges , 
   Run in background , Accept dropped items<br/>
  <b class="b">•</b> Selected/Check-Marked options : Remain running 
   after execution<br/>
- <b class="b">•</b> App Name : Portable AppName OSX64 (or specify 
+ <b class="b">•</b> App Name : Portable AppName ForMacOS64 (or specify 
   what you want)<br/>
  <b class="b">•</b> Fill in other boxes: identifier, author, etc
 </dd></dl>
@@ -647,10 +715,11 @@ before it).<br/>
 
 <a name="b-4"></a>B-4: Then tap/click/select/press the <code>“Create App”</code> 
  button.<br/><!-- “.” is &#46; -->
- It will create/generate a new <code>“Portable AppName OSX64.app”</code> 
+ It will create/generate a new <code>“Portable AppName ForMacOS64.app”</code> 
  bundle, that is<br/>
- compatible with 64-only macOSX (Catalina or macOSX after it), and also<br/>
- compatible with 64bit+32bit macOSX (Mojave or macOSX earlier of it)<br/>
+ compatible with 64-only macOSX (Catalina, or macOSXI after it), and also<br/>
+ compatible with 64bit+32bit macOSX (Mojave, or 64bit-supported macOSX 
+ earlier of it)<br/>
 <br/>
 
 <a name="Post-Build"></a>
@@ -658,18 +727,18 @@ before it).<br/>
 Users/you may have to download+add some files or apps or components 
  (or change a settings) by yourself, & place that inside a specific 
  sub-folder location, inside the <code>“&#42;&#46;app”</code> bundle, 
- which is inside the downloaded <code>“&#42;&#46;dmg”</code> (archive) 
- file.<br/>
- In different App’s page, instruction in this section/paragraph, 
- will be different.<br/>
+ which is inside the downloaded <code>“&#42;&#46;dmg”</code> 
+ archive-file.<br/>
+ Under this project in different App’s page, instruction in this 
+ section/paragraph, will be different.<br/>
  This section/paragraph may also be empty, if User have to do nothing.<br/>
 <br/>
 
 
-<a name="Test-Run"></a><a name="test">
+<a name="Test-Run"></a><a name="test"><!-- “*” is &#42; , “.” is &#46; -->
 ## RUN/EXECUTE/TEST:
 <div width="100%"> Now you need-to run/execute & test & investigate 
- the <code>“&#42;&#46;app”</code> App/bundle.<br/>
+ the <code>“&#42;&#46;app”</code> App/bundle that was built.<br/>
  <br/>
  You may OPTIONALLY do these:<dl><dd>
  <b class="b">•</b> Which “profile” folder is used by the running 
@@ -698,10 +767,11 @@ If no errors, even then please share your final working code, your
  either: by Forking/Cloning (this project) + Edit/Change & Test ‘script’ 
  file in your side/computer + Push your own (successful/working) code-changes 
  inside your own (this)-cloned-project first + then send a Pull-request to 
- this project,<br/>
+ this “PortableApps-ForMacOS64” project,<br/>
  or: by Sharing/pasting your code-changes, by using the create new “Issue” 
  option in GitHub under this project.<br/>
 <br/>
+<!-- “*” is &#42; , “.” is &#46; -->
 
 
 <a name="HelpToBuild"></a>
@@ -709,8 +779,8 @@ If no errors, even then please share your final working code, your
 Please help+contribute+collaborate+improve+rectify current codes to 
 build this bash-shell ‘script’ (or apple-script or ..., etc ), 
 so-that it can be run/used by Platypus Or run/used directly by user, 
-To run macOSX Apps on (64-bit) macOSX from portable/external<br/>
-drive/storage⒮), Or run macOSX App as a second/third/multi-instance 
+To run macOS Apps on (64-bit) macOS-X/XI from portable/external<br/>
+drive/storage⒮), Or run macOS App as a second/third/multi-instance 
 of same App.<br/>
 Thanks in advance.
 <p width="100%" align="center" class="TAC">Goto <a href="#intro">Top</a> 
@@ -812,7 +882,8 @@ i executed below 2-commands<b>:</b>
  <b class="b">•</b> h = H = x = hex = HexaDecimal 
  <b class="b">•</b> CNRC = Character Name Ref/Entity Code 
  <b class="b">•</b> PE = Percent-Encoding 
- <b class="b">•</b> FRE = Font/Character/Glyph/Grapheme Rendering Engine </td></tr>
+ <b class="b">•</b> FRE = Font/Character/Glyph/Grapheme Rendering 
+ Engine </td></tr>
 </table>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td width="34%">⬐1of3</td><td width="33%">⬐2of3</td><td>⬐3of3</td></tr>
@@ -878,7 +949,8 @@ i executed below 2-commands<b>:</b>
  (&ldquo;) (&amp;#8220;) &amp;ldquo; 🍎⌥Opt+[ ❖Alt+0147 
  </td><td><b class="b">•</b> (Curved/Curly) Right Double Quotation-Mark: ” 
   (&rdquo;) (&amp;#8221;) &amp;rdquo; 🍎⌥Opt+⇧Shift+] ❖Alt+0148 
- </td><td><b class="b">•</b> Double High-Reversed-9 Quotation-Mark ‟ &amp;#8223; 
+ </td><td><b class="b">•</b> Double High-Reversed-9 Quotation-Mark ‟ 
+  &amp;#8223; 
  </td></tr>
 <tr><td><b class="b">•</b> (Curved/Curly) Left Single-Quotation-Mark ‘ 
  (&lsquo;) &amp;#8216; &amp;lsquo; 🍎⌥Opt+] ❖Alt+0145 
@@ -925,7 +997,8 @@ i executed below 2-commands<b>:</b>
   &amp;bsol; 
  </td></tr>
 <tr><td><b class="b">•</b> Circumflex-Accent (Hat) (Caret) &#94; &amp;#94; &amp;Hat; 
- </td><td><b class="b">•</b> Low-Line (aka LowBar, UnderBar, UnderScore) &#95; &amp;#95; &amp;lowbar; 
+ </td><td><b class="b">•</b> Low-Line (aka LowBar, UnderBar, UnderScore) 
+  &#95; &amp;#95; &amp;lowbar; 
  </td><td> Full-Width Asterisk ＊ U+FF0A </td></tr>
 <tr><td><b class="b">•</b> Registered-Trademark: ®(base) ®️&#xFE0F;(emj) 
  ®&#xFE0E;(txt) &amp;#174; U+00AE 🍎⌥Opt+r ❖Alt+0174 
@@ -952,7 +1025,8 @@ i executed below 2-commands<b>:</b>
  </td><td><b class="b">•</b> Green Apple “🍏” &amp;#127823; U+1F34F &amp;#x1f34f; 
   🍏&#xFE0E;(txt) 
  </td></tr>
-<tr><td colspan="3"> These char(s) also look like an Apple, & displayed with Unicode Combining Diacritics: 
+<tr><td colspan="3"> These char(s) also look like an Apple, 
+ & some can be displayed with (Unicode) Combining Diacritics, etc: 
  <b class="b">•</b> Ag (Ol-Chiki) “ᱜ” U+1C5C (Apple/Mango) &#8203;&#x300;ᱜ ,
   ᱜ&#x300; , ᱜ&#x301; , ᱜ&#x340; , ᱜ&#x341; , ᱜ&#x30C; , ᱜ&#x307;&#x341;
  <b class="b">•</b> Ha (Limbu) “ᤜ” U+191C , ᤜ+&#x1928;=“ᤜᤨ” , ᤜ+&#x1927;=“ᤜᤧ” ,
@@ -1150,9 +1224,9 @@ i executed below 2-commands<b>:</b>
 <a name="Hash"></a><a name="Digest"></a><a name="CheckSum"></a><a name="Verify"></a> 
  <b>Verify/Authenticate Files:</b></td></tr>
 <tr><td border="1">
- In macOSX, Calculate & Compare hash/checksum/digest code (it is a very 
+ In macOS-X/XI, Calculate & Compare hash/checksum/digest code (it is a very 
  unique identity code) of a file/bundle<b>:</b><br/>
- In macOSX in shell (“<code>Terminal</code>” utility) window, type command 
+ In macOS-X/XI in shell (“<code>Terminal</code>” utility) window, type command 
  (<code>shasum</code>) & press <code>space</code> key,<br/>
  then drag the <code>.dmg</code> file from <code>Finder</code>(file browser) 
  window & drop it into <code>Terminal</code> window<b>:</b><br/>
@@ -1205,7 +1279,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
 <tr><td border="1" width="100%"><a name="codesign"></a>
  <b>Add Signature With App/Code:</b></td></tr>
 <tr><td border="1"> Sign (aka: “codesign”, aka: add digital-signature) 
- a macOSX binary app, without being in the Mac Developer Program:<br/>
+ a macOS-X/XI binary app, without being in the Mac Developer Program:<br/>
  &#160;&#160;<a href="https://StackOverflow.com/questions/27474751/" target="_blank">https://StackOverflow.com/questions/27474751/</a><br/>
  Apple Developer Program (ADP) requires $99 fee ! & that allows a Dev to 
  release (signed) App with signature, & that App (if its a general app)
@@ -1330,15 +1404,20 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  into “DragonFly-BSD”. Later NetBSD was forked into “OpenBSD”. 
  OpenBSD group prioritizes & focuses on SECURITY, trustworthiness, etc 
  of source code & OS functionalities.</td></tr>
-<tr><td><a name="OSX"></a><b class="b">•</b> OSX = 🍎 = MacOS = macOS 
- = macOSX . An OS developed by Apple Inc. ClosedSource GUI OS. Initially 
- based on Apple Lisa OS & (Unix based) Xenix, etc, then it was changed 
- into combination of Unix … BSD(4.3BSD-Net2, 386BSD, 4.4BSD-Lite2, 
- FreeBSD, NextSTEP, etc) … then finally changed into “Darwin” based OS. 
+<tr><td><a name="MacOS"></a><b class="b">•</b> 
+ OSX/OSXI = 🍎 = OS10/11 = OS-X / OS-XI = OS-10 / OS-11 = MacOS = 
+ macOS = ( macOS-X / macOS-10 ) = ( macOS-XI / macOS-11 / OSX1 ) . 
+ This OS is developed by Apple Inc. ClosedSource GUI OS. 
+ Initially based on Apple Lisa OS & (Unix based) Xenix, etc, 
+ then it was changed into combination of Unix … BSD(4.3BSD-Net2, 
+ 386BSD, 4.4BSD-Lite2, FreeBSD, NextSTEP, etc) … then finally changed 
+ into “Darwin” based OS. 
  Initially kernel was Monolithic (for 68k) & nanokernel (for PowerPC), 
  then changed into Hybrid(XNU) Kernel (initially CMU-Mach2.5 & 4.3BSD, 
  then changed into OSFMK/Utah-Mach4 & FreeBSD).</td></tr>
-<tr><td><a name="Win"></a><b class="b">•</b> Win = ❖ = Windows OS = WinOS . 
+<tr><td><a name="Win"></a><b class="b">•</b> Win = ❖ = Windows OS = 
+ WinOS ( Win3.1, Win95, Win98, WinME, 
+ WinCE, WinNT, Win2000/Win2K, WinV, Win7, Win8, Win10 ). 
  WinOS developed by Microsoft corp . ClosedSource GUI OS . Windows 9X 
  (Win9X), WinMe & earlier WinOS used Monolithic kernel & was based on 
  “Interface Manager”, etc. Later WinCE-family & WinNT-family of WinOS 
@@ -1368,7 +1447,7 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
 </table>
 <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" class="PAosx64-70">
 <tr><td border="1" width="100%"><a name="AOS"></a>
- <a name="Andr"></a><b class="b">•</b> AOS = 🤖&#xFE0E; = Andr = 
+ <a name="Andr"></a><b class="b">•</b> AOS = 🤖&#xFE0E; = Andr = AN = 
  Android OS . 
  A (GUI) OS developed by Google LLC (under Alphabet Inc), with members 
  of OHA consortium, & by open-source dev(s)+individual(s). Many components 
@@ -1377,8 +1456,9 @@ To calculate “MD5” hash-code, use <code>md5</code> option in <code>openssl</
  Andr uses (BSD based) Bionic C-Lib, uses ToyBox (based on older BusyBox) 
  based Unix utilities, mksh, etc. Andr uses modified Linux-kernel.</td></tr>
 <tr><td><a name="iOS"></a><b class="b">•</b> iOS = 🍎📱 . Developed by 
- Apple Inc, used in/as iPhone OS, iPad OS, etc. Its a closed-source GUI OS. 
- Based on (Unix->BSD->&#41; Darwin OS. Uses Hybrid(XNU) Kernel.</td></tr>
+ Apple Inc, used in such Apple devices iPhone, iPad, etc. 
+ Its a closed-source GUI OS. Based on (Unix->BSD->&#41; Darwin OS. 
+ Uses Hybrid(XNU) Kernel.</td></tr>
  <!-- “(” = &#40; , “)” = &#41; -->
 <tr><td align="center" class="TAC">Goto <a href="#intro">Top</a> 
  or <a href="#index">Index</a></td></tr>
