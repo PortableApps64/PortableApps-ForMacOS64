@@ -74,8 +74,14 @@ code{ background-color:#2D2D2D; }
 /* <br/> END of CSS STYLEs: */
 </style>
 <a name="intro"></a><!-- “.” is &#46; -->
-# PORTABLE FIREFOX OS X 64
-Executable(s) or Source Script(s)/Tool(s), Config(s), Setting(s), instruction(s), link(s), etc for “<b>Portable Firefox OS X 64</b>” (aka “<b>PortableFirefoxOSX64</b>” aka “<b>Portable-Firefox-OSX-64</b>”) are displayed+placed in this page.
+# PORTABLE FIREFOX For MacOS X/XI 64
+Executable(s) or Source Script(s)/Tool(s), Config(s), Setting(s), instruction(s), link(s), etc for “<b>Portable Firefox For MacOS X/XI 64</b>” 
+₁(aka “<b>PortableFirefox-ForMacOS64</b>” 
+aka “<b>PortableFirefox-OS64</b>” 
+aka “<b>PortableFirefox-OSX64</b>” 
+aka “<b>PortableFirefox-OSXI64</b>” 
+aka “<b>PortableFirefox-OS-X-XI-64</b>” 
+aka “<b>PortableFirefox-OSX1-64</b>”)₁ are displayed+placed in this page.
 
 <!-- NOTE For DEVs:
 Use CSS-class-"m" for curly-braces “{”/“}” = &#123;/&#125; ,
@@ -94,9 +100,9 @@ ss &#x2081; ₁ , &#x2082; ₂ , &#x2083; ₃ , &#x2084; ₄ , &#x2085; ₅ ,
  ss &#x2074; ⁴ , &#x2075; ⁵ , &#x2076; ⁶ , &#x2077; ⁷ , &#x2078; ⁸ ,
  ss &#x2079; ⁹ , &#x2070; ⁰ , &#x207F; ⁿ ,
 &#x307; &#775; ◌̇ , &#x2D9; &#729; ˙ ,
- &#x2027; ‧ pm , &#x205D; ⁚ pm , &#x205D; ⁝ pm , &#x205E; ⁞ pm ,
-&#x2F5; ˵ sml , &#x2F6; ˶ sml , &#x2DD; ˝ sml ,
- &#x2F9; ˹ sml , &#x2FA; ˺ sml , &#x2BB; ʻ sml , &#x2BC; ʼ sml , &#x2BD; ʽ sml , 
+ pm &#x2027; ‧ , &#x205D; ⁚ , &#x205D; ⁝ , &#x205E; ⁞ ,
+sml &#x2F5; ˵ , &#x2F6; ˶ , &#x2DD; ˝ ,
+ sml &#x2F9; ˹ , &#x2FA; ˺ , &#x2BB; ʻ , &#x2BC; ʼ , &#x2BD; ʽ , 
 -->
 <a name="index"></a><!-- “:” = &#58; -->
 <dl width="100%"><dd>Content/INDEX List<b>:</b> 
@@ -128,8 +134,8 @@ ss &#x2081; ₁ , &#x2082; ₂ , &#x2083; ₃ , &#x2084; ₄ , &#x2085; ₅ ,
  <b class="p">&#124;</b> <a href="#b-4">B-4</a> 
  <b class="m">&#125;</b>⁴ 
 <b class="p">&#124;</b> <a href="#Release">Release</a>(Apps,Tools,Scripts,Cfgs,etc) 
-<b class="p">&#124;</b> <a href="#Post-Build">Post-Build (for USERs)</a> (and DEVs) 
- ⁵<b class="m">&#123;</b> <a href="#ModsUsersDevs">MODs (for USERs)</a> (and DEVs) 
+<b class="p">&#124;</b> <a href="#Post-Build">Post-Build (for-USERs)</a>(&amp; DEVs) 
+ ⁵<b class="m">&#123;</b> <a href="#ModsUsersDevs">MODs (for-USERs)</a>(&amp; DEVs) 
   ⁸<b class="m">&#123;</b> - 
   <b class="m">&#125;</b>⁸ 
  <b class="m">&#125;</b>⁵ 
@@ -141,21 +147,46 @@ ss &#x2081; ₁ , &#x2082; ₂ , &#x2083; ₃ , &#x2084; ₄ , &#x2085; ₅ ,
  <b class="m">&#125;</b>⁶ 
 <b class="p">&#124;</b></dd>
 <dd>
- <b class="b">•</b> macOSX Catalina version is 10.15.x (mostly 64bit-only)<br/>
- <b class="b">•</b> macOSX Mojave version is 10.14.x (64bit+32bit)
+ <b class="b">•</b> macOSXI Big Sur - version is 11.0.z (<s>10.16.z</s>) 
+  (mostly 64bit-only)<br/>
+ <b class="b">•</b> macOSX Catalina - version is 10.15.z 
+  (mostly 64bit-only)<br/>
+ <b class="b">•</b> macOSX Mojave - version is 10.14.z 
+  (64bit+32bit)<br/>
+ <b class="b">•</b> macOSX High-Sierra - version is 10.13.z 
+  (64bit+32bit)<br/>
+ <b class="b">•</b> macOSX Sierra - version is 10.12.z 
+  (64bit+32bit)<br/>
+ ( XI = 11 = Eleven = macOS-XI = macOSXI = macOS11 )<br/>
+ ( X = 10 = Ten = macOS-X = macOSX = macOS10 )<br/>
+ ( X/XI = X-XI = 10/11 = 10-11 = Ten/Eleven = Ten-Eleven = 
+  macOS-X/XI = macOS-X-XI = macOS-10/11 )<br/>
+ ( Generally in a version number X.Y.Z , X indicates a MAJOR version 
+  number, Y is Minor , Z is patch / build / maintenance , then a 
+  revision alphanum string may/can exist. But Apple followed different 
+  versioning: Significant.Major.Minor )
 </dd><dd>
- ( PA = pa = Portable App . DEVs = Developers . MODs = Modifications . CFGs = Configs . Lic = Licn = License )</dd>
+ ( PA = pa = Portable App . OS64 = macOS X/XI 64 . DEVs = Developers . 
+ MODs = Modifications . CFGs = Configs . Lic = Licn = License )</dd>
 </dl>
 <br/>
 
 <a name="Tools-Scripts"></a>
 <a name="BuildTools"></a><a name="RunTools"></a>
-## BUILD & RUN TOOLS/SCRIPTS(for USERS & DEVELOPERS):
-<div width="100%"> 
+## BUILD & RUN TOOLS/SCRIPTS (for USERS & DEVELOPERS):
+<div width="100%"><!-- &#x2081; ₁ , &#x2082; ₂ , &#x2083; ₃ --> 
 We (will & we need-to) use various (mentioned in below) tools/scripts, 
  etc to BUILD our primary (portable script or portable binary) 
- executable App/Tools (i.e: "PortableFirefoxOSX64&#46;app", 
- "PortableFirefoxOSX64&#46;sh", etc), 
+ executable App/Tools ₁(i.e: "<b>PortableFirefox-OS64&#46;app</b>" 
+ ₂(aka "PortableFirefox-ForMacOS64&#46;app", 
+ aka "PortableFirefox-OSX64&#46;app", 
+ aka "PortableFirefox-OSXI64&#46;app", 
+ aka "PortableFirefox-OS-X-XI-64&#46;app")₂, 
+ "<b>PortableFirefox-OS64&#46;sh</b>", 
+ ₃(aka "PortableFirefox-ForMacOS64&#46;sh", 
+ aka "PortableFirefox-OSX64&#46;sh", 
+ aka "PortableFirefox-OSXI64&#46;sh", 
+ aka "PortableFirefox-OS-X-XI-64&#46;sh")₃, etc)₁, 
  and we (will) also use some of the (mentioned in below) tools/scripts 
  to assist in RUNNING/executing our primary app/script/tool.<br/>
  Some are just for <b>USERs</b>, and some are just for 
@@ -163,25 +194,30 @@ We (will & we need-to) use various (mentioned in below) tools/scripts,
 <dd> 
  <b class="b">•</b> Some of the below 3rd-Party or Our Other 
  Tools/Scripts are needed, to build necessary (binary/executable) 
- tools/bundles/files/etc for this "PortableFirefoxOSX64" 
+ tools/bundles/files/etc for this "PortableFirefox-OS64" 
  & related. And (mentioned in below) some of the Tools/Scripts 
  are used for running/executing the portable-App/Tool/Script 
  Or used for executing the target-App (that is inside the 
- portable-App, ie: Firefox&#46;app), either as a portable App 
+ portable-App ie: Firefox&#46;app), either as a portable App 
  Or as a multi-instance of same app.<br/> 
  <b class="b">•</b> To USERS+DEVS: 
  <a href="../../README.md#Verify">Verify</a> files/apps 
  after download, And download only when (download) 
  url/website begins with “http<b>s</b>”. One of the best 
- way to Verify files is: Use GnuPG(GPG) tools, & trustworthy 
- file-signing KEY (from original file AUTHOR/CREATOR).<br/>
+ way to Verify files is to use GnuPG(GPG) tools, & use trustworthy 
+ file-signing KEY (obtained very-securely & with extra-verification 
+ from original file AUTHOR/CREATOR).<br/>
  <b class="b">•</b> TO <b>USERs</b>, If you only-want to 
  <b>USE</b> a pre built App, & if you do not want to completely 
  build/compile, then go directly into below 
  <a href="#Release">"Release"</a> paragraph/section, 
- & follow link(s) to obtain <code>"&#42;-OSX-64.dmg"</code> 
- (or <code>"&#42;-OSX-64.tar.gz"</code> 
- or <code>"&#42;-OSX-64.zip"</code>) file <b>release</b>, 
+ & follow link(s) to obtain <b>"&#42;-OS64.dmg"</b> 
+ ₁(aka "&#42;-ForMacOS64.dmg", 
+ aka "&#42;-OSX64.dmg", 
+ aka "&#42;-OSXI64.dmg", 
+ aka "&#42;-OS-X-XI-64.dmg")₁, 
+ (or similarly <b>"&#42;-OS64.tar.gz"</b> 
+ or similarly <b>"&#42;-OS64.zip"</b>) file <b>release</b>, 
  and to <b>Users</b>, please also <b>FOLLOW</b> instruction 
  shown on <a href="#Post-Buid"><b>“POST-BUILD (for USER)”</b></a> 
  paragraph/section, to know what else you/User have to 
@@ -219,23 +255,24 @@ We (will & we need-to) use various (mentioned in below) tools/scripts,
 <a name="New-Script"></a><a name="License"></a><a name="PA-Firefox-OSX64"></a>
 ### NEW SCRIPT/TOOL LICENSE:🆕
 <div width="100%">New ‘<a href="script">script</a>’ (or 
- “PortableFirefoxOSX64&#46;sh” or “script&#46;sh” script) 
- v4.1.x (v4.1.4) Or other Tools for the “Portable Firefox 
- OSX 64” App, (and the App bundle itself, etc) Which are 
- Under this “Portable Apps OSX 64” project, and Related 
- all Script(s)/Tool(s), Config(s)/Settings, etc which are 
- Built/Developed by this project and project members 
+ “PortableFirefox-OS64&#46;sh” or “script&#46;sh” script) 
+ v4.1.x (v4.1.4) Or other Tools for the “Portable Firefox For
+ MacOS X/XI 64” App, (and the App bundle itself, etc) Which are 
+ Under this “Portable Apps For MacOS X/XI 64” (aka 
+ “Portable Apps OS64”) project, 
+ and Related all Script(s)/Tool(s), Config(s)/Settings, etc 
+ which are Built/Developed by this project and project members 
  (unless a different LICENSE is specified) Are 
  <b>Released With Following (Combined) 
  LICENSE(s) + RESTRICTIONs + PERMISSIONs:</b><dl>
  <dd> 
   <b class="b">•</b> GNU General Public License Version 3 
-  (<a href="https://www.GNU.org/licenses/gpl-3.0.en.html" target="_blank">GPL v3</a>)<br/>
+  (<a href="https://www.GNU.org/licenses/gpl-3.0.en.html" target="_blank">GPL v3</a>).<br/>
   <b class="b">•</b> Do Not Use This To Kill/Harm/Violate (or Steal-from)(Any) Human/Community,Earth,etc.<br/>
   <b class="b">•</b> Copyright <b>©</b> 2020 Erik T Ashfolk (&lt;at&#69;rik＠Ö&#965;ťĹö&#333;ķ·ċ&#333;m;
-  at&#69;rïķ＠&#65;śh&#70;ölķ·ć&#333;m&gt; Do Not Copy Eml-Adrs, Type In 
-  English/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">Basic-Latin</a> 
-  Char, No Soliciting Permitted)&#46; All rights reserved.<br/>
+    at&#69;rïķ＠&#65;śh&#70;ölķ·ć&#333;m&gt; Do Not Copy Eml-Adrs, Type In 
+    English/<a href="https://en.Wikipedia.org/wiki/Basic_Latin_%28Unicode_block%29" target="_blank">Basic-Latin</a> 
+    Char, No Soliciting Permitted)&#46; All rights reserved.<br/>
   <br/>
   <b class="b">•</b> (All other trademarks, etc cited here are the 
   property of their respective owners&#46;)<br/>
@@ -246,29 +283,33 @@ We (will & we need-to) use various (mentioned in below) tools/scripts,
 
 <a name="Script-Type"></a><a name="Tool-Type"></a>
 #### TYPE OF (NEW) SCRIPT/TOOL:
-The (new) ‘<b>script</b>’(aka “PortableFirefoxOSX64&#46;sh” aka 
-“script&#46;sh”) is a bash shell script file, an Executable file, 
+The (new) ‘<b>script</b>’(aka “<b>PortableFirefox-OS64&#46;sh</b>” 
+aka “script&#46;sh”) is a bash shell script file, an Executable file, 
 and it is also the source code file.<br/>
 <br/>
 
 This ‘script’ v4.1/v4.1.x file is usually used from such (i.e) location, in macOSX<b>:</b><br/>
-&#160;&#160;"/MyPortableDriveName/PortableAppsOSX/MyPortableFF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/Resources/script"<br/>
+&#160;&#160;"/MyPortableDriveName/PortableAppsOSX/MyPortableFF_for_UseType1/Portable Firefox OS X/Portable Firefox&#46;app/Contents/Resources/script"<br/>
 <!-- “.” is &#46; -->
 This ‘script’ v4.1/v4.1.x is used by the below “Portable Firefox”, a binary executable file<b>:</b><br/>
-&#160;&#160;"/MyPortableDriveName/PortableAppsOSX/MyPortableFF_for_Test/Portable Firefox OS X/Portable Firefox&#46;app/Contents/MacOS/Portable Firefox"<br/>
+&#160;&#160;"/MyPortableDriveName/PortableAppsOSX/MyPortableFF_for_UseType1/Portable Firefox OS X/Portable Firefox&#46;app/Contents/MacOS/Portable Firefox"<br/>
 <!-- “.” is &#46; -->
 <div> That binary “Portable Firefox” is created by Platypus,<br/>
 Platypus also creates the <code>“Portable Firefox.app”</code> bundle.<br/>
 That binary is then placed inside the <code>“Portable Firefox.app”</code> bundle.<dl>
 <dd>
- <b class="b">•</b> A developer/user can either place/compress that <code>Portable-*.app</code> 
-  bundle inside a <code>*.dmg</code> file, to share it with users/others for downloading, 
-  from developer/user’s website, (Note: pkg must include all license(s) & source files).<br/>
- <b class="b">•</b> Or, a developer/user can build the <code>Portable-*.app</code> with an (older) 
-  unmodified (official Firefox) app, and share with Users the <code>*.app</code> or 
-  <code>*.dmg</code> bundle/file with an accompanying instruction/readme file on 
-  How-To update/change included Firefox, into latest or another Firefox app. 
-  (Note: pkg must include all license(s) & source files).
+ <b class="b">•</b> A developer/user can either place that 
+ <code>Portable-*.app</code> bundle inside a <code>*.dmg</code> file 
+ (and compress the <code>*.dmg</code> archive-file), to share it with 
+ users/others for downloading, from developer-user’s website with all 
+ License(s) & source-code & instruction files).<br/>
+ <b class="b">•</b> Or, a developer-user can build the 
+ <code>Portable-*.app</code> with an <b>unmodified</b> (official 
+ Firefox) app, and share with other Users the <code>*.app</code> or 
+  <code>*.dmg</code> bundle/file with an accompanying instruction/readme 
+  file on How-To update or change the included Firefox into latest 
+  or another Firefox app, and dev-user must include all License(s) 
+  & source-code files.
 </dd><dd><div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div></dd></dl>
 </div>
 
@@ -291,7 +332,8 @@ Project Website: <a href="http://www.FreeSMUG.org/" target="_blank">http://www.F
 Portable Firefox OSX (GPL-v3, 
 <a href="https://www.Mozilla.org/en-US/MPL/1.1/" target="_blank">MPL-1.1</a>) is here<b>:</b><br/>
 &#160;<a href="https://SourceForge.net/projects/osxportableapps/files/Portable%20Firefox%20OS%20X/" target="_blank">https://SourceForge.net/projects/osxportableapps/files/Portable Firefox OS X/</a><br/>
-The (old) ‘script’ v4.1 is now distributed via a ZIP file located here<b>:</b><br/>
+The (old) ‘script’ v4.1 is now distributed via a ZIP file located 
+here<b>:</b><br/>
 &#160;<a href="https://prdownloads.SourceForge.net/osxportableapps/PortableFirefoxScript%5Fr4%2E1%2Etxt%2Ezip?download" target="_blank">https://prdownloads.SourceForge.net/osxportableapps/PortableFirefoxScript_r4.1.txt.zip?download</a><br/>
 Last “Portable Firefox OSX” app<b>:</b> 
 "PortableFirefox_4.0.1_en-US-OSX_r4.1&#46;dmg", 28.2 MBytes, 
@@ -326,7 +368,7 @@ section here).<br/>
 <a name="Cocoa-Dialog"></a><!-- “.” is &#46; -->
 ### COCOA-DIALOG:
 <div width="100%"> ( This tool is <b>not-needed</b> anymore in (newer) 
- “PortableFirefoxOSX<b>64</b>” App under this “PortableAppsOSX64” 
+ “PortableFirefox-MacOS<b>64</b>” App under this “PortableAppsForMacOS64” 
  project )<br/>
  Older portable apps for macOSX from other project 
  “PortableAppsOSX” (at 
@@ -353,7 +395,7 @@ section here).<br/>
  <a href="https://www.GNU.org/licenses/old-licenses/lgpl-2.0.html" target="_blank">GPL-2.0</a>.
 </dd><dd>
  <b class="b">•</b> So we must change existing (CocoaDialog) dialog 
- program in old ‘script’, into something else, like: Pashua, & 
+ program (used by old ‘script’), into something else, like: Pashua, & 
  create a new ‘script’/‘script&#46;sh’, etc.<dl>
  <dd> 
   ( A dialog program is a type of a program which provides+performs 
@@ -372,11 +414,10 @@ in this project’s parent/home page. (After that,
 press Go-Back button in your web-browser 
 (Firefo&#120;/Safar&#105;/Chromiu&#109;) 
 to come-back to this section here).<br/>
-<br/>
 
-<div width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></div>
+<div width="100%" align="center">Goto <a href="#intro">Top</a> 
+ or <a href="#index">Index</a></div>
 <br/>
-
 
 <a name="Pre-Build"></a>
 ## PRE-BUILD (for DEVELOPERs):
@@ -386,29 +427,29 @@ to come-back to this section here).<br/>
  We are working-on/building this project from below (example) 
  folder<b>:</b>
 <dl><dd><!-- “:” = &#58; -->
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/"</code><br/>
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/"</code><br/>
 <dl><dd>Above folder can also be accessed in this shorter way 
- in (Catalina or) macOS (after it)<b>:</b><br/>
- &#160;<code>"/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/"</code><br/>
+ in macOSX Catalina or macOSXI after it<b>:</b><br/>
+ &#160;<code>"/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/"</code><br/>
  Follow 
  <a href="../../README.md#LoadFoldersUnderRootFolder">Create Folder(s) Under RootFolder</a> 
- section for Catalina or macOS after it.
+ section for macOS-X Catalina or macOS-XI after it.
 </dd></dl>
  Another option is to create a build/developement related folder 
- “PA-Firefox-OSX64” inside your own userspace<b>:</b>
+ “PA-Firefox-OS64” inside your own userspace<b>:</b>
 <dl><dd>
-  <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-Firefox-OSX64/"</code><br/>
-  ( PA = pa = Portable App )
+  <code>"/Users/MyUserName/MyProjects/PA-OS64/PA-Firefox-OS64/"</code><br/>
+  ( PA = pa = Portable App . OS64 = MacOS-X/XI-64 )
 </dd></dl>
 </dd></dl>
 </div>
 <div width="100%"> In later step(s), when Platypus (App-wrapper) 
- will generate the new <code>“Portable Firefox OSX64.app”</code> 
+ will generate the new <code>“Portable Firefox ForMacOS64.app”</code> 
  bundle, it will be placed here<b>:</b>
 <dl><dd>
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/Portable Firefox OSX64.app"</code><br/>
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/Portable Firefox ForMacOS64.app"</code><br/>
  (or, in its shorter form, here: 
- <code>"/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/Portable Firefox OSX64.app"</code>)
+ <code>"/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/Portable Firefox ForMacOS64.app"</code>)
 </dd></dl>
 </div>
 <div width="100%"> To build with Platypus, (shown in later steps) 
@@ -418,9 +459,9 @@ to come-back to this section here).<br/>
  copies+places those (files/dirs/bundles,etc) inside the 
  bundle-folder location shown below<b>:</b>
 <dl><dd>
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/Portable Firefox OSX64.app/Contents/Resources/"</code><br/>
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/Portable Firefox ForMacOS64.app/Contents/Resources/"</code><br/>
  ( above location’s shorter form is: 
- <code>"/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/Portable Firefox OSX64.app/Contents/Resources/"</code> 
+ <code>"/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/Portable Firefox ForMacOS64.app/Contents/Resources/"</code> 
  )
 </dd></dl>
 </div>
@@ -431,8 +472,8 @@ to come-back to this section here).<br/>
 writing this README&#46;md, it is/was v5.3),<br/>
 &#160;&#160; from here: 
 <a href="https://Sveinbjorn.org/platypus" target="_blank">https://Sveinbjorn.org/platypus</a><br/>
-and install in your (64bit-only macOSX (Catalina & later 
-macOSX) based) Mac computer.<br/>
+and install in your (64bit-only macOSX (Catalina or later 
+macOSXI based) Mac computer.<br/>
 Or get Platypus v4.9, as that is the last 32bit supported 
 (and working) Platypus, to build/wrap macOS app⒮ inside 
 64bit+32bit suppported macOSX (Mojave or earlier macOSX).<br/>
@@ -443,14 +484,14 @@ Or get Platypus v4.9, as that is the last 32bit supported
  <a href="https://www.BlueM.net/en/projects/pashua/" target="_blank">https://www.BlueM.net/en/projects/pashua/</a>
 <dl><dd>Open dmg installer, Copy "Pashua&#46;app", "Pashua&#46;sh" 
  into below build related folder<b>:</b><br/><!-- “.” = &#46; -->
- &#160;<code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/"</code><br/>
+ &#160;<code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/"</code><br/>
  &#160;( shorter form of above location is: 
- <code>"/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/"</code> 
+ <code>"/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/"</code> 
  )<br/>
  &#160;( or, Copy those inside your Userspace: 
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-Firefox-OSX64/"</code> 
+ <code>"/Users/MyUserName/MyProjects/PA-OS64/PA-Firefox-OS64/"</code> 
  )<br/>
- &#160;( PA = pa = Portable App )
+ &#160;( PA = pa = Portable App . OS64 = MacOS-X/XI-64 )
 </dd></dl>
 </div>
 <br/>
@@ -465,14 +506,14 @@ Or get Platypus v4.9, as that is the last 32bit supported
  & extract/get/copy the <code>“Firefox.app”</code> from it, 
  & place/paste it into our build related folder<b>:</b>
 <dl><dd>
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/"</code><br/>
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/"</code><br/>
  ( above location’s shorter form is: 
- <code>"/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/"</code> 
+ <code>"/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/"</code> 
  )<br/>
  ( or Paste inside your Userspace: 
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-Firefox-OSX64/"</code> 
+ <code>"/Users/MyUserName/MyProjects/PA-OS64/PA-Firefox-OS64/"</code> 
  )<br/>
- ( PA = pa = Portable App )
+ ( PA = pa = Portable App . OS64 = MacOS-X/XI-64 )
 </dd></dl>
 <dl><dd>The last security-updated Gecko-based 
  & non-ESR (old) Firefox<b>:</b><dl>
@@ -501,31 +542,31 @@ Profile, License, etc) build related files/folders/bundles:<br/>
  extension), then Copy all files inside that folder, & Paste 
  into our build folder:<dl>
  <dd> 
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/"</code><br/>
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/"</code><br/>
  ( above location’s shorter form is: 
- <code>"/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/"</code> 
+ <code>"/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/"</code> 
  )<br/>
  ( or Paste into your userspace: 
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-Firefox-OSX64/"</code> 
+ <code>"/Users/MyUserName/MyProjects/PA-OS64/PA-Firefox-OS64/"</code> 
  )</dd>
 </dl>
 </div>
 <b>b:</b> Skip below files/steps which you’ve already 
  obtained/exists or already done.<br/>
-<b>c:</b> Obtain old PortableFirefoxOSX App. (Download 
+<b>c:</b> Obtain old PortableFirefox-OSX App. (Download 
  <a href="#Old-Script">link⒮</a> shown few-paragraphs above).<br/>
 <b>d:</b> Double-Click/Tap on `"PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg"` 
  file to view internal contents(files, bundles, folders, etc).<br/>
 <div width="100%"><b>e:</b><!-- “:” = &#58; --> Copy these 2-files 
  (if does not exist in destination)&#58; `"MPL-1.1.txt"`, 
- `"Read me.txt"`, & Paste into below OSX64 build location:<dl>
+ `"Read me.txt"`, & Paste into below OS64 build location:<dl>
  <dd> 
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/"</code><br/>
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/"</code><br/>
  ( above location’s shorter form is: 
- <code>"/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/"</code> 
+ <code>"/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/"</code> 
  )<br/>
  ( or Paste into your userspace: 
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-Firefox-OSX64/"</code> 
+ <code>"/Users/MyUserName/MyProjects/PA-OS64/PA-Firefox-OS64/"</code> 
  )</dd>
 </dl>
 </div>
@@ -536,24 +577,24 @@ Profile, License, etc) build related files/folders/bundles:<br/>
  <code>"PortableFirefox_4.0.1_en-US-OSX_r4.1.dmg"</code>, 
  & place/paste it in below sub-dir/sub-folder location:<dl>
  <dd> 
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/F/PA-Firefox-OSX-Old/"</code><br/>
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/F/PA-Firefox-OSX-Old/"</code><br/>
  ( above location’s shorter form is: 
- <code>"/Projects/Portable-Apps-OS-X-64/F/PA-Firefox-OSX-Old/"</code> 
+ <code>"/Projects/Portable-Apps-OS64/F/PA-Firefox-OSX-Old/"</code> 
  )<br/>
  ( or Paste in your userpsace: 
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-Firefox-OSX-Old/"</code> 
+ <code>"/Users/MyUserName/MyProjects/PA-OS64/PA-Firefox-OSX-Old/"</code> 
  )</dd>
  </dl>
 </div>
 <div width="100%"><b>h:</b> Right-click (or Tap with double-finger) 
  on <code>"Portable Firefox.app"</code> bundle which is here:<dl>
  <dd> 
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/F/PA-Firefox-OSX-Old/Portable Firefox OS X/Portable Firefox.app"</code><br/>
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/F/PA-Firefox-OSX-Old/Portable Firefox OS X/Portable Firefox.app"</code><br/>
  ( above location’s shorter form is: 
- <code>"/Projects/Portable-Apps-OS-X-64/F/PA-Firefox-OSX-Old/Portable Firefox OS X/Portable Firefox.app"</code> 
+ <code>"/Projects/Portable-Apps-OS64/F/PA-Firefox-OSX-Old/Portable Firefox OS X/Portable Firefox.app"</code> 
  )<br/>
  ( or access it from your userspace: 
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-Firefox-OSX-Old/Portable Firefox OS X/Portable Firefox.app"</code> 
+ <code>"/Users/MyUserName/MyProjects/PA-OS64/PA-Firefox-OSX-Old/Portable Firefox OS X/Portable Firefox.app"</code> 
  )<br/>
  and select <code>“Show Package Contents”</code> option, to go 
  inside the bundle.</dd>
@@ -563,12 +604,12 @@ Profile, License, etc) build related files/folders/bundles:<br/>
  <code>"English.lproj"</code> (and <code>"profile"</code> if it exists), 
  from below location (which is inside the bundle)&#58;<dl>
  <dd> 
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/F/PA-Firefox-OSX-Old/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/"</code><br/>
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/F/PA-Firefox-OSX-Old/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/"</code><br/>
  ( above location’s shorter form is: 
- <code>"/Projects/Portable-Apps-OS-X-64/F/PA-Firefox-OSX-Old/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/"</code> 
+ <code>"/Projects/Portable-Apps-OS64/F/PA-Firefox-OSX-Old/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/"</code> 
  )<br/>
  ( or here: 
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-Firefox-OSX-Old/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/"</code> 
+ <code>"/Users/MyUserName/MyProjects/PA-OS64/PA-Firefox-OSX-Old/Portable Firefox OS X/Portable Firefox.app/Contents/Resources/"</code> 
  )<br/>
  <b>i-2:</b> If you want to use your existing Firefox settings/profile 
  from <code>"Portable Firefox OS X"</code> in your external storage/drive, 
@@ -576,18 +617,18 @@ Profile, License, etc) build related files/folders/bundles:<br/>
  build location.<br/>
  <b>i-3:</b> If you want to use your existing Firefox settings/“profile” 
  in your/current system (in your internal drive), with the newer 
- “Portable Firefox OSX64”, then copy below “profile” folder:<br/>
+ “Portable Firefox ForMacOS64”, then copy below “profile” folder:<br/>
  &#160;&#160;<code>"/Users/MyUserName/Library/Applications Support/Firefox/Profiles/********.default/"</code></dd>
 </dl>
 </div>
 <div width="100%"><b>j:</b> Paste the “profile” folder inside our build 
  related (destination) folder:<dl><dd> 
- <code>"/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/"</code><br/>
+ <code>"/System/Volumes/Data/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/"</code><br/>
  ( above location’s shorter form is: 
- <code>"/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/"</code> 
+ <code>"/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/"</code> 
  )<br/>
  ( or Paste in your Userspace: 
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-Firefox-OSX64/"</code> 
+ <code>"/Users/MyUserName/MyProjects/PA-OS64/PA-Firefox-OS64/"</code> 
  )</dd><dd> 
  <div width="100%" align="center">Goto <a href="#intro">Top</a> or 
   <a href="#index">Index</a></div></dd>
@@ -605,43 +646,46 @@ Profile, License, etc) build related files/folders/bundles:<br/>
  2. <br/>
 </dd></dl>
 </div>
+<div width="100%" align="center">Goto <a href="#intro">Top</a> 
+ or <a href="#index">Index</a></div>
 <br/>
 
 
 <a name="Build"></a>
 ## BUILD (for DEVELOPERs):
-To build the “PortableFirefoxOSX64&#46;app” bundle, 
+To build the “PortableFirefox-ForMacOS64&#46;app” bundle, 
 follow/do below steps, (skip if you’ve done already 
 or you know what you’re doing).
 <div width="100%"><a name="b-1"></a><b>B-1:</b> Test the ‘script’ 
- (or “PortableFirefoxOSX64&#46;sh” or “script&#46;sh”) file, 
- before using it to build Portable App for OS X 64<b>:</b><br/>
+ (or “PortableFirefox-ForMacOS64&#46;sh” or “script&#46;sh”) file, 
+ before using it to build Portable App for macOS X/XI 64<b>:</b><br/>
  Tips<b>:</b> a good practice from beginning would-be, After 
  getting this <code>‘script’</code><br/>
  (inside the recommended folder, which is shown few paragraphs 
  above),<br/>
  1st Rename it(‘script’) to <code>"script.sh"</code>, then Open 
- <code>"script.sh"</code> (or <code>"PortableFirefoxOSX64&#46;sh"</code>) 
- with your choice of source-code editing/developing editor/build 
+ <code>"script.sh"</code> (or 
+ <code>"PortableFirefox-ForMacOS64&#46;sh"</code>) with your 
+ choice of source-code editing/developing editor/build 
  software,<br/>
  Improve/Modify source code, Save,<br/>
  then Use below commands to test wheather bash code syntaxes are 
  right or where the fault⒮ are<b>:</b>
 <dl><dd>
  <tt>０┌─────────────────</tt><br/>
- <tt>１│</tt>MacNm:~ UsrNm$ <b>sh -n</b> /System/Volumes/Data/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/script&#46;sh<br/>
+ <tt>１│</tt>MacNm:~ UsrNm$ <b>sh -n</b> /System/Volumes/Data/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/script&#46;sh<br/>
  <tt>２│</tt>MacNm:~ UsrNm$ echo &#36;?<!-- “.” = &#46; , “$” = &#36; --><br/>
  <tt>３│</tt>0<br/>
  <tt>４│</tt>MacNm:~ UsrNm$<br/>
  <tt>５└─────────────────</tt><br/><br/>
  ( the above <code>"script.sh"</code> (or 
- <code>"PortableFirefoxOSX64&#46;sh"</code>) file can also be 
+ <code>"PortableFirefox-ForMacOS64&#46;sh"</code>) file can also be 
  accessed using its short form: 
- <code>"/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/script.sh"</code> 
+ <code>"/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/script.sh"</code> 
  )<br/>
  ( if you’re developing from your userspace, then access it 
  here: 
- <code>"/Users/MyUserName/MyProjects/PA-OSX64/PA-Firefox-OSX64/script.sh"</code> 
+ <code>"/Users/MyUserName/MyProjects/PA-OS64/PA-Firefox-OS64/script.sh"</code> 
  )<br/> 
  When there is no syntax-error, (in other words, When the output 
  is “0”),<br/>
@@ -654,12 +698,14 @@ or you know what you’re doing).
 <br/>
 
 <div width="100%"><a name="b-2"></a><b>B-2:</b> Build the final 
- <code>“PortableFirefoxOSX64&#46;app”</code> (or 
- <code>“Portable Firefox OS X 64&#46;app”</code> or 
- <code>“Portable-Firefox-OSX-64&#46;app”</code>)
+ <code>“PortableFirefox-ForMacOS64&#46;app”</code> (or 
+ <code>“Portable Firefox ForMacOS64&#46;app”</code> or
+ <code>“Portable Firefox For MacOS X-XI 64&#46;app”</code> or 
+ <code>“Portable-Firefox-ForMacOS64&#46;app”</code> or 
+ <code>“Portable Firefox OS64&#46;app”</code>)
  bundle, by using Platypus<b>:</b><dl> 
 <dd>
- To build new <code>“Portable Firefox OSX64.app”</code> bundle,<br/>
+ To build new <code>“Portable Firefox ForMacOS64.app”</code> bundle,<br/>
  choose these below files, directories, bundles, etc inside 
  the Platypus GUI interface<b>:</b><dl>
  <dd><!-- “.” is &#46; --> 
@@ -673,7 +719,7 @@ or you know what you’re doing).
   <b class="b">•</b> sh-script-file : script<br/>
   <b class="b">•</b> readme-file : Read me&#46;txt<br/>
   <b class="b">•</b> license-file : GPL-3&#46;0_LICENSE_for_script&#46;txt (or 
-   GPL-3&#46;0_LICENSE_for_PortableFirefoxOSX64&#46;sh&#46;txt or 
+   GPL-3&#46;0_LICENSE_for_PortableFirefox-ForMacOS64&#46;sh&#46;txt or 
    GPL-3&#46;0_LICENSE_for_script&#46;sh&#46;txt)<br/>
   <b class="b">•</b> license-file : MPL-1&#46;1_LICENSE_for_Firefox&#46;txt<br/>
   <b class="b">•</b> license-file : MPL-2&#46;0_LICENSE_for_Firefox&#46;txt<br/>
@@ -690,16 +736,16 @@ or you know what you’re doing).
 <dl><dd>
  <b class="b">•</b> Script Type : Shell : /bin/sh<br/>
  <b class="b">•</b> Script Path : 
- <code>/System/Volumes/Data/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/script</code><br/>
+ <code>/System/Volumes/Data/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/script</code><br/>
  &#160;&#160;( above location’s shorter form is: 
- <code>"/Projects/Portable-Apps-OS-X-64/F/PortableFirefoxOSX64/script"</code> 
+ <code>"/Projects/Portable-Apps-OS64/F/PortableFirefox-OS64/script"</code> 
  )<br/>
  <b class="b">•</b> Interface : Text Window<br/>
  <b class="b">•</b> Unselected options : Run with root privileges , 
   Run in background , Accept dropped items<br/>
  <b class="b">•</b> Selected/Check-Marked options : Remain running 
   after execution<br/>
- <b class="b">•</b> App Name : Portable Firefox OSX64 (or what you 
+ <b class="b">•</b> App Name : Portable Firefox ForMacOS64 (or what you 
   want)<br/>
  <b class="b">•</b> Fill in other boxes: identifier, author, etc
 </dd></dl>
@@ -709,11 +755,14 @@ or you know what you’re doing).
 <a name="b-4"></a>
 <b>B-4:</b> Then tap/click/select/press the 
  <code>“Create App”</code> button.<br/><!-- “.” is &#46; -->
- It will create/generate a new <code>“Portable Firefox OSX64.app”</code> 
+ It will create/generate a new <code>“Portable Firefox ForMacOS64.app”</code> 
  bundle,<br/>
- & it is compatible with 64-only macOSX (Catalina or macOSX after it), 
+ & it is compatible with 64-only macOSX (Catalina or macOSXI after it), 
  and also compatible with 64bit+32bit macOSX (Mojave or macOSX earlier 
  of it).<br/>
+
+<div width="100%" align="center">Goto <a href="#intro">Top</a> 
+ or <a href="#index">Index</a></div>
 <br/>
 
 
@@ -725,23 +774,25 @@ or you know what you’re doing).
  2. <br/>
 </dd></dl>
 </div>
+<div width="100%" align="center">Goto <a href="#intro">Top</a> 
+ or <a href="#index">Index</a></div>
 <br/>
 
 
 <a name="Post-Build"></a><!-- “.” is &#46; -->
 ## POST-BUILD (for USERS) (and Developers):
 <div width="100%">Users+Devs, before you run 
- <code>“PortableFirefoxOSX64.app”</code>, you will have 
+ <code>“PortableFirefox-ForMacOS64.app”</code>, you will have 
  to download+add some more files or apps or components (or 
  <b>modify</b>/<b>change</b> a/few settings) by yourself, 
  & apply/put those <b>modified</b>/<b>changed</b> settings/file(s) 
  inside a specific sub-folder location (which is) inside the 
- <code>“PortableFirefoxOSX64&#46;app”</code> bundle, 
+ <code>“PortableFirefox-ForMacOS64&#46;app”</code> bundle, 
  & this (<code>“&#42;&#46;app”</code>) bundle is/was 
  distributed/shared with Users/Devs via 
- <code>“PortableFirefoxOSX64&#46;dmg”</code> (or 
- <code>“PortableFirefoxOSX64&#46;tar&#46;gz”</code> or 
- <code>“PortableFirefoxOSX64&#46;zip”</code>, etc) archive-file.<br/>
+ <code>“PortableFirefox-ForMacOS64&#46;dmg”</code> (or 
+ <code>“PortableFirefox-ForMacOS64&#46;tar&#46;gz”</code> or 
+ <code>“PortableFirefox-ForMacOS64&#46;zip”</code>, etc) archive-file.<br/>
  <br/><a name="ModsUsersDevs"></a>
  To USERs+DEVs, Apply/Do These MODIFICATIONs/CHANGEs:<dl>
 <dd> 
@@ -749,13 +800,15 @@ or you know what you’re doing).
  2. <br/>
 </dd></dl>
 </div>
+<div width="100%" align="center">Goto <a href="#intro">Top</a> 
+ or <a href="#index">Index</a></div>
 <br/>
 
 
 <a name="Test-Run"></a><a name="Test"></a><a name="Run"></a>
 ## RUN/EXECUTE/TEST:
 <div width="100%"> Now you need-to run/execute & test & investigate 
- the <code>“PortableFirefoxOSX64&#46;app”</code> App/bundle, 
+ the <code>“PortableFirefox-ForMacOS64&#46;app”</code> App/bundle, 
  on your side/computer.<br/>
  <br/>
  You may OPTIONALLY do these:<dl>
@@ -786,7 +839,7 @@ If you have spotted bug/error/fault, then let us know,<br/>
 If <b>no-errors</b>, even then please share your final working code, 
  related info, etc (if you want to)<br/>
  either: by Forking/Cloning (this project) + Edit/Change, & Test the
- ‘script’ (or “PortableFirefoxOSX64&#46;sh” or “script&#46;sh”) in 
+ ‘script’ (or “PortableFirefox-ForMacOS64&#46;sh” or “script&#46;sh”) in 
  your side/computer, then (either) update your (this)-cloned-project 
  on “GitHub&#46;com” website first (Or, “Push” your own 
  (successful/working) code-changes from your computer (by using 
@@ -802,8 +855,8 @@ If <b>no-errors</b>, even then please share your final working code,
  the app/tool, for which you are suggesting/contributing. 
  (If you do not want that to happen, Or if you want to discuss 
  privately this project/App related issue, then you may use 
- direct message (only to this project, not to any other 
- members/users) but absolutely NO-SOLICITING/etc PERMITTED).<br/>
+ direct message (only to this "PortableApps64" project 
+ <b>admin</b> members) but absolutely NO-SOLICITING/etc PERMITTED).<br/>
 <br/><!-- “.” is &#46; -->
 
 
@@ -811,36 +864,103 @@ If <b>no-errors</b>, even then please share your final working code,
 ## HELP TO BUILD:
 Please help+contribute+collaborate+improve current codes to build 
 the (bash-shell, applescript, automator based) Script(s) or other 
-(C/C++/objC) tool(s), etc which are used for this “PortableFirefoxOSX64”, 
+(C/C++/objC) tool(s), etc which are used for this 
+“PortableFirefox-ForMacOS64”, 
 So-that, these (tools/scripts) can be run/used by Platypus 
 (App-wrapper) or by our other executable tools, 
-To run macOSX apps (i.e: `“Firefox.app”` from Mozilla Foundation) 
-on (both 64-bit-only and 64bit+32bit-based) macOSX, (from 
+To run macOS-X/XI apps (i.e: `“Firefox.app”` from Mozilla Foundation) 
+on (both 64bit-only and 64bit+32bit-based) macOS-X/XI, (from 
 portable/external drive/storage⒮) as Portable App, 
-Or to run macOSX apps as a (second/third)/multi-instance of 
+Or to run macOS-X/XI apps as a (second/third)/multi-instance of 
 same-app (from your mac-computer’s internal drive/storage⒮).<br/>
 Thanks in advance.
-<p width="100%" align="center">Goto <a href="#intro">Top</a> or 
- <a href="#index">Index</a></p>
+<div width="100%" align="center">Goto <a href="#intro">Top</a> 
+ or <a href="#index">Index</a></div>
+<br/>
 
 
 <a name="ExtraNotes"></a>
 ## EXTRA-NOTES:
 
+<a name="FF-Settings"></a>
+<div width="100%">Firefox settings, bookmarks, profiles, 
+ etc: <dl width="100%">
+<dd> <b class="b">•</b> Where Firefox keeps/stores a user's 
+ data, settings, bookmarks, profiles, etc ?<dl>
+ <dd> Read info 
+ <a href="https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data">here</a>.</dd>
+ </dl>
+</dd></dl>
+</div>
+
 <a name="Profile-Folder"></a>
 <div width="100%">Profile folder: <dl width="100%">
 <dd> 
  <b class="b">•</b> Which “profile” folder is used by the running 
- Firefox ?<dl width="100%">
- <dd>
+ Firefox ?<dl>
+ <dd> 
   Firefox > FF main menu > Help > Troubleshooting Information > 
-  Profile Folder: ...<br/>
-  if above info row/line is not-showing a full-PATH of “profile” 
-  folder, then press “Show in Finder” button</dd>
+  <b>about:support</b> > Application Basics > Profile Folder:<br/>
+  if “Profile Folder” row/line is not-showing a full-PATH of “profile” 
+  folder, then press “Show in Finder” button to view/display that 
+  folder.</dd>
+ <dd> 
+  Or, Goto/type below url in an empty/another (firefox) tab:<br/>
+  <b>about:profiles</b><br/>
+  and find the line which shows “Default Profile : <b>yes</b>”<br/>
+  the 2nd-line below above line which has “<b>Root Directory</b>” is 
+  showing the “profile” that is used by that/current Firefox.<br/>
+  (If you want-to then you can copy/backup this folder (with all 
+  sub-folders & all-files under it) to use with Portable Firefox 
+  OSX / OS64 ).<br/>
+  ( PA = Portable App . OS64 = MacOS-X/XI-64 )</dd>
+ </dl>
+</dd><dd> 
+ <b class="b">•</b> How to copy or backup old/previous "profile" ?<dl>
+ <dd> Read details 
+ <a href="https://support.mozilla.org/en-US/kb/back-and-restore-information-firefox-profiles">here</a>.</dd>
+ </dl>
+</dd><dd> 
+ <b class="b">•</b> Which are most important files in profile ?<dl>
+ <dd> 
+ Close Firefox, and copy below <a href="https://support.mozilla.org/en-US/kb/recovering-important-data-from-an-old-profile">important</a> files:<br/>
+ For Bookmarks, Downloads, Browsing History : "places.sqlite" , 
+ for various visited website’s FavIcons : "favicons.sqlite" ( 
+ use it with "places.sqlite" file ),<br/>
+ for Passwords : "key4.db" & "logins.json",<br/>
+ for (Per-)Site-specific/basis Preferences : "permissions.sqlite" , 
+ for Search-Engines : "search.json.mozlz4" , for Personal/custom 
+ Dictionary : "persdict.dat",<br/>
+ for Autocomplete(Search-Bar, Info entered into website forms, etc) 
+ History : "formhistory.sqlite",<br/>
+ for Cookies : "cookies.sqlite",<br/>
+ for Security (SSL/TLS) Certificate settings : "cert9.db",<br/>
+ for File Types & Download Actions : "handlers.json".<br/>
+ Folders: "bookmarkbackups" , "chrome" (if it exists) , "searchplugins" 
+ (Firefox 44 & below) , "sessionstore-backups" , "extensions" ( Contains 
+ Themes & Extensions(aka, Add-ons). After copy this folder or its contents 
+ to the new profile folder, delete "extensions.json", "extensions.sqlite", 
+ "extensions.ini", "extensions.cache" and "extensions.rdf" files (if found) 
+ from the new profile location folder, Follow/complete related/other steps 
+ & then start Firefox to regenerate those files again with existing 
+ Extension/Addons info, (but if deletion of previous list of files still 
+ does not help some Extnsn/Addons to work, then close Firefox, and again 
+ delete previous-mentioned list & also delete these two files: "compreg.dat", 
+ "pluginreg.dat" (if found), and again start Firefox to regenerate those). 
+ Some extensions store data in additional files in the profile, 
+ usually at the top of the directory, You’ll need to move them 
+ separately. )<br/>
+ For more info on older Firefox, read <a href="http://kb.mozillazine.org/Transferring_data_to_a_new_profile_-_Firefox">here</a>.
+</dd><dd> 
+ <b class="b">•</b> How to use Multiple-Profile & Multi-Instance 
+ of Firefox ?<dl>
+ <dd> Read details 
+ <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Multiple_profiles">here</a>.</dd>
  </dl>
 </dd></dl>
 </div>
 <br/>
 
-<p width="100%" align="center">Goto <a href="#intro">Top</a> or <a href="#index">Index</a></p>
+<p width="100%" align="center">Goto <a href="#intro">Top</a> 
+ or <a href="#index">Index</a></p>
 <br/>
