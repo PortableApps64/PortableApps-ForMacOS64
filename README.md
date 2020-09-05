@@ -152,7 +152,7 @@ ss &#x2081; ₁ , &#x2082; ₂ , &#x2083; ₃ , &#x2084; ₄ , &#x2085; ₅ ,
 <dd>Portable-Apps-For-MacOS-X/XI-64 (aka “Portable-Apps-OS-X-XI-64” aka 
  “PortableApps-ForMacOS64” aka “PortableApps-OSX1-64”)<b>:</b> 
  <b class="p">&#124;</b> <a href="F/">F</a> 
- <b class="p">&#124;</b> <a href="F/PortableFirefoxOSX64/">Portable Firefox OS-X-XI-64</a> 
+ <b class="p">&#124;</b> <a href="F/PortableFirefox-OS64/">Portable Firefox OS-X-XI-64</a> 
  <b class="p">&#124;</b><br/></dd>
 <dd>Content/<b>INDEX</b> List<b>:</b> 
  <b class="p">&#124;</b> <a href="#intro">Intro</a> 
