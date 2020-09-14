@@ -128,11 +128,12 @@ The Newer ‘Script’(s)/Tool(s) That We Are Building Can (Also) Be
  <b class="b">•</b> “<a href="https://GitHub.com/Homebrew/brew/releases/" target="_blank">HomeBrew</a>” 
  <!-- “.” = &#46; , “*” = &#42; -->(click on “Assets” below a release, 
  then click on “brew-&#42;&#46;tar&#46;gz” to download)&#46; (ByTheWay, 
- Be Warned<sup><a href="https://en.wikipedia.org/wiki/Homebrew_%28package_manager%29#Data_collection">1</a>, <a href="https://news.ycombinator.com/item?id=11566720">2</a>, <a href="https://www.reddit.com/r/programming/comments/4gj664/homebrew_enabled_tracking_with_google_analytics/">3</a>, <a href="https://security.stackexchange.com/questions/191364/">4</a>, <a href="https://security.stackexchange.com/questions/105088/">5</a>, <a href="https://security.stackexchange.com/questions/197095/">6</a>, ...</sup> of Violation of Privacy-Rights by “HomeBrew” project & “Google” and other risks : 
+ Be Warned<sup><a href="https://en.wikipedia.org/wiki/Homebrew_%28package_manager%29#Data_collection">1</a>, <a href="https://news.ycombinator.com/item?id=11566720">2</a>, <a href="https://www.reddit.com/r/programming/comments/4gj664/homebrew_enabled_tracking_with_google_analytics/">3</a>, <a href="https://security.stackexchange.com/questions/191364/">4</a>, <a href="https://security.stackexchange.com/questions/105088/">5</a>, <a href="https://security.stackexchange.com/questions/197095/">6</a>,...</sup> of Violation of Privacy-Rights by “HomeBrew” project & “Google” and other risks : 
  HomeBrew (by-default) uses Google engines/APIs/etc, 
  & Google stores+records+collects your ALL download/usage 
  patterns/profile, private-info, etc near-ForEver. But one good aspect is 
- “HomeBrew” does-not require admin/sudo privileged access.)</dd></dl></li>
+ “HomeBrew” does-not require admin/sudo privileged access.),<br/>
+ <b class="b">•</b> “<a href="https://github.com/KDE/craft" target="_blank">Craft</a>” <sup><a href="https://community.kde.org/Craft" target="_blank">1</a></sup></dd></dl></li>
 <li>( PA = pa = Portable App )</li>
 </ul>
 </div>
